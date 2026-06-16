@@ -1,0 +1,73 @@
+{
+  "version": 3,
+  "note": "Tier A Canada highway travel stops only. strict=true brands require explicit name/brand signals — never match plain Irving, Husky, or Petro-Canada.",
+  "brands": [
+    {
+      "id": "pilot",
+      "displayName": "Pilot",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "brand": ["Pilot", "Pilot Travel Center", "Pilot Travel Centers", "Pilot Flying J"],
+        "operator": ["Pilot", "Pilot Travel Centers"],
+        "nameContains": ["pilot travel", "pilot #", "pilot flying j"]
+      }
+    },
+    {
+      "id": "flyingj",
+      "displayName": "Flying J",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "brand": ["Flying J", "Flying J Travel Plaza", "Flying J Travel Center"],
+        "operator": ["Flying J"],
+        "nameContains": ["flying j"]
+      },
+      "mergeWith": "pilot"
+    },
+    {
+      "id": "irving_bigstop",
+      "displayName": "Irving Big Stop",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "strict": true,
+        "brand": ["Irving Big Stop", "Big Stop", "Irving Oil Big Stop"],
+        "nameContains": ["big stop", "irving big"]
+      }
+    },
+    {
+      "id": "onroute",
+      "displayName": "ONroute",
+      "tier": "A",
+      "type": "highway_service_centre",
+      "osm": {
+        "strict": true,
+        "brand": ["ONroute", "OnRoute", "ONRoute"],
+        "nameContains": ["onroute", "on route"]
+      }
+    },
+    {
+      "id": "petro_pass",
+      "displayName": "Petro-Pass",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "strict": true,
+        "brand": ["Petro-Pass", "Petro Pass", "PetroPass"],
+        "nameContains": ["petro-pass", "petro pass", "petropass"]
+      }
+    },
+    {
+      "id": "husky_travel",
+      "displayName": "Husky Travel Center",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "strict": true,
+        "brand": ["Husky Travel Center", "Husky Travel Centre"],
+        "nameContains": ["husky travel", "husky truck", "husky travel centre", "husky travel center"]
+      }
+    }
+  ]
+}

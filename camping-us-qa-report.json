@@ -1,0 +1,2631 @@
+{
+  "generated": "2026-06-03T22:09:13.391Z",
+  "totalRecords": 36329,
+  "needsReviewCount": 35514,
+  "suppressedDuplicateCount": 20152,
+  "ingestLayers": [
+    {
+      "step": "01-nps-poi",
+      "inputCount": 871,
+      "skipped": {
+        "noCoords": 5,
+        "commercial": 3
+      }
+    },
+    {
+      "step": "02-usfs-recreation",
+      "inputCount": 4183,
+      "skipped": {
+        "noCoords": 0,
+        "commercial": 1
+      }
+    },
+    {
+      "step": "04-ridb",
+      "inputCount": 0,
+      "skipped": true,
+      "reason": "No RECREATION_GOV_API_KEY or RIDB_API_KEY in .env"
+    },
+    {
+      "step": "03-osm",
+      "inputCount": 51330
+    }
+  ],
+  "byLandManager": {
+    "NPS": 1838,
+    "USFS": 5303,
+    "Unknown": 27415,
+    "USFWS": 55,
+    "City": 86,
+    "BLM": 522,
+    "State": 690,
+    "COE": 109,
+    "County": 311
+  },
+  "mapFlagCounts": {
+    "NO_PARENT": 4155,
+    "UNKNOWN_MGR": 27415,
+    "NO_NAME": 10495,
+    "OSM_ONLY": 31262,
+    "LOW_COORD": 10187,
+    "NPS_NO_CG": 97
+  },
+  "npsUnitsWithCamping": 100,
+  "npsUnitsMissingCampground": 97,
+  "npsMissingCampground": [
+    {
+      "parkCode": "afbg",
+      "name": "African Burial Ground National Monument",
+      "category": "monument",
+      "lat": 40.71,
+      "lon": -74,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "agfo",
+      "name": "Agate Fossil Beds National Monument",
+      "category": "monument",
+      "lat": 42.42170419,
+      "lon": -103.753886,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "alag",
+      "name": "Alagnak Wild River",
+      "category": "recreation",
+      "lat": 59.05,
+      "lon": -156.11,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "alfl",
+      "name": "Alibates Flint Quarries National Monument",
+      "category": "monument",
+      "lat": 35.5819662,
+      "lon": -101.6717008,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "amme",
+      "name": "American Memorial Park",
+      "category": "park",
+      "lat": 15.21,
+      "lon": 145.72,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "ania",
+      "name": "Aniakchak National Monument",
+      "category": "monument",
+      "lat": 56.87,
+      "lon": -157.81,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "azru",
+      "name": "Aztec Ruins National Monument",
+      "category": "monument",
+      "lat": 36.83682216,
+      "lon": -107.9999245,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "bela",
+      "name": "Bering Land Bridge National Preserve",
+      "category": "preserve",
+      "lat": 65.95,
+      "lon": -164.4,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "blue",
+      "name": "Bluestone National Scenic River",
+      "category": "recreation",
+      "lat": 37.57,
+      "lon": -80.98,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "bowa",
+      "name": "Booker T. Washington National Monument",
+      "category": "monument",
+      "lat": 37.12,
+      "lon": -79.73,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "buis",
+      "name": "Buck Island Reef National Monument",
+      "category": "monument",
+      "lat": 17.81,
+      "lon": -64.62,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cabr",
+      "name": "Cabrillo National Monument",
+      "category": "monument",
+      "lat": 32.67,
+      "lon": -117.24,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cana",
+      "name": "Canaveral National Seashore",
+      "category": "recreation",
+      "lat": 28.79,
+      "lon": -80.75,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "caco",
+      "name": "Cape Cod National Seashore",
+      "category": "recreation",
+      "lat": 41.93,
+      "lon": -70.05,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cakr",
+      "name": "Cape Krusenstern National Monument",
+      "category": "monument",
+      "lat": 67.41,
+      "lon": -163.5,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "calo",
+      "name": "Cape Lookout National Seashore",
+      "category": "recreation",
+      "lat": 34.83,
+      "lon": -76.34,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cavo",
+      "name": "Capulin Volcano National Monument",
+      "category": "monument",
+      "lat": 36.78171096,
+      "lon": -103.9710427,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cave",
+      "name": "Carlsbad Caverns National Park",
+      "category": "park",
+      "lat": 32.14089463,
+      "lon": -104.5529688,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cagr",
+      "name": "Casa Grande Ruins National Monument",
+      "category": "monument",
+      "lat": 32.99702582,
+      "lon": -111.5325383,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "casa",
+      "name": "Castillo de San Marcos National Monument",
+      "category": "monument",
+      "lat": 29.9,
+      "lon": -81.31,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cacl",
+      "name": "Castle Clinton National Monument",
+      "category": "monument",
+      "lat": 40.7,
+      "lon": -74.02,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cech",
+      "name": "Cesar E. Chavez National Monument",
+      "category": "monument",
+      "lat": 35.23,
+      "lon": -118.56,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "chyo",
+      "name": "Charles Young Buffalo Soldiers National Monument",
+      "category": "monument",
+      "lat": 39.70817829,
+      "lon": -83.89328575,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "chat",
+      "name": "Chattahoochee River National Recreation Area",
+      "category": "recreation",
+      "lat": 34,
+      "lon": -84.29,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "cuva",
+      "name": "Cuyahoga Valley National Park",
+      "category": "park",
+      "lat": 41.26093905,
+      "lon": -81.57116722,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "efmo",
+      "name": "Effigy Mounds National Monument",
+      "category": "monument",
+      "lat": 43.08095081,
+      "lon": -91.19687517,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "elma",
+      "name": "El Malpais National Monument",
+      "category": "monument",
+      "lat": 34.88422799,
+      "lon": -107.9950948,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "flfo",
+      "name": "Florissant Fossil Beds National Monument",
+      "category": "monument",
+      "lat": 38.91260586,
+      "lon": -105.2803396,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "fofr",
+      "name": "Fort Frederica National Monument",
+      "category": "monument",
+      "lat": 31.22,
+      "lon": -81.39,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "foma",
+      "name": "Fort Matanzas National Monument",
+      "category": "monument",
+      "lat": 29.71,
+      "lon": -81.24,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "fomc",
+      "name": "Fort McHenry National Monument and Historic Shrine",
+      "category": "monument",
+      "lat": 39.26,
+      "lon": -76.58,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "fopu",
+      "name": "Fort Pulaski National Monument",
+      "category": "monument",
+      "lat": 32.03,
+      "lon": -80.93,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "fost",
+      "name": "Fort Stanwix National Monument",
+      "category": "monument",
+      "lat": 43.21,
+      "lon": -75.46,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "fosu",
+      "name": "Fort Sumter National Monument",
+      "category": "monument",
+      "lat": 32.76,
+      "lon": -79.87,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "foun",
+      "name": "Fort Union National Monument",
+      "category": "monument",
+      "lat": 35.90700629,
+      "lon": -105.0145185,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "fobu",
+      "name": "Fossil Butte National Monument",
+      "category": "monument",
+      "lat": 41.85635223,
+      "lon": -110.7624754,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "gaar",
+      "name": "Gates of the Arctic National Park",
+      "category": "park",
+      "lat": 67.75,
+      "lon": -153.3,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "jeff",
+      "name": "Gateway Arch National Park",
+      "category": "park",
+      "lat": 38.6258069,
+      "lon": -90.1892508,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "gewa",
+      "name": "George Washington Birthplace National Monument",
+      "category": "monument",
+      "lat": 38.19,
+      "lon": -76.92,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "gwca",
+      "name": "George Washington Carver National Monument",
+      "category": "monument",
+      "lat": 36.9871322,
+      "lon": -94.35522737,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "gois",
+      "name": "Governors Island National Monument",
+      "category": "monument",
+      "lat": 40.69,
+      "lon": -74.02,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "hafo",
+      "name": "Hagerman Fossil Beds National Monument",
+      "category": "monument",
+      "lat": 42.79074114,
+      "lon": -114.9443074,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "hale",
+      "name": "Haleakala National Park",
+      "category": "park",
+      "lat": 20.71,
+      "lon": -156.15,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "havo",
+      "name": "Hawai'i Volcanoes National Park",
+      "category": "park",
+      "lat": 19.34,
+      "lon": -155.47,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "pima",
+      "name": "Hohokam Pima National Monument",
+      "category": "monument",
+      "lat": 33.19,
+      "lon": -111.92,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "home",
+      "name": "Homestead National Historical Park",
+      "category": "monument",
+      "lat": 40.28802381,
+      "lon": -96.83387781,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "jela",
+      "name": "Jean Lafitte National Historical Park and Preserve",
+      "category": "park",
+      "lat": 29.82,
+      "lon": -90.14,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "jeca",
+      "name": "Jewel Cave National Monument",
+      "category": "monument",
+      "lat": 43.73102945,
+      "lon": -103.829994,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "joda",
+      "name": "John Day Fossil Beds National Monument",
+      "category": "monument",
+      "lat": 44.62566508,
+      "lon": -119.8811491,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "kefj",
+      "name": "Kenai Fjords National Park",
+      "category": "park",
+      "lat": 59.82,
+      "lon": -150.11,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "kica",
+      "name": "Kings Canyon National Park",
+      "category": "park",
+      "lat": 36.89,
+      "lon": -118.6,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "kova",
+      "name": "Kobuk Valley National Park",
+      "category": "park",
+      "lat": 67.35,
+      "lon": -159.2,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "lacl",
+      "name": "Lake Clark National Preserve",
+      "category": "preserve",
+      "lat": 60.57,
+      "lon": -153.56,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "libi",
+      "name": "Little Bighorn Battlefield National Monument",
+      "category": "monument",
+      "lat": 45.55633048,
+      "lon": -107.4183614,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "liri",
+      "name": "Little River Canyon National Preserve",
+      "category": "preserve",
+      "lat": 34.42,
+      "lon": -85.61,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "losa",
+      "name": "Lower Saint Croix National Scenic Riverway",
+      "category": "recreation",
+      "lat": 45.24,
+      "lon": -92.74,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "miss",
+      "name": "Mississippi National River & Recreation Area",
+      "category": "recreation",
+      "lat": 44.942487,
+      "lon": -93.098712,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "mnrr",
+      "name": "Missouri National Recreational River",
+      "category": "recreation",
+      "lat": 42.7882189,
+      "lon": -97.59077822,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "moca",
+      "name": "Montezuma Castle National Monument",
+      "category": "monument",
+      "lat": 34.62237771,
+      "lon": -111.8147857,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "muwo",
+      "name": "Muir Woods National Monument",
+      "category": "monument",
+      "lat": 37.9,
+      "lon": -122.58,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "naca",
+      "name": "National Capital Parks",
+      "category": "park",
+      "lat": 38.85,
+      "lon": -76.94,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "npsa",
+      "name": "National Park of American Samoa",
+      "category": "park",
+      "lat": -14.25,
+      "lon": -169.9,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "nava",
+      "name": "Navajo National Monument",
+      "category": "monument",
+      "lat": 36.71755643,
+      "lon": -110.5504015,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "niob",
+      "name": "Niobrara National Scenic River",
+      "category": "recreation",
+      "lat": 42.79413083,
+      "lon": -99.91870646,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "noat",
+      "name": "Noatak National Preserve",
+      "category": "preserve",
+      "lat": 68,
+      "lon": -159.83,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "noca",
+      "name": "North Cascades National Park",
+      "category": "park",
+      "lat": 48.71171756,
+      "lon": -121.2069423,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "obri",
+      "name": "Obed Wild and Scenic River",
+      "category": "recreation",
+      "lat": 36.11,
+      "lon": -84.77,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "ocmu",
+      "name": "Ocmulgee National Monument",
+      "category": "monument",
+      "lat": 32.84,
+      "lon": -83.6,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "pefo",
+      "name": "Petrified Forest National Park",
+      "category": "park",
+      "lat": 34.98387664,
+      "lon": -109.7877678,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "petr",
+      "name": "Petroglyph National Monument",
+      "category": "monument",
+      "lat": 35.13915998,
+      "lon": -106.7491456,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "pisp",
+      "name": "Pipe Spring National Monument",
+      "category": "monument",
+      "lat": 36.86282666,
+      "lon": -112.7398567,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "pipe",
+      "name": "Pipestone National Monument",
+      "category": "monument",
+      "lat": 44.01351958,
+      "lon": -96.32475523,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "popo",
+      "name": "Poverty Point National Monument",
+      "category": "monument",
+      "lat": 32.64,
+      "lon": -91.41,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "pull",
+      "name": "Pullman National Historical Park",
+      "category": "monument",
+      "lat": 41.69429163,
+      "lon": -87.60873824,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "rabr",
+      "name": "Rainbow Bridge National Monument",
+      "category": "monument",
+      "lat": 36.9943264317,
+      "lon": -111.491484759,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "rigr",
+      "name": "Rio Grande Wild & Scenic River",
+      "category": "recreation",
+      "lat": 29.52743158,
+      "lon": -102.5979169,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "rocr",
+      "name": "Rock Creek Park",
+      "category": "park",
+      "lat": 38.95,
+      "lon": -77.05,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "ruca",
+      "name": "Russell Cave National Monument",
+      "category": "monument",
+      "lat": 34.97,
+      "lon": -85.82,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "sapu",
+      "name": "Salinas Pueblo Missions National Monument",
+      "category": "monument",
+      "lat": 34.35423203,
+      "lon": -106.2050309,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "scbl",
+      "name": "Scotts Bluff National Monument",
+      "category": "monument",
+      "lat": 41.83464193,
+      "lon": -103.7071351,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "sequ",
+      "name": "Sequoia National Park",
+      "category": "park",
+      "lat": 36.51,
+      "lon": -118.58,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "stli",
+      "name": "Statue Of Liberty National Monument",
+      "category": "monument",
+      "lat": 40.7,
+      "lon": -74.04,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "tapr",
+      "name": "Tallgrass Prairie National Preserve",
+      "category": "preserve",
+      "lat": 38.44023613,
+      "lon": -96.5670822,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "tica",
+      "name": "Timpanogos Cave National Monument",
+      "category": "monument",
+      "lat": 40.44039719,
+      "lon": -111.7093944,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "tont",
+      "name": "Tonto National Monument",
+      "category": "monument",
+      "lat": 33.64842945,
+      "lon": -111.1135627,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "tuzi",
+      "name": "Tuzigoot National Monument",
+      "category": "monument",
+      "lat": 34.77296377,
+      "lon": -112.0279069,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "vall",
+      "name": "Valles Caldera National Preserve",
+      "category": "preserve",
+      "lat": 35.91682872,
+      "lon": -106.5195724,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "vicr",
+      "name": "Virgin Islands Coral Reef National Monument",
+      "category": "monument",
+      "lat": 18.29,
+      "lon": -64.71,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "viis",
+      "name": "Virgin Islands National Park",
+      "category": "park",
+      "lat": 18.34,
+      "lon": -64.74,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "voya",
+      "name": "Voyageurs National Park",
+      "category": "park",
+      "lat": 48.48370609,
+      "lon": -92.8382913,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "waco",
+      "name": "Waco Mammoth National Monument",
+      "category": "monument",
+      "lat": 31.60465887,
+      "lon": -97.17606143,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "waca",
+      "name": "Walnut Canyon National Monument",
+      "category": "monument",
+      "lat": 35.16822994,
+      "lon": -111.5024239,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "whsa",
+      "name": "White Sands National Park",
+      "category": "park",
+      "lat": 32.77907858,
+      "lon": -106.3333461,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "wotr",
+      "name": "Wolf Trap National Park for the Performing Arts",
+      "category": "park",
+      "lat": 38.94,
+      "lon": -77.26,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "wupa",
+      "name": "Wupatki National Monument",
+      "category": "monument",
+      "lat": 35.55741077,
+      "lon": -111.3957216,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "yuho",
+      "name": "Yucca House National Monument",
+      "category": "monument",
+      "lat": 37.24778944,
+      "lon": -108.6861274,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    },
+    {
+      "parkCode": "yuch",
+      "name": "Yukon-Charley Rivers National Preserve",
+      "category": "preserve",
+      "lat": 65.09,
+      "lon": -142.8,
+      "needsReview": true,
+      "reviewReason": "nps-unit-no-campground-in-dataset",
+      "mapFlag": "NPS_NO_CG"
+    }
+  ],
+  "needsReviewSample": [
+    {
+      "id": "CG-USFS-cartwright-ridge-campground-44334",
+      "name": "CARTWRIGHT RIDGE CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 44.33397601751102,
+      "lon": -116.19157313799342,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-goldledge-35874",
+      "name": "GOLDLEDGE",
+      "landManager": "USFS",
+      "lat": 35.873731788499015,
+      "lon": -118.45599388489906,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-sand-flat-cg-38764",
+      "name": "SAND FLAT CG",
+      "landManager": "USFS",
+      "lat": 38.763842184487785,
+      "lon": -120.32454300921037,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-redfish-overflow-camping-44172",
+      "name": "REDFISH OVERFLOW CAMPING",
+      "landManager": "USFS",
+      "lat": 44.171542482850654,
+      "lon": -114.90593638398548,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-spring-creek-campground-45357",
+      "name": "SPRING CREEK CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 45.356746894128364,
+      "lon": -118.31158172020211,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-scout-mountain-42694",
+      "name": "SCOUT MOUNTAIN",
+      "landManager": "USFS",
+      "lat": 42.693515236447965,
+      "lon": -112.35813561187888,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-bingham-spring-44515",
+      "name": "BINGHAM SPRING",
+      "landManager": "USFS",
+      "lat": 44.51452261643324,
+      "lon": -120.52773293697642,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-hazard-mill-canoe-camp-decommissioned-38828",
+      "name": "HAZARD MILL CANOE CAMP-DECOMMISSIONED",
+      "landManager": "USFS",
+      "lat": 38.82834105101887,
+      "lon": -78.36194714152886,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-navajo-lake-campground-37521",
+      "name": "NAVAJO LAKE CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 37.52117959647053,
+      "lon": -112.78934252400863,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-golden-gate-campground-44935",
+      "name": "GOLDEN GATE CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 44.93525613494018,
+      "lon": -115.48567311551773,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-valle-vista-34878",
+      "name": "VALLE VISTA",
+      "landManager": "USFS",
+      "lat": 34.87817488018261,
+      "lon": -119.34221643919793,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-fir-creek-campground-44425",
+      "name": "FIR CREEK CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 44.42546310955342,
+      "lon": -115.29083798378501,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-new-river-36804",
+      "name": "NEW RIVER",
+      "landManager": "USFS",
+      "lat": 36.80361831915108,
+      "lon": -80.9252811367426,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-luna-park-33496",
+      "name": "LUNA PARK",
+      "landManager": "USFS",
+      "lat": 33.49628087331526,
+      "lon": -107.41601734600881,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-coffeemill-33737",
+      "name": "COFFEEMILL",
+      "landManager": "USFS",
+      "lat": 33.73720595393016,
+      "lon": -95.97380737418831,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-ranger-creek-47021",
+      "name": "RANGER CREEK",
+      "landManager": "USFS",
+      "lat": 47.02107867062387,
+      "lon": -121.5376516276935,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-ada-lake-45370",
+      "name": "ADA LAKE",
+      "landManager": "USFS",
+      "lat": 45.36960835410486,
+      "lon": -88.7315064730564,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-dry-canyon-42058",
+      "name": "DRY CANYON",
+      "landManager": "USFS",
+      "lat": 42.05781109806922,
+      "lon": -112.1428246710825,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-big-meadow-38417",
+      "name": "BIG MEADOW",
+      "landManager": "USFS",
+      "lat": 38.41684017017805,
+      "lon": -120.10648493167709,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-killen-creek-cg-46295",
+      "name": "KILLEN CREEK CG",
+      "landManager": "USFS",
+      "lat": 46.29463262719886,
+      "lon": -121.54828446725438,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-luders-creek-38180",
+      "name": "LUDERS CREEK",
+      "landManager": "USFS",
+      "lat": 38.179621175688794,
+      "lon": -106.58353719697756,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-myrtle-grove-42786",
+      "name": "MYRTLE GROVE",
+      "landManager": "USFS",
+      "lat": 42.78601517005318,
+      "lon": -124.0230241661607,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-hoop-lake-40928",
+      "name": "HOOP LAKE",
+      "landManager": "USFS",
+      "lat": 40.92787919430771,
+      "lon": -110.11694139134318,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-wildhorse-crossing-campground-41723",
+      "name": "WILDHORSE CROSSING CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 41.722605810188625,
+      "lon": -115.90011265083868,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-bonito-creek-33466",
+      "name": "BONITO CREEK",
+      "landManager": "USFS",
+      "lat": 33.46600543977639,
+      "lon": -105.7950097101634,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-letney-31081",
+      "name": "LETNEY",
+      "landManager": "USFS",
+      "lat": 31.08110550998677,
+      "lon": -94.14420674907268,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-mormon-bend-cg-44262",
+      "name": "MORMON BEND CG",
+      "landManager": "USFS",
+      "lat": 44.26160613685818,
+      "lon": -114.84111286748751,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-giant-white-pine-campground-47011",
+      "name": "GIANT WHITE PINE CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 47.010635180611956,
+      "lon": -116.67854576630207,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-lake-creek-trailhead-campground-43768",
+      "name": "LAKE CREEK TRAILHEAD & CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 43.76794117713474,
+      "lon": -113.90311159745552,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-cedar-creek-campground-43671",
+      "name": "CEDAR CREEK CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 43.67059234988291,
+      "lon": -122.70561412646688,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-wench-creek-cg-38889",
+      "name": "WENCH CREEK CG",
+      "landManager": "USFS",
+      "lat": 38.88924819192647,
+      "lon": -120.3705800322382,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-turkey-foot-campground-37466",
+      "name": "TURKEY FOOT CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 37.46602831024148,
+      "lon": -83.91663261991236,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-ash-creek-41161",
+      "name": "ASH CREEK",
+      "landManager": "USFS",
+      "lat": 41.16139423259308,
+      "lon": -120.82806901743133,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-laguna-larga-36889",
+      "name": "LAGUNA LARGA",
+      "landManager": "USFS",
+      "lat": 36.889105943066646,
+      "lon": -106.10201006056376,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-cleveland-reservoir-39580",
+      "name": "CLEVELAND RESERVOIR",
+      "landManager": "USFS",
+      "lat": 39.5798059508443,
+      "lon": -111.24251745133246,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-meridian-cg-39511",
+      "name": "MERIDIAN CG",
+      "landManager": "USFS",
+      "lat": 39.511060489905766,
+      "lon": -105.53507114736784,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-peru-peak-shelter-43301",
+      "name": "PERU PEAK SHELTER",
+      "landManager": "USFS",
+      "lat": 43.301248785453154,
+      "lon": -72.95234597161459,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-ripplebrook-45080",
+      "name": "RIPPLEBROOK",
+      "landManager": "USFS",
+      "lat": 45.08010550309501,
+      "lon": -122.04254529274971,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-devils-canyon-33320",
+      "name": "DEVILS CANYON",
+      "landManager": "USFS",
+      "lat": 33.32000515279802,
+      "lon": -111.04001080493812,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-coldwater-cg-37596",
+      "name": "COLDWATER CG",
+      "landManager": "USFS",
+      "lat": 37.59560517478337,
+      "lon": -118.99361265396603,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-harr-point-campground-42034",
+      "name": "HARR POINT CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 42.0343052055737,
+      "lon": -123.11082390642325,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-butterfly-lake-40721",
+      "name": "BUTTERFLY LAKE",
+      "landManager": "USFS",
+      "lat": 40.720635112259004,
+      "lon": -110.86696552040175,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-malad-summit-42350",
+      "name": "MALAD SUMMIT",
+      "landManager": "USFS",
+      "lat": 42.350106177840985,
+      "lon": -112.2749120419726,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-pine-knot-cg-34235",
+      "name": "PINE KNOT CG",
+      "landManager": "USFS",
+      "lat": 34.23506795379123,
+      "lon": -116.88407896972242,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-loganville-39566",
+      "name": "LOGANVILLE",
+      "landManager": "USFS",
+      "lat": 39.56588922701219,
+      "lon": -120.66207716605552,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-bitterbrush-cg-37287",
+      "name": "BITTERBRUSH CG",
+      "landManager": "USFS",
+      "lat": 37.2865711751223,
+      "lon": -118.55844454710669,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-willow-creek-47871",
+      "name": "WILLOW CREEK",
+      "landManager": "USFS",
+      "lat": 47.871173056327414,
+      "lon": -115.30951369470623,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-glover-creek-46069",
+      "name": "GLOVER CREEK",
+      "landManager": "USFS",
+      "lat": 46.06880236067352,
+      "lon": -115.36277671405873,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-bear-river-40910",
+      "name": "BEAR RIVER",
+      "landManager": "USFS",
+      "lat": 40.91008113689075,
+      "lon": -110.83002853820142,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-salmon-creek-39623",
+      "name": "SALMON CREEK",
+      "landManager": "USFS",
+      "lat": 39.623446605819794,
+      "lon": -120.61193236568866,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-plaskett-creek-35919",
+      "name": "PLASKETT CREEK",
+      "landManager": "USFS",
+      "lat": 35.918923548489175,
+      "lon": -121.46752437250507,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-buck-meadow-37010",
+      "name": "BUCK MEADOW",
+      "landManager": "USFS",
+      "lat": 37.01035411301414,
+      "lon": -119.06333200151852,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-bingo-brook-43875",
+      "name": "BINGO BROOK",
+      "landManager": "USFS",
+      "lat": 43.87536489159329,
+      "lon": -72.91370129780994,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-twin-knobs-recreation-area-38091",
+      "name": "TWIN KNOBS RECREATION AREA",
+      "landManager": "USFS",
+      "lat": 38.09105355142686,
+      "lon": -83.50740834198591,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-dry-wolf-campground-46979",
+      "name": "DRY WOLF CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 46.979173463696945,
+      "lon": -110.51862359619949,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-pigeon-flat-38340",
+      "name": "PIGEON FLAT",
+      "landManager": "USFS",
+      "lat": 38.340153185699336,
+      "lon": -119.80481387358277,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-salamander-flat-40439",
+      "name": "SALAMANDER FLAT",
+      "landManager": "USFS",
+      "lat": 40.43882302139671,
+      "lon": -111.62722563917013,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-horseshoe-40035",
+      "name": "HORSESHOE",
+      "landManager": "USFS",
+      "lat": 40.03465630842473,
+      "lon": -107.11321062547978,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-mill-falls-cg-47859",
+      "name": "MILL FALLS CG",
+      "landManager": "USFS",
+      "lat": 47.85889553699377,
+      "lon": -112.77279097220485,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-boyd-creek-46081",
+      "name": "BOYD CREEK",
+      "landManager": "USFS",
+      "lat": 46.081346233736056,
+      "lon": -115.44325433225428,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-bear-track-campground-44148",
+      "name": "BEAR TRACK CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 44.14750832415196,
+      "lon": -86.0305610690112,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-fremont-lake-campground-42940",
+      "name": "FREMONT LAKE CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 42.939737448714254,
+      "lon": -109.79691261383668,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-blue-jay-campground-33662",
+      "name": "BLUE JAY CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 33.661604856066084,
+      "lon": -117.45211202174113,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-sage-34469",
+      "name": "SAGE",
+      "landManager": "USFS",
+      "lat": 34.46944935455106,
+      "lon": -118.02502218511255,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-la-panza-35353",
+      "name": "LA PANZA",
+      "landManager": "USFS",
+      "lat": 35.35268677134075,
+      "lon": -120.266500730986,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-white-river-falls-47953",
+      "name": "WHITE RIVER FALLS",
+      "landManager": "USFS",
+      "lat": 47.95270578819208,
+      "lon": -120.9397147482004,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-big-spring-44332",
+      "name": "BIG SPRING",
+      "landManager": "USFS",
+      "lat": 44.332385745647656,
+      "lon": -119.99263081332448,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-auxiliary-dam-35652",
+      "name": "AUXILIARY DAM",
+      "landManager": "USFS",
+      "lat": 35.65190077526593,
+      "lon": -118.45749706394697,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-billy-creek-upper-37239",
+      "name": "BILLY CREEK, UPPER",
+      "landManager": "USFS",
+      "lat": 37.23894629378644,
+      "lon": -119.2293136535762,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-hunter-peak-44884",
+      "name": "HUNTER PEAK",
+      "landManager": "USFS",
+      "lat": 44.88435666883776,
+      "lon": -109.65486190524057,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-cimarrona-37539",
+      "name": "CIMARRONA",
+      "landManager": "USFS",
+      "lat": 37.538905966031436,
+      "lon": -107.21011036922002,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-mitchell-creek-47970",
+      "name": "MITCHELL CREEK",
+      "landManager": "USFS",
+      "lat": 47.9703058710746,
+      "lon": -120.19191462482527,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-buffalo-pass-38185",
+      "name": "BUFFALO PASS",
+      "landManager": "USFS",
+      "lat": 38.18472420077523,
+      "lon": -106.51688228267462,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-riverside-38961",
+      "name": "RIVERSIDE",
+      "landManager": "USFS",
+      "lat": 38.9606089847225,
+      "lon": -105.37497040874233,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-garden-point-boating-39433",
+      "name": "GARDEN POINT BOATING",
+      "landManager": "USFS",
+      "lat": 39.433330809399074,
+      "lon": -121.12422042171134,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-ekalaka-park-45798",
+      "name": "EKALAKA PARK",
+      "landManager": "USFS",
+      "lat": 45.79821622134873,
+      "lon": -104.51313887264011,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-shields-river-46184",
+      "name": "SHIELDS RIVER",
+      "landManager": "USFS",
+      "lat": 46.18425672945635,
+      "lon": -110.40590231179678,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-buckhall-recreation-area-33039",
+      "name": "BUCKHALL RECREATION AREA",
+      "landManager": "USFS",
+      "lat": 33.03852720533911,
+      "lon": -79.56136991109823,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-lake-marvin-cg-35886",
+      "name": "LAKE MARVIN CG",
+      "landManager": "USFS",
+      "lat": 35.8858716272114,
+      "lon": -100.18033191603669,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-summit-view-42559",
+      "name": "SUMMIT VIEW",
+      "landManager": "USFS",
+      "lat": 42.55876828198646,
+      "lon": -111.2950851724016,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-wintturi-shelter-43662",
+      "name": "WINTTURI SHELTER",
+      "landManager": "USFS",
+      "lat": 43.662188863257406,
+      "lon": -72.62257118709928,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-crescent-lake-48988",
+      "name": "CRESCENT LAKE",
+      "landManager": "USFS",
+      "lat": 48.987936789079114,
+      "lon": -117.3143639548114,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-green-mountain-39327",
+      "name": "GREEN MOUNTAIN",
+      "landManager": "USFS",
+      "lat": 39.32698469691708,
+      "lon": -105.35562148528778,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-troy-meadow-36067",
+      "name": "TROY MEADOW",
+      "landManager": "USFS",
+      "lat": 36.066818472782586,
+      "lon": -118.23531036655028,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-oak-flat-campground-42518",
+      "name": "OAK FLAT CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 42.51801515207645,
+      "lon": -124.03902412280718,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-horseshoe-spring-34998",
+      "name": "HORSESHOE SPRING",
+      "landManager": "USFS",
+      "lat": 34.9975964448584,
+      "lon": -120.12533467603004,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-hilltop-campground-36310",
+      "name": "HILLTOP  CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 36.31010526891904,
+      "lon": -115.60741193032985,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-kozy-campground-43270",
+      "name": "KOZY CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 43.27027742379967,
+      "lon": -110.51709382002579,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-navy-camp-39442",
+      "name": "NAVY CAMP",
+      "landManager": "USFS",
+      "lat": 39.44204503435266,
+      "lon": -122.95797250241134,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-spillway-campground-46127",
+      "name": "SPILLWAY CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 46.12697743938543,
+      "lon": -113.38324393091837,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-lake-cleveland-cg-42325",
+      "name": "LAKE CLEVELAND CG",
+      "landManager": "USFS",
+      "lat": 42.324906059419106,
+      "lon": -113.64831231269967,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-headquarters-35797",
+      "name": "HEADQUARTERS",
+      "landManager": "USFS",
+      "lat": 35.79711375091552,
+      "lon": -118.44985107649899,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-dutch-george-40695",
+      "name": "DUTCH GEORGE",
+      "landManager": "USFS",
+      "lat": 40.695127515677385,
+      "lon": -105.44734732958548,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-apache-32968",
+      "name": "APACHE",
+      "landManager": "USFS",
+      "lat": 32.968015363422666,
+      "lon": -105.72901966115374,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-penland-lake-45117",
+      "name": "PENLAND LAKE",
+      "landManager": "USFS",
+      "lat": 45.11718819724174,
+      "lon": -119.31881704945621,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-fiddlers-lake-42630",
+      "name": "FIDDLERS LAKE",
+      "landManager": "USFS",
+      "lat": 42.62961648952978,
+      "lon": -108.88159136771351,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-warm-springs-campground-45843",
+      "name": "WARM SPRINGS CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 45.842506351154896,
+      "lon": -114.03945740710319,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-whisky-falls-37286",
+      "name": "WHISKY FALLS",
+      "landManager": "USFS",
+      "lat": 37.285866753573515,
+      "lon": -119.44039189338109,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-stony-campground-46349",
+      "name": "STONY CAMPGROUND",
+      "landManager": "USFS",
+      "lat": 46.34856243664729,
+      "lon": -113.60744502156675,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    },
+    {
+      "id": "CG-USFS-paynes-springs-41555",
+      "name": "PAYNES SPRINGS",
+      "landManager": "USFS",
+      "lat": 41.55472752923112,
+      "lon": -121.56084689338886,
+      "mapFlags": [
+        "NO_PARENT"
+      ],
+      "reviewReasons": [
+        "missing-parent-forest"
+      ]
+    }
+  ],
+  "suppressedSample": [
+    {
+      "kept": "CG-NPS-PAIS-bird-island-basin-campground",
+      "dropped": "CG-NPS-PAIS-bird-island-basin-campground-and-day-use-area",
+      "step": "01-nps-poi",
+      "name": "Bird Island Basin Campground and day-use area"
+    },
+    {
+      "kept": "CG-NPS-GRCA-de-motte-campground-usfs",
+      "dropped": "CG-NPS-GRCA-de-motte-campground-usfs",
+      "step": "01-nps-poi",
+      "name": "De Motte Campground (USFS)"
+    },
+    {
+      "kept": "CG-NPS-LAMR-campground-sanford-yake",
+      "dropped": "CG-NPS-LAMR-campground-sanford-yake",
+      "step": "01-nps-poi",
+      "name": "Campground - Sanford-Yake"
+    },
+    {
+      "kept": "CG-NPS-CHIC-buckhorn-campground-loop-d",
+      "dropped": "CG-NPS-CHIC-buckhorn-campground-loop-c",
+      "step": "01-nps-poi",
+      "name": "Buckhorn Campground Loop C"
+    },
+    {
+      "kept": "CG-NPS-GRCA-lee-s-ferry-campground",
+      "dropped": "CG-NPS-GLCA-lees-ferry-campground",
+      "step": "01-nps-poi",
+      "name": "Lees Ferry Campground"
+    },
+    {
+      "kept": "CG-NPS-GLAC-two-medicine",
+      "dropped": "CG-NPS-GLAC-two-medicine-lake",
+      "step": "01-nps-poi",
+      "name": "TWO MEDICINE LAKE"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-APIS-nps-campground",
+      "dropped": "CG-NPS-APIS-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-APIS-nps-campground",
+      "dropped": "CG-NPS-APIS-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BUFF-nps-campground",
+      "dropped": "CG-NPS-BUFF-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-OZAR-nps-campground",
+      "dropped": "CG-NPS-OZAR-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GRPO-nps-campground",
+      "dropped": "CG-NPS-GRPO-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-APIS-nps-campground",
+      "dropped": "CG-NPS-APIS-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-PIRO-nps-campground",
+      "dropped": "CG-NPS-PIRO-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-PIRO-nps-campground",
+      "dropped": "CG-NPS-PIRO-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SACN-nps-campground",
+      "dropped": "CG-NPS-SACN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-PIRO-nps-campground",
+      "dropped": "CG-NPS-PIRO-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-APIS-nps-campground",
+      "dropped": "CG-NPS-APIS-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GATE-nps-campground",
+      "dropped": "CG-NPS-GATE-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GATE-nps-campground",
+      "dropped": "CG-NPS-GATE-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-SHEN-nps-campground",
+      "dropped": "CG-NPS-SHEN-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GATE-nps-campground",
+      "dropped": "CG-NPS-GATE-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-ASIS-nps-campground",
+      "dropped": "CG-NPS-ASIS-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GATE-nps-campground",
+      "dropped": "CG-NPS-GATE-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GATE-nps-campground",
+      "dropped": "CG-NPS-GATE-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-BOHA-nps-campground",
+      "dropped": "CG-NPS-BOHA-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    },
+    {
+      "kept": "CG-NPS-GATE-nps-campground",
+      "dropped": "CG-NPS-GATE-nps-campground",
+      "step": "01-nps-poi",
+      "name": "NPS Campground"
+    }
+  ]
+}

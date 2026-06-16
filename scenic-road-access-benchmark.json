@@ -1,0 +1,545 @@
+{
+  "version": 2,
+  "description": "Scenic road-access benchmark: core pullouts/trails, hard false-positive trail-near-road, very_hard positive Icefields cases.",
+  "defaultFilterM": 120,
+  "cases": [
+    {
+      "id": "seton-parking-pullout",
+      "tier": "core",
+      "name": "Seton Lake Lookout parking (BC-99 pullout)",
+      "lat": 50.662457,
+      "lon": -121.990923,
+      "region": "ca",
+      "osmNodeId": 4740878166,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "expectDistanceM": {
+        "max": 80
+      },
+      "sources": [
+        "https://www.outdoorvancouver.ca/seton-lake-lookout/",
+        "https://www.theoutbound.com/canada/hiking/hike-to-a-hidden-viewpoint-of-seton-lake-british-columbia"
+      ],
+      "notes": "Gravel pullout on Duffey Lake Road / BC-99; drive-up trailhead."
+    },
+    {
+      "id": "seton-osm-viewpoint-node",
+      "tier": "core",
+      "name": "Seton Lake OSM tourism=viewpoint (4740878166)",
+      "lat": 50.6625405,
+      "lon": -121.9910523,
+      "region": "ca",
+      "osmNodeId": 4740878166,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "expectDistanceM": {
+        "max": 80
+      },
+      "sources": [
+        "https://www.openstreetmap.org/node/4740878166"
+      ],
+      "notes": "Was cached at 234.1m due to nearestRoadDistanceM early-exit bug; correct ~35m to Hwy 99 trunk."
+    },
+    {
+      "id": "tantalus-lookout-hwy99",
+      "tier": "core",
+      "name": "Tantalus Lookout (Sea-to-Sky Hwy 99 pullout)",
+      "lat": 49.8462126,
+      "lon": -123.1496346,
+      "region": "ca",
+      "osmNodeId": 3683267127,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "expectDistanceM": {
+        "max": 80
+      },
+      "sources": [
+        "https://matadornetwork.com/read/sea-to-sky-highway-roadtrip/",
+        "https://www.todocanada.ca/25-of-the-best-scenic-highway-viewpoints-in-british-columbia/",
+        "https://www.openstreetmap.org/node/3683267127"
+      ],
+      "notes": "Named highway pullout north of Squamish; ~22m to trunk in live measurement."
+    },
+    {
+      "id": "tunnel-point-sea-to-sky",
+      "tier": "core",
+      "name": "Tunnel Point (Sea-to-Sky Hwy 99 roadside)",
+      "lat": 49.4841956,
+      "lon": -123.2482634,
+      "region": "ca",
+      "osmNodeId": 1036625915,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "expectDistanceM": {
+        "max": 100
+      },
+      "sources": [
+        "https://matadornetwork.com/read/sea-to-sky-highway-roadtrip/",
+        "https://www.openstreetmap.org/node/1036625915"
+      ],
+      "notes": "Roadside lookout north of Lions Bay; short walk from parking."
+    },
+    {
+      "id": "seton-osm-trail-viewpoint",
+      "tier": "core",
+      "name": "Seton Lake OSM trail viewpoint (5572706621)",
+      "lat": 50.6600206,
+      "lon": -121.9860265,
+      "region": "ca",
+      "osmNodeId": 5572706621,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "expectDistanceM": {
+        "min": 100
+      },
+      "sources": [
+        "https://www.vancouvertrails.com/trails/seton-lake-lookout/",
+        "https://www.openstreetmap.org/node/5572706621"
+      ],
+      "notes": "Cliff trail viewpoint after short hike from BC-99 parking."
+    },
+    {
+      "id": "tantalus-ridge-trail",
+      "tier": "core",
+      "name": "Tantalus Ridge Viewpoint (Cheakamus Loop trail)",
+      "lat": 49.8077588,
+      "lon": -123.1405568,
+      "region": "ca",
+      "osmNodeId": 6374400087,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "expectDistanceM": {
+        "min": 800
+      },
+      "sources": [
+        "https://www.openstreetmap.org/node/6374400087"
+      ],
+      "notes": "Backcountry trail viewpoint; ~1.3km from nearest lean highway segment."
+    },
+    {
+      "id": "tantalus-lookout-trail-side",
+      "tier": "core",
+      "name": "Tantalus Lookout (south Sea-to-Sky, far from lean highway)",
+      "lat": 49.5828431,
+      "lon": -123.2264051,
+      "region": "ca",
+      "osmNodeId": 10922700606,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "expectDistanceM": {
+        "min": 250
+      },
+      "sources": [
+        "https://www.openstreetmap.org/node/10922700606"
+      ],
+      "notes": "OSM viewpoint >300m from motorway-trunk-primary-secondary-tertiary network."
+    },
+    {
+      "id": "seton-trail-lookout-near-highway",
+      "tier": "hard",
+      "name": "Seton Lake trail viewpoint (end of short hike)",
+      "lat": 50.660328,
+      "lon": -121.986269,
+      "region": "ca",
+      "category": "trail_near_highway",
+      "expectFilter120": "include",
+      "productExpect": "exclude",
+      "expectDistanceM": {
+        "min": 50,
+        "max": 120
+      },
+      "sources": [
+        "https://www.vancouvertrails.com/trails/seton-lake-lookout/",
+        "https://www.alltrails.com/trail/canada/british-columbia/seton-lake-lookout--3"
+      ],
+      "notes": "Foot-only access but only ~92m from Hwy 99 trunk geometry. Distance-only filter will include; product may want to exclude. Do not fix with extra access-tag rules until core cases stable."
+    },
+    {
+      "id": "neils-retreat-centennial-trail",
+      "tier": "hard",
+      "name": "Neil's Retreat scenic overview (Centennial Trail, Lions Bay)",
+      "lat": 49.4664063,
+      "lon": -123.238999,
+      "region": "ca",
+      "osmNodeId": 4206119774,
+      "category": "trail_near_highway",
+      "expectFilter120": "include",
+      "productExpect": "exclude",
+      "expectDistanceM": {
+        "max": 80
+      },
+      "sources": [
+        "https://www.alltrails.com/poi/canada/british-columbia/lions-bay/neil-s-retreat",
+        "https://www.alltrails.com/trail/canada/british-columbia/centennial-trail",
+        "https://www.10adventures.com/hikes/north-shore/centennial-trail/",
+        "https://www.openstreetmap.org/node/4206119774"
+      ],
+      "notes": "Centennial Trail viewpoint parallel to Sea-to-Sky Hwy 99; foot trail only despite ~24m to trunk geometry."
+    },
+    {
+      "id": "millar-creek-trail-viewpoint",
+      "tier": "hard",
+      "name": "Scenic viewpoint on Millar Creek Trail (Function Junction, Whistler)",
+      "lat": 50.0838282,
+      "lon": -123.0503022,
+      "region": "ca",
+      "osmNodeId": 5148700622,
+      "category": "trail_near_highway",
+      "expectFilter120": "include",
+      "productExpect": "exclude",
+      "expectDistanceM": {
+        "min": 50,
+        "max": 120
+      },
+      "sources": [
+        "https://www.alltrails.com/trail/canada/british-columbia/whistler-trainwreck-trail",
+        "https://besthikesbc.ca/hiking-the-whistler-train-wreck-in-whistler/",
+        "https://www.openstreetmap.org/node/5148700622"
+      ],
+      "notes": "OSM tourism=viewpoint on Millar Creek Trail near Function Junction; hiking path adjacent to highway corridor, ~88m to lean highway."
+    },
+    {
+      "id": "sagebrush-loop-viewpoint",
+      "tier": "hard",
+      "name": "Scenic viewpoint on Sagebrush Loop (Peterson Creek Park, Kamloops)",
+      "lat": 50.6622587,
+      "lon": -120.3281121,
+      "region": "ca",
+      "osmNodeId": 2270037788,
+      "category": "trail_near_highway",
+      "expectFilter120": "include",
+      "productExpect": "exclude",
+      "expectDistanceM": {
+        "max": 80
+      },
+      "sources": [
+        "https://hikekamloops.ca/sagebrush-loop/",
+        "https://www.openstreetmap.org/node/2270037788"
+      ],
+      "notes": "Single-track loop with plateau overlook; trail briefly follows highway berm but access is foot-only, ~44m to lean highway."
+    },
+    {
+      "id": "icefields-vp-3613989710",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.1674232,
+      "lon": -117.033352,
+      "region": "ca",
+      "osmNodeId": 3613989710,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/3613989710"
+      ],
+      "notes": "Icefields Parkway (Hwy 93) roadside pullout."
+    },
+    {
+      "id": "icefields-vp-3613990708",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.1733571,
+      "lon": -117.0567639,
+      "region": "ca",
+      "osmNodeId": 3613990708,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/3613990708"
+      ],
+      "notes": "Icefields Parkway pullout."
+    },
+    {
+      "id": "icefields-parkway-viewpoint",
+      "tier": "core",
+      "name": "Icefields Parkway Viewpoint",
+      "lat": 52.1766371,
+      "lon": -117.0552913,
+      "region": "ca",
+      "osmNodeId": 11939018921,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/11939018921"
+      ],
+      "notes": "Named Icefields Parkway viewpoint."
+    },
+    {
+      "id": "punch-bowl-falls-viewpoint",
+      "tier": "core",
+      "name": "Punch Bowl Falls viewpoint",
+      "lat": 53.1988626,
+      "lon": -117.9222646,
+      "region": "ca",
+      "osmNodeId": 4325994425,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/4325994425"
+      ],
+      "notes": "Highway-accessible falls viewpoint, Jasper area."
+    },
+    {
+      "id": "icefields-vp-3701812356",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.7171094,
+      "lon": -117.8744556,
+      "region": "ca",
+      "osmNodeId": 3701812356,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/3701812356"
+      ],
+      "notes": "Columbia Icefield parkway pullout."
+    },
+    {
+      "id": "icefields-vp-3701812231",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.7145287,
+      "lon": -117.8725605,
+      "region": "ca",
+      "osmNodeId": 3701812231,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/3701812231"
+      ],
+      "notes": "Columbia Icefield parkway pullout."
+    },
+    {
+      "id": "mt-christie-area-vp-9970065032",
+      "tier": "core",
+      "name": "Mt Christie area viewpoint",
+      "lat": 52.6112114,
+      "lon": -117.8407953,
+      "region": "ca",
+      "osmNodeId": 9970065032,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/9970065032"
+      ],
+      "notes": "Icefields Parkway corridor."
+    },
+    {
+      "id": "mt-christie-lookout",
+      "tier": "core",
+      "name": "Mt. Christie Lookout",
+      "lat": 52.5832203,
+      "lon": -117.7392751,
+      "region": "ca",
+      "osmNodeId": 9970070624,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/9970070624"
+      ],
+      "notes": "Parkway pullout lookout."
+    },
+    {
+      "id": "icefields-vp-3701885535",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.5587615,
+      "lon": -117.6906217,
+      "region": "ca",
+      "osmNodeId": 3701885535,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/3701885535"
+      ],
+      "notes": "Parkway pullout."
+    },
+    {
+      "id": "icefields-vp-5872595286",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.4497876,
+      "lon": -117.4406213,
+      "region": "ca",
+      "osmNodeId": 5872595286,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/5872595286"
+      ],
+      "notes": "Parkway pullout. Live probe lean=135m (OSM node may sit off Hwy 93 centerline); borderline at 120m filter."
+    },
+    {
+      "id": "stutfield-viewpoint",
+      "tier": "core",
+      "name": "Stutfield viewpoint",
+      "lat": 52.2741445,
+      "lon": -117.3088652,
+      "region": "ca",
+      "osmNodeId": 4368839893,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/4368839893"
+      ],
+      "notes": "Icefields Parkway Stutfield pullout."
+    },
+    {
+      "id": "icefields-vp-9872594338",
+      "tier": "core",
+      "name": "Icefields Parkway viewpoint",
+      "lat": 52.2215164,
+      "lon": -117.2383908,
+      "region": "ca",
+      "osmNodeId": 9872594338,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/9872594338"
+      ],
+      "notes": "Parkway pullout."
+    },
+    {
+      "id": "bridal-veil-falls-viewpoint",
+      "tier": "core",
+      "name": "Bridal Veil Falls Viewpoint",
+      "lat": 52.1807778,
+      "lon": -117.0571111,
+      "region": "ca",
+      "osmNodeId": 11940130634,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/11940130634"
+      ],
+      "notes": "Parkway roadside falls viewpoint."
+    },
+    {
+      "id": "mistaya-canyon-viewpoint",
+      "tier": "core",
+      "name": "Mistaya Canyon (trail)",
+      "lat": 51.9423075,
+      "lon": -116.7212956,
+      "region": "ca",
+      "osmNodeId": 4368861089,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "productExpect": "exclude",
+      "sources": [
+        "https://www.openstreetmap.org/node/4368861089"
+      ],
+      "notes": "Short hike from Icefields Parkway; not drive-up."
+    },
+    {
+      "id": "panther-falls-viewpoint",
+      "tier": "core",
+      "name": "Panther Falls (trail)",
+      "lat": 52.1817039,
+      "lon": -117.0565435,
+      "region": "ca",
+      "osmNodeId": 4341414810,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "productExpect": "exclude",
+      "sources": [
+        "https://www.openstreetmap.org/node/4341414810"
+      ],
+      "notes": "Trail from parkway parking; falls viewpoint on foot path."
+    },
+    {
+      "id": "icefields-trail-vp-3123082746",
+      "tier": "core",
+      "name": "Trail viewpoint near Icefields",
+      "lat": 52.6646728,
+      "lon": -117.884507,
+      "region": "ca",
+      "osmNodeId": 3123082746,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "productExpect": "exclude",
+      "sources": [
+        "https://www.openstreetmap.org/node/3123082746"
+      ],
+      "notes": "Foot-only access off parkway."
+    },
+    {
+      "id": "icefields-trail-vp-5158126521",
+      "tier": "core",
+      "name": "Trail viewpoint near Icefields",
+      "lat": 52.6643255,
+      "lon": -117.8837346,
+      "region": "ca",
+      "osmNodeId": 5158126521,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "productExpect": "exclude",
+      "sources": [
+        "https://www.openstreetmap.org/node/5158126521"
+      ],
+      "notes": "Foot-only access off parkway."
+    },
+    {
+      "id": "sunwapta-falls-viewpoint",
+      "tier": "core",
+      "name": "Sunwapta Falls (trail)",
+      "lat": 52.5323791,
+      "lon": -117.644855,
+      "region": "ca",
+      "osmNodeId": 5158126523,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "productExpect": "exclude",
+      "sources": [
+        "https://www.openstreetmap.org/node/5158126523"
+      ],
+      "notes": "Walk from parking to falls; trail viewpoint."
+    },
+    {
+      "id": "icefields-trail-vp-3005596594",
+      "tier": "core",
+      "name": "Trail viewpoint near Icefields",
+      "lat": 52.2196774,
+      "lon": -117.1907109,
+      "region": "ca",
+      "osmNodeId": 3005596594,
+      "category": "trail_viewpoint",
+      "expectFilter120": "exclude",
+      "productExpect": "exclude",
+      "sources": [
+        "https://www.openstreetmap.org/node/3005596594"
+      ],
+      "notes": "Foot-only parkway-adjacent overlook."
+    },
+    {
+      "id": "goats-and-glaciers-viewpoint",
+      "tier": "very_hard",
+      "name": "Goats and Glaciers Viewpoint",
+      "lat": 52.6166225,
+      "lon": -117.8463721,
+      "region": "ca",
+      "osmNodeId": 5872595285,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "productExpect": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/5872595285"
+      ],
+      "notes": "Positive but difficult: lean=62m but path=5m and no OSM parking (layby untagged) — current filter excludes."
+    },
+    {
+      "id": "icefields-vp-4341418716",
+      "tier": "very_hard",
+      "name": "Icefields Parkway viewpoint (hard positive)",
+      "lat": 51.9720256,
+      "lon": -116.7321128,
+      "region": "ca",
+      "osmNodeId": 4341418716,
+      "category": "road_pullout",
+      "expectFilter120": "include",
+      "productExpect": "include",
+      "sources": [
+        "https://www.openstreetmap.org/node/4341418716"
+      ],
+      "notes": "Should include but challenging: lean=58m, path=0, parking=259m — footpath adjacent to pullout without amenity=parking."
+    }
+  ]
+}

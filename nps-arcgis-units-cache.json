@@ -1,0 +1,2959 @@
+{
+  "generated": "2026-05-25T22:57:54.723Z",
+  "units": [
+    {
+      "UNIT_CODE": "AMME",
+      "UNIT_NAME": "American Memorial Park",
+      "UNIT_TYPE": "Park",
+      "STATE": "MP",
+      "PARKNAME": "American Memorial Park"
+    },
+    {
+      "UNIT_CODE": "CEBE",
+      "UNIT_NAME": "Cedar Creek and Belle Grove National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "VA",
+      "PARKNAME": "Cedar Creek & Belle Grove"
+    },
+    {
+      "UNIT_CODE": "LIBI",
+      "UNIT_NAME": "Little Bighorn Battlefield National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "MT",
+      "PARKNAME": "Little Bighorn Battlefield"
+    },
+    {
+      "UNIT_CODE": "CAVO",
+      "UNIT_NAME": "Capulin Volcano National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Capulin Volcano"
+    },
+    {
+      "UNIT_CODE": "FOBO",
+      "UNIT_NAME": "Fort Bowie National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AZ",
+      "PARKNAME": "Fort Bowie"
+    },
+    {
+      "UNIT_CODE": "GICL",
+      "UNIT_NAME": "Gila Cliff Dwellings National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Gila Cliff Dwellings"
+    },
+    {
+      "UNIT_CODE": "TUZI",
+      "UNIT_NAME": "Tuzigoot National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Tuzigoot"
+    },
+    {
+      "UNIT_CODE": "YUHO",
+      "UNIT_NAME": "Yucca House National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CO",
+      "PARKNAME": "Yucca House"
+    },
+    {
+      "UNIT_CODE": "WOTR",
+      "UNIT_NAME": "Wolf Trap National Park for the Performing Arts",
+      "UNIT_TYPE": "National Park",
+      "STATE": "VA",
+      "PARKNAME": "Wolf Trap NP for the Performing Arts"
+    },
+    {
+      "UNIT_CODE": "CASA",
+      "UNIT_NAME": "Castillo de San Marcos National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "FL",
+      "PARKNAME": "Castillo de San Marcos"
+    },
+    {
+      "UNIT_CODE": "TICA",
+      "UNIT_NAME": "Timpanogos Cave National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "UT",
+      "PARKNAME": "Timpanogos Cave"
+    },
+    {
+      "UNIT_CODE": "THIS",
+      "UNIT_NAME": "Theodore Roosevelt Island National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Theodore Roosevelt Island"
+    },
+    {
+      "UNIT_CODE": "LYBA",
+      "UNIT_NAME": "Lyndon Baines Johnson Memorial Grove on the Potomac",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Lyndon Baines Johnson Memorial Grove"
+    },
+    {
+      "UNIT_CODE": "ARHO",
+      "UNIT_NAME": "Arlington House, The Robert E. Lee Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "VA",
+      "PARKNAME": "Arlington House, The Robert E. Lee Memorial"
+    },
+    {
+      "UNIT_CODE": "CUGA",
+      "UNIT_NAME": "Cumberland Gap National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "KY",
+      "PARKNAME": "Cumberland Gap"
+    },
+    {
+      "UNIT_CODE": "GREE",
+      "UNIT_NAME": "Greenbelt Park",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "MD",
+      "PARKNAME": "Greenbelt"
+    },
+    {
+      "UNIT_CODE": "TUPE",
+      "UNIT_NAME": "Tupelo National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MS",
+      "PARKNAME": "Tupelo"
+    },
+    {
+      "UNIT_CODE": "BRCR",
+      "UNIT_NAME": "Brices Cross Roads National Battlefield Site",
+      "UNIT_TYPE": "National Battlefield Site",
+      "STATE": "MS",
+      "PARKNAME": "Brices Cross Roads"
+    },
+    {
+      "UNIT_CODE": "PORE",
+      "UNIT_NAME": "Point Reyes National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "CA",
+      "PARKNAME": "Point Reyes"
+    },
+    {
+      "UNIT_CODE": "FOSU",
+      "UNIT_NAME": "Fort Sumter National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "SC",
+      "PARKNAME": "Fort Sumter"
+    },
+    {
+      "UNIT_CODE": "TONT",
+      "UNIT_NAME": "Tonto National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Tonto"
+    },
+    {
+      "UNIT_CODE": "HOFR",
+      "UNIT_NAME": "Home of Franklin D. Roosevelt National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Home of Franklin D Roosevelt"
+    },
+    {
+      "UNIT_CODE": "NISI",
+      "UNIT_NAME": "Ninety Six National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "SC",
+      "PARKNAME": "Ninety Six"
+    },
+    {
+      "UNIT_CODE": "CHPI",
+      "UNIT_NAME": "Charles Pinckney National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "SC",
+      "PARKNAME": "Charles Pinckney"
+    },
+    {
+      "UNIT_CODE": "BUIS",
+      "UNIT_NAME": "Buck Island Reef National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "VI",
+      "PARKNAME": "Buck Island Reef"
+    },
+    {
+      "UNIT_CODE": "CAWO",
+      "UNIT_NAME": "Carter G. Woodson National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MD",
+      "PARKNAME": "Carter G. Woodson Home"
+    },
+    {
+      "UNIT_CODE": "BOHA",
+      "UNIT_NAME": "Boston Harbor Islands National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "MA",
+      "PARKNAME": "Boston Harbor Islands"
+    },
+    {
+      "UNIT_CODE": "SUCR",
+      "UNIT_NAME": "Sunset Crater Volcano National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Sunset Crater Volcano"
+    },
+    {
+      "UNIT_CODE": "MABE",
+      "UNIT_NAME": "Mary McLeod Bethune Council House National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "DC",
+      "PARKNAME": "Mary McLeod Bethune Council House"
+    },
+    {
+      "UNIT_CODE": "FOTH",
+      "UNIT_NAME": "Ford's Theatre National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "DC",
+      "PARKNAME": "Ford's Theatre"
+    },
+    {
+      "UNIT_CODE": "BRVB",
+      "UNIT_NAME": "Brown v. Board of Education National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "KS",
+      "PARKNAME": "Brown V Board Of Education"
+    },
+    {
+      "UNIT_CODE": "PISP",
+      "UNIT_NAME": "Pipe Spring National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Pipe Spring"
+    },
+    {
+      "UNIT_CODE": "ELMO",
+      "UNIT_NAME": "El Morro National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "El Morro"
+    },
+    {
+      "UNIT_CODE": "ANJO",
+      "UNIT_NAME": "Andrew Johnson National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "TN",
+      "PARKNAME": "Andrew Johnson"
+    },
+    {
+      "UNIT_CODE": "SAPA",
+      "UNIT_NAME": "Saint Paul's Church National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Saint Paul's Church"
+    },
+    {
+      "UNIT_CODE": "CACL",
+      "UNIT_NAME": "Castle Clinton National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NY",
+      "PARKNAME": "Castle Clinton"
+    },
+    {
+      "UNIT_CODE": "FOBU",
+      "UNIT_NAME": "Fossil Butte National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "WY",
+      "PARKNAME": "Fossil Butte"
+    },
+    {
+      "UNIT_CODE": "HOVE",
+      "UNIT_NAME": "Hovenweep National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "UT",
+      "PARKNAME": "Hovenweep"
+    },
+    {
+      "UNIT_CODE": "FOUN",
+      "UNIT_NAME": "Fort Union National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Fort Union"
+    },
+    {
+      "UNIT_CODE": "ABLI",
+      "UNIT_NAME": "Abraham Lincoln Birthplace National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "KY",
+      "PARKNAME": "Abraham Lincoln Birthplace"
+    },
+    {
+      "UNIT_CODE": "DRTO",
+      "UNIT_NAME": "Dry Tortugas National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "FL",
+      "PARKNAME": "Dry Tortugas"
+    },
+    {
+      "UNIT_CODE": "FOFR",
+      "UNIT_NAME": "Fort Frederica National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "GA",
+      "PARKNAME": "Fort Frederica"
+    },
+    {
+      "UNIT_CODE": "MANZ",
+      "UNIT_NAME": "Manzanar National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CA",
+      "PARKNAME": "Manzanar"
+    },
+    {
+      "UNIT_CODE": "BRCA",
+      "UNIT_NAME": "Bryce Canyon National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "UT",
+      "PARKNAME": "Bryce Canyon"
+    },
+    {
+      "UNIT_CODE": "JODR",
+      "UNIT_NAME": "John D. Rockefeller, Jr., Memorial Parkway",
+      "UNIT_TYPE": "National Parkway",
+      "STATE": "WY",
+      "PARKNAME": "John D Rockefeller Jr"
+    },
+    {
+      "UNIT_CODE": "EDIS",
+      "UNIT_NAME": "Thomas Edison National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NJ",
+      "PARKNAME": "Thomas Edison"
+    },
+    {
+      "UNIT_CODE": "YELL",
+      "UNIT_NAME": "Yellowstone National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "WY",
+      "PARKNAME": "Yellowstone"
+    },
+    {
+      "UNIT_CODE": "HUTR",
+      "UNIT_NAME": "Hubbell Trading Post National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AZ",
+      "PARKNAME": "Hubbell Trading Post"
+    },
+    {
+      "UNIT_CODE": "CHAM",
+      "UNIT_NAME": "Chamizal National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "TX",
+      "PARKNAME": "Chamizal"
+    },
+    {
+      "UNIT_CODE": "PUHE",
+      "UNIT_NAME": "Pu'ukohola Heiau National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "HI",
+      "PARKNAME": "Puukohola Heiau"
+    },
+    {
+      "UNIT_CODE": "ULSG",
+      "UNIT_NAME": "Ulysses S. Grant National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MO",
+      "PARKNAME": "Ulysses S Grant"
+    },
+    {
+      "UNIT_CODE": "CANA",
+      "UNIT_NAME": "Canaveral National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "FL",
+      "PARKNAME": "Canaveral"
+    },
+    {
+      "UNIT_CODE": "AFBG",
+      "UNIT_NAME": "African Burial Ground National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NY",
+      "PARKNAME": "African Burial Ground"
+    },
+    {
+      "UNIT_CODE": "CABR",
+      "UNIT_NAME": "Cabrillo National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "Cabrillo"
+    },
+    {
+      "UNIT_CODE": "CLBA",
+      "UNIT_NAME": "Clara Barton National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MD",
+      "PARKNAME": "Clara Barton"
+    },
+    {
+      "UNIT_CODE": "FOWA",
+      "UNIT_NAME": "Fort Washington Park",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "MD",
+      "PARKNAME": "Fort Washington"
+    },
+    {
+      "UNIT_CODE": "SEQU",
+      "UNIT_NAME": "Sequoia National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Sequoia"
+    },
+    {
+      "UNIT_CODE": "KALA",
+      "UNIT_NAME": "Kalaupapa National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "HI",
+      "PARKNAME": "Kalaupapa"
+    },
+    {
+      "UNIT_CODE": "TUAI",
+      "UNIT_NAME": "Tuskegee Airmen National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AL",
+      "PARKNAME": "Tuskegee Airmen"
+    },
+    {
+      "UNIT_CODE": "SARI",
+      "UNIT_NAME": "Salt River Bay National Historical Park and Ecological Preserve",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "VI",
+      "PARKNAME": "Salt River Bay"
+    },
+    {
+      "UNIT_CODE": "NATC",
+      "UNIT_NAME": "Natchez National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MS",
+      "PARKNAME": "Natchez"
+    },
+    {
+      "UNIT_CODE": "EDAL",
+      "UNIT_NAME": "Edgar Allan Poe National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PA",
+      "PARKNAME": "Edgar Allan Poe"
+    },
+    {
+      "UNIT_CODE": "BOAF",
+      "UNIT_NAME": "Boston African American National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "Boston African American"
+    },
+    {
+      "UNIT_CODE": "MACA",
+      "UNIT_NAME": "Mammoth Cave National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "KY",
+      "PARKNAME": "Mammoth Cave"
+    },
+    {
+      "UNIT_CODE": "EUON",
+      "UNIT_NAME": "Eugene O'Neill National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CA",
+      "PARKNAME": "Eugene O'Neill"
+    },
+    {
+      "UNIT_CODE": "ADAM",
+      "UNIT_NAME": "Adams National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MA",
+      "PARKNAME": "Adams"
+    },
+    {
+      "UNIT_CODE": "NAVA",
+      "UNIT_NAME": "Navajo National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Navajo"
+    },
+    {
+      "UNIT_CODE": "THST",
+      "UNIT_NAME": "Thomas Stone National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MD",
+      "PARKNAME": "Thomas Stone"
+    },
+    {
+      "UNIT_CODE": "CARI",
+      "UNIT_NAME": "Cane River Creole National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "LA",
+      "PARKNAME": "Cane River Creole"
+    },
+    {
+      "UNIT_CODE": "GRBA",
+      "UNIT_NAME": "Great Basin National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "NV",
+      "PARKNAME": "Great Basin"
+    },
+    {
+      "UNIT_CODE": "GRPO",
+      "UNIT_NAME": "Grand Portage National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "MI",
+      "PARKNAME": "Grand Portage"
+    },
+    {
+      "UNIT_CODE": "WHIS",
+      "UNIT_NAME": "Whiskeytown-Shasta-Trinity National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "CA",
+      "PARKNAME": "Whiskeytown"
+    },
+    {
+      "UNIT_CODE": "FOPO",
+      "UNIT_NAME": "Fort Point National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CA",
+      "PARKNAME": "Fort Point"
+    },
+    {
+      "UNIT_CODE": "SAMA",
+      "UNIT_NAME": "Salem Maritime National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "Salem Maritime"
+    },
+    {
+      "UNIT_CODE": "WAMO",
+      "UNIT_NAME": "Washington Monument",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Washington Monument"
+    },
+    {
+      "UNIT_CODE": "JEFM",
+      "UNIT_NAME": "Thomas Jefferson Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Thomas Jefferson Memorial"
+    },
+    {
+      "UNIT_CODE": "MOCR",
+      "UNIT_NAME": "Moores Creek National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "NC",
+      "PARKNAME": "Moores Creek"
+    },
+    {
+      "UNIT_CODE": "HOBE",
+      "UNIT_NAME": "Horseshoe Bend National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "AL",
+      "PARKNAME": "Horseshoe Bend"
+    },
+    {
+      "UNIT_CODE": "FOMA",
+      "UNIT_NAME": "Fort Matanzas National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "FL",
+      "PARKNAME": "Fort Matanzas"
+    },
+    {
+      "UNIT_CODE": "CHIS",
+      "UNIT_NAME": "Channel Islands National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Channel Islands"
+    },
+    {
+      "UNIT_CODE": "CANY",
+      "UNIT_NAME": "Canyonlands National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "UT",
+      "PARKNAME": "Canyonlands"
+    },
+    {
+      "UNIT_CODE": "WHHO",
+      "UNIT_NAME": "White House",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "DC",
+      "PARKNAME": "President's Park (White House)"
+    },
+    {
+      "UNIT_CODE": "BOWA",
+      "UNIT_NAME": "Booker T. Washington National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "VA",
+      "PARKNAME": "Booker T Washington"
+    },
+    {
+      "UNIT_CODE": "JELA",
+      "UNIT_NAME": "Jean Lafitte National Historical Park and Preserve",
+      "UNIT_TYPE": "National Historical Park and Preserve",
+      "STATE": "LA",
+      "PARKNAME": "Jean Lafitte"
+    },
+    {
+      "UNIT_CODE": "JECA",
+      "UNIT_NAME": "Jewel Cave National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "SD",
+      "PARKNAME": "Jewel Cave"
+    },
+    {
+      "UNIT_CODE": "FOLS",
+      "UNIT_NAME": "Fort Larned National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "KS",
+      "PARKNAME": "Fort Larned"
+    },
+    {
+      "UNIT_CODE": "RORI",
+      "UNIT_NAME": "Rosie the Riveter/World War II Home Front National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "CA",
+      "PARKNAME": "Rosie the Riveter WWII Home Front"
+    },
+    {
+      "UNIT_CODE": "FOST",
+      "UNIT_NAME": "Fort Stanwix National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NY",
+      "PARKNAME": "Fort Stanwix"
+    },
+    {
+      "UNIT_CODE": "THKO",
+      "UNIT_NAME": "Thaddeus Kosciuszko National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "PA",
+      "PARKNAME": "Thaddeus Kosciuszko"
+    },
+    {
+      "UNIT_CODE": "PEVI",
+      "UNIT_NAME": "Perry's Victory and International Peace Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "OH",
+      "PARKNAME": "Perry's Victory & International Peace"
+    },
+    {
+      "UNIT_CODE": "JAGA",
+      "UNIT_NAME": "James A. Garfield National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "OH",
+      "PARKNAME": "James A Garfield"
+    },
+    {
+      "UNIT_CODE": "CATO",
+      "UNIT_NAME": "Catoctin Mountain Park",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "MD",
+      "PARKNAME": "Catoctin Mountain"
+    },
+    {
+      "UNIT_CODE": "RABR",
+      "UNIT_NAME": "Rainbow Bridge National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "UT",
+      "PARKNAME": "Rainbow Bridge"
+    },
+    {
+      "UNIT_CODE": "NABR",
+      "UNIT_NAME": "Natural Bridges National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "UT",
+      "PARKNAME": "Natural Bridges"
+    },
+    {
+      "UNIT_CODE": "BEOL",
+      "UNIT_NAME": "Bent's Old Fort National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CO",
+      "PARKNAME": "Bent's Old Fort"
+    },
+    {
+      "UNIT_CODE": "PIMA",
+      "UNIT_NAME": "Hohokam Pima National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Hohokam Pima"
+    },
+    {
+      "UNIT_CODE": "GUIS",
+      "UNIT_NAME": "Gulf Islands National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "FL",
+      "PARKNAME": "Gulf Islands"
+    },
+    {
+      "UNIT_CODE": "APCO",
+      "UNIT_NAME": "Appomattox Court House National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "VA",
+      "PARKNAME": "Appomattox Court House"
+    },
+    {
+      "UNIT_CODE": "PIPE",
+      "UNIT_NAME": "Pipestone National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "MN",
+      "PARKNAME": "Pipestone"
+    },
+    {
+      "UNIT_CODE": "BISC",
+      "UNIT_NAME": "Biscayne National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "FL",
+      "PARKNAME": "Biscayne"
+    },
+    {
+      "UNIT_CODE": "ARPO",
+      "UNIT_NAME": "Arkansas Post National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "AR",
+      "PARKNAME": "Arkansas Post"
+    },
+    {
+      "UNIT_CODE": "MORU",
+      "UNIT_NAME": "Mount Rushmore National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "SD",
+      "PARKNAME": "Mount Rushmore"
+    },
+    {
+      "UNIT_CODE": "GUMO",
+      "UNIT_NAME": "Guadalupe Mountains National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "TX",
+      "PARKNAME": "Guadalupe Mountains"
+    },
+    {
+      "UNIT_CODE": "CIRO",
+      "UNIT_NAME": "City of Rocks National Reserve",
+      "UNIT_TYPE": "National Reserve",
+      "STATE": "ID",
+      "PARKNAME": "City of Rocks"
+    },
+    {
+      "UNIT_CODE": "HAFO",
+      "UNIT_NAME": "Hagerman Fossil Beds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "ID",
+      "PARKNAME": "Hagerman Fossil Beds"
+    },
+    {
+      "UNIT_CODE": "PETE",
+      "UNIT_NAME": "Petersburg National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "VA",
+      "PARKNAME": "Petersburg"
+    },
+    {
+      "UNIT_CODE": "FOVA",
+      "UNIT_NAME": "Fort Vancouver National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "WA",
+      "PARKNAME": "Fort Vancouver"
+    },
+    {
+      "UNIT_CODE": "SAGA",
+      "UNIT_NAME": "Saint-Gaudens National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NH",
+      "PARKNAME": "Saint-Gaudens"
+    },
+    {
+      "UNIT_CODE": "JOFI",
+      "UNIT_NAME": "John Fitzgerald Kennedy National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "John F Kennedy"
+    },
+    {
+      "UNIT_CODE": "JEFF",
+      "UNIT_NAME": "Gateway Arch National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "MO",
+      "PARKNAME": "Gateway Arch"
+    },
+    {
+      "UNIT_CODE": "FOPU",
+      "UNIT_NAME": "Fort Pulaski National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "GA",
+      "PARKNAME": "Fort Pulaski"
+    },
+    {
+      "UNIT_CODE": "ELRO",
+      "UNIT_NAME": "Eleanor Roosevelt National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Eleanor Roosevelt"
+    },
+    {
+      "UNIT_CODE": "FRHI",
+      "UNIT_NAME": "Friendship Hill National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PA",
+      "PARKNAME": "Friendship Hill"
+    },
+    {
+      "UNIT_CODE": "THRB",
+      "UNIT_NAME": "Theodore Roosevelt Birthplace National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Theodore Roosevelt Birthplace"
+    },
+    {
+      "UNIT_CODE": "CORO",
+      "UNIT_NAME": "Coronado National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "AZ",
+      "PARKNAME": "Coronado"
+    },
+    {
+      "UNIT_CODE": "WRBR",
+      "UNIT_NAME": "Wright Brothers National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "NC",
+      "PARKNAME": "Wright Brothers"
+    },
+    {
+      "UNIT_CODE": "SEMO",
+      "UNIT_NAME": "Selma to Montgomery National Historic Trail",
+      "UNIT_TYPE": "National Historic Trail",
+      "STATE": "AL",
+      "PARKNAME": "Selma to Montgomery"
+    },
+    {
+      "UNIT_CODE": "KIMO",
+      "UNIT_NAME": "Kings Mountain National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "SC",
+      "PARKNAME": "Kings Mountain"
+    },
+    {
+      "UNIT_CODE": "GOSP",
+      "UNIT_NAME": "Golden Spike National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "UT",
+      "PARKNAME": "Golden Spike"
+    },
+    {
+      "UNIT_CODE": "NEBE",
+      "UNIT_NAME": "New Bedford Whaling National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MA",
+      "PARKNAME": "New Bedford Whaling"
+    },
+    {
+      "UNIT_CODE": "SAHI",
+      "UNIT_NAME": "Sagamore Hill National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Sagamore Hill"
+    },
+    {
+      "UNIT_CODE": "LABE",
+      "UNIT_NAME": "Lava Beds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "Lava Beds"
+    },
+    {
+      "UNIT_CODE": "WORI",
+      "UNIT_NAME": "Women's Rights National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NY",
+      "PARKNAME": "Women's Rights"
+    },
+    {
+      "UNIT_CODE": "GERO",
+      "UNIT_NAME": "George Rogers Clark National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "IN",
+      "PARKNAME": "George Rogers Clark"
+    },
+    {
+      "UNIT_CODE": "LONG",
+      "UNIT_NAME": "Longfellow House-Washington's Headquarters National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "Longfellow"
+    },
+    {
+      "UNIT_CODE": "HOFU",
+      "UNIT_NAME": "Hopewell Furnace National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PA",
+      "PARKNAME": "Hopewell Furnace"
+    },
+    {
+      "UNIT_CODE": "FRDE",
+      "UNIT_NAME": "Franklin Delano Roosevelt Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Franklin Delano Roosevelt"
+    },
+    {
+      "UNIT_CODE": "MOCA",
+      "UNIT_NAME": "Montezuma Castle National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Montezuma Castle"
+    },
+    {
+      "UNIT_CODE": "KICA",
+      "UNIT_NAME": "Kings Canyon National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Kings Canyon"
+    },
+    {
+      "UNIT_CODE": "SPAR",
+      "UNIT_NAME": "Springfield Armory National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "Springfield Armory"
+    },
+    {
+      "UNIT_CODE": "WHMI",
+      "UNIT_NAME": "Whitman Mission National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "WA",
+      "PARKNAME": "Whitman Mission"
+    },
+    {
+      "UNIT_CODE": "WWII",
+      "UNIT_NAME": "World War II Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "World War II Memorial"
+    },
+    {
+      "UNIT_CODE": "VIVE",
+      "UNIT_NAME": "Vietnam Veterans Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Vietnam Veterans"
+    },
+    {
+      "UNIT_CODE": "KOWA",
+      "UNIT_NAME": "Korean War Veterans Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Korean War Veterans"
+    },
+    {
+      "UNIT_CODE": "COGA",
+      "UNIT_NAME": "Constitution Gardens",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "DC",
+      "PARKNAME": "Constitution Gardens"
+    },
+    {
+      "UNIT_CODE": "MLKM",
+      "UNIT_NAME": "Martin Luther King, Jr., Memorial",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "DC",
+      "PARKNAME": "Martin Luther King Jr"
+    },
+    {
+      "UNIT_CODE": "LINC",
+      "UNIT_NAME": "Lincoln Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "Lincoln"
+    },
+    {
+      "UNIT_CODE": "MALL",
+      "UNIT_NAME": "National Mall",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "DC",
+      "PARKNAME": "National Mall"
+    },
+    {
+      "UNIT_CODE": "RUCA",
+      "UNIT_NAME": "Russell Cave National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AL",
+      "PARKNAME": "Russell Cave"
+    },
+    {
+      "UNIT_CODE": "MAWA",
+      "UNIT_NAME": "Maggie L. Walker National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "VA",
+      "PARKNAME": "Maggie L. Walker"
+    },
+    {
+      "UNIT_CODE": "BICA",
+      "UNIT_NAME": "Bighorn Canyon National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "WY",
+      "PARKNAME": "Bighorn Canyon"
+    },
+    {
+      "UNIT_CODE": "PUHO",
+      "UNIT_NAME": "Pu'uhonua o Honaunau National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "HI",
+      "PARKNAME": "Pu`uhonua O Honaunau"
+    },
+    {
+      "UNIT_CODE": "SAND",
+      "UNIT_NAME": "Sand Creek Massacre National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CO",
+      "PARKNAME": "Sand Creek Massacre"
+    },
+    {
+      "UNIT_CODE": "KNRI",
+      "UNIT_NAME": "Knife River Indian Villages National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "ND",
+      "PARKNAME": "Knife River Indian Villages"
+    },
+    {
+      "UNIT_CODE": "MORR",
+      "UNIT_NAME": "Morristown National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NJ",
+      "PARKNAME": "Morristown"
+    },
+    {
+      "UNIT_CODE": "MAVA",
+      "UNIT_NAME": "Martin Van Buren National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Martin Van Buren"
+    },
+    {
+      "UNIT_CODE": "GOIS",
+      "UNIT_NAME": "Governors Island National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NY",
+      "PARKNAME": "Governors Island"
+    },
+    {
+      "UNIT_CODE": "SCBL",
+      "UNIT_NAME": "Scotts Bluff National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NE",
+      "PARKNAME": "Scotts Bluff"
+    },
+    {
+      "UNIT_CODE": "JOFL",
+      "UNIT_NAME": "Johnstown Flood National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "PA",
+      "PARKNAME": "Johnstown Flood"
+    },
+    {
+      "UNIT_CODE": "AGFO",
+      "UNIT_NAME": "Agate Fossil Beds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NE",
+      "PARKNAME": "Agate Fossil Beds"
+    },
+    {
+      "UNIT_CODE": "RRBH",
+      "UNIT_NAME": "Ronald Reagan Boyhood Home National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "IL",
+      "PARKNAME": "Ronald Reagan Boyhood Home"
+    },
+    {
+      "UNIT_CODE": "CARE",
+      "UNIT_NAME": "Capitol Reef National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "UT",
+      "PARKNAME": "Capitol Reef"
+    },
+    {
+      "UNIT_CODE": "FLNI",
+      "UNIT_NAME": "Flight 93 National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "PA",
+      "PARKNAME": "Flight 93"
+    },
+    {
+      "UNIT_CODE": "DEPO",
+      "UNIT_NAME": "Devils Postpile National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "Devils Postpile"
+    },
+    {
+      "UNIT_CODE": "SAFR",
+      "UNIT_NAME": "San Francisco Maritime National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "CA",
+      "PARKNAME": "San Francisco Maritime"
+    },
+    {
+      "UNIT_CODE": "PAAL",
+      "UNIT_NAME": "Palo Alto Battlefield National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "TX",
+      "PARKNAME": "Palo Alto Battlefield"
+    },
+    {
+      "UNIT_CODE": "VICR",
+      "UNIT_NAME": "Virgin Islands Coral Reef National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "VI",
+      "PARKNAME": "Virgin Islands Coral Reef"
+    },
+    {
+      "UNIT_CODE": "MABI",
+      "UNIT_NAME": "Marsh-Billings-Rockefeller National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "VT",
+      "PARKNAME": "Marsh - Billings - Rockefeller"
+    },
+    {
+      "UNIT_CODE": "LIRI",
+      "UNIT_NAME": "Little River Canyon National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AL",
+      "PARKNAME": "Little River Canyon"
+    },
+    {
+      "UNIT_CODE": "CHYO",
+      "UNIT_NAME": "Charles Young Buffalo Soldiers National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "OH",
+      "PARKNAME": "Charles Young Buffalo Soldiers"
+    },
+    {
+      "UNIT_CODE": "DAAV",
+      "UNIT_NAME": "Dayton Aviation Heritage National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "OH",
+      "PARKNAME": "Dayton Aviation Heritage"
+    },
+    {
+      "UNIT_CODE": "EISE",
+      "UNIT_NAME": "Eisenhower National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PA",
+      "PARKNAME": "Eisenhower"
+    },
+    {
+      "UNIT_CODE": "CECH",
+      "UNIT_NAME": "Cesar E. Chavez National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "César E. Chávez"
+    },
+    {
+      "UNIT_CODE": "FONE",
+      "UNIT_NAME": "Fort Necessity National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "PA",
+      "PARKNAME": "Fort Necessity"
+    },
+    {
+      "UNIT_CODE": "SAPU",
+      "UNIT_NAME": "Salinas Pueblo Missions National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Salinas Pueblo Missions"
+    },
+    {
+      "UNIT_CODE": "PINN",
+      "UNIT_NAME": "Pinnacles National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Pinnacles"
+    },
+    {
+      "UNIT_CODE": "FOMC",
+      "UNIT_NAME": "Fort McHenry National Monument and Historic Shrine",
+      "UNIT_TYPE": "National Monument and Historic Shrine",
+      "STATE": "MD",
+      "PARKNAME": "Fort McHenry"
+    },
+    {
+      "UNIT_CODE": "SAIR",
+      "UNIT_NAME": "Saugus Iron Works National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "Saugus Iron Works"
+    },
+    {
+      "UNIT_CODE": "ROWI",
+      "UNIT_NAME": "Roger Williams National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "RI",
+      "PARKNAME": "Roger Williams"
+    },
+    {
+      "UNIT_CODE": "CAGR",
+      "UNIT_NAME": "Casa Grande Ruins National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Casa Grande Ruins"
+    },
+    {
+      "UNIT_CODE": "CHRI",
+      "UNIT_NAME": "Christiansted National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "VI",
+      "PARKNAME": "Christiansted"
+    },
+    {
+      "UNIT_CODE": "ALPO",
+      "UNIT_NAME": "Allegheny Portage Railroad National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PA",
+      "PARKNAME": "Allegheny Portage Railroad"
+    },
+    {
+      "UNIT_CODE": "DESO",
+      "UNIT_NAME": "De Soto National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "FL",
+      "PARKNAME": "De Soto"
+    },
+    {
+      "UNIT_CODE": "ANDE",
+      "UNIT_NAME": "Andersonville National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "GA",
+      "PARKNAME": "Andersonville"
+    },
+    {
+      "UNIT_CODE": "OCMU",
+      "UNIT_NAME": "Ocmulgee National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "GA",
+      "PARKNAME": "Ocmulgee"
+    },
+    {
+      "UNIT_CODE": "COWP",
+      "UNIT_NAME": "Cowpens National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "SC",
+      "PARKNAME": "Cowpens"
+    },
+    {
+      "UNIT_CODE": "CHIR",
+      "UNIT_NAME": "Chiricahua National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Chiricahua"
+    },
+    {
+      "UNIT_CODE": "MALU",
+      "UNIT_NAME": "Martin Luther King, Jr., National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "GA",
+      "PARKNAME": "Martin Luther King Jr."
+    },
+    {
+      "UNIT_CODE": "WAPA",
+      "UNIT_NAME": "War in the Pacific",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "GU",
+      "PARKNAME": "War in the Pacific"
+    },
+    {
+      "UNIT_CODE": "DETO",
+      "UNIT_NAME": "Devils Tower National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "WY",
+      "PARKNAME": "Devils Tower"
+    },
+    {
+      "UNIT_CODE": "BOST",
+      "UNIT_NAME": "Boston National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MA",
+      "PARKNAME": "Boston"
+    },
+    {
+      "UNIT_CODE": "ORCA",
+      "UNIT_NAME": "Oregon Caves National Monument and Preserve",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "OR",
+      "PARKNAME": "Oregon Caves"
+    },
+    {
+      "UNIT_CODE": "GEGR",
+      "UNIT_NAME": "General Grant National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "NY",
+      "PARKNAME": "General Grant"
+    },
+    {
+      "UNIT_CODE": "GOGA",
+      "UNIT_NAME": "Golden Gate National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "CA",
+      "PARKNAME": "Golden Gate"
+    },
+    {
+      "UNIT_CODE": "POCH",
+      "UNIT_NAME": "Port Chicago Naval Magazine National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "CA",
+      "PARKNAME": "Port Chicago Naval Magazine"
+    },
+    {
+      "UNIT_CODE": "JODA",
+      "UNIT_NAME": "John Day Fossil Beds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "OR",
+      "PARKNAME": "John Day Fossil Beds"
+    },
+    {
+      "UNIT_CODE": "FRST",
+      "UNIT_NAME": "First State National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "DE",
+      "PARKNAME": "First State"
+    },
+    {
+      "UNIT_CODE": "GUCO",
+      "UNIT_NAME": "Guilford Courthouse National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "NC",
+      "PARKNAME": "Guilford Courthouse"
+    },
+    {
+      "UNIT_CODE": "PAGR",
+      "UNIT_NAME": "Paterson Great Falls National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NJ",
+      "PARKNAME": "Paterson Great Falls"
+    },
+    {
+      "UNIT_CODE": "WEFA",
+      "UNIT_NAME": "Weir Farm National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CT",
+      "PARKNAME": "Weir Farm"
+    },
+    {
+      "UNIT_CODE": "THRI",
+      "UNIT_NAME": "Theodore Roosevelt Inaugural National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Theodore Roosevelt Inaugural"
+    },
+    {
+      "UNIT_CODE": "LAVO",
+      "UNIT_NAME": "Lassen Volcanic National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Lassen Volcanic"
+    },
+    {
+      "UNIT_CODE": "HONO",
+      "UNIT_NAME": "Honouliuli National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "HI",
+      "PARKNAME": "Honouliuli"
+    },
+    {
+      "UNIT_CODE": "FODO",
+      "UNIT_NAME": "Fort Donelson National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "TN",
+      "PARKNAME": "Fort Donelson"
+    },
+    {
+      "UNIT_CODE": "VAMA",
+      "UNIT_NAME": "Vanderbilt Mansion National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NY",
+      "PARKNAME": "Vanderbilt Mansion"
+    },
+    {
+      "UNIT_CODE": "JICA",
+      "UNIT_NAME": "Jimmy Carter National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "GA",
+      "PARKNAME": "Jimmy Carter"
+    },
+    {
+      "UNIT_CODE": "GATE",
+      "UNIT_NAME": "Gateway National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "NY",
+      "PARKNAME": "Gateway"
+    },
+    {
+      "UNIT_CODE": "UPDE",
+      "UNIT_NAME": "Upper Delaware Scenic and Recreational River",
+      "UNIT_TYPE": "Scenic and Recreational River",
+      "STATE": "PA",
+      "PARKNAME": "Upper Delaware"
+    },
+    {
+      "UNIT_CODE": "MIIN",
+      "UNIT_NAME": "Minidoka National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "WA",
+      "PARKNAME": "Minidoka"
+    },
+    {
+      "UNIT_CODE": "BIHO",
+      "UNIT_NAME": "Big Hole National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MT",
+      "PARKNAME": "Big Hole"
+    },
+    {
+      "UNIT_CODE": "CACH",
+      "UNIT_NAME": "Canyon de Chelly National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Canyon de Chelly"
+    },
+    {
+      "UNIT_CODE": "CACO",
+      "UNIT_NAME": "Cape Cod National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "MA",
+      "PARKNAME": "Cape Cod"
+    },
+    {
+      "UNIT_CODE": "MAPR",
+      "UNIT_NAME": "Manhattan Project National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NM",
+      "PARKNAME": "Manhattan Project"
+    },
+    {
+      "UNIT_CODE": "MORA",
+      "UNIT_NAME": "Mount Rainier National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "WA",
+      "PARKNAME": "Mount Rainier"
+    },
+    {
+      "UNIT_CODE": "LIBO",
+      "UNIT_NAME": "Lincoln Boyhood National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "IN",
+      "PARKNAME": "Lincoln Boyhood"
+    },
+    {
+      "UNIT_CODE": "FRLA",
+      "UNIT_NAME": "Frederick Law Olmsted National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MA",
+      "PARKNAME": "Frederick Law Olmsted"
+    },
+    {
+      "UNIT_CODE": "CAMO",
+      "UNIT_NAME": "Castle Mountains National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "Castle Mountain"
+    },
+    {
+      "UNIT_CODE": "GEWA",
+      "UNIT_NAME": "George Washington Birthplace National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "VA",
+      "PARKNAME": "George Washington Birthplace"
+    },
+    {
+      "UNIT_CODE": "HAGR",
+      "UNIT_NAME": "Hamilton Grange National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "NY",
+      "PARKNAME": "Hamilton Grange"
+    },
+    {
+      "UNIT_CODE": "HAMP",
+      "UNIT_NAME": "Hampton National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MD",
+      "PARKNAME": "Hampton"
+    },
+    {
+      "UNIT_CODE": "WACO",
+      "UNIT_NAME": "Waco Mammoth National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "TX",
+      "PARKNAME": "Waco Mammoth"
+    },
+    {
+      "UNIT_CODE": "GLCA",
+      "UNIT_NAME": "Glen Canyon National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "UT",
+      "PARKNAME": "Glen Canyon"
+    },
+    {
+      "UNIT_CODE": "YOSE",
+      "UNIT_NAME": "Yosemite National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Yosemite"
+    },
+    {
+      "UNIT_CODE": "TAPR",
+      "UNIT_NAME": "Tallgrass Prairie National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "KS",
+      "PARKNAME": "Tallgrass Prairie"
+    },
+    {
+      "UNIT_CODE": "TUIN",
+      "UNIT_NAME": "Tuskegee Institute National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AL",
+      "PARKNAME": "Tuskegee Institute"
+    },
+    {
+      "UNIT_CODE": "FOCA",
+      "UNIT_NAME": "Fort Caroline National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "FL",
+      "PARKNAME": "Fort Caroline"
+    },
+    {
+      "UNIT_CODE": "SACR",
+      "UNIT_NAME": "Saint Croix Island International Historic Site",
+      "UNIT_TYPE": "International Historic Site",
+      "STATE": "ME",
+      "PARKNAME": "Saint Croix Island"
+    },
+    {
+      "UNIT_CODE": "LOSA",
+      "UNIT_NAME": "Lower Saint Croix National Scenic Riverway",
+      "UNIT_TYPE": "National Scenic Riverway",
+      "STATE": "WI",
+      "PARKNAME": "Lower Saint Croix"
+    },
+    {
+      "UNIT_CODE": "STLI",
+      "UNIT_NAME": "Statue Of Liberty National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NY",
+      "PARKNAME": "Statue Of Liberty"
+    },
+    {
+      "UNIT_CODE": "BAND",
+      "UNIT_NAME": "Bandelier National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Bandelier"
+    },
+    {
+      "UNIT_CODE": "WICA",
+      "UNIT_NAME": "Wind Cave National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "SD",
+      "PARKNAME": "Wind Cave"
+    },
+    {
+      "UNIT_CODE": "NATR",
+      "UNIT_NAME": "Natchez Trace Parkway",
+      "UNIT_TYPE": "Parkway",
+      "STATE": "MS",
+      "PARKNAME": "Natchez Trace"
+    },
+    {
+      "UNIT_CODE": "COLM",
+      "UNIT_NAME": "Colorado National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CO",
+      "PARKNAME": "Colorado"
+    },
+    {
+      "UNIT_CODE": "FRSP",
+      "UNIT_NAME": "Fredericksburg and Spotsylvania County Battlefields Memorial National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "VA",
+      "PARKNAME": "Fredericksburg & Spotsylvania"
+    },
+    {
+      "UNIT_CODE": "PULL",
+      "UNIT_NAME": "Pullman National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "IL",
+      "PARKNAME": "Pullman"
+    },
+    {
+      "UNIT_CODE": "PAAV",
+      "UNIT_NAME": "Pennsylvania Avenue National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "DC",
+      "PARKNAME": "Pennsylvania Avenue"
+    },
+    {
+      "UNIT_CODE": "WWIM",
+      "UNIT_NAME": "World War I Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "DC",
+      "PARKNAME": "World War I"
+    },
+    {
+      "UNIT_CODE": "BEPA",
+      "UNIT_NAME": "Belmont-Paul Women's Equality National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "DC",
+      "PARKNAME": "Belmont-Paul Women's Equality"
+    },
+    {
+      "UNIT_CODE": "NOCA",
+      "UNIT_NAME": "North Cascades National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "WA",
+      "PARKNAME": "North Cascades"
+    },
+    {
+      "UNIT_CODE": "STON",
+      "UNIT_NAME": "Stonewall National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NY",
+      "PARKNAME": "Stonewall"
+    },
+    {
+      "UNIT_CODE": "NPSA",
+      "UNIT_NAME": "National Park of American Samoa",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AS",
+      "PARKNAME": "National Park of American Samoa"
+    },
+    {
+      "UNIT_CODE": "VOYA",
+      "UNIT_NAME": "Voyageurs National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "MN",
+      "PARKNAME": "Voyageurs"
+    },
+    {
+      "UNIT_CODE": "HAFE",
+      "UNIT_NAME": "Harpers Ferry National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "WV",
+      "PARKNAME": "Harpers Ferry"
+    },
+    {
+      "UNIT_CODE": "CONG",
+      "UNIT_NAME": "Congaree National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "SC",
+      "PARKNAME": "Congaree"
+    },
+    {
+      "UNIT_CODE": "FEHA",
+      "UNIT_NAME": "Federal Hall National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "NY",
+      "PARKNAME": "Federal Hall"
+    },
+    {
+      "UNIT_CODE": "FRDO",
+      "UNIT_NAME": "Frederick Douglass National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "DC",
+      "PARKNAME": "Frederick Douglass"
+    },
+    {
+      "UNIT_CODE": "FOSM",
+      "UNIT_NAME": "Fort Smith National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AR",
+      "PARKNAME": "Fort Smith"
+    },
+    {
+      "UNIT_CODE": "HALE",
+      "UNIT_NAME": "Haleakala National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "HI",
+      "PARKNAME": "Haleakala"
+    },
+    {
+      "UNIT_CODE": "ELMA",
+      "UNIT_NAME": "El Malpais National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "El Malpais"
+    },
+    {
+      "UNIT_CODE": "LECL",
+      "UNIT_NAME": "Lewis and Clark National Historic Trail",
+      "UNIT_TYPE": "National Historic Trail",
+      "STATE": "NE",
+      "PARKNAME": "Lewis and Clark"
+    },
+    {
+      "UNIT_CODE": "LACH",
+      "UNIT_NAME": "Lake Chelan National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "WA",
+      "PARKNAME": "Lake Chelan"
+    },
+    {
+      "UNIT_CODE": "CARL",
+      "UNIT_NAME": "Carl Sandburg Home National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NC",
+      "PARKNAME": "Carl Sandburg Home"
+    },
+    {
+      "UNIT_CODE": "LYJO",
+      "UNIT_NAME": "Lyndon B. Johnson National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "TX",
+      "PARKNAME": "Lyndon B Johnson"
+    },
+    {
+      "UNIT_CODE": "CAVE",
+      "UNIT_NAME": "Carlsbad Caverns National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "NM",
+      "PARKNAME": "Carlsbad Caverns"
+    },
+    {
+      "UNIT_CODE": "AZRU",
+      "UNIT_NAME": "Aztec Ruins National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Aztec Ruins"
+    },
+    {
+      "UNIT_CODE": "ZION",
+      "UNIT_NAME": "Zion National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "UT",
+      "PARKNAME": "Zion"
+    },
+    {
+      "UNIT_CODE": "LIHO",
+      "UNIT_NAME": "Lincoln Home National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "IL",
+      "PARKNAME": "Lincoln Home"
+    },
+    {
+      "UNIT_CODE": "CRMP",
+      "UNIT_NAME": "Craters of the Moon National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "ID",
+      "PARKNAME": "Craters of the Moon"
+    },
+    {
+      "UNIT_CODE": "CRMO",
+      "UNIT_NAME": "Craters of the Moon National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "ID",
+      "PARKNAME": "Craters of the Moon"
+    },
+    {
+      "UNIT_CODE": "PECO",
+      "UNIT_NAME": "Pecos National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NM",
+      "PARKNAME": "Pecos"
+    },
+    {
+      "UNIT_CODE": "ORPI",
+      "UNIT_NAME": "Organ Pipe Cactus National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Organ Pipe Cactus"
+    },
+    {
+      "UNIT_CODE": "CURE",
+      "UNIT_NAME": "Curecanti National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "CO",
+      "PARKNAME": "Curecanti"
+    },
+    {
+      "UNIT_CODE": "THRO",
+      "UNIT_NAME": "Theodore Roosevelt National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "ND",
+      "PARKNAME": "Theodore Roosevelt"
+    },
+    {
+      "UNIT_CODE": "DINO",
+      "UNIT_NAME": "Dinosaur National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CO",
+      "PARKNAME": "Dinosaur"
+    },
+    {
+      "UNIT_CODE": "CRLA",
+      "UNIT_NAME": "Crater Lake National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "OR",
+      "PARKNAME": "Crater Lake"
+    },
+    {
+      "UNIT_CODE": "APIS",
+      "UNIT_NAME": "Apostle Islands National Lakeshore",
+      "UNIT_TYPE": "National Lakeshore",
+      "STATE": "WI",
+      "PARKNAME": "Apostle Islands"
+    },
+    {
+      "UNIT_CODE": "GLAC",
+      "UNIT_NAME": "Glacier National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "MT",
+      "PARKNAME": "Glacier"
+    },
+    {
+      "UNIT_CODE": "SAGU",
+      "UNIT_NAME": "Saguaro National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AZ",
+      "PARKNAME": "Saguaro"
+    },
+    {
+      "UNIT_CODE": "KEWE",
+      "UNIT_NAME": "Keweenaw National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MI",
+      "PARKNAME": "Keweenaw"
+    },
+    {
+      "UNIT_CODE": "HOME",
+      "UNIT_NAME": "Homestead National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NE",
+      "PARKNAME": "Homestead"
+    },
+    {
+      "UNIT_CODE": "CHCU",
+      "UNIT_NAME": "Chaco Culture National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NM",
+      "PARKNAME": "Chaco Culture"
+    },
+    {
+      "UNIT_CODE": "GRKO",
+      "UNIT_NAME": "Grant-Kohrs Ranch National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MT",
+      "PARKNAME": "Grant-Kohrs Ranch"
+    },
+    {
+      "UNIT_CODE": "CAJO",
+      "UNIT_NAME": "Captain John Smith National Historic Trail",
+      "UNIT_TYPE": "National Historic Trail",
+      "STATE": "MD",
+      "PARKNAME": "Captain John Smith"
+    },
+    {
+      "UNIT_CODE": "INDE",
+      "UNIT_NAME": "Independence National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "PA",
+      "PARKNAME": "Independence"
+    },
+    {
+      "UNIT_CODE": "JAZZ",
+      "UNIT_NAME": "New Orleans Jazz National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "LA",
+      "PARKNAME": "New Orleans Jazz"
+    },
+    {
+      "UNIT_CODE": "FRRI",
+      "UNIT_NAME": "Freedom Riders National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AL",
+      "PARKNAME": "Freedom Riders"
+    },
+    {
+      "UNIT_CODE": "BICR",
+      "UNIT_NAME": "Birmingham Civil Rights National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AL",
+      "PARKNAME": "Birmingham Civil Rights"
+    },
+    {
+      "UNIT_CODE": "NACA",
+      "UNIT_NAME": "National Capital Parks",
+      "UNIT_TYPE": "Park",
+      "STATE": "DC",
+      "PARKNAME": "National Capital Parks"
+    },
+    {
+      "UNIT_CODE": "GRTE",
+      "UNIT_NAME": "Grand Teton National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "WY",
+      "PARKNAME": "Grand Teton"
+    },
+    {
+      "UNIT_CODE": "CHIC",
+      "UNIT_NAME": "Chickasaw National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "OK",
+      "PARKNAME": "Chickasaw"
+    },
+    {
+      "UNIT_CODE": "STRI",
+      "UNIT_NAME": "Stones River National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "TN",
+      "PARKNAME": "Stones River"
+    },
+    {
+      "UNIT_CODE": "GRSA",
+      "UNIT_NAME": "Great Sand Dunes National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "CO",
+      "PARKNAME": "Great Sand Dunes"
+    },
+    {
+      "UNIT_CODE": "GRSA",
+      "UNIT_NAME": "Great Sand Dunes National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CO",
+      "PARKNAME": "Great Sand Dunes"
+    },
+    {
+      "UNIT_CODE": "BITH",
+      "UNIT_NAME": "Big Thicket National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "TX",
+      "PARKNAME": "Big Thicket"
+    },
+    {
+      "UNIT_CODE": "RIGR",
+      "UNIT_NAME": "Rio Grande Wild and Scenic River",
+      "UNIT_TYPE": "Wild and Scenic River",
+      "STATE": "TX",
+      "PARKNAME": "Rio Grande"
+    },
+    {
+      "UNIT_CODE": "SAAN",
+      "UNIT_NAME": "San Antonio Missions National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "TX",
+      "PARKNAME": "San Antonio Missions"
+    },
+    {
+      "UNIT_CODE": "RIRA",
+      "UNIT_NAME": "River Raisin National Battlefield Park",
+      "UNIT_TYPE": "National Battlefield Park",
+      "STATE": "MI",
+      "PARKNAME": "River Raisin"
+    },
+    {
+      "UNIT_CODE": "MIMA",
+      "UNIT_NAME": "Minute Man National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MA",
+      "PARKNAME": "Minute Man"
+    },
+    {
+      "UNIT_CODE": "BLCA",
+      "UNIT_NAME": "Black Canyon of the Gunnison National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CO",
+      "PARKNAME": "Black Canyon of the Gunnison"
+    },
+    {
+      "UNIT_CODE": "WACA",
+      "UNIT_NAME": "Walnut Canyon National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Walnut Canyon"
+    },
+    {
+      "UNIT_CODE": "NICO",
+      "UNIT_NAME": "Nicodemus National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "KS",
+      "PARKNAME": "Nicodemus"
+    },
+    {
+      "UNIT_CODE": "WUPA",
+      "UNIT_NAME": "Wupatki National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AZ",
+      "PARKNAME": "Wupatki"
+    },
+    {
+      "UNIT_CODE": "WABA",
+      "UNIT_NAME": "Washita Battlefield National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "OK",
+      "PARKNAME": "Washita Battlefield"
+    },
+    {
+      "UNIT_CODE": "KAWW",
+      "UNIT_NAME": "Katahdin Woods And Waters National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "ME",
+      "PARKNAME": "Katahdin Woods And Waters"
+    },
+    {
+      "UNIT_CODE": "ROLA",
+      "UNIT_NAME": "Ross Lake National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "WA",
+      "PARKNAME": "Ross Lake"
+    },
+    {
+      "UNIT_CODE": "BIBE",
+      "UNIT_NAME": "Big Bend National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "TX",
+      "PARKNAME": "Big Bend"
+    },
+    {
+      "UNIT_CODE": "CHOH",
+      "UNIT_NAME": "Chesapeake and Ohio Canal National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "DC",
+      "PARKNAME": "Chesapeake and Ohio Canal"
+    },
+    {
+      "UNIT_CODE": "SARA",
+      "UNIT_NAME": "Saratoga National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NY",
+      "PARKNAME": "Saratoga"
+    },
+    {
+      "UNIT_CODE": "VAFO",
+      "UNIT_NAME": "Valley Forge National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "PA",
+      "PARKNAME": "Valley Forge"
+    },
+    {
+      "UNIT_CODE": "LAKE",
+      "UNIT_NAME": "Lake Mead National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "NV",
+      "PARKNAME": "Lake Mead"
+    },
+    {
+      "UNIT_CODE": "MISS",
+      "UNIT_NAME": "Mississippi National River and Recreation Area",
+      "UNIT_TYPE": "National River and Recreation Area",
+      "STATE": "MN",
+      "PARKNAME": "Mississippi"
+    },
+    {
+      "UNIT_CODE": "HSTR",
+      "UNIT_NAME": "Harry S Truman National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "MO",
+      "PARKNAME": "Harry S Truman"
+    },
+    {
+      "UNIT_CODE": "CHSC",
+      "UNIT_NAME": "Little Rock Central High School National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AR",
+      "PARKNAME": "Little Rock Central High School"
+    },
+    {
+      "UNIT_CODE": "CEBR",
+      "UNIT_NAME": "Cedar Breaks National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "UT",
+      "PARKNAME": "Cedar Breaks"
+    },
+    {
+      "UNIT_CODE": "FODA",
+      "UNIT_NAME": "Fort Davis National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "TX",
+      "PARKNAME": "Fort Davis"
+    },
+    {
+      "UNIT_CODE": "FOMR",
+      "UNIT_NAME": "Fort Monroe National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "VA",
+      "PARKNAME": "Fort Monroe"
+    },
+    {
+      "UNIT_CODE": "ARCH",
+      "UNIT_NAME": "Arches National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "UT",
+      "PARKNAME": "Arches"
+    },
+    {
+      "UNIT_CODE": "FOLA",
+      "UNIT_NAME": "Fort Laramie National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "WY",
+      "PARKNAME": "Fort Laramie"
+    },
+    {
+      "UNIT_CODE": "TUMA",
+      "UNIT_NAME": "Tumacacori National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "AZ",
+      "PARKNAME": "Tumacácori"
+    },
+    {
+      "UNIT_CODE": "TUSK",
+      "UNIT_NAME": "Tule Springs Fossil Beds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NV",
+      "PARKNAME": "Tule Springs Fossil Beds"
+    },
+    {
+      "UNIT_CODE": "PETR",
+      "UNIT_NAME": "Petroglyph National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "NM",
+      "PARKNAME": "Petroglyph"
+    },
+    {
+      "UNIT_CODE": "WICL",
+      "UNIT_NAME": "President William Jefferson Clinton Birthplace Home National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "AR",
+      "PARKNAME": "President William Jefferson Clinton Birthplace Home"
+    },
+    {
+      "UNIT_CODE": "FOUS",
+      "UNIT_NAME": "Fort Union Trading Post National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "ND",
+      "PARKNAME": "Fort Union Trading Post"
+    },
+    {
+      "UNIT_CODE": "GRCA",
+      "UNIT_NAME": "Grand Canyon National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AZ",
+      "PARKNAME": "Grand Canyon"
+    },
+    {
+      "UNIT_CODE": "PAIS",
+      "UNIT_NAME": "Padre Island National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "TX",
+      "PARKNAME": "Padre Island"
+    },
+    {
+      "UNIT_CODE": "MEVE",
+      "UNIT_NAME": "Mesa Verde National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CO",
+      "PARKNAME": "Mesa Verde"
+    },
+    {
+      "UNIT_CODE": "CUIS",
+      "UNIT_NAME": "Cumberland Island National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "GA",
+      "PARKNAME": "Cumberland Island"
+    },
+    {
+      "UNIT_CODE": "KEMO",
+      "UNIT_NAME": "Kennesaw Mountain National Battlefield Park",
+      "UNIT_TYPE": "National Battlefield Park",
+      "STATE": "GA",
+      "PARKNAME": "Kennesaw Mountain"
+    },
+    {
+      "UNIT_CODE": "SHIL",
+      "UNIT_NAME": "Shiloh National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MS",
+      "PARKNAME": "Shiloh"
+    },
+    {
+      "UNIT_CODE": "OZAR",
+      "UNIT_NAME": "Ozark National Scenic Riverway",
+      "UNIT_TYPE": "National Scenic Riverway",
+      "STATE": "MO",
+      "PARKNAME": "Ozark"
+    },
+    {
+      "UNIT_CODE": "FILA",
+      "UNIT_NAME": "First Ladies National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "OH",
+      "PARKNAME": "First Ladies"
+    },
+    {
+      "UNIT_CODE": "WICR",
+      "UNIT_NAME": "Wilson's Creek National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MO",
+      "PARKNAME": "Wilson's Creek"
+    },
+    {
+      "UNIT_CODE": "GWCA",
+      "UNIT_NAME": "George Washington Carver National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "MO",
+      "PARKNAME": "George Washington Carver"
+    },
+    {
+      "UNIT_CODE": "HAVO",
+      "UNIT_NAME": "Hawai'i Volcanoes National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "HI",
+      "PARKNAME": "Hawaii Volcanoes"
+    },
+    {
+      "UNIT_CODE": "CANE",
+      "UNIT_NAME": "Camp Nelson National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "KY",
+      "PARKNAME": "Camp Nelson"
+    },
+    {
+      "UNIT_CODE": "SACN",
+      "UNIT_NAME": "Saint Croix National Scenic Riverway",
+      "UNIT_TYPE": "National Scenic Riverway",
+      "STATE": "WI",
+      "PARKNAME": "Saint Croix"
+    },
+    {
+      "UNIT_CODE": "PIRO",
+      "UNIT_NAME": "Pictured Rocks National Lakeshore",
+      "UNIT_TYPE": "National Lakeshore",
+      "STATE": "MI",
+      "PARKNAME": "Pictured Rocks"
+    },
+    {
+      "UNIT_CODE": "VALL",
+      "UNIT_NAME": "Valles Caldera National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "NM",
+      "PARKNAME": "Valles Caldera"
+    },
+    {
+      "UNIT_CODE": "REER",
+      "UNIT_NAME": "Reconstruction Era National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "SC",
+      "PARKNAME": "Reconstruction Era"
+    },
+    {
+      "UNIT_CODE": "CUVA",
+      "UNIT_NAME": "Cuyahoga Valley National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "OH",
+      "PARKNAME": "Cuyahoga Valley"
+    },
+    {
+      "UNIT_CODE": "DENA",
+      "UNIT_NAME": "Denali National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Denali"
+    },
+    {
+      "UNIT_CODE": "WRST",
+      "UNIT_NAME": "Wrangell-St. Elias National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Wrangell - St Elias"
+    },
+    {
+      "UNIT_CODE": "WRST",
+      "UNIT_NAME": "Wrangell-St. Elias National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Wrangell - St Elias"
+    },
+    {
+      "UNIT_CODE": "GLBA",
+      "UNIT_NAME": "Glacier Bay National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Glacier Bay"
+    },
+    {
+      "UNIT_CODE": "GLBA",
+      "UNIT_NAME": "Glacier Bay National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Glacier Bay"
+    },
+    {
+      "UNIT_CODE": "KATM",
+      "UNIT_NAME": "Katmai National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Katmai"
+    },
+    {
+      "UNIT_CODE": "KEFJ",
+      "UNIT_NAME": "Kenai Fjords National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Kenai Fjords"
+    },
+    {
+      "UNIT_CODE": "LACL",
+      "UNIT_NAME": "Lake Clark National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Lake Clark"
+    },
+    {
+      "UNIT_CODE": "NOAT",
+      "UNIT_NAME": "Noatak National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Noatak"
+    },
+    {
+      "UNIT_CODE": "BELA",
+      "UNIT_NAME": "Bering Land Bridge National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Bering Land Bridge"
+    },
+    {
+      "UNIT_CODE": "ALAG",
+      "UNIT_NAME": "Alagnak Wild River",
+      "UNIT_TYPE": "Wild River",
+      "STATE": "AK",
+      "PARKNAME": "Alagnak"
+    },
+    {
+      "UNIT_CODE": "SITK",
+      "UNIT_NAME": "Sitka National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "AK",
+      "PARKNAME": "Sitka"
+    },
+    {
+      "UNIT_CODE": "ANIA",
+      "UNIT_NAME": "Aniakchak National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AK",
+      "PARKNAME": "Aniakchak"
+    },
+    {
+      "UNIT_CODE": "CAKR",
+      "UNIT_NAME": "Cape Krusenstern National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "AK",
+      "PARKNAME": "Cape Krusenstern"
+    },
+    {
+      "UNIT_CODE": "GAAR",
+      "UNIT_NAME": "Gates of the Arctic National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Gates of the Arctic"
+    },
+    {
+      "UNIT_CODE": "DENA",
+      "UNIT_NAME": "Denali National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Denali"
+    },
+    {
+      "UNIT_CODE": "KATM",
+      "UNIT_NAME": "Katmai National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Katmai"
+    },
+    {
+      "UNIT_CODE": "KOVA",
+      "UNIT_NAME": "Kobuk Valley National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Kobuk Valley"
+    },
+    {
+      "UNIT_CODE": "GAAR",
+      "UNIT_NAME": "Gates of the Arctic National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Gates of the Arctic"
+    },
+    {
+      "UNIT_CODE": "ANIA",
+      "UNIT_NAME": "Aniakchak National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Aniakchak"
+    },
+    {
+      "UNIT_CODE": "YUCH",
+      "UNIT_NAME": "Yukon-Charley Rivers National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "AK",
+      "PARKNAME": "Yukon - Charley Rivers"
+    },
+    {
+      "UNIT_CODE": "LACL",
+      "UNIT_NAME": "Lake Clark National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AK",
+      "PARKNAME": "Lake Clark"
+    },
+    {
+      "UNIT_CODE": "KLGO",
+      "UNIT_NAME": "Klondike Gold Rush National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "AK",
+      "PARKNAME": "Klondike Gold Rush"
+    },
+    {
+      "UNIT_CODE": "ROMO",
+      "UNIT_NAME": "Rocky Mountain National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CO",
+      "PARKNAME": "Rocky Mountain"
+    },
+    {
+      "UNIT_CODE": "ROCR",
+      "UNIT_NAME": "Rock Creek Park",
+      "UNIT_TYPE": "Park",
+      "STATE": "DC",
+      "PARKNAME": "Rock Creek Park"
+    },
+    {
+      "UNIT_CODE": "PISC",
+      "UNIT_NAME": "Piscataway Park",
+      "UNIT_TYPE": "Other Designation",
+      "STATE": "MD",
+      "PARKNAME": "Piscataway"
+    },
+    {
+      "UNIT_CODE": "MANA",
+      "UNIT_NAME": "Manassas National Battlefield Park",
+      "UNIT_TYPE": "National Battlefield Park",
+      "STATE": "VA",
+      "PARKNAME": "Manassas"
+    },
+    {
+      "UNIT_CODE": "KAHO",
+      "UNIT_NAME": "Kaloko-Honokohau National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "HI",
+      "PARKNAME": "Kaloko-Honokohau"
+    },
+    {
+      "UNIT_CODE": "JOTR",
+      "UNIT_NAME": "Joshua Tree National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Joshua Tree"
+    },
+    {
+      "UNIT_CODE": "IATR",
+      "UNIT_NAME": "Ice Age National Scenic Trail",
+      "UNIT_TYPE": "National Scenic Trail",
+      "STATE": "WI",
+      "PARKNAME": "Ice Age"
+    },
+    {
+      "UNIT_CODE": "HEHO",
+      "UNIT_NAME": "Herbert Hoover National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "IA",
+      "PARKNAME": "Herbert Hoover"
+    },
+    {
+      "UNIT_CODE": "FOSC",
+      "UNIT_NAME": "Fort Scott National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "KS",
+      "PARKNAME": "Fort Scott"
+    },
+    {
+      "UNIT_CODE": "FLFO",
+      "UNIT_NAME": "Florissant Fossil Beds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CO",
+      "PARKNAME": "Florissant Fossil Beds"
+    },
+    {
+      "UNIT_CODE": "EVER",
+      "UNIT_NAME": "Everglades National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "FL",
+      "PARKNAME": "Everglades"
+    },
+    {
+      "UNIT_CODE": "COLO",
+      "UNIT_NAME": "Colonial National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "VA",
+      "PARKNAME": "Colonial"
+    },
+    {
+      "UNIT_CODE": "ANTI",
+      "UNIT_NAME": "Antietam National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MD",
+      "PARKNAME": "Antietam"
+    },
+    {
+      "UNIT_CODE": "GETT",
+      "UNIT_NAME": "Gettysburg National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "PA",
+      "PARKNAME": "Gettysburg"
+    },
+    {
+      "UNIT_CODE": "HOCU",
+      "UNIT_NAME": "Hopewell Culture National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "OH",
+      "PARKNAME": "Hopewell Culture"
+    },
+    {
+      "UNIT_CODE": "BADL",
+      "UNIT_NAME": "Badlands National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "SD",
+      "PARKNAME": "Badlands"
+    },
+    {
+      "UNIT_CODE": "AMIS",
+      "UNIT_NAME": "Amistad National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "TX",
+      "PARKNAME": "Amistad"
+    },
+    {
+      "UNIT_CODE": "PRWI",
+      "UNIT_NAME": "Prince William Forest Park",
+      "UNIT_TYPE": "Park",
+      "STATE": "VA",
+      "PARKNAME": "Prince William Forest"
+    },
+    {
+      "UNIT_CODE": "EFMO",
+      "UNIT_NAME": "Effigy Mounds National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "IA",
+      "PARKNAME": "Effigy Mounds"
+    },
+    {
+      "UNIT_CODE": "NIOB",
+      "UNIT_NAME": "Niobrara National Scenic River",
+      "UNIT_TYPE": "National Scenic River",
+      "STATE": "NE",
+      "PARKNAME": "Niobrara"
+    },
+    {
+      "UNIT_CODE": "PERI",
+      "UNIT_NAME": "Pea Ridge National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "AR",
+      "PARKNAME": "Pea Ridge"
+    },
+    {
+      "UNIT_CODE": "PEFO",
+      "UNIT_NAME": "Petrified Forest National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AZ",
+      "PARKNAME": "Petrified Forest"
+    },
+    {
+      "UNIT_CODE": "WIHO",
+      "UNIT_NAME": "William Howard Taft National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "OH",
+      "PARKNAME": "William Howard Taft"
+    },
+    {
+      "UNIT_CODE": "TULE",
+      "UNIT_NAME": "Tule Lake National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "Tule Lake"
+    },
+    {
+      "UNIT_CODE": "PERL",
+      "UNIT_NAME": "Pearl Harbor National Memorial",
+      "UNIT_TYPE": "National Memorial",
+      "STATE": "HI",
+      "PARKNAME": "Pearl Harbor"
+    },
+    {
+      "UNIT_CODE": "MUWO",
+      "UNIT_NAME": "Muir Woods National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "CA",
+      "PARKNAME": "Muir Woods"
+    },
+    {
+      "UNIT_CODE": "MOJA",
+      "UNIT_NAME": "Mojave National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "CA",
+      "PARKNAME": "Mojave"
+    },
+    {
+      "UNIT_CODE": "MONO",
+      "UNIT_NAME": "Monocacy National Battlefield",
+      "UNIT_TYPE": "National Battlefield",
+      "STATE": "MD",
+      "PARKNAME": "Monocacy"
+    },
+    {
+      "UNIT_CODE": "BICY",
+      "UNIT_NAME": "Big Cypress National Preserve",
+      "UNIT_TYPE": "National Preserve",
+      "STATE": "FL",
+      "PARKNAME": "Big Cypress"
+    },
+    {
+      "UNIT_CODE": "ALFL",
+      "UNIT_NAME": "Alibates Flint Quarries National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "TX",
+      "PARKNAME": "Alibates Flint Quarries"
+    },
+    {
+      "UNIT_CODE": "LAMR",
+      "UNIT_NAME": "Lake Meredith National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "TX",
+      "PARKNAME": "Lake Meredith"
+    },
+    {
+      "UNIT_CODE": "VIIS",
+      "UNIT_NAME": "Virgin Islands National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "VI",
+      "PARKNAME": "Virgin Islands"
+    },
+    {
+      "UNIT_CODE": "JOMU",
+      "UNIT_NAME": "John Muir National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "CA",
+      "PARKNAME": "John Muir"
+    },
+    {
+      "UNIT_CODE": "BUFF",
+      "UNIT_NAME": "Buffalo National River",
+      "UNIT_TYPE": "National River",
+      "STATE": "AR",
+      "PARKNAME": "Buffalo"
+    },
+    {
+      "UNIT_CODE": "CALO",
+      "UNIT_NAME": "Cape Lookout National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "NC",
+      "PARKNAME": "Cape Lookout"
+    },
+    {
+      "UNIT_CODE": "FORA",
+      "UNIT_NAME": "Fort Raleigh National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "NC",
+      "PARKNAME": "Fort Raleigh"
+    },
+    {
+      "UNIT_CODE": "OLYM",
+      "UNIT_NAME": "Olympic National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "WA",
+      "PARKNAME": "Olympic"
+    },
+    {
+      "UNIT_CODE": "CHAT",
+      "UNIT_NAME": "Chattahoochee River National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "GA",
+      "PARKNAME": "Chattahoochee River"
+    },
+    {
+      "UNIT_CODE": "POPO",
+      "UNIT_NAME": "Poverty Point National Monument",
+      "UNIT_TYPE": "National Monument",
+      "STATE": "LA",
+      "PARKNAME": "Poverty Point"
+    },
+    {
+      "UNIT_CODE": "ASIS",
+      "UNIT_NAME": "Assateague Island National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "MD",
+      "PARKNAME": "Assateague Island"
+    },
+    {
+      "UNIT_CODE": "SAJH",
+      "UNIT_NAME": "San Juan Island National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "WA",
+      "PARKNAME": "San Juan Island"
+    },
+    {
+      "UNIT_CODE": "REDW",
+      "UNIT_NAME": "Redwood National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Redwood"
+    },
+    {
+      "UNIT_CODE": "SHEN",
+      "UNIT_NAME": "Shenandoah National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "VA",
+      "PARKNAME": "Shenandoah"
+    },
+    {
+      "UNIT_CODE": "ACAD",
+      "UNIT_NAME": "Acadia National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "ME",
+      "PARKNAME": "Acadia"
+    },
+    {
+      "UNIT_CODE": "TIMU",
+      "UNIT_NAME": "Timucuan Ecological and Historic Preserve",
+      "UNIT_TYPE": "Ecological and Historic Preserve",
+      "STATE": "FL",
+      "PARKNAME": "Timucuan"
+    },
+    {
+      "UNIT_CODE": "SAJU",
+      "UNIT_NAME": "San Juan National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PR",
+      "PARKNAME": "San Juan"
+    },
+    {
+      "UNIT_CODE": "BLUE",
+      "UNIT_NAME": "Bluestone National Scenic River",
+      "UNIT_TYPE": "National Scenic River",
+      "STATE": "WV",
+      "PARKNAME": "Bluestone"
+    },
+    {
+      "UNIT_CODE": "GARI",
+      "UNIT_NAME": "Gauley River National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "WV",
+      "PARKNAME": "Gauley River"
+    },
+    {
+      "UNIT_CODE": "LEWI",
+      "UNIT_NAME": "Lewis and Clark National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "WA",
+      "PARKNAME": "Lewis and Clark"
+    },
+    {
+      "UNIT_CODE": "NEPE",
+      "UNIT_NAME": "Nez Perce National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "WA",
+      "PARKNAME": "Nez Perce"
+    },
+    {
+      "UNIT_CODE": "LARO",
+      "UNIT_NAME": "Lake Roosevelt National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "WA",
+      "PARKNAME": "Lake Roosevelt"
+    },
+    {
+      "UNIT_CODE": "HATU",
+      "UNIT_NAME": "Harriet Tubman Underground Railroad National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MD",
+      "PARKNAME": "Harriet Tubman Underground Railroad"
+    },
+    {
+      "UNIT_CODE": "STEA",
+      "UNIT_NAME": "Steamtown National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "PA",
+      "PARKNAME": "Steamtown"
+    },
+    {
+      "UNIT_CODE": "EBLA",
+      "UNIT_NAME": "Ebey's Landing National Historical Reserve",
+      "UNIT_TYPE": "National Historical Reserve",
+      "STATE": "WA",
+      "PARKNAME": "Ebey's Landing"
+    },
+    {
+      "UNIT_CODE": "FIIS",
+      "UNIT_NAME": "Fire Island National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "NY",
+      "PARKNAME": "Fire Island"
+    },
+    {
+      "UNIT_CODE": "CHCH",
+      "UNIT_NAME": "Chickamauga and Chattanooga National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "GA",
+      "PARKNAME": "Chickamauga and Chattanooga"
+    },
+    {
+      "UNIT_CODE": "GRSM",
+      "UNIT_NAME": "Great Smoky Mountains National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "NC",
+      "PARKNAME": "Great Smoky Mountains"
+    },
+    {
+      "UNIT_CODE": "NERI",
+      "UNIT_NAME": "New River Gorge National River",
+      "UNIT_TYPE": "National River",
+      "STATE": "VA",
+      "PARKNAME": "New River Gorge"
+    },
+    {
+      "UNIT_CODE": "CAHA",
+      "UNIT_NAME": "Cape Hatteras National Seashore",
+      "UNIT_TYPE": "National Seashore",
+      "STATE": "NC",
+      "PARKNAME": "Cape Hatteras"
+    },
+    {
+      "UNIT_CODE": "LOWE",
+      "UNIT_NAME": "Lowell National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "MA",
+      "PARKNAME": "Lowell"
+    },
+    {
+      "UNIT_CODE": "BISO",
+      "UNIT_NAME": "Big South Fork National River and Recreation Area",
+      "UNIT_TYPE": "National River and Recreation Area",
+      "STATE": "TN",
+      "PARKNAME": "Big South Fork"
+    },
+    {
+      "UNIT_CODE": "DEWA",
+      "UNIT_NAME": "Delaware Water Gap National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "PA",
+      "PARKNAME": "Delaware Water Gap"
+    },
+    {
+      "UNIT_CODE": "ISRO",
+      "UNIT_NAME": "Isle Royale National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "MI",
+      "PARKNAME": "Isle Royale"
+    },
+    {
+      "UNIT_CODE": "BLRI",
+      "UNIT_NAME": "Blue Ridge Parkway",
+      "UNIT_TYPE": "Parkway",
+      "STATE": "NC",
+      "PARKNAME": "Blue Ridge Parkway"
+    },
+    {
+      "UNIT_CODE": "VICK",
+      "UNIT_NAME": "Vicksburg National Military Park",
+      "UNIT_TYPE": "National Military Park",
+      "STATE": "LA",
+      "PARKNAME": "Vicksburg"
+    },
+    {
+      "UNIT_CODE": "DELA",
+      "UNIT_NAME": "Delaware National Scenic River",
+      "UNIT_TYPE": "National Scenic River",
+      "STATE": "PA",
+      "PARKNAME": "Delaware"
+    },
+    {
+      "UNIT_CODE": "HART",
+      "UNIT_NAME": "Harriet Tubman National Historical Park",
+      "UNIT_TYPE": "National Historical Park",
+      "STATE": "NY",
+      "PARKNAME": "Harriet Tubman"
+    },
+    {
+      "UNIT_CODE": "WHSA",
+      "UNIT_NAME": "White Sands National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "NM",
+      "PARKNAME": "White Sands"
+    },
+    {
+      "UNIT_CODE": "MNRR",
+      "UNIT_NAME": "Missouri National Recreation River",
+      "UNIT_TYPE": "National Recreation River",
+      "STATE": "SD",
+      "PARKNAME": "Missouri"
+    },
+    {
+      "UNIT_CODE": "MIMI",
+      "UNIT_NAME": "Minuteman Missile National Historic Site",
+      "UNIT_TYPE": "National Historic Site",
+      "STATE": "SD",
+      "PARKNAME": "Minuteman Missile"
+    },
+    {
+      "UNIT_CODE": "INDU",
+      "UNIT_NAME": "Indiana Dunes National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "IN",
+      "PARKNAME": "Indiana Dunes"
+    },
+    {
+      "UNIT_CODE": "HOSP",
+      "UNIT_NAME": "Hot Springs National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "AR",
+      "PARKNAME": "Hot Springs"
+    },
+    {
+      "UNIT_CODE": "GWMP",
+      "UNIT_NAME": "George Washington Memorial Parkway",
+      "UNIT_TYPE": "National Parkway",
+      "STATE": "VA",
+      "PARKNAME": "George Washington"
+    },
+    {
+      "UNIT_CODE": "DEVA",
+      "UNIT_NAME": "Death Valley National Park",
+      "UNIT_TYPE": "National Park",
+      "STATE": "CA",
+      "PARKNAME": "Death Valley"
+    },
+    {
+      "UNIT_CODE": "SLBE",
+      "UNIT_NAME": "Sleeping Bear Dunes National Lakeshore",
+      "UNIT_TYPE": "National Lakeshore",
+      "STATE": "MI",
+      "PARKNAME": "Sleeping Bear Dunes"
+    },
+    {
+      "UNIT_CODE": "RICH",
+      "UNIT_NAME": "Richmond National Battlefield Park",
+      "UNIT_TYPE": "National Battlefield Park",
+      "STATE": "VA",
+      "PARKNAME": "Richmond"
+    },
+    {
+      "UNIT_CODE": "APPA",
+      "UNIT_NAME": "Appalachian National Scenic Trail",
+      "UNIT_TYPE": "National Scenic Trail",
+      "STATE": "ME",
+      "PARKNAME": "Appalachian"
+    },
+    {
+      "UNIT_CODE": "OBRI",
+      "UNIT_NAME": "Obed Wild and Scenic River",
+      "UNIT_TYPE": "Wild and Scenic River",
+      "STATE": "TN",
+      "PARKNAME": "Obed"
+    },
+    {
+      "UNIT_CODE": "SAMO",
+      "UNIT_NAME": "Santa Monica Mountains National Recreation Area",
+      "UNIT_TYPE": "National Recreation Area",
+      "STATE": "CA",
+      "PARKNAME": "Santa Monica Mountains"
+    }
+  ]
+}

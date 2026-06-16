@@ -1,0 +1,224 @@
+{
+  "generated": "2026-06-16T18:27:40.750Z",
+  "recordCount": 4264,
+  "catalogBrandIds": [
+    "bucees",
+    "quiktrip",
+    "racetrac",
+    "wawa",
+    "sheetz",
+    "loves",
+    "pilot",
+    "flyingj"
+  ],
+  "byBrand": {
+    "sheetz": 679,
+    "pilot": 470,
+    "quiktrip": 988,
+    "wawa": 744,
+    "flyingj": 200,
+    "loves": 645,
+    "racetrac": 465,
+    "pilot_flyingj": 15,
+    "bucees": 58
+  },
+  "byState": {
+    "NY": 114,
+    "VA": 156,
+    "AZ": 190,
+    "NC": 227,
+    "NJ": 291,
+    "CA": 66,
+    "MN": 18,
+    "MI": 40,
+    "DE": 54,
+    "WV": 9,
+    "FL": 427,
+    "PA": 243,
+    "GA": 353,
+    "OH": 165,
+    "KS": 128,
+    "TX": 485,
+    "AL": 74,
+    "IN": 56,
+    "MD": 225,
+    "TN": 48,
+    "IA": 56,
+    "WY": 9,
+    "OK": 183,
+    "CO": 35,
+    "MO": 86,
+    "NM": 43,
+    "KY": 39,
+    "OR": 18,
+    "IL": 177,
+    "WA": 13,
+    "LA": 81,
+    "MA": 3,
+    "UT": 30,
+    "MS": 7,
+    "SC": 9,
+    "NE": 10,
+    "MT": 20,
+    "AR": 47,
+    "ID": 13,
+    "CT": 3,
+    "ND": 5,
+    "SD": 6,
+    "NH": 1,
+    "NV": 1
+  },
+  "suppressedCount": 1719,
+  "suppressedSample": [
+    {
+      "kept": "FUEL-FLYINGJ-IN-flying-j-941981026",
+      "dropped": "FUEL-FLYINGJ-IN-flying-j-941981030",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-KY-pilot-1891130199",
+      "dropped": "FUEL-PILOT-KY-pilot-1891130460",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-WA-pilot-2100738508",
+      "dropped": "FUEL-PILOT-WA-pilot-2338730114",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-IL-love-s-2091337927",
+      "dropped": "FUEL-LOVES-IL-love-s-2338775147",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-KS-love-s-1881267062",
+      "dropped": "FUEL-LOVES-KS-love-s-2341493516",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-OK-love-s-1608318103",
+      "dropped": "FUEL-LOVES-OK-love-s-2351384153",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-CO-love-s-1426720590",
+      "dropped": "FUEL-LOVES-CO-gunnison-tire-auto-2394225179",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-FLYINGJ-MN-flying-j-597551581",
+      "dropped": "FUEL-FLYINGJ-MN-flying-j-2395415489",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-FLYINGJ-KY-flying-j-fuel-center-2405613424",
+      "dropped": "FUEL-FLYINGJ-KY-flying-j-fuel-center-2405613425",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-WY-pilot-travel-center-1002844680",
+      "dropped": "FUEL-PILOT-WY-pilot-2441943128",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-FLYINGJ-MN-flying-j-2449961873",
+      "dropped": "FUEL-FLYINGJ-MN-flying-j-2449961903",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-FLYINGJ-IA-conoco-2535915658",
+      "dropped": "FUEL-FLYINGJ-IA-conoco-2535915662",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-OK-pilot-2555053467",
+      "dropped": "FUEL-PILOT-OK-pilot-2555053468",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-CA-pilot-2679753643",
+      "dropped": "FUEL-PILOT-CA-pilot-truck-stop-2679753644",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-NC-pilot-2683531552",
+      "dropped": "FUEL-PILOT-NC-pilot-2683531584",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-IA-pilot-947850877",
+      "dropped": "FUEL-PILOT-IA-pilot-2689261965",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-FLYINGJ-MN-flying-j-travel-plaza-1344208459",
+      "dropped": "FUEL-FLYINGJ-MN-flying-j-travel-center-2713422670",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-MI-pilot-635241801",
+      "dropped": "FUEL-PILOT-MI-pilot-2726222856",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-IN-pilot-2727971891",
+      "dropped": "FUEL-PILOT-IN-pilot-2727971893",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-OK-love-s-3408987911",
+      "dropped": "FUEL-LOVES-OK-love-s-3408987912",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-MI-love-s-4108451495",
+      "dropped": "FUEL-LOVES-MI-love-s-4108451498",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-LA-pilot-4169753065",
+      "dropped": "FUEL-PILOT-LA-pilot-4169753069",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-CO-love-s-trucks-4182375319",
+      "dropped": "FUEL-LOVES-CO-love-s-cars-4182375326",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-IA-love-s-947850836",
+      "dropped": "FUEL-LOVES-IA-love-s-4222961596",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-FLYINGJ-AZ-flying-j-4719302823",
+      "dropped": "FUEL-FLYINGJ-AZ-flying-j-4719302824",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-AZ-pilot-4719302865",
+      "dropped": "FUEL-PILOT-AZ-pilot-4719302866",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-AZ-pilot-4719302865",
+      "dropped": "FUEL-PILOT-AZ-pilot-4719302867",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-PILOT-MI-pilot-2379543839",
+      "dropped": "FUEL-PILOT-MI-pilot-5031680668",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-LOVES-NC-love-s-6616599585",
+      "dropped": "FUEL-LOVES-NC-love-s-6616599586",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-SHEETZ-MD-sheetz-2207525388",
+      "dropped": "FUEL-SHEETZ-MD-sheetz-7194078158",
+      "reason": "same-brand-near"
+    }
+  ]
+}

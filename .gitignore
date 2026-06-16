@@ -1,0 +1,18 @@
+# Secrets
+.env
+google-routes-config.js
+
+# Dependencies and local caches
+node_modules/
+.cache/
+vendor/
+
+# OSM downloads (multi-GB)
+osm-pbf/
+
+# Rebuildable ingest caches
+*-ingest/
+
+# Logs and backups
+*.log
+*.pre-filter-backup.json

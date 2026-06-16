@@ -1,0 +1,24 @@
+{
+  "generated": "2026-06-04T16:27:04.980Z",
+  "filterEnabled": true,
+  "filterVersion": 1,
+  "total": 36329,
+  "displayTier": {
+    "default": 4970,
+    "excluded": 11120,
+    "qa": 20239
+  },
+  "excludeReason": {
+    "generic-osm-name": 10495,
+    "vague-name": 512,
+    "cluster-duplicate": 16,
+    "placeholder": 97
+  },
+  "clusterDropped": 16,
+  "roadDistance": {
+    "null": 36329,
+    "lte800": 0,
+    "lte1200": 0,
+    "gt1200": 0
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "generated": "2026-06-10T14:59:10.420Z",
+  "recordCount": 164,
+  "catalogBrandIds": [
+    "pilot",
+    "flyingj",
+    "irving_bigstop",
+    "onroute",
+    "petro_pass",
+    "husky_travel"
+  ],
+  "byBrand": {
+    "petro_pass": 90,
+    "flyingj": 43,
+    "pilot_flyingj": 1,
+    "husky_travel": 6,
+    "irving_bigstop": 4,
+    "onroute": 20
+  },
+  "byState": {
+    "ON": 54,
+    "NB": 6,
+    "AB": 63,
+    "BC": 14,
+    "NU": 4,
+    "QC": 9,
+    "MB": 9,
+    "NT": 1,
+    "SK": 4
+  },
+  "suppressedCount": 24,
+  "suppressedSample": [
+    {
+      "kept": "FUEL-CA-PILOT-ON-pilot-4351271365",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-4351271372",
+      "reason": "pilot-fj-merge"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-4149832260",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-12648062772",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-112581235",
+      "dropped": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-and-blue-canoe-restauran-112581241",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-174528241",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5362090346",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-183248946",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-129468528",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-195507992",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-195821582",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-230499047",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-brooks-2393036695",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230869938",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-4558645789",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230870344",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-1450392033",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-243567682",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-NU-flying-j-1449137107",
+      "dropped": "FUEL-CA-FLYINGJ-NU-flying-j-travel-center-296974568",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-10271970972",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358968546",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358971488",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-358971489",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5056486474",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-480751979",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-486119828",
+      "dropped": "FUEL-CA-FLYINGJ-BC-flying-j-486119835",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-438542149",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-503663315",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-527085036",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-1450392049",
+      "dropped": "FUEL-CA-PETRO_PASS-AB-petro-pass-686971209",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-PETRO_PASS-AB-petro-pass-298735753",
+      "dropped": "FUEL-CA-PETRO_PASS-AB-petro-pass-968211070",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-PETRO_PASS-AB-petro-pass-968573338",
+      "dropped": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-968573352",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-5235136200",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1320728988",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-6403402956",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1320729040",
+      "reason": "same-brand-near"
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-9225535870",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-1323214543",
+      "reason": "same-brand-near"
+    }
+  ]
+}

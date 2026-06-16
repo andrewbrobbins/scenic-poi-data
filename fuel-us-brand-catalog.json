@@ -1,0 +1,96 @@
+{
+  "version": 1,
+  "note": "Tier A travel-stop brands for fuel-us static database. OSM match on brand, operator, and name.",
+  "brands": [
+    {
+      "id": "bucees",
+      "displayName": "Buc-ee's",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "strict": true,
+        "brand": ["Buc-ee's", "Buc-ees", "Bucees", "Buc-ee's"],
+        "operator": ["Buc-ee's"],
+        "nameContains": ["buc-ee", "bucee", "buc ee's"]
+      }
+    },
+    {
+      "id": "quiktrip",
+      "displayName": "QuikTrip",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["QuikTrip", "QT", "Quick Trip", "Quik Trip"],
+        "operator": ["QuikTrip", "QT"],
+        "nameContains": ["quiktrip", "quick trip"]
+      }
+    },
+    {
+      "id": "racetrac",
+      "displayName": "RaceTrac",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["RaceTrac", "Race Trac", "RaceTrac"],
+        "operator": ["RaceTrac"],
+        "nameContains": ["racetrac", "race trac"]
+      }
+    },
+    {
+      "id": "wawa",
+      "displayName": "Wawa",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Wawa"],
+        "operator": ["Wawa"],
+        "nameContains": ["wawa"]
+      }
+    },
+    {
+      "id": "sheetz",
+      "displayName": "Sheetz",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Sheetz"],
+        "operator": ["Sheetz"],
+        "nameContains": ["sheetz"]
+      }
+    },
+    {
+      "id": "loves",
+      "displayName": "Love's",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "brand": ["Love's", "Loves", "Love's Travel Stop", "Love's Country Stores", "Love's Travel Shops"],
+        "operator": ["Love's", "Loves"],
+        "nameContains": ["love's", "loves travel", "love s travel", "loves country"]
+      }
+    },
+    {
+      "id": "pilot",
+      "displayName": "Pilot",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "brand": ["Pilot", "Pilot Travel Center", "Pilot Travel Centers", "Pilot Flying J"],
+        "operator": ["Pilot", "Pilot Travel Centers"],
+        "nameContains": ["pilot travel", "pilot #", "pilot flying j"]
+      }
+    },
+    {
+      "id": "flyingj",
+      "displayName": "Flying J",
+      "tier": "A",
+      "type": "travel_center",
+      "osm": {
+        "brand": ["Flying J", "Flying J Travel Plaza", "Flying J Travel Center"],
+        "operator": ["Flying J"],
+        "nameContains": ["flying j"]
+      },
+      "mergeWith": "pilot"
+    }
+  ]
+}

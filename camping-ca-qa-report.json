@@ -1,0 +1,204 @@
+{
+  "generated": "2026-06-05T06:13:22.852Z",
+  "recordCount": 9970,
+  "embedEligible": 9934,
+  "byManager": {
+    "Parks Canada": 8711,
+    "Provincial": 1259
+  },
+  "byState": {
+    "AB": 5453,
+    "BC": 713,
+    "NB": 566,
+    "NL": 981,
+    "ON": 830,
+    "QC": 553,
+    "NS": 350,
+    "MB": 514,
+    "NU": 6,
+    "SK": 4
+  },
+  "suppressedCount": 31,
+  "suppressedSample": [
+    {
+      "kept": "CG-PC-prn-081-2445",
+      "dropped": "CG-CA-OSM-BC-green-point-campground-304004377",
+      "step": "02-osm",
+      "name": "Green Point Campground"
+    },
+    {
+      "kept": "CG-PC-koonp-marble-canyon-campsite-6164",
+      "dropped": "CG-CA-OSM-AB-marble-canyon-campground-237602636",
+      "step": "02-osm",
+      "name": "Marble Canyon Campground"
+    },
+    {
+      "kept": "CG-PC-http-www-redstreak-campsite-6119",
+      "dropped": "CG-CA-OSM-AB-redstreak-campground-354201266",
+      "step": "02-osm",
+      "name": "Redstreak Campground"
+    },
+    {
+      "kept": "CG-PC-koonp-mcleod-meadows-campsite-6124",
+      "dropped": "CG-CA-OSM-AB-mcleod-meadows-campground-355364795",
+      "step": "02-osm",
+      "name": "McLeod Meadows Campground"
+    },
+    {
+      "kept": "CG-PC-ynp-kicking-horse-campsite-6113",
+      "dropped": "CG-CA-OSM-AB-kicking-horse-campground-715592410",
+      "step": "02-osm",
+      "name": "Kicking Horse Campground"
+    },
+    {
+      "kept": "CG-PC-https-pa-castle-mountain-161",
+      "dropped": "CG-CA-OSM-AB-closed-castle-mountain-campground-769774654",
+      "step": "02-osm",
+      "name": "(Closed) Castle Mountain Campground"
+    },
+    {
+      "kept": "CG-PC-https-ww-snowforest-campground-7857",
+      "dropped": "CG-CA-OSM-AB-snowforest-campground-1115789372",
+      "step": "02-osm",
+      "name": "Snowforest Campground"
+    },
+    {
+      "kept": "CG-PC-ban-silverhorn-creek-campsite-6171",
+      "dropped": "CG-CA-OSM-AB-silverhorn-creek-campground-18075245",
+      "step": "02-osm",
+      "name": "Silverhorn Creek Campground"
+    },
+    {
+      "kept": "CG-PC-http-www-lake-louise-tent-campsite-6160",
+      "dropped": "CG-CA-OSM-AB-lake-louise-softsided-campground-18213509",
+      "step": "02-osm",
+      "name": "Lake Louise Softsided Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-whistlers-3976",
+      "dropped": "CG-CA-OSM-AB-whistlers-campground-75464706",
+      "step": "02-osm",
+      "name": "Whistlers Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-pocahontas-3982",
+      "dropped": "CG-CA-OSM-AB-miette-campground-75477232",
+      "step": "02-osm",
+      "name": "Miette Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-overflow-5711",
+      "dropped": "CG-CA-OSM-AB-snaring-river-overflow-campground-366688874",
+      "step": "02-osm",
+      "name": "Snaring River Overflow Campground"
+    },
+    {
+      "kept": "CG-PC-unknown-snaring-3991",
+      "dropped": "CG-CA-OSM-AB-snaring-river-campground-366688875",
+      "step": "02-osm",
+      "name": "Snaring River Campground"
+    },
+    {
+      "kept": "CG-PC-unknown-wilcox-4021",
+      "dropped": "CG-CA-OSM-AB-wilcox-creek-campground-613339518",
+      "step": "02-osm",
+      "name": "Wilcox Creek Campground"
+    },
+    {
+      "kept": "CG-PC-unknown-columbia-icefield-3974",
+      "dropped": "CG-CA-OSM-AB-columbia-icefield-campground-733428975",
+      "step": "02-osm",
+      "name": "Columbia Icefield Campground"
+    },
+    {
+      "kept": "CG-PC-ban-rampart-creek-campsite-6120",
+      "dropped": "CG-CA-OSM-AB-rampart-creek-campground-17959123",
+      "step": "02-osm",
+      "name": "Rampart Creek Campground"
+    },
+    {
+      "kept": "CG-PC-unknown-honeymoon-4003",
+      "dropped": "CG-CA-OSM-AB-honeymoon-lake-campground-20223463",
+      "step": "02-osm",
+      "name": "Honeymoon Lake Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-wabasso-3980",
+      "dropped": "CG-CA-OSM-AB-wabasso-campground-20602471",
+      "step": "02-osm",
+      "name": "Wabasso Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-wapiti-3954",
+      "dropped": "CG-CA-OSM-AB-wapiti-campground-20657838",
+      "step": "02-osm",
+      "name": "Wapiti Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-whistlers-3976",
+      "dropped": "CG-CA-OSM-AB-whistlers-campground-75464706",
+      "step": "02-osm",
+      "name": "Whistlers Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-pocahontas-3982",
+      "dropped": "CG-CA-OSM-AB-miette-campground-75477232",
+      "step": "02-osm",
+      "name": "Miette Campground"
+    },
+    {
+      "kept": "CG-PC-koonp-marble-canyon-campsite-6164",
+      "dropped": "CG-CA-OSM-AB-marble-canyon-campground-237602636",
+      "step": "02-osm",
+      "name": "Marble Canyon Campground"
+    },
+    {
+      "kept": "CG-PC-http-www-redstreak-campsite-6119",
+      "dropped": "CG-CA-OSM-AB-redstreak-campground-354201266",
+      "step": "02-osm",
+      "name": "Redstreak Campground"
+    },
+    {
+      "kept": "CG-PC-koonp-mcleod-meadows-campsite-6124",
+      "dropped": "CG-CA-OSM-AB-mcleod-meadows-campground-355364795",
+      "step": "02-osm",
+      "name": "McLeod Meadows Campground"
+    },
+    {
+      "kept": "CG-PC-jnp-overflow-5711",
+      "dropped": "CG-CA-OSM-AB-snaring-river-overflow-campground-366688874",
+      "step": "02-osm",
+      "name": "Snaring River Overflow Campground"
+    },
+    {
+      "kept": "CG-PC-unknown-wilcox-4021",
+      "dropped": "CG-CA-OSM-AB-wilcox-creek-campground-613339518",
+      "step": "02-osm",
+      "name": "Wilcox Creek Campground"
+    },
+    {
+      "kept": "CG-PC-unknown-columbia-icefield-3974",
+      "dropped": "CG-CA-OSM-AB-columbia-icefield-campground-733428975",
+      "step": "02-osm",
+      "name": "Columbia Icefield Campground"
+    },
+    {
+      "kept": "CG-PC-https-pa-castle-mountain-161",
+      "dropped": "CG-CA-OSM-AB-closed-castle-mountain-campground-769774654",
+      "step": "02-osm",
+      "name": "(Closed) Castle Mountain Campground"
+    },
+    {
+      "kept": "CG-PC-https-ww-snowforest-campground-7857",
+      "dropped": "CG-CA-OSM-AB-snowforest-campground-1115789372",
+      "step": "02-osm",
+      "name": "Snowforest Campground"
+    },
+    {
+      "kept": "CG-PC-fnp-chignecto-section-a-2631",
+      "dropped": "CG-CA-OSM-NB-chignecto-campground-73564964",
+      "step": "02-osm",
+      "name": "Chignecto Campground"
+    }
+  ]
+}

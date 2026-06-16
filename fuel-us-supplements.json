@@ -1,0 +1,413 @@
+{
+  "generated": "2026-06-09T16:31:28.543Z",
+  "source": "Buc-ee's public store list + Nominatim geocode",
+  "recordCount": 15,
+  "skippedCount": 40,
+  "records": [
+    {
+      "id": "FUEL-BUCEES-TX-luling-10070-west-ih-10-supp",
+      "name": "Buc-ee's — Luling",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 29.650786,
+      "lon": -97.592626,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-waller-40900-us-hwy-290-bypass-supp",
+      "name": "Buc-ee's — Waller",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 30.0720458,
+      "lon": -95.9317167,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-bastrop-1700-highway-71-east-supp",
+      "name": "Buc-ee's — Bastrop",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 30.1076047,
+      "lon": -97.3062887,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-wharton-10484-us-59-road-supp",
+      "name": "Buc-ee's — Wharton",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 29.3255262,
+      "lon": -96.1236719,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-richmond-1243-crabb-river-rd-supp",
+      "name": "Buc-ee's — Richmond",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 29.5525093,
+      "lon": -95.6970407,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-terrell-506-w-ih-20-supp",
+      "name": "Buc-ee's — Terrell",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 32.7166907,
+      "lon": -96.3218226,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-fort-worth-15901-n-freeway-supp",
+      "name": "Buc-ee's — Fort Worth",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 33.023874,
+      "lon": -97.2781874,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-royse-city-5005-e-interstate-30-supp",
+      "name": "Buc-ee's — Royse City",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 32.979244,
+      "lon": -96.2952578,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-denton-2800-s-interstate-35-e-supp",
+      "name": "Buc-ee's — Denton",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 33.179311,
+      "lon": -97.1025657,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TX-katy-27700-katy-fwy-supp",
+      "name": "Buc-ee's — Katy",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TX",
+      "lat": 29.7787125,
+      "lon": -95.8475338,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-AL-robertsdale-20403-county-rd-68-supp",
+      "name": "Buc-ee's — Robertsdale",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "AL",
+      "lat": 30.634192,
+      "lon": -87.6767599,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-FL-saint-augustine-200-world-commerce-pkwy-supp",
+      "name": "Buc-ee's — Saint Augustine",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "FL",
+      "lat": 29.9837774,
+      "lon": -81.4642177,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-FL-daytona-beach-2330-gateway-north-drive-supp",
+      "name": "Buc-ee's — Daytona Beach",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "FL",
+      "lat": 29.224026,
+      "lon": -81.101037,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-TN-crossville-2045-genesis-road-supp",
+      "name": "Buc-ee's — Crossville",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "TN",
+      "lat": 35.9809457,
+      "lon": -85.0163396,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    },
+    {
+      "id": "FUEL-BUCEES-AL-athens-2328-lindsay-lane-south-supp",
+      "name": "Buc-ee's — Athens",
+      "brand": "Buc-ee's",
+      "brandId": "bucees",
+      "brandTier": "A",
+      "type": "travel_center",
+      "state": "AL",
+      "lat": 34.7292738,
+      "lon": -86.9324797,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "bucees-public-list"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "url": "https://www.buc-ees.com/"
+    }
+  ]
+}

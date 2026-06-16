@@ -1,0 +1,9 @@
+{
+  "name": "scenic-poi-data",
+  "private": true,
+  "type": "module",
+  "description": "OSM POI build pipelines and static map bundles for scenic-router",
+  "dependencies": {
+    "osm-pbf-parser": "^2.0.0"
+  }
+}

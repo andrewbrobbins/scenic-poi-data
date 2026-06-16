@@ -1,0 +1,6463 @@
+{
+  "generated": "2026-06-10T14:59:10.416Z",
+  "country": "CA",
+  "source": "OpenStreetMap PBF + fuel-ca-brand-catalog",
+  "recordCount": 164,
+  "records": [
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-419400151",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.503615800000006,
+      "lon": -79.6192965,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 419400151
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/419400151",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-438007673",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.8429142,
+      "lon": -79.3570526,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 438007673
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/438007673",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-NB-petro-pass-833420459",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NB",
+      "lat": 47.037717900000004,
+      "lon": -67.77069390000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 833420459
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/833420459",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-1030273382",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.1513836,
+      "lon": -114.0074634,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 1030273382
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/1030273382",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-1158847516",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.007971000000005,
+      "lon": -113.99994500000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 1158847516
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/1158847516",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-1422283346",
+      "name": "Petro PaSS",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 50.6731708,
+      "lon": -120.29436720000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 1422283346
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/1422283346",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-NU-flying-j-1449137107",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "NU",
+      "lat": 52.195790300000006,
+      "lon": -106.6678753,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 1449137107
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/1449137107",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-1450392033",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 53.339465600000004,
+      "lon": -113.5426781,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 1450392033
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/1450392033",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-1450392049",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.336964,
+      "lon": -113.54333260000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 1450392049
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/1450392049",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-2040072117",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.4923129,
+      "lon": -112.04543280000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2040072117
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2040072117",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-2047332635",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.680179100000004,
+      "lon": -79.68420750000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2047332635
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2047332635",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-2217380660",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.804464200000005,
+      "lon": -79.5202131,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2217380660
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2217380660",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-2232090037",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.530108600000005,
+      "lon": -79.8851266,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2232090037
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2232090037",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-brooks-2393036695",
+      "name": "Flying J - Brooks",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 50.572624600000005,
+      "lon": -111.86802580000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2393036695
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j brooks",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2393036695",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-2476128273",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 49.0229611,
+      "lon": -88.295088,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2476128273
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2476128273",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-2987607062",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 47.193266,
+      "lon": -70.2400272,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 2987607062
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/2987607062",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-fox-creek-3181898661",
+      "name": "Petro-Pass Fox Creek",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 54.39305900000001,
+      "lon": -116.800002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 3181898661
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass fox creek",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/3181898661",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-whitecourt-downtown-3183787761",
+      "name": "Petro-Pass Whitecourt Downtown",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 54.145617,
+      "lon": -115.712776,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 3183787761
+      },
+      "osmTags": {
+        "brand": "Petro-Pass Card Lock",
+        "operator": "Max Fuel Distributors"
+      },
+      "searchBlob": "petro pass card lock max fuel distributors petro pass whitecourt downtown",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/3183787761",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-3382674448",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.7316561,
+      "lon": -79.6785179,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 3382674448
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/3382674448",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-4149832260",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 43.8292706,
+      "lon": -79.04877570000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4149832260
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4149832260",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-NU-petro-pass-4275639288",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NU",
+      "lat": 52.08705330000001,
+      "lon": -106.6587793,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4275639288
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4275639288",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-4322563736",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 48.59542510000001,
+      "lon": -68.2058882,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4322563736
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4322563736",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PILOT-ON-pilot-4351271365",
+      "name": "Pilot",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 48.6037546,
+      "lon": -88.7819898,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4351271365
+      },
+      "osmTags": {
+        "brand": "Pilot",
+        "operator": ""
+      },
+      "searchBlob": "pilot pilot",
+      "mapFlags": [
+        "PILOT_FJ_CLUSTER"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4351271365",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-4377375155",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 51.010755100000004,
+      "lon": -114.00316720000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4377375155
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4377375155",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-4415738044",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 49.14884970000001,
+      "lon": -122.93968900000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4415738044
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro Canada"
+      },
+      "searchBlob": "petro petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4415738044",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-4471714893",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 50.998100400000006,
+      "lon": -113.96025560000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4471714893
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4471714893",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-NU-petro-pass-4484822095",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NU",
+      "lat": 53.200994200000004,
+      "lon": -105.73714160000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4484822095
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4484822095",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-4558645789",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 50.948831600000005,
+      "lon": -113.97942130000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4558645789
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4558645789",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-cardlock-4821799130",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.257560700000006,
+      "lon": -79.78236620000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4821799130
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4821799130",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-4826082221",
+      "name": "Petro pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 46.1042476,
+      "lon": -72.2367811,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4826082221
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4826082221",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-4943295721",
+      "name": "Flying J Cardlock",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 49.6836227,
+      "lon": -112.77778490000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4943295721
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "flying j cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4943295721",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-truck-stop-5043132466",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.094771,
+      "lon": -111.78357100000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5043132466
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5043132466",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-5056486474",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 46.5569703,
+      "lon": -84.3185452,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5056486474
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5056486474",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-cardlock-5098860805",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 49.6834539,
+      "lon": -125.00135500000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5098860805
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5098860805",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 42.26249060000001,
+      "lon": -82.46135360000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5124774106
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5124774106",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-MB-petro-pass-5198337730",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "MB",
+      "lat": 49.41830040000001,
+      "lon": -91.6704744,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5198337730
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5198337730",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-MB-petro-pass-5212486510",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "MB",
+      "lat": 50.225887300000004,
+      "lon": -99.47906780000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5212486510
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5212486510",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-5222099686",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 55.43249600000001,
+      "lon": -116.50760700000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5222099686
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5222099686",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-5235136200",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 54.1371862,
+      "lon": -115.6955578,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5235136200
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5235136200",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-5238127585",
+      "name": "Flying J Cardlock",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 53.5909447,
+      "lon": -116.3861346,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5238127585
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "flying j cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5238127585",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-cardlock-5272712757",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 52.994159700000004,
+      "lon": -122.50626000000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5272712757
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5272712757",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-5277779606",
+      "name": "Flying J Cardlock",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 53.2856924,
+      "lon": -110.03538180000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5277779606
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5277779606",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-HUSKY_TRAVEL-AB-husky-travel-center-5278015760",
+      "name": "Husky Travel Center",
+      "brand": "Husky Travel Center",
+      "brandId": "husky_travel",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 50.02479,
+      "lon": -110.69961180000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5278015760
+      },
+      "osmTags": {
+        "brand": "Esso",
+        "operator": "Husky"
+      },
+      "searchBlob": "esso husky husky travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5278015760",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-5303379774",
+      "name": "Irving Big Stop",
+      "brand": "Irving Big Stop",
+      "brandId": "irving_bigstop",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NB",
+      "lat": 47.0770136,
+      "lon": -67.7672869,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "yes"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5303379774
+      },
+      "osmTags": {
+        "brand": "Irving",
+        "operator": ""
+      },
+      "searchBlob": "irving irving big stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5303379774",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-5324308862",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 45.196285700000004,
+      "lon": -73.4488733,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5324308862
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5324308862",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-5362090346",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 43.3347947,
+      "lon": -80.43282970000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5362090346
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5362090346",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-5449415226",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 49.857617000000005,
+      "lon": -119.5926225,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 5449415226
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/5449415226",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-6076970779",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 45.4121546,
+      "lon": -75.6122084,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 6076970779
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/6076970779",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-6403402956",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 50.0552762,
+      "lon": -110.7345513,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 6403402956
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/6403402956",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-6415245496",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.623137500000006,
+      "lon": -79.5391515,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 6415245496
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": "Petro Canada"
+      },
+      "searchBlob": "petro canada petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/6415245496",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petropass-red-deer-6848388590",
+      "name": "Petropass-Red Deer",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.263589800000005,
+      "lon": -113.82224470000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 6848388590
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petropass red deer",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/6848388590",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-7020603176",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 42.9832703,
+      "lon": -82.32660770000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 7020603176
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/7020603176",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-truck-stop-7529366206",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.371519000000006,
+      "lon": -79.67531380000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 7529366206
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro petro canada petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/7529366206",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-truck-stop-7820763285",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.5608238,
+      "lon": -80.97009650000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 7820763285
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/7820763285",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-8048028973",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 45.395646000000006,
+      "lon": -71.9912396,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 8048028973
+      },
+      "osmTags": {
+        "brand": "Petro-Pass",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro pass petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/8048028973",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-MB-petro-pass-9127699248",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "MB",
+      "lat": 51.1556063,
+      "lon": -100.06084200000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9127699248
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9127699248",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-truck-stop-9162162155",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 54.5145848,
+      "lon": -128.54168800000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9162162155
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9162162155",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-canada-petro-pass-truck-stop-9162198294",
+      "name": "Petro-Canada Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 54.513839000000004,
+      "lon": -128.6232476,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9162198294
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro canada petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9162198294",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-truck-stop-9171621858",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 52.1650344,
+      "lon": -122.1622978,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9171621858
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9171621858",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-9225535870",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 43.653502800000005,
+      "lon": -79.6488618,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9225535870
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9225535870",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-9236140133",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.277697100000005,
+      "lon": -78.3372253,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9236140133
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9236140133",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-MB-petro-pass-9284334824",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "MB",
+      "lat": 49.826364600000005,
+      "lon": -99.9612996,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9284334824
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9284334824",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-9495546042",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 45.8249835,
+      "lon": -73.3962506,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9495546042
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro-Pass"
+      },
+      "searchBlob": "petro petro pass petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9495546042",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-9780366172",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.3707026,
+      "lon": -114.908809,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 9780366172
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/9780366172",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-10271970972",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 45.138997200000006,
+      "lon": -74.4958905,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 10271970972
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/10271970972",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-10823057401",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 45.48116160000001,
+      "lon": -75.63943660000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 10823057401
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/10823057401",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-11412835954",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.802806700000005,
+      "lon": -79.66678080000001,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 11412835954
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/11412835954",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-NT-petro-pass-11992497758",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NT",
+      "lat": 60.63812720000001,
+      "lon": -135.00130130000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 11992497758
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/11992497758",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-12012858278",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.70627090000001,
+      "lon": -113.1964683,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 12012858278
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/12012858278",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-12013170559",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 49.79202360000001,
+      "lon": -112.12800680000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 12013170559
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/12013170559",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-SK-flying-j-truckstop-12167171501",
+      "name": "Flying J Truckstop",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "SK",
+      "lat": 50.4645184,
+      "lon": -104.5628367,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 12167171501
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "flying j truckstop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/12167171501",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-12452467256",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 51.0747865,
+      "lon": -114.00487000000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 12452467256
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/12452467256",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-cardlock-12585942004",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.7024023,
+      "lon": -79.79887110000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 12585942004
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/12585942004",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-12673402010",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.741442000000006,
+      "lon": -79.69014910000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 12673402010
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/12673402010",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-13291217001",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.0045884,
+      "lon": -112.8075838,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 13291217001
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/13291217001",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-13318563681",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.706517600000005,
+      "lon": -113.25435470000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 13318563681
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/13318563681",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-13318585198",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.314262500000005,
+      "lon": -113.83989530000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 13318585198
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/13318585198",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-canada-petro-pass-cardlock-13610926580",
+      "name": "Petro-Canada Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 56.24754550000001,
+      "lon": -120.87439820000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 13610926580
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro canada petro canada petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/13610926580",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-highway-881-petro-pass-13858565746",
+      "name": "Highway #881 Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.67047290000001,
+      "lon": -111.3131575,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 13858565746
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada highway 881 petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/13858565746",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-MB-petro-canada-petro-pass-94387218",
+      "name": "Petro-Canada Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "MB",
+      "lat": 49.18561746,
+      "lon": -97.93454396000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 94387218
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/94387218",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-112581235",
+      "name": "Irving Big Stop",
+      "brand": "Irving Big Stop",
+      "brandId": "irving_bigstop",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NB",
+      "lat": 45.85072904000001,
+      "lon": -66.56091210000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 112581235
+      },
+      "osmTags": {
+        "brand": "Irving",
+        "operator": ""
+      },
+      "searchBlob": "irving irving big stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/112581235",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-NU-petro-pass-112865028",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NU",
+      "lat": 51.19403172,
+      "lon": -102.44948303999999,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 112865028
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/112865028",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-129468528",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 42.93317494444445,
+      "lon": -81.17486304444445,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 129468528
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/129468528",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 53.56754158,
+      "lon": -113.31768072399998,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 162145596
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/162145596",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-HUSKY_TRAVEL-AB-golden-husky-travel-centre-166907047",
+      "name": "Golden Husky Travel Centre",
+      "brand": "Husky Travel Center",
+      "brandId": "husky_travel",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.312264311111115,
+      "lon": -116.97036171111114,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 166907047
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "golden husky travel centre",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/166907047",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-HUSKY_TRAVEL-ON-london-husky-travel-centre-esso-195507129",
+      "name": "London Husky Travel Centre Esso",
+      "brand": "Husky Travel Center",
+      "brandId": "husky_travel",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 42.944028464000006,
+      "lon": -81.10596396000003,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 195507129
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "london husky travel centre esso",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/195507129",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-HUSKY_TRAVEL-AB-husky-travel-centre-217074584",
+      "name": "Husky Travel Centre",
+      "brand": "Husky Travel Center",
+      "brandId": "husky_travel",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.08061464285714,
+      "lon": -113.99949195714287,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 217074584
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "husky travel centre",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/217074584",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-225361942",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 49.39719918571429,
+      "lon": -82.36890364285716,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 225361942
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/225361942",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230871702",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 50.990222840000015,
+      "lon": -113.97475016000001,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 230871702
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/230871702",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230872828",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 52.28730201666667,
+      "lon": -113.8488402,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 230872828
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/230872828",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-truck-stop-238205282",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.088197675,
+      "lon": -114.47492956250002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 238205282
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/238205282",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-cardlock-238465968",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 46.43670886000001,
+      "lon": -80.97432405999999,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 238465968
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/238465968",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-HUSKY_TRAVEL-SK-regina-husky-travel-center-268957889",
+      "name": "Regina Husky Travel Center",
+      "brand": "Husky Travel Center",
+      "brandId": "husky_travel",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "SK",
+      "lat": 50.44960237692309,
+      "lon": -104.53161028461538,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 268957889
+      },
+      "osmTags": {
+        "brand": "Esso",
+        "operator": "Husky"
+      },
+      "searchBlob": "esso husky regina husky travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/268957889",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-298735753",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.397037620000006,
+      "lon": -117.60098618000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 298735753
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/298735753",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-ON-petro-pass-302977963",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.281210200000004,
+      "lon": -76.5701258,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 302977963
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/302977963",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358971488",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 42.92205779473685,
+      "lon": -78.96871593684213,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 358971488
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/358971488",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-374340024",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 55.75723918000001,
+      "lon": -118.69971319999999,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "yes"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 374340024
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/374340024",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-375698136",
+      "name": "Irving Big Stop",
+      "brand": "Irving Big Stop",
+      "brandId": "irving_bigstop",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NB",
+      "lat": 46.04995326250001,
+      "lon": -65.0618163,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 375698136
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "irving big stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/375698136",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-HUSKY_TRAVEL-MB-headingley-husky-travel-centre-379693630",
+      "name": "Headingley Husky Travel Centre",
+      "brand": "Husky Travel Center",
+      "brandId": "husky_travel",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "MB",
+      "lat": 49.876163940000005,
+      "lon": -97.39107476000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "yes"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 379693630
+      },
+      "osmTags": {
+        "brand": "Esso",
+        "operator": "Husky"
+      },
+      "searchBlob": "esso husky headingley husky travel centre",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/379693630",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-BC-flying-j-387943961",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "BC",
+      "lat": 49.01961154000001,
+      "lon": -122.26589754000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 387943961
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/387943961",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-416734743",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 56.68320066,
+      "lon": -111.35363704000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 416734743
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/416734743",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-437310725",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 48.60403554444445,
+      "lon": -88.78259555555557,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 437310725
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/437310725",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-438542149",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 44.2667822,
+      "lon": -76.96865162857145,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 438542149
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": "Flying J"
+      },
+      "searchBlob": "flying j flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/438542149",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-ON-flying-j-cardlock-462350806",
+      "name": "Flying J Cardlock",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "ON",
+      "lat": 43.17038456,
+      "lon": -80.21601488000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 462350806
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/462350806",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-NB-petro-pass-477396980",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NB",
+      "lat": 44.70593774000001,
+      "lon": -63.59763582000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 477396980
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/477396980",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-truck-stop-479910947",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 54.409681725,
+      "lon": -110.20714525000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 479910947
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/479910947",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-486119828",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "BC",
+      "lat": 49.3656364875,
+      "lon": -121.48329216250002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 486119828
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/486119828",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-527165243",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 49.23037372,
+      "lon": -122.81783891999999,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 527165243
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/527165243",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-536766111",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.795403320000005,
+      "lon": -114.09575726,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 536766111
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/536766111",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-539437977",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "MB",
+      "lat": 49.97344880000001,
+      "lon": -98.21040280000001,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 539437977
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/539437977",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-540195716",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 55.05139018000001,
+      "lon": -117.27966368000003,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 540195716
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/540195716",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-canada-and-petro-pass-540475079",
+      "name": "Petro-Canada and Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 54.10096838666666,
+      "lon": -112.7875729,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "yes"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 540475079
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro canada and petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/540475079",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-541572618",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 53.40539864000001,
+      "lon": -117.58616192000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 541572618
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/541572618",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-542921553",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.32241674000001,
+      "lon": -112.68113702000001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 542921553
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/542921553",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-544328907",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 50.6952711,
+      "lon": -113.88467728,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 544328907
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/544328907",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-616842622",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.27891042,
+      "lon": -110.0308741,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 616842622
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/616842622",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-652442089",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 53.57163030000001,
+      "lon": -113.61365794444447,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 652442089
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/652442089",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petropass-cardlock-671303463",
+      "name": "PetroPass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 49.13105314285715,
+      "lon": -123.919225,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 671303463
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petropass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/671303463",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-684298297",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 51.29265726000001,
+      "lon": -113.99794414,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 684298297
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/684298297",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-canada-petro-pass-912512303",
+      "name": "Petro-Canada Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 45.576617999999996,
+      "lon": -73.33386585833334,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 912512303
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/912512303",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-960669657",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.56509242857144,
+      "lon": -113.76134247142859,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 960669657
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/960669657",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-968573338",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.41396709000001,
+      "lon": -114.00039095000002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 968573338
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": "Petro-Canada"
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/968573338",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-981026876",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.14398894000001,
+      "lon": -113.82106538000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 981026876
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/981026876",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-truck-stop-1026563719",
+      "name": "Petro-Pass Truck Stop",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.36057358000001,
+      "lon": -110.25729526,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1026563719
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass truck stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1026563719",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-1044426681",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.19366437272727,
+      "lon": -114.97922661818184,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1044426681
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1044426681",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-1105119527",
+      "name": "Irving Big Stop",
+      "brand": "Irving Big Stop",
+      "brandId": "irving_bigstop",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "NB",
+      "lat": 45.87067545714286,
+      "lon": -64.28041847142858,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1105119527
+      },
+      "osmTags": {
+        "brand": "Irving",
+        "operator": ""
+      },
+      "searchBlob": "irving irving big stop",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1105119527",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-1105727777",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "BC",
+      "lat": 49.169911003703696,
+      "lon": -122.95540140000001,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1105727777
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1105727777",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-commercial-cardlock-1111217991",
+      "name": "Petro-Pass Commercial Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.54805666250001,
+      "lon": -113.76722293750001,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1111217991
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass commercial cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1111217991",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-1164789511",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.77768590000001,
+      "lon": -114.46064148,
+      "highway": "rest_area",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1164789511
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1164789511",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-BC-petro-pass-1178374530",
+      "name": "Petro Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "BC",
+      "lat": 49.28294522,
+      "lon": -123.07364172,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1178374530
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": "Petro Canada"
+      },
+      "searchBlob": "petro petro canada petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1178374530",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-1230500018",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.57219044,
+      "lon": -114.09760796,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1230500018
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1230500018",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1311872211",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 50.34116322222222,
+      "lon": -113.7649099888889,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1311872211
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1311872211",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-1313592194",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 46.79146972000001,
+      "lon": -71.29478416,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1313592194
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1313592194",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1314309069",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "SK",
+      "lat": 50.42726488,
+      "lon": -105.54516614000002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1314309069
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1314309069",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1320729313",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "SK",
+      "lat": 50.478623400000004,
+      "lon": -104.28998996,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1320729313
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1320729313",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320730430",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "MB",
+      "lat": 49.877839754545455,
+      "lon": -97.34071823636364,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1320730430
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1320730430",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320738767",
+      "name": "Flying J Travel Center",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "MB",
+      "lat": 49.570149640000004,
+      "lon": -97.18963090000003,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1320738767
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j travel center",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1320738767",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-1347440201",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.01959318461539,
+      "lon": -114.02938693846151,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1347440201
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1347440201",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-QC-petro-pass-relais-routiers-1368604416",
+      "name": "Petro-Pass Relais Routiers",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "QC",
+      "lat": 45.46211650000001,
+      "lon": -73.72183270000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1368604416
+      },
+      "osmTags": {
+        "brand": "Petro",
+        "operator": ""
+      },
+      "searchBlob": "petro petro pass relais routiers",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1368604416",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-1371687895",
+      "name": "Petro-Pass",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 53.57127714285714,
+      "lon": -113.59163001428571,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1371687895
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "petro pass",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1371687895",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-1415747871",
+      "name": "Flying J",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 50.64730988000001,
+      "lon": -119.98156144,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1415747871
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1415747871",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-1429825183",
+      "name": "Flying J Cardlock",
+      "brand": "Flying J",
+      "brandId": "flyingj",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": "pilot",
+      "state": "AB",
+      "lat": 49.1124213,
+      "lon": -116.52443648,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": true
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1429825183
+      },
+      "osmTags": {
+        "brand": "Flying J",
+        "operator": ""
+      },
+      "searchBlob": "flying j flying j cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1429825183",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-1452260009",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 51.0520116,
+      "lon": -113.99737782,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1452260009
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1452260009",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-1452262152",
+      "name": "Petro-Pass Cardlock",
+      "brand": "Petro-Pass",
+      "brandId": "petro_pass",
+      "brandTier": "A",
+      "type": "travel_center",
+      "mergeWith": null,
+      "state": "AB",
+      "lat": 52.97212632000001,
+      "lon": -113.39114792000002,
+      "highway": "",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 1452262152
+      },
+      "osmTags": {
+        "brand": "Petro-Canada",
+        "operator": ""
+      },
+      "searchBlob": "petro canada petro pass cardlock",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/1452262152",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-onroute-napanee",
+      "name": "Onroute Napanee",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.28020009224137,
+      "lon": -76.80392832844828,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 110958078
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "onroute napanee",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/110958078",
+      "pairedCount": 4,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-mallorytown-onroute",
+      "name": "Mallorytown Onroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.505134908823536,
+      "lon": -75.83580558970588,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "node",
+        "id": 4353604042
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "mallorytown south onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/node/4353604042",
+      "pairedCount": 4,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-ON-hwy-400-southbound-maple-service-centre-151181312",
+      "name": "Hwy 400 Southbound Maple Service Centre",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.87531815625,
+      "lon": -79.55700498750002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 151181312
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": "ONroute"
+      },
+      "searchBlob": "onroute hwy 400 southbound maple service centre",
+      "mapFlags": [],
+      "needsReview": false,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/151181312",
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-king-city-onroute",
+      "name": "King City ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.89525403333333,
+      "lon": -79.5581187125,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 172877401
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "king city onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/172877401",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-woodstock-onroute",
+      "name": "Woodstock ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.066864568750006,
+      "lon": -80.79659371874999,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 195492815
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "woodstock onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/195492815",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-ingersoll-onroute",
+      "name": "Ingersoll ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.05676330294118,
+      "lon": -80.8158387,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 242901866
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "ingersoll onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/242901866",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-cambridge-onroute",
+      "name": "Cambridge ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.43401122481061,
+      "lon": -80.24580270378789,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338371886
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "cambridge south onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338371886",
+      "pairedCount": 4,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-onroute-newcastle",
+      "name": "ONroute Newcastle",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.92133446666667,
+      "lon": -78.54043071333334,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338557537
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": "ONroute"
+      },
+      "searchBlob": "onroute onroute newcastle",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338557537",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-trenton-onroute",
+      "name": "Trenton ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.11007038472222,
+      "lon": -77.65963271805556,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338648434
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "trenton north onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338648434",
+      "pairedCount": 4,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-odessa-onroute",
+      "name": "Odessa ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.283425651923075,
+      "lon": -76.65565767692308,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338667827
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "odessa onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338667827",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-mallorytown-onroute",
+      "name": "Mallorytown Onroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.4902692925,
+      "lon": -75.85694379750001,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338671717
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "mallorytown north onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338671717",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-ingleside-onroute",
+      "name": "Ingleside ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.97303669047619,
+      "lon": -75.08131300952383,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338675105
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "ingleside onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338675105",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-morrisburg-onroute",
+      "name": "Morrisburg ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.94354376463416,
+      "lon": -75.12950157317074,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338680118
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "morrisburg onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338680118",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-bainsville-onroute",
+      "name": "Bainsville ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 45.202906076923085,
+      "lon": -74.3627675846154,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338683866
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "bainsville onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338683866",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-tilbury-onroute",
+      "name": "Tilbury ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 42.27571740242858,
+      "lon": -82.40067242292857,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338688734
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "tilbury north onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338688734",
+      "pairedCount": 4,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-barrie-onroute",
+      "name": "Barrie ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.35241909666667,
+      "lon": -79.68789650000002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "assumed",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338832328
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "barrie onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338832328",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-onroute-dutton",
+      "name": "ONroute Dutton",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 42.64393270208333,
+      "lon": -81.56107849375002,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338978724
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "onroute dutton",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338978724",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-onroute-lorne",
+      "name": "ONroute Lorne",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 42.650533,
+      "lon": -81.55659834833334,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 338978727
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": "ONroute"
+      },
+      "searchBlob": "onroute onroute west lorne",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/338978727",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-port-hope-onroute",
+      "name": "Port Hope ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 43.94276460882354,
+      "lon": -78.43194500882353,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 345061820
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "port hope onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/345061820",
+      "pairedCount": 2,
+      "reviewReasons": []
+    },
+    {
+      "id": "FUEL-CA-ONROUTE-PAIR-innisfil-onroute",
+      "name": "Innisfil ONroute",
+      "brand": "ONroute",
+      "brandId": "onroute",
+      "brandTier": "A",
+      "type": "highway_service_centre",
+      "mergeWith": null,
+      "state": "ON",
+      "lat": 44.24643881666667,
+      "lon": -79.67135136666667,
+      "highway": "services",
+      "exit": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "amenities": {
+        "restroom": "yes",
+        "food": "unknown"
+      },
+      "sources": [
+        "osm-pbf-cache"
+      ],
+      "osm": {
+        "type": "way",
+        "id": 357220967
+      },
+      "osmTags": {
+        "brand": "",
+        "operator": ""
+      },
+      "searchBlob": "innisfil onroute",
+      "mapFlags": [
+        "ONROUTE_HWY_PAIR"
+      ],
+      "needsReview": true,
+      "manualVerified": false,
+      "url": "https://www.openstreetmap.org/way/357220967",
+      "pairedCount": 2,
+      "reviewReasons": []
+    }
+  ]
+}
