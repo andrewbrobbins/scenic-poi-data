@@ -15,4 +15,5 @@ osm-pbf/
 
 # Logs and backups
 *.log
-*.pre-filter-backup.json
+*.pre-filter-backup.jsondesktop.ini
+Thumbs.db
