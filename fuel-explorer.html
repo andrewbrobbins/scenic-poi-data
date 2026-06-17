@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fuel catalog explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="fuel-explorer.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Fuel catalog explorer</h1>
+    <p class="subtitle">Evaluate branded fuel filtering — matched catalog stations, deduped drops, and optional unmatched cache slices.</p>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <section>
+        <label class="field-label">Region</label>
+        <div class="btn-row" id="regionBtns">
+          <button type="button" data-region="us" class="active">United States</button>
+          <button type="button" data-region="ca">Canada</button>
+        </div>
+      </section>
+      <section>
+        <label class="field-label" for="searchBox">Search</label>
+        <input id="searchBox" type="search" placeholder="name, brand, operator…" />
+      </section>
+      <section>
+        <label class="field-label" for="stateSelect">State / province</label>
+        <select id="stateSelect"><option value="">All</option></select>
+      </section>
+      <section>
+        <label class="field-label">Layers</label>
+        <label class="check"><input type="checkbox" id="layerMatched" checked /> Matched (catalog)</label>
+        <label class="check"><input type="checkbox" id="layerSuppressed" /> Suppressed (deduped)</label>
+        <label class="check"><input type="checkbox" id="layerUnmatched" /> Unmatched (loaded slice)</label>
+      </section>
+      <section>
+        <label class="field-label">Brands</label>
+        <div id="brandFilters" class="brand-filters"></div>
+        <button type="button" id="brandAll" class="link-btn">All</button>
+        <button type="button" id="brandNone" class="link-btn">None</button>
+      </section>
+      <section>
+        <label class="check"><input type="checkbox" id="dieselOnly" /> Diesel only</label>
+        <label class="check"><input type="checkbox" id="reviewOnly" /> Needs review only</label>
+      </section>
+      <section>
+        <label class="field-label">Unmatched cache slice</label>
+        <input type="file" id="unmatchedFile" accept=".json,application/json" />
+        <p class="hint">Generate with <code>node build-fuel-explorer-cache-slice.mjs --region=us --state=PA</code></p>
+      </section>
+      <section class="stats" id="statsPanel"></section>
+    </aside>
+    <main class="map-wrap">
+      <div id="map"></div>
+      <div id="detail" class="detail hidden"></div>
+    </main>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="fuel-explorer-data.js"></script>
+  <script src="fuel-explorer-app.js"></script>
+</body>
+</html>

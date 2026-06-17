@@ -1,8 +1,8 @@
 /**
- * Phase 1: extract ALL Canada fuel-related OSM features from local PBF into a cache.
- * Re-run only when the PBF updates: node build-fuel-ca-extract-all-pbf.mjs --refresh
+ * Phase 1: extract ALL US fuel-related OSM features from local PBF into a cache.
+ * Re-run only when the PBF updates: node build-fuel-us-extract-all-pbf.mjs --refresh
  *
- * Output: fuel-ca-ingest/00-all-fuel/fuel-all-ca.json
+ * Output: fuel-us-ingest/00-all-fuel/fuel-all-us.json
  */
 import fs from "fs";
 import path from "path";
@@ -10,24 +10,19 @@ import { createReadStream } from "fs";
 import { pipeline } from "stream/promises";
 import { Writable } from "stream";
 import { pbfFilePath } from "./poi-osm-pbf-config.mjs";
-import path from "path";
 import {
   ALL_FUEL_CACHE_PATH,
   buildSearchBlob,
   coordValid,
   ensureIngestDir,
   writeJson,
-} from "./fuel-ca-lib.mjs";
+} from "./fuel-us-lib.mjs";
 import { FUEL_REGIONS, pbfFingerprint, writeManifest } from "./fuel-cache-lib.mjs";
 
 const FUEL_TAG_KEYS = [
   "name",
-  "name:fr",
-  "alt_name",
   "brand",
-  "brand:fr",
   "operator",
-  "operator:fr",
   "addr:housename",
   "amenity",
   "shop",
@@ -73,7 +68,7 @@ async function loadParser() {
   return mod.default || mod;
 }
 
-export async function extractAllFuelCaFromPbf(sourceKey = "ca", { force = false } = {}) {
+export async function extractAllFuelUsFromPbf(sourceKey = "us", { force = false } = {}) {
   if (!force && fs.existsSync(ALL_FUEL_CACHE_PATH)) {
     const cached = JSON.parse(fs.readFileSync(ALL_FUEL_CACHE_PATH, "utf8"));
     console.log(`Using cached extract (${cached.recordCount} records): ${ALL_FUEL_CACHE_PATH}`);
@@ -89,7 +84,7 @@ export async function extractAllFuelCaFromPbf(sourceKey = "ca", { force = false 
   const fuelWays = [];
   const neededNodeIds = new Set();
 
-  console.log(`Scanning ${pbf} for all Canada fuel candidates...`);
+  console.log(`Scanning ${pbf} for all US fuel candidates...`);
   await pipeline(
     createReadStream(pbf),
     parser(),
@@ -179,9 +174,9 @@ export async function extractAllFuelCaFromPbf(sourceKey = "ca", { force = false 
     records,
   };
   writeJson(ALL_FUEL_CACHE_PATH, payload);
-  writeManifest(FUEL_REGIONS.ca.manifestPath, {
+  writeManifest(FUEL_REGIONS.us.manifestPath, {
     generated: payload.generated,
-    region: "ca",
+    region: "us",
     pbfSource: sourceKey,
     pbf,
     pbfFingerprint: pbfFingerprint(pbf),
@@ -193,9 +188,9 @@ export async function extractAllFuelCaFromPbf(sourceKey = "ca", { force = false 
   return payload;
 }
 
-if (process.argv[1]?.endsWith("build-fuel-ca-extract-all-pbf.mjs")) {
+if (process.argv[1]?.endsWith("build-fuel-us-extract-all-pbf.mjs")) {
   const force = process.argv.includes("--refresh");
-  extractAllFuelCaFromPbf("ca", { force }).catch((e) => {
+  extractAllFuelUsFromPbf("us", { force }).catch((e) => {
     console.error(e);
     process.exit(1);
   });
