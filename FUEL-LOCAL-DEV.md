@@ -21,7 +21,7 @@ fuel-*-master.json → fuel-explorer-data.js → fuel-explorer.html
 | Artifact | In git? | Purpose |
 |----------|---------|---------|
 | `osm-pbf/geofabrik/*.osm.pbf` | **No** | Source OSM extract (~6–11 GB) |
-| `fuel-*-ingest/` | **No** | Rebuildable caches |
+| `fuel-*-ingest/` | **Yes** | Fuel extract caches (committed for fast re-filter) |
 | `fuel-*-master.json`, embeds, explorer data | **Yes** | Published bundles for the app |
 
 ## First-time setup (new clone)
@@ -92,12 +92,9 @@ node build-fuel-explorer-cache-slice.mjs --region=us --state=PA
 
 ## Sharing caches between machines (optional)
 
-Caches are gitignored. To avoid re-downloading/re-parsing on another machine:
+Fuel extract caches (`fuel-us-ingest/`, `fuel-ca-ingest/`) are **committed**. A fresh clone can re-filter immediately without the PBF.
 
-- Copy `fuel-us-ingest/00-all-fuel/` (cache + manifest), or
-- Copy both `osm-pbf/` and `fuel-us-ingest/`
-
-Do **not** commit these to GitHub.
+Only `osm-pbf/` stays local (multi-GB download). Re-extract when Geofabrik updates the PBF.
 
 ## Related scripts
 

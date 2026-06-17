@@ -19,11 +19,12 @@ Generic (non-catalog) US fuel is a **separate layer**: `FUEL_GENERIC_US` via `bu
 
 ## Local setup (any clone)
 
-See **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)**. Summary:
+See **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)**. Fuel caches are committed — re-filter without the PBF:
 
 ```bash
-node ensure-fuel-cache.mjs --region=us   # once: download PBF + build cache
-node build-fuel-us-filter-brands.mjs       # fast: re-apply catalog
+node build-fuel-us-filter-brands.mjs
+node build-fuel-us-master.mjs
+node build-fuel-explorer-data.mjs
 ```
 
 ## Local OSM source (use this)

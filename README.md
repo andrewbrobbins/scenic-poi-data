@@ -6,7 +6,7 @@ Sources are **OpenStreetMap** (Geofabrik PBF), plus NPS/park-boundary caches whe
 
 ## Quick start
 
-Fuel catalog work on a new clone: **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)** (`ensure-fuel-cache.mjs` downloads PBF locally, caches extract, enables fast re-filter).
+Fuel catalog work: **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)** — fuel caches are in git; only the PBF download is local.
 
 ```powershell
 # 1. Install Node deps (osm-pbf-parser)
@@ -56,7 +56,8 @@ Brand matching rules live in `fuel-us-brand-catalog.json` and `fuel-ca-brand-cat
 | Path | Why |
 |------|-----|
 | `osm-pbf/` | Geofabrik `.osm.pbf` files (download locally) |
-| `*-ingest/` | Intermediate per-state JSON caches |
+| `fuel-*-ingest/` | Fuel extract caches (committed) |
+| Other `*-ingest/` | Camping/scenic/etc. intermediate caches (local) |
 | `node_modules/`, `vendor/` | Installed dependencies |
 | `.env` | API keys |
 

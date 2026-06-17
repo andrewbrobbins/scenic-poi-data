@@ -7,14 +7,21 @@ node_modules/
 .cache/
 vendor/
 
-# OSM downloads (multi-GB)
+# OSM downloads (multi-GB) — only PBF stays local
 osm-pbf/
 
-# Rebuildable ingest caches (fuel PBF extract, per-state OSM, etc.)
+# Other POI ingest caches (camping, scenic, playgrounds, etc.)
 *-ingest/
+!fuel-us-ingest/
+!fuel-us-ingest/**
+!fuel-ca-ingest/
+!fuel-ca-ingest/**
+
+# Optional per-state explorer slices (regenerate locally)
 fuel-explorer-cache/
 
 # Logs and backups
 *.log
-*.pre-filter-backup.jsondesktop.ini
+*.pre-filter-backup.json
+desktop.ini
 Thumbs.db

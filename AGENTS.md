@@ -58,8 +58,8 @@ Gas stations are split into two layers per country:
 | File | Role |
 |------|------|
 | `fuel-us-brand-catalog.json` | Brand matching rules — **primary knob** |
-| `fuel-us-ingest/00-all-fuel/fuel-all-us.json` | Cached extract of all US fuel POIs (gitignored) |
-| `fuel-us-ingest/01-osm/fuel-merged.json` | Filtered catalog matches (gitignored) |
+| `fuel-us-ingest/00-all-fuel/fuel-all-us.json` | Cached extract of all US fuel POIs (**committed**) |
+| `fuel-us-ingest/01-osm/fuel-merged.json` | Filtered catalog matches (**committed**) |
 | `fuel-us-master.json` | Canonical records (committed) |
 | `fuel-us-explorer-embed.js` | Browser bundle `FUEL_US` (committed) |
 

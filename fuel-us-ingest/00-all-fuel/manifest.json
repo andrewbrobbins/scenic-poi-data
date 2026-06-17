@@ -1,0 +1,15 @@
+{
+  "generated": "2026-06-17T18:29:18.395Z",
+  "region": "us",
+  "pbfSource": "us",
+  "pbf": "/workspace/osm-pbf/geofabrik/us-latest.osm.pbf",
+  "pbfFingerprint": {
+    "path": "/workspace/osm-pbf/geofabrik/us-latest.osm.pbf",
+    "sizeBytes": 11966010215,
+    "sizeMb": 11411.7,
+    "mtimeMs": 1781718854838
+  },
+  "cacheFile": "fuel-all-us.json",
+  "cachePath": "/workspace/fuel-us-ingest/00-all-fuel/fuel-all-us.json",
+  "recordCount": 112610
+}
