@@ -10,6 +10,7 @@ import { createReadStream } from "fs";
 import { pipeline } from "stream/promises";
 import { Writable } from "stream";
 import { pbfFilePath } from "./poi-osm-pbf-config.mjs";
+import path from "path";
 import {
   ALL_FUEL_CACHE_PATH,
   buildSearchBlob,
@@ -17,6 +18,7 @@ import {
   ensureIngestDir,
   writeJson,
 } from "./fuel-ca-lib.mjs";
+import { FUEL_REGIONS, pbfFingerprint, writeManifest } from "./fuel-cache-lib.mjs";
 
 const FUEL_TAG_KEYS = [
   "name",
@@ -177,6 +179,16 @@ export async function extractAllFuelCaFromPbf(sourceKey = "ca", { force = false 
     records,
   };
   writeJson(ALL_FUEL_CACHE_PATH, payload);
+  writeManifest(FUEL_REGIONS.ca.manifestPath, {
+    generated: payload.generated,
+    region: "ca",
+    pbfSource: sourceKey,
+    pbf,
+    pbfFingerprint: pbfFingerprint(pbf),
+    cacheFile: path.basename(ALL_FUEL_CACHE_PATH),
+    cachePath: ALL_FUEL_CACHE_PATH,
+    recordCount: records.length,
+  });
   console.log(`Wrote ${records.length} fuel records to ${ALL_FUEL_CACHE_PATH}`);
   return payload;
 }

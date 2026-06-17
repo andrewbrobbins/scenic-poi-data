@@ -17,6 +17,15 @@ Static list of **8 brand groups** from OpenStreetMap — high-quality travel/con
 
 Generic (non-catalog) US fuel is a **separate layer**: `FUEL_GENERIC_US` via `build-fuel-generic-explorer-embed.mjs`.
 
+## Local setup (any clone)
+
+See **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)**. Summary:
+
+```bash
+node ensure-fuel-cache.mjs --region=us   # once: download PBF + build cache
+node build-fuel-us-filter-brands.mjs       # fast: re-apply catalog
+```
+
 ## Local OSM source (use this)
 
 **Do not use Overpass** for routine US branded-fuel builds. The full US extract is on disk:

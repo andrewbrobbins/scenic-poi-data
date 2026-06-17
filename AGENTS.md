@@ -43,11 +43,14 @@ Gas stations are split into two layers per country:
   node search-fuel-us-cache.mjs "pilot travel"
   ```
 
+- Bootstrap on a new clone: `node ensure-fuel-cache.mjs --region=us`
+- Check local cache: `node fuel-cache-status.mjs`
 - Full US rebuild (only when PBF updated or cache missing):
 
   ```bash
   node build-fuel-us-all.mjs          # uses cached extract if present
-  node build-fuel-us-all.mjs --refresh  # rescan ~11 GB US PBF
+  node ensure-fuel-cache.mjs --region=us --force-extract
+  # or: node build-fuel-us-all.mjs --refresh
   ```
 
 ### Key files (US branded)

@@ -10,8 +10,9 @@ vendor/
 # OSM downloads (multi-GB)
 osm-pbf/
 
-# Rebuildable ingest caches
+# Rebuildable ingest caches (fuel PBF extract, per-state OSM, etc.)
 *-ingest/
+fuel-explorer-cache/
 
 # Logs and backups
 *.log

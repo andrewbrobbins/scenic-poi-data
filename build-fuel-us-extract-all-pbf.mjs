@@ -5,6 +5,7 @@
  * Output: fuel-us-ingest/00-all-fuel/fuel-all-us.json
  */
 import fs from "fs";
+import path from "path";
 import { createReadStream } from "fs";
 import { pipeline } from "stream/promises";
 import { Writable } from "stream";
@@ -16,6 +17,7 @@ import {
   ensureIngestDir,
   writeJson,
 } from "./fuel-us-lib.mjs";
+import { FUEL_REGIONS, pbfFingerprint, writeManifest } from "./fuel-cache-lib.mjs";
 
 const FUEL_TAG_KEYS = [
   "name",
@@ -172,6 +174,16 @@ export async function extractAllFuelUsFromPbf(sourceKey = "us", { force = false 
     records,
   };
   writeJson(ALL_FUEL_CACHE_PATH, payload);
+  writeManifest(FUEL_REGIONS.us.manifestPath, {
+    generated: payload.generated,
+    region: "us",
+    pbfSource: sourceKey,
+    pbf,
+    pbfFingerprint: pbfFingerprint(pbf),
+    cacheFile: path.basename(ALL_FUEL_CACHE_PATH),
+    cachePath: ALL_FUEL_CACHE_PATH,
+    recordCount: records.length,
+  });
   console.log(`Wrote ${records.length} fuel records to ${ALL_FUEL_CACHE_PATH}`);
   return payload;
 }

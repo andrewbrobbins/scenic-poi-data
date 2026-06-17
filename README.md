@@ -6,12 +6,17 @@ Sources are **OpenStreetMap** (Geofabrik PBF), plus NPS/park-boundary caches whe
 
 ## Quick start
 
+Fuel catalog work on a new clone: **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)** (`ensure-fuel-cache.mjs` downloads PBF locally, caches extract, enables fast re-filter).
+
 ```powershell
 # 1. Install Node deps (osm-pbf-parser)
 node build-poi-osm-install-deps.mjs
 
 # 2. Download OSM extracts (~17 GB US + Canada — one-time)
 node build-poi-osm-download.mjs
+
+# Or fuel-only bootstrap (download + cache + filter):
+node ensure-fuel-cache.mjs --region=us
 
 # 3. Build a layer (examples)
 node build-fuel-us-all.mjs
