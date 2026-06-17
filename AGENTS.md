@@ -31,8 +31,11 @@ Gas stations are split into two layers per country:
   node build-fuel-us-filter-brands.mjs
   node build-fuel-us-master.mjs
   node build-fuel-us-explorer-embed.mjs
+  node build-fuel-explorer-data.mjs
   node validate-fuel-us.mjs
   ```
+
+- **Evaluate visually:** open `fuel-explorer.html` in a browser after `build-fuel-explorer-data.mjs`
 
 - Search the US fuel cache when debugging matches:
 

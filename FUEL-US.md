@@ -25,6 +25,28 @@ Generic (non-catalog) US fuel is a **separate layer**: `FUEL_GENERIC_US` via `bu
 
 See `POI-OSM-PBF.md` for download instructions.
 
+## Interactive explorer
+
+Open **`fuel-explorer.html`** in a browser (after `node build-fuel-explorer-data.mjs`).
+
+- **Matched** — catalog stations in `fuel-us-master.json` (color by brand)
+- **Suppressed** — deduped near-duplicates (after master build writes `fuel-us-suppressed.json`)
+- **Unmatched** — load a cache slice JSON to see OSM fuel that did *not* match the catalog
+
+Rebuild explorer data after filter changes:
+
+```bash
+node build-fuel-us-filter-brands.mjs && node build-fuel-us-master.mjs && node build-fuel-explorer-data.mjs
+```
+
+Export unmatched POIs for a state (requires fuel cache on disk):
+
+```bash
+node build-fuel-explorer-cache-slice.mjs --region=us --state=PA
+```
+
+Then load `fuel-explorer-cache/us-PA-unmatched.json` in the explorer sidebar.
+
 ## Build (recommended)
 
 Two-phase pipeline (same pattern as Canada — fast catalog iteration):

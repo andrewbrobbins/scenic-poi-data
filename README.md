@@ -35,6 +35,7 @@ Or clone this repo as a sibling folder named `tools/` — the sync script finds 
 |-------|-------|--------|------|
 | Branded fuel (US) | `build-fuel-us-all.mjs` | `fuel-us-explorer-embed.js` | [FUEL-US.md](FUEL-US.md) |
 | Branded fuel (CA) | `build-fuel-ca-all.mjs` | `fuel-ca-explorer-embed.js` | [FUEL-CA.md](FUEL-CA.md) |
+| **Fuel filter explorer** | `build-fuel-explorer-data.mjs` | `fuel-explorer.html` | [FUEL-US.md](FUEL-US.md) |
 | Generic fuel | `build-fuel-generic-explorer-embed.mjs` | `fuel-generic-*-explorer-embed.js` | [POI-OSM-PBF.md](POI-OSM-PBF.md) |
 | Camping | `build-camping-us-all.mjs` | `camping-*-explorer-embed.js` | [CAMPING-US.md](CAMPING-US.md) |
 | Playgrounds / scenic / historic | `build-poi-osm-all.mjs` | `playgrounds-*`, `scenic-*`, `historic-*` | [POI-OSM-PBF.md](POI-OSM-PBF.md) |

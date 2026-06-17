@@ -20,6 +20,10 @@ High-volume corporate highway stops with consistent facilities. Catalog: `fuel-c
 
 Scans `amenity=fuel`, `shop=fuel`, and `highway=services` / `rest_area` (for ONroute and travel centers).
 
+## Interactive explorer
+
+Same map UI as US: open `fuel-explorer.html` after `node build-fuel-explorer-data.mjs`. Switch region to Canada in the sidebar.
+
 ## Build
 
 ```bash

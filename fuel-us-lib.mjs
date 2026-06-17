@@ -8,6 +8,7 @@ export const INGEST_DIR = path.join(TOOLS_DIR, "fuel-us-ingest");
 export const MASTER_PATH = path.join(TOOLS_DIR, "fuel-us-master.json");
 export const QA_PATH = path.join(TOOLS_DIR, "fuel-us-qa-report.json");
 export const CATALOG_PATH = path.join(TOOLS_DIR, "fuel-us-brand-catalog.json");
+export const SUPPRESSED_PATH = path.join(TOOLS_DIR, "fuel-us-suppressed.json");
 export const ALL_FUEL_CACHE_PATH = path.join(INGEST_DIR, "00-all-fuel", "fuel-all-us.json");
 
 /** Informational flags — do not imply data quality problems. */
