@@ -10,7 +10,6 @@ import { createReadStream } from "fs";
 import { pipeline } from "stream/promises";
 import { Writable } from "stream";
 import { pbfFilePath } from "./poi-osm-pbf-config.mjs";
-import path from "path";
 import {
   ALL_FUEL_CACHE_PATH,
   buildSearchBlob,

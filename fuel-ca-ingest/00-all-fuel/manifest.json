@@ -1,0 +1,15 @@
+{
+  "generated": "2026-06-17T20:11:58.172Z",
+  "region": "ca",
+  "pbfSource": "ca",
+  "pbf": "/workspace/osm-pbf/geofabrik/canada-latest.osm.pbf",
+  "pbfFingerprint": {
+    "path": "/workspace/osm-pbf/geofabrik/canada-latest.osm.pbf",
+    "sizeBytes": 6392908512,
+    "sizeMb": 6096.8,
+    "mtimeMs": 1781725654338
+  },
+  "cacheFile": "fuel-all-ca.json",
+  "cachePath": "/workspace/fuel-ca-ingest/00-all-fuel/fuel-all-ca.json",
+  "recordCount": 13853
+}

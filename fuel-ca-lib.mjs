@@ -68,6 +68,7 @@ export function readJson(filePath, fallback = null) {
   if (b.length >= 2 && b[0] === 0xff && b[1] === 0xfe) text = b.toString("utf16le");
   else if (b.length >= 2 && b[1] === 0x00) text = b.toString("utf16le");
   else text = b.toString("utf8");
+  if (text.charCodeAt(0) === 0xfeff) text = text.slice(1);
   return JSON.parse(text);
 }
 

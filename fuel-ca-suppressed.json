@@ -1,35 +1,7 @@
 {
-  "generated": "2026-06-17T20:13:20.170Z",
-  "recordCount": 164,
-  "catalogBrandIds": [
-    "pilot",
-    "flyingj",
-    "irving_bigstop",
-    "onroute",
-    "petro_pass",
-    "husky_travel"
-  ],
-  "byBrand": {
-    "petro_pass": 90,
-    "flyingj": 43,
-    "pilot_flyingj": 1,
-    "husky_travel": 6,
-    "irving_bigstop": 4,
-    "onroute": 20
-  },
-  "byState": {
-    "ON": 54,
-    "NB": 6,
-    "AB": 63,
-    "BC": 14,
-    "NU": 4,
-    "QC": 9,
-    "MB": 9,
-    "NT": 1,
-    "SK": 4
-  },
-  "suppressedCount": 24,
-  "suppressedSample": [
+  "generated": "2026-06-17T20:13:20.168Z",
+  "count": 24,
+  "records": [
     {
       "kept": "FUEL-CA-PILOT-ON-pilot-4351271365",
       "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-4351271372",
