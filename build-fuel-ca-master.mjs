@@ -12,6 +12,7 @@ import {
   loadBrandCatalog,
   slugify,
   readJson,
+  reconcileFuelNeedsReview,
   writeJson,
 } from "./fuel-ca-lib.mjs";
 import { applyInferredState } from "./camping-ca-geo-utils.mjs";
@@ -129,7 +130,11 @@ function mergeSupplements(master, supplements) {
         break;
       }
     }
-    if (!merged) out.push({ ...rec, mapFlags: [...(rec.mapFlags || []), "SUPPLEMENT"] });
+    if (!merged) {
+      const flags = rec.mapFlags || [];
+      const mapFlags = flags.includes("SUPPLEMENT") ? [...flags] : [...flags, "SUPPLEMENT"];
+      out.push({ ...rec, mapFlags });
+    }
   }
   return { master: out, suppressed };
 }
@@ -199,6 +204,7 @@ export function buildFuelMaster() {
       rec.mapFlags.push("NO_STATE");
       rec.needsReview = true;
     }
+    reconcileFuelNeedsReview(rec);
   }
 
   const payload = {

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T18:27:40.731Z",
+  "generated": "2026-06-17T04:40:45.785Z",
   "source": "OpenStreetMap + fuel-us-brand-catalog",
   "recordCount": 4264,
   "records": [
@@ -9576,7 +9576,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/node/4445871090",
       "reviewReasons": []
@@ -13036,7 +13036,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/node/5544029521",
       "reviewReasons": []
@@ -15356,7 +15356,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/node/6324408991",
       "reviewReasons": []
@@ -28582,7 +28582,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/node/11182190950",
       "reviewReasons": []
@@ -28660,7 +28660,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/node/11189416005",
       "reviewReasons": []
@@ -35502,7 +35502,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/node/12126022978",
       "reviewReasons": []
@@ -46030,7 +46030,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/99619665",
       "reviewReasons": []
@@ -59750,7 +59750,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/226295912",
       "reviewReasons": []
@@ -61462,7 +61462,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/229322738",
       "reviewReasons": []
@@ -62984,7 +62984,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/230775837",
       "reviewReasons": []
@@ -63860,7 +63860,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/231141236",
       "reviewReasons": []
@@ -67890,7 +67890,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/261971330",
       "reviewReasons": []
@@ -90692,7 +90692,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/539930435",
       "reviewReasons": []
@@ -119232,7 +119232,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/923618683",
       "reviewReasons": []
@@ -137778,7 +137778,7 @@
       "mapFlags": [
         "PILOT_FJ_CLUSTER"
       ],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": false,
       "url": "https://www.openstreetmap.org/way/1161850959",
       "reviewReasons": []
@@ -162009,11 +162009,10 @@
         "bucees-public-list"
       ],
       "mapFlags": [
-        "SUPPLEMENT",
         "SUPPLEMENT"
       ],
       "reviewReasons": [],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": true,
       "url": "https://www.buc-ees.com/"
     },
@@ -162037,11 +162036,10 @@
         "bucees-public-list"
       ],
       "mapFlags": [
-        "SUPPLEMENT",
         "SUPPLEMENT"
       ],
       "reviewReasons": [],
-      "needsReview": true,
+      "needsReview": false,
       "manualVerified": true,
       "url": "https://www.buc-ees.com/"
     }

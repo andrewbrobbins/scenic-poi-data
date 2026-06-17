@@ -10,6 +10,13 @@ export const QA_PATH = path.join(TOOLS_DIR, "fuel-ca-qa-report.json");
 export const CATALOG_PATH = path.join(TOOLS_DIR, "fuel-ca-brand-catalog.json");
 export const ALL_FUEL_CACHE_PATH = path.join(INGEST_DIR, "00-all-fuel", "fuel-all-ca.json");
 
+/** Informational flags — do not imply data quality problems. */
+export const INFORMATIONAL_MAP_FLAGS = new Set([
+  "PILOT_FJ_CLUSTER",
+  "SUPPLEMENT",
+  "ONROUTE_HWY_PAIR",
+]);
+
 export { CA_PROVINCES } from "./camping-ca-province-bboxes.mjs";
 
 export function slugify(s) {
@@ -75,6 +82,12 @@ export function loadBrandCatalog() {
   const cat = readJson(CATALOG_PATH);
   if (!cat?.brands?.length) throw new Error("Missing fuel-ca-brand-catalog.json");
   return cat;
+}
+
+/** Clear needsReview when only informational mapFlags remain. */
+export function reconcileFuelNeedsReview(rec) {
+  const reviewFlags = (rec.mapFlags || []).filter((f) => !INFORMATIONAL_MAP_FLAGS.has(f));
+  rec.needsReview = (rec.reviewReasons || []).length > 0 || reviewFlags.length > 0;
 }
 
 /** Collect OSM tag strings including French variants. */

@@ -8,6 +8,14 @@ export const INGEST_DIR = path.join(TOOLS_DIR, "fuel-us-ingest");
 export const MASTER_PATH = path.join(TOOLS_DIR, "fuel-us-master.json");
 export const QA_PATH = path.join(TOOLS_DIR, "fuel-us-qa-report.json");
 export const CATALOG_PATH = path.join(TOOLS_DIR, "fuel-us-brand-catalog.json");
+export const ALL_FUEL_CACHE_PATH = path.join(INGEST_DIR, "00-all-fuel", "fuel-all-us.json");
+
+/** Informational flags — do not imply data quality problems. */
+export const INFORMATIONAL_MAP_FLAGS = new Set([
+  "PILOT_FJ_CLUSTER",
+  "SUPPLEMENT",
+  "ONROUTE_HWY_PAIR",
+]);
 
 export const US_STATES =
   "AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY".split(
@@ -56,7 +64,12 @@ export function writeJson(filePath, obj) {
 
 export function readJson(filePath, fallback = null) {
   if (!fs.existsSync(filePath)) return fallback;
-  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  const b = fs.readFileSync(filePath);
+  let text;
+  if (b.length >= 2 && b[0] === 0xff && b[1] === 0xfe) text = b.toString("utf16le");
+  else if (b.length >= 2 && b[1] === 0x00) text = b.toString("utf16le");
+  else text = b.toString("utf8");
+  return JSON.parse(text);
 }
 
 export function normToken(s) {
@@ -71,6 +84,22 @@ export function loadBrandCatalog() {
   const cat = readJson(CATALOG_PATH);
   if (!cat?.brands?.length) throw new Error("Missing fuel-us-brand-catalog.json");
   return cat;
+}
+
+export function buildSearchBlob(tags) {
+  const parts = [tags.brand, tags.operator, tags.name, tags["addr:housename"]];
+  return normToken(parts.filter(Boolean).join(" "));
+}
+
+/** @returns {{ brandId: string, displayName: string, tier: string, type: string, mergeWith?: string } | null} */
+export function filterBrandFromExtracted(rec, catalog) {
+  return matchBrandFromTags(rec.tags || {}, catalog);
+}
+
+/** Clear needsReview when only informational mapFlags remain. */
+export function reconcileFuelNeedsReview(rec) {
+  const reviewFlags = (rec.mapFlags || []).filter((f) => !INFORMATIONAL_MAP_FLAGS.has(f));
+  rec.needsReview = (rec.reviewReasons || []).length > 0 || reviewFlags.length > 0;
 }
 
 /** @returns {{ brandId: string, displayName: string, tier: string, type: string, mergeWith?: string } | null} */

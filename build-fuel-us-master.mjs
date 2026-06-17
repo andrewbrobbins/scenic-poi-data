@@ -11,6 +11,7 @@ import {
   haversineMi,
   loadBrandCatalog,
   readJson,
+  reconcileFuelNeedsReview,
   writeJson,
 } from "./fuel-us-lib.mjs";
 import { applyInferredState } from "./camping-us-geo-utils.mjs";
@@ -38,7 +39,11 @@ function mergeSupplements(master, supplements) {
         break;
       }
     }
-    if (!merged) out.push({ ...rec, mapFlags: [...(rec.mapFlags || []), "SUPPLEMENT"] });
+    if (!merged) {
+      const flags = rec.mapFlags || [];
+      const mapFlags = flags.includes("SUPPLEMENT") ? [...flags] : [...flags, "SUPPLEMENT"];
+      out.push({ ...rec, mapFlags });
+    }
   }
   return { master: out, suppressed };
 }
@@ -56,7 +61,7 @@ function loadOsmRecords() {
       if (st?.records) all.push(...st.records);
     }
   }
-  if (!all.length) throw new Error("Run: node build-fuel-us-ingest-pbf.mjs");
+  if (!all.length) throw new Error("Run: node build-fuel-us-extract-all-pbf.mjs && node build-fuel-us-filter-brands.mjs");
   return all;
 }
 
@@ -118,11 +123,14 @@ export function buildFuelMaster() {
   const { master, suppressed: supplementSuppressed } = mergeSupplements(deduped, supplements);
   const suppressed = [...dedupeSuppressed, ...supplementSuppressed];
   for (const rec of master) {
+    rec.mapFlags = rec.mapFlags || [];
+    rec.reviewReasons = rec.reviewReasons || [];
     applyInferredState(rec);
     if (!rec.state) {
       rec.mapFlags.push("NO_STATE");
       rec.needsReview = true;
     }
+    reconcileFuelNeedsReview(rec);
   }
 
   const payload = {
