@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-17T18:32:34.887Z",
-  "recordCount": 4274,
+  "generated": "2026-06-19T20:02:20.760Z",
+  "recordCount": 4198,
   "catalogBrandIds": [
     "bucees",
     "quiktrip",
@@ -13,730 +13,62 @@
   ],
   "byBrand": {
     "sheetz": 680,
-    "pilot": 472,
+    "pilot": 391,
     "quiktrip": 993,
     "wawa": 744,
-    "flyingj": 202,
-    "loves": 645,
+    "flyingj": 188,
+    "loves": 615,
     "racetrac": 465,
-    "pilot_flyingj": 15,
-    "bucees": 58
+    "bucees": 55,
+    "pilot_flyingj": 67
   },
   "byState": {
-    "NY": 114,
-    "VA": 156,
-    "AZ": 191,
-    "NC": 227,
-    "NJ": 291,
-    "CA": 66,
-    "MN": 18,
-    "MI": 40,
+    "NY": 111,
+    "VA": 154,
+    "AZ": 188,
+    "NC": 220,
+    "NJ": 288,
+    "CA": 63,
+    "MN": 19,
+    "MI": 37,
     "DE": 54,
     "WV": 9,
     "FL": 427,
-    "PA": 243,
-    "GA": 353,
-    "OH": 165,
-    "KS": 130,
-    "TX": 486,
-    "AL": 74,
+    "PA": 242,
+    "GA": 355,
+    "OH": 172,
+    "KS": 119,
+    "TX": 482,
+    "AL": 82,
     "IN": 56,
     "MD": 226,
-    "TN": 48,
-    "IA": 57,
-    "WY": 9,
-    "OK": 183,
-    "CO": 35,
-    "MO": 86,
-    "NM": 43,
-    "KY": 39,
-    "OR": 18,
-    "IL": 178,
-    "WA": 13,
-    "LA": 82,
-    "MA": 3,
-    "UT": 30,
-    "MS": 7,
-    "SC": 9,
-    "NE": 10,
-    "MT": 20,
-    "AR": 49,
-    "ID": 13,
-    "CT": 3,
-    "ND": 5,
-    "SD": 6,
-    "NH": 1,
-    "NV": 1
+    "TN": 47,
+    "IA": 54,
+    "OK": 148,
+    "MO": 88,
+    "NM": 44,
+    "KY": 41,
+    "OR": 19,
+    "WA": 10,
+    "IL": 186,
+    "LA": 86,
+    "CO": 32,
+    "SC": 10,
+    "UT": 23,
+    "NE": 9,
+    "MT": 4,
+    "AR": 47,
+    "ID": 11,
+    "CT": 2,
+    "WY": 11,
+    "MS": 8,
+    "NV": 1,
+    "ND": 6,
+    "SD": 4,
+    "MA": 3
   },
-  "suppressedCount": 1729,
+  "suppressedCount": 1898,
   "suppressedSample": [
-    {
-      "kept": "FUEL-FLYINGJ-IN-flying-j-941981026",
-      "dropped": "FUEL-FLYINGJ-IN-flying-j-941981030",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-IN-flying-j-941981030",
-        "lat": 39.549851000000004,
-        "lon": -86.03622960000001,
-        "name": "Flying J",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "IN",
-        "osmTags": {
-          "brand": "Flying J",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 941981030
-        },
-        "url": "https://www.openstreetmap.org/node/941981030"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-KY-pilot-1891130199",
-      "dropped": "FUEL-PILOT-KY-pilot-1891130460",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-KY-pilot-1891130460",
-        "lat": 38.2761548,
-        "lon": -84.55431680000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "KY",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": "Pilot"
-        },
-        "osm": {
-          "type": "node",
-          "id": 1891130460
-        },
-        "url": "https://www.openstreetmap.org/node/1891130460"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-WA-pilot-2100738508",
-      "dropped": "FUEL-PILOT-WA-pilot-2338730114",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-WA-pilot-2338730114",
-        "lat": 46.95312620000001,
-        "lon": -122.93499000000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "WA",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2338730114
-        },
-        "url": "https://www.openstreetmap.org/node/2338730114"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-IL-love-s-2091337927",
-      "dropped": "FUEL-LOVES-IL-love-s-2338775147",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-IL-love-s-2338775147",
-        "lat": 41.370174500000005,
-        "lon": -89.0095036,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "IL",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2338775147
-        },
-        "url": "https://www.openstreetmap.org/node/2338775147"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-KS-love-s-1881267062",
-      "dropped": "FUEL-LOVES-KS-love-s-2341493516",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-KS-love-s-2341493516",
-        "lat": 38.572803300000004,
-        "lon": -95.26501,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "KS",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2341493516
-        },
-        "url": "https://www.openstreetmap.org/node/2341493516"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-OK-love-s-1608318103",
-      "dropped": "FUEL-LOVES-OK-love-s-2351384153",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-OK-love-s-2351384153",
-        "lat": 34.187918800000006,
-        "lon": -97.17094490000001,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "OK",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2351384153
-        },
-        "url": "https://www.openstreetmap.org/node/2351384153"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-CO-love-s-1426720590",
-      "dropped": "FUEL-LOVES-CO-gunnison-tire-auto-2394225179",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-CO-gunnison-tire-auto-2394225179",
-        "lat": 38.5446655,
-        "lon": -106.9324763,
-        "name": "Gunnison Tire & Auto",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "CO",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": "Gunnison Tire & Auto"
-        },
-        "osm": {
-          "type": "node",
-          "id": 2394225179
-        },
-        "url": "https://www.openstreetmap.org/node/2394225179"
-      }
-    },
-    {
-      "kept": "FUEL-FLYINGJ-MN-flying-j-597551581",
-      "dropped": "FUEL-FLYINGJ-MN-flying-j-2395415489",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-MN-flying-j-2395415489",
-        "lat": 44.295016100000005,
-        "lon": -90.83024040000001,
-        "name": "Flying J",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "MN",
-        "osmTags": {
-          "brand": "Flying J",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2395415489
-        },
-        "url": "https://www.openstreetmap.org/node/2395415489"
-      }
-    },
-    {
-      "kept": "FUEL-FLYINGJ-KY-flying-j-fuel-center-2405613424",
-      "dropped": "FUEL-FLYINGJ-KY-flying-j-fuel-center-2405613425",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-KY-flying-j-fuel-center-2405613425",
-        "lat": 38.364832400000004,
-        "lon": -82.6966232,
-        "name": "Flying J Fuel Center",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "KY",
-        "osmTags": {
-          "brand": "",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2405613425
-        },
-        "url": "https://www.openstreetmap.org/node/2405613425"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-WY-pilot-travel-center-1002844680",
-      "dropped": "FUEL-PILOT-WY-pilot-2441943128",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-WY-pilot-2441943128",
-        "lat": 41.1361136,
-        "lon": -104.707299,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "WY",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2441943128
-        },
-        "url": "https://www.openstreetmap.org/node/2441943128"
-      }
-    },
-    {
-      "kept": "FUEL-FLYINGJ-MN-flying-j-2449961873",
-      "dropped": "FUEL-FLYINGJ-MN-flying-j-2449961903",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-MN-flying-j-2449961903",
-        "lat": 43.603535300000004,
-        "lon": -96.76729180000001,
-        "name": "Flying J",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "MN",
-        "osmTags": {
-          "brand": "Flying J",
-          "operator": "Flying J"
-        },
-        "osm": {
-          "type": "node",
-          "id": 2449961903
-        },
-        "url": "https://www.openstreetmap.org/node/2449961903"
-      }
-    },
-    {
-      "kept": "FUEL-FLYINGJ-IA-conoco-2535915658",
-      "dropped": "FUEL-FLYINGJ-IA-conoco-2535915662",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-IA-conoco-2535915662",
-        "lat": 41.0917886,
-        "lon": -96.2541527,
-        "name": "Conoco",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "IA",
-        "osmTags": {
-          "brand": "Conoco",
-          "operator": "Flying J Travel Plaza"
-        },
-        "osm": {
-          "type": "node",
-          "id": 2535915662
-        },
-        "url": "https://www.openstreetmap.org/node/2535915662"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-OK-pilot-2555053467",
-      "dropped": "FUEL-PILOT-OK-pilot-2555053468",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-OK-pilot-2555053468",
-        "lat": 35.7850015,
-        "lon": -95.4016337,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "OK",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2555053468
-        },
-        "url": "https://www.openstreetmap.org/node/2555053468"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-CA-pilot-2679753643",
-      "dropped": "FUEL-PILOT-CA-pilot-truck-stop-2679753644",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-CA-pilot-truck-stop-2679753644",
-        "lat": 38.8625246,
-        "lon": -121.95100300000001,
-        "name": "Pilot (Truck Stop)",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "CA",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2679753644
-        },
-        "url": "https://www.openstreetmap.org/node/2679753644"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-NC-pilot-2683531552",
-      "dropped": "FUEL-PILOT-NC-pilot-2683531584",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-NC-pilot-2683531584",
-        "lat": 35.903926000000006,
-        "lon": -84.14109800000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "NC",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2683531584
-        },
-        "url": "https://www.openstreetmap.org/node/2683531584"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-IA-pilot-947850877",
-      "dropped": "FUEL-PILOT-IA-pilot-2689261965",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-IA-pilot-2689261965",
-        "lat": 41.6984233,
-        "lon": -92.35896550000001,
-        "name": "pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "IA",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2689261965
-        },
-        "url": "https://www.openstreetmap.org/node/2689261965"
-      }
-    },
-    {
-      "kept": "FUEL-FLYINGJ-MN-flying-j-travel-plaza-1344208459",
-      "dropped": "FUEL-FLYINGJ-MN-flying-j-travel-center-2713422670",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-MN-flying-j-travel-center-2713422670",
-        "lat": 44.470497400000006,
-        "lon": -93.2955098,
-        "name": "Flying J Travel Center",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "MN",
-        "osmTags": {
-          "brand": "Flying J",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2713422670
-        },
-        "url": "https://www.openstreetmap.org/node/2713422670"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-MI-pilot-635241801",
-      "dropped": "FUEL-PILOT-MI-pilot-2726222856",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-MI-pilot-2726222856",
-        "lat": 42.77921250000001,
-        "lon": -87.95213360000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "MI",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2726222856
-        },
-        "url": "https://www.openstreetmap.org/node/2726222856"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-IN-pilot-2727971891",
-      "dropped": "FUEL-PILOT-IN-pilot-2727971893",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-IN-pilot-2727971893",
-        "lat": 37.827571500000005,
-        "lon": -85.72367980000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "IN",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 2727971893
-        },
-        "url": "https://www.openstreetmap.org/node/2727971893"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-OK-love-s-3408987911",
-      "dropped": "FUEL-LOVES-OK-love-s-3408987912",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-OK-love-s-3408987912",
-        "lat": 35.517976000000004,
-        "lon": -98.8709608,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "OK",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 3408987912
-        },
-        "url": "https://www.openstreetmap.org/node/3408987912"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-MI-love-s-4108451495",
-      "dropped": "FUEL-LOVES-MI-love-s-4108451498",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-MI-love-s-4108451498",
-        "lat": 43.7488777,
-        "lon": -88.46419370000001,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "MI",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 4108451498
-        },
-        "url": "https://www.openstreetmap.org/node/4108451498"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-LA-pilot-4169753065",
-      "dropped": "FUEL-PILOT-LA-pilot-4169753069",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-LA-pilot-4169753069",
-        "lat": 30.253398900000004,
-        "lon": -93.0145672,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "LA",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 4169753069
-        },
-        "url": "https://www.openstreetmap.org/node/4169753069"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-CO-love-s-trucks-4182375319",
-      "dropped": "FUEL-LOVES-CO-love-s-cars-4182375326",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-CO-love-s-cars-4182375326",
-        "lat": 40.0773543,
-        "lon": -104.64913800000001,
-        "name": "Love's (Cars)",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "CO",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": "Love's"
-        },
-        "osm": {
-          "type": "node",
-          "id": 4182375326
-        },
-        "url": "https://www.openstreetmap.org/node/4182375326"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-IA-love-s-947850836",
-      "dropped": "FUEL-LOVES-IA-love-s-4222961596",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-IA-love-s-4222961596",
-        "lat": 41.6802968,
-        "lon": -92.99865930000001,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "IA",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 4222961596
-        },
-        "url": "https://www.openstreetmap.org/node/4222961596"
-      }
-    },
-    {
-      "kept": "FUEL-FLYINGJ-AZ-flying-j-4719302823",
-      "dropped": "FUEL-FLYINGJ-AZ-flying-j-4719302824",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-FLYINGJ-AZ-flying-j-4719302824",
-        "lat": 32.7323851,
-        "lon": -111.5498716,
-        "name": "Flying J",
-        "brandId": "flyingj",
-        "brand": "Flying J",
-        "state": "AZ",
-        "osmTags": {
-          "brand": "Flying J",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 4719302824
-        },
-        "url": "https://www.openstreetmap.org/node/4719302824"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-AZ-pilot-4719302865",
-      "dropped": "FUEL-PILOT-AZ-pilot-4719302866",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-AZ-pilot-4719302866",
-        "lat": 32.7388782,
-        "lon": -111.549839,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "AZ",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 4719302866
-        },
-        "url": "https://www.openstreetmap.org/node/4719302866"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-AZ-pilot-4719302865",
-      "dropped": "FUEL-PILOT-AZ-pilot-4719302867",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-AZ-pilot-4719302867",
-        "lat": 32.7386555,
-        "lon": -111.54984400000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "AZ",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 4719302867
-        },
-        "url": "https://www.openstreetmap.org/node/4719302867"
-      }
-    },
-    {
-      "kept": "FUEL-PILOT-MI-pilot-2379543839",
-      "dropped": "FUEL-PILOT-MI-pilot-5031680668",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-PILOT-MI-pilot-5031680668",
-        "lat": 42.3017836,
-        "lon": -83.87682530000001,
-        "name": "Pilot",
-        "brandId": "pilot",
-        "brand": "Pilot",
-        "state": "MI",
-        "osmTags": {
-          "brand": "Pilot",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 5031680668
-        },
-        "url": "https://www.openstreetmap.org/node/5031680668"
-      }
-    },
-    {
-      "kept": "FUEL-LOVES-NC-love-s-6616599585",
-      "dropped": "FUEL-LOVES-NC-love-s-6616599586",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-LOVES-NC-love-s-6616599586",
-        "lat": 36.0119881,
-        "lon": -83.53230620000001,
-        "name": "Love's",
-        "brandId": "loves",
-        "brand": "Love's",
-        "state": "NC",
-        "osmTags": {
-          "brand": "Love's",
-          "operator": ""
-        },
-        "osm": {
-          "type": "node",
-          "id": 6616599586
-        },
-        "url": "https://www.openstreetmap.org/node/6616599586"
-      }
-    },
     {
       "kept": "FUEL-SHEETZ-MD-sheetz-2207525388",
       "dropped": "FUEL-SHEETZ-MD-sheetz-7194078158",
@@ -758,6 +90,673 @@
           "id": 7194078158
         },
         "url": "https://www.openstreetmap.org/node/7194078158"
+      }
+    },
+    {
+      "kept": "FUEL-RACETRAC-FL-racetrac-2020703017",
+      "dropped": "FUEL-RACETRAC-FL-racetrac-7850206931",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-RACETRAC-FL-racetrac-7850206931",
+        "lat": 27.8940635,
+        "lon": -82.758757,
+        "name": "RaceTrac",
+        "brandId": "racetrac",
+        "brand": "RaceTrac",
+        "state": "FL",
+        "osmTags": {
+          "brand": "RaceTrac",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 7850206931
+        },
+        "url": "https://www.openstreetmap.org/node/7850206931"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-PA-sheetz-7964234898",
+      "dropped": "FUEL-SHEETZ-PA-sheetz-7964234899",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-PA-sheetz-7964234899",
+        "lat": 42.07274580000001,
+        "lon": -80.18176940000001,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "PA",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 7964234899
+        },
+        "url": "https://www.openstreetmap.org/node/7964234899"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-VA-sheetz-8812525404",
+      "dropped": "FUEL-SHEETZ-VA-sheetz-8812525405",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-VA-sheetz-8812525405",
+        "lat": 37.8474993,
+        "lon": -81.19621620000001,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "VA",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 8812525405
+        },
+        "url": "https://www.openstreetmap.org/node/8812525405"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-GA-quiktrip-9087731363",
+      "dropped": "FUEL-QUIKTRIP-GA-quiktrip-9087731394",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-GA-quiktrip-9087731394",
+        "lat": 34.913475500000004,
+        "lon": -80.9781597,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "GA",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 9087731394
+        },
+        "url": "https://www.openstreetmap.org/node/9087731394"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-OH-sheetz-2537368010",
+      "dropped": "FUEL-SHEETZ-OH-sheetz-9105865127",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-OH-sheetz-9105865127",
+        "lat": 41.1196708,
+        "lon": -81.4850377,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "OH",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 9105865127
+        },
+        "url": "https://www.openstreetmap.org/node/9105865127"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-PA-sheetz-4190869789",
+      "dropped": "FUEL-SHEETZ-PA-sheetz-9394820811",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-PA-sheetz-9394820811",
+        "lat": 39.992329100000006,
+        "lon": -76.6358146,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "PA",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 9394820811
+        },
+        "url": "https://www.openstreetmap.org/node/9394820811"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-VA-wawa-5381053221",
+      "dropped": "FUEL-WAWA-VA-wawa-11003379563",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-VA-wawa-11003379563",
+        "lat": 37.524725700000005,
+        "lon": -77.3288524,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "VA",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 11003379563
+        },
+        "url": "https://www.openstreetmap.org/node/11003379563"
+      }
+    },
+    {
+      "kept": "FUEL-RACETRAC-GA-racetrac-9177911785",
+      "dropped": "FUEL-RACETRAC-GA-racetrac-12686760056",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-RACETRAC-GA-racetrac-12686760056",
+        "lat": 33.620444600000006,
+        "lon": -84.38447620000001,
+        "name": "RaceTrac",
+        "brandId": "racetrac",
+        "brand": "RaceTrac",
+        "state": "GA",
+        "osmTags": {
+          "brand": "RaceTrac",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 12686760056
+        },
+        "url": "https://www.openstreetmap.org/node/12686760056"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-SC-quiktrip-12757386390",
+      "dropped": "FUEL-QUIKTRIP-SC-quiktrip-12757386396",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-SC-quiktrip-12757386396",
+        "lat": 32.9295817,
+        "lon": -80.6916523,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "SC",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 12757386396
+        },
+        "url": "https://www.openstreetmap.org/node/12757386396"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-GA-quiktrip-12863459617",
+      "dropped": "FUEL-QUIKTRIP-GA-quiktrip-12863459621",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-GA-quiktrip-12863459621",
+        "lat": 34.1759831,
+        "lon": -80.9686973,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "GA",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 12863459621
+        },
+        "url": "https://www.openstreetmap.org/node/12863459621"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-PA-sheetz-12073245147",
+      "dropped": "FUEL-SHEETZ-PA-sheetz-12999892039",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-PA-sheetz-12999892039",
+        "lat": 39.9426174,
+        "lon": -77.63353040000001,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "PA",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 12999892039
+        },
+        "url": "https://www.openstreetmap.org/node/12999892039"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-TX-quiktrip-13124262202",
+      "dropped": "FUEL-QUIKTRIP-TX-quiktrip-13124262203",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-TX-quiktrip-13124262203",
+        "lat": 30.253392400000003,
+        "lon": -97.6019892,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "TX",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 13124262203
+        },
+        "url": "https://www.openstreetmap.org/node/13124262203"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-KS-quiktrip-2155263347",
+      "dropped": "FUEL-QUIKTRIP-KS-quiktrip-13443796261",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-KS-quiktrip-13443796261",
+        "lat": 38.982954400000004,
+        "lon": -94.60780690000001,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "KS",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 13443796261
+        },
+        "url": "https://www.openstreetmap.org/node/13443796261"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-NC-quiktrip-13841955926",
+      "dropped": "FUEL-QUIKTRIP-NC-quiktrip-13841955931",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-NC-quiktrip-13841955931",
+        "lat": 35.298468,
+        "lon": -82.40318260000001,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "NC",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 13841955931
+        },
+        "url": "https://www.openstreetmap.org/node/13841955931"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-PA-wawa-89940387",
+      "dropped": "FUEL-WAWA-PA-wawa-89940397",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-PA-wawa-89940397",
+        "lat": 40.093309080000004,
+        "lon": -76.35155558000001,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "PA",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": "Wawa"
+        },
+        "osm": {
+          "type": "way",
+          "id": 89940397
+        },
+        "url": "https://www.openstreetmap.org/way/89940397"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-NJ-wawa-108284755",
+      "dropped": "FUEL-WAWA-NJ-wawa-108284756",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-NJ-wawa-108284756",
+        "lat": 39.84987588,
+        "lon": -75.53726264000002,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "NJ",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": "Wawa"
+        },
+        "osm": {
+          "type": "way",
+          "id": 108284756
+        },
+        "url": "https://www.openstreetmap.org/way/108284756"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-OK-quiktrip-144184080",
+      "dropped": "FUEL-QUIKTRIP-OK-quiktrip-144184081",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-OK-quiktrip-144184081",
+        "lat": 36.015175400000004,
+        "lon": -95.97637250000001,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "OK",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 144184081
+        },
+        "url": "https://www.openstreetmap.org/way/144184081"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-OK-quiktrip-86515846",
+      "dropped": "FUEL-QUIKTRIP-OK-quiktrip-188958038",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-OK-quiktrip-188958038",
+        "lat": 36.076633195238095,
+        "lon": -96.04794181428572,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "OK",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 188958038
+        },
+        "url": "https://www.openstreetmap.org/way/188958038"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-OH-sheetz-11765650370",
+      "dropped": "FUEL-SHEETZ-OH-sheetz-191527320",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-OH-sheetz-191527320",
+        "lat": 39.863319322222225,
+        "lon": -84.13779715555556,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "OH",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 191527320
+        },
+        "url": "https://www.openstreetmap.org/way/191527320"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-DE-wawa-192154476",
+      "dropped": "FUEL-WAWA-DE-wawa-192154477",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-DE-wawa-192154477",
+        "lat": 39.692773609090914,
+        "lon": -75.58001900909092,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "DE",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 192154477
+        },
+        "url": "https://www.openstreetmap.org/way/192154477"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-MD-wawa-193913027",
+      "dropped": "FUEL-WAWA-MD-wawa-193913028",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-MD-wawa-193913028",
+        "lat": 38.56081108,
+        "lon": -76.0658426,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "MD",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 193913028
+        },
+        "url": "https://www.openstreetmap.org/way/193913028"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-NJ-wawa-2125406632",
+      "dropped": "FUEL-WAWA-NJ-wawa-202575170",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-NJ-wawa-202575170",
+        "lat": 40.69640424000001,
+        "lon": -75.17560882000001,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "NJ",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 202575170
+        },
+        "url": "https://www.openstreetmap.org/way/202575170"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-DE-wawa-217201106",
+      "dropped": "FUEL-WAWA-DE-wawa-217201107",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-DE-wawa-217201107",
+        "lat": 39.676520120000006,
+        "lon": -75.62712334,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "DE",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 217201107
+        },
+        "url": "https://www.openstreetmap.org/way/217201107"
+      }
+    },
+    {
+      "kept": "FUEL-SHEETZ-NY-sheetz-451850770",
+      "dropped": "FUEL-SHEETZ-NY-sheetz-218669825",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-SHEETZ-NY-sheetz-218669825",
+        "lat": 41.46363863478262,
+        "lon": -75.6506507130435,
+        "name": "Sheetz",
+        "brandId": "sheetz",
+        "brand": "Sheetz",
+        "state": "NY",
+        "osmTags": {
+          "brand": "Sheetz",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 218669825
+        },
+        "url": "https://www.openstreetmap.org/way/218669825"
+      }
+    },
+    {
+      "kept": "FUEL-QUIKTRIP-OK-quiktrip-220670655",
+      "dropped": "FUEL-QUIKTRIP-OK-quiktrip-220670656",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-QUIKTRIP-OK-quiktrip-220670656",
+        "lat": 36.177389500000004,
+        "lon": -95.86951045454545,
+        "name": "QuikTrip",
+        "brandId": "quiktrip",
+        "brand": "QuikTrip",
+        "state": "OK",
+        "osmTags": {
+          "brand": "QuikTrip",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 220670656
+        },
+        "url": "https://www.openstreetmap.org/way/220670656"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-MD-wawa-222077603",
+      "dropped": "FUEL-WAWA-MD-wawa-222077604",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-MD-wawa-222077604",
+        "lat": 38.792862320000005,
+        "lon": -77.62239388000002,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "MD",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 222077604
+        },
+        "url": "https://www.openstreetmap.org/way/222077604"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-NJ-wawa-fuel-227604635",
+      "dropped": "FUEL-WAWA-NJ-wawa-fuel-227604637",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-NJ-wawa-fuel-227604637",
+        "lat": 39.015261020000004,
+        "lon": -74.87679750000001,
+        "name": "Wawa Fuel",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "NJ",
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 227604637
+        },
+        "url": "https://www.openstreetmap.org/way/227604637"
+      }
+    },
+    {
+      "kept": "FUEL-WAWA-FL-wawa-6697532088",
+      "dropped": "FUEL-WAWA-FL-wawa-228264523",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-WAWA-FL-wawa-228264523",
+        "lat": 27.781234704761914,
+        "lon": -82.71537953809525,
+        "name": "Wawa",
+        "brandId": "wawa",
+        "brand": "Wawa",
+        "state": "FL",
+        "osmTags": {
+          "brand": "Wawa",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 228264523
+        },
+        "url": "https://www.openstreetmap.org/way/228264523"
+      }
+    },
+    {
+      "kept": "FUEL-PILOT-IL-pilot-229466168",
+      "dropped": "FUEL-PILOT-IL-pilot-travel-center-229466172",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-PILOT-IL-pilot-travel-center-229466172",
+        "lat": 41.572464679999996,
+        "lon": -87.401876612,
+        "name": "Pilot Travel Center",
+        "brandId": "pilot",
+        "brand": "Pilot",
+        "state": "IL",
+        "osmTags": {
+          "brand": "Pilot",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 229466172
+        },
+        "url": "https://www.openstreetmap.org/way/229466172"
       }
     }
   ]

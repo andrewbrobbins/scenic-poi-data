@@ -52,6 +52,8 @@ input[type=search], select {
 .check { display: block; font-size: 0.9rem; margin: 4px 0; }
 .brand-filters { max-height: 180px; overflow: auto; border: 1px solid var(--border); border-radius: 6px; padding: 6px; background: #0b1220; }
 .brand-filters label { display: block; font-size: 0.85rem; margin: 2px 0; }
+.brand-type-heading { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); margin: 8px 0 4px; }
+.brand-type-heading:first-child { margin-top: 0; }
 .link-btn { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 0.8rem; padding: 0 6px 0 0; }
 .hint { font-size: 0.75rem; color: var(--muted); margin: 6px 0 0; }
 .hint code { font-size: 0.72rem; }

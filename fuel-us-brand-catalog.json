@@ -6,7 +6,7 @@
       "id": "bucees",
       "displayName": "Buc-ee's",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "strict": true,
         "brand": ["Buc-ee's", "Buc-ees", "Bucees", "Buc-ee's"],
@@ -62,7 +62,7 @@
       "id": "loves",
       "displayName": "Love's",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "brand": ["Love's", "Loves", "Love's Travel Stop", "Love's Country Stores", "Love's Travel Shops"],
         "operator": ["Love's", "Loves"],
@@ -73,7 +73,7 @@
       "id": "pilot",
       "displayName": "Pilot",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "brand": ["Pilot", "Pilot Travel Center", "Pilot Travel Centers", "Pilot Flying J"],
         "operator": ["Pilot", "Pilot Travel Centers"],
@@ -84,7 +84,7 @@
       "id": "flyingj",
       "displayName": "Flying J",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "brand": ["Flying J", "Flying J Travel Plaza", "Flying J Travel Center"],
         "operator": ["Flying J"],

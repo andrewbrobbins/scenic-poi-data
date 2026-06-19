@@ -1,19 +1,19 @@
 {
-  "generated": "2026-06-09T16:31:28.543Z",
-  "source": "Buc-ee's public store list + Nominatim geocode",
-  "recordCount": 15,
-  "skippedCount": 40,
+  "generated": "2026-06-19T20:02:20.454Z",
+  "source": "Official brand reconcile — stores on brand locators not matched to OSM",
+  "matchRadiusMi": 0.5,
+  "recordCount": 108,
   "records": [
     {
-      "id": "FUEL-BUCEES-TX-luling-10070-west-ih-10-supp",
-      "name": "Buc-ee's — Luling",
+      "id": "FUEL-BUCEES-TX-angleton-931-loop-274-supp",
+      "name": "#21 – Angleton, TX",
       "brand": "Buc-ee's",
       "brandId": "bucees",
       "brandTier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "state": "TX",
-      "lat": 29.650786,
-      "lon": -97.592626,
+      "lat": 29.158399,
+      "lon": -95.432375,
       "highway": "",
       "fuels": {
         "gasoline": true,
@@ -21,7 +21,7 @@
       },
       "sources": [
         "supplement",
-        "bucees-public-list"
+        "bucees-official"
       ],
       "mapFlags": [
         "SUPPLEMENT"
@@ -29,99 +29,21 @@
       "reviewReasons": [],
       "needsReview": false,
       "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TX-waller-40900-us-hwy-290-bypass-supp",
-      "name": "Buc-ee's — Waller",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TX",
-      "lat": 30.0720458,
-      "lon": -95.9317167,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TX-bastrop-1700-highway-71-east-supp",
-      "name": "Buc-ee's — Bastrop",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TX",
-      "lat": 30.1076047,
-      "lon": -97.3062887,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TX-wharton-10484-us-59-road-supp",
-      "name": "Buc-ee's — Wharton",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TX",
-      "lat": 29.3255262,
-      "lon": -96.1236719,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
+      "officialId": "#21",
+      "officialStreet": "931 Loop 274",
+      "url": "https://buc-ees.com/locations/",
+      "region": "us"
     },
     {
       "id": "FUEL-BUCEES-TX-richmond-1243-crabb-river-rd-supp",
-      "name": "Buc-ee's — Richmond",
+      "name": "#31 – Richmond, TX",
       "brand": "Buc-ee's",
       "brandId": "bucees",
       "brandTier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "state": "TX",
-      "lat": 29.5525093,
-      "lon": -95.6970407,
+      "lat": 29.552377,
+      "lon": -95.696633,
       "highway": "",
       "fuels": {
         "gasoline": true,
@@ -129,7 +51,7 @@
       },
       "sources": [
         "supplement",
-        "bucees-public-list"
+        "bucees-official"
       ],
       "mapFlags": [
         "SUPPLEMENT"
@@ -137,72 +59,21 @@
       "reviewReasons": [],
       "needsReview": false,
       "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TX-terrell-506-w-ih-20-supp",
-      "name": "Buc-ee's — Terrell",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TX",
-      "lat": 32.7166907,
-      "lon": -96.3218226,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TX-fort-worth-15901-n-freeway-supp",
-      "name": "Buc-ee's — Fort Worth",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TX",
-      "lat": 33.023874,
-      "lon": -97.2781874,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
+      "officialId": "#31",
+      "officialStreet": "1243 Crabb River Rd",
+      "url": "https://buc-ees.com/locations/",
+      "region": "us"
     },
     {
       "id": "FUEL-BUCEES-TX-royse-city-5005-e-interstate-30-supp",
-      "name": "Buc-ee's — Royse City",
+      "name": "#38 – Royse City, TX",
       "brand": "Buc-ee's",
       "brandId": "bucees",
       "brandTier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "state": "TX",
-      "lat": 32.979244,
-      "lon": -96.2952578,
+      "lat": 32.970428,
+      "lon": -96.329704,
       "highway": "",
       "fuels": {
         "gasoline": true,
@@ -210,7 +81,7 @@
       },
       "sources": [
         "supplement",
-        "bucees-public-list"
+        "bucees-official"
       ],
       "mapFlags": [
         "SUPPLEMENT"
@@ -218,18 +89,21 @@
       "reviewReasons": [],
       "needsReview": false,
       "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
+      "officialId": "#38",
+      "officialStreet": "5005 E Interstate 30",
+      "url": "https://buc-ees.com/locations/",
+      "region": "us"
     },
     {
-      "id": "FUEL-BUCEES-TX-denton-2800-s-interstate-35-e-supp",
-      "name": "Buc-ee's — Denton",
+      "id": "FUEL-BUCEES-TX-ennis-1402-south-ih-45-supp",
+      "name": "#48 – Ennis, TX",
       "brand": "Buc-ee's",
       "brandId": "bucees",
       "brandTier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "state": "TX",
-      "lat": 33.179311,
-      "lon": -97.1025657,
+      "lat": 32.33407,
+      "lon": -96.615663,
       "highway": "",
       "fuels": {
         "gasoline": true,
@@ -237,7 +111,7 @@
       },
       "sources": [
         "supplement",
-        "bucees-public-list"
+        "bucees-official"
       ],
       "mapFlags": [
         "SUPPLEMENT"
@@ -245,153 +119,21 @@
       "reviewReasons": [],
       "needsReview": false,
       "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TX-katy-27700-katy-fwy-supp",
-      "name": "Buc-ee's — Katy",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TX",
-      "lat": 29.7787125,
-      "lon": -95.8475338,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-AL-robertsdale-20403-county-rd-68-supp",
-      "name": "Buc-ee's — Robertsdale",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "AL",
-      "lat": 30.634192,
-      "lon": -87.6767599,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-FL-saint-augustine-200-world-commerce-pkwy-supp",
-      "name": "Buc-ee's — Saint Augustine",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "FL",
-      "lat": 29.9837774,
-      "lon": -81.4642177,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-FL-daytona-beach-2330-gateway-north-drive-supp",
-      "name": "Buc-ee's — Daytona Beach",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "FL",
-      "lat": 29.224026,
-      "lon": -81.101037,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
-    },
-    {
-      "id": "FUEL-BUCEES-TN-crossville-2045-genesis-road-supp",
-      "name": "Buc-ee's — Crossville",
-      "brand": "Buc-ee's",
-      "brandId": "bucees",
-      "brandTier": "A",
-      "type": "travel_center",
-      "state": "TN",
-      "lat": 35.9809457,
-      "lon": -85.0163396,
-      "highway": "",
-      "fuels": {
-        "gasoline": true,
-        "diesel": false
-      },
-      "sources": [
-        "supplement",
-        "bucees-public-list"
-      ],
-      "mapFlags": [
-        "SUPPLEMENT"
-      ],
-      "reviewReasons": [],
-      "needsReview": false,
-      "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
+      "officialId": "#48",
+      "officialStreet": "1402 South IH- 45",
+      "url": "https://buc-ees.com/locations/",
+      "region": "us"
     },
     {
       "id": "FUEL-BUCEES-AL-athens-2328-lindsay-lane-south-supp",
-      "name": "Buc-ee's — Athens",
+      "name": "#57 – Athens, AL",
       "brand": "Buc-ee's",
       "brandId": "bucees",
       "brandTier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "state": "AL",
-      "lat": 34.7292738,
-      "lon": -86.9324797,
+      "lat": 34.730814,
+      "lon": -86.930662,
       "highway": "",
       "fuels": {
         "gasoline": true,
@@ -399,7 +141,7 @@
       },
       "sources": [
         "supplement",
-        "bucees-public-list"
+        "bucees-official"
       ],
       "mapFlags": [
         "SUPPLEMENT"
@@ -407,7 +149,3100 @@
       "reviewReasons": [],
       "needsReview": false,
       "manualVerified": true,
-      "url": "https://www.buc-ees.com/"
+      "officialId": "#57",
+      "officialStreet": "2328 Lindsay Lane South",
+      "url": "https://buc-ees.com/locations/",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AL-satsuma-https-locations-pilotflyingj-com-us-al-s-supp",
+      "name": "Pilot Travel Center in Satsuma, AL | 6109 US-43 S",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AL",
+      "lat": 30.8727989,
+      "lon": -88.0469468,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/al/satsuma/6109-us-43-s",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/al/satsuma/6109-us-43-s",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AL-tuskegee-https-locations-pilotflyingj-com-us-al-t-supp",
+      "name": "Pilot Travel Center in Tuskegee, AL | 3680 AL-81",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AL",
+      "lat": 32.4715685,
+      "lon": -85.6903832,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/al/tuskegee/3680-al-81",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/al/tuskegee/3680-al-81",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AR-brinkley-https-locations-pilotflyingj-com-us-ar-b-supp",
+      "name": "ONE9 Travel Center in Brinkley, AR | 2101 US-49",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AR",
+      "lat": 34.912544273597874,
+      "lon": -91.19621866623427,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ar/brinkley/2101-us-49",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ar/brinkley/2101-us-49",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-ash-fork-https-locations-pilotflyingj-com-us-az-a-supp",
+      "name": "ONE9 Travel Center in Ash Fork, AZ | 43 W Park Ave",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 35.222338,
+      "lon": -112.478669,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/ash-fork/43-w-park-ave",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/ash-fork/43-w-park-ave",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-eloy-https-locations-pilotflyingj-com-us-az-e-supp",
+      "name": "Xpress Fuel Travel Center in Eloy, AZ | 3105 N Toltec Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 32.779546753867265,
+      "lon": -111.61792355155943,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/eloy/3105-n-toltec-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/eloy/3105-n-toltec-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-eloy-https-locations-pilotflyingj-com-us-az-e-supp",
+      "name": "Pride Travel Center in Eloy, AZ | 5240 S Sunland Gin Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 32.8118421145121,
+      "lon": -111.67180282949982,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/eloy/5240-s-sunland-gin-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/eloy/5240-s-sunland-gin-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-quartzsite-https-locations-pilotflyingj-com-us-az-q-supp",
+      "name": "Arco Travel Center in Quartzsite, AZ | 185 N Riggles Ave",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 33.67009843547798,
+      "lon": -114.19895895422326,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/quartzsite/185-n-riggles-ave",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/quartzsite/185-n-riggles-ave",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-salome-https-locations-pilotflyingj-com-us-az-s-supp",
+      "name": "One9 Travel Center in Salome, AZ | 48710 Vicksburg Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 33.627656363554415,
+      "lon": -113.76779908173792,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/salome/48710-vicksburg-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/salome/48710-vicksburg-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-yucca-https-locations-pilotflyingj-com-us-az-y-supp",
+      "name": "Flying J Travel Center in Yucca, AZ | 10835 S Double R Dr",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 34.91452313809316,
+      "lon": -114.15536874744848,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/yucca/10835-s-double-r-dr",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/yucca/10835-s-double-r-dr",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-AZ-yucca-https-locations-pilotflyingj-com-us-az-y-supp",
+      "name": "Pride Travel Center in Yucca, AZ | 12551 S Mohave Center Blvd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 34.86396432618587,
+      "lon": -114.14406582341768,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/az/yucca/12551-s-mohave-center-blvd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/az/yucca/12551-s-mohave-center-blvd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-CA-bakersfield-https-locations-pilotflyingj-com-us-ca-b-supp",
+      "name": "EZ Trip Travel Center in Bakersfield, CA | 29541 Stockdale Hwy",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CA",
+      "lat": 35.35423704900311,
+      "lon": -119.33124504047548,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ca/bakersfield/29541-stockdale-hwy",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ca/bakersfield/29541-stockdale-hwy",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-CA-huron-https-locations-pilotflyingj-com-us-ca-h-supp",
+      "name": "EZ Trip Travel Center in Huron, CA | 44779 S. Lassen Avenue",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CA",
+      "lat": 36.0749927,
+      "lon": -120.1033417,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ca/huron/44779-s.-lassen-avenue",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ca/huron/44779-s.-lassen-avenue",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-CA-madera-https-locations-pilotflyingj-com-us-ca-m-supp",
+      "name": "EZ Trip Travel Center in Madera, CA | 28577 Ave 12",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CA",
+      "lat": 36.9250033,
+      "lon": -120.0263035,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ca/madera/28577-ave-12",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ca/madera/28577-ave-12",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-CO-hudson-https-locations-pilotflyingj-com-us-co-h-supp",
+      "name": "Pilot Travel Center in Hudson, CO | 7044 County Rd 49",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CO",
+      "lat": 40.1043,
+      "lon": -104.603,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/co/hudson/7044-county-rd-49",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/co/hudson/7044-county-rd-49",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-FL-cocoa-https-locations-pilotflyingj-com-us-fl-c-supp",
+      "name": "ONE9 Travel Center in Cocoa, FL | 4455 W King St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "FL",
+      "lat": 28.359164203862274,
+      "lon": -80.79245792270183,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/fl/cocoa/4455-w-king-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/fl/cocoa/4455-w-king-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-FL-ellenton-https-locations-pilotflyingj-com-us-fl-e-supp",
+      "name": "ONE9 Travel Center in Ellenton, FL | 1526 51st Ave E",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "FL",
+      "lat": 27.528565346887518,
+      "lon": -82.51230464049281,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/fl/ellenton/1526-51st-ave-e",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/fl/ellenton/1526-51st-ave-e",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-FL-jacksonville-https-locations-pilotflyingj-com-us-fl-j-supp",
+      "name": "Mr. Fuel Travel Center in Jacksonville, FL | 3515 Zoo Pkwy",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "FL",
+      "lat": 30.4128833,
+      "lon": -81.5716908,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/fl/jacksonville/3515-zoo-pkwy",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/fl/jacksonville/3515-zoo-pkwy",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-FL-ponce-de-leon-https-locations-pilotflyingj-com-us-fl-p-supp",
+      "name": "Pilot Travel Center in Ponce de Leon, FL | 2923 Hwy 81",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "FL",
+      "lat": 30.716138014060412,
+      "lon": -85.93498925893314,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/fl/ponce-de-leon/2923-hwy-81",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/fl/ponce-de-leon/2923-hwy-81",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-GA-dalton-https-locations-pilotflyingj-com-us-ga-d-supp",
+      "name": "ONE9 Travel Center in Dalton, GA | 243 Connector 3 SW",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "GA",
+      "lat": 34.687265430033236,
+      "lon": -85.00015391534424,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ga/dalton/243-connector-3-sw",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ga/dalton/243-connector-3-sw",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-GA-savannah-https-locations-pilotflyingj-com-us-ga-s-supp",
+      "name": "Mr. Fuel Travel Center in Savannah, GA | 1504 Dean Forest Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "GA",
+      "lat": 32.072302,
+      "lon": -81.199597,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ga/savannah/1504-dean-forest-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ga/savannah/1504-dean-forest-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-GA-wildwood-https-locations-pilotflyingj-com-us-ga-w-supp",
+      "name": "ONE9 Travel Center in Wildwood, GA | 650 GA-299",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "GA",
+      "lat": 34.97848385096656,
+      "lon": -85.4139074441803,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ga/wildwood/650-ga-299",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ga/wildwood/650-ga-299",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-IA-atalissa-https-locations-pilotflyingj-com-us-ia-a-supp",
+      "name": "ONE9 Travel Center in Atalissa, IA | 2086 Atalissa Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IA",
+      "lat": 41.644246,
+      "lon": -91.149972,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ia/atalissa/2086-atalissa-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ia/atalissa/2086-atalissa-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-IL-litchfield-https-locations-pilotflyingj-com-us-il-l-supp",
+      "name": "Mr. Fuel Travel Center in Litchfield, IL | 4 Corvette Dr",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IL",
+      "lat": 39.17694110759193,
+      "lon": -89.67442381225109,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/il/litchfield/4-corvette-dr",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/il/litchfield/4-corvette-dr",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-IN-covington-https-locations-pilotflyingj-com-us-in-c-supp",
+      "name": "ONE9 Travel Center in Covington, IN | 16502 IN-63",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IN",
+      "lat": 40.12298024344279,
+      "lon": -87.45067123809814,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/in/covington/16502-in-63",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/in/covington/16502-in-63",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-IN-lake-station-https-locations-pilotflyingj-com-us-in-l-supp",
+      "name": "Mr. Fuel Travel Center in Lake Station, IN | 1235 Ripley St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IN",
+      "lat": 41.58833740961262,
+      "lon": -87.23947943543345,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/in/lake-station/1235-ripley-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/in/lake-station/1235-ripley-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-IN-terre-haute-https-locations-pilotflyingj-com-us-in-t-supp",
+      "name": "ONE9 Travel Center in Terre Haute, IN | 5555 E Margaret Ave",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IN",
+      "lat": 39.43329431727441,
+      "lon": -87.33216018650816,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/in/terre-haute/5555-e-margaret-ave",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/in/terre-haute/5555-e-margaret-ave",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-IN-valparaiso-https-locations-pilotflyingj-com-us-in-v-supp",
+      "name": "ONE9 Travel Center in Valparaiso, IN | 4105 US-30 E",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IN",
+      "lat": 41.448527,
+      "lon": -87.010376,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/in/valparaiso/4105-us-30-e",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/in/valparaiso/4105-us-30-e",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-KY-franklin-https-locations-pilotflyingj-com-us-ky-f-supp",
+      "name": "ONE9 Travel Center in Franklin, KY | 2929 Scottsville Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "KY",
+      "lat": 36.716046,
+      "lon": -86.525849,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ky/franklin/2929-scottsville-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ky/franklin/2929-scottsville-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-KY-sonora-https-locations-pilotflyingj-com-us-ky-s-supp",
+      "name": "ONE9 Travel Center in Sonora, KY | 450 E Western Ave",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "KY",
+      "lat": 37.52252867325649,
+      "lon": -85.88267079866276,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ky/sonora/450-e-western-ave",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ky/sonora/450-e-western-ave",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-LA-port-allen-https-locations-pilotflyingj-com-us-la-p-supp",
+      "name": "Pilot Travel Center in Port Allen, LA | 420 N Lobdell Hwy",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "LA",
+      "lat": 30.454249269882123,
+      "lon": -91.24652667055226,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/la/port-allen/420-n-lobdell-hwy",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/la/port-allen/420-n-lobdell-hwy",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MA-chicopee-https-locations-pilotflyingj-com-us-ma-c-supp",
+      "name": "Pilot Travel Center in Chicopee, MA | 357 Burnett Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MA",
+      "lat": 42.1651464,
+      "lon": -72.5451751,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ma/chicopee/357-burnett-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ma/chicopee/357-burnett-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MI-ionia-https-locations-pilotflyingj-com-us-mi-i-supp",
+      "name": "ONE9 Travel Center in Ionia, MI | 7205 S State Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MI",
+      "lat": 42.88296566287978,
+      "lon": -85.07382574117912,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/mi/ionia/7205-s-state-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/mi/ionia/7205-s-state-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MO-foristell-https-locations-pilotflyingj-com-us-mo-f-supp",
+      "name": "Mr. Fuel Travel Center in Foristell, MO | 11 State Hwy W",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 38.81843491338225,
+      "lon": -90.95300057804869,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/mo/foristell/11-state-hwy-w",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/mo/foristell/11-state-hwy-w",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MO-marston-https-locations-pilotflyingj-com-us-mo-m-supp",
+      "name": "ONE9 Travel Center in Marston, MO | 917 E Elm St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 36.51823272159483,
+      "lon": -89.59792952277141,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/mo/marston/917-e-elm-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/mo/marston/917-e-elm-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MO-pevely-https-locations-pilotflyingj-com-us-mo-p-supp",
+      "name": "Mr. Fuel Travel Center in Pevely, MO | 8915 Weier Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 38.285981,
+      "lon": -90.405087,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/mo/pevely/8915-weier-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/mo/pevely/8915-weier-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MO-villa-ridge-https-locations-pilotflyingj-com-us-mo-v-supp",
+      "name": "Mr. Fuel Travel Center in Villa Ridge, MO | 3324 MO-100",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 38.47573552261796,
+      "lon": -90.85136636107242,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/mo/villa-ridge/3324-mo-100",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/mo/villa-ridge/3324-mo-100",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MS-meridian-https-locations-pilotflyingj-com-us-ms-m-supp",
+      "name": "Mr. Fuel Travel Center in Meridian, MS | 10580 Old Hwy 80 W",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MS",
+      "lat": 32.34330003394725,
+      "lon": -88.79821347876684,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ms/meridian/10580-old-hwy-80-w",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ms/meridian/10580-old-hwy-80-w",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-NC-mcleansville-https-locations-pilotflyingj-com-us-nc-m-supp",
+      "name": "ONE9 Travel Center in McLeansville, NC | 907 Knox Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NC",
+      "lat": 36.06085647658663,
+      "lon": -79.66228490370484,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nc/mcleansville/907-knox-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nc/mcleansville/907-knox-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-NC-pleasant-hill-https-locations-pilotflyingj-com-us-nc-p-supp",
+      "name": "ONE9 Travel Center in Pleasant Hill, NC | 2032 NC-48",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NC",
+      "lat": 36.523299,
+      "lon": -77.587281,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nc/pleasant-hill/2032-nc-48",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nc/pleasant-hill/2032-nc-48",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-ND-bismarck-https-locations-pilotflyingj-com-us-nd-b-supp",
+      "name": "ONE9 Travel Center in Bismarck, ND | 3936 Miriam Ave",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "ND",
+      "lat": 46.82943325421127,
+      "lon": -100.72928615411641,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nd/bismarck/3936-miriam-ave",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nd/bismarck/3936-miriam-ave",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-ND-fargo-https-locations-pilotflyingj-com-us-nd-f-supp",
+      "name": "Stamart Travel Center in Fargo, ND | 3500 12th Ave N",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "ND",
+      "lat": 46.88944341642595,
+      "lon": -96.83594404710766,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nd/fargo/3500-12th-ave-n",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nd/fargo/3500-12th-ave-n",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-NE-elm-creek-https-locations-pilotflyingj-com-us-ne-e-supp",
+      "name": "ONE9 Travel Center in Elm Creek, NE | 5085 Buffalo Creek Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NE",
+      "lat": 40.692276562177675,
+      "lon": -99.3817536699753,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ne/elm-creek/5085-buffalo-creek-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ne/elm-creek/5085-buffalo-creek-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-NM-gallup-https-locations-pilotflyingj-com-us-nm-g-supp",
+      "name": "ONE9 Travel Center in Gallup, NM | 3303 W Historic Hwy 66",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NM",
+      "lat": 35.506251,
+      "lon": -108.825976,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nm/gallup/3303-w-historic-hwy-66",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nm/gallup/3303-w-historic-hwy-66",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-NV-carlin-https-locations-pilotflyingj-com-us-nv-c-supp",
+      "name": "ONE9 Travel Center in Carlin, NV | 791 10th St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NV",
+      "lat": 40.71970773701785,
+      "lon": -116.10611350066375,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nv/carlin/791-10th-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nv/carlin/791-10th-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-NV-sparks-https-locations-pilotflyingj-com-us-nv-s-supp",
+      "name": "ONE9 Travel Center in Sparks, NV | 400 USA Parkway (Hwy 439)",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NV",
+      "lat": 39.559014533092466,
+      "lon": -119.4898624297425,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/nv/sparks/400-usa-parkway-(hwy-439)",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/nv/sparks/400-usa-parkway-(hwy-439)",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-OH-edon-https-locations-pilotflyingj-com-us-oh-e-supp",
+      "name": "Flying J Travel Center in Edon, OH | 14896 OH-49",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 41.633628429360535,
+      "lon": -84.76529981286129,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/oh/edon/14896-oh-49",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/oh/edon/14896-oh-49",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-OH-girard-https-locations-pilotflyingj-com-us-oh-g-supp",
+      "name": "Mr. Fuel Travel Center in Girard, OH | 2840 Salt Springs Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 41.1391107292473,
+      "lon": -80.71790146670246,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/oh/girard/2840-salt-springs-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/oh/girard/2840-salt-springs-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-OH-steubenville-https-locations-pilotflyingj-com-us-oh-s-supp",
+      "name": "Mr. Fuel Travel Center in Steubenville, OH | 435 S 3rd St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 40.3531905,
+      "lon": -80.6164316,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/oh/steubenville/435-s-3rd-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/oh/steubenville/435-s-3rd-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-OH-wilmington-https-locations-pilotflyingj-com-us-oh-w-supp",
+      "name": "ONE9 Travel Center in Wilmington, OH | 5772 N US Hwy 68",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 39.52269640606008,
+      "lon": -83.8461018,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/oh/wilmington/5772-n-us-hwy-68",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/oh/wilmington/5772-n-us-hwy-68",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-OR-albany-https-locations-pilotflyingj-com-us-or-a-supp",
+      "name": "EZ Trip Travel Center in Albany, OR | 33380 OR-34",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OR",
+      "lat": 44.55542205037545,
+      "lon": -123.05758350370482,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/or/albany/33380-or-34",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/or/albany/33380-or-34",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-PA-duncannon-https-locations-pilotflyingj-com-us-pa-d-supp",
+      "name": "Pilot Travel Center in Duncannon, PA | 30 Benvenue Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "PA",
+      "lat": 40.40570626037003,
+      "lon": -77.0096590687866,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/pa/duncannon/30-benvenue-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/pa/duncannon/30-benvenue-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-PA-harrisburg-https-locations-pilotflyingj-com-us-pa-h-supp",
+      "name": "ONE9 Travel Center in Harrisburg, PA | 7961 Linglestown Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "PA",
+      "lat": 40.35159879927267,
+      "lon": -76.71641504524743,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/pa/harrisburg/7961-linglestown-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/pa/harrisburg/7961-linglestown-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-SC-clinton-https-locations-pilotflyingj-com-us-sc-c-supp",
+      "name": "ONE9 Travel Center in Clinton, SC | 12818 SC-56",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "SC",
+      "lat": 34.509127,
+      "lon": -81.858031,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/sc/clinton/12818-sc-56",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/sc/clinton/12818-sc-56",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-SC-rock-hill-https-locations-pilotflyingj-com-us-sc-r-supp",
+      "name": "ONE9 Travel Center in Rock Hill, SC | 1155 S Anderson Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "SC",
+      "lat": 34.91319420378422,
+      "lon": -80.97954384629517,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/sc/rock-hill/1155-s-anderson-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/sc/rock-hill/1155-s-anderson-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-SC-summerville-https-locations-pilotflyingj-com-us-sc-s-supp",
+      "name": "Mr. Fuel Travel Center in Summerville, SC | 1521 N Main St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "SC",
+      "lat": 33.03891850148002,
+      "lon": -80.14231133007678,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/sc/summerville/1521-n-main-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/sc/summerville/1521-n-main-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TN-dandridge-https-locations-pilotflyingj-com-us-tn-d-supp",
+      "name": "ONE9 Travel Center in Dandridge, TN | 505 Patriot Dr",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TN",
+      "lat": 36.03750642605513,
+      "lon": -83.44555030270627,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tn/dandridge/505-patriot-dr",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tn/dandridge/505-patriot-dr",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TN-heiskell-https-locations-pilotflyingj-com-us-tn-h-supp",
+      "name": "ONE9 Travel Center in Heiskell, TN | 1915 E Raccoon Valley Dr",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TN",
+      "lat": 36.11106959328141,
+      "lon": -84.02018275210868,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tn/heiskell/1915-e-raccoon-valley-dr",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tn/heiskell/1915-e-raccoon-valley-dr",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TN-holladay-https-locations-pilotflyingj-com-us-tn-h-supp",
+      "name": "ONE9 Travel Center in Holladay, TN | 15060 US-641 S",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TN",
+      "lat": 35.843010167500815,
+      "lon": -88.08471945506712,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tn/holladay/15060-us-641-s",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tn/holladay/15060-us-641-s",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TX-clint-https-locations-pilotflyingj-com-us-tx-c-supp",
+      "name": "Xpress Fuel Travel Center in Clint, TX | 1590 FM1110",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 31.598011923114207,
+      "lon": -106.19699704963048,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tx/clint/1590-fm1110",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tx/clint/1590-fm1110",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TX-eagle-pass-https-locations-pilotflyingj-com-us-tx-e-supp",
+      "name": "Pilot Travel Center in Eagle Pass, TX | 4392 El Indio Hwy",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 28.6696,
+      "lon": -100.455,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tx/eagle-pass/4392-el-indio-hwy",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tx/eagle-pass/4392-el-indio-hwy",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TX-grand-prairie-https-locations-pilotflyingj-com-us-tx-g-supp",
+      "name": "Mr. Fuel Travel Center in Grand Prairie, TX | 3206 W Trinity Blvd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 32.8018794,
+      "lon": -97.030391,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tx/grand-prairie/3206-w-trinity-blvd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tx/grand-prairie/3206-w-trinity-blvd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TX-laredo-https-locations-pilotflyingj-com-us-tx-l-supp",
+      "name": "Pilot Travel Center in Laredo, TX | 14070 Mines Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 27.620348976512386,
+      "lon": -99.52463603439331,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tx/laredo/14070-mines-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tx/laredo/14070-mines-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TX-van-horn-https-locations-pilotflyingj-com-us-tx-v-supp",
+      "name": "Xpress Fuel Travel Center in Van Horn, TX | 900 Frontage Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 31.039088635332803,
+      "lon": -104.81544557080248,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tx/van-horn/900-frontage-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tx/van-horn/900-frontage-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-TX-vinton-https-locations-pilotflyingj-com-us-tx-v-supp",
+      "name": "Xpress Fuel Travel Center in Vinton, TX | 581 Vinton Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 31.9582,
+      "lon": -106.586,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/tx/vinton/581-vinton-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/tx/vinton/581-vinton-rd",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-UT-ogden-https-locations-pilotflyingj-com-us-ut-o-supp",
+      "name": "ONE9 Travel Center in Ogden, UT | 1670 W 12th St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "UT",
+      "lat": 41.245305720861744,
+      "lon": -112.01938527116394,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/ut/ogden/1670-w-12th-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/ut/ogden/1670-w-12th-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-VA-troutville-https-locations-pilotflyingj-com-us-va-t-supp",
+      "name": "ONE9 Travel Center in Troutville, VA | 2966 Lee Hwy",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "VA",
+      "lat": 37.388778719821936,
+      "lon": -79.90077749206543,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/va/troutville/2966-lee-hwy",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/va/troutville/2966-lee-hwy",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-WY-wamsutter-https-locations-pilotflyingj-com-us-wy-w-supp",
+      "name": "ONE9 Travel Center in Wamsutter, WY | 399 McCormick St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "WY",
+      "lat": 41.674144,
+      "lon": -107.978979,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/us/wy/wamsutter/399-mccormick-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/us/wy/wamsutter/399-mccormick-st",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-IL-williamsville-991-ann-rutledge-rd-supp",
+      "name": "Love's #249 — Williamsville, IL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IL",
+      "lat": 39.960959,
+      "lon": -89.562296,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "249",
+      "officialStreet": "991 Ann Rutledge Rd.",
+      "url": "https://loves249.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-CA-bakersfield-1500-taft-hwy-supp",
+      "name": "Love's #830 — Bakersfield, CA",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CA",
+      "lat": 35.267733,
+      "lon": -119.019841,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "830",
+      "officialStreet": "1500 Taft Hwy",
+      "url": "https://loves830.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-MS-lucedale-2127-hopper-road-supp",
+      "name": "Love's #864 — Lucedale, MS",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MS",
+      "lat": 30.923614,
+      "lon": -88.514251,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "864",
+      "officialStreet": "2127 Hopper Road",
+      "url": "https://loves864.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OK-walters-mile-21-h-e-bailey-turnpike-supp",
+      "name": "Love's #168 — Walters, OK",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OK",
+      "lat": 34.370171,
+      "lon": -98.409611,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "168",
+      "officialStreet": "Mile 21 H.E. Bailey Turnpike",
+      "url": "https://loves168.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OK-chandler-169e-turner-turnpike-supp",
+      "name": "Love's #170 — Chandler, OK",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OK",
+      "lat": 35.72777,
+      "lon": -96.83464,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "170",
+      "officialStreet": "169E Turner Turnpike",
+      "url": "https://loves170.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OK-mcalester-mile-66-indian-nation-turnpike-supp",
+      "name": "Love's #171 — McAlester, OK",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OK",
+      "lat": 34.907161,
+      "lon": -95.825601,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "171",
+      "officialStreet": "Mile 66 Indian Nation Turnpike",
+      "url": "https://loves171.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-KS-el-dorado-mile-65-kansas-turnpike-supp",
+      "name": "Love's #177 — El Dorado, KS",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "KS",
+      "lat": 37.7661,
+      "lon": -96.98161,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "177",
+      "officialStreet": "Mile 65 Kansas Turnpike",
+      "url": "https://loves177.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-LA-opelousas-4158-i-49-n-service-rd-supp",
+      "name": "Love's #875 — Opelousas, LA",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "LA",
+      "lat": 30.478381,
+      "lon": -92.073696,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "875",
+      "officialStreet": "4158 I-49 N Service Rd",
+      "url": "https://loves875.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-FL-st-augustine-1025-sr-206-w-supp",
+      "name": "Love's #894 — St Augustine, FL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "FL",
+      "lat": 29.745791,
+      "lon": -81.349601,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "894",
+      "officialStreet": "1025 SR 206 W",
+      "url": "https://loves894.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-NC-rural-hall-2257-shore-rd-supp",
+      "name": "Love's #883 — Rural Hall, NC",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NC",
+      "lat": 36.225136,
+      "lon": -80.323372,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "883",
+      "officialStreet": "2257 Shore Rd",
+      "url": "https://loves883.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OH-delphos-1910-e-5th-st-supp",
+      "name": "Love's #555 — Delphos, OH",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 40.847803,
+      "lon": -84.312626,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "555",
+      "officialStreet": "1910 E 5th St",
+      "url": "https://loves555.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-IL-wilmington-21624-w-alexander-farm-rd-supp",
+      "name": "Love's #425 — Wilmington, IL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IL",
+      "lat": 41.32474,
+      "lon": -88.13405,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "425",
+      "officialStreet": "21624 W Alexander Farm Rd",
+      "url": "https://loves425.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-MO-sarcoxie-2580-high-st-supp",
+      "name": "Love's #886 — Sarcoxie, MO",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 37.076446,
+      "lon": -94.104167,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "886",
+      "officialStreet": "2580 High St",
+      "url": "https://loves886.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-AL-cullman-497-county-road-222-supp",
+      "name": "Love's #877 — Cullman, AL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AL",
+      "lat": 34.129181,
+      "lon": -86.864036,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "877",
+      "officialStreet": "497 County Road 222",
+      "url": "https://loves877.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-VA-elliston-5275-n-fork-rd-supp",
+      "name": "Love's #574 — Elliston, VA",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "VA",
+      "lat": 37.232889,
+      "lon": -80.234747,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "574",
+      "officialStreet": "5275 N Fork Rd",
+      "url": "https://loves574.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-MS-hattiesburg-283-ira-hudson-rd-supp",
+      "name": "Love's #565 — Hattiesburg, MS",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MS",
+      "lat": 31.242397,
+      "lon": -89.302923,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "565",
+      "officialStreet": "283 Ira Hudson Rd",
+      "url": "https://loves565.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-LA-mandeville-66595-wadsworth-pkwy-supp",
+      "name": "Love's #856 — Mandeville, LA",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "LA",
+      "lat": 30.395171,
+      "lon": -89.999839,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "856",
+      "officialStreet": "66595 Wadsworth Pkwy",
+      "url": "https://loves856.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-CO-alamosa-138-broadway-ave-supp",
+      "name": "Love's #959 — Alamosa, CO",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CO",
+      "lat": 37.471499,
+      "lon": -105.857969,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "959",
+      "officialStreet": "138 Broadway Ave",
+      "url": "https://loves959.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OH-belmont-66320-belmont-morristown-rd-supp",
+      "name": "Love's #563 — Belmont, OH",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 40.056855,
+      "lon": -81.053671,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "563",
+      "officialStreet": "66320 Belmont-Morristown Rd",
+      "url": "https://loves563.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-NM-albuquerque-3200-broadway-blvd-se-supp",
+      "name": "Love's #963 — Albuquerque, NM",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NM",
+      "lat": 35.047758,
+      "lon": -106.645985,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "963",
+      "officialStreet": "3200 Broadway Blvd SE",
+      "url": "https://loves963.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-FL-gretna-265-opportunity-way-supp",
+      "name": "Love's #964 — Gretna, FL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "FL",
+      "lat": 30.578341,
+      "lon": -84.704463,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "964",
+      "officialStreet": "265 Opportunity Way",
+      "url": "https://loves964.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-WY-buffalo-190-us-hwy-16-e-supp",
+      "name": "Love's #965 — Buffalo , WY",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "WY",
+      "lat": 44.357109,
+      "lon": -106.662045,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "965",
+      "officialStreet": "190 US Hwy 16 E",
+      "url": "https://loves965.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-MO-jasper-651-e-mercer-supp",
+      "name": "Love's #966 — Jasper , MO",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 37.340655,
+      "lon": -94.294459,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "966",
+      "officialStreet": "651 E Mercer",
+      "url": "https://loves966.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-MO-fredericktown-1500-highway-72-w-supp",
+      "name": "Love's #968 — Fredericktown, MO",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MO",
+      "lat": 37.567205,
+      "lon": -90.323053,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "968",
+      "officialStreet": "1500 Highway 72 W",
+      "url": "https://loves968.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OH-west-jefferson-540-timmons-way-supp",
+      "name": "Love's #969 — West Jefferson, OH",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 39.956789,
+      "lon": -83.335457,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "969",
+      "officialStreet": "540 Timmons Way",
+      "url": "https://loves969.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-AZ-winslow-720-transcon-ln-supp",
+      "name": "Love's #971 — Winslow, AZ",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AZ",
+      "lat": 35.019187,
+      "lon": -110.672331,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "971",
+      "officialStreet": "720 Transcon Ln",
+      "url": "https://loves971.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-TX-big-spring-1801-w-i-20-supp",
+      "name": "Love's #976 — Big Spring , TX",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 32.258997,
+      "lon": -101.503421,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "976",
+      "officialStreet": "1801 W I-20",
+      "url": "https://loves976.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-TX-tulia-2851-w-tx-86-supp",
+      "name": "Love's #984 — Tulia, TX",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "TX",
+      "lat": 34.528492,
+      "lon": -101.792691,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "984",
+      "officialStreet": "2851 W TX-86",
+      "url": "https://loves984.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-IL-joliet-1501-new-lenox-rd-supp",
+      "name": "Love's #777 — Joliet, IL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "IL",
+      "lat": 41.510848,
+      "lon": -88.045194,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "777",
+      "officialStreet": "1501 New Lenox Rd",
+      "url": "https://loves777.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-CO-brighton-672-riverfront-dr-supp",
+      "name": "Love's #838 — Brighton, CO",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CO",
+      "lat": 39.999491,
+      "lon": -104.823782,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "838",
+      "officialStreet": "672 Riverfront Dr",
+      "url": "https://loves838.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-LA-new-iberia-715-hwy-90-west-supp",
+      "name": "Love's #897 — New Iberia, LA",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "LA",
+      "lat": 29.983791,
+      "lon": -91.861366,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "897",
+      "officialStreet": "715 Hwy 90 West",
+      "url": "https://loves897.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-CO-trinidad-1001-el-moro-rd-supp",
+      "name": "Love's #1035 — Trinidad, CO",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "CO",
+      "lat": 37.226673,
+      "lon": -104.489311,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "1035",
+      "officialStreet": "1001 El Moro Rd",
+      "url": "https://loves1035.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-MT-laurel-415-19th-avenue-west-supp",
+      "name": "Love's #1043 — Laurel , MT",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MT",
+      "lat": 45.666098,
+      "lon": -108.799271,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "1043",
+      "officialStreet": "415 19th Avenue West",
+      "url": "https://loves1043.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-NM-truth-or-consequences-224-dr-hubble-rd-supp",
+      "name": "Love's #1045 — Truth or Consequences, NM",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "NM",
+      "lat": 33.155286,
+      "lon": -107.258575,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "1045",
+      "officialStreet": "224 Dr Hubble Rd",
+      "url": "https://loves1045.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-AL-quinton-220-elza-s-way-supp",
+      "name": "Love's #1048 — Quinton, AL",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "AL",
+      "lat": 33.68023,
+      "lon": -87.08175,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "1048",
+      "officialStreet": "220 Elza's Way",
+      "url": "https://loves1048.loves",
+      "region": "us"
+    },
+    {
+      "id": "FUEL-LOVES-OH-delta-8099-state-route-109-supp",
+      "name": "Love's #1055 — Delta, OH",
+      "brand": "Love's",
+      "brandId": "loves",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "OH",
+      "lat": 41.588752,
+      "lon": -84.038556,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "loves-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "1055",
+      "officialStreet": "8099 State Route 109",
+      "url": "https://loves1055.loves",
+      "region": "us"
     }
   ]
 }

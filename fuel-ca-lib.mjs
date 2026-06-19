@@ -1,4 +1,5 @@
 import fs from "fs";
+import { FUEL_TYPE_TRAVEL_PLAZA, normalizeFuelType } from "./fuel-brand-lib.mjs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { brandTagMatches, matchPilotFlyingJ } from "./fuel-pilot-fj-match.mjs";
@@ -233,7 +234,7 @@ export function matchOnrouteServices(tags) {
       brandId: "onroute",
       displayName: "ONroute",
       tier: "A",
-      type: "highway_service_centre",
+      type: FUEL_TYPE_TRAVEL_PLAZA,
       mergeWith: null,
     };
   }
@@ -245,7 +246,7 @@ function pickBrand(b) {
     brandId: b.id,
     displayName: b.displayName,
     tier: b.tier || "A",
-    type: b.type || "travel_center",
+    type: normalizeFuelType(b.type),
     mergeWith: b.mergeWith || null,
   };
 }

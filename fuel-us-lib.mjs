@@ -1,4 +1,5 @@
 import fs from "fs";
+import { FUEL_TYPE_TRAVEL_PLAZA, normalizeFuelType } from "./fuel-brand-lib.mjs";
 import { matchPilotFlyingJ } from "./fuel-pilot-fj-match.mjs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -160,7 +161,7 @@ function pickBrand(b) {
     brandId: b.id,
     displayName: b.displayName,
     tier: b.tier || "A",
-    type: b.type || "travel_center",
+    type: normalizeFuelType(b.type),
     mergeWith: b.mergeWith || null,
   };
 }
@@ -175,8 +176,8 @@ export function fuelsFromTags(tags) {
 export function amenitiesFromTags(tags, brandType) {
   const toilets = tags.toilets || tags["toilets:access"];
   return {
-    restroom: toilets ? String(toilets) : brandType === "travel_center" ? "assumed" : "unknown",
+    restroom: toilets ? String(toilets) : brandType === FUEL_TYPE_TRAVEL_PLAZA ? "assumed" : "unknown",
     food: tags.shop === "convenience" || tags["shop"] === "convenience" ? "yes" : "unknown",
-    showers: tags.shower === "yes" ? "yes" : brandType === "travel_center" ? "common" : "unknown",
+    showers: tags.shower === "yes" ? "yes" : brandType === FUEL_TYPE_TRAVEL_PLAZA ? "common" : "unknown",
   };
 }

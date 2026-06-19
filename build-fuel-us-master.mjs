@@ -16,11 +16,41 @@ import {
   writeJson,
 } from "./fuel-us-lib.mjs";
 import { applyInferredState } from "./camping-us-geo-utils.mjs";
+import { filterFullTravelCenterRecords } from "./fuel-travel-center-lib.mjs";
+import { normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const DEDUPE_MI = 0.12;
 const PFJ_MI = 0.25;
 
 const SUPPLEMENTS_PATH = path.join(TOOLS_DIR, "fuel-us-supplements.json");
+const OFFICIAL_REJECTS_PATH = path.join(TOOLS_DIR, "fuel-us-official-rejects.json");
+const LEGACY_BUCEES_REJECTS_PATH = path.join(TOOLS_DIR, "fuel-us-bucees-rejects.json");
+
+function osmKey(rec) {
+  if (!rec.osm) return rec.id;
+  return `${rec.osm.type}:${rec.osm.id}`;
+}
+
+function loadOfficialRejectKeys() {
+  const j = readJson(OFFICIAL_REJECTS_PATH) || readJson(LEGACY_BUCEES_REJECTS_PATH);
+  if (!j?.osmKeys?.length) return new Set();
+  return new Set(j.osmKeys);
+}
+
+function applyOfficialRejects(records) {
+  const rejectKeys = loadOfficialRejectKeys();
+  if (!rejectKeys.size) return { records, rejected: [] };
+  const kept = [];
+  const rejected = [];
+  for (const rec of records) {
+    if (rejectKeys.has(osmKey(rec))) {
+      rejected.push(rec);
+      continue;
+    }
+    kept.push(rec);
+  }
+  return { records: kept, rejected };
+}
 
 function slimDropped(rec) {
   return {
@@ -49,6 +79,25 @@ function suppressedEntry(keptRec, droppedRec, reason) {
 function loadSupplementRecords() {
   const j = readJson(SUPPLEMENTS_PATH);
   return j?.records ?? [];
+}
+
+/** Drop stale manual supplements superseded by official reconcile entries nearby. */
+function dropLegacyBuceesPublicList(records) {
+  const bucees = records.filter((r) => r.brandId === "bucees");
+  const legacy = bucees.filter((r) => (r.sources || []).includes("bucees-public-list"));
+  if (!legacy.length) return records;
+  const dropIds = new Set();
+  for (const old of legacy) {
+    for (const other of bucees) {
+      if (other.id === old.id) continue;
+      if (haversineMi([old.lat, old.lon], [other.lat, other.lon]) <= DEDUPE_MI) {
+        dropIds.add(old.id);
+        break;
+      }
+    }
+  }
+  if (!dropIds.size) return records;
+  return records.filter((r) => !dropIds.has(r.id));
 }
 
 function mergeSupplements(master, supplements) {
@@ -142,12 +191,24 @@ function buildQaReport(master, catalog, suppressed) {
 
 export function buildFuelMaster() {
   const catalog = loadBrandCatalog();
-  const raw = loadOsmRecords();
-  const supplements = loadSupplementRecords();
-  const { master: deduped, suppressed: dedupeSuppressed } = dedupeRecords(raw);
+  const raw = dropLegacyBuceesPublicList(loadOsmRecords());
+  const { records: officialFiltered, rejected: officialRejected } = applyOfficialRejects(raw);
+  const { records: travelCenters, dropped: fuelOnlyDropped } = filterFullTravelCenterRecords(officialFiltered);
+  const supplements = loadSupplementRecords().filter((rec) => filterFullTravelCenterRecords([rec]).records.length);
+  const { master: deduped, suppressed: dedupeSuppressed } = dedupeRecords(travelCenters);
   const { master, suppressed: supplementSuppressed } = mergeSupplements(deduped, supplements);
-  const suppressed = [...dedupeSuppressed, ...supplementSuppressed];
+  const suppressed = [
+    ...dedupeSuppressed,
+    ...supplementSuppressed,
+    ...officialRejected.map((rec) =>
+      suppressedEntry({ id: "official-reconcile" }, rec, "not-on-official-brand-list")
+    ),
+    ...fuelOnlyDropped.map((rec) =>
+      suppressedEntry({ id: "travel-center-filter" }, rec, "fuel-only-or-dealer-not-full-travel-center")
+    ),
+  ];
   for (const rec of master) {
+    rec.type = normalizeFuelType(rec.type);
     rec.mapFlags = rec.mapFlags || [];
     rec.reviewReasons = rec.reviewReasons || [];
     applyInferredState(rec);

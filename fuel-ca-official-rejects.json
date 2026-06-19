@@ -1,0 +1,328 @@
+{
+  "generated": "2026-06-19T19:58:49.049Z",
+  "matchRadiusMi": 0.5,
+  "count": 11,
+  "osmKeys": [
+    "node:4149832260",
+    "node:4943295721",
+    "node:5238127585",
+    "node:5277779606",
+    "node:12167171501",
+    "node:12452467256",
+    "way:387943961",
+    "way:462350806",
+    "way:652442089",
+    "way:684298297",
+    "way:1429825183"
+  ],
+  "records": [
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:4149832260",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 28.522,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd",
+        "label": "Flying J Travel Center in Etobicoke, ON | 1765 Albion Rd",
+        "city": "etobicoke",
+        "state": "ON"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-4149832260",
+        "name": "Flying J",
+        "lat": 43.8292706,
+        "lon": -79.04877570000001,
+        "state": "ON",
+        "osm": {
+          "type": "node",
+          "id": 4149832260
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/4149832260"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:4943295721",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 63.165,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/nanton/2810-21-ave",
+        "label": "Flying J Travel Center in Nanton, AB | 2810 21 Ave",
+        "city": "nanton",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-4943295721",
+        "name": "Flying J Cardlock",
+        "lat": 49.6836227,
+        "lon": -112.77778490000001,
+        "state": "AB",
+        "osm": {
+          "type": "node",
+          "id": 4943295721
+        },
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/4943295721"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:5238127585",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 47.036,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/whitecourt/5329-govenlock-mountain-rd",
+        "label": "Flying J Travel Center in Whitecourt, AB | 5329 Govenlock Mountain Rd",
+        "city": "whitecourt",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-5238127585",
+        "name": "Flying J Cardlock",
+        "lat": 53.5909447,
+        "lon": -116.3861346,
+        "state": "AB",
+        "osm": {
+          "type": "node",
+          "id": 5238127585
+        },
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/5238127585"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:5277779606",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 136.479,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/sherwood-park/50-pembina-rd",
+        "label": "Flying J Travel Center in Sherwood Park, AB | 50 Pembina Rd",
+        "city": "sherwood park",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-5277779606",
+        "name": "Flying J Cardlock",
+        "lat": 53.2856924,
+        "lon": -110.03538180000001,
+        "state": "AB",
+        "osm": {
+          "type": "node",
+          "id": 5277779606
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/5277779606"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:12167171501",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 12.064,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/sk/balgonie/1800-n-service-rd",
+        "label": "Flying J Travel Center in Balgonie, SK | 1800 N Service Rd",
+        "city": "balgonie",
+        "state": "SK"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-SK-flying-j-truckstop-12167171501",
+        "name": "Flying J Truckstop",
+        "lat": 50.4645184,
+        "lon": -104.5628367,
+        "state": "SK",
+        "osm": {
+          "type": "node",
+          "id": 12167171501
+        },
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/12167171501"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:12452467256",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 6.001,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/calgary/4216-72-ave-se",
+        "label": "Flying J Travel Center in Calgary, AB | 4216 72 Ave SE",
+        "city": "calgary",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-12452467256",
+        "name": "Flying J",
+        "lat": 51.0747865,
+        "lon": -114.00487000000001,
+        "state": "AB",
+        "osm": {
+          "type": "node",
+          "id": 12452467256
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/12452467256"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "way:387943961",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 32.88,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/bc/annacis-island-delta/1291-cliveden-ave",
+        "label": "Flying J Travel Center in Annacis Island Delta, BC | 1291 Cliveden Ave",
+        "city": "annacis island delta",
+        "state": "BC"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-BC-flying-j-387943961",
+        "name": "Flying J",
+        "lat": 49.01961154000001,
+        "lon": -122.26589754000001,
+        "state": "BC",
+        "osm": {
+          "type": "way",
+          "id": 387943961
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/387943961"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "way:462350806",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 15.712,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/on/ayr/2492-cedar-creek-rd",
+        "label": "Flying J Travel Center in Ayr, ON | 2492 Cedar Creek Rd",
+        "city": "ayr",
+        "state": "ON"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-cardlock-462350806",
+        "name": "Flying J Cardlock",
+        "lat": 43.17038456,
+        "lon": -80.21601488000002,
+        "state": "ON",
+        "osm": {
+          "type": "way",
+          "id": 462350806
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/462350806"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "way:652442089",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 12.179,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/sherwood-park/50-pembina-rd",
+        "label": "Flying J Travel Center in Sherwood Park, AB | 50 Pembina Rd",
+        "city": "sherwood park",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-652442089",
+        "name": "Flying J",
+        "lat": 53.57163030000001,
+        "lon": -113.61365794444447,
+        "state": "AB",
+        "osm": {
+          "type": "way",
+          "id": 652442089
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/652442089"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "way:684298297",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 20.933,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/calgary/4216-72-ave-se",
+        "label": "Flying J Travel Center in Calgary, AB | 4216 72 Ave SE",
+        "city": "calgary",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-684298297",
+        "name": "Flying J",
+        "lat": 51.29265726000001,
+        "lon": -113.99794414,
+        "state": "AB",
+        "osm": {
+          "type": "way",
+          "id": 684298297
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/684298297"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "way:1429825183",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 149.639,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/nanton/2810-21-ave",
+        "label": "Flying J Travel Center in Nanton, AB | 2810 21 Ave",
+        "city": "nanton",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-1429825183",
+        "name": "Flying J Cardlock",
+        "lat": 49.1124213,
+        "lon": -116.52443648,
+        "state": "AB",
+        "osm": {
+          "type": "way",
+          "id": 1429825183
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/1429825183"
+      }
+    }
+  ]
+}

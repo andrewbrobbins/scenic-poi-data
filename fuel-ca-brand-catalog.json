@@ -6,7 +6,7 @@
       "id": "pilot",
       "displayName": "Pilot",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "brand": ["Pilot", "Pilot Travel Center", "Pilot Travel Centers", "Pilot Flying J"],
         "operator": ["Pilot", "Pilot Travel Centers"],
@@ -17,7 +17,7 @@
       "id": "flyingj",
       "displayName": "Flying J",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "brand": ["Flying J", "Flying J Travel Plaza", "Flying J Travel Center"],
         "operator": ["Flying J"],
@@ -29,7 +29,7 @@
       "id": "irving_bigstop",
       "displayName": "Irving Big Stop",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "strict": true,
         "brand": ["Irving Big Stop", "Big Stop", "Irving Oil Big Stop"],
@@ -40,7 +40,7 @@
       "id": "onroute",
       "displayName": "ONroute",
       "tier": "A",
-      "type": "highway_service_centre",
+      "type": "travel_plaza",
       "osm": {
         "strict": true,
         "brand": ["ONroute", "OnRoute", "ONRoute"],
@@ -51,7 +51,7 @@
       "id": "petro_pass",
       "displayName": "Petro-Pass",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "strict": true,
         "brand": ["Petro-Pass", "Petro Pass", "PetroPass"],
@@ -62,7 +62,7 @@
       "id": "husky_travel",
       "displayName": "Husky Travel Center",
       "tier": "A",
-      "type": "travel_center",
+      "type": "travel_plaza",
       "osm": {
         "strict": true,
         "brand": ["Husky Travel Center", "Husky Travel Centre"],

@@ -1,37 +1,7 @@
 {
-  "generated": "2026-06-19T19:58:49.352Z",
-  "recordCount": 156,
-  "catalogBrandIds": [
-    "pilot",
-    "flyingj",
-    "irving_bigstop",
-    "onroute",
-    "petro_pass",
-    "husky_travel"
-  ],
-  "byBrand": {
-    "petro_pass": 90,
-    "flyingj": 27,
-    "pilot_flyingj": 3,
-    "husky_travel": 6,
-    "onroute": 19,
-    "irving_bigstop": 11
-  },
-  "byState": {
-    "ON": 52,
-    "NB": 4,
-    "AB": 52,
-    "BC": 13,
-    "NU": 4,
-    "QC": 9,
-    "MB": 10,
-    "NT": 1,
-    "SK": 3,
-    "NS": 3,
-    "NL": 5
-  },
-  "suppressedCount": 14,
-  "suppressedSample": [
+  "generated": "2026-06-19T19:58:49.351Z",
+  "count": 14,
+  "records": [
     {
       "kept": "FUEL-CA-ONROUTE-PAIR-trenton-onroute",
       "dropped": "FUEL-ONROUTE-ON-trenton-south-trenton-south-supp",

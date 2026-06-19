@@ -1,0 +1,417 @@
+{
+  "generated": "2026-06-19T19:58:49.050Z",
+  "region": "ca",
+  "matchRadiusMi": 0.5,
+  "osmSource": "/home/andrew/Cursor-Projects/scenic-poi-data/fuel-ca-ingest/01-osm/fuel-merged.json",
+  "brands": [
+    {
+      "brandId": "pfj",
+      "source": "https://locations.pilotflyingj.com/sitemap.xml",
+      "sourceType": "yext-sitemap",
+      "officialCount": 30,
+      "osmCount": 39,
+      "matchedCount": 28,
+      "rejectedCount": 11,
+      "supplementCount": 2,
+      "matched": [
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5056486474",
+          "official": "Flying J Travel Center in Sault Ste. Marie, ON | 996 Great Northern Rd",
+          "distanceMi": 0.003
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-brooks-2393036695",
+          "official": "Flying J Travel Center in Brooks, AB | 1260 Cassils Rd E",
+          "distanceMi": 0.008
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-1415747871",
+          "official": "Flying J Travel Center in Monte Creek, BC | 1255 Dallas Dr",
+          "distanceMi": 0.011
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-9225535870",
+          "official": "Flying J Travel Center in Mississauga, ON | 1400 Britannia Rd E",
+          "distanceMi": 0.013
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-486119828",
+          "official": "Flying J Travel Center in Hope, BC | 63100 Flood Hope Rd",
+          "distanceMi": 0.013
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230871702",
+          "official": "Flying J Travel Center in Calgary, AB | 4216 72 Ave SE",
+          "distanceMi": 0.014
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230872828",
+          "official": "Flying J Travel Center in Red Deer, AB | 6607 67 St",
+          "distanceMi": 0.017
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-1105727777",
+          "official": "Flying J Travel Center in Annacis Island Delta, BC | 1291 Cliveden Ave",
+          "distanceMi": 0.02
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-10271970972",
+          "official": "Flying J Travel Center in Lancaster, ON | 20382 Old Hwy 2",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-PILOT-ON-pilot-4351271365",
+          "official": "Flying J Travel Center in Shuniah, ON | 3200 Hwy 11-17",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-6403402956",
+          "official": "Flying J Travel Center in Medicine Hat, AB | 2194 Saamis Dr NW",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-225361942",
+          "official": "Flying J Travel Center in Kapuskasing, ON | 410 Government Rd E",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-NU-flying-j-1449137107",
+          "official": "Flying J Travel Center in Saskatoon, SK | 3850 Idylwyld Dr N",
+          "distanceMi": 0.029
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+          "official": "Flying J Travel Center in Tilbury, ON | 19325 Essex County Rd 42",
+          "distanceMi": 0.031
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-129468528",
+          "official": "Flying J Travel Center in London, ON | 3700 Highbury Ave S",
+          "distanceMi": 0.031
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1314309069",
+          "official": "Flying J Travel Center in Moose Jaw, SK | 370 N Service Rd",
+          "distanceMi": 0.032
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1320729313",
+          "official": "Flying J Travel Center in Balgonie, SK | 1800 N Service Rd",
+          "distanceMi": 0.035
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1311872211",
+          "official": "Flying J Travel Center in Nanton, AB | 2810 21 Ave",
+          "distanceMi": 0.038
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-4558645789",
+          "official": "Flying J Travel Center in Calgary, AB | 11511 40 St SE",
+          "distanceMi": 0.04
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320730430",
+          "official": "Flying J Travel Center in Headingley, MB | 4100 Portage Ave",
+          "distanceMi": 0.043
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-5235136200",
+          "official": "Flying J Travel Center in Whitecourt, AB | 5329 Govenlock Mountain Rd",
+          "distanceMi": 0.043
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5362090346",
+          "official": "Flying J Travel Center in Ayr, ON | 2492 Cedar Creek Rd",
+          "distanceMi": 0.049
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-438542149",
+          "official": "Flying J Travel Center in Napanee, ON | 628 County Rd 41",
+          "distanceMi": 0.054
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+          "official": "Flying J Travel Center in Sherwood Park, AB | 50 Pembina Rd",
+          "distanceMi": 0.057
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-1450392033",
+          "official": "Flying J Travel Center in Nisku, AB | 302 20 Ave",
+          "distanceMi": 0.06
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-539437977",
+          "official": "Flying J Travel Center in Portage La Prairie, MB | Highway 1 East",
+          "distanceMi": 0.068
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358971488",
+          "official": "Flying J Travel Center in Fort Erie, ON | 1637 Pettit Rd",
+          "distanceMi": 0.092
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320738767",
+          "official": "Flying J Travel Center in Ste Agathe, MB | 354 Voyageur Rd",
+          "distanceMi": 0.117
+        }
+      ],
+      "rejectedSample": [
+        {
+          "name": "Flying J",
+          "state": "ON",
+          "nearestOfficialMi": 28.522
+        },
+        {
+          "name": "Flying J Cardlock",
+          "state": "AB",
+          "nearestOfficialMi": 63.165
+        },
+        {
+          "name": "Flying J Cardlock",
+          "state": "AB",
+          "nearestOfficialMi": 47.036
+        },
+        {
+          "name": "Flying J Cardlock",
+          "state": "AB",
+          "nearestOfficialMi": 136.479
+        },
+        {
+          "name": "Flying J Truckstop",
+          "state": "SK",
+          "nearestOfficialMi": 12.064
+        },
+        {
+          "name": "Flying J",
+          "state": "AB",
+          "nearestOfficialMi": 6.001
+        },
+        {
+          "name": "Flying J",
+          "state": "BC",
+          "nearestOfficialMi": 32.88
+        },
+        {
+          "name": "Flying J Cardlock",
+          "state": "ON",
+          "nearestOfficialMi": 15.712
+        }
+      ],
+      "supplementSample": [
+        {
+          "name": "Flying J Travel Center in Winnipeg, MB | 1747 Brookside Blvd",
+          "state": "MB",
+          "officialId": "https://locations.pilotflyingj.com/ca/mb/winnipeg/1747-brookside-blvd"
+        },
+        {
+          "name": "Flying J Travel Center in Etobicoke, ON | 1765 Albion Rd",
+          "state": "ON",
+          "officialId": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd"
+        }
+      ],
+      "meta": {
+        "byBrand": {
+          "pilot_flyingj": 30
+        },
+        "pagesFetched": 55,
+        "errors": []
+      }
+    },
+    {
+      "brandId": "onroute",
+      "source": "https://www.onroute.ca/locations/",
+      "sourceType": "webflow-pages",
+      "officialCount": 22,
+      "osmCount": 19,
+      "matchedCount": 19,
+      "rejectedCount": 0,
+      "supplementCount": 3,
+      "matched": [
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-onroute-newcastle",
+          "official": "ONroute Newcastle",
+          "distanceMi": 0.023
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-onroute-dutton",
+          "official": "ONroute Dutton",
+          "distanceMi": 0.025
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-bainsville-onroute",
+          "official": "ONroute Bainsville",
+          "distanceMi": 0.027
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-mallorytown-onroute",
+          "official": "ONroute Mallorytown South",
+          "distanceMi": 0.03
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-king-city-onroute",
+          "official": "ONroute King City",
+          "distanceMi": 0.035
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-innisfil-onroute",
+          "official": "ONroute Innisfil",
+          "distanceMi": 0.035
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-port-hope-onroute",
+          "official": "ONroute Port Hope",
+          "distanceMi": 0.04
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-barrie-onroute",
+          "official": "ONroute Barrie",
+          "distanceMi": 0.045
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-onroute-napanee",
+          "official": "ONroute Napanee",
+          "distanceMi": 0.047
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-woodstock-onroute",
+          "official": "ONroute Woodstock",
+          "distanceMi": 0.053
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-morrisburg-onroute",
+          "official": "ONroute Morrisburg",
+          "distanceMi": 0.059
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-onroute-lorne",
+          "official": "ONroute West Lorne",
+          "distanceMi": 0.063
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-odessa-onroute",
+          "official": "ONroute Odessa",
+          "distanceMi": 0.063
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-tilbury-onroute",
+          "official": "ONroute Tilbury North",
+          "distanceMi": 0.069
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-trenton-onroute",
+          "official": "ONroute Trenton North",
+          "distanceMi": 0.079
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-mallorytown-onroute",
+          "official": "ONroute Mallorytown North",
+          "distanceMi": 0.081
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-cambridge-onroute",
+          "official": "ONroute Cambridge South",
+          "distanceMi": 0.082
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-ingersoll-onroute",
+          "official": "ONroute Ingersoll",
+          "distanceMi": 0.12
+        },
+        {
+          "osmId": "FUEL-CA-ONROUTE-PAIR-ingleside-onroute",
+          "official": "ONroute Ingleside",
+          "distanceMi": 0.123
+        }
+      ],
+      "rejectedSample": [],
+      "supplementSample": [
+        {
+          "name": "ONroute Trenton South",
+          "state": "ON",
+          "officialId": "trenton-south"
+        },
+        {
+          "name": "ONroute Cambridge North",
+          "state": "ON",
+          "officialId": "cambridge-north"
+        },
+        {
+          "name": "ONroute Tilbury South",
+          "state": "ON",
+          "officialId": "tilbury-south"
+        }
+      ]
+    },
+    {
+      "brandId": "irving_bigstop",
+      "source": "https://www.irvingoil.com/en-CA/on-the-road/big-stop-restaurants",
+      "sourceType": "location-pages",
+      "officialCount": 11,
+      "osmCount": 0,
+      "matchedCount": 0,
+      "rejectedCount": 0,
+      "supplementCount": 11,
+      "matched": [],
+      "rejectedSample": [],
+      "supplementSample": [
+        {
+          "name": "Big Stop Aulac",
+          "state": "NB",
+          "officialId": "26271"
+        },
+        {
+          "name": "Big Stop Pembroke",
+          "state": "ON",
+          "officialId": "26301"
+        },
+        {
+          "name": "Big Stop Rothesay",
+          "state": "NB",
+          "officialId": "26321"
+        },
+        {
+          "name": "Big Stop Aulds Cove",
+          "state": "NS",
+          "officialId": "26326"
+        },
+        {
+          "name": "Big Stop Digby",
+          "state": "NS",
+          "officialId": "26331"
+        },
+        {
+          "name": "Big Stop New Minas",
+          "state": "NS",
+          "officialId": "26336"
+        },
+        {
+          "name": "Big Stop Clarenville",
+          "state": "NL",
+          "officialId": "26341"
+        },
+        {
+          "name": "Big Stop Deer Lake",
+          "state": "NL",
+          "officialId": "26346"
+        }
+      ]
+    }
+  ],
+  "skipped": [
+    {
+      "brandId": "petro_pass",
+      "reason": "300+ Petro-Pass cardlocks — no single geo JSON export; OSM strict match used instead.",
+      "docs": "https://www.petro-canada.ca/en/business/fuel-solutions-and-facilities/petro-pass-cardlock"
+    },
+    {
+      "brandId": "husky_travel",
+      "reason": "myhusky.ca location pages lack stable coordinates in HTML; many sites rebranded to Esso/Co-op.",
+      "docs": "https://local.myhusky.ca/"
+    }
+  ],
+  "totals": {
+    "rejected": 11,
+    "supplements": 16,
+    "matched": 47
+  }
+}

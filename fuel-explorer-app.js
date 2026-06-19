@@ -34,8 +34,13 @@
     return state.data ? state.data[state.region] : null;
   }
 
+  function brandSelectId(brandId) {
+    if (brandId === "pilot" || brandId === "flyingj" || brandId === "pilot_flyingj") return "pilot_flyingj";
+    return brandId;
+  }
+
   function brandColor(brandId) {
-    return BRAND_COLORS[brandId] || "#94a3b8";
+    return BRAND_COLORS[brandSelectId(brandId)] || BRAND_COLORS[brandId] || "#94a3b8";
   }
 
   function el(id) {
@@ -76,7 +81,10 @@
     if (st && rec.state !== st) return false;
     if (el("dieselOnly").checked && kind === "matched" && !rec.diesel) return false;
     if (el("reviewOnly").checked && kind === "matched" && !rec.review) return false;
-    if (kind === "matched" && state.selectedBrands.size && !state.selectedBrands.has(rec.brandId)) return false;
+    if (kind === "matched" && state.selectedBrands.size) {
+      var selectId = rec.brandSelectId || brandSelectId(rec.brandId);
+      if (!state.selectedBrands.has(selectId)) return false;
+    }
     if (q) {
       var hay = [rec.name, rec.brand, rec.brandId, rec.osmBrand, rec.osmOperator, rec.state, rec.highway]
         .join(" ")
@@ -166,7 +174,7 @@
     html += "<dl>";
     html += row("Brand ID", rec.brandId);
     html += row("State", rec.state);
-    html += row("Type", rec.type);
+    html += row("Type", rec.type === "convenience_fuel" ? "Convenience fuel" : rec.type === "travel_plaza" ? "Travel plaza" : rec.type);
     html += row("Diesel", rec.diesel ? "yes" : rec.diesel === false ? "no" : "");
     html += row("OSM brand", rec.osmBrand);
     html += row("OSM operator", rec.osmOperator);
@@ -231,42 +239,72 @@
   }
 
   function populateBrandFilters() {
-    var rd = regionData();
     var box = el("brandFilters");
     box.innerHTML = "";
     state.selectedBrands = new Set();
-    (rd.catalog || []).forEach(function (b) {
-      state.selectedBrands.add(b.id);
+    var groups = state.data.brandGroups || [];
+    var lastType = null;
+    groups.forEach(function (g) {
+      if (g.type !== lastType) {
+        lastType = g.type;
+        var heading = document.createElement("div");
+        heading.className = "brand-type-heading";
+        heading.textContent = g.type === "convenience_fuel" ? "Convenience fuel" : "Travel plaza";
+        box.appendChild(heading);
+      }
+      state.selectedBrands.add(g.id);
       var label = document.createElement("label");
       var cb = document.createElement("input");
       cb.type = "checkbox";
       cb.checked = true;
-      cb.dataset.brand = b.id;
+      cb.dataset.brand = g.id;
       cb.addEventListener("change", function () {
-        if (cb.checked) state.selectedBrands.add(b.id);
-        else state.selectedBrands.delete(b.id);
+        if (cb.checked) state.selectedBrands.add(g.id);
+        else state.selectedBrands.delete(g.id);
         renderMarkers();
       });
       label.appendChild(cb);
-      label.appendChild(document.createTextNode(" " + b.name + (b.strict ? " (strict)" : "")));
+      var suffix = g.strict ? " (strict)" : "";
+      var regions = (g.regions || []).map(function (r) { return r.toUpperCase(); }).join("+");
+      label.appendChild(document.createTextNode(" " + g.name + suffix + (regions ? " · " + regions : "")));
       box.appendChild(label);
     });
-    if (rd.stats.byBrand) {
-      Object.keys(rd.stats.byBrand).forEach(function (id) {
-        if (state.selectedBrands.has(id)) return;
-        state.selectedBrands.add(id);
+    if (!groups.length) {
+      var rd = regionData();
+      (rd.catalog || []).forEach(function (b) {
+        state.selectedBrands.add(b.id);
         var label = document.createElement("label");
         var cb = document.createElement("input");
         cb.type = "checkbox";
         cb.checked = true;
-        cb.dataset.brand = id;
+        cb.dataset.brand = b.id;
         cb.addEventListener("change", function () {
-          if (cb.checked) state.selectedBrands.add(id);
-          else state.selectedBrands.delete(id);
+          if (cb.checked) state.selectedBrands.add(b.id);
+          else state.selectedBrands.delete(b.id);
           renderMarkers();
         });
         label.appendChild(cb);
-        label.appendChild(document.createTextNode(" " + id.replace(/_/g, " ")));
+        label.appendChild(document.createTextNode(" " + b.name + (b.strict ? " (strict)" : "")));
+        box.appendChild(label);
+      });
+    }
+    if (regionData()?.stats?.byBrand) {
+      Object.keys(regionData().stats.byBrand).forEach(function (id) {
+        var selectId = brandSelectId(id);
+        if (state.selectedBrands.has(selectId)) return;
+        state.selectedBrands.add(selectId);
+        var label = document.createElement("label");
+        var cb = document.createElement("input");
+        cb.type = "checkbox";
+        cb.checked = true;
+        cb.dataset.brand = selectId;
+        cb.addEventListener("change", function () {
+          if (cb.checked) state.selectedBrands.add(selectId);
+          else state.selectedBrands.delete(selectId);
+          renderMarkers();
+        });
+        label.appendChild(cb);
+        label.appendChild(document.createTextNode(" " + selectId.replace(/_/g, " ")));
         box.appendChild(label);
       });
     }

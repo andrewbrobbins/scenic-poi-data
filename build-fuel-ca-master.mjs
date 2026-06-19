@@ -17,9 +17,38 @@ import {
   writeJson,
 } from "./fuel-ca-lib.mjs";
 import { applyInferredState } from "./camping-ca-geo-utils.mjs";
+import { filterFullTravelCenterRecords } from "./fuel-travel-center-lib.mjs";
+import { normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
 const SUPPLEMENTS_PATH = path.join(tools, "fuel-ca-supplements.json");
+const OFFICIAL_REJECTS_PATH = path.join(tools, "fuel-ca-official-rejects.json");
+
+function osmKey(rec) {
+  if (!rec.osm) return rec.id;
+  return `${rec.osm.type}:${rec.osm.id}`;
+}
+
+function loadOfficialRejectKeys() {
+  const j = readJson(OFFICIAL_REJECTS_PATH);
+  if (!j?.osmKeys?.length) return new Set();
+  return new Set(j.osmKeys);
+}
+
+function applyOfficialRejects(records) {
+  const rejectKeys = loadOfficialRejectKeys();
+  if (!rejectKeys.size) return { records, rejected: [] };
+  const kept = [];
+  const rejected = [];
+  for (const rec of records) {
+    if (rejectKeys.has(osmKey(rec))) {
+      rejected.push(rec);
+      continue;
+    }
+    kept.push(rec);
+  }
+  return { records: kept, rejected };
+}
 
 const DEDUPE_MI = 0.12;
 const PFJ_MI = 0.25;
@@ -217,11 +246,25 @@ function buildQaReport(master, catalog, suppressed) {
 export function buildFuelMaster() {
   const catalog = loadBrandCatalog();
   const raw = loadOsmRecords();
-  const paired = mergeOnrouteHighwayPairs(raw);
+  const { records: officialFiltered, rejected: officialRejected } = applyOfficialRejects(raw);
+  const { records: travelCenters, dropped: fuelOnlyDropped } = filterFullTravelCenterRecords(officialFiltered);
+  const paired = mergeOnrouteHighwayPairs(travelCenters);
   const { master: deduped, suppressed } = dedupeRecords(paired);
-  const { master, suppressed: suppSuppressed } = mergeSupplements(deduped, loadSupplementRecords());
+  const supplements = loadSupplementRecords().filter((rec) => filterFullTravelCenterRecords([rec]).records.length);
+  const { master, suppressed: suppSuppressed } = mergeSupplements(deduped, supplements);
   suppressed.push(...suppSuppressed);
+  suppressed.push(
+    ...officialRejected.map((rec) =>
+      suppressedEntry({ id: "official-reconcile" }, rec, "not-on-official-brand-list")
+    )
+  );
+  suppressed.push(
+    ...fuelOnlyDropped.map((rec) =>
+      suppressedEntry({ id: "travel-center-filter" }, rec, "fuel-only-or-dealer-not-full-travel-center")
+    )
+  );
   for (const rec of master) {
+    rec.type = normalizeFuelType(rec.type);
     rec.mapFlags = rec.mapFlags || [];
     rec.reviewReasons = rec.reviewReasons || [];
     applyInferredState(rec);

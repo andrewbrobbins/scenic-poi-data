@@ -1,0 +1,177 @@
+{
+  "generated": "2026-06-19T18:46:39.564Z",
+  "matchRadiusMi": 0.5,
+  "count": 6,
+  "osmKeys": [
+    "node:10879230781",
+    "node:11607132486",
+    "node:11728838833",
+    "node:13039024042",
+    "way:1220140281",
+    "way:1348691974"
+  ],
+  "records": [
+    {
+      "osmKey": "node:10879230781",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 0.915,
+      "nearestOfficial": {
+        "storeNumber": 48,
+        "label": "#48 – Ennis, TX",
+        "city": "Ennis",
+        "state": "TX"
+      },
+      "record": {
+        "id": "FUEL-BUCEES-TX-buc-ee-s-10879230781",
+        "name": "Buc-ee's",
+        "lat": 32.323229000000005,
+        "lon": -96.60664930000002,
+        "state": "TX",
+        "osm": {
+          "type": "node",
+          "id": 10879230781
+        },
+        "osmTags": {
+          "brand": "Buc-ee's",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/10879230781"
+      }
+    },
+    {
+      "osmKey": "node:11607132486",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 855.718,
+      "nearestOfficial": {
+        "storeNumber": 60,
+        "label": "#60 – Johnstown, CO",
+        "city": "Berthoud",
+        "state": "CO"
+      },
+      "record": {
+        "id": "FUEL-BUCEES-CA-beyond-6-11607132486",
+        "name": "Beyond 6",
+        "lat": 35.3994785,
+        "lon": -119.3992039,
+        "state": "CA",
+        "osm": {
+          "type": "node",
+          "id": 11607132486
+        },
+        "osmTags": {
+          "brand": "B",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/11607132486"
+      }
+    },
+    {
+      "osmKey": "node:11728838833",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 619.164,
+      "nearestOfficial": {
+        "storeNumber": 66,
+        "label": "#66 – Amarillo, TX",
+        "city": "Amarillo",
+        "state": "TX"
+      },
+      "record": {
+        "id": "FUEL-BUCEES-AZ-buc-ee-s-11728838833",
+        "name": "Buc-ee's",
+        "lat": 33.4576944,
+        "lon": -112.373777,
+        "state": "AZ",
+        "osm": {
+          "type": "node",
+          "id": 11728838833
+        },
+        "osmTags": {
+          "brand": "Buc-ee's",
+          "operator": "Buc-ee's"
+        },
+        "url": "https://www.openstreetmap.org/node/11728838833"
+      }
+    },
+    {
+      "osmKey": "node:13039024042",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 77.397,
+      "nearestOfficial": {
+        "storeNumber": 50,
+        "label": "#50 – Crossville, TN",
+        "city": "Crossville",
+        "state": "TN"
+      },
+      "record": {
+        "id": "FUEL-BUCEES-TN-buc-ee-s-13039024042",
+        "name": "Buc-ee's",
+        "lat": 35.7817268,
+        "lon": -86.3756812,
+        "state": "TN",
+        "osm": {
+          "type": "node",
+          "id": 13039024042
+        },
+        "osmTags": {
+          "brand": "Buc-ee's",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/13039024042"
+      }
+    },
+    {
+      "osmKey": "way:1220140281",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 1.014,
+      "nearestOfficial": {
+        "storeNumber": 21,
+        "label": "#21 – Angleton, TX",
+        "city": "Angleton",
+        "state": "TX"
+      },
+      "record": {
+        "id": "FUEL-BUCEES-TX-buc-ee-s-1220140281",
+        "name": "Buc-ee's",
+        "lat": 29.173046,
+        "lon": -95.43353486000001,
+        "state": "TX",
+        "osm": {
+          "type": "way",
+          "id": 1220140281
+        },
+        "osmTags": {
+          "brand": "Buc-ee's",
+          "operator": "Bucee's"
+        },
+        "url": "https://www.openstreetmap.org/way/1220140281"
+      }
+    },
+    {
+      "osmKey": "way:1348691974",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 2.153,
+      "nearestOfficial": {
+        "storeNumber": 38,
+        "label": "#38 – Royse City, TX",
+        "city": "Royse City",
+        "state": "TX"
+      },
+      "record": {
+        "id": "FUEL-BUCEES-TX-buc-ee-s-1348691974",
+        "name": "Buc-ee's",
+        "lat": 32.97979758181819,
+        "lon": -96.29427751818183,
+        "state": "TX",
+        "osm": {
+          "type": "way",
+          "id": 1348691974
+        },
+        "osmTags": {
+          "brand": "Buc-ee's",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/1348691974"
+      }
+    }
+  ]
+}

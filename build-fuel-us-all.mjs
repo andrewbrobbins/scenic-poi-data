@@ -12,10 +12,15 @@ if (refresh) ensureParts.push("--force-extract");
 if (proof) ensureParts.push("--proof");
 execSync(ensureParts.join(" "), { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-us-filter-brands.mjs", { cwd: tools, stdio: "inherit" });
+execSync("node build-fuel-official-reconcile.mjs --region=us", { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-us-master.mjs", { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-us-explorer-embed.mjs", { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-explorer-data.mjs", { cwd: tools, stdio: "inherit" });
 console.log("\nDone. Open fuel-explorer.html in a browser to evaluate filtering.");
+console.log("Official brand reconcile runs automatically; re-run alone:");
+console.log("  node build-fuel-official-reconcile.mjs --region=us");
+console.log("  node build-fuel-official-reconcile.mjs --region=us --brand=bucees");
+console.log("  node build-fuel-official-reconcile.mjs --region=us --brand=pilot --pilot-max=100");
 console.log("Tweak fuel-us-brand-catalog.json then re-run filter only:");
 console.log(
   "  node build-fuel-us-filter-brands.mjs && node build-fuel-us-master.mjs && node build-fuel-explorer-data.mjs"

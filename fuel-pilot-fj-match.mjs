@@ -2,6 +2,7 @@
  * Strict Pilot / Flying J matching shared by US and CA fuel pipelines.
  * Rejects name-only "Pilot" hits when OSM brand is a retail chain (Shell, Esso, etc.).
  */
+import { FUEL_TYPE_TRAVEL_PLAZA, normalizeFuelType } from "./fuel-brand-lib.mjs";
 function normToken(s) {
   return (s || "")
     .toLowerCase()
@@ -89,7 +90,7 @@ function pickBrand(b) {
     brandId: b.id,
     displayName: b.displayName,
     tier: b.tier || "A",
-    type: b.type || "travel_center",
+    type: normalizeFuelType(b.type),
     mergeWith: b.mergeWith || null,
   };
 }

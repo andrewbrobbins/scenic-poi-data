@@ -23,7 +23,7 @@ for (const el of j.elements || []) {
   if (seen.has(key)) continue;
   seen.add(key);
   const name = (el.tags?.name || "ONroute").trim();
-  records.push({ id: `FUEL-CA-ONROUTE-ON-${slugify(name)}-${el.id}`, name, brand: "ONroute", brandId: "onroute", brandTier: "A", type: "highway_service_centre", state: "ON", lat: coords.lat, lon: coords.lon, fuels: { gasoline: true }, sources: ["osm-onroute"], url: `https://www.openstreetmap.org/${el.type}/${el.id}`, mapFlags: [] });
+  records.push({ id: `FUEL-CA-ONROUTE-ON-${slugify(name)}-${el.id}`, name, brand: "ONroute", brandId: "onroute", brandTier: "A", type: "travel_plaza", state: "ON", lat: coords.lat, lon: coords.lon, fuels: { gasoline: true }, sources: ["osm-onroute"], url: `https://www.openstreetmap.org/${el.type}/${el.id}`, mapFlags: [] });
 }
 const outDir = ensureIngestDir("02-onroute");
 writeJson(path.join(outDir, "onroute-ON.json"), { generated: new Date().toISOString(), recordCount: records.length, records });

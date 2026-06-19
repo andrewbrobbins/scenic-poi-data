@@ -11,6 +11,7 @@ const ensureCmd = refresh
   : "node ensure-fuel-cache.mjs --region=ca";
 execSync(ensureCmd, { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-ca-filter-brands.mjs", { cwd: tools, stdio: "inherit" });
+execSync("node build-fuel-official-reconcile.mjs --region=ca", { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-ca-master.mjs", { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-ca-explorer-embed.mjs", { cwd: tools, stdio: "inherit" });
 execSync("node build-fuel-explorer-data.mjs", { cwd: tools, stdio: "inherit" });

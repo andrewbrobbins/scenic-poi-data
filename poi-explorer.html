@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>POI map explorer</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="poi-explorer.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>POI map explorer</h1>
+    <p class="subtitle">Dev-only visualization — ingest artifacts for scenic-router are unchanged (<code>SCENIC-ROUTER-INGEST.md</code>).</p>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <section>
+        <label class="field-label">Region</label>
+        <div class="btn-row" id="regionBtns">
+          <button type="button" data-region="both" class="active">Both</button>
+          <button type="button" data-region="us">US</button>
+          <button type="button" data-region="ca">Canada</button>
+        </div>
+      </section>
+      <section>
+        <label class="field-label" for="searchBox">Search</label>
+        <input id="searchBox" type="search" placeholder="name, id, state…" />
+      </section>
+      <section>
+        <label class="field-label" for="stateSelect">State / province</label>
+        <select id="stateSelect"><option value="">All</option></select>
+      </section>
+      <section>
+        <label class="field-label">Category (one at a time)</label>
+        <div id="categoryList" class="category-list"></div>
+      </section>
+      <section>
+        <label class="field-label">Layers in category</label>
+        <div id="layerList" class="layer-list"></div>
+      </section>
+      <section class="stats" id="statsPanel"></section>
+      <section class="hint-block">
+        <p class="hint">Rebuild data after pipeline runs:</p>
+        <p class="hint"><code>node build-poi-explorer-data.mjs</code></p>
+      </section>
+    </aside>
+    <main class="map-wrap">
+      <div id="map"></div>
+      <div id="detail" class="detail hidden"></div>
+    </main>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="poi-explorer-data.js"></script>
+  <script src="poi-explorer-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,431 @@
+{
+  "generated": "2026-06-19T18:46:39.564Z",
+  "officialCount": 55,
+  "osmCount": 56,
+  "matchedCount": 50,
+  "rejectedCount": 6,
+  "supplementCount": 5,
+  "matchRadiusMi": 0.5,
+  "matched": [
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-368086075",
+      "osmName": "Buc-ee's",
+      "official": "#20 – Pearland, TX",
+      "storeNumber": 20,
+      "distanceMi": 0.001
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1017278275",
+      "osmName": "Buc-ee's",
+      "official": "#2 – Lake Jackson, TX",
+      "storeNumber": 2,
+      "distanceMi": 0.001
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-12328394419",
+      "osmName": "Buc-ee's",
+      "official": "#23 – League City, TX",
+      "storeNumber": 23,
+      "distanceMi": 0.002
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-11683818868",
+      "osmName": "Buc-ee's",
+      "official": "#19 – Pearland, TX",
+      "storeNumber": 19,
+      "distanceMi": 0.003
+    },
+    {
+      "osmId": "FUEL-BUCEES-AL-buc-ee-s-1289039594",
+      "osmName": "Buc-ee's",
+      "official": "#58 – Auburn, AL",
+      "storeNumber": 58,
+      "distanceMi": 0.005
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-12475554157",
+      "osmName": "Buc-ee's",
+      "official": "#12 – Port Lavaca, TX",
+      "storeNumber": 12,
+      "distanceMi": 0.005
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1232774100",
+      "osmName": "Buc-ee's",
+      "official": "#13 – Angleton, TX",
+      "storeNumber": 13,
+      "distanceMi": 0.005
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-203933135",
+      "osmName": "Buc-ee's",
+      "official": "#24 – Eagle Lake, TX",
+      "storeNumber": 24,
+      "distanceMi": 0.006
+    },
+    {
+      "osmId": "FUEL-BUCEES-AL-buc-ee-s-1332580808",
+      "osmName": "Buc-ee's",
+      "official": "#52 – Calhoun, GA",
+      "storeNumber": 52,
+      "distanceMi": 0.006
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1204639289",
+      "osmName": "Buc-ee's",
+      "official": "#14 – Alvin, TX",
+      "storeNumber": 14,
+      "distanceMi": 0.008
+    },
+    {
+      "osmId": "FUEL-BUCEES-FL-buc-ee-s-1412098183",
+      "osmName": "Buc-ee's",
+      "official": "#46 – Saint Augustine, FL",
+      "storeNumber": 46,
+      "distanceMi": 0.013
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1066036587",
+      "osmName": "Buc-ee's",
+      "official": "#33 – Texas City, TX",
+      "storeNumber": 33,
+      "distanceMi": 0.014
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1308350351",
+      "osmName": "Buc-ee's",
+      "official": "#30 – Wharton, TX",
+      "storeNumber": 30,
+      "distanceMi": 0.015
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1301590277",
+      "osmName": "Buc-ee's",
+      "official": "#17 – Luling, TX",
+      "storeNumber": 17,
+      "distanceMi": 0.015
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1332585900",
+      "osmName": "Buc-ee's",
+      "official": "#37 – Fort Worth, TX",
+      "storeNumber": 37,
+      "distanceMi": 0.015
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1017469494",
+      "osmName": "Buc-ee's",
+      "official": "#8 – Freeport, TX",
+      "storeNumber": 8,
+      "distanceMi": 0.017
+    },
+    {
+      "osmId": "FUEL-BUCEES-CO-buc-ee-s-11742116989",
+      "osmName": "Buc-ee's",
+      "official": "#60 – Johnstown, CO",
+      "storeNumber": 60,
+      "distanceMi": 0.018
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-612406895",
+      "osmName": "Buc-ee's",
+      "official": "#1 – Lake Jackson, TX",
+      "storeNumber": 1,
+      "distanceMi": 0.019
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-519683144",
+      "osmName": "Buc-ee's",
+      "official": "#40 – Katy, TX",
+      "storeNumber": 40,
+      "distanceMi": 0.024
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1332587429",
+      "osmName": "Buc-ee's",
+      "official": "#25 – Angleton, TX",
+      "storeNumber": 25,
+      "distanceMi": 0.024
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-781658198",
+      "osmName": "Buc-ee's",
+      "official": "#16 – Giddings, TX",
+      "storeNumber": 16,
+      "distanceMi": 0.025
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1332611873",
+      "osmName": "Buc-ee's",
+      "official": "#3 – Brazoria, TX",
+      "storeNumber": 3,
+      "distanceMi": 0.026
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-521377878",
+      "osmName": "Buc-ee's",
+      "official": "#7 – Freeport, TX",
+      "storeNumber": 7,
+      "distanceMi": 0.029
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-10879214422",
+      "osmName": "Buc-ee's",
+      "official": "#26 – Madisonville, TX",
+      "storeNumber": 26,
+      "distanceMi": 0.029
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-10879244160",
+      "osmName": "Buc-ee's",
+      "official": "#35 – Temple, TX",
+      "storeNumber": 35,
+      "distanceMi": 0.034
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-241040461",
+      "osmName": "Buc-ee's",
+      "official": "#32 – Cypress, TX",
+      "storeNumber": 32,
+      "distanceMi": 0.034
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-984502763",
+      "osmName": "Buc-ee's",
+      "official": "#44 – Melissa, TX",
+      "storeNumber": 44,
+      "distanceMi": 0.037
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1332586592",
+      "osmName": "Buc-ee's",
+      "official": "#39 – Denton, TX",
+      "storeNumber": 39,
+      "distanceMi": 0.039
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1112355096",
+      "osmName": "Buc-ee's",
+      "official": "#28 – Bastrop, TX",
+      "storeNumber": 28,
+      "distanceMi": 0.042
+    },
+    {
+      "osmId": "FUEL-BUCEES-NC-buc-ee-s-10875010036",
+      "osmName": "Buc-ee's",
+      "official": "#53 – Florence, SC",
+      "storeNumber": 53,
+      "distanceMi": 0.043
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1332612972",
+      "osmName": "Buc-ee's",
+      "official": "#36 – Terrell, TX",
+      "storeNumber": 36,
+      "distanceMi": 0.045
+    },
+    {
+      "osmId": "FUEL-BUCEES-MO-buc-ee-s-1204263035",
+      "osmName": "Buc-ee's",
+      "official": "#62 – Springfield, MO",
+      "storeNumber": 62,
+      "distanceMi": 0.045
+    },
+    {
+      "osmId": "FUEL-BUCEES-GA-buc-ee-s-13122077747",
+      "osmName": "Buc-ee's",
+      "official": "#63 – Brunswick, GA",
+      "storeNumber": 63,
+      "distanceMi": 0.047
+    },
+    {
+      "osmId": "FUEL-BUCEES-FL-buc-ee-s-1332579850",
+      "osmName": "Buc-ee's",
+      "official": "#47 – Daytona Beach, FL",
+      "storeNumber": 47,
+      "distanceMi": 0.049
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-623008535",
+      "osmName": "Buc-ee's",
+      "official": "#18 – Waller, TX",
+      "storeNumber": 18,
+      "distanceMi": 0.049
+    },
+    {
+      "osmId": "FUEL-BUCEES-AL-buc-ee-s-1268930011",
+      "osmName": "Buc-ee's",
+      "official": "#42 – Loxley, AL",
+      "storeNumber": 42,
+      "distanceMi": 0.051
+    },
+    {
+      "osmId": "FUEL-BUCEES-AL-buc-ee-s-12475539418",
+      "osmName": "Buc-ee's",
+      "official": "#43 – Leeds, AL",
+      "storeNumber": 43,
+      "distanceMi": 0.053
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-449150717",
+      "osmName": "Buc-ee's",
+      "official": "#22 – New Braunfels, TX",
+      "storeNumber": 22,
+      "distanceMi": 0.06
+    },
+    {
+      "osmId": "FUEL-BUCEES-GA-buc-ee-s-10879215795",
+      "osmName": "Buc-ee's",
+      "official": "#51 – Warner Robins, GA",
+      "storeNumber": 51,
+      "distanceMi": 0.062
+    },
+    {
+      "osmId": "FUEL-BUCEES-NC-buc-ee-s-1028540698",
+      "osmName": "Buc-ee's",
+      "official": "#45 – Sevierville, TN",
+      "storeNumber": 45,
+      "distanceMi": 0.062
+    },
+    {
+      "osmId": "FUEL-BUCEES-TN-buc-ee-s-1076724811",
+      "osmName": "Buc-ee's",
+      "official": "#50 – Crossville, TN",
+      "storeNumber": 50,
+      "distanceMi": 0.067
+    },
+    {
+      "osmId": "FUEL-BUCEES-MD-buc-ee-s-1418885094",
+      "osmName": "Buc-ee's",
+      "official": "#69 – Rockingham County, VA",
+      "storeNumber": 69,
+      "distanceMi": 0.094
+    },
+    {
+      "osmId": "FUEL-BUCEES-OH-buc-ee-s-1500233970",
+      "osmName": "Buc-ee's",
+      "official": "#71 – Huber Heights, OH",
+      "storeNumber": 71,
+      "distanceMi": 0.095
+    },
+    {
+      "osmId": "FUEL-BUCEES-KY-buc-ee-s-12118340042",
+      "osmName": "Buc-ee's",
+      "official": "#56 – Smiths Grove, KY",
+      "storeNumber": 56,
+      "distanceMi": 0.111
+    },
+    {
+      "osmId": "FUEL-BUCEES-OK-buc-ee-s-12465703100",
+      "osmName": "Buc-ee's",
+      "official": "#66 – Amarillo, TX",
+      "storeNumber": 66,
+      "distanceMi": 0.111
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-12634800925",
+      "osmName": "Buc-ee's",
+      "official": "#59 – Hillsboro, TX",
+      "storeNumber": 59,
+      "distanceMi": 0.122
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1017276540",
+      "osmName": "Buc-ee's",
+      "official": "#29 – Lake Jackson, TX",
+      "storeNumber": 29,
+      "distanceMi": 0.125
+    },
+    {
+      "osmId": "FUEL-BUCEES-LA-buc-ees-13194835401",
+      "osmName": "Buc-ees",
+      "official": "#61 – Harrison County, MS",
+      "storeNumber": 61,
+      "distanceMi": 0.148
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-669738574",
+      "osmName": "Buc-ee's",
+      "official": "#34 – Baytown, TX",
+      "storeNumber": 34,
+      "distanceMi": 0.161
+    },
+    {
+      "osmId": "FUEL-BUCEES-KY-buc-ee-s-1170356062",
+      "osmName": "Buc-ee's",
+      "official": "#55 – Richmond, KY",
+      "storeNumber": 55,
+      "distanceMi": 0.321
+    }
+  ],
+  "rejected": [
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-10879230781",
+      "name": "Buc-ee's",
+      "state": "TX",
+      "nearestOfficialMi": 0.915
+    },
+    {
+      "osmId": "FUEL-BUCEES-CA-beyond-6-11607132486",
+      "name": "Beyond 6",
+      "state": "CA",
+      "nearestOfficialMi": 855.718
+    },
+    {
+      "osmId": "FUEL-BUCEES-AZ-buc-ee-s-11728838833",
+      "name": "Buc-ee's",
+      "state": "AZ",
+      "nearestOfficialMi": 619.164
+    },
+    {
+      "osmId": "FUEL-BUCEES-TN-buc-ee-s-13039024042",
+      "name": "Buc-ee's",
+      "state": "TN",
+      "nearestOfficialMi": 77.397
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1220140281",
+      "name": "Buc-ee's",
+      "state": "TX",
+      "nearestOfficialMi": 1.014
+    },
+    {
+      "osmId": "FUEL-BUCEES-TX-buc-ee-s-1348691974",
+      "name": "Buc-ee's",
+      "state": "TX",
+      "nearestOfficialMi": 2.153
+    }
+  ],
+  "supplements": [
+    {
+      "id": "FUEL-BUCEES-TX-angleton-931-loop-274-supp",
+      "name": "Buc-ee's #21 — Angleton",
+      "state": "TX",
+      "officialStoreNumber": 21
+    },
+    {
+      "id": "FUEL-BUCEES-TX-richmond-1243-crabb-river-rd-supp",
+      "name": "Buc-ee's #31 — Richmond",
+      "state": "TX",
+      "officialStoreNumber": 31
+    },
+    {
+      "id": "FUEL-BUCEES-TX-royse-city-5005-e-interstate-30-supp",
+      "name": "Buc-ee's #38 — Royse City",
+      "state": "TX",
+      "officialStoreNumber": 38
+    },
+    {
+      "id": "FUEL-BUCEES-TX-ennis-1402-south-ih-45-supp",
+      "name": "Buc-ee's #48 — Ennis",
+      "state": "TX",
+      "officialStoreNumber": 48
+    },
+    {
+      "id": "FUEL-BUCEES-AL-athens-2328-lindsay-lane-south-supp",
+      "name": "Buc-ee's #57 — Athens",
+      "state": "AL",
+      "officialStoreNumber": 57
+    }
+  ]
+}
