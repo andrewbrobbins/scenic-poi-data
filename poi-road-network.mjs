@@ -55,6 +55,23 @@ const NON_DRIVABLE_HIGHWAYS = new Set([
 
 export const DEFAULT_ROAD_MAX_DISTANCE_M = 120;
 
+/** Max radius to search when measuring scenic overlook → road distance (see SCENIC-ROAD-DISTANCES.md). */
+export const DEFAULT_SCENIC_MEASURE_MAX_M = 250;
+
+export function metersToGridCellRadius(maxM, cellDeg, lat = 45) {
+  const mPerDegLat = 111320;
+  const mPerDegLon = 111320 * Math.cos((lat * Math.PI) / 180);
+  const cellM = Math.min(cellDeg * mPerDegLat, cellDeg * mPerDegLon);
+  return Math.max(1, Math.ceil(maxM / cellM) + 1);
+}
+
+/** Classify raw nearest-road meters for scenic distance cache. */
+export function classifyScenicRoadDistance(d, maxMeasureM = DEFAULT_SCENIC_MEASURE_MAX_M) {
+  if (d == null || !Number.isFinite(d)) return null;
+  if (d > maxMeasureM) return "far";
+  return Math.round(d * 10) / 10;
+}
+
 export function isDrivableHighway(tags, { lean = true } = {}) {
   if (!tags) return false;
   const hw = tags.highway;
@@ -132,8 +149,14 @@ export function buildSegmentGridIndex(segments, cellDeg = 0.0015) {
 export function nearestRoadDistanceM(lat, lon, index, opts = 3) {
   if (!index?.segments?.length) return null;
   const options = typeof opts === "number" ? { searchRadiusCells: opts } : opts;
-  const { searchRadiusCells = 3, maxMeasureM = Infinity } = options;
   const { cellDeg, segments, grid } = index;
+  let searchRadiusCells = options.searchRadiusCells;
+  const maxMeasureM = options.maxMeasureM ?? Infinity;
+  if (searchRadiusCells == null && Number.isFinite(maxMeasureM) && maxMeasureM < Infinity) {
+    searchRadiusCells = metersToGridCellRadius(maxMeasureM, cellDeg, lat);
+  }
+  if (searchRadiusCells == null) searchRadiusCells = 3;
+
   const gi = Math.floor(lat / cellDeg);
   const gj = Math.floor(lon / cellDeg);
   let best = Infinity;

@@ -34,6 +34,19 @@ node scripts/sync-poi-data.mjs
 
 Or clone this repo as a sibling folder named `tools/` — the sync script finds it automatically.
 
+**Ingest contract:** bundle file names and global variable shapes are fixed for scenic-router — see **[SCENIC-ROUTER-INGEST.md](SCENIC-ROUTER-INGEST.md)**. Dev map explorers below are **not** synced.
+
+## Map explorers (dev-only)
+
+Visual QA in a browser after pipeline runs:
+
+```bash
+node build-fuel-explorer-data.mjs   # fuel-explorer.html
+node build-poi-explorer-data.mjs    # poi-explorer.html — all layers + scenic benchmark cases
+```
+
+Open the HTML from the repo root. Large layers load on demand from `poi-explorer-data/` slices.
+
 ## Pipelines
 
 | Layer | Build | Output | Docs |
@@ -41,6 +54,7 @@ Or clone this repo as a sibling folder named `tools/` — the sync script finds 
 | Branded fuel (US) | `build-fuel-us-all.mjs` | `fuel-us-explorer-embed.js` | [FUEL-US.md](FUEL-US.md) |
 | Branded fuel (CA) | `build-fuel-ca-all.mjs` | `fuel-ca-explorer-embed.js` | [FUEL-CA.md](FUEL-CA.md) |
 | **Fuel filter explorer** | `build-fuel-explorer-data.mjs` | `fuel-explorer.html` | [FUEL-US.md](FUEL-US.md) |
+| **All-layer POI explorer** | `build-poi-explorer-data.mjs` | `poi-explorer.html` | [SCENIC-ROUTER-INGEST.md](SCENIC-ROUTER-INGEST.md) |
 | Generic fuel | `build-fuel-generic-explorer-embed.mjs` | `fuel-generic-*-explorer-embed.js` | [POI-OSM-PBF.md](POI-OSM-PBF.md) |
 | Camping | `build-camping-us-all.mjs` | `camping-*-explorer-embed.js` | [CAMPING-US.md](CAMPING-US.md) |
 | Playgrounds / scenic / historic | `build-poi-osm-all.mjs` | `playgrounds-*`, `scenic-*`, `historic-*` | [POI-OSM-PBF.md](POI-OSM-PBF.md) |

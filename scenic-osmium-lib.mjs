@@ -18,19 +18,18 @@ export const DEFAULT_MAX_MEASURE_M = 250;
 export const VIEWPORT_TILE_DEG = 0.0045;
 export const SUPER_TILE_DEG = 0.5;
 
+function bundledOsmiumCandidates() {
+  const base = path.join(TOOLS_DIR, "vendor", "micromamba", "root", "envs", "osmium");
+  return [
+    path.join(base, "bin", "osmium"),
+    path.join(base, "Library", "bin", "osmium.exe"),
+  ];
+}
+
 export function osmiumExePath() {
-  const bundled = path.join(
-    TOOLS_DIR,
-    "vendor",
-    "micromamba",
-    "root",
-    "envs",
-    "osmium",
-    "Library",
-    "bin",
-    "osmium.exe"
-  );
-  if (fs.existsSync(bundled)) return bundled;
+  for (const bundled of bundledOsmiumCandidates()) {
+    if (fs.existsSync(bundled)) return bundled;
+  }
   for (const cmd of ["osmium", "osmium-tool"]) {
     const r = spawnSync(cmd, ["--version"], { encoding: "utf8", shell: true });
     if (r.status === 0) return cmd;
@@ -40,6 +39,17 @@ export function osmiumExePath() {
 
 export function isOsmiumAvailable() {
   return Boolean(osmiumExePath());
+}
+
+/** Scenic road pipeline requires osmium — call at script entry. */
+export function requireOsmium() {
+  const exe = osmiumExePath();
+  if (exe) return exe;
+  throw new Error(
+    "osmium-tool is required for scenic road-distance pipeline.\n" +
+      "  Install: node build-scenic-install-osmium.mjs\n" +
+      "  Or system package: apt install osmium-tool / conda install -c conda-forge osmium-tool"
+  );
 }
 
 export function highwayTagFilters() {

@@ -6,7 +6,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { PBF_DIR, pbfFilePath } from "./poi-osm-pbf-config.mjs";
 import { formatDuration, log } from "./pipeline-log.mjs";
-import { runOsmium, isOsmiumAvailable } from "./scenic-osmium-lib.mjs";
+import { runOsmium, requireOsmium } from "./scenic-osmium-lib.mjs";
 
 const TOOLS_DIR = path.dirname(fileURLToPath(import.meta.url));
 export const PATHS_PARKING_DIR = path.join(PBF_DIR, "paths-parking");
@@ -30,7 +30,7 @@ function pathTagFilters() {
 }
 
 export function buildPathsParkingExtract(sourceKey, { refresh = false } = {}) {
-  if (!isOsmiumAvailable()) throw new Error("osmium required");
+  requireOsmium();
   const srcPbf = pbfFilePath(sourceKey);
   const outPbf = pathsParkingPbfPath(sourceKey);
   const metaPath = pathsParkingMetaPath(sourceKey);

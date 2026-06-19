@@ -12,7 +12,7 @@ import {
   padDegForMeters,
 } from "./scenic-osmium-lib.mjs";
 import { formatDuration, formatEta, log } from "./pipeline-log.mjs";
-import { haversineM } from "./poi-road-network.mjs";
+import { haversineM, classifyScenicRoadDistance } from "./poi-road-network.mjs";
 
 export const INDEX_CELL_DEG = 0.0027;
 
@@ -48,9 +48,7 @@ function osmKey(rec) {
 }
 
 export function classifyRoadDistance(d, maxMeasureM = DEFAULT_MAX_MEASURE_M) {
-  if (d == null || !Number.isFinite(d)) return null;
-  if (d > maxMeasureM) return "far";
-  return Math.round(d * 10) / 10;
+  return classifyScenicRoadDistance(d, maxMeasureM);
 }
 
 function nearestParkingM(lat, lon, points) {
@@ -72,12 +70,16 @@ async function parsePathsParkingFromClip(pbf) {
   return { pathSegments: f.pathSegments, parkingPoints: f.parkingPoints };
 }
 
-export function measureFeaturesFromClips(lat, lon, leanSegments, pathsParking) {
+export function measureFeaturesFromClips(lat, lon, leanSegments, pathsParking, maxMeasureM = DEFAULT_MAX_MEASURE_M) {
+  const rawLean = bruteNearestSegmentM(lat, lon, leanSegments, { maxMeasureM });
+  const rawPath = bruteNearestSegmentM(lat, lon, pathsParking?.pathSegments || [], { maxMeasureM });
+  const dParking = nearestParkingM(lat, lon, pathsParking?.parkingPoints || []);
   return {
-    dLean: bruteNearestSegmentM(lat, lon, leanSegments),
-    dWide: bruteNearestSegmentM(lat, lon, pathsParking?.wideSegments || []),
-    dPath: bruteNearestSegmentM(lat, lon, pathsParking?.pathSegments || []),
-    dParking: nearestParkingM(lat, lon, pathsParking?.parkingPoints || []),
+    dLean: rawLean != null && rawLean <= maxMeasureM ? rawLean : null,
+    dWide: null,
+    dPath: rawPath != null && rawPath <= maxMeasureM ? rawPath : null,
+    dParking: dParking != null && dParking <= maxMeasureM ? dParking : null,
+    _rawLean: rawLean,
   };
 }
 
@@ -147,14 +149,15 @@ export async function computeDistancesOsmium(
 
     for (const rec of batchVps) {
       const key = osmKey(rec);
+      const measured = measureFeaturesFromClips(rec.lat, rec.lon, leanSegments, pathsParking, maxMeasureM);
       const feat = {
-        dLean: bruteNearestSegmentM(rec.lat, rec.lon, leanSegments),
-        dWide: null,
-        dPath: bruteNearestSegmentM(rec.lat, rec.lon, pathsParking.pathSegments),
-        dParking: nearestParkingM(rec.lat, rec.lon, pathsParking.parkingPoints),
+        dLean: measured.dLean,
+        dWide: measured.dWide,
+        dPath: measured.dPath,
+        dParking: measured.dParking,
       };
       features[key] = feat;
-      const classified = classifyRoadDistance(feat.dLean, maxMeasureM);
+      const classified = classifyRoadDistance(measured._rawLean ?? measured.dLean, maxMeasureM);
       distances[key] = classified;
       if (typeof classified === "number") withRoad += 1;
       else if (classified === "far") far += 1;

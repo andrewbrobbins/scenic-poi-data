@@ -7,6 +7,7 @@ import { ingestDir, readJson, writeJson } from "./poi-osm-lib.mjs";
 import { DEFAULT_ROAD_MAX_DISTANCE_M } from "./poi-road-network.mjs";
 import { roadDistancesCachePath } from "./build-scenic-road-distances.mjs";
 import { scenicRoadAccessInclude } from "./scenic-road-access-filter.mjs";
+import { requireOsmium } from "./scenic-osmium-lib.mjs";
 import { log, logSection } from "./pipeline-log.mjs";
 
 function parseArgs() {
@@ -48,6 +49,8 @@ export function shouldIncludeScenicViewpoint(cache, rec, maxM = DEFAULT_ROAD_MAX
 }
 
 export function filterScenicRoadAccess(region, { maxM = DEFAULT_ROAD_MAX_DISTANCE_M, stateFilter = null } = {}) {
+  requireOsmium();
+
   const kind = "viewpoint";
   const ingest = ingestDir(region, kind);
   const mergedPath = path.join(ingest, "merged.json");
@@ -58,14 +61,20 @@ export function filterScenicRoadAccess(region, { maxM = DEFAULT_ROAD_MAX_DISTANC
     throw new Error(`Missing ${cachePath} - run: node build-scenic-road-distances.mjs --region=${region}`);
   }
 
-  logSection(`scenic ${region}: road-access filter (max-m=${maxM}, strategy=path-parking-v2)`);
   const cache = readJson(cachePath);
-  const featN = cache?.features ? Object.keys(cache.features).length : 0;
+  logSection(`scenic ${region}: road-access filter (max-m=${maxM}, strategy=path-parking-v2)`);
+  const featN = Object.keys(cache?.features || {}).length;
   const expected = cache?.viewpointCount || featN;
   if (cache?.partial === true || (expected > 0 && featN < expected * 0.95)) {
     throw new Error(
       `Incomplete road-distance cache (${featN}/${expected} features, partial=${cache?.partial}). ` +
-        `Run: node build-scenic-road-distances.mjs --region=${region} (resume) or add --refresh`
+        `Run: node build-scenic-road-distances.mjs --region=${region} --refresh`
+    );
+  }
+  if (featN === 0) {
+    throw new Error(
+      `Road-distance cache has no features (legacy batched-pbf-scan is removed). ` +
+        `Run: node build-scenic-install-osmium.mjs && node build-scenic-road-distances.mjs --region=${region} --refresh`
     );
   }
   const unfiltered = readJson(fs.existsSync(unfilteredPath) ? unfilteredPath : mergedPath);
@@ -112,7 +121,7 @@ export function filterScenicRoadAccess(region, { maxM = DEFAULT_ROAD_MAX_DISTANC
     kind,
     region,
     roadAccessMaxM: maxM,
-    roadAccessStrategy: cache.features ? "path-parking-v2" : "distance-only",
+    roadAccessStrategy: "path-parking-v2",
     roadDistancesCache: cachePath,
     stateFilter: stateFilter || "",
     recordCount: allRecords.length,

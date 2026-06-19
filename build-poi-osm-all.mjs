@@ -48,7 +48,18 @@ run(`node build-poi-osm-ingest-pbf.mjs ${sourceFlag} ${flags}`.trim());
 const kindsFlag = args.extra.find((a) => a.startsWith("--kind=")) || "";
 const scenicOnly = !kindsFlag || kindsFlag.includes("viewpoint");
 if (scenicOnly) {
+  run("node build-scenic-install-osmium.mjs");
   const roadRegion = args.proof ? "--region=us --source=tx --state=TX" : "";
+  const sourceKey = args.proof ? "tx" : "";
+  if (sourceKey) {
+    run(`node build-scenic-highways-extract.mjs --source=${sourceKey}`.trim());
+    run(`node build-scenic-paths-parking-extract.mjs --source=${sourceKey}`.trim());
+  } else {
+    run("node build-scenic-highways-extract.mjs --source=us");
+    run("node build-scenic-highways-extract.mjs --source=ca");
+    run("node build-scenic-paths-parking-extract.mjs --source=us");
+    run("node build-scenic-paths-parking-extract.mjs --source=ca");
+  }
   run(`node build-scenic-road-distances.mjs ${roadRegion}`.trim());
   run(`node build-scenic-filter-road-access.mjs ${roadRegion}`.trim());
 }

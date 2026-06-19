@@ -2,8 +2,7 @@
  * Build highways-only PBF extract for scenic road-distance pipeline.
  * Usage: node build-scenic-highways-extract.mjs [--source=ca|us|tx] [--refresh]
  */
-import { buildHighwaysExtract } from "./scenic-osmium-lib.mjs";
-import { isOsmiumAvailable } from "./scenic-osmium-lib.mjs";
+import { buildHighwaysExtract, requireOsmium } from "./scenic-osmium-lib.mjs";
 import { logSection } from "./pipeline-log.mjs";
 
 function parseArgs() {
@@ -16,8 +15,6 @@ function parseArgs() {
 }
 
 const args = parseArgs();
-if (!isOsmiumAvailable()) {
-  throw new Error("osmium not found — run: node build-scenic-install-osmium.mjs");
-}
+requireOsmium();
 logSection(`highways extract (${args.sourceKey})`);
 buildHighwaysExtract(args.sourceKey, { refresh: args.refresh });

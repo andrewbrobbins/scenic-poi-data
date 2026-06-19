@@ -1,22 +1,17 @@
 /**
  * Compute nearest drivable-road distance for every scenic viewpoint; cache for fast re-filtering.
- * Uses osmium bbox clips + per-tile resumable checkpoints (see scenic-road-cache.mjs).
+ * Requires osmium-tool (see build-scenic-install-osmium.mjs).
  */
 import fs from "fs";
 import path from "path";
 import { ingestDir, readJson, writeJson } from "./poi-osm-lib.mjs";
 import { pbfFilePath } from "./poi-osm-pbf-config.mjs";
-import {
-  computeDistancesTiled,
-  DEFAULT_TILE_DEG,
-  DEFAULT_CELL_BUDGET,
-} from "./scenic-road-tile-scan.mjs";
 import { formatDuration, log, logSection } from "./pipeline-log.mjs";
 import {
   DEFAULT_MAX_MEASURE_M,
   SUPER_TILE_DEG,
   buildHighwaysExtract,
-  isOsmiumAvailable,
+  requireOsmium,
 } from "./scenic-osmium-lib.mjs";
 import { buildPathsParkingExtract, pathsParkingPbfPath } from "./build-scenic-paths-parking-extract.mjs";
 import { computeDistancesOsmium, groupViewpointsBySuperTile } from "./scenic-road-osmium-scan.mjs";
@@ -30,6 +25,8 @@ import {
   manifestPath,
 } from "./scenic-road-cache.mjs";
 
+const CACHE_MODE = "osmium-features-v3";
+
 export function roadDistancesCachePath(region) {
   return path.join(ingestDir(region, "viewpoint"), "road-distances.json");
 }
@@ -40,10 +37,7 @@ function parseArgs() {
     sourceByRegion: { us: "us", ca: "ca" },
     refresh: false,
     stateFilter: null,
-    tileDeg: DEFAULT_TILE_DEG,
-    cellBudget: DEFAULT_CELL_BUDGET,
     maxMeasureM: DEFAULT_MAX_MEASURE_M,
-    forceLegacy: false,
   };
   for (const arg of process.argv.slice(2)) {
     if (arg.startsWith("--region=")) out.regions = [arg.slice(9)];
@@ -51,10 +45,7 @@ function parseArgs() {
       const sk = arg.slice(9);
       for (const r of out.regions) out.sourceByRegion[r] = sk;
     } else if (arg === "--refresh") out.refresh = true;
-    else if (arg === "--legacy") out.forceLegacy = true;
     else if (arg.startsWith("--state=")) out.stateFilter = arg.slice(8);
-    else if (arg.startsWith("--tile-deg=")) out.tileDeg = Number(arg.slice(11));
-    else if (arg.startsWith("--cell-budget=")) out.cellBudget = Number(arg.slice(14));
     else if (arg.startsWith("--max-measure-m=")) out.maxMeasureM = Number(arg.slice(16));
   }
   return out;
@@ -75,30 +66,26 @@ export async function computeScenicRoadDistances(
     sourceKey,
     refresh = false,
     stateFilter = null,
-    tileDeg = DEFAULT_TILE_DEG,
-    cellBudget = DEFAULT_CELL_BUDGET,
     maxMeasureM = DEFAULT_MAX_MEASURE_M,
-    forceLegacy = false,
   } = {}
 ) {
+  requireOsmium();
+
   const sk = sourceKey || region;
   const cachePath = roadDistancesCachePath(region);
   const pbf = pbfFilePath(sk);
   if (!fs.existsSync(pbf)) throw new Error(`Missing PBF: ${pbf}`);
 
-  const useOsmium = !forceLegacy && isOsmiumAvailable();
   const pbfStat = fs.statSync(pbf);
-  const cacheKey = useOsmium
-    ? `${pbf}|${pbfStat.mtimeMs}|osmium-features-v3|super${SUPER_TILE_DEG}|max${maxMeasureM}|paths-v1`
-    : `${pbf}|${pbfStat.mtimeMs}|tile${tileDeg}|budget${cellBudget}|v2`;
+  const cacheKey = `${pbf}|${pbfStat.mtimeMs}|${CACHE_MODE}|super${SUPER_TILE_DEG}|max${maxMeasureM}|paths-v1`;
 
   if (!refresh && fs.existsSync(cachePath)) {
     const cached = readJson(cachePath);
-    if (cached?.cacheKey === cacheKey && cached?.partial === false && cached?.features) {
-      const n = Object.keys(cached.features).length;
-      const expected = cached.viewpointCount || n;
-      if (n >= expected) {
-        log(`using cached road distances (${n} viewpoints, mode=${cached.mode}): ${cachePath}`);
+    const featN = Object.keys(cached?.features || {}).length;
+    if (cached?.cacheKey === cacheKey && cached?.partial === false && featN > 0) {
+      const expected = cached.viewpointCount || featN;
+      if (featN >= expected) {
+        log(`using cached road distances (${featN} viewpoints, mode=${cached.mode}): ${cachePath}`);
         return cached;
       }
     }
@@ -140,7 +127,7 @@ export async function computeScenicRoadDistances(
           generated: new Date().toISOString(),
           region,
           sourceKey: sk,
-          mode: "osmium-features-v3",
+          mode: CACHE_MODE,
           cacheKey,
           maxMeasureM,
           passCount: manifest.completedTiles.length,
@@ -170,71 +157,42 @@ export async function computeScenicRoadDistances(
   }
 
   logSection(`scenic ${region}: road distance cache`);
-  log(
-    `${toCompute.length} viewpoints, mode=${useOsmium ? "osmium-features-v3" : "legacy-batched"}, max-measure=${maxMeasureM}m`
-  );
+  log(`${toCompute.length} viewpoints, mode=${CACHE_MODE}, max-measure=${maxMeasureM}m`);
 
   let lockHeld = false;
   try {
-    if (useOsmium) acquireScanLock(region);
-    lockHeld = useOsmium;
+    acquireScanLock(region);
+    lockHeld = true;
 
     const t0 = Date.now();
-    let result;
+    const { outPbf: highwaysPbf } = buildHighwaysExtract(sk, { refresh });
+    const { outPbf: pathsParkingPbf } = buildPathsParkingExtract(sk, { refresh });
+    const manifestMeta = {
+      cacheKey,
+      region,
+      sourceKey: sk,
+      viewpointCount: toCompute.length,
+      expectedTileCount: expectedTileKeys.length,
+      maxMeasureM,
+      superTileDeg: SUPER_TILE_DEG,
+    };
 
-    if (useOsmium) {
-      const { outPbf: highwaysPbf } = buildHighwaysExtract(sk, { refresh });
-      const { outPbf: pathsParkingPbf } = buildPathsParkingExtract(sk, { refresh });
-      const manifestMeta = {
-        cacheKey,
-        region,
-        sourceKey: sk,
-        viewpointCount: toCompute.length,
-        expectedTileCount: expectedTileKeys.length,
-        maxMeasureM,
-        superTileDeg: SUPER_TILE_DEG,
-      };
-
-      result = await computeDistancesOsmium(highwaysPbf, toCompute, {
-        region,
-        maxMeasureM,
-        existingDistances,
-        existingFeatures,
-        pathsParkingPbf,
-        onBatch(info) {
-          writeTileCheckpoint(region, info.tileKey, {
-            features: info.tileFeatures,
-            distances: info.tileDistances,
-          }, manifestMeta);
-          if (info.batch === 1 || info.batch === info.total || info.batch % 25 === 0) {
-            log(`tile checkpoint ${info.batch}/${info.total} (${info.tileKey}, ${info.viewpoints} vps)`);
-          }
-        },
-      });
-    } else {
-      log("osmium unavailable — using legacy batched PBF scan", { level: "warn" });
-      result = await computeDistancesTiled(pbf, toCompute, {
-        tileDeg,
-        cellBudget,
-        existingDistances,
-        onBatch(info) {
-          if (info.skipped) return;
-          writeJson(cachePath, {
-            generated: new Date().toISOString(),
-            region,
-            sourceKey: sk,
-            mode: "batched-pbf-scan",
-            cacheKey,
-            pbf,
-            tileDeg,
-            cellBudget,
-            partial: true,
-            distances: info.distances,
-          });
-          log(`checkpoint saved after pass ${info.batch}/${info.total}`);
-        },
-      });
-    }
+    const result = await computeDistancesOsmium(highwaysPbf, toCompute, {
+      region,
+      maxMeasureM,
+      existingDistances,
+      existingFeatures,
+      pathsParkingPbf,
+      onBatch(info) {
+        writeTileCheckpoint(region, info.tileKey, {
+          features: info.tileFeatures,
+          distances: info.tileDistances,
+        }, manifestMeta);
+        if (info.batch === 1 || info.batch === info.total || info.batch % 25 === 0) {
+          log(`tile checkpoint ${info.batch}/${info.total} (${info.tileKey}, ${info.viewpoints} vps)`);
+        }
+      },
+    });
 
     const { distances, features, withRoad, withoutRoad, passCount, tileCount } = result;
     const far = result.far || 0;
@@ -243,19 +201,19 @@ export async function computeScenicRoadDistances(
       generated: new Date().toISOString(),
       region,
       sourceKey: sk,
-      mode: useOsmium ? "osmium-features-v3" : "batched-pbf-scan",
+      mode: CACHE_MODE,
       cacheKey,
       maxMeasureM,
       passCount,
       tileCount,
-      viewpointCount: Object.keys(features || distances).length,
+      viewpointCount: Object.keys(features).length,
       withRoad,
       withoutRoad,
       far,
       stateFilter: stateFilter || "",
       partial: false,
       distances,
-      features: features || {},
+      features,
     };
 
     writeFinalRoadDistancesCache(cachePath, payload);
@@ -274,7 +232,7 @@ export async function computeScenicRoadDistances(
       log(`warning: feature count ${featN} != viewpoint count ${toCompute.length}`, { level: "warn" });
     }
     log(
-      `cached ${featN} distances in ${formatDuration(Date.now() - t0)} (${withRoad} within ${maxMeasureM}m, ${far} far, ${withoutRoad} no road, ${passCount} batches)`
+      `cached ${featN} viewpoints in ${formatDuration(Date.now() - t0)} (${withRoad} within ${maxMeasureM}m, ${far} far, ${withoutRoad} no road, ${passCount} tiles)`
     );
     log(`wrote ${cachePath}`);
     return payload;
@@ -285,15 +243,13 @@ export async function computeScenicRoadDistances(
 
 if (process.argv[1]?.endsWith("build-scenic-road-distances.mjs")) {
   const args = parseArgs();
+  requireOsmium();
   for (const region of args.regions) {
     await computeScenicRoadDistances(region, {
       sourceKey: args.sourceByRegion[region],
       refresh: args.refresh,
       stateFilter: args.stateFilter,
-      tileDeg: args.tileDeg,
-      cellBudget: args.cellBudget,
       maxMeasureM: args.maxMeasureM,
-      forceLegacy: args.forceLegacy,
     });
   }
 }

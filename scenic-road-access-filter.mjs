@@ -35,13 +35,21 @@ function nearestPointDistanceM(lat, lon, points) {
   return best === Infinity ? null : Math.round(best * 10) / 10;
 }
 
-export function bruteNearestSegmentM(lat, lon, segments) {
+export function bruteNearestSegmentM(lat, lon, segments, { maxMeasureM = Infinity } = {}) {
   let best = Infinity;
   for (const s of segments) {
+    if (Number.isFinite(maxMeasureM) && maxMeasureM < Infinity) {
+      const dA = haversineM(lat, lon, s[0], s[1]);
+      const dB = haversineM(lat, lon, s[2], s[3]);
+      const segLen = haversineM(s[0], s[1], s[2], s[3]);
+      const lowerBound = Math.max(0, Math.min(dA, dB) - segLen);
+      if (lowerBound > maxMeasureM) continue;
+    }
     const d = distPointToSegmentM(lat, lon, s[0], s[1], s[2], s[3]);
     if (d < best) best = d;
   }
-  return best === Infinity ? null : Math.round(best * 10) / 10;
+  if (best === Infinity) return null;
+  return Math.round(best * 10) / 10;
 }
 
 export async function parseClipFeatures(pbf) {

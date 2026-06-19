@@ -1,20 +1,20 @@
 {
-  "generated": "2026-06-11T03:02:09.237Z",
+  "generated": "2026-06-19T16:45:39.414Z",
   "kind": "viewpoint",
   "region": "ca",
-  "recordCount": 758,
+  "recordCount": 760,
   "byState": {
-    "ON": 112,
+    "ON": 111,
     "QC": 117,
-    "BC": 127,
-    "AB": 146,
+    "BC": 128,
+    "AB": 147,
     "NL": 131,
     "MB": 9,
     "NB": 68,
     "NT": 9,
     "NU": 7,
     "SK": 3,
-    "NS": 15,
+    "NS": 16,
     "YT": 14
   },
   "records": [
@@ -35,7 +35,7 @@
         "dLean": 30.1,
         "dWide": null,
         "dPath": 8.4,
-        "dParking": 4540.7
+        "dParking": null
       }
     },
     {
@@ -94,8 +94,8 @@
       "roadAccessFeatures": {
         "dLean": 27.3,
         "dWide": null,
-        "dPath": 688,
-        "dParking": 1267.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -115,7 +115,7 @@
         "dLean": 20.4,
         "dWide": null,
         "dPath": 13.3,
-        "dParking": 1806
+        "dParking": null
       }
     },
     {
@@ -134,8 +134,8 @@
       "roadAccessFeatures": {
         "dLean": 34.8,
         "dWide": null,
-        "dPath": 355.5,
-        "dParking": 21453.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -155,7 +155,7 @@
         "dLean": 16.4,
         "dWide": null,
         "dPath": 1.1,
-        "dParking": 579
+        "dParking": null
       }
     },
     {
@@ -194,8 +194,8 @@
       "roadAccessFeatures": {
         "dLean": 38.9,
         "dWide": null,
-        "dPath": 1254.2,
-        "dParking": 34222.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -215,7 +215,7 @@
         "dLean": 77,
         "dWide": null,
         "dPath": 61,
-        "dParking": 381.3
+        "dParking": null
       }
     },
     {
@@ -234,7 +234,7 @@
       "roadAccessFeatures": {
         "dLean": 22.6,
         "dWide": null,
-        "dPath": 1483.5,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -275,7 +275,7 @@
         "dLean": 20.5,
         "dWide": null,
         "dPath": 2.5,
-        "dParking": 882
+        "dParking": null
       }
     },
     {
@@ -295,7 +295,7 @@
         "dLean": 6.6,
         "dWide": null,
         "dPath": 1.2,
-        "dParking": 2036.3
+        "dParking": null
       }
     },
     {
@@ -315,7 +315,7 @@
         "dLean": 98.2,
         "dWide": null,
         "dPath": 48.4,
-        "dParking": 1322.5
+        "dParking": null
       }
     },
     {
@@ -354,7 +354,7 @@
       "roadAccessFeatures": {
         "dLean": 30.9,
         "dWide": null,
-        "dPath": 1031.1,
+        "dPath": null,
         "dParking": 19.4
       }
     },
@@ -375,7 +375,7 @@
         "dLean": 30.3,
         "dWide": null,
         "dPath": 12.7,
-        "dParking": 379.5
+        "dParking": null
       }
     },
     {
@@ -394,7 +394,7 @@
       "roadAccessFeatures": {
         "dLean": 74.4,
         "dWide": null,
-        "dPath": 541.7,
+        "dPath": null,
         "dParking": 47.7
       }
     },
@@ -415,7 +415,7 @@
         "dLean": 6.8,
         "dWide": null,
         "dPath": 0.5,
-        "dParking": 4778.9
+        "dParking": null
       }
     },
     {
@@ -435,7 +435,7 @@
         "dLean": 32.5,
         "dWide": null,
         "dPath": 8.9,
-        "dParking": 1998.5
+        "dParking": null
       }
     },
     {
@@ -474,8 +474,8 @@
       "roadAccessFeatures": {
         "dLean": 110.8,
         "dWide": null,
-        "dPath": 981,
-        "dParking": 7372.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -514,7 +514,7 @@
       "roadAccessFeatures": {
         "dLean": 22.4,
         "dWide": null,
-        "dPath": 445.8,
+        "dPath": null,
         "dParking": 17.2
       }
     },
@@ -554,8 +554,8 @@
       "roadAccessFeatures": {
         "dLean": 21.1,
         "dWide": null,
-        "dPath": 3347.8,
-        "dParking": 7227.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -575,7 +575,7 @@
         "dLean": 33.1,
         "dWide": null,
         "dPath": 52.3,
-        "dParking": 16364.5
+        "dParking": null
       }
     },
     {
@@ -595,7 +595,7 @@
         "dLean": 19.8,
         "dWide": null,
         "dPath": 0.1,
-        "dParking": 25965.2
+        "dParking": null
       }
     },
     {
@@ -615,7 +615,7 @@
         "dLean": 46.4,
         "dWide": null,
         "dPath": 146.9,
-        "dParking": 16744.1
+        "dParking": null
       }
     },
     {
@@ -634,8 +634,8 @@
       "roadAccessFeatures": {
         "dLean": 81.6,
         "dWide": null,
-        "dPath": 3706.8,
-        "dParking": 12882.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -654,8 +654,8 @@
       "roadAccessFeatures": {
         "dLean": 19.6,
         "dWide": null,
-        "dPath": 907.2,
-        "dParking": 20899.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -695,7 +695,7 @@
         "dLean": 22.6,
         "dWide": null,
         "dPath": 3.8,
-        "dParking": 1304.1
+        "dParking": null
       }
     },
     {
@@ -714,8 +714,8 @@
       "roadAccessFeatures": {
         "dLean": 20.9,
         "dWide": null,
-        "dPath": 1122.5,
-        "dParking": 2523.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -735,7 +735,7 @@
         "dLean": 43.5,
         "dWide": null,
         "dPath": 0.3,
-        "dParking": 6312.6
+        "dParking": null
       }
     },
     {
@@ -815,7 +815,7 @@
         "dLean": 27.5,
         "dWide": null,
         "dPath": 4.7,
-        "dParking": 759.3
+        "dParking": null
       }
     },
     {
@@ -835,7 +835,7 @@
         "dLean": 19.7,
         "dWide": null,
         "dPath": 15.7,
-        "dParking": 1256.6
+        "dParking": null
       }
     },
     {
@@ -854,8 +854,8 @@
       "roadAccessFeatures": {
         "dLean": 48.3,
         "dWide": null,
-        "dPath": 562.6,
-        "dParking": 10161
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -874,8 +874,8 @@
       "roadAccessFeatures": {
         "dLean": 25.1,
         "dWide": null,
-        "dPath": 970.1,
-        "dParking": 17083.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -894,8 +894,8 @@
       "roadAccessFeatures": {
         "dLean": 18.3,
         "dWide": null,
-        "dPath": 2923.5,
-        "dParking": 4065.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -915,7 +915,7 @@
         "dLean": 14.4,
         "dWide": null,
         "dPath": 113.3,
-        "dParking": 2928.4
+        "dParking": null
       }
     },
     {
@@ -1014,8 +1014,8 @@
       "roadAccessFeatures": {
         "dLean": 16.2,
         "dWide": null,
-        "dPath": 444.3,
-        "dParking": 767.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1054,8 +1054,8 @@
       "roadAccessFeatures": {
         "dLean": 132.5,
         "dWide": null,
-        "dPath": 476.4,
-        "dParking": 29081.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1074,8 +1074,8 @@
       "roadAccessFeatures": {
         "dLean": 66.9,
         "dWide": null,
-        "dPath": 971,
-        "dParking": 9316
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1115,7 +1115,7 @@
         "dLean": 40.1,
         "dWide": null,
         "dPath": 5.9,
-        "dParking": 1726.3
+        "dParking": null
       }
     },
     {
@@ -1134,8 +1134,8 @@
       "roadAccessFeatures": {
         "dLean": 20.9,
         "dWide": null,
-        "dPath": 767.5,
-        "dParking": 23503
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1154,8 +1154,8 @@
       "roadAccessFeatures": {
         "dLean": 19.1,
         "dWide": null,
-        "dPath": 751.8,
-        "dParking": 24345.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1174,8 +1174,8 @@
       "roadAccessFeatures": {
         "dLean": 16.2,
         "dWide": null,
-        "dPath": 1139.2,
-        "dParking": 24979.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1194,8 +1194,8 @@
       "roadAccessFeatures": {
         "dLean": 20.6,
         "dWide": null,
-        "dPath": 637.9,
-        "dParking": 23181.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1214,8 +1214,8 @@
       "roadAccessFeatures": {
         "dLean": 25.4,
         "dWide": null,
-        "dPath": 1073.8,
-        "dParking": 22673.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1234,8 +1234,8 @@
       "roadAccessFeatures": {
         "dLean": 20.3,
         "dWide": null,
-        "dPath": 2346.8,
-        "dParking": 11757.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1254,8 +1254,8 @@
       "roadAccessFeatures": {
         "dLean": 19,
         "dWide": null,
-        "dPath": 401.3,
-        "dParking": 8670.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1274,8 +1274,8 @@
       "roadAccessFeatures": {
         "dLean": 20.5,
         "dWide": null,
-        "dPath": 2620.5,
-        "dParking": 12035.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1294,8 +1294,8 @@
       "roadAccessFeatures": {
         "dLean": 19.6,
         "dWide": null,
-        "dPath": 2140.2,
-        "dParking": 11467.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1315,7 +1315,7 @@
         "dLean": 18.1,
         "dWide": null,
         "dPath": 222.5,
-        "dParking": 8461.5
+        "dParking": null
       }
     },
     {
@@ -1334,8 +1334,8 @@
       "roadAccessFeatures": {
         "dLean": 19.5,
         "dWide": null,
-        "dPath": 610.3,
-        "dParking": 10055.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1354,8 +1354,8 @@
       "roadAccessFeatures": {
         "dLean": 26.1,
         "dWide": null,
-        "dPath": 788.9,
-        "dParking": 1119.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1374,8 +1374,8 @@
       "roadAccessFeatures": {
         "dLean": 28.3,
         "dWide": null,
-        "dPath": 414.6,
-        "dParking": 2357.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1415,7 +1415,7 @@
         "dLean": 27.2,
         "dWide": null,
         "dPath": 68.9,
-        "dParking": 843.2
+        "dParking": null
       }
     },
     {
@@ -1434,8 +1434,8 @@
       "roadAccessFeatures": {
         "dLean": 11.5,
         "dWide": null,
-        "dPath": 262.3,
-        "dParking": 2751.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1454,8 +1454,8 @@
       "roadAccessFeatures": {
         "dLean": 28.8,
         "dWide": null,
-        "dPath": 693.5,
-        "dParking": 771.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1474,8 +1474,8 @@
       "roadAccessFeatures": {
         "dLean": 17.8,
         "dWide": null,
-        "dPath": 341.4,
-        "dParking": 2349.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1494,8 +1494,8 @@
       "roadAccessFeatures": {
         "dLean": 10.6,
         "dWide": null,
-        "dPath": 644.8,
-        "dParking": 1233.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1534,8 +1534,8 @@
       "roadAccessFeatures": {
         "dLean": 28.8,
         "dWide": null,
-        "dPath": 731.6,
-        "dParking": 43035.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1555,7 +1555,7 @@
         "dLean": 36,
         "dWide": null,
         "dPath": 129.5,
-        "dParking": 42451.2
+        "dParking": null
       }
     },
     {
@@ -1574,8 +1574,8 @@
       "roadAccessFeatures": {
         "dLean": 21,
         "dWide": null,
-        "dPath": 401.1,
-        "dParking": 12424.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1594,8 +1594,8 @@
       "roadAccessFeatures": {
         "dLean": 21,
         "dWide": null,
-        "dPath": 367.2,
-        "dParking": 5865.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1654,8 +1654,8 @@
       "roadAccessFeatures": {
         "dLean": 30.1,
         "dWide": null,
-        "dPath": 1615.4,
-        "dParking": 2066.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1694,7 +1694,7 @@
       "roadAccessFeatures": {
         "dLean": 35.1,
         "dWide": null,
-        "dPath": 1308.4,
+        "dPath": null,
         "dParking": 14.1
       }
     },
@@ -1715,7 +1715,7 @@
         "dLean": 48,
         "dWide": null,
         "dPath": 12.4,
-        "dParking": 2637.4
+        "dParking": null
       }
     },
     {
@@ -1735,7 +1735,7 @@
         "dLean": 23.2,
         "dWide": null,
         "dPath": 13.6,
-        "dParking": 884.6
+        "dParking": null
       }
     },
     {
@@ -1754,8 +1754,8 @@
       "roadAccessFeatures": {
         "dLean": 29.8,
         "dWide": null,
-        "dPath": 274.9,
-        "dParking": 18323.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1775,7 +1775,7 @@
         "dLean": 25.9,
         "dWide": null,
         "dPath": 28.2,
-        "dParking": 1046.4
+        "dParking": null
       }
     },
     {
@@ -1795,7 +1795,7 @@
         "dLean": 74,
         "dWide": null,
         "dPath": 61.6,
-        "dParking": 3820.9
+        "dParking": null
       }
     },
     {
@@ -1814,7 +1814,7 @@
       "roadAccessFeatures": {
         "dLean": 19.2,
         "dWide": null,
-        "dPath": 661.7,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -1835,7 +1835,7 @@
         "dLean": 28.8,
         "dWide": null,
         "dPath": 73.8,
-        "dParking": 15396
+        "dParking": null
       }
     },
     {
@@ -1855,7 +1855,7 @@
         "dLean": 10.2,
         "dWide": null,
         "dPath": 132.5,
-        "dParking": 8498.9
+        "dParking": null
       }
     },
     {
@@ -1875,7 +1875,7 @@
         "dLean": 7.7,
         "dWide": null,
         "dPath": 241.4,
-        "dParking": 8812.8
+        "dParking": null
       }
     },
     {
@@ -1895,7 +1895,7 @@
         "dLean": 16.7,
         "dWide": null,
         "dPath": 15.5,
-        "dParking": 2369.1
+        "dParking": null
       }
     },
     {
@@ -1914,7 +1914,7 @@
       "roadAccessFeatures": {
         "dLean": 9.5,
         "dWide": null,
-        "dPath": 2011.2,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -1935,7 +1935,7 @@
         "dLean": 99.7,
         "dWide": null,
         "dPath": 65.5,
-        "dParking": 823.8
+        "dParking": null
       }
     },
     {
@@ -1954,7 +1954,7 @@
       "roadAccessFeatures": {
         "dLean": 17,
         "dWide": null,
-        "dPath": 326.3,
+        "dPath": null,
         "dParking": 15.9
       }
     },
@@ -1974,8 +1974,8 @@
       "roadAccessFeatures": {
         "dLean": 95.7,
         "dWide": null,
-        "dPath": 2458.2,
-        "dParking": 13481.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -1995,7 +1995,7 @@
         "dLean": 30.6,
         "dWide": null,
         "dPath": 15,
-        "dParking": 15668.6
+        "dParking": null
       }
     },
     {
@@ -2014,8 +2014,8 @@
       "roadAccessFeatures": {
         "dLean": 32.4,
         "dWide": null,
-        "dPath": 1248.5,
-        "dParking": 34215.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2034,8 +2034,8 @@
       "roadAccessFeatures": {
         "dLean": 0.7,
         "dWide": null,
-        "dPath": 499.4,
-        "dParking": 23893.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2055,7 +2055,7 @@
         "dLean": 56,
         "dWide": null,
         "dPath": 213.8,
-        "dParking": 23743.5
+        "dParking": null
       }
     },
     {
@@ -2074,8 +2074,8 @@
       "roadAccessFeatures": {
         "dLean": 25.3,
         "dWide": null,
-        "dPath": 2770,
-        "dParking": 51095.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2095,7 +2095,7 @@
         "dLean": 13.2,
         "dWide": null,
         "dPath": 3.1,
-        "dParking": 4315.9
+        "dParking": null
       }
     },
     {
@@ -2115,7 +2115,7 @@
         "dLean": 26.9,
         "dWide": null,
         "dPath": 8.2,
-        "dParking": 1829
+        "dParking": null
       }
     },
     {
@@ -2134,8 +2134,8 @@
       "roadAccessFeatures": {
         "dLean": 37.8,
         "dWide": null,
-        "dPath": 905.9,
-        "dParking": 12528.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2155,7 +2155,7 @@
         "dLean": 25.5,
         "dWide": null,
         "dPath": 7.2,
-        "dParking": 6305.4
+        "dParking": null
       }
     },
     {
@@ -2175,7 +2175,7 @@
         "dLean": 21.6,
         "dWide": null,
         "dPath": 22.2,
-        "dParking": 5976.3
+        "dParking": null
       }
     },
     {
@@ -2194,8 +2194,8 @@
       "roadAccessFeatures": {
         "dLean": 27.9,
         "dWide": null,
-        "dPath": 2073.9,
-        "dParking": 8571
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2214,8 +2214,8 @@
       "roadAccessFeatures": {
         "dLean": 49,
         "dWide": null,
-        "dPath": 1842.5,
-        "dParking": 9692.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2255,7 +2255,7 @@
         "dLean": 16.6,
         "dWide": null,
         "dPath": 115,
-        "dParking": 13358.7
+        "dParking": null
       }
     },
     {
@@ -2274,8 +2274,8 @@
       "roadAccessFeatures": {
         "dLean": 18.3,
         "dWide": null,
-        "dPath": 325.4,
-        "dParking": 11608.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2295,7 +2295,7 @@
         "dLean": 29.7,
         "dWide": null,
         "dPath": 127.2,
-        "dParking": 1865.9
+        "dParking": null
       }
     },
     {
@@ -2314,7 +2314,7 @@
       "roadAccessFeatures": {
         "dLean": 32.9,
         "dWide": null,
-        "dPath": 510.6,
+        "dPath": null,
         "dParking": 22.4
       }
     },
@@ -2335,7 +2335,7 @@
         "dLean": 23.8,
         "dWide": null,
         "dPath": 55.6,
-        "dParking": 624.1
+        "dParking": null
       }
     },
     {
@@ -2355,7 +2355,7 @@
         "dLean": 49.4,
         "dWide": null,
         "dPath": 3.7,
-        "dParking": 1191.4
+        "dParking": null
       }
     },
     {
@@ -2374,8 +2374,8 @@
       "roadAccessFeatures": {
         "dLean": 18.5,
         "dWide": null,
-        "dPath": 754.9,
-        "dParking": 3722.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2395,7 +2395,7 @@
         "dLean": 29.8,
         "dWide": null,
         "dPath": 8,
-        "dParking": 643.1
+        "dParking": null
       }
     },
     {
@@ -2414,7 +2414,7 @@
       "roadAccessFeatures": {
         "dLean": 135,
         "dWide": null,
-        "dPath": 1797.1,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2435,7 +2435,7 @@
         "dLean": 82.3,
         "dWide": null,
         "dPath": 59.3,
-        "dParking": 2495.4
+        "dParking": null
       }
     },
     {
@@ -2454,7 +2454,7 @@
       "roadAccessFeatures": {
         "dLean": 42.4,
         "dWide": null,
-        "dPath": 652.3,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2515,7 +2515,7 @@
         "dLean": 37.3,
         "dWide": null,
         "dPath": 7.4,
-        "dParking": 29795.9
+        "dParking": null
       }
     },
     {
@@ -2534,7 +2534,7 @@
       "roadAccessFeatures": {
         "dLean": 23.9,
         "dWide": null,
-        "dPath": 809.5,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2554,8 +2554,8 @@
       "roadAccessFeatures": {
         "dLean": 36,
         "dWide": null,
-        "dPath": 429.1,
-        "dParking": 6163.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2574,7 +2574,7 @@
       "roadAccessFeatures": {
         "dLean": 14,
         "dWide": null,
-        "dPath": 250.2,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2594,7 +2594,7 @@
       "roadAccessFeatures": {
         "dLean": 22.1,
         "dWide": null,
-        "dPath": 439.4,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2614,7 +2614,7 @@
       "roadAccessFeatures": {
         "dLean": 56.5,
         "dWide": null,
-        "dPath": 413.6,
+        "dPath": null,
         "dParking": 3.6
       }
     },
@@ -2635,7 +2635,7 @@
         "dLean": 57.7,
         "dWide": null,
         "dPath": 123,
-        "dParking": 10031.1
+        "dParking": null
       }
     },
     {
@@ -2654,7 +2654,7 @@
       "roadAccessFeatures": {
         "dLean": 43.4,
         "dWide": null,
-        "dPath": 1713.8,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2674,8 +2674,8 @@
       "roadAccessFeatures": {
         "dLean": 49.2,
         "dWide": null,
-        "dPath": 266.8,
-        "dParking": 19255
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2694,7 +2694,7 @@
       "roadAccessFeatures": {
         "dLean": 43.9,
         "dWide": null,
-        "dPath": 1276.6,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2714,7 +2714,7 @@
       "roadAccessFeatures": {
         "dLean": 14.6,
         "dWide": null,
-        "dPath": 523.3,
+        "dPath": null,
         "dParking": 7.5
       }
     },
@@ -2735,7 +2735,7 @@
         "dLean": 53.4,
         "dWide": null,
         "dPath": 68.2,
-        "dParking": 5243.2
+        "dParking": null
       }
     },
     {
@@ -2754,7 +2754,7 @@
       "roadAccessFeatures": {
         "dLean": 22,
         "dWide": null,
-        "dPath": 265.5,
+        "dPath": null,
         "dParking": 4.7
       }
     },
@@ -2774,8 +2774,8 @@
       "roadAccessFeatures": {
         "dLean": 42.8,
         "dWide": null,
-        "dPath": 263.9,
-        "dParking": 626.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2794,7 +2794,7 @@
       "roadAccessFeatures": {
         "dLean": 131.9,
         "dWide": null,
-        "dPath": 507.5,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -2814,8 +2814,8 @@
       "roadAccessFeatures": {
         "dLean": 115.6,
         "dWide": null,
-        "dPath": 813.7,
-        "dParking": 11427.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2834,8 +2834,8 @@
       "roadAccessFeatures": {
         "dLean": 19.4,
         "dWide": null,
-        "dPath": 1010.1,
-        "dParking": 6130.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -2854,7 +2854,7 @@
       "roadAccessFeatures": {
         "dLean": 60.2,
         "dWide": null,
-        "dPath": 555.9,
+        "dPath": null,
         "dParking": 39.9
       }
     },
@@ -2875,7 +2875,7 @@
         "dLean": 14,
         "dWide": null,
         "dPath": 2.8,
-        "dParking": 6514
+        "dParking": null
       }
     },
     {
@@ -2894,7 +2894,7 @@
       "roadAccessFeatures": {
         "dLean": 17.4,
         "dWide": null,
-        "dPath": 923,
+        "dPath": null,
         "dParking": 48.9
       }
     },
@@ -2915,7 +2915,7 @@
         "dLean": 15.2,
         "dWide": null,
         "dPath": 1.4,
-        "dParking": 12688.5
+        "dParking": null
       }
     },
     {
@@ -2935,7 +2935,7 @@
         "dLean": 31.8,
         "dWide": null,
         "dPath": 197.1,
-        "dParking": 13566.2
+        "dParking": null
       }
     },
     {
@@ -2955,7 +2955,7 @@
         "dLean": 7.6,
         "dWide": null,
         "dPath": 1.2,
-        "dParking": 444.6
+        "dParking": null
       }
     },
     {
@@ -2995,7 +2995,7 @@
         "dLean": 29.8,
         "dWide": null,
         "dPath": 121.1,
-        "dParking": 4369.9
+        "dParking": null
       }
     },
     {
@@ -3015,7 +3015,7 @@
         "dLean": 4.9,
         "dWide": null,
         "dPath": 6.6,
-        "dParking": 2296
+        "dParking": null
       }
     },
     {
@@ -3055,7 +3055,7 @@
         "dLean": 39,
         "dWide": null,
         "dPath": 29,
-        "dParking": 1634.9
+        "dParking": null
       }
     },
     {
@@ -3094,8 +3094,8 @@
       "roadAccessFeatures": {
         "dLean": 113.5,
         "dWide": null,
-        "dPath": 1934.2,
-        "dParking": 19603.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -3115,7 +3115,7 @@
         "dLean": 13.2,
         "dWide": null,
         "dPath": 19.9,
-        "dParking": 8830.7
+        "dParking": null
       }
     },
     {
@@ -3135,7 +3135,7 @@
         "dLean": 7.2,
         "dWide": null,
         "dPath": 0.9,
-        "dParking": 2518.7
+        "dParking": null
       }
     },
     {
@@ -3155,7 +3155,7 @@
         "dLean": 15.6,
         "dWide": null,
         "dPath": 2.8,
-        "dParking": 1627.8
+        "dParking": null
       }
     },
     {
@@ -3175,7 +3175,7 @@
         "dLean": 8.4,
         "dWide": null,
         "dPath": 144.4,
-        "dParking": 7974.4
+        "dParking": null
       }
     },
     {
@@ -3194,8 +3194,8 @@
       "roadAccessFeatures": {
         "dLean": 31.1,
         "dWide": null,
-        "dPath": 312.8,
-        "dParking": 3330.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -3215,7 +3215,7 @@
         "dLean": 24.9,
         "dWide": null,
         "dPath": 37.8,
-        "dParking": 2784.6
+        "dParking": null
       }
     },
     {
@@ -3235,7 +3235,7 @@
         "dLean": 25,
         "dWide": null,
         "dPath": 8.9,
-        "dParking": 478.4
+        "dParking": null
       }
     },
     {
@@ -3254,7 +3254,7 @@
       "roadAccessFeatures": {
         "dLean": 19.1,
         "dWide": null,
-        "dPath": 295.9,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -3275,7 +3275,7 @@
         "dLean": 32.8,
         "dWide": null,
         "dPath": 9.9,
-        "dParking": 2172
+        "dParking": null
       }
     },
     {
@@ -3295,7 +3295,7 @@
         "dLean": 27.9,
         "dWide": null,
         "dPath": 2,
-        "dParking": 1294.5
+        "dParking": null
       }
     },
     {
@@ -3314,7 +3314,7 @@
       "roadAccessFeatures": {
         "dLean": 28.6,
         "dWide": null,
-        "dPath": 1112.4,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -3355,7 +3355,7 @@
         "dLean": 5.3,
         "dWide": null,
         "dPath": 126.7,
-        "dParking": 1959
+        "dParking": null
       }
     },
     {
@@ -3375,7 +3375,7 @@
         "dLean": 35.4,
         "dWide": null,
         "dPath": 0.3,
-        "dParking": 9127.7
+        "dParking": null
       }
     },
     {
@@ -3395,7 +3395,7 @@
         "dLean": 21.4,
         "dWide": null,
         "dPath": 2.4,
-        "dParking": 7131.6
+        "dParking": null
       }
     },
     {
@@ -3415,7 +3415,7 @@
         "dLean": 44.7,
         "dWide": null,
         "dPath": 3,
-        "dParking": 646.2
+        "dParking": null
       }
     },
     {
@@ -3434,7 +3434,7 @@
       "roadAccessFeatures": {
         "dLean": 28.4,
         "dWide": null,
-        "dPath": 3132.4,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -3455,7 +3455,7 @@
         "dLean": 37.4,
         "dWide": null,
         "dPath": 20.2,
-        "dParking": 4938.3
+        "dParking": null
       }
     },
     {
@@ -3495,7 +3495,7 @@
         "dLean": 48.6,
         "dWide": null,
         "dPath": 11.8,
-        "dParking": 3405.6
+        "dParking": null
       }
     },
     {
@@ -3514,8 +3514,8 @@
       "roadAccessFeatures": {
         "dLean": 49.6,
         "dWide": null,
-        "dPath": 326,
-        "dParking": 10152.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -3535,7 +3535,7 @@
         "dLean": 26.3,
         "dWide": null,
         "dPath": 5.9,
-        "dParking": 1071.1
+        "dParking": null
       }
     },
     {
@@ -3554,8 +3554,8 @@
       "roadAccessFeatures": {
         "dLean": 19.8,
         "dWide": null,
-        "dPath": 397.7,
-        "dParking": 32027.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -3575,7 +3575,7 @@
         "dLean": 28.8,
         "dWide": null,
         "dPath": 15.4,
-        "dParking": 3045.8
+        "dParking": null
       }
     },
     {
@@ -3594,7 +3594,7 @@
       "roadAccessFeatures": {
         "dLean": 18,
         "dWide": null,
-        "dPath": 892.1,
+        "dPath": null,
         "dParking": 28.2
       }
     },
@@ -3615,7 +3615,7 @@
         "dLean": 90,
         "dWide": null,
         "dPath": 122.6,
-        "dParking": 4517.3
+        "dParking": null
       }
     },
     {
@@ -3635,7 +3635,7 @@
         "dLean": 30.3,
         "dWide": null,
         "dPath": 5.6,
-        "dParking": 512
+        "dParking": null
       }
     },
     {
@@ -3654,8 +3654,8 @@
       "roadAccessFeatures": {
         "dLean": 42,
         "dWide": null,
-        "dPath": 264.5,
-        "dParking": 1328.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -3675,7 +3675,7 @@
         "dLean": 47.9,
         "dWide": null,
         "dPath": 7.7,
-        "dParking": 1319.8
+        "dParking": null
       }
     },
     {
@@ -3695,7 +3695,7 @@
         "dLean": 44.3,
         "dWide": null,
         "dPath": 6.3,
-        "dParking": 459.4
+        "dParking": null
       }
     },
     {
@@ -3715,7 +3715,7 @@
         "dLean": 21.9,
         "dWide": null,
         "dPath": 12.5,
-        "dParking": 28449.9
+        "dParking": null
       }
     },
     {
@@ -3734,8 +3734,8 @@
       "roadAccessFeatures": {
         "dLean": 13.7,
         "dWide": null,
-        "dPath": 1279.3,
-        "dParking": 9742.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -3755,7 +3755,7 @@
         "dLean": 5.9,
         "dWide": null,
         "dPath": 26,
-        "dParking": 1533.1
+        "dParking": null
       }
     },
     {
@@ -3775,7 +3775,7 @@
         "dLean": 4,
         "dWide": null,
         "dPath": 29.3,
-        "dParking": 1350.4
+        "dParking": null
       }
     },
     {
@@ -3795,7 +3795,7 @@
         "dLean": 62.7,
         "dWide": null,
         "dPath": 50.8,
-        "dParking": 725.9
+        "dParking": null
       }
     },
     {
@@ -3815,7 +3815,7 @@
         "dLean": 10.1,
         "dWide": null,
         "dPath": 20.5,
-        "dParking": 682.8
+        "dParking": null
       }
     },
     {
@@ -3835,7 +3835,7 @@
         "dLean": 44.3,
         "dWide": null,
         "dPath": 32.8,
-        "dParking": 724.7
+        "dParking": null
       }
     },
     {
@@ -3854,7 +3854,7 @@
       "roadAccessFeatures": {
         "dLean": 52.9,
         "dWide": null,
-        "dPath": 2470.4,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -3895,7 +3895,7 @@
         "dLean": 5.2,
         "dWide": null,
         "dPath": 241.2,
-        "dParking": 11918.3
+        "dParking": null
       }
     },
     {
@@ -3954,7 +3954,7 @@
       "roadAccessFeatures": {
         "dLean": 56.2,
         "dWide": null,
-        "dPath": 279.9,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -3974,8 +3974,8 @@
       "roadAccessFeatures": {
         "dLean": 89.1,
         "dWide": null,
-        "dPath": 3827.7,
-        "dParking": 11976.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4014,7 +4014,7 @@
       "roadAccessFeatures": {
         "dLean": 47.9,
         "dWide": null,
-        "dPath": 285.7,
+        "dPath": null,
         "dParking": 14.9
       }
     },
@@ -4034,8 +4034,8 @@
       "roadAccessFeatures": {
         "dLean": 10.9,
         "dWide": null,
-        "dPath": 756.2,
-        "dParking": 5882.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4054,8 +4054,8 @@
       "roadAccessFeatures": {
         "dLean": 44.1,
         "dWide": null,
-        "dPath": 471.4,
-        "dParking": 973.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4075,7 +4075,7 @@
         "dLean": 45.4,
         "dWide": null,
         "dPath": 118.2,
-        "dParking": 1120
+        "dParking": null
       }
     },
     {
@@ -4115,7 +4115,7 @@
         "dLean": 34.5,
         "dWide": null,
         "dPath": 23.3,
-        "dParking": 1876.1
+        "dParking": null
       }
     },
     {
@@ -4135,7 +4135,7 @@
         "dLean": 47.8,
         "dWide": null,
         "dPath": 12.7,
-        "dParking": 2781.8
+        "dParking": null
       }
     },
     {
@@ -4174,8 +4174,8 @@
       "roadAccessFeatures": {
         "dLean": 16.3,
         "dWide": null,
-        "dPath": 572.5,
-        "dParking": 10948.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4195,7 +4195,7 @@
         "dLean": 31.8,
         "dWide": null,
         "dPath": 27.1,
-        "dParking": 2137.3
+        "dParking": null
       }
     },
     {
@@ -4215,7 +4215,7 @@
         "dLean": 28.1,
         "dWide": null,
         "dPath": 121.5,
-        "dParking": 3814.3
+        "dParking": null
       }
     },
     {
@@ -4234,7 +4234,7 @@
       "roadAccessFeatures": {
         "dLean": 130.2,
         "dWide": null,
-        "dPath": 1837.8,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -4254,7 +4254,7 @@
       "roadAccessFeatures": {
         "dLean": 27.3,
         "dWide": null,
-        "dPath": 940.7,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -4275,7 +4275,7 @@
         "dLean": 18,
         "dWide": null,
         "dPath": 13.8,
-        "dParking": 6491.9
+        "dParking": null
       }
     },
     {
@@ -4295,7 +4295,7 @@
         "dLean": 19.4,
         "dWide": null,
         "dPath": 3.3,
-        "dParking": 1437.7
+        "dParking": null
       }
     },
     {
@@ -4315,7 +4315,7 @@
         "dLean": 21.6,
         "dWide": null,
         "dPath": 12.9,
-        "dParking": 1840.9
+        "dParking": null
       }
     },
     {
@@ -4335,7 +4335,7 @@
         "dLean": 42.4,
         "dWide": null,
         "dPath": 9,
-        "dParking": 879.5
+        "dParking": null
       }
     },
     {
@@ -4355,7 +4355,7 @@
         "dLean": 21.8,
         "dWide": null,
         "dPath": 48.3,
-        "dParking": 1924.7
+        "dParking": null
       }
     },
     {
@@ -4374,7 +4374,7 @@
       "roadAccessFeatures": {
         "dLean": 8.1,
         "dWide": null,
-        "dPath": 699.9,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -4395,7 +4395,7 @@
         "dLean": 28.5,
         "dWide": null,
         "dPath": 2.7,
-        "dParking": 6439
+        "dParking": null
       }
     },
     {
@@ -4415,7 +4415,7 @@
         "dLean": 26.8,
         "dWide": null,
         "dPath": 48.2,
-        "dParking": 1365.9
+        "dParking": null
       }
     },
     {
@@ -4434,8 +4434,8 @@
       "roadAccessFeatures": {
         "dLean": 23.8,
         "dWide": null,
-        "dPath": 1875.3,
-        "dParking": 258.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4454,7 +4454,7 @@
       "roadAccessFeatures": {
         "dLean": 23.6,
         "dWide": null,
-        "dPath": 2185.1,
+        "dPath": null,
         "dParking": 17.3
       }
     },
@@ -4474,8 +4474,8 @@
       "roadAccessFeatures": {
         "dLean": 13.5,
         "dWide": null,
-        "dPath": 4186.4,
-        "dParking": 2644.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4494,8 +4494,8 @@
       "roadAccessFeatures": {
         "dLean": 11.2,
         "dWide": null,
-        "dPath": 926.4,
-        "dParking": 31055.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4514,7 +4514,7 @@
       "roadAccessFeatures": {
         "dLean": 37.2,
         "dWide": null,
-        "dPath": 739.3,
+        "dPath": null,
         "dParking": 23.1
       }
     },
@@ -4534,8 +4534,8 @@
       "roadAccessFeatures": {
         "dLean": 34.1,
         "dWide": null,
-        "dPath": 294,
-        "dParking": 15675.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4574,7 +4574,7 @@
       "roadAccessFeatures": {
         "dLean": 72.6,
         "dWide": null,
-        "dPath": 1168.2,
+        "dPath": null,
         "dParking": 13.3
       }
     },
@@ -4635,7 +4635,7 @@
         "dLean": 50.6,
         "dWide": null,
         "dPath": 108.1,
-        "dParking": 1531.1
+        "dParking": null
       }
     },
     {
@@ -4655,27 +4655,7 @@
         "dLean": 40.7,
         "dWide": null,
         "dPath": 9.2,
-        "dParking": 17641
-      }
-    },
-    {
-      "id": "SV-CA-ON-scenic-viewpoint-4057195764",
-      "name": "Scenic viewpoint",
-      "lat": 43.6129528,
-      "lon": -79.3432161,
-      "state": "ON",
-      "url": "https://www.openstreetmap.org/node/4057195764",
-      "osm": {
-        "type": "node",
-        "id": 4057195764
-      },
-      "displayTier": "qa",
-      "roadDistanceM": 23,
-      "roadAccessFeatures": {
-        "dLean": 23,
-        "dWide": null,
-        "dPath": 24.3,
-        "dParking": 3882.4
+        "dParking": null
       }
     },
     {
@@ -4695,7 +4675,7 @@
         "dLean": 13.3,
         "dWide": null,
         "dPath": 94.2,
-        "dParking": 3651.7
+        "dParking": null
       }
     },
     {
@@ -4715,7 +4695,7 @@
         "dLean": 16,
         "dWide": null,
         "dPath": 1.6,
-        "dParking": 4280.4
+        "dParking": null
       }
     },
     {
@@ -4735,7 +4715,7 @@
         "dLean": 44.2,
         "dWide": null,
         "dPath": 10.6,
-        "dParking": 802.5
+        "dParking": null
       }
     },
     {
@@ -4774,7 +4754,7 @@
       "roadAccessFeatures": {
         "dLean": 18.1,
         "dWide": null,
-        "dPath": 631,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -4794,7 +4774,7 @@
       "roadAccessFeatures": {
         "dLean": 10.7,
         "dWide": null,
-        "dPath": 2228.2,
+        "dPath": null,
         "dParking": 10.7
       }
     },
@@ -4835,7 +4815,7 @@
         "dLean": 19.7,
         "dWide": null,
         "dPath": 239.5,
-        "dParking": 1789.1
+        "dParking": null
       }
     },
     {
@@ -4855,7 +4835,7 @@
         "dLean": 13.9,
         "dWide": null,
         "dPath": 27.6,
-        "dParking": 12004.3
+        "dParking": null
       }
     },
     {
@@ -4874,8 +4854,8 @@
       "roadAccessFeatures": {
         "dLean": 8.9,
         "dWide": null,
-        "dPath": 794.6,
-        "dParking": 8851.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4894,7 +4874,7 @@
       "roadAccessFeatures": {
         "dLean": 61.5,
         "dWide": null,
-        "dPath": 1157.9,
+        "dPath": null,
         "dParking": 12.8
       }
     },
@@ -4915,7 +4895,7 @@
         "dLean": 32.3,
         "dWide": null,
         "dPath": 1,
-        "dParking": 2057.4
+        "dParking": null
       }
     },
     {
@@ -4934,8 +4914,8 @@
       "roadAccessFeatures": {
         "dLean": 12.3,
         "dWide": null,
-        "dPath": 1024.8,
-        "dParking": 6652.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4955,7 +4935,7 @@
         "dLean": 18.1,
         "dWide": null,
         "dPath": 239.4,
-        "dParking": 3270.3
+        "dParking": null
       }
     },
     {
@@ -4974,8 +4954,8 @@
       "roadAccessFeatures": {
         "dLean": 32.5,
         "dWide": null,
-        "dPath": 605.2,
-        "dParking": 769.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -4995,7 +4975,7 @@
         "dLean": 42.8,
         "dWide": null,
         "dPath": 1.8,
-        "dParking": 3257.3
+        "dParking": null
       }
     },
     {
@@ -5034,8 +5014,8 @@
       "roadAccessFeatures": {
         "dLean": 76.9,
         "dWide": null,
-        "dPath": 625.4,
-        "dParking": 7365.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5055,7 +5035,7 @@
         "dLean": 28.1,
         "dWide": null,
         "dPath": 49,
-        "dParking": 3629.9
+        "dParking": null
       }
     },
     {
@@ -5075,7 +5055,7 @@
         "dLean": 31.1,
         "dWide": null,
         "dPath": 55.1,
-        "dParking": 924.2
+        "dParking": null
       }
     },
     {
@@ -5094,8 +5074,8 @@
       "roadAccessFeatures": {
         "dLean": 29.4,
         "dWide": null,
-        "dPath": 921.7,
-        "dParking": 2706.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5114,7 +5094,7 @@
       "roadAccessFeatures": {
         "dLean": 61,
         "dWide": null,
-        "dPath": 2257.6,
+        "dPath": null,
         "dParking": 12.1
       }
     },
@@ -5135,7 +5115,7 @@
         "dLean": 37.9,
         "dWide": null,
         "dPath": 39.3,
-        "dParking": 999
+        "dParking": null
       }
     },
     {
@@ -5154,8 +5134,8 @@
       "roadAccessFeatures": {
         "dLean": 30.2,
         "dWide": null,
-        "dPath": 561.3,
-        "dParking": 10504.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5174,8 +5154,8 @@
       "roadAccessFeatures": {
         "dLean": 53.2,
         "dWide": null,
-        "dPath": 257.7,
-        "dParking": 17424.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5195,7 +5175,7 @@
         "dLean": 39.9,
         "dWide": null,
         "dPath": 32.3,
-        "dParking": 1673.3
+        "dParking": null
       }
     },
     {
@@ -5214,8 +5194,8 @@
       "roadAccessFeatures": {
         "dLean": 11.4,
         "dWide": null,
-        "dPath": 428.5,
-        "dParking": 5466.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5234,8 +5214,8 @@
       "roadAccessFeatures": {
         "dLean": 5.7,
         "dWide": null,
-        "dPath": 955.5,
-        "dParking": 2645.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5254,7 +5234,7 @@
       "roadAccessFeatures": {
         "dLean": 85.1,
         "dWide": null,
-        "dPath": 815.3,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -5275,7 +5255,7 @@
         "dLean": 11.5,
         "dWide": null,
         "dPath": 111.5,
-        "dParking": 2139
+        "dParking": null
       }
     },
     {
@@ -5295,7 +5275,7 @@
         "dLean": 49.8,
         "dWide": null,
         "dPath": 161.2,
-        "dParking": 9412.7
+        "dParking": null
       }
     },
     {
@@ -5314,7 +5294,7 @@
       "roadAccessFeatures": {
         "dLean": 4.7,
         "dWide": null,
-        "dPath": 2076,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -5335,7 +5315,7 @@
         "dLean": 50.9,
         "dWide": null,
         "dPath": 117.8,
-        "dParking": 6227.1
+        "dParking": null
       }
     },
     {
@@ -5355,7 +5335,7 @@
         "dLean": 9.1,
         "dWide": null,
         "dPath": 9.1,
-        "dParking": 5737.6
+        "dParking": null
       }
     },
     {
@@ -5375,7 +5355,7 @@
         "dLean": 45.1,
         "dWide": null,
         "dPath": 10.7,
-        "dParking": 473.5
+        "dParking": null
       }
     },
     {
@@ -5395,7 +5375,7 @@
         "dLean": 30,
         "dWide": null,
         "dPath": 15.8,
-        "dParking": 1530.7
+        "dParking": null
       }
     },
     {
@@ -5415,7 +5395,7 @@
         "dLean": 25.3,
         "dWide": null,
         "dPath": 67.1,
-        "dParking": 842.5
+        "dParking": null
       }
     },
     {
@@ -5434,8 +5414,8 @@
       "roadAccessFeatures": {
         "dLean": 28.7,
         "dWide": null,
-        "dPath": 388.3,
-        "dParking": 1901.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5455,7 +5435,7 @@
         "dLean": 9.6,
         "dWide": null,
         "dPath": 17.6,
-        "dParking": 1033.5
+        "dParking": null
       }
     },
     {
@@ -5475,7 +5455,7 @@
         "dLean": 43.2,
         "dWide": null,
         "dPath": 173.3,
-        "dParking": 5255
+        "dParking": null
       }
     },
     {
@@ -5495,7 +5475,7 @@
         "dLean": 49.4,
         "dWide": null,
         "dPath": 4.5,
-        "dParking": 421.4
+        "dParking": null
       }
     },
     {
@@ -5514,7 +5494,7 @@
       "roadAccessFeatures": {
         "dLean": 97.6,
         "dWide": null,
-        "dPath": 1445.1,
+        "dPath": null,
         "dParking": 151.8
       }
     },
@@ -5534,7 +5514,7 @@
       "roadAccessFeatures": {
         "dLean": 109,
         "dWide": null,
-        "dPath": 760.7,
+        "dPath": null,
         "dParking": 28.8
       }
     },
@@ -5554,7 +5534,7 @@
       "roadAccessFeatures": {
         "dLean": 18.5,
         "dWide": null,
-        "dPath": 364.5,
+        "dPath": null,
         "dParking": 9.1
       }
     },
@@ -5595,7 +5575,7 @@
         "dLean": 4.8,
         "dWide": null,
         "dPath": 0.2,
-        "dParking": 333.8
+        "dParking": null
       }
     },
     {
@@ -5615,7 +5595,7 @@
         "dLean": 4.1,
         "dWide": null,
         "dPath": 1.5,
-        "dParking": 406.7
+        "dParking": null
       }
     },
     {
@@ -5635,7 +5615,7 @@
         "dLean": 15,
         "dWide": null,
         "dPath": 2,
-        "dParking": 855.9
+        "dParking": null
       }
     },
     {
@@ -5655,7 +5635,7 @@
         "dLean": 100.1,
         "dWide": null,
         "dPath": 85.2,
-        "dParking": 7150.3
+        "dParking": null
       }
     },
     {
@@ -5674,8 +5654,8 @@
       "roadAccessFeatures": {
         "dLean": 21.7,
         "dWide": null,
-        "dPath": 1079.7,
-        "dParking": 1480.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5694,8 +5674,8 @@
       "roadAccessFeatures": {
         "dLean": 19.6,
         "dWide": null,
-        "dPath": 694.2,
-        "dParking": 2862.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5714,8 +5694,8 @@
       "roadAccessFeatures": {
         "dLean": 16.4,
         "dWide": null,
-        "dPath": 257.1,
-        "dParking": 7310.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5735,7 +5715,7 @@
         "dLean": 34.6,
         "dWide": null,
         "dPath": 35.9,
-        "dParking": 3936.8
+        "dParking": null
       }
     },
     {
@@ -5755,7 +5735,7 @@
         "dLean": 33.2,
         "dWide": null,
         "dPath": 2.1,
-        "dParking": 3269.1
+        "dParking": null
       }
     },
     {
@@ -5774,8 +5754,8 @@
       "roadAccessFeatures": {
         "dLean": 36.4,
         "dWide": null,
-        "dPath": 1808.7,
-        "dParking": 5157.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5815,7 +5795,7 @@
         "dLean": 13.8,
         "dWide": null,
         "dPath": 19.3,
-        "dParking": 15335.1
+        "dParking": null
       }
     },
     {
@@ -5834,8 +5814,8 @@
       "roadAccessFeatures": {
         "dLean": 0.3,
         "dWide": null,
-        "dPath": 665.1,
-        "dParking": 52480
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5855,7 +5835,7 @@
         "dLean": 37.6,
         "dWide": null,
         "dPath": 3,
-        "dParking": 1252.8
+        "dParking": null
       }
     },
     {
@@ -5875,7 +5855,7 @@
         "dLean": 12.7,
         "dWide": null,
         "dPath": 1.9,
-        "dParking": 948.1
+        "dParking": null
       }
     },
     {
@@ -5895,7 +5875,7 @@
         "dLean": 13.4,
         "dWide": null,
         "dPath": 56.7,
-        "dParking": 8600.5
+        "dParking": null
       }
     },
     {
@@ -5935,7 +5915,7 @@
         "dLean": 21.1,
         "dWide": null,
         "dPath": 102.1,
-        "dParking": 1278
+        "dParking": null
       }
     },
     {
@@ -5954,8 +5934,8 @@
       "roadAccessFeatures": {
         "dLean": 14.6,
         "dWide": null,
-        "dPath": 345.1,
-        "dParking": 5631.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5974,8 +5954,8 @@
       "roadAccessFeatures": {
         "dLean": 101.3,
         "dWide": null,
-        "dPath": 308.9,
-        "dParking": 4046.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -5995,7 +5975,7 @@
         "dLean": 49.8,
         "dWide": null,
         "dPath": 5.6,
-        "dParking": 18347.3
+        "dParking": null
       }
     },
     {
@@ -6015,7 +5995,7 @@
         "dLean": 6.9,
         "dWide": null,
         "dPath": 14.7,
-        "dParking": 1189
+        "dParking": null
       }
     },
     {
@@ -6035,7 +6015,7 @@
         "dLean": 25,
         "dWide": null,
         "dPath": 4.8,
-        "dParking": 4020.8
+        "dParking": null
       }
     },
     {
@@ -6054,7 +6034,7 @@
       "roadAccessFeatures": {
         "dLean": 44.5,
         "dWide": null,
-        "dPath": 361.1,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -6075,7 +6055,7 @@
         "dLean": 26,
         "dWide": null,
         "dPath": 6.1,
-        "dParking": 2123.6
+        "dParking": null
       }
     },
     {
@@ -6094,8 +6074,8 @@
       "roadAccessFeatures": {
         "dLean": 124,
         "dWide": null,
-        "dPath": 6542.8,
-        "dParking": 15283.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6375,7 +6355,7 @@
         "dLean": 30.5,
         "dWide": null,
         "dPath": 2.5,
-        "dParking": 2761.4
+        "dParking": null
       }
     },
     {
@@ -6395,7 +6375,7 @@
         "dLean": 21,
         "dWide": null,
         "dPath": 4.3,
-        "dParking": 942.5
+        "dParking": null
       }
     },
     {
@@ -6414,7 +6394,7 @@
       "roadAccessFeatures": {
         "dLean": 54.3,
         "dWide": null,
-        "dPath": 680,
+        "dPath": null,
         "dParking": 16.2
       }
     },
@@ -6434,8 +6414,8 @@
       "roadAccessFeatures": {
         "dLean": 9.9,
         "dWide": null,
-        "dPath": 386.3,
-        "dParking": 2328.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6454,8 +6434,8 @@
       "roadAccessFeatures": {
         "dLean": 11.4,
         "dWide": null,
-        "dPath": 630.9,
-        "dParking": 1768.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6474,8 +6454,8 @@
       "roadAccessFeatures": {
         "dLean": 11.1,
         "dWide": null,
-        "dPath": 307.1,
-        "dParking": 2181.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6495,7 +6475,7 @@
         "dLean": 65.6,
         "dWide": null,
         "dPath": 52.7,
-        "dParking": 3607.4
+        "dParking": null
       }
     },
     {
@@ -6514,8 +6494,8 @@
       "roadAccessFeatures": {
         "dLean": 6.6,
         "dWide": null,
-        "dPath": 1239.1,
-        "dParking": 23353.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6534,8 +6514,8 @@
       "roadAccessFeatures": {
         "dLean": 12,
         "dWide": null,
-        "dPath": 251.7,
-        "dParking": 6836.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6575,7 +6555,7 @@
         "dLean": 42.5,
         "dWide": null,
         "dPath": 130.4,
-        "dParking": 8561.4
+        "dParking": null
       }
     },
     {
@@ -6595,7 +6575,7 @@
         "dLean": 37.2,
         "dWide": null,
         "dPath": 6,
-        "dParking": 2415.8
+        "dParking": null
       }
     },
     {
@@ -6614,8 +6594,8 @@
       "roadAccessFeatures": {
         "dLean": 15,
         "dWide": null,
-        "dPath": 1225,
-        "dParking": 32606
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6634,7 +6614,7 @@
       "roadAccessFeatures": {
         "dLean": 23.3,
         "dWide": null,
-        "dPath": 2186.5,
+        "dPath": null,
         "dParking": 14.4
       }
     },
@@ -6655,7 +6635,7 @@
         "dLean": 9.9,
         "dWide": null,
         "dPath": 2.8,
-        "dParking": 1409.9
+        "dParking": null
       }
     },
     {
@@ -6675,7 +6655,7 @@
         "dLean": 16,
         "dWide": null,
         "dPath": 97.5,
-        "dParking": 805.3
+        "dParking": null
       }
     },
     {
@@ -6695,7 +6675,7 @@
         "dLean": 20.8,
         "dWide": null,
         "dPath": 0.9,
-        "dParking": 4569.5
+        "dParking": null
       }
     },
     {
@@ -6735,7 +6715,7 @@
         "dLean": 9.3,
         "dWide": null,
         "dPath": 29.4,
-        "dParking": 815.3
+        "dParking": null
       }
     },
     {
@@ -6755,7 +6735,7 @@
         "dLean": 8.5,
         "dWide": null,
         "dPath": 187.7,
-        "dParking": 18231
+        "dParking": null
       }
     },
     {
@@ -6775,7 +6755,7 @@
         "dLean": 10.4,
         "dWide": null,
         "dPath": 74.3,
-        "dParking": 536.3
+        "dParking": null
       }
     },
     {
@@ -6794,7 +6774,7 @@
       "roadAccessFeatures": {
         "dLean": 49.8,
         "dWide": null,
-        "dPath": 882.5,
+        "dPath": null,
         "dParking": 12.7
       }
     },
@@ -6814,8 +6794,8 @@
       "roadAccessFeatures": {
         "dLean": 14.8,
         "dWide": null,
-        "dPath": 423.7,
-        "dParking": 409.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6834,8 +6814,8 @@
       "roadAccessFeatures": {
         "dLean": 16.7,
         "dWide": null,
-        "dPath": 896.5,
-        "dParking": 24598.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6854,8 +6834,8 @@
       "roadAccessFeatures": {
         "dLean": 66.8,
         "dWide": null,
-        "dPath": 2512.5,
-        "dParking": 26888.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -6895,7 +6875,7 @@
         "dLean": 6.1,
         "dWide": null,
         "dPath": 190.1,
-        "dParking": 5672.4
+        "dParking": null
       }
     },
     {
@@ -6915,7 +6895,7 @@
         "dLean": 13.9,
         "dWide": null,
         "dPath": 99.9,
-        "dParking": 1040.4
+        "dParking": null
       }
     },
     {
@@ -6935,7 +6915,7 @@
         "dLean": 14.5,
         "dWide": null,
         "dPath": 105.6,
-        "dParking": 2478.3
+        "dParking": null
       }
     },
     {
@@ -6955,7 +6935,7 @@
         "dLean": 37.1,
         "dWide": null,
         "dPath": 10.1,
-        "dParking": 594.2
+        "dParking": null
       }
     },
     {
@@ -6975,7 +6955,7 @@
         "dLean": 24.6,
         "dWide": null,
         "dPath": 0.5,
-        "dParking": 611.7
+        "dParking": null
       }
     },
     {
@@ -7015,7 +6995,7 @@
         "dLean": 0.8,
         "dWide": null,
         "dPath": 21,
-        "dParking": 3775.4
+        "dParking": null
       }
     },
     {
@@ -7055,7 +7035,7 @@
         "dLean": 12,
         "dWide": null,
         "dPath": 132.8,
-        "dParking": 5383.6
+        "dParking": null
       }
     },
     {
@@ -7074,7 +7054,7 @@
       "roadAccessFeatures": {
         "dLean": 11,
         "dWide": null,
-        "dPath": 2673.1,
+        "dPath": null,
         "dParking": 8.4
       }
     },
@@ -7115,7 +7095,7 @@
         "dLean": 30.2,
         "dWide": null,
         "dPath": 22.2,
-        "dParking": 1637.2
+        "dParking": null
       }
     },
     {
@@ -7134,7 +7114,7 @@
       "roadAccessFeatures": {
         "dLean": 18.6,
         "dWide": null,
-        "dPath": 9271.2,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -7155,7 +7135,7 @@
         "dLean": 43.1,
         "dWide": null,
         "dPath": 127.9,
-        "dParking": 5214.2
+        "dParking": null
       }
     },
     {
@@ -7174,7 +7154,7 @@
       "roadAccessFeatures": {
         "dLean": 15.6,
         "dWide": null,
-        "dPath": 285.4,
+        "dPath": null,
         "dParking": 15.7
       }
     },
@@ -7194,7 +7174,7 @@
       "roadAccessFeatures": {
         "dLean": 16.4,
         "dWide": null,
-        "dPath": 1096.4,
+        "dPath": null,
         "dParking": 10.5
       }
     },
@@ -7214,7 +7194,7 @@
       "roadAccessFeatures": {
         "dLean": 33.4,
         "dWide": null,
-        "dPath": 397.4,
+        "dPath": null,
         "dParking": 35.3
       }
     },
@@ -7234,8 +7214,8 @@
       "roadAccessFeatures": {
         "dLean": 71.8,
         "dWide": null,
-        "dPath": 472.5,
-        "dParking": 18844.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7255,7 +7235,7 @@
         "dLean": 12.1,
         "dWide": null,
         "dPath": 3.2,
-        "dParking": 463.6
+        "dParking": null
       }
     },
     {
@@ -7275,7 +7255,7 @@
         "dLean": 56.5,
         "dWide": null,
         "dPath": 195.1,
-        "dParking": 6977.9
+        "dParking": null
       }
     },
     {
@@ -7295,7 +7275,7 @@
         "dLean": 22.3,
         "dWide": null,
         "dPath": 133.2,
-        "dParking": 20180.5
+        "dParking": null
       }
     },
     {
@@ -7314,8 +7294,8 @@
       "roadAccessFeatures": {
         "dLean": 30.4,
         "dWide": null,
-        "dPath": 766.9,
-        "dParking": 4100.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7334,8 +7314,8 @@
       "roadAccessFeatures": {
         "dLean": 18.6,
         "dWide": null,
-        "dPath": 1896.1,
-        "dParking": 2927.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7354,8 +7334,8 @@
       "roadAccessFeatures": {
         "dLean": 47.3,
         "dWide": null,
-        "dPath": 491.8,
-        "dParking": 35000.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7374,7 +7354,7 @@
       "roadAccessFeatures": {
         "dLean": 25.4,
         "dWide": null,
-        "dPath": 460,
+        "dPath": null,
         "dParking": 9.3
       }
     },
@@ -7394,8 +7374,8 @@
       "roadAccessFeatures": {
         "dLean": 22.4,
         "dWide": null,
-        "dPath": 281.9,
-        "dParking": 3411.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7435,7 +7415,7 @@
         "dLean": 29.9,
         "dWide": null,
         "dPath": 5,
-        "dParking": 7307.3
+        "dParking": null
       }
     },
     {
@@ -7455,7 +7435,7 @@
         "dLean": 19.2,
         "dWide": null,
         "dPath": 26.7,
-        "dParking": 255.8
+        "dParking": null
       }
     },
     {
@@ -7474,7 +7454,7 @@
       "roadAccessFeatures": {
         "dLean": 23.8,
         "dWide": null,
-        "dPath": 8175,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -7494,8 +7474,8 @@
       "roadAccessFeatures": {
         "dLean": 2.5,
         "dWide": null,
-        "dPath": 686.3,
-        "dParking": 27291
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7515,7 +7495,7 @@
         "dLean": 16.4,
         "dWide": null,
         "dPath": 6.2,
-        "dParking": 537
+        "dParking": null
       }
     },
     {
@@ -7534,8 +7514,8 @@
       "roadAccessFeatures": {
         "dLean": 12.9,
         "dWide": null,
-        "dPath": 649,
-        "dParking": 36057
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7555,7 +7535,7 @@
         "dLean": 13.5,
         "dWide": null,
         "dPath": 22.3,
-        "dParking": 36203.8
+        "dParking": null
       }
     },
     {
@@ -7595,7 +7575,7 @@
         "dLean": 32.5,
         "dWide": null,
         "dPath": 3.2,
-        "dParking": 784.4
+        "dParking": null
       }
     },
     {
@@ -7614,7 +7594,7 @@
       "roadAccessFeatures": {
         "dLean": 124,
         "dWide": null,
-        "dPath": 586.1,
+        "dPath": null,
         "dParking": 165.7
       }
     },
@@ -7635,7 +7615,7 @@
         "dLean": 17.4,
         "dWide": null,
         "dPath": 0.1,
-        "dParking": 1471.1
+        "dParking": null
       }
     },
     {
@@ -7655,7 +7635,7 @@
         "dLean": 134.8,
         "dWide": null,
         "dPath": 128.7,
-        "dParking": 31075.9
+        "dParking": null
       }
     },
     {
@@ -7694,7 +7674,7 @@
       "roadAccessFeatures": {
         "dLean": 11.3,
         "dWide": null,
-        "dPath": 2105.5,
+        "dPath": null,
         "dParking": 12.1
       }
     },
@@ -7715,7 +7695,7 @@
         "dLean": 85.7,
         "dWide": null,
         "dPath": 80.5,
-        "dParking": 1768.1
+        "dParking": null
       }
     },
     {
@@ -7775,7 +7755,7 @@
         "dLean": 15.6,
         "dWide": null,
         "dPath": 3.9,
-        "dParking": 1197.8
+        "dParking": null
       }
     },
     {
@@ -7795,7 +7775,7 @@
         "dLean": 15.9,
         "dWide": null,
         "dPath": 4.4,
-        "dParking": 988.6
+        "dParking": null
       }
     },
     {
@@ -7814,8 +7794,8 @@
       "roadAccessFeatures": {
         "dLean": 7.9,
         "dWide": null,
-        "dPath": 267.3,
-        "dParking": 20059.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7834,7 +7814,7 @@
       "roadAccessFeatures": {
         "dLean": 83.7,
         "dWide": null,
-        "dPath": 1497.3,
+        "dPath": 234.3,
         "dParking": 142.9
       }
     },
@@ -7854,8 +7834,8 @@
       "roadAccessFeatures": {
         "dLean": 8,
         "dWide": null,
-        "dPath": 1101.6,
-        "dParking": 23713.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7875,7 +7855,7 @@
         "dLean": 99.1,
         "dWide": null,
         "dPath": 71.5,
-        "dParking": 1497.2
+        "dParking": null
       }
     },
     {
@@ -7895,7 +7875,7 @@
         "dLean": 13.2,
         "dWide": null,
         "dPath": 5.4,
-        "dParking": 275.9
+        "dParking": null
       }
     },
     {
@@ -7954,8 +7934,8 @@
       "roadAccessFeatures": {
         "dLean": 88.7,
         "dWide": null,
-        "dPath": 3081.6,
-        "dParking": 34914.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -7975,7 +7955,7 @@
         "dLean": 41,
         "dWide": null,
         "dPath": 14,
-        "dParking": 3366
+        "dParking": null
       }
     },
     {
@@ -7994,8 +7974,8 @@
       "roadAccessFeatures": {
         "dLean": 111.7,
         "dWide": null,
-        "dPath": 732.2,
-        "dParking": 1928.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8015,7 +7995,7 @@
         "dLean": 31.8,
         "dWide": null,
         "dPath": 43.7,
-        "dParking": 1611.9
+        "dParking": null
       }
     },
     {
@@ -8035,7 +8015,7 @@
         "dLean": 46.8,
         "dWide": null,
         "dPath": 4,
-        "dParking": 1878.7
+        "dParking": null
       }
     },
     {
@@ -8095,7 +8075,7 @@
         "dLean": 11.6,
         "dWide": null,
         "dPath": 16.7,
-        "dParking": 3620.7
+        "dParking": null
       }
     },
     {
@@ -8114,8 +8094,8 @@
       "roadAccessFeatures": {
         "dLean": 40.4,
         "dWide": null,
-        "dPath": 9.5,
-        "dParking": 1999.4
+        "dPath": 50.1,
+        "dParking": null
       }
     },
     {
@@ -8134,8 +8114,8 @@
       "roadAccessFeatures": {
         "dLean": 0,
         "dWide": null,
-        "dPath": 393.3,
-        "dParking": 18210.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8154,8 +8134,8 @@
       "roadAccessFeatures": {
         "dLean": 25.7,
         "dWide": null,
-        "dPath": 409.5,
-        "dParking": 16458.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8175,7 +8155,7 @@
         "dLean": 122.3,
         "dWide": null,
         "dPath": 124.1,
-        "dParking": 21237.3
+        "dParking": null
       }
     },
     {
@@ -8195,7 +8175,7 @@
         "dLean": 32,
         "dWide": null,
         "dPath": 92.3,
-        "dParking": 18790.4
+        "dParking": null
       }
     },
     {
@@ -8215,7 +8195,7 @@
         "dLean": 57,
         "dWide": null,
         "dPath": 76.4,
-        "dParking": 30445.3
+        "dParking": null
       }
     },
     {
@@ -8235,7 +8215,7 @@
         "dLean": 46.2,
         "dWide": null,
         "dPath": 10.1,
-        "dParking": 4855.3
+        "dParking": null
       }
     },
     {
@@ -8255,7 +8235,7 @@
         "dLean": 22.1,
         "dWide": null,
         "dPath": 5.4,
-        "dParking": 7712.7
+        "dParking": null
       }
     },
     {
@@ -8275,7 +8255,7 @@
         "dLean": 103.2,
         "dWide": null,
         "dPath": 104.8,
-        "dParking": 2009.7
+        "dParking": null
       }
     },
     {
@@ -8295,7 +8275,7 @@
         "dLean": 119.5,
         "dWide": null,
         "dPath": 92.3,
-        "dParking": 19800.6
+        "dParking": null
       }
     },
     {
@@ -8314,7 +8294,7 @@
       "roadAccessFeatures": {
         "dLean": 50.2,
         "dWide": null,
-        "dPath": 1108.7,
+        "dPath": null,
         "dParking": 97.6
       }
     },
@@ -8334,8 +8314,8 @@
       "roadAccessFeatures": {
         "dLean": 61.6,
         "dWide": null,
-        "dPath": 347.4,
-        "dParking": 263.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8354,7 +8334,7 @@
       "roadAccessFeatures": {
         "dLean": 59.7,
         "dWide": null,
-        "dPath": 1072.6,
+        "dPath": null,
         "dParking": 49.5
       }
     },
@@ -8375,7 +8355,7 @@
         "dLean": 0.1,
         "dWide": null,
         "dPath": 39.6,
-        "dParking": 629.4
+        "dParking": null
       }
     },
     {
@@ -8395,7 +8375,7 @@
         "dLean": 13.4,
         "dWide": null,
         "dPath": 97.1,
-        "dParking": 2298.5
+        "dParking": null
       }
     },
     {
@@ -8414,8 +8394,8 @@
       "roadAccessFeatures": {
         "dLean": 18.7,
         "dWide": null,
-        "dPath": 513,
-        "dParking": 989.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8475,7 +8455,7 @@
         "dLean": 24.2,
         "dWide": null,
         "dPath": 1.7,
-        "dParking": 2173.3
+        "dParking": null
       }
     },
     {
@@ -8495,7 +8475,7 @@
         "dLean": 18.1,
         "dWide": null,
         "dPath": 246.5,
-        "dParking": 4114
+        "dParking": null
       }
     },
     {
@@ -8514,8 +8494,8 @@
       "roadAccessFeatures": {
         "dLean": 95.3,
         "dWide": null,
-        "dPath": 735.7,
-        "dParking": 488.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8595,7 +8575,7 @@
         "dLean": 33.6,
         "dWide": null,
         "dPath": 2.6,
-        "dParking": 301
+        "dParking": null
       }
     },
     {
@@ -8614,8 +8594,8 @@
       "roadAccessFeatures": {
         "dLean": 50.4,
         "dWide": null,
-        "dPath": 535.9,
-        "dParking": 1846.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8634,8 +8614,8 @@
       "roadAccessFeatures": {
         "dLean": 18.8,
         "dWide": null,
-        "dPath": 5167.5,
-        "dParking": 12284.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8654,8 +8634,8 @@
       "roadAccessFeatures": {
         "dLean": 69.2,
         "dWide": null,
-        "dPath": 3218.5,
-        "dParking": 3168.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8674,7 +8654,7 @@
       "roadAccessFeatures": {
         "dLean": 27.3,
         "dWide": null,
-        "dPath": 3927.1,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -8714,7 +8694,7 @@
       "roadAccessFeatures": {
         "dLean": 25.8,
         "dWide": null,
-        "dPath": 5271.3,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -8734,7 +8714,7 @@
       "roadAccessFeatures": {
         "dLean": 46.7,
         "dWide": null,
-        "dPath": 903,
+        "dPath": null,
         "dParking": 13.1
       }
     },
@@ -8754,7 +8734,7 @@
       "roadAccessFeatures": {
         "dLean": 29.5,
         "dWide": null,
-        "dPath": 7283.8,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -8775,7 +8755,7 @@
         "dLean": 26.8,
         "dWide": null,
         "dPath": 126.7,
-        "dParking": 3473.4
+        "dParking": null
       }
     },
     {
@@ -8794,8 +8774,8 @@
       "roadAccessFeatures": {
         "dLean": 22.1,
         "dWide": null,
-        "dPath": 317.5,
-        "dParking": 6739.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8814,8 +8794,8 @@
       "roadAccessFeatures": {
         "dLean": 52.6,
         "dWide": null,
-        "dPath": 377,
-        "dParking": 1047.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8835,7 +8815,7 @@
         "dLean": 39.9,
         "dWide": null,
         "dPath": 33.6,
-        "dParking": 5800.9
+        "dParking": null
       }
     },
     {
@@ -8854,7 +8834,7 @@
       "roadAccessFeatures": {
         "dLean": 45.3,
         "dWide": null,
-        "dPath": 1095.4,
+        "dPath": null,
         "dParking": 70.5
       }
     },
@@ -8874,8 +8854,8 @@
       "roadAccessFeatures": {
         "dLean": 11.7,
         "dWide": null,
-        "dPath": 2180.2,
-        "dParking": 11316.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8895,7 +8875,7 @@
         "dLean": 22.2,
         "dWide": null,
         "dPath": 1.5,
-        "dParking": 14132.7
+        "dParking": null
       }
     },
     {
@@ -8915,7 +8895,7 @@
         "dLean": 22.9,
         "dWide": null,
         "dPath": 28.9,
-        "dParking": 15587.8
+        "dParking": null
       }
     },
     {
@@ -8955,7 +8935,7 @@
         "dLean": 0.6,
         "dWide": null,
         "dPath": 0.1,
-        "dParking": 1869.5
+        "dParking": null
       }
     },
     {
@@ -8974,8 +8954,8 @@
       "roadAccessFeatures": {
         "dLean": 20.2,
         "dWide": null,
-        "dPath": 299.6,
-        "dParking": 4229.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -8994,8 +8974,8 @@
       "roadAccessFeatures": {
         "dLean": 11.9,
         "dWide": null,
-        "dPath": 330,
-        "dParking": 35419.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9015,7 +8995,7 @@
         "dLean": 11.2,
         "dWide": null,
         "dPath": 78.4,
-        "dParking": 35320.4
+        "dParking": null
       }
     },
     {
@@ -9035,7 +9015,7 @@
         "dLean": 47.8,
         "dWide": null,
         "dPath": 18.2,
-        "dParking": 35267
+        "dParking": null
       }
     },
     {
@@ -9054,8 +9034,8 @@
       "roadAccessFeatures": {
         "dLean": 10.7,
         "dWide": null,
-        "dPath": 1424.4,
-        "dParking": 3979.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9075,7 +9055,7 @@
         "dLean": 45.2,
         "dWide": null,
         "dPath": 29.2,
-        "dParking": 8324
+        "dParking": null
       }
     },
     {
@@ -9095,7 +9075,7 @@
         "dLean": 13.1,
         "dWide": null,
         "dPath": 59.2,
-        "dParking": 19573.2
+        "dParking": null
       }
     },
     {
@@ -9155,7 +9135,7 @@
         "dLean": 30.9,
         "dWide": null,
         "dPath": 0.8,
-        "dParking": 29111.3
+        "dParking": null
       }
     },
     {
@@ -9175,7 +9155,7 @@
         "dLean": 15.6,
         "dWide": null,
         "dPath": 2.4,
-        "dParking": 268.5
+        "dParking": null
       }
     },
     {
@@ -9195,7 +9175,7 @@
         "dLean": 11.3,
         "dWide": null,
         "dPath": 1.4,
-        "dParking": 359.5
+        "dParking": null
       }
     },
     {
@@ -9214,8 +9194,8 @@
       "roadAccessFeatures": {
         "dLean": 41,
         "dWide": null,
-        "dPath": 804.8,
-        "dParking": 7057.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9235,7 +9215,7 @@
         "dLean": 25.9,
         "dWide": null,
         "dPath": 0.8,
-        "dParking": 1407.2
+        "dParking": null
       }
     },
     {
@@ -9255,7 +9235,7 @@
         "dLean": 10.3,
         "dWide": null,
         "dPath": 29.8,
-        "dParking": 1702.7
+        "dParking": null
       }
     },
     {
@@ -9275,7 +9255,7 @@
         "dLean": 37.7,
         "dWide": null,
         "dPath": 184.7,
-        "dParking": 4255.4
+        "dParking": 20.9
       }
     },
     {
@@ -9294,8 +9274,8 @@
       "roadAccessFeatures": {
         "dLean": 23.1,
         "dWide": null,
-        "dPath": 346.9,
-        "dParking": 15178.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9315,7 +9295,7 @@
         "dLean": 21.2,
         "dWide": null,
         "dPath": 4.3,
-        "dParking": 3514
+        "dParking": null
       }
     },
     {
@@ -9335,7 +9315,7 @@
         "dLean": 30.3,
         "dWide": null,
         "dPath": 2,
-        "dParking": 4103.1
+        "dParking": null
       }
     },
     {
@@ -9355,7 +9335,7 @@
         "dLean": 18.3,
         "dWide": null,
         "dPath": 2.6,
-        "dParking": 4076.6
+        "dParking": null
       }
     },
     {
@@ -9374,7 +9354,7 @@
       "roadAccessFeatures": {
         "dLean": 39,
         "dWide": null,
-        "dPath": 5407.2,
+        "dPath": null,
         "dParking": 9
       }
     },
@@ -9415,7 +9395,7 @@
         "dLean": 14.5,
         "dWide": null,
         "dPath": 34.2,
-        "dParking": 466.2
+        "dParking": null
       }
     },
     {
@@ -9434,7 +9414,7 @@
       "roadAccessFeatures": {
         "dLean": 8.1,
         "dWide": null,
-        "dPath": 2717.7,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -9455,7 +9435,7 @@
         "dLean": 20.5,
         "dWide": null,
         "dPath": 0.1,
-        "dParking": 2385.7
+        "dParking": null
       }
     },
     {
@@ -9475,7 +9455,7 @@
         "dLean": 98.4,
         "dWide": null,
         "dPath": 137.8,
-        "dParking": 2733.1
+        "dParking": null
       }
     },
     {
@@ -9495,7 +9475,7 @@
         "dLean": 95.1,
         "dWide": null,
         "dPath": 133.1,
-        "dParking": 2737.5
+        "dParking": null
       }
     },
     {
@@ -9515,7 +9495,7 @@
         "dLean": 93.9,
         "dWide": null,
         "dPath": 123.8,
-        "dParking": 2740.7
+        "dParking": null
       }
     },
     {
@@ -9535,7 +9515,7 @@
         "dLean": 102.5,
         "dWide": null,
         "dPath": 69.5,
-        "dParking": 2738.5
+        "dParking": null
       }
     },
     {
@@ -9555,7 +9535,7 @@
         "dLean": 74,
         "dWide": null,
         "dPath": 94.8,
-        "dParking": 2766.9
+        "dParking": null
       }
     },
     {
@@ -9574,7 +9554,7 @@
       "roadAccessFeatures": {
         "dLean": 16.5,
         "dWide": null,
-        "dPath": 951.8,
+        "dPath": null,
         "dParking": 24.9
       }
     },
@@ -9595,7 +9575,7 @@
         "dLean": 19,
         "dWide": null,
         "dPath": 1.1,
-        "dParking": 3789.6
+        "dParking": null
       }
     },
     {
@@ -9614,7 +9594,7 @@
       "roadAccessFeatures": {
         "dLean": 122.5,
         "dWide": null,
-        "dPath": 290,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -9635,7 +9615,7 @@
         "dLean": 14.4,
         "dWide": null,
         "dPath": 4.5,
-        "dParking": 740.9
+        "dParking": null
       }
     },
     {
@@ -9654,8 +9634,8 @@
       "roadAccessFeatures": {
         "dLean": 14.9,
         "dWide": null,
-        "dPath": 1395.2,
-        "dParking": 7084.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9674,8 +9654,8 @@
       "roadAccessFeatures": {
         "dLean": 26.8,
         "dWide": null,
-        "dPath": 455.7,
-        "dParking": 6703.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9694,8 +9674,8 @@
       "roadAccessFeatures": {
         "dLean": 14.1,
         "dWide": null,
-        "dPath": 607.6,
-        "dParking": 692.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9734,8 +9714,8 @@
       "roadAccessFeatures": {
         "dLean": 23,
         "dWide": null,
-        "dPath": 2773.1,
-        "dParking": 1999.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9755,7 +9735,7 @@
         "dLean": 39.8,
         "dWide": null,
         "dPath": 6.5,
-        "dParking": 2270.9
+        "dParking": null
       }
     },
     {
@@ -9775,7 +9755,7 @@
         "dLean": 1.9,
         "dWide": null,
         "dPath": 5.5,
-        "dParking": 293.3
+        "dParking": null
       }
     },
     {
@@ -9795,7 +9775,7 @@
         "dLean": 20.5,
         "dWide": null,
         "dPath": 2.5,
-        "dParking": 887
+        "dParking": null
       }
     },
     {
@@ -9814,8 +9794,8 @@
       "roadAccessFeatures": {
         "dLean": 18.4,
         "dWide": null,
-        "dPath": 1843.2,
-        "dParking": 10266
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9835,7 +9815,7 @@
         "dLean": 22.5,
         "dWide": null,
         "dPath": 65.1,
-        "dParking": 7939.6
+        "dParking": null
       }
     },
     {
@@ -9854,8 +9834,8 @@
       "roadAccessFeatures": {
         "dLean": 126.8,
         "dWide": null,
-        "dPath": 467.3,
-        "dParking": 6882.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9875,7 +9855,7 @@
         "dLean": 28,
         "dWide": null,
         "dPath": 7.1,
-        "dParking": 45478.9
+        "dParking": null
       }
     },
     {
@@ -9895,7 +9875,7 @@
         "dLean": 32.3,
         "dWide": null,
         "dPath": 9.3,
-        "dParking": 4813.3
+        "dParking": null
       }
     },
     {
@@ -9915,7 +9895,7 @@
         "dLean": 23.9,
         "dWide": null,
         "dPath": 3.5,
-        "dParking": 1136.7
+        "dParking": null
       }
     },
     {
@@ -9935,7 +9915,7 @@
         "dLean": 21.5,
         "dWide": null,
         "dPath": 2.2,
-        "dParking": 2060.2
+        "dParking": null
       }
     },
     {
@@ -9955,7 +9935,7 @@
         "dLean": 11.1,
         "dWide": null,
         "dPath": 123.6,
-        "dParking": 1466.2
+        "dParking": null
       }
     },
     {
@@ -9974,8 +9954,8 @@
       "roadAccessFeatures": {
         "dLean": 29.6,
         "dWide": null,
-        "dPath": 517.5,
-        "dParking": 33963.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -9994,7 +9974,7 @@
       "roadAccessFeatures": {
         "dLean": 24.9,
         "dWide": null,
-        "dPath": 2655.8,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -10015,7 +9995,7 @@
         "dLean": 30.6,
         "dWide": null,
         "dPath": 26.7,
-        "dParking": 1026.4
+        "dParking": null
       }
     },
     {
@@ -10035,7 +10015,7 @@
         "dLean": 43.5,
         "dWide": null,
         "dPath": 5.3,
-        "dParking": 3368.8
+        "dParking": null
       }
     },
     {
@@ -10055,7 +10035,7 @@
         "dLean": 11.1,
         "dWide": null,
         "dPath": 1.2,
-        "dParking": 1915.9
+        "dParking": null
       }
     },
     {
@@ -10074,7 +10054,7 @@
       "roadAccessFeatures": {
         "dLean": 23.7,
         "dWide": null,
-        "dPath": 387,
+        "dPath": null,
         "dParking": 13.2
       }
     },
@@ -10094,7 +10074,7 @@
       "roadAccessFeatures": {
         "dLean": 22.1,
         "dWide": null,
-        "dPath": 714.9,
+        "dPath": null,
         "dParking": 25.1
       }
     },
@@ -10114,7 +10094,7 @@
       "roadAccessFeatures": {
         "dLean": 22.6,
         "dWide": null,
-        "dPath": 744.9,
+        "dPath": null,
         "dParking": 27.6
       }
     },
@@ -10154,7 +10134,7 @@
       "roadAccessFeatures": {
         "dLean": 57.6,
         "dWide": null,
-        "dPath": 497.9,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -10175,7 +10155,7 @@
         "dLean": 12.4,
         "dWide": null,
         "dPath": 0.4,
-        "dParking": 761.5
+        "dParking": null
       }
     },
     {
@@ -10195,7 +10175,7 @@
         "dLean": 11.4,
         "dWide": null,
         "dPath": 0.4,
-        "dParking": 746.6
+        "dParking": null
       }
     },
     {
@@ -10215,7 +10195,7 @@
         "dLean": 11.5,
         "dWide": null,
         "dPath": 0.2,
-        "dParking": 597.5
+        "dParking": null
       }
     },
     {
@@ -10235,7 +10215,7 @@
         "dLean": 11.9,
         "dWide": null,
         "dPath": 0.2,
-        "dParking": 616.2
+        "dParking": null
       }
     },
     {
@@ -10255,7 +10235,7 @@
         "dLean": 11.6,
         "dWide": null,
         "dPath": 16.3,
-        "dParking": 12677.8
+        "dParking": null
       }
     },
     {
@@ -10275,7 +10255,7 @@
         "dLean": 27.3,
         "dWide": null,
         "dPath": 158.8,
-        "dParking": 2518.2
+        "dParking": null
       }
     },
     {
@@ -10295,7 +10275,7 @@
         "dLean": 20.4,
         "dWide": null,
         "dPath": 3.1,
-        "dParking": 1467.7
+        "dParking": null
       }
     },
     {
@@ -10315,7 +10295,7 @@
         "dLean": 28.6,
         "dWide": null,
         "dPath": 152.7,
-        "dParking": 19213.9
+        "dParking": null
       }
     },
     {
@@ -10334,8 +10314,8 @@
       "roadAccessFeatures": {
         "dLean": 31.6,
         "dWide": null,
-        "dPath": 342.7,
-        "dParking": 3163.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10354,8 +10334,8 @@
       "roadAccessFeatures": {
         "dLean": 18.4,
         "dWide": null,
-        "dPath": 482.8,
-        "dParking": 2129.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10375,7 +10355,7 @@
         "dLean": 5.7,
         "dWide": null,
         "dPath": 3.6,
-        "dParking": 596.8
+        "dParking": null
       }
     },
     {
@@ -10395,7 +10375,7 @@
         "dLean": 30.8,
         "dWide": null,
         "dPath": 0.3,
-        "dParking": 261.9
+        "dParking": null
       }
     },
     {
@@ -10414,8 +10394,8 @@
       "roadAccessFeatures": {
         "dLean": 17.3,
         "dWide": null,
-        "dPath": 400.6,
-        "dParking": 29222.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10435,7 +10415,7 @@
         "dLean": 45.4,
         "dWide": null,
         "dPath": 5.4,
-        "dParking": 7906.4
+        "dParking": null
       }
     },
     {
@@ -10454,8 +10434,8 @@
       "roadAccessFeatures": {
         "dLean": 0,
         "dWide": null,
-        "dPath": 699.6,
-        "dParking": 4997.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10475,7 +10455,7 @@
         "dLean": 29.8,
         "dWide": null,
         "dPath": 4.8,
-        "dParking": 36548.2
+        "dParking": null
       }
     },
     {
@@ -10495,7 +10475,7 @@
         "dLean": 57.8,
         "dWide": null,
         "dPath": 107.5,
-        "dParking": 8085.9
+        "dParking": null
       }
     },
     {
@@ -10515,7 +10495,7 @@
         "dLean": 108.4,
         "dWide": null,
         "dPath": 106.8,
-        "dParking": 2780.1
+        "dParking": null
       }
     },
     {
@@ -10555,7 +10535,7 @@
         "dLean": 38.8,
         "dWide": null,
         "dPath": 4.4,
-        "dParking": 7605.2
+        "dParking": null
       }
     },
     {
@@ -10575,7 +10555,7 @@
         "dLean": 97.4,
         "dWide": null,
         "dPath": 48.4,
-        "dParking": 982.2
+        "dParking": null
       }
     },
     {
@@ -10595,7 +10575,7 @@
         "dLean": 131.4,
         "dWide": null,
         "dPath": 59.8,
-        "dParking": 813.8
+        "dParking": null
       }
     },
     {
@@ -10615,7 +10595,7 @@
         "dLean": 24,
         "dWide": null,
         "dPath": 79.2,
-        "dParking": 1163
+        "dParking": null
       }
     },
     {
@@ -10635,7 +10615,7 @@
         "dLean": 26.8,
         "dWide": null,
         "dPath": 3.2,
-        "dParking": 672.4
+        "dParking": null
       }
     },
     {
@@ -10655,7 +10635,7 @@
         "dLean": 36.7,
         "dWide": null,
         "dPath": 9,
-        "dParking": 3246.2
+        "dParking": null
       }
     },
     {
@@ -10695,7 +10675,7 @@
         "dLean": 61.1,
         "dWide": null,
         "dPath": 135.9,
-        "dParking": 3743.1
+        "dParking": null
       }
     },
     {
@@ -10715,7 +10695,7 @@
         "dLean": 94.5,
         "dWide": null,
         "dPath": 96.2,
-        "dParking": 1686
+        "dParking": null
       }
     },
     {
@@ -10735,7 +10715,7 @@
         "dLean": 9.8,
         "dWide": null,
         "dPath": 111.2,
-        "dParking": 35010.8
+        "dParking": null
       }
     },
     {
@@ -10754,7 +10734,7 @@
       "roadAccessFeatures": {
         "dLean": 21.9,
         "dWide": null,
-        "dPath": 695.8,
+        "dPath": null,
         "dParking": 13
       }
     },
@@ -10774,8 +10754,8 @@
       "roadAccessFeatures": {
         "dLean": 23.8,
         "dWide": null,
-        "dPath": 488,
-        "dParking": 3691.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10794,7 +10774,7 @@
       "roadAccessFeatures": {
         "dLean": 7.8,
         "dWide": null,
-        "dPath": 1885.6,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -10814,8 +10794,8 @@
       "roadAccessFeatures": {
         "dLean": 17.8,
         "dWide": null,
-        "dPath": 1006.2,
-        "dParking": 2373
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10834,7 +10814,7 @@
       "roadAccessFeatures": {
         "dLean": 116.7,
         "dWide": null,
-        "dPath": 311.6,
+        "dPath": null,
         "dParking": 130.3
       }
     },
@@ -10854,7 +10834,7 @@
       "roadAccessFeatures": {
         "dLean": 5.4,
         "dWide": null,
-        "dPath": 487.8,
+        "dPath": null,
         "dParking": 29.9
       }
     },
@@ -10874,8 +10854,8 @@
       "roadAccessFeatures": {
         "dLean": 20.7,
         "dWide": null,
-        "dPath": 693.2,
-        "dParking": 679.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10894,8 +10874,8 @@
       "roadAccessFeatures": {
         "dLean": 26.7,
         "dWide": null,
-        "dPath": 687.3,
-        "dParking": 673.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -10915,7 +10895,7 @@
         "dLean": 19.1,
         "dWide": null,
         "dPath": 2.2,
-        "dParking": 963.1
+        "dParking": null
       }
     },
     {
@@ -10935,7 +10915,7 @@
         "dLean": 42.6,
         "dWide": null,
         "dPath": 28.7,
-        "dParking": 668.2
+        "dParking": null
       }
     },
     {
@@ -10955,7 +10935,7 @@
         "dLean": 11,
         "dWide": null,
         "dPath": 4.2,
-        "dParking": 1269.6
+        "dParking": null
       }
     },
     {
@@ -10975,7 +10955,7 @@
         "dLean": 27.1,
         "dWide": null,
         "dPath": 2.2,
-        "dParking": 1776.9
+        "dParking": null
       }
     },
     {
@@ -11014,8 +10994,8 @@
       "roadAccessFeatures": {
         "dLean": 19.2,
         "dWide": null,
-        "dPath": 970.4,
-        "dParking": 1924.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11034,8 +11014,8 @@
       "roadAccessFeatures": {
         "dLean": 13.9,
         "dWide": null,
-        "dPath": 768.5,
-        "dParking": 1158.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11055,7 +11035,7 @@
         "dLean": 2,
         "dWide": null,
         "dPath": 8.5,
-        "dParking": 1141.2
+        "dParking": null
       }
     },
     {
@@ -11094,7 +11074,7 @@
       "roadAccessFeatures": {
         "dLean": 66.4,
         "dWide": null,
-        "dPath": 9590.1,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -11114,8 +11094,8 @@
       "roadAccessFeatures": {
         "dLean": 13.3,
         "dWide": null,
-        "dPath": 1605.7,
-        "dParking": 5033.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11135,7 +11115,7 @@
         "dLean": 50.9,
         "dWide": null,
         "dPath": 105.4,
-        "dParking": 15062.6
+        "dParking": null
       }
     },
     {
@@ -11154,8 +11134,8 @@
       "roadAccessFeatures": {
         "dLean": 21.8,
         "dWide": null,
-        "dPath": 391.5,
-        "dParking": 2736.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11174,7 +11154,7 @@
       "roadAccessFeatures": {
         "dLean": 15.2,
         "dWide": null,
-        "dPath": 4824.3,
+        "dPath": null,
         "dParking": 3.9
       }
     },
@@ -11194,8 +11174,8 @@
       "roadAccessFeatures": {
         "dLean": 0.7,
         "dWide": null,
-        "dPath": 358.8,
-        "dParking": 9417.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11214,8 +11194,8 @@
       "roadAccessFeatures": {
         "dLean": 17.1,
         "dWide": null,
-        "dPath": 4189.2,
-        "dParking": 8872.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11234,8 +11214,8 @@
       "roadAccessFeatures": {
         "dLean": 7.4,
         "dWide": null,
-        "dPath": 3765.5,
-        "dParking": 25208.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11255,7 +11235,7 @@
         "dLean": 41.4,
         "dWide": null,
         "dPath": 0.1,
-        "dParking": 3424.2
+        "dParking": null
       }
     },
     {
@@ -11274,7 +11254,7 @@
       "roadAccessFeatures": {
         "dLean": 28.5,
         "dWide": null,
-        "dPath": 2029.5,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -11295,7 +11275,7 @@
         "dLean": 13.4,
         "dWide": null,
         "dPath": 4.6,
-        "dParking": 3188.7
+        "dParking": null
       }
     },
     {
@@ -11315,7 +11295,7 @@
         "dLean": 12.9,
         "dWide": null,
         "dPath": 4.3,
-        "dParking": 3222
+        "dParking": null
       }
     },
     {
@@ -11335,7 +11315,7 @@
         "dLean": 7.6,
         "dWide": null,
         "dPath": 1.3,
-        "dParking": 446.1
+        "dParking": null
       }
     },
     {
@@ -11355,7 +11335,7 @@
         "dLean": 7.5,
         "dWide": null,
         "dPath": 1.2,
-        "dParking": 447.6
+        "dParking": null
       }
     },
     {
@@ -11415,7 +11395,7 @@
         "dLean": 44.5,
         "dWide": null,
         "dPath": 11.2,
-        "dParking": 811.5
+        "dParking": null
       }
     },
     {
@@ -11475,7 +11455,7 @@
         "dLean": 36.1,
         "dWide": null,
         "dPath": 6.3,
-        "dParking": 1338.7
+        "dParking": null
       }
     },
     {
@@ -11495,7 +11475,7 @@
         "dLean": 45.1,
         "dWide": null,
         "dPath": 6.2,
-        "dParking": 2040.7
+        "dParking": null
       }
     },
     {
@@ -11515,7 +11495,7 @@
         "dLean": 40.1,
         "dWide": null,
         "dPath": 7.2,
-        "dParking": 1701.2
+        "dParking": null
       }
     },
     {
@@ -11534,8 +11514,8 @@
       "roadAccessFeatures": {
         "dLean": 26,
         "dWide": null,
-        "dPath": 974.6,
-        "dParking": 966
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11555,7 +11535,7 @@
         "dLean": 30.4,
         "dWide": null,
         "dPath": 78.7,
-        "dParking": 1526.3
+        "dParking": null
       }
     },
     {
@@ -11574,8 +11554,8 @@
       "roadAccessFeatures": {
         "dLean": 11.5,
         "dWide": null,
-        "dPath": 1873.9,
-        "dParking": 3440.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11594,8 +11574,8 @@
       "roadAccessFeatures": {
         "dLean": 41.7,
         "dWide": null,
-        "dPath": 462.7,
-        "dParking": 22154.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11615,7 +11595,7 @@
         "dLean": 38.9,
         "dWide": null,
         "dPath": 1.6,
-        "dParking": 6654.8
+        "dParking": null
       }
     },
     {
@@ -11635,7 +11615,7 @@
         "dLean": 20.4,
         "dWide": null,
         "dPath": 13.3,
-        "dParking": 5861.8
+        "dParking": null
       }
     },
     {
@@ -11675,7 +11655,7 @@
         "dLean": 30.8,
         "dWide": null,
         "dPath": 9.4,
-        "dParking": 14781.3
+        "dParking": null
       }
     },
     {
@@ -11695,7 +11675,7 @@
         "dLean": 18.8,
         "dWide": null,
         "dPath": 15.8,
-        "dParking": 1802.9
+        "dParking": null
       }
     },
     {
@@ -11714,8 +11694,8 @@
       "roadAccessFeatures": {
         "dLean": 89.8,
         "dWide": null,
-        "dPath": 273.5,
-        "dParking": 1667.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11735,7 +11715,7 @@
         "dLean": 10.6,
         "dWide": null,
         "dPath": 152.9,
-        "dParking": 1635.5
+        "dParking": null
       }
     },
     {
@@ -11754,8 +11734,8 @@
       "roadAccessFeatures": {
         "dLean": 0.5,
         "dWide": null,
-        "dPath": 547.6,
-        "dParking": 1320.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11774,8 +11754,8 @@
       "roadAccessFeatures": {
         "dLean": 88.9,
         "dWide": null,
-        "dPath": 2199.7,
-        "dParking": 3473
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -11795,7 +11775,7 @@
         "dLean": 16.8,
         "dWide": null,
         "dPath": 73.7,
-        "dParking": 433.9
+        "dParking": null
       }
     },
     {
@@ -11815,7 +11795,7 @@
         "dLean": 26.2,
         "dWide": null,
         "dPath": 83.1,
-        "dParking": 427.4
+        "dParking": null
       }
     },
     {
@@ -11875,7 +11855,7 @@
         "dLean": 12.8,
         "dWide": null,
         "dPath": 1.8,
-        "dParking": 2288.3
+        "dParking": null
       }
     },
     {
@@ -11895,7 +11875,7 @@
         "dLean": 12.8,
         "dWide": null,
         "dPath": 1.9,
-        "dParking": 2328.5
+        "dParking": null
       }
     },
     {
@@ -11915,7 +11895,7 @@
         "dLean": 45.9,
         "dWide": null,
         "dPath": 0.5,
-        "dParking": 6385.6
+        "dParking": null
       }
     },
     {
@@ -11935,7 +11915,7 @@
         "dLean": 46.6,
         "dWide": null,
         "dPath": 10.8,
-        "dParking": 4149.3
+        "dParking": null
       }
     },
     {
@@ -11955,7 +11935,7 @@
         "dLean": 30,
         "dWide": null,
         "dPath": 7,
-        "dParking": 4164.3
+        "dParking": null
       }
     },
     {
@@ -11975,7 +11955,7 @@
         "dLean": 44.7,
         "dWide": null,
         "dPath": 3.9,
-        "dParking": 6146.7
+        "dParking": null
       }
     },
     {
@@ -11995,7 +11975,7 @@
         "dLean": 22.3,
         "dWide": null,
         "dPath": 3.9,
-        "dParking": 3105.2
+        "dParking": null
       }
     },
     {
@@ -12034,7 +12014,7 @@
       "roadAccessFeatures": {
         "dLean": 12.4,
         "dWide": null,
-        "dPath": 2032.3,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -12054,7 +12034,7 @@
       "roadAccessFeatures": {
         "dLean": 32,
         "dWide": null,
-        "dPath": 786.3,
+        "dPath": null,
         "dParking": 149.5
       }
     },
@@ -12095,7 +12075,7 @@
         "dLean": 27.7,
         "dWide": null,
         "dPath": 238.4,
-        "dParking": 3367.3
+        "dParking": null
       }
     },
     {
@@ -12115,7 +12095,7 @@
         "dLean": 13.3,
         "dWide": null,
         "dPath": 60,
-        "dParking": 16689.1
+        "dParking": null
       }
     },
     {
@@ -12135,7 +12115,7 @@
         "dLean": 28.2,
         "dWide": null,
         "dPath": 111.4,
-        "dParking": 3651.4
+        "dParking": null
       }
     },
     {
@@ -12155,7 +12135,7 @@
         "dLean": 33.6,
         "dWide": null,
         "dPath": 110.6,
-        "dParking": 3531.9
+        "dParking": null
       }
     },
     {
@@ -12195,7 +12175,7 @@
         "dLean": 17.1,
         "dWide": null,
         "dPath": 7.5,
-        "dParking": 18381.3
+        "dParking": null
       }
     },
     {
@@ -12214,7 +12194,7 @@
       "roadAccessFeatures": {
         "dLean": 31.5,
         "dWide": null,
-        "dPath": 2771.3,
+        "dPath": null,
         "dParking": 7
       }
     },
@@ -12234,8 +12214,8 @@
       "roadAccessFeatures": {
         "dLean": 17,
         "dWide": null,
-        "dPath": 955.2,
-        "dParking": 567.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12254,8 +12234,8 @@
       "roadAccessFeatures": {
         "dLean": 13.4,
         "dWide": null,
-        "dPath": 1036.4,
-        "dParking": 2153.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12274,8 +12254,8 @@
       "roadAccessFeatures": {
         "dLean": 32.7,
         "dWide": null,
-        "dPath": 816.8,
-        "dParking": 2377.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12294,8 +12274,8 @@
       "roadAccessFeatures": {
         "dLean": 18.3,
         "dWide": null,
-        "dPath": 1060.3,
-        "dParking": 6006.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12315,7 +12295,7 @@
         "dLean": 20.6,
         "dWide": null,
         "dPath": 195.1,
-        "dParking": 3943.9
+        "dParking": null
       }
     },
     {
@@ -12335,7 +12315,7 @@
         "dLean": 41.6,
         "dWide": null,
         "dPath": 36.9,
-        "dParking": 4334.7
+        "dParking": null
       }
     },
     {
@@ -12414,7 +12394,7 @@
       "roadAccessFeatures": {
         "dLean": 20.7,
         "dWide": null,
-        "dPath": 4827.2,
+        "dPath": null,
         "dParking": 3.4
       }
     },
@@ -12454,7 +12434,7 @@
       "roadAccessFeatures": {
         "dLean": 25.2,
         "dWide": null,
-        "dPath": 327.6,
+        "dPath": null,
         "dParking": 21.9
       }
     },
@@ -12494,7 +12474,7 @@
       "roadAccessFeatures": {
         "dLean": 24.1,
         "dWide": null,
-        "dPath": 2207.7,
+        "dPath": null,
         "dParking": 15
       }
     },
@@ -12514,7 +12494,7 @@
       "roadAccessFeatures": {
         "dLean": 60.2,
         "dWide": null,
-        "dPath": 2599.1,
+        "dPath": null,
         "dParking": 12
       }
     },
@@ -12534,8 +12514,8 @@
       "roadAccessFeatures": {
         "dLean": 19.5,
         "dWide": null,
-        "dPath": 4974.7,
-        "dParking": 6118.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12554,7 +12534,7 @@
       "roadAccessFeatures": {
         "dLean": 10.1,
         "dWide": null,
-        "dPath": 3040.3,
+        "dPath": null,
         "dParking": 7.1
       }
     },
@@ -12575,7 +12555,7 @@
         "dLean": 35.4,
         "dWide": null,
         "dPath": 8.2,
-        "dParking": 11066.2
+        "dParking": null
       }
     },
     {
@@ -12595,7 +12575,7 @@
         "dLean": 24.8,
         "dWide": null,
         "dPath": 15.4,
-        "dParking": 11574.3
+        "dParking": null
       }
     },
     {
@@ -12615,7 +12595,7 @@
         "dLean": 0.9,
         "dWide": null,
         "dPath": 130.6,
-        "dParking": 8208.3
+        "dParking": null
       }
     },
     {
@@ -12634,7 +12614,7 @@
       "roadAccessFeatures": {
         "dLean": 40.5,
         "dWide": null,
-        "dPath": 1262.1,
+        "dPath": null,
         "dParking": 11.7
       }
     },
@@ -12655,7 +12635,7 @@
         "dLean": 26.5,
         "dWide": null,
         "dPath": 88.2,
-        "dParking": 3886.3
+        "dParking": null
       }
     },
     {
@@ -12674,8 +12654,8 @@
       "roadAccessFeatures": {
         "dLean": 14.6,
         "dWide": null,
-        "dPath": 971.2,
-        "dParking": 13776.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12695,7 +12675,7 @@
         "dLean": 9.3,
         "dWide": null,
         "dPath": 1.4,
-        "dParking": 1940.7
+        "dParking": null
       }
     },
     {
@@ -12715,7 +12695,7 @@
         "dLean": 11.3,
         "dWide": null,
         "dPath": 1,
-        "dParking": 1937.4
+        "dParking": null
       }
     },
     {
@@ -12735,7 +12715,7 @@
         "dLean": 13.3,
         "dWide": null,
         "dPath": 0.9,
-        "dParking": 2287.1
+        "dParking": null
       }
     },
     {
@@ -12754,8 +12734,8 @@
       "roadAccessFeatures": {
         "dLean": 133.3,
         "dWide": null,
-        "dPath": 653.1,
-        "dParking": 959.7
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12774,8 +12754,8 @@
       "roadAccessFeatures": {
         "dLean": 39.5,
         "dWide": null,
-        "dPath": 846.3,
-        "dParking": 6966.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12795,7 +12775,7 @@
         "dLean": 41.2,
         "dWide": null,
         "dPath": 48.7,
-        "dParking": 8326.3
+        "dParking": null
       }
     },
     {
@@ -12835,7 +12815,7 @@
         "dLean": 69.4,
         "dWide": null,
         "dPath": 75.2,
-        "dParking": 339.7
+        "dParking": null
       }
     },
     {
@@ -12874,8 +12854,8 @@
       "roadAccessFeatures": {
         "dLean": 54,
         "dWide": null,
-        "dPath": 805,
-        "dParking": 25704.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12894,8 +12874,8 @@
       "roadAccessFeatures": {
         "dLean": 52.3,
         "dWide": null,
-        "dPath": 390.3,
-        "dParking": 6074.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -12915,7 +12895,7 @@
         "dLean": 35.1,
         "dWide": null,
         "dPath": 2.4,
-        "dParking": 1122.7
+        "dParking": null
       }
     },
     {
@@ -12995,7 +12975,7 @@
         "dLean": 29.7,
         "dWide": null,
         "dPath": 2.4,
-        "dParking": 2331.9
+        "dParking": null
       }
     },
     {
@@ -13055,7 +13035,7 @@
         "dLean": 18.4,
         "dWide": null,
         "dPath": 97.4,
-        "dParking": 1506
+        "dParking": null
       }
     },
     {
@@ -13075,7 +13055,7 @@
         "dLean": 16,
         "dWide": null,
         "dPath": 20.5,
-        "dParking": 24597.8
+        "dParking": null
       }
     },
     {
@@ -13095,7 +13075,7 @@
         "dLean": 45.7,
         "dWide": null,
         "dPath": 2.9,
-        "dParking": 831.7
+        "dParking": null
       }
     },
     {
@@ -13115,7 +13095,7 @@
         "dLean": 41.4,
         "dWide": null,
         "dPath": 3.2,
-        "dParking": 826.6
+        "dParking": null
       }
     },
     {
@@ -13134,8 +13114,8 @@
       "roadAccessFeatures": {
         "dLean": 45.9,
         "dWide": null,
-        "dPath": 1813.6,
-        "dParking": 6120.2
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13154,7 +13134,7 @@
       "roadAccessFeatures": {
         "dLean": 14.3,
         "dWide": null,
-        "dPath": 1352.4,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -13195,7 +13175,7 @@
         "dLean": 16.3,
         "dWide": null,
         "dPath": 5.6,
-        "dParking": 413.1
+        "dParking": null
       }
     },
     {
@@ -13215,7 +13195,7 @@
         "dLean": 10.9,
         "dWide": null,
         "dPath": 1.4,
-        "dParking": 1631.7
+        "dParking": null
       }
     },
     {
@@ -13234,8 +13214,8 @@
       "roadAccessFeatures": {
         "dLean": 50.2,
         "dWide": null,
-        "dPath": 607.1,
-        "dParking": 1837.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13254,7 +13234,7 @@
       "roadAccessFeatures": {
         "dLean": 12.6,
         "dWide": null,
-        "dPath": 319.5,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -13274,7 +13254,7 @@
       "roadAccessFeatures": {
         "dLean": 22.5,
         "dWide": null,
-        "dPath": 359,
+        "dPath": null,
         "dParking": 14.7
       }
     },
@@ -13295,7 +13275,7 @@
         "dLean": 12,
         "dWide": null,
         "dPath": 4.6,
-        "dParking": 1355.3
+        "dParking": null
       }
     },
     {
@@ -13315,7 +13295,7 @@
         "dLean": 37.4,
         "dWide": null,
         "dPath": 4.1,
-        "dParking": 906.5
+        "dParking": null
       }
     },
     {
@@ -13334,8 +13314,8 @@
       "roadAccessFeatures": {
         "dLean": 15.6,
         "dWide": null,
-        "dPath": 872,
-        "dParking": 47706.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13354,8 +13334,8 @@
       "roadAccessFeatures": {
         "dLean": 45.4,
         "dWide": null,
-        "dPath": 864.1,
-        "dParking": 6244.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13375,7 +13355,7 @@
         "dLean": 73.3,
         "dWide": null,
         "dPath": 48.1,
-        "dParking": 14247.4
+        "dParking": null
       }
     },
     {
@@ -13395,7 +13375,7 @@
         "dLean": 12.5,
         "dWide": null,
         "dPath": 119.5,
-        "dParking": 5032
+        "dParking": null
       }
     },
     {
@@ -13474,7 +13454,7 @@
       "roadAccessFeatures": {
         "dLean": 2.7,
         "dWide": null,
-        "dPath": 754.5,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -13494,8 +13474,8 @@
       "roadAccessFeatures": {
         "dLean": 32.2,
         "dWide": null,
-        "dPath": 280.1,
-        "dParking": 13211.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13514,8 +13494,8 @@
       "roadAccessFeatures": {
         "dLean": 16.4,
         "dWide": null,
-        "dPath": 462.9,
-        "dParking": 20048.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13534,7 +13514,7 @@
       "roadAccessFeatures": {
         "dLean": 25.1,
         "dWide": null,
-        "dPath": 1995.7,
+        "dPath": null,
         "dParking": 16.1
       }
     },
@@ -13554,7 +13534,7 @@
       "roadAccessFeatures": {
         "dLean": 2.9,
         "dWide": null,
-        "dPath": 1966.2,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -13574,8 +13554,8 @@
       "roadAccessFeatures": {
         "dLean": 49.2,
         "dWide": null,
-        "dPath": 3719.5,
-        "dParking": 11870.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13614,8 +13594,8 @@
       "roadAccessFeatures": {
         "dLean": 104.9,
         "dWide": null,
-        "dPath": 266.5,
-        "dParking": 1229.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13655,7 +13635,7 @@
         "dLean": 8.9,
         "dWide": null,
         "dPath": 1.6,
-        "dParking": 1321.3
+        "dParking": null
       }
     },
     {
@@ -13754,7 +13734,7 @@
       "roadAccessFeatures": {
         "dLean": 65,
         "dWide": null,
-        "dPath": 413.2,
+        "dPath": null,
         "dParking": 8.1
       }
     },
@@ -13794,7 +13774,7 @@
       "roadAccessFeatures": {
         "dLean": 93.5,
         "dWide": null,
-        "dPath": 6112.5,
+        "dPath": null,
         "dParking": 58.5
       }
     },
@@ -13814,7 +13794,7 @@
       "roadAccessFeatures": {
         "dLean": 22.1,
         "dWide": null,
-        "dPath": 7045,
+        "dPath": null,
         "dParking": 7
       }
     },
@@ -13835,7 +13815,7 @@
         "dLean": 15.3,
         "dWide": null,
         "dPath": 137.1,
-        "dParking": 26511.6
+        "dParking": null
       }
     },
     {
@@ -13855,7 +13835,7 @@
         "dLean": 1.7,
         "dWide": null,
         "dPath": 79.7,
-        "dParking": 3833.5
+        "dParking": null
       }
     },
     {
@@ -13874,8 +13854,8 @@
       "roadAccessFeatures": {
         "dLean": 0.1,
         "dWide": null,
-        "dPath": 1949.1,
-        "dParking": 3874.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13894,8 +13874,8 @@
       "roadAccessFeatures": {
         "dLean": 6.3,
         "dWide": null,
-        "dPath": 382,
-        "dParking": 7644.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13914,8 +13894,8 @@
       "roadAccessFeatures": {
         "dLean": 14.3,
         "dWide": null,
-        "dPath": 745.4,
-        "dParking": 4446.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13934,8 +13914,8 @@
       "roadAccessFeatures": {
         "dLean": 14.5,
         "dWide": null,
-        "dPath": 302.9,
-        "dParking": 2607.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13955,7 +13935,7 @@
         "dLean": 20.1,
         "dWide": null,
         "dPath": 25.3,
-        "dParking": 14901.1
+        "dParking": null
       }
     },
     {
@@ -13974,8 +13954,8 @@
       "roadAccessFeatures": {
         "dLean": 5.4,
         "dWide": null,
-        "dPath": 585.9,
-        "dParking": 2177.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -13994,8 +13974,8 @@
       "roadAccessFeatures": {
         "dLean": 8.4,
         "dWide": null,
-        "dPath": 518.8,
-        "dParking": 796.6
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14015,7 +13995,7 @@
         "dLean": 4.3,
         "dWide": null,
         "dPath": 74.2,
-        "dParking": 13581
+        "dParking": null
       }
     },
     {
@@ -14035,7 +14015,7 @@
         "dLean": 2.6,
         "dWide": null,
         "dPath": 67.1,
-        "dParking": 12366.9
+        "dParking": null
       }
     },
     {
@@ -14055,7 +14035,7 @@
         "dLean": 3,
         "dWide": null,
         "dPath": 66.3,
-        "dParking": 10236.2
+        "dParking": null
       }
     },
     {
@@ -14074,8 +14054,8 @@
       "roadAccessFeatures": {
         "dLean": 24,
         "dWide": null,
-        "dPath": 3737.9,
-        "dParking": 4232.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14094,7 +14074,7 @@
       "roadAccessFeatures": {
         "dLean": 14.7,
         "dWide": null,
-        "dPath": 363.8,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -14114,7 +14094,7 @@
       "roadAccessFeatures": {
         "dLean": 34.4,
         "dWide": null,
-        "dPath": 603.2,
+        "dPath": null,
         "dParking": 16.2
       }
     },
@@ -14135,7 +14115,7 @@
         "dLean": 29.7,
         "dWide": null,
         "dPath": 92.6,
-        "dParking": 3976.2
+        "dParking": null
       }
     },
     {
@@ -14155,7 +14135,7 @@
         "dLean": 36.5,
         "dWide": null,
         "dPath": 3.4,
-        "dParking": 897.6
+        "dParking": null
       }
     },
     {
@@ -14214,8 +14194,8 @@
       "roadAccessFeatures": {
         "dLean": 88.7,
         "dWide": null,
-        "dPath": 1482.6,
-        "dParking": 5130.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14235,7 +14215,7 @@
         "dLean": 37.9,
         "dWide": null,
         "dPath": 25.8,
-        "dParking": 3661.2
+        "dParking": null
       }
     },
     {
@@ -14255,7 +14235,7 @@
         "dLean": 46.2,
         "dWide": null,
         "dPath": 19.4,
-        "dParking": 916.6
+        "dParking": null
       }
     },
     {
@@ -14275,7 +14255,7 @@
         "dLean": 23.8,
         "dWide": null,
         "dPath": 1.7,
-        "dParking": 705.9
+        "dParking": null
       }
     },
     {
@@ -14294,8 +14274,68 @@
       "roadAccessFeatures": {
         "dLean": 16.9,
         "dWide": null,
-        "dPath": 1491.6,
-        "dParking": 2089.5
+        "dPath": null,
+        "dParking": null
+      }
+    },
+    {
+      "id": "SV-CA-BC-kennedy-lake-lookout-13918290402",
+      "name": "Kennedy Lake Lookout",
+      "lat": 49.0751441,
+      "lon": -125.46961480000002,
+      "state": "BC",
+      "url": "https://www.openstreetmap.org/node/13918290402",
+      "osm": {
+        "type": "node",
+        "id": 13918290402
+      },
+      "displayTier": "default",
+      "roadDistanceM": 33.6,
+      "roadAccessFeatures": {
+        "dLean": 33.6,
+        "dWide": null,
+        "dPath": null,
+        "dParking": null
+      }
+    },
+    {
+      "id": "SV-CA-NS-scenic-viewpoint-13931100157",
+      "name": "Scenic viewpoint",
+      "lat": 44.373653700000006,
+      "lon": -64.3003089,
+      "state": "NS",
+      "url": "https://www.openstreetmap.org/node/13931100157",
+      "osm": {
+        "type": "node",
+        "id": 13931100157
+      },
+      "displayTier": "qa",
+      "roadDistanceM": 69.3,
+      "roadAccessFeatures": {
+        "dLean": 69.3,
+        "dWide": null,
+        "dPath": null,
+        "dParking": null
+      }
+    },
+    {
+      "id": "SV-CA-AB-scenic-viewpoint-13939581580",
+      "name": "Scenic viewpoint",
+      "lat": 50.425620300000006,
+      "lon": -112.2724783,
+      "state": "AB",
+      "url": "https://www.openstreetmap.org/node/13939581580",
+      "osm": {
+        "type": "node",
+        "id": 13939581580
+      },
+      "displayTier": "qa",
+      "roadDistanceM": 45.8,
+      "roadAccessFeatures": {
+        "dLean": 45.8,
+        "dWide": null,
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14314,7 +14354,7 @@
       "roadAccessFeatures": {
         "dLean": 22.9,
         "dWide": null,
-        "dPath": 459.7,
+        "dPath": null,
         "dParking": 16.1
       }
     },
@@ -14334,8 +14374,8 @@
       "roadAccessFeatures": {
         "dLean": 39.4,
         "dWide": null,
-        "dPath": 2907,
-        "dParking": 29210
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14355,7 +14395,7 @@
         "dLean": 22,
         "dWide": null,
         "dPath": 13.6,
-        "dParking": 1930.7
+        "dParking": null
       }
     },
     {
@@ -14374,8 +14414,8 @@
       "roadAccessFeatures": {
         "dLean": 26.2,
         "dWide": null,
-        "dPath": 2909.3,
-        "dParking": 24427
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14394,8 +14434,8 @@
       "roadAccessFeatures": {
         "dLean": 33.6,
         "dWide": null,
-        "dPath": 2175.5,
-        "dParking": 2168.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14414,8 +14454,8 @@
       "roadAccessFeatures": {
         "dLean": 22.3,
         "dWide": null,
-        "dPath": 582.4,
-        "dParking": 8098.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14454,8 +14494,8 @@
       "roadAccessFeatures": {
         "dLean": 62.2,
         "dWide": null,
-        "dPath": 4286.3,
-        "dParking": 13649.9
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14475,7 +14515,7 @@
         "dLean": 33.2,
         "dWide": null,
         "dPath": 112.7,
-        "dParking": 556.7
+        "dParking": null
       }
     },
     {
@@ -14495,7 +14535,7 @@
         "dLean": 29.3,
         "dWide": null,
         "dPath": 101.7,
-        "dParking": 36121.8
+        "dParking": null
       }
     },
     {
@@ -14514,8 +14554,8 @@
       "roadAccessFeatures": {
         "dLean": 28.2,
         "dWide": null,
-        "dPath": 512.2,
-        "dParking": 25235.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14535,7 +14575,7 @@
         "dLean": 11.4,
         "dWide": null,
         "dPath": 15.6,
-        "dParking": 4657.6
+        "dParking": null
       }
     },
     {
@@ -14555,7 +14595,7 @@
         "dLean": 22.7,
         "dWide": null,
         "dPath": 0.1,
-        "dParking": 920.5
+        "dParking": null
       }
     },
     {
@@ -14575,7 +14615,7 @@
         "dLean": 18.3,
         "dWide": null,
         "dPath": 5.3,
-        "dParking": 614.2
+        "dParking": null
       }
     },
     {
@@ -14594,8 +14634,8 @@
       "roadAccessFeatures": {
         "dLean": 78.7,
         "dWide": null,
-        "dPath": 1356.1,
-        "dParking": 3032.8
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14634,8 +14674,8 @@
       "roadAccessFeatures": {
         "dLean": 51.7,
         "dWide": null,
-        "dPath": 1177.4,
-        "dParking": 19800.3
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14674,8 +14714,8 @@
       "roadAccessFeatures": {
         "dLean": 9.7,
         "dWide": null,
-        "dPath": 920.3,
-        "dParking": 4050.1
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14694,8 +14734,8 @@
       "roadAccessFeatures": {
         "dLean": 13.9,
         "dWide": null,
-        "dPath": 1377.5,
-        "dParking": 5802.5
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -14715,7 +14755,7 @@
         "dLean": 18.7,
         "dWide": null,
         "dPath": 0.9,
-        "dParking": 2522.6
+        "dParking": null
       }
     },
     {
@@ -14755,7 +14795,7 @@
         "dLean": 9.5,
         "dWide": null,
         "dPath": 6.2,
-        "dParking": 2636
+        "dParking": null
       }
     },
     {
@@ -14775,7 +14815,7 @@
         "dLean": 41.4,
         "dWide": null,
         "dPath": 0.5,
-        "dParking": 656.4
+        "dParking": null
       }
     },
     {
@@ -14795,7 +14835,7 @@
         "dLean": 43.1,
         "dWide": null,
         "dPath": 2,
-        "dParking": 1620.4
+        "dParking": null
       }
     },
     {
@@ -14814,7 +14854,7 @@
       "roadAccessFeatures": {
         "dLean": 34.1,
         "dWide": null,
-        "dPath": 807.6,
+        "dPath": null,
         "dParking": 40.3
       }
     },
@@ -14914,7 +14954,7 @@
       "roadAccessFeatures": {
         "dLean": 20.9,
         "dWide": null,
-        "dPath": 699.3,
+        "dPath": null,
         "dParking": 15.8
       }
     },
@@ -14935,7 +14975,7 @@
         "dLean": 15.8,
         "dWide": null,
         "dPath": 2.7,
-        "dParking": 1763.5
+        "dParking": null
       }
     },
     {
@@ -14955,7 +14995,7 @@
         "dLean": 11.8,
         "dWide": null,
         "dPath": 2.9,
-        "dParking": 1674.7
+        "dParking": null
       }
     },
     {
@@ -14975,7 +15015,7 @@
         "dLean": 41.8,
         "dWide": null,
         "dPath": 2.7,
-        "dParking": 826.6
+        "dParking": null
       }
     },
     {
@@ -14995,7 +15035,7 @@
         "dLean": 104.7,
         "dWide": null,
         "dPath": 62,
-        "dParking": 1867.9
+        "dParking": null
       }
     },
     {
@@ -15015,7 +15055,7 @@
         "dLean": 43.1,
         "dWide": null,
         "dPath": 16.9,
-        "dParking": 3356.2
+        "dParking": null
       }
     },
     {
@@ -15034,8 +15074,8 @@
       "roadAccessFeatures": {
         "dLean": 24.3,
         "dWide": null,
-        "dPath": 551.8,
-        "dParking": 30806.4
+        "dPath": null,
+        "dParking": null
       }
     },
     {
@@ -15074,7 +15114,7 @@
       "roadAccessFeatures": {
         "dLean": 17.8,
         "dWide": null,
-        "dPath": 933.3,
+        "dPath": null,
         "dParking": null
       }
     },
@@ -15095,7 +15135,7 @@
         "dLean": 7.1,
         "dWide": null,
         "dPath": 106.4,
-        "dParking": 393
+        "dParking": null
       }
     },
     {
@@ -15135,7 +15175,7 @@
         "dLean": 25.7,
         "dWide": null,
         "dPath": 1.9,
-        "dParking": 4556.8
+        "dParking": null
       }
     },
     {
@@ -15155,7 +15195,7 @@
         "dLean": 30.7,
         "dWide": null,
         "dPath": 5.9,
-        "dParking": 422.2
+        "dParking": null
       }
     },
     {
@@ -15175,7 +15215,7 @@
         "dLean": 29.1,
         "dWide": null,
         "dPath": 1.2,
-        "dParking": 2007.1
+        "dParking": null
       }
     }
   ]

@@ -70,3 +70,26 @@ Fuel JSON may be stored as UTF-16 when synced via Google Drive. `readJson` in `f
 ## Other pipelines
 
 Camping, playgrounds, scenic, and historic POIs follow similar build patterns. See [README.md](README.md) and layer-specific `*.md` docs.
+
+**scenic-router ingest:** [SCENIC-ROUTER-INGEST.md](SCENIC-ROUTER-INGEST.md) — never replace ingest artifacts with explorer output.
+
+**Map explorer:** `node build-poi-explorer-data.mjs` → `poi-explorer.html` (scenic kept/excluded, benchmark cases, fuel, camping, playgrounds, historic, NPS).
+
+## Scenic overlook road distances — read this before editing
+
+Scenic viewpoints are filtered by drivable road access. **Read [SCENIC-ROAD-DISTANCES.md](SCENIC-ROAD-DISTANCES.md) first.**
+
+### Do NOT
+
+- Add or use a non-osmium fallback for scenic road distances (legacy batched PBF scan was removed)
+- Early-exit distance search before finding the true nearest segment inside the 250 m envelope
+- Scan roads beyond **250 m** when measuring overlook distance — store `"far"` instead
+- Apply road-distance logic to non-viewpoint POI kinds
+- Run scenic road steps without `node build-scenic-install-osmium.mjs` (or system osmium) first
+
+### Do
+
+- Use **osmium-tool only** — `requireOsmium()` guards all scenic road scripts
+- Use `DEFAULT_SCENIC_MEASURE_MAX_M` (250 m) for search/measure; `DEFAULT_ROAD_MAX_DISTANCE_M` (120 m) for filter inclusion
+- Full pipeline: `node build-scenic-road-access-all.mjs --region=us --refresh`
+- Re-filter without rescan: `node build-scenic-filter-road-access.mjs --region=us --max-m=120`
