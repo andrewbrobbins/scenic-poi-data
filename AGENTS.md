@@ -93,3 +93,18 @@ Scenic viewpoints are filtered by drivable road access. **Read [SCENIC-ROAD-DIST
 - Use `DEFAULT_SCENIC_MEASURE_MAX_M` (250 m) for search/measure; `DEFAULT_ROAD_MAX_DISTANCE_M` (120 m) for filter inclusion
 - Full pipeline: `node build-scenic-road-access-all.mjs --region=us --refresh`
 - Re-filter without rescan: `node build-scenic-filter-road-access.mjs --region=us --max-m=120`
+
+## NPS visitor centers — read this before editing
+
+See [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md).
+
+### Do NOT
+
+- Use **Overpass** for visitor-center OSM verification — it rate-limits and takes hours
+- Run `--verify-osm` without `osm-pbf/geofabrik/us-latest.osm.pbf` on disk
+
+### Do
+
+- Use **local Geofabrik PBF** only — `nps-visitor-centers-osm-verify.mjs` scans US PBF once, caches candidates
+- OSM verify: `node build-nps-visitor-centers-master.mjs --verify-osm` (add `--refresh-osm` to rescan PBF)
+- Full pipeline: `node build-nps-visitor-centers-all.mjs --require-api`

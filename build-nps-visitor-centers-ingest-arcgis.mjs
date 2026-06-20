@@ -12,6 +12,7 @@ import {
   loadNpsUnitMaps,
   readJson,
   resolveParentUnit,
+  resolveVisitorCenterState,
   seasonFromArcgis,
   vcId,
   writeJson,
@@ -59,7 +60,13 @@ export async function ingestArcgis() {
       continue;
     }
     const parentUnit = resolveParentUnit(parkCode, unitMaps);
-    const state = parkStates[parkCode] ? parkStates[parkCode].split(",")[0] : "";
+    const state = resolveVisitorCenterState({
+      state: "",
+      lat,
+      lon,
+      parkCode: parentUnit.parkCode,
+      parkStates,
+    });
 
     const rec = baseRecord({
       id: vcId(parentUnit.parkCode, name, lat, lon),

@@ -30,6 +30,8 @@ Or clone this repo as a sibling folder named `tools/` (auto-discovered).
 | `nps-us-geo.json` | `build-nps-us-cache.mjs` | NPS unit points |
 | `NPS_VISITOR_CENTERS_US` → `nps-visitor-centers-us-explorer-embed.js` | `build-nps-visitor-centers-explorer-embed.mjs` | NPS visitor centers |
 | `park-boundaries.geojson` + embed | `build-park-boundaries.mjs` | Park boundary polygons |
+| `state-parks-us-master.json` / `state-parks-ca-master.json` | `build-state-parks-all.mjs` | State / provincial park unit catalog (SP-001) |
+| `STATE_PARKS_US` / `STATE_PARKS_CA` → `state-parks-*-explorer-embed.js` | `build-state-parks-explorer-embed.mjs` | State park map rows (not yet in scenic-router sync) |
 
 Canonical full records live in `*-master.json` (same IDs as embeds; embeds are slim map rows).
 
@@ -78,9 +80,24 @@ Built by `build-nps-visitor-centers-explorer-embed.mjs`. Full records in `nps-vi
 }
 ```
 
-Global: `NPS_VISITOR_CENTERS_US`.
+Global: `NPS_VISITOR_CENTERS_US`. Synced to scenic-router as `nps-visitor-centers-us-explorer-embed.js` (layer toggle: **Visitor centers**).
 
-Build: `node build-nps-visitor-centers-all.mjs` (set `NPS_API_KEY` in `.env` for operating hours).
+Build: `node build-nps-visitor-centers-all.mjs --require-api` (set `NPS_API_KEY` in `.env` for operating hours). OSM verification uses **local PBF only** — see [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md) (never Overpass).
+
+### State / provincial parks embed shape
+
+Built by `build-state-parks-explorer-embed.mjs`. Full records in `state-parks-us-master.json` / `state-parks-ca-master.json`. See [STATE-PARKS.md](STATE-PARKS.md).
+
+```json
+{
+  "generated", "kind", "region", "count", "needsReviewCount",
+  "records": [{ "id", "name", "lat", "lon", "state", "designation", "category", "url", "needsReview" }]
+}
+```
+
+Globals: `STATE_PARKS_US`, `STATE_PARKS_CA`. **Not yet synced** to scenic-router — add to `sync-poi-data.mjs` when the app consumes this layer.
+
+Build: `node build-state-parks-all.mjs`.
 
 ## Dev-only (NOT synced)
 

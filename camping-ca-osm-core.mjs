@@ -21,7 +21,7 @@ const OVERPASS_URLS = [
 ];
 
 /** Split large provinces so Overpass does not 504/timeout. [south, west, north, east][] */
-const OSM_SPLIT = {
+export const OSM_SPLIT = {
   AB: [
     [49, -120, 54, -114],
     [49, -114, 54, -110],

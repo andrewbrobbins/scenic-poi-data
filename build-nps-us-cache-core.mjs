@@ -150,6 +150,23 @@ function pickVisitorCenter(list) {
   return scored[0].vc;
 }
 
+function loadVisitorCenterMasterCounts(toolsDir) {
+  const masterPath = path.join(toolsDir, "nps-visitor-centers-us-master.json");
+  if (!fs.existsSync(masterPath)) return { byPark: {}, primaryByPark: {}, total: 0 };
+  const master = JSON.parse(fs.readFileSync(masterPath, "utf8"));
+  const byPark = {};
+  const primaryByPark = {};
+  for (const r of master.records || []) {
+    const code = (r.parkCode || "").toLowerCase();
+    if (!code) continue;
+    byPark[code] = (byPark[code] || 0) + 1;
+    if (!primaryByPark[code] && Number.isFinite(r.lat) && Number.isFinite(r.lon)) {
+      primaryByPark[code] = { name: r.name || "Visitor Center", lat: r.lat, lon: r.lon };
+    }
+  }
+  return { byPark, primaryByPark, total: (master.records || []).length };
+}
+
 async function loadVisitorCentersByPark(refreshNetwork, toolsDir) {
   const vcCachePath = path.join(toolsDir, "nps-visitor-centers-cache.json");
   if (!refreshNetwork && fs.existsSync(vcCachePath)) {
@@ -231,6 +248,7 @@ export async function buildNpsCache(refreshNetwork = false) {
   }
 
   const visitorByPark = await loadVisitorCentersByPark(refreshNetwork, tools);
+  const vcMaster = loadVisitorCenterMasterCounts(tools);
 
   const arcgisRows = dedupeArcgisUnits(arcgis);
   const pendingGeometry = [];
@@ -246,15 +264,17 @@ export async function buildNpsCache(refreshNetwork = false) {
     const designation = row.UNIT_TYPE || "Park";
     const rich = richByCode[code];
     const cen = centroids[code];
-    const vc = pickVisitorCenter(visitorByPark[code]);
+    const vcCount = vcMaster.byPark[code] ?? 0;
+    const vcFromMaster = vcMaster.primaryByPark[code];
+    const vc = vcFromMaster || pickVisitorCenter(visitorByPark[code]);
     let lat;
     let lon;
     let coordSource = "centroid";
     let visitorCenter = null;
     if (vc) {
-      lat = vc.latitude;
-      lon = vc.longitude;
-      coordSource = "visitor_center";
+      lat = vc.latitude ?? vc.lat;
+      lon = vc.longitude ?? vc.lon;
+      coordSource = vcFromMaster ? "visitor_center_master" : "visitor_center";
       visitorCenter = { name: vc.name, lat, lon };
     } else if (rich && Number.isFinite(+rich.latitude) && Number.isFinite(+rich.longitude)) {
       lat = +rich.latitude;
@@ -278,6 +298,7 @@ export async function buildNpsCache(refreshNetwork = false) {
       lat,
       lon,
       visitorCenter,
+      visitorCenterCount: vcCount,
       coordSource,
       state: states.join(","),
       url: rich?.url || "https://www.nps.gov/" + code + "/",
@@ -309,6 +330,7 @@ export async function buildNpsCache(refreshNetwork = false) {
         lat: geom.lat,
         lon: geom.lon,
         visitorCenter: null,
+        visitorCenterCount: vcMaster.byPark[code] ?? 0,
         coordSource: "arcgis_geometry",
         state: states.join(","),
         url: rich?.url || "https://www.nps.gov/" + code + "/",
@@ -321,10 +343,10 @@ export async function buildNpsCache(refreshNetwork = false) {
   units.sort((a, b) => a.name.localeCompare(b.name));
   const cats = {};
   units.forEach((u) => { cats[u.category] = (cats[u.category] || 0) + 1; });
-  const vcCount = units.filter((u) => u.coordSource === "visitor_center").length;
+  const vcCount = vcMaster.total || units.reduce((n, u) => n + (u.visitorCenterCount || 0), 0);
   const geo = {
     generated: new Date().toISOString(),
-    source: "arcgis+visitorcenters+park-list+centroids+arcgis_geometry",
+    source: "arcgis+visitorcenters+visitor-center-master+park-list+centroids+arcgis_geometry",
     count: units.length,
     visitorCenterCount: vcCount,
     categories: cats,

@@ -11,6 +11,7 @@ import { readJson, masterPath, POI_KINDS } from "./poi-osm-lib.mjs";
 import { MASTER_PATH as FUEL_US_MASTER } from "./fuel-us-lib.mjs";
 import { MASTER_PATH as FUEL_CA_MASTER } from "./fuel-ca-lib.mjs";
 import { MASTER_PATH as NPS_VC_MASTER } from "./nps-visitor-centers-lib.mjs";
+import { MASTER_US_PATH as STATE_PARKS_US_MASTER, MASTER_CA_PATH as STATE_PARKS_CA_MASTER } from "./state-parks-lib.mjs";
 import { brandGroupLabel, brandIdToSelectId, buildBrandGroups, normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const TOOLS = path.dirname(fileURLToPath(import.meta.url));
@@ -224,6 +225,22 @@ function loadNpsVisitorCenters() {
   });
 }
 
+function loadStateParks(region) {
+  const masterPath = region === "us" ? STATE_PARKS_US_MASTER : STATE_PARKS_CA_MASTER;
+  const master = readJson(masterPath, { records: [] });
+  return (master.records || []).map((r) => ({
+    id: r.id,
+    name: r.name,
+    lat: round5(r.lat),
+    lon: round5(r.lon),
+    state: r.state || "",
+    designation: r.designation || "",
+    category: r.category || "",
+    url: r.url || "",
+    needsReview: !!r.needsReview,
+  }));
+}
+
 function loadNpsByCategory() {
   const nps = readJson(NPS_PATH, { units: [] });
   const byCat = {};
@@ -322,6 +339,15 @@ for (const group of fuelBrandGroups) {
 for (const region of ["us", "ca"]) {
   addLayer("fuel_generic", "Generic (non-catalog)", "fuel", region, loadFuelGeneric(region), { defaultInCategory: false });
   addLayer("camping", "Campgrounds (master + tiers)", "camping", region, loadCampingMaster(region), { defaultInCategory: true });
+}
+
+for (const region of ["us", "ca"]) {
+  const sp = loadStateParks(region);
+  if (sp.length) {
+    addLayer("state_parks", "State / provincial parks", "state_parks", region, sp, {
+      defaultInCategory: true,
+    });
+  }
 }
 
 for (const kind of ["playground", "historic"]) {

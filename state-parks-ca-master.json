@@ -1,0 +1,5682 @@
+{
+  "generated": "2026-06-20T18:22:03.540Z",
+  "source": "osm-pbf",
+  "country": "CA",
+  "count": 330,
+  "categories": {
+    "park": 326,
+    "historic_site": 4
+  },
+  "byAdmin": {
+    "AB": 24,
+    "BC": 2,
+    "MB": 41,
+    "NB": 31,
+    "NL": 66,
+    "NS": 20,
+    "NU": 16,
+    "ON": 123,
+    "QC": 1,
+    "SK": 6
+  },
+  "needsReviewCount": 271,
+  "pbfPath": "/home/andrew/Cursor-Projects/scenic-poi-data/osm-pbf/geofabrik/canada-latest.osm.pbf",
+  "records": [
+    {
+      "id": "sp-ca-ab-antelope-hill-provincial-park-way431110475",
+      "country": "CA",
+      "state": "AB",
+      "name": "Antelope Hill Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.7291,
+      "lon": -111.93271,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/antelope-hill-pp/",
+      "osmId": "way/431110475",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-big-island-provincial-park-way1410602310",
+      "country": "CA",
+      "state": "AB",
+      "name": "Big Island Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 53.44007,
+      "lon": -113.6459,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/big-island-pp/",
+      "osmId": "way/1410602310",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-big-knife-provincial-park-way309094789",
+      "country": "CA",
+      "state": "AB",
+      "name": "Big Knife Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.49116,
+      "lon": -112.20828,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/big-knife-pp/",
+      "osmId": "way/309094789",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-calling-lake-provincial-park-way430874559",
+      "country": "CA",
+      "state": "AB",
+      "name": "Calling Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.18102,
+      "lon": -113.26689,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/north/calling-lake-pp/",
+      "osmId": "way/430874559",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-carson-pegasus-provincial-park-way401325079",
+      "country": "CA",
+      "state": "AB",
+      "name": "Carson-Pegasus Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.29776,
+      "lon": -115.63449,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/carson-pegasus-pp/",
+      "osmId": "way/401325079",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-cross-lake-provincial-park-way430874561",
+      "country": "CA",
+      "state": "AB",
+      "name": "Cross Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.64853,
+      "lon": -113.78024,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/north/cross-lake-pp/",
+      "osmId": "way/430874561",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-gooseberry-lake-provincial-park-way431110480",
+      "country": "CA",
+      "state": "AB",
+      "name": "Gooseberry Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.11709,
+      "lon": -110.75501,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/gooseberry-lake-pp/",
+      "osmId": "way/431110480",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-grizzly-ridge-wildland-provincial-park-way430264280",
+      "country": "CA",
+      "state": "AB",
+      "name": "Grizzly Ridge Wildland Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.12688,
+      "lon": -115.05179,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/north/grizzly-ridge-wpp/",
+      "osmId": "way/430264280",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-jarvis-bay-provincial-park-way430209705",
+      "country": "CA",
+      "state": "AB",
+      "name": "Jarvis Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.34518,
+      "lon": -114.08816,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/jarvis-bay-pp/",
+      "osmId": "way/430209705",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-lakeland-provincial-park-way430888744",
+      "country": "CA",
+      "state": "AB",
+      "name": "Lakeland Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.74264,
+      "lon": -111.56176,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/north/lakeland-pp/",
+      "osmId": "way/430888744",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-lesser-slave-wildland-provincial-park-way430874563",
+      "country": "CA",
+      "state": "AB",
+      "name": "Lesser Slave Wildland Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.50088,
+      "lon": -115.62327,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.albertaparks.ca/parks/north/lesser-slave-lake-wpp/",
+      "osmId": "way/430874563",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-o-brien-provincial-park-way430264289",
+      "country": "CA",
+      "state": "AB",
+      "name": "O'Brien Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.06686,
+      "lon": -118.81865,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/430264289",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "node/1989070801"
+      ]
+    },
+    {
+      "id": "sp-ca-ab-otter-orloff-lakes-wildland-provincial-park-way430874564",
+      "country": "CA",
+      "state": "AB",
+      "name": "Otter-Orloff Lakes Wildland Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.37024,
+      "lon": -113.56045,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/north/otter-orloff-lakes-wpp/",
+      "osmId": "way/430874564",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-peter-lougheed-provincial-park-node3058542908",
+      "country": "CA",
+      "state": "AB",
+      "name": "Peter Lougheed Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.64808,
+      "lon": -115.16428,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3058542908",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-peter-lougheed-provincial-park-node3058542909",
+      "country": "CA",
+      "state": "AB",
+      "name": "Peter Lougheed Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.69674,
+      "lon": -115.16874,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3058542909",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-peter-lougheed-provincial-park-node3079539714",
+      "country": "CA",
+      "state": "AB",
+      "name": "Peter Lougheed Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.79034,
+      "lon": -115.27507,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3079539714",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-pierre-grey-s-lakes-provincial-park-way430264275",
+      "country": "CA",
+      "state": "AB",
+      "name": "Pierre Grey's Lakes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 53.90075,
+      "lon": -118.58925,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/pierre-grey-s-lakes-pp/",
+      "osmId": "way/430264275",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-red-lodge-provincial-park-way430130368",
+      "country": "CA",
+      "state": "AB",
+      "name": "Red Lodge Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.94695,
+      "lon": -114.2447,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.albertaparks.ca/parks/central/red-lodge-pp/",
+      "osmId": "way/430130368",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-rumsey-ecological-reserve-way430223317",
+      "country": "CA",
+      "state": "AB",
+      "name": "Rumsey Ecological Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.9383,
+      "lon": -112.63273,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred"
+      ],
+      "url": "https://www.albertaparks.ca/parks/central/rumsey-er/",
+      "osmId": "way/430223317",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-ab-saskatoon-island-provincial-park-way430673233",
+      "country": "CA",
+      "state": "AB",
+      "name": "Saskatoon Island Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.20484,
+      "lon": -119.08475,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.albertaparks.ca/parks/north/saskatoon-island-pp/",
+      "osmId": "way/430673233",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-two-lakes-provincial-park-way430264297",
+      "country": "CA",
+      "state": "AB",
+      "name": "Two Lakes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.36924,
+      "lon": -119.77281,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.albertaparks.ca/parks/north/two-lakes-pp/",
+      "osmId": "way/430264297",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-whitehorse-wildland-provincial-park-way402007532",
+      "country": "CA",
+      "state": "AB",
+      "name": "Whitehorse Wildland Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.96557,
+      "lon": -117.41604,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/central/whitehorse-wpp/",
+      "osmId": "way/402007532",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-whitemud-falls-wildland-provincial-park-way430676433",
+      "country": "CA",
+      "state": "AB",
+      "name": "Whitemud Falls Wildland Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 56.70392,
+      "lon": -110.11802,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://albertaparks.ca/parks/north/whitemud-falls-wpp/",
+      "osmId": "way/430676433",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ab-williamson-provincial-park-way923994084",
+      "country": "CA",
+      "state": "AB",
+      "name": "Williamson Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.0821,
+      "lon": -117.55879,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.albertaparks.ca/parks/north/williamson-pp/",
+      "osmId": "way/923994084",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-bc-fort-mcleod-provincial-historic-park-node1181702819",
+      "country": "CA",
+      "state": "BC",
+      "name": "Fort McLeod Provincial Historic Park",
+      "designation": "Provincial Historic Park",
+      "category": "historic_site",
+      "lat": 54.99244,
+      "lon": -123.03954,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1181702819",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-bc-landstrom-bar-provincial-park-way907946634",
+      "country": "CA",
+      "state": "BC",
+      "name": "Landstrom Bar Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.37555,
+      "lon": -121.46551,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/907946634",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-bakers-narrows-provincial-park-way150287081",
+      "country": "CA",
+      "state": "MB",
+      "name": "Bakers Narrows Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.67862,
+      "lon": -101.65798,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northwest/bakers.html",
+      "osmId": "way/150287081",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150287077",
+        "way/150287083"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-bakers-narrows-provincial-park-way150287078",
+      "country": "CA",
+      "state": "MB",
+      "name": "Bakers Narrows Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.68301,
+      "lon": -101.67372,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150287078",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-bakers-narrows-provincial-park-way150287080",
+      "country": "CA",
+      "state": "MB",
+      "name": "Bakers Narrows Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.67082,
+      "lon": -101.66936,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northwest/bakers.html",
+      "osmId": "way/150287080",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-bakers-narrows-provincial-park-way150287082",
+      "country": "CA",
+      "state": "MB",
+      "name": "Bakers Narrows Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.67121,
+      "lon": -101.64811,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northwest/bakers.html",
+      "osmId": "way/150287082",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-beaver-creek-provincial-park-way150287086",
+      "country": "CA",
+      "state": "MB",
+      "name": "Beaver Creek Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.37643,
+      "lon": -96.91373,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150287086",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-bell-lake-provincial-park-way150287087",
+      "country": "CA",
+      "state": "MB",
+      "name": "Bell Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.54072,
+      "lon": -101.24186,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/western/bell.html",
+      "osmId": "way/150287087",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-burge-lake-provincial-park-way150287090",
+      "country": "CA",
+      "state": "MB",
+      "name": "Burge Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 56.89954,
+      "lon": -101.04486,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northeast/burge.html",
+      "osmId": "way/150287090",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150287091",
+        "way/150287092"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-clearwater-lake-provincial-park-way150287096",
+      "country": "CA",
+      "state": "MB",
+      "name": "Clearwater Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 53.96134,
+      "lon": -101.04915,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150287096",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-grand-valley-provincial-park-way150287126",
+      "country": "CA",
+      "state": "MB",
+      "name": "Grand Valley Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.87322,
+      "lon": -100.08455,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150287126",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-hnausa-beach-provincial-park-way150287128",
+      "country": "CA",
+      "state": "MB",
+      "name": "Hnausa Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.9004,
+      "lon": -96.99282,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150287128",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "node/1363654732"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-lake-st-andrew-provincial-park-way150289159",
+      "country": "CA",
+      "state": "MB",
+      "name": "Lake St. Andrew Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.68106,
+      "lon": -97.4042,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289159",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-lake-st-george-provincial-park-way150289160",
+      "country": "CA",
+      "state": "MB",
+      "name": "Lake St. George Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.72667,
+      "lon": -97.40542,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289160",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-lundar-beach-provincial-park-way150289168",
+      "country": "CA",
+      "state": "MB",
+      "name": "Lundar Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.7271,
+      "lon": -98.2769,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289168",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150289167"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-manipogo-provincial-park-way150289169",
+      "country": "CA",
+      "state": "MB",
+      "name": "Manipogo Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.51759,
+      "lon": -99.54089,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/western/manipogo.html",
+      "osmId": "way/150289169",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-margaret-bruce-provincial-park-way150289171",
+      "country": "CA",
+      "state": "MB",
+      "name": "Margaret Bruce Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.81696,
+      "lon": -98.79375,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289171",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-neso-lake-provincial-park-way150289173",
+      "country": "CA",
+      "state": "MB",
+      "name": "Neso Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.65709,
+      "lon": -101.54774,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289173",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-norris-lake-provincial-park-way150289176",
+      "country": "CA",
+      "state": "MB",
+      "name": "Norris Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.48191,
+      "lon": -97.41764,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289176",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-north-steeprock-lake-provincial-park-way150289178",
+      "country": "CA",
+      "state": "MB",
+      "name": "North Steeprock Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.60239,
+      "lon": -101.35408,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/western/steeprock.html",
+      "osmId": "way/150289178",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150289177"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-oak-lake-provincial-park-way150289181",
+      "country": "CA",
+      "state": "MB",
+      "name": "Oak Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.68283,
+      "lon": -100.71322,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289181",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150289180"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-overflowing-river-provincial-park-way150289182",
+      "country": "CA",
+      "state": "MB",
+      "name": "Overflowing River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 53.13901,
+      "lon": -101.09169,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289182",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-pisew-falls-provincial-park-way150289195",
+      "country": "CA",
+      "state": "MB",
+      "name": "Pisew Falls Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.19722,
+      "lon": -98.39591,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northeast/pisew.html",
+      "osmId": "way/150289195",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-poplar-bay-provincial-park-way150289197",
+      "country": "CA",
+      "state": "MB",
+      "name": "Poplar Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.37473,
+      "lon": -95.78167,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289197",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150289196"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-portage-spillway-provincial-park-way150289199",
+      "country": "CA",
+      "state": "MB",
+      "name": "Portage Spillway Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.94824,
+      "lon": -98.32877,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289199",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150289198"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-primrose-provincial-park-way150289200",
+      "country": "CA",
+      "state": "MB",
+      "name": "Primrose Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.39684,
+      "lon": -101.12083,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289200",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-red-deer-river-provincial-park-way150289203",
+      "country": "CA",
+      "state": "MB",
+      "name": "Red Deer River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.89087,
+      "lon": -101.02677,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289203",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-rivers-provincial-park-way150289214",
+      "country": "CA",
+      "state": "MB",
+      "name": "Rivers Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.03275,
+      "lon": -100.19571,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/western/rivers.html",
+      "osmId": "way/150289214",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-rocky-lake-provincial-park-way150289215",
+      "country": "CA",
+      "state": "MB",
+      "name": "Rocky Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.17536,
+      "lon": -101.39195,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289215",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-sasagiu-rapids-provincial-park-way150289217",
+      "country": "CA",
+      "state": "MB",
+      "name": "Sasagiu Rapids Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 55.14377,
+      "lon": -98.45142,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289217",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-seton-provincial-park-way150289218",
+      "country": "CA",
+      "state": "MB",
+      "name": "Seton Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.90181,
+      "lon": -99.21514,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289218",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-st-ambroise-beach-provincial-park-way150289221",
+      "country": "CA",
+      "state": "MB",
+      "name": "St. Ambroise Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.28043,
+      "lon": -98.07372,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289221",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-st-malo-provincial-park-way150289222",
+      "country": "CA",
+      "state": "MB",
+      "name": "St. Malo Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.31759,
+      "lon": -96.93139,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289222",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-st-norbert-provincial-heritage-park-way108163222",
+      "country": "CA",
+      "state": "MB",
+      "name": "St. Norbert Provincial Heritage Park",
+      "designation": "Provincial Heritage Park",
+      "category": "historic_site",
+      "lat": 49.75549,
+      "lon": -97.14268,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/conservation/parks/popular_parks/central/norbert.html",
+      "osmId": "way/108163222",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-stephenfield-provincial-park-way150289224",
+      "country": "CA",
+      "state": "MB",
+      "name": "Stephenfield Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.52341,
+      "lon": -98.29732,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/central/stephenfield.html",
+      "osmId": "way/150289224",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-twin-lakes-provincial-park-way150289229",
+      "country": "CA",
+      "state": "MB",
+      "name": "Twin Lakes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.65737,
+      "lon": -101.47826,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289229",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "way/150289228"
+      ]
+    },
+    {
+      "id": "sp-ca-mb-upper-fort-garry-provincial-heritage-park-way97051564",
+      "country": "CA",
+      "state": "MB",
+      "name": "Upper Fort Garry Provincial Heritage Park",
+      "designation": "Provincial Heritage Park",
+      "category": "historic_site",
+      "lat": 49.88748,
+      "lon": -97.13489,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.upperfortgarry.com/",
+      "osmId": "way/97051564",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-watchorn-provincial-park-way150289231",
+      "country": "CA",
+      "state": "MB",
+      "name": "Watchorn Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.27796,
+      "lon": -98.56376,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/150289231",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-wekusko-falls-provincial-park-way150289254",
+      "country": "CA",
+      "state": "MB",
+      "name": "Wekusko Falls Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 54.79437,
+      "lon": -99.97261,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/northwest/wekusko.html",
+      "osmId": "way/150289254",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-whitefish-lake-provincial-park-way150289263",
+      "country": "CA",
+      "state": "MB",
+      "name": "Whitefish Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.33391,
+      "lon": -101.58761,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.gov.mb.ca/sd/parks/park-maps-and-locations/western/whitefish.html",
+      "osmId": "way/150289263",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-winnange-lake-provincial-park-node1432801329",
+      "country": "CA",
+      "state": "MB",
+      "name": "Winnange Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.78962,
+      "lon": -93.67482,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1432801329",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-winnange-lake-provincial-park-node3921351754",
+      "country": "CA",
+      "state": "MB",
+      "name": "Winnange Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.74348,
+      "lon": -93.68341,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3921351754",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-mb-winnange-lake-provincial-park-node3921351755",
+      "country": "CA",
+      "state": "MB",
+      "name": "Winnange Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.74929,
+      "lon": -93.73468,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3921351755",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-annapolis-basin-look-off-provincial-park-way342237329",
+      "country": "CA",
+      "state": "NB",
+      "name": "Annapolis Basin Look Off Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.6393,
+      "lon": -65.75637,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237329",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-bay-du-vin-island-provincial-park-reserve-node1727255883",
+      "country": "CA",
+      "state": "NB",
+      "name": "Bay du Vin Island Provincial Park Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.0935,
+      "lon": -65.098,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1727255883",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-bayswater-beach-provincial-park-node1094642842",
+      "country": "CA",
+      "state": "NB",
+      "name": "Bayswater Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.50244,
+      "lon": -64.06743,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1094642842",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-belmont-provincial-park-node1918093949",
+      "country": "CA",
+      "state": "NB",
+      "name": "Belmont Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.51406,
+      "lon": -63.8322,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1918093949",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-bloomfield-provincial-park-node1807772430",
+      "country": "CA",
+      "state": "NB",
+      "name": "Bloomfield Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.74558,
+      "lon": -64.18788,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1807772430",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-castalia-provincial-park-node1319644620",
+      "country": "CA",
+      "state": "NB",
+      "name": "Castalia Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.72492,
+      "lon": -66.75056,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1319644620",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-cedar-dunes-provincial-park-node1806822695",
+      "country": "CA",
+      "state": "NB",
+      "name": "Cedar Dunes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.61828,
+      "lon": -64.39086,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1806822695",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-east-river-provincial-park-way342237342",
+      "country": "CA",
+      "state": "NB",
+      "name": "East River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.58852,
+      "lon": -64.17212,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237342",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-five-islands-provincial-park-node2488374159",
+      "country": "CA",
+      "state": "NB",
+      "name": "Five Islands Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.39881,
+      "lon": -64.02865,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2488374159",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-graves-island-provincial-park-node1095051114",
+      "country": "CA",
+      "state": "NB",
+      "name": "Graves Island Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.5593,
+      "lon": -64.20617,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1095051114",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-green-park-provincial-park-way168942569",
+      "country": "CA",
+      "state": "NB",
+      "name": "Green Park Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.59436,
+      "lon": -63.8926,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/168942569",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-heron-island-provincial-park-reserve-node1775426805",
+      "country": "CA",
+      "state": "NB",
+      "name": "Heron Island Provincial Park Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.99054,
+      "lon": -66.13901,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1775426805",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-jacques-cartier-provincial-park-node1806669280",
+      "country": "CA",
+      "state": "NB",
+      "name": "Jacques Cartier Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.84807,
+      "lon": -64.01457,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1806669280",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-lakeside-provincial-park-node1253511055",
+      "country": "CA",
+      "state": "NB",
+      "name": "Lakeside Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.89612,
+      "lon": -66.02081,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1253511055",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-lewis-lake-provincial-park-node2745808616",
+      "country": "CA",
+      "state": "NB",
+      "name": "Lewis Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.69049,
+      "lon": -63.85149,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2745808616",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-linkletter-provincial-park-way348374862",
+      "country": "CA",
+      "state": "NB",
+      "name": "Linkletter Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.39819,
+      "lon": -63.85394,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/348374862",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-lumsden-pond-provincial-park-way342237352",
+      "country": "CA",
+      "state": "NB",
+      "name": "Lumsden Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.02611,
+      "lon": -64.39741,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237352",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-mount-uniacke-provincial-park-node1365968538",
+      "country": "CA",
+      "state": "NB",
+      "name": "Mount Uniacke Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.89556,
+      "lon": -63.83435,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1365968538",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-northport-beach-provincial-park-way342237354",
+      "country": "CA",
+      "state": "NB",
+      "name": "Northport Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.92729,
+      "lon": -63.84454,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/park/northport-beach",
+      "osmId": "way/342237354",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-parc-provincial-lepreau-falls-node1492853966",
+      "country": "CA",
+      "state": "NB",
+      "name": "Parc provincial Lepreau Falls",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.16837,
+      "lon": -66.46023,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1492853966",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-parlee-beach-provincial-park-way518705480",
+      "country": "CA",
+      "state": "NB",
+      "name": "Parlee Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.23818,
+      "lon": -64.51193,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www2.gnb.ca/content/gnb/en/services/services_renderer.200807.Parlee_Beach_Provincial_Park.html",
+      "osmId": "way/518705480",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-penfield-provincial-park-node1317901115",
+      "country": "CA",
+      "state": "NB",
+      "name": "Penfield Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.11218,
+      "lon": -66.72864,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1317901115",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-savary-provincial-park-node2502237298",
+      "country": "CA",
+      "state": "NB",
+      "name": "Savary Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.51282,
+      "lon": -65.90872,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2502237298",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-scots-bay-provincial-park-node13534732503",
+      "country": "CA",
+      "state": "NB",
+      "name": "Scots Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.30043,
+      "lon": -64.39786,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/13534732503",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-simms-settlement-provincial-park-node11388689117",
+      "country": "CA",
+      "state": "NB",
+      "name": "Simms Settlement Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.61884,
+      "lon": -64.10696,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/11388689117",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "node/1080919842"
+      ]
+    },
+    {
+      "id": "sp-ca-nb-smiths-cove-look-off-provincial-park-way342237365",
+      "country": "CA",
+      "state": "NB",
+      "name": "Smiths Cove Look Off Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.61339,
+      "lon": -65.69078,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237365",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-sunbury-oromocto-provincial-park-node1245826692",
+      "country": "CA",
+      "state": "NB",
+      "name": "Sunbury-Oromocto Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.7906,
+      "lon": -66.52539,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1245826692",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-upper-clements-provincial-park-node1470743036",
+      "country": "CA",
+      "state": "NB",
+      "name": "Upper Clements Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.70348,
+      "lon": -65.56787,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1470743036",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-valleyview-provincial-park-node1349844757",
+      "country": "CA",
+      "state": "NB",
+      "name": "Valleyview Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.86944,
+      "lon": -65.31396,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1349844757",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-wentworth-provincial-park-node2483891786",
+      "country": "CA",
+      "state": "NB",
+      "name": "Wentworth Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.62694,
+      "lon": -63.57083,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2483891786",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nb-woolastook-provincial-park-node1194653932",
+      "country": "CA",
+      "state": "NB",
+      "name": "Woolastook Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.86907,
+      "lon": -66.90133,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1194653932",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-aspen-brook-provincial-park-node1519697391",
+      "country": "CA",
+      "state": "NL",
+      "name": "Aspen Brook Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.95349,
+      "lon": -55.90943,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1519697391",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-backside-pond-provincial-park-node1435587055",
+      "country": "CA",
+      "state": "NL",
+      "name": "Backside Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.66536,
+      "lon": -53.49278,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1435587055",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-baie-verte-provincial-park-node1555024248",
+      "country": "CA",
+      "state": "NL",
+      "name": "Baie Verte Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.44089,
+      "lon": -56.48897,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1555024248",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-barachois-pond-provincial-park-way154413349",
+      "country": "CA",
+      "state": "NL",
+      "name": "Barachois Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.4813,
+      "lon": -58.27708,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.parksnl.ca/parks/barachois-pond-provincial-park/",
+      "osmId": "way/154413349",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-barachois-provincial-park-node1715482986",
+      "country": "CA",
+      "state": "NL",
+      "name": "Barachois Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.14166,
+      "lon": -60.44412,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1715482986",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-bellevue-beach-provincial-park-node1452432765",
+      "country": "CA",
+      "state": "NL",
+      "name": "Bellevue Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.63442,
+      "lon": -53.76806,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1452432765",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-beothuck-provincial-park-node1519697393",
+      "country": "CA",
+      "state": "NL",
+      "name": "Beothuck Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.94305,
+      "lon": -55.70544,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1519697393",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-black-bank-provincial-park-node1505460094",
+      "country": "CA",
+      "state": "NL",
+      "name": "Black Bank Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.46563,
+      "lon": -58.43097,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1505460094",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-blue-ponds-provincial-park-node1506548839",
+      "country": "CA",
+      "state": "NL",
+      "name": "Blue Ponds Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.79106,
+      "lon": -58.06952,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1506548839",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-bottle-cove-provincial-park-node1506706731",
+      "country": "CA",
+      "state": "NL",
+      "name": "Bottle Cove Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.11839,
+      "lon": -58.40701,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1506706731",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-brudenell-river-provincial-park-node9970016945",
+      "country": "CA",
+      "state": "NL",
+      "name": "Brudenell River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.20111,
+      "lon": -62.58162,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/9970016945",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-cable-head-provincial-park-node2104915689",
+      "country": "CA",
+      "state": "NL",
+      "name": "Cable Head Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.45001,
+      "lon": -62.66496,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2104915689",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-cape-smokey-provincial-park-way342237336",
+      "country": "CA",
+      "state": "NL",
+      "name": "Cape Smokey Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.59558,
+      "lon": -60.38056,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/park/cape-smokey",
+      "osmId": "way/342237336",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-catamaran-provincial-park-node1559611231",
+      "country": "CA",
+      "state": "NL",
+      "name": "Catamaran Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.05215,
+      "lon": -56.08179,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1559611231",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-cataracts-provincial-park-way152092173",
+      "country": "CA",
+      "state": "NL",
+      "name": "Cataracts Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.24265,
+      "lon": -53.62897,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/152092173",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-chance-cove-provincial-park-node1288238821",
+      "country": "CA",
+      "state": "NL",
+      "name": "Chance Cove Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.74696,
+      "lon": -53.0383,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1288238821",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-chance-cove-provincial-park-node1288238968",
+      "country": "CA",
+      "state": "NL",
+      "name": "Chance Cove Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.74762,
+      "lon": -53.02202,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1288238968",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-chance-cove-provincial-park-node1439776434",
+      "country": "CA",
+      "state": "NL",
+      "name": "Chance Cove Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.77403,
+      "lon": -53.03245,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1439776434",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-codroy-valley-provincial-park-node1366859459",
+      "country": "CA",
+      "state": "NL",
+      "name": "Codroy Valley Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.83315,
+      "lon": -59.33677,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1366859459",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-crabbe-s-river-provincial-park-node1475539918",
+      "country": "CA",
+      "state": "NL",
+      "name": "Crabbe's River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.17439,
+      "lon": -58.77729,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1475539918",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-dalem-lake-provincial-park-node1716400167",
+      "country": "CA",
+      "state": "NL",
+      "name": "Dalem Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.24738,
+      "lon": -60.42775,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1716400167",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-dalem-lake-provincial-park-node2190453357",
+      "country": "CA",
+      "state": "NL",
+      "name": "Dalem Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.25296,
+      "lon": -60.42695,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2190453357",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-david-smallwood-provincial-park-node1475360027",
+      "country": "CA",
+      "state": "NL",
+      "name": "David Smallwood Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.80495,
+      "lon": -54.22018,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1475360027",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-dildo-run-provincial-park-node1490453409",
+      "country": "CA",
+      "state": "NL",
+      "name": "Dildo Run Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.52835,
+      "lon": -54.7559,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.parksnl.ca/parks/dildo-run-provincial-park/",
+      "osmId": "node/1490453409",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-dungeon-provincial-park-node1446753200",
+      "country": "CA",
+      "state": "NL",
+      "name": "Dungeon Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.66681,
+      "lon": -53.08445,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1446753200",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-eastport-north-arm-provincial-park-node1459444123",
+      "country": "CA",
+      "state": "NL",
+      "name": "Eastport North Arm Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.65962,
+      "lon": -53.75862,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1459444123",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-father-duffy-s-well-provincial-park-node1437116443",
+      "country": "CA",
+      "state": "NL",
+      "name": "Father Duffy's Well Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.275,
+      "lon": -53.275,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1437116443",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-flatwater-pond-provincial-park-node1548136500",
+      "country": "CA",
+      "state": "NL",
+      "name": "Flatwater Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.75711,
+      "lon": -56.31142,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1548136500",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-french-islands-provincial-park-node1507977551",
+      "country": "CA",
+      "state": "NL",
+      "name": "French Islands Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.92325,
+      "lon": -55.95457,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1507977551",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-frenchman-s-cove-provincial-park-node1509847745",
+      "country": "CA",
+      "state": "NL",
+      "name": "Frenchman's Cove Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.2108,
+      "lon": -55.40189,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1509847745",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-freshwater-pond-provincial-park-node1509847749",
+      "country": "CA",
+      "state": "NL",
+      "name": "Freshwater Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.0794,
+      "lon": -55.26005,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1509847749",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-glenwood-provincial-park-node1487628934",
+      "country": "CA",
+      "state": "NL",
+      "name": "Glenwood Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.95872,
+      "lon": -54.82884,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1487628934",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-gooseberry-cove-provincial-park-node1464616444",
+      "country": "CA",
+      "state": "NL",
+      "name": "Gooseberry Cove Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.0956,
+      "lon": -54.07429,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1464616444",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-grand-codroy-provincial-park-node1367806100",
+      "country": "CA",
+      "state": "NL",
+      "name": "Grand Codroy Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.83467,
+      "lon": -59.20628,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1367806100",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-indian-cove-neck-provincial-park-node1488034324",
+      "country": "CA",
+      "state": "NL",
+      "name": "Indian Cove Neck Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.33827,
+      "lon": -54.86914,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1488034324",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-indian-river-provincial-park-node1555024271",
+      "country": "CA",
+      "state": "NL",
+      "name": "Indian River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.48425,
+      "lon": -56.21942,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1555024271",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-jiggin-head-provincial-park-node1458400518",
+      "country": "CA",
+      "state": "NL",
+      "name": "Jiggin' Head Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.44518,
+      "lon": -53.53952,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1458400518",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-jipujijkuei-kuespem-provincial-park-node1512848234",
+      "country": "CA",
+      "state": "NL",
+      "name": "Jipujijkuei Kuespem Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.91611,
+      "lon": -55.59384,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1512848234",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-jonathan-s-pond-provincial-park-node1487971694",
+      "country": "CA",
+      "state": "NL",
+      "name": "Jonathan's Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.06637,
+      "lon": -54.53638,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1487971694",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-lake-o-law-provincial-park-way342237349",
+      "country": "CA",
+      "state": "NL",
+      "name": "Lake O'Law Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.27632,
+      "lon": -60.96187,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/park/lake-o-law",
+      "osmId": "way/342237349",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-lockston-path-provincial-park-node1446469958",
+      "country": "CA",
+      "state": "NL",
+      "name": "Lockston Path Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.44116,
+      "lon": -53.37847,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1446469958",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-maberly-provincial-park-node1446771005",
+      "country": "CA",
+      "state": "NL",
+      "name": "Maberly Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.62372,
+      "lon": -53.01671,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1446771005",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-mabou-provincial-park-way342237353",
+      "country": "CA",
+      "state": "NL",
+      "name": "Mabou Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.08164,
+      "lon": -61.37247,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/park/mabou",
+      "osmId": "way/342237353",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-mary-march-provincial-park-node1574290826",
+      "country": "CA",
+      "state": "NL",
+      "name": "Mary March Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.83184,
+      "lon": -56.53101,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1574290826",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-mount-stewart-provincial-park-node2102111030",
+      "country": "CA",
+      "state": "NL",
+      "name": "Mount Stewart Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.37114,
+      "lon": -62.87676,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2102111030",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-mummichog-provincial-park-node1366855811",
+      "country": "CA",
+      "state": "NL",
+      "name": "Mummichog Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.76149,
+      "lon": -59.28217,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1366855811",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-northeast-arm-provincial-park-node1459444132",
+      "country": "CA",
+      "state": "NL",
+      "name": "Northeast Arm Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.65242,
+      "lon": -53.86276,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1459444132",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-notre-dame-provincial-park-node1520526224",
+      "country": "CA",
+      "state": "NL",
+      "name": "Notre Dame Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.11643,
+      "lon": -55.08944,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1520526224",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-otter-bay-provincial-park-node1493885022",
+      "country": "CA",
+      "state": "NL",
+      "name": "Otter Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.61656,
+      "lon": -58.91583,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1493885022",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-panmure-island-provincial-park-node2186383699",
+      "country": "CA",
+      "state": "NL",
+      "name": "Panmure Island Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.12339,
+      "lon": -62.46636,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2186383699",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-pinette-provincial-park-node2184669835",
+      "country": "CA",
+      "state": "NL",
+      "name": "Pinette Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.05561,
+      "lon": -62.91084,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2184669835",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-pinware-river-provincial-park-way1040673685",
+      "country": "CA",
+      "state": "NL",
+      "name": "Pinware River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.63679,
+      "lon": -56.70317,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/1040673685",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-pipers-hole-river-provincial-park-node1467473688",
+      "country": "CA",
+      "state": "NL",
+      "name": "Pipers Hole River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.93161,
+      "lon": -54.27482,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1467473688",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-plaster-provincial-park-node2190368308",
+      "country": "CA",
+      "state": "NL",
+      "name": "Plaster Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.41478,
+      "lon": -60.47429,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2190368308",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-point-au-mal-provincial-park-node1498754568",
+      "country": "CA",
+      "state": "NL",
+      "name": "Point au Mal Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.64872,
+      "lon": -58.67313,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1498754568",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-rattle-falls-provincial-park-node1458405621",
+      "country": "CA",
+      "state": "NL",
+      "name": "Rattle Falls Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.39215,
+      "lon": -53.60173,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1458405621",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-river-of-ponds-provincial-park-node1542759755",
+      "country": "CA",
+      "state": "NL",
+      "name": "River of Ponds Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.52037,
+      "lon": -57.37908,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1542759755",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-s-w-margaree-provincial-park-way342237359",
+      "country": "CA",
+      "state": "NL",
+      "name": "S. W. Margaree Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.28163,
+      "lon": -61.16652,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237359",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-sir-richard-squires-memorial-provincial-park-node4220613466",
+      "country": "CA",
+      "state": "NL",
+      "name": "Sir Richard Squires Memorial Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.35552,
+      "lon": -57.19781,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/4220613466",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-sop-s-arm-provincial-park-node1548889633",
+      "country": "CA",
+      "state": "NL",
+      "name": "Sop's Arm Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.76549,
+      "lon": -56.90775,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1548889633",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-square-pond-provincial-park-node5915798894",
+      "country": "CA",
+      "state": "NL",
+      "name": "Square Pond Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.80099,
+      "lon": -54.29264,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/5915798894",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "node/1475082252"
+      ]
+    },
+    {
+      "id": "sp-ca-nl-stag-lake-provincial-park-node1506548845",
+      "country": "CA",
+      "state": "NL",
+      "name": "Stag Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.83562,
+      "lon": -58.01356,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1506548845",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-the-arches-provincial-park-node1546465380",
+      "country": "CA",
+      "state": "NL",
+      "name": "The Arches Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.11609,
+      "lon": -57.66334,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1546465380",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-three-mile-lake-provincial-park-node1541676949",
+      "country": "CA",
+      "state": "NL",
+      "name": "Three Mile Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.994,
+      "lon": -56.86222,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1541676949",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-topsail-beach-provincial-park-node1301359167",
+      "country": "CA",
+      "state": "NL",
+      "name": "Topsail Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.54667,
+      "lon": -52.91573,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1301359167",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nl-windmill-bight-provincial-park-node1462653523",
+      "country": "CA",
+      "state": "NL",
+      "name": "Windmill Bight Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.27476,
+      "lon": -53.56409,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1462653523",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-arisaig-provincial-park-way342237331",
+      "country": "CA",
+      "state": "NS",
+      "name": "Arisaig Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.75511,
+      "lon": -62.17179,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237331",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-battery-provincial-park-way342237333",
+      "country": "CA",
+      "state": "NS",
+      "name": "Battery Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.65051,
+      "lon": -60.869,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/park/battery",
+      "osmId": "way/342237333",
+      "osmConfidence": "name",
+      "mergeSources": [
+        "osm"
+      ],
+      "altOsmIds": [
+        "node/2330885299"
+      ]
+    },
+    {
+      "id": "sp-ca-ns-beaver-mountain-provincial-park-node2439939059",
+      "country": "CA",
+      "state": "NS",
+      "name": "Beaver Mountain Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.56477,
+      "lon": -62.16204,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2439939059",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-clam-harbour-beach-provincial-park-node1812053597",
+      "country": "CA",
+      "state": "NS",
+      "name": "Clam Harbour Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.73458,
+      "lon": -62.8948,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1812053597",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-ellenwood-lake-provincial-park-node1140652504",
+      "country": "CA",
+      "state": "NS",
+      "name": "Ellenwood Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 43.92825,
+      "lon": -66.00256,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1140652504",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-ellenwood-lake-provincial-park-node1143077601",
+      "country": "CA",
+      "state": "NS",
+      "name": "Ellenwood Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 43.92638,
+      "lon": -65.99672,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1143077601",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-lawrencetown-beach-provincial-park-node1710844212",
+      "country": "CA",
+      "state": "NS",
+      "name": "Lawrencetown Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.64232,
+      "lon": -63.35326,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1710844212",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-lochiel-lake-provincial-park-way342237350",
+      "country": "CA",
+      "state": "NS",
+      "name": "Lochiel Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.35504,
+      "lon": -62.05884,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/content/lochiel-lake",
+      "osmId": "way/342237350",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-long-point-provincial-park-way342237351",
+      "country": "CA",
+      "state": "NS",
+      "name": "Long Point Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.81201,
+      "lon": -61.48151,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237351",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-marie-joseph-provincial-park-node1822389840",
+      "country": "CA",
+      "state": "NS",
+      "name": "Marie Joseph Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.97028,
+      "lon": -62.0832,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1822389840",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-martinique-beach-provincial-park-node1692564884",
+      "country": "CA",
+      "state": "NS",
+      "name": "Martinique Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.69225,
+      "lon": -63.12224,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1692564884",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-mavilette-beach-provincial-park-node1156879575",
+      "country": "CA",
+      "state": "NS",
+      "name": "Mavilette Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.08728,
+      "lon": -66.19693,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1156879575",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-porters-lake-provincial-park-node1710844248",
+      "country": "CA",
+      "state": "NS",
+      "name": "Porters Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.6874,
+      "lon": -63.30129,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1710844248",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-rainbow-haven-beach-provincial-park-node1713429746",
+      "country": "CA",
+      "state": "NS",
+      "name": "Rainbow Haven Beach Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.64729,
+      "lon": -63.41819,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1713429746",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-salsman-provincial-park-node2435974601",
+      "country": "CA",
+      "state": "NS",
+      "name": "Salsman Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.23639,
+      "lon": -61.76869,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2435974601",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-salt-springs-provincial-park-node2475696316",
+      "country": "CA",
+      "state": "NS",
+      "name": "Salt Springs Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.54461,
+      "lon": -62.87861,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2475696316",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-second-peninsula-provincial-park-way342237363",
+      "country": "CA",
+      "state": "NS",
+      "name": "Second Peninsula Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.40448,
+      "lon": -64.29549,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://parks.novascotia.ca/park/second-peninsula",
+      "osmId": "way/342237363",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-taylor-head-provincial-park-node1808359770",
+      "country": "CA",
+      "state": "NS",
+      "name": "Taylor Head Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.8308,
+      "lon": -62.5774,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1808359770",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-whycocomagh-provincial-park-node2332628740",
+      "country": "CA",
+      "state": "NS",
+      "name": "Whycocomagh Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.96676,
+      "lon": -61.10466,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2332628740",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-ns-william-de-garthe-provincial-park-way342237372",
+      "country": "CA",
+      "state": "NS",
+      "name": "William de Garthe Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.49402,
+      "lon": -63.91416,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/342237372",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3613763701",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.38292,
+      "lon": -86.95854,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3613763701",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3615981709",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.49916,
+      "lon": -86.63576,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3615981709",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3623257818",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.64703,
+      "lon": -86.38451,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3623257818",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3623257819",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.64718,
+      "lon": -86.39291,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3623257819",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3629613345",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.50036,
+      "lon": -86.62695,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3629613345",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3629613346",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.50036,
+      "lon": -86.63297,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3629613346",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3629772232",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.5005,
+      "lon": -86.61453,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3629772232",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3629772233",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.5336,
+      "lon": -86.50051,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3629772233",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3653352734",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.75866,
+      "lon": -86.30393,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3653352734",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-albany-river-provincial-park-node3653352735",
+      "country": "CA",
+      "state": "NU",
+      "name": "Albany River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.76211,
+      "lon": -86.31131,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3653352735",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-blackstrap-provincial-park-node2605100460",
+      "country": "CA",
+      "state": "NU",
+      "name": "Blackstrap Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.73437,
+      "lon": -106.45806,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2605100460",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-danielson-provincial-park-node2605605514",
+      "country": "CA",
+      "state": "NU",
+      "name": "Danielson Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.25989,
+      "lon": -106.9142,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2605605514",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-duley-lake-provincial-park-node9585676422",
+      "country": "CA",
+      "state": "NU",
+      "name": "Duley Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 52.89578,
+      "lon": -67.00112,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/9585676422",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-good-spirit-lake-provincial-park-node2615867139",
+      "country": "CA",
+      "state": "NU",
+      "name": "Good Spirit Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.50772,
+      "lon": -102.61948,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2615867139",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-good-spirit-lake-provincial-park-node2615867140",
+      "country": "CA",
+      "state": "NU",
+      "name": "Good Spirit Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.5894,
+      "lon": -102.72041,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2615867140",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-nu-pike-lake-provincial-park-way288117721",
+      "country": "CA",
+      "state": "NU",
+      "name": "Pike Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 51.89726,
+      "lon": -106.81878,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://saskparks.tourismsaskatchewan.com/pike-lake",
+      "osmId": "way/288117721",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1169309620",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.71437,
+      "lon": -79.01162,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1169309620",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1201687376",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.88774,
+      "lon": -78.74517,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1201687376",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1208130392",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.73186,
+      "lon": -77.8049,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1208130392",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1218265274",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.862,
+      "lon": -79.04802,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1218265274",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1218949459",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.87548,
+      "lon": -77.74987,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1218949459",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1225978965",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.01632,
+      "lon": -79.07668,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1225978965",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-algonquin-provincial-park-node1226117579",
+      "country": "CA",
+      "state": "ON",
+      "name": "Algonquin Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.04716,
+      "lon": -78.75276,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1226117579",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-attlee-central-forest-conservation-reserve-way1510142583",
+      "country": "CA",
+      "state": "ON",
+      "name": "Attlee Central Forest Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.15571,
+      "lon": -81.03113,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510142583",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-attlee-conservation-reserve-way1510142582",
+      "country": "CA",
+      "state": "ON",
+      "name": "Attlee Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.1488,
+      "lon": -80.9995,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510142582",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-aubrey-falls-provincial-park-node2691605147",
+      "country": "CA",
+      "state": "ON",
+      "name": "Aubrey Falls Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.92939,
+      "lon": -83.17216,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2691605147",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-balsam-lake-provincial-park-way58242255",
+      "country": "CA",
+      "state": "ON",
+      "name": "Balsam Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.61971,
+      "lon": -78.85154,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/balsamlake",
+      "osmId": "way/58242255",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-bell-bay-provincial-park-node1178637380",
+      "country": "CA",
+      "state": "ON",
+      "name": "Bell Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.49274,
+      "lon": -77.8824,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1178637380",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-bell-bay-provincial-park-node1206644596",
+      "country": "CA",
+      "state": "ON",
+      "name": "Bell Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.50147,
+      "lon": -77.87783,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1206644596",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-bonnechere-river-provincial-park-node1208132178",
+      "country": "CA",
+      "state": "ON",
+      "name": "Bonnechere River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.68876,
+      "lon": -77.75529,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1208132178",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-byrnes-lake-white-birch-conservation-reserve-way1510407992",
+      "country": "CA",
+      "state": "ON",
+      "name": "Byrnes Lake White Birch Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.37506,
+      "lon": -83.48653,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510407992",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-cardwell-township-old-growth-conservation-reserv-way1510793242",
+      "country": "CA",
+      "state": "ON",
+      "name": "Cardwell Township Old Growth Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.27822,
+      "lon": -79.61308,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510793242",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-carson-lake-provincial-park-way1388658958",
+      "country": "CA",
+      "state": "ON",
+      "name": "Carson Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.50075,
+      "lon": -77.74675,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/1388658958",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-castle-creek-provincial-park-way778654784",
+      "country": "CA",
+      "state": "ON",
+      "name": "Castle Creek Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.20749,
+      "lon": -90.0727,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/778654784",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-cavern-lake-provincial-park-way416442347",
+      "country": "CA",
+      "state": "ON",
+      "name": "Cavern Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.83622,
+      "lon": -88.68339,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/416442347",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-chutes-provincial-park-node2616837052",
+      "country": "CA",
+      "state": "ON",
+      "name": "Chutes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.2228,
+      "lon": -82.07064,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2616837052",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-devon-road-mesa-provincial-nature-reserve-way827868880",
+      "country": "CA",
+      "state": "ON",
+      "name": "Devon Road Mesa Provincial Nature Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.04865,
+      "lon": -89.66886,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/827868880",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-dividing-lake-provincial-park-way1387383051",
+      "country": "CA",
+      "state": "ON",
+      "name": "Dividing Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.39288,
+      "lon": -78.61362,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/1387383051",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-eden-township-forest-conservation-reserve-way1510142580",
+      "country": "CA",
+      "state": "ON",
+      "name": "Eden Township Forest Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.32978,
+      "lon": -81.14063,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510142580",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-esker-lakes-provincial-park-way850727368",
+      "country": "CA",
+      "state": "ON",
+      "name": "Esker Lakes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.32421,
+      "lon": -79.88759,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/eskerlakes",
+      "osmId": "way/850727368",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-fairbank-provincial-park-way850732664",
+      "country": "CA",
+      "state": "ON",
+      "name": "Fairbank Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.47355,
+      "lon": -81.43941,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/fairbank",
+      "osmId": "way/850732664",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-five-mile-lake-provincial-park-node2961311972",
+      "country": "CA",
+      "state": "ON",
+      "name": "Five Mile Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.57073,
+      "lon": -83.22823,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2961311972",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-foy-property-provincial-park-node5633771131",
+      "country": "CA",
+      "state": "ON",
+      "name": "Foy Property Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.66084,
+      "lon": -77.50452,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/5633771131",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-foy-provincial-park-way591071937",
+      "country": "CA",
+      "state": "ON",
+      "name": "Foy Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.65331,
+      "lon": -77.50784,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/foyproperty",
+      "osmId": "way/591071937",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-fraleigh-lake-provincial-park-way779108311",
+      "country": "CA",
+      "state": "ON",
+      "name": "Fraleigh Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.20086,
+      "lon": -89.85306,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/779108311",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1378731363",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.93124,
+      "lon": -81.04156,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1378731363",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1421478950",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.12957,
+      "lon": -80.00521,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1421478950",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1421587955",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.07961,
+      "lon": -80.17925,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1421587955",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1422020497",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.0326,
+      "lon": -80.3632,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1422020497",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1422353838",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.03286,
+      "lon": -80.49633,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1422353838",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1456775152",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.00885,
+      "lon": -80.75128,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1456775152",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-french-river-provincial-park-node1475338914",
+      "country": "CA",
+      "state": "ON",
+      "name": "French River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.94708,
+      "lon": -80.88122,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1475338914",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-gibson-river-provincial-park-way59463754",
+      "country": "CA",
+      "state": "ON",
+      "name": "Gibson River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.94516,
+      "lon": -79.69924,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/59463754",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-greenwater-provincial-park-node3295484436",
+      "country": "CA",
+      "state": "ON",
+      "name": "Greenwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.21496,
+      "lon": -81.28247,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3295484436",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-greenwater-provincial-park-node3336916256",
+      "country": "CA",
+      "state": "ON",
+      "name": "Greenwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.25137,
+      "lon": -81.29146,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3336916256",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-harmony-forest-conservation-reserve-way1511789254",
+      "country": "CA",
+      "state": "ON",
+      "name": "Harmony Forest Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.05419,
+      "lon": -84.24724,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1511789254",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-ipperwash-provincial-park-node1315574086",
+      "country": "CA",
+      "state": "ON",
+      "name": "Ipperwash Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 43.21658,
+      "lon": -81.95343,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1315574086",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-ivanhoe-lake-provincial-park-node3046004352",
+      "country": "CA",
+      "state": "ON",
+      "name": "Ivanhoe Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.16134,
+      "lon": -82.49845,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "http://www.ontarioparks.com/park/ivanhoelake",
+      "osmId": "node/3046004352",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-ivanhoe-lake-provincial-park-node3055785869",
+      "country": "CA",
+      "state": "ON",
+      "name": "Ivanhoe Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.14084,
+      "lon": -82.53139,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3055785869",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-jollineau-conservation-reserve-way1511789253",
+      "country": "CA",
+      "state": "ON",
+      "name": "Jollineau Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.80997,
+      "lon": -83.63282,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1511789253",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-kesagami-provincial-park-node3407739183",
+      "country": "CA",
+      "state": "ON",
+      "name": "Kesagami Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.30562,
+      "lon": -80.26493,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3407739183",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-kesagami-provincial-park-node3409342237",
+      "country": "CA",
+      "state": "ON",
+      "name": "Kesagami Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.44975,
+      "lon": -80.17352,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3409342237",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-kesagami-provincial-park-node3412009795",
+      "country": "CA",
+      "state": "ON",
+      "name": "Kesagami Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.62786,
+      "lon": -80.0641,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3412009795",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-kettle-lakes-provincial-park-way431914469",
+      "country": "CA",
+      "state": "ON",
+      "name": "Kettle Lakes Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.57249,
+      "lon": -80.88035,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/kettlelakes",
+      "osmId": "way/431914469",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-la-cloche-provincial-park-node2475929571",
+      "country": "CA",
+      "state": "ON",
+      "name": "La Cloche Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.10817,
+      "lon": -81.99554,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2475929571",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-la-cloche-provincial-park-node2618008926",
+      "country": "CA",
+      "state": "ON",
+      "name": "La Cloche Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.12283,
+      "lon": -82.05988,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2618008926",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-la-motte-lake-provincial-park-node2995136450",
+      "country": "CA",
+      "state": "ON",
+      "name": "La Motte Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.73854,
+      "lon": -81.65614,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2995136450",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-lady-evelyn-smoothwater-provincial-park-node2976169297",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lady Evelyn-Smoothwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.24327,
+      "lon": -80.29812,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2976169297",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-lady-evelyn-smoothwater-provincial-park-node2978330800",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lady Evelyn-Smoothwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.23066,
+      "lon": -80.57171,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2978330800",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-lady-evelyn-smoothwater-provincial-park-node2987048063",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lady Evelyn-Smoothwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.35896,
+      "lon": -80.63746,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2987048063",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-lady-evelyn-smoothwater-provincial-park-node2988263887",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lady Evelyn-Smoothwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.39251,
+      "lon": -80.37117,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2988263887",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-lady-evelyn-smoothwater-provincial-park-node2990008320",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lady Evelyn-Smoothwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.50752,
+      "lon": -80.40839,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2990008320",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-lake-st-peter-provincial-park-way458349548",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lake St. Peter Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.33142,
+      "lon": -78.02282,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/lakestpeter",
+      "osmId": "way/458349548",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-laverendrye-provincial-park-node5517508089",
+      "country": "CA",
+      "state": "ON",
+      "name": "LaVerendrye Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.25883,
+      "lon": -90.89199,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/5517508089",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3346803652",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.47609,
+      "lon": -80.73269,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3346803652",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3362224343",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.5604,
+      "lon": -80.81132,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3362224343",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3362382763",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.67547,
+      "lon": -80.90385,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3362382763",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3366993711",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.72027,
+      "lon": -81.0043,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3366993711",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3366993712",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.74797,
+      "lon": -81.03437,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3366993712",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3375695924",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.98496,
+      "lon": -81.52772,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3375695924",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3378790130",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.95424,
+      "lon": -81.38195,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3378790130",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3378864479",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.8945,
+      "lon": -81.22579,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3378864479",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-abitibi-provincial-park-node3380106198",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Abitibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.77999,
+      "lon": -81.12851,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3380106198",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-little-spring-lake-conservation-reserve-way1510793241",
+      "country": "CA",
+      "state": "ON",
+      "name": "Little Spring Lake Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.73486,
+      "lon": -79.69393,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510793241",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-lower-madawaska-river-provincial-park-node5993289802",
+      "country": "CA",
+      "state": "ON",
+      "name": "Lower Madawaska River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.25349,
+      "lon": -77.3912,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/5993289802",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-macleod-provincial-park-way1311895342",
+      "country": "CA",
+      "state": "ON",
+      "name": "MacLeod Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.68845,
+      "lon": -86.8944,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.ca/park/macleod",
+      "osmId": "way/1311895342",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-makobe-grays-river-provincial-park-node2990008321",
+      "country": "CA",
+      "state": "ON",
+      "name": "Makobe-Grays River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.52346,
+      "lon": -80.39393,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2990008321",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-makobe-grays-river-provincial-park-node2990008322",
+      "country": "CA",
+      "state": "ON",
+      "name": "Makobe-Grays River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.61812,
+      "lon": -80.39393,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2990008322",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-makobe-grays-river-provincial-park-node2990228173",
+      "country": "CA",
+      "state": "ON",
+      "name": "Makobe-Grays River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.70187,
+      "lon": -80.359,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2990228173",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-marten-river-provincial-park-way571425027",
+      "country": "CA",
+      "state": "ON",
+      "name": "Marten River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.72422,
+      "lon": -79.81343,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.ca/park/martenriver",
+      "osmId": "way/571425027",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mashkinonje-provincial-park-node1424709349",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mashkinonje Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.24758,
+      "lon": -80.33178,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1424709349",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mashkinonje-provincial-park-node2515382539",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mashkinonje Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.2587,
+      "lon": -80.32823,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2515382539",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mattawa-river-provincial-park-node8191287084",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mattawa River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.32965,
+      "lon": -79.08736,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/8191287084",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-michipicoten-provincial-park-way745390843",
+      "country": "CA",
+      "state": "ON",
+      "name": "Michipicoten Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.91619,
+      "lon": -84.81544,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/michipicoten",
+      "osmId": "way/745390843",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-missinaibi-provincial-park-node3083728866",
+      "country": "CA",
+      "state": "ON",
+      "name": "Missinaibi Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.51837,
+      "lon": -83.46177,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3083728866",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2693568546",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.94416,
+      "lon": -82.75633,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2693568546",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2693754338",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.93512,
+      "lon": -82.87164,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2693754338",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2693810519",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.90177,
+      "lon": -82.67987,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2693810519",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2695121184",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.95158,
+      "lon": -82.50322,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2695121184",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2695121185",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.97116,
+      "lon": -82.61391,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2695121185",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2695121186",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.98741,
+      "lon": -82.51133,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2695121186",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2697029912",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.94846,
+      "lon": -82.44677,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2697029912",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2697029913",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.94961,
+      "lon": -82.49869,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2697029913",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2697029914",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.98767,
+      "lon": -82.49926,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2697029914",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2930247072",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.29965,
+      "lon": -82.42973,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2930247072",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-mississagi-river-provincial-park-node2930247073",
+      "country": "CA",
+      "state": "ON",
+      "name": "Mississagi River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.30117,
+      "lon": -82.29919,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2930247073",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-nagagamisis-provincial-park-node3173316583",
+      "country": "CA",
+      "state": "ON",
+      "name": "Nagagamisis Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.46495,
+      "lon": -84.61218,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3173316583",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-northern-mcconkey-conservation-reserve-way1510142586",
+      "country": "CA",
+      "state": "ON",
+      "name": "Northern McConkey Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.98388,
+      "lon": -80.14953,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510142586",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-o-connor-conservation-reserve-way1511789255",
+      "country": "CA",
+      "state": "ON",
+      "name": "O'Connor Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.00473,
+      "lon": -84.10912,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1511789255",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-opeongo-river-provincial-park-node1206644801",
+      "country": "CA",
+      "state": "ON",
+      "name": "Opeongo River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.50877,
+      "lon": -77.94771,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1206644801",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-opeongo-river-provincial-park-node1206881521",
+      "country": "CA",
+      "state": "ON",
+      "name": "Opeongo River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.6234,
+      "lon": -77.97392,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1206881521",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-our-colleagues-conservation-reserve-way1511789256",
+      "country": "CA",
+      "state": "ON",
+      "name": "Our Colleagues Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.61739,
+      "lon": -82.51177,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1511789256",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-quackenbush-provincial-park-node2041448683",
+      "country": "CA",
+      "state": "ON",
+      "name": "Quackenbush Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.56116,
+      "lon": -78.00596,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2041448683",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-quetico-provincial-park-node2532988148",
+      "country": "CA",
+      "state": "ON",
+      "name": "Quetico Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.57771,
+      "lon": -91.25115,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2532988148",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-quetico-provincial-park-node2562802503",
+      "country": "CA",
+      "state": "ON",
+      "name": "Quetico Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.40802,
+      "lon": -91.73964,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2562802503",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-quetico-provincial-park-node5517541939",
+      "country": "CA",
+      "state": "ON",
+      "name": "Quetico Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.37462,
+      "lon": -90.9903,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/5517541939",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-rawhide-lake-conservation-reserve-way1510407991",
+      "country": "CA",
+      "state": "ON",
+      "name": "Rawhide Lake Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.65606,
+      "lon": -82.67407,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510407991",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-red-sucker-point-provincial-park-way1124217612",
+      "country": "CA",
+      "state": "ON",
+      "name": "Red Sucker Point Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.76524,
+      "lon": -86.47455,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/redsuckerpoint",
+      "osmId": "way/1124217612",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-ren-brunelle-provincial-park-node3191680098",
+      "country": "CA",
+      "state": "ON",
+      "name": "René Brunelle Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.37925,
+      "lon": -82.18824,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3191680098",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-ren-brunelle-provincial-park-node3191680099",
+      "country": "CA",
+      "state": "ON",
+      "name": "René Brunelle Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.46102,
+      "lon": -82.13787,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3191680099",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-r-serve-faunique-de-papineau-labelle-way558634613",
+      "country": "CA",
+      "state": "ON",
+      "name": "Réserve Faunique de Papineau-Labelle",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.14726,
+      "lon": -75.2109,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred"
+      ],
+      "url": "https://www.sepaq.com/rf/pal/index.dot",
+      "osmId": "way/558634613",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-rose-lake-dune-peatland-complex-conservation-res-way1510407993",
+      "country": "CA",
+      "state": "ON",
+      "name": "Rose Lake Dune Peatland Complex Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.38044,
+      "lon": -83.65667,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510407993",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-ruby-lake-provincial-park-way1066784766",
+      "country": "CA",
+      "state": "ON",
+      "name": "Ruby Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.97913,
+      "lon": -88.15388,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/1066784766",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-solace-provincial-park-node2978330802",
+      "country": "CA",
+      "state": "ON",
+      "name": "Solace Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.24775,
+      "lon": -80.8157,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2978330802",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-south-bay-provincial-park-way620144251",
+      "country": "CA",
+      "state": "ON",
+      "name": "South Bay Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.12269,
+      "lon": -79.60478,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/southbay",
+      "osmId": "way/620144251",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-springwater-provincial-park-way58244352",
+      "country": "CA",
+      "state": "ON",
+      "name": "Springwater Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 44.43654,
+      "lon": -79.7634,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/springwater",
+      "osmId": "way/58244352",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-stuart-lake-wetland-conservation-reserve-way1510410859",
+      "country": "CA",
+      "state": "ON",
+      "name": "Stuart Lake Wetland Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.57387,
+      "lon": -83.82106,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510410859",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-sturgeon-river-provincial-park-node2986732167",
+      "country": "CA",
+      "state": "ON",
+      "name": "Sturgeon River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 47.26713,
+      "lon": -80.76966,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2986732167",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-swan-lake-conservation-reserve-way1510142585",
+      "country": "CA",
+      "state": "ON",
+      "name": "Swan Lake Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.9634,
+      "lon": -80.13643,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510142585",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-the-massasauga-provincial-park-node1360077574",
+      "country": "CA",
+      "state": "ON",
+      "name": "The Massasauga Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.18115,
+      "lon": -80.04784,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1360077574",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-the-massasauga-provincial-park-way1387383032",
+      "country": "CA",
+      "state": "ON",
+      "name": "The Massasauga Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.12189,
+      "lon": -80.00272,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "way/1387383032",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-thessalon-river-delta-rock-lake-red-oak-conserva-way1510410860",
+      "country": "CA",
+      "state": "ON",
+      "name": "Thessalon River Delta/Rock Lake Red Oak Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.44742,
+      "lon": -83.75606,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510410860",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-tilton-forest-conservation-reserve-way1510142581",
+      "country": "CA",
+      "state": "ON",
+      "name": "Tilton Forest Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.34331,
+      "lon": -81.05677,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510142581",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-upper-madawaska-river-provincial-park-node1206633758",
+      "country": "CA",
+      "state": "ON",
+      "name": "Upper Madawaska River Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 45.52614,
+      "lon": -77.99216,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/1206633758",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-wabos-north-conservation-reserve-way1510788881",
+      "country": "CA",
+      "state": "ON",
+      "name": "Wabos North Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.85589,
+      "lon": -84.13569,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510788881",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-wabos-south-conservation-reserve-way1510788882",
+      "country": "CA",
+      "state": "ON",
+      "name": "Wabos South Conservation Reserve",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.8082,
+      "lon": -84.11744,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/1510788882",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-on-wanapitei-provincial-park-node2601600318",
+      "country": "CA",
+      "state": "ON",
+      "name": "Wanapitei Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.80122,
+      "lon": -80.75201,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2601600318",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-white-lake-provincial-park-node3126281884",
+      "country": "CA",
+      "state": "ON",
+      "name": "White Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 48.69619,
+      "lon": -85.67596,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/3126281884",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-on-windy-lake-provincial-park-node4725760735",
+      "country": "CA",
+      "state": "ON",
+      "name": "Windy Lake Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.62056,
+      "lon": -81.45014,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.ontarioparks.com/park/windylake",
+      "osmId": "node/4725760735",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-qc-r-serve-faunique-saint-maurice-node12677649826",
+      "country": "CA",
+      "state": "QC",
+      "name": "Réserve Faunique Saint-Maurice",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 46.90508,
+      "lon": -72.9336,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "node/12677649826",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-sk-buffalo-pound-provincial-park-node2590898590",
+      "country": "CA",
+      "state": "SK",
+      "name": "Buffalo Pound Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.58659,
+      "lon": -105.42145,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2590898590",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-sk-cannington-manor-provincial-park-node2616772402",
+      "country": "CA",
+      "state": "SK",
+      "name": "Cannington Manor Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.7204,
+      "lon": -102.08689,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2616772402",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-sk-chimney-coulee-provincial-historic-site-way1449266881",
+      "country": "CA",
+      "state": "SK",
+      "name": "Chimney Coulee Provincial Historic Site",
+      "designation": "Provincial Historic Site",
+      "category": "historic_site",
+      "lat": 49.57258,
+      "lon": -108.80638,
+      "source": "osm",
+      "needsReview": false,
+      "reviewReasons": [],
+      "url": "https://www.historicplaces.ca/en/rep-reg/place-lieu.aspx?id=2882",
+      "osmId": "way/1449266881",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-sk-cypress-hills-provincial-park-node2066817537",
+      "country": "CA",
+      "state": "SK",
+      "name": "Cypress Hills Provincial Park",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 49.62154,
+      "lon": -109.91192,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-url"
+      ],
+      "osmId": "node/2066817537",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-ca-sk-wascana-trails-recreation-site-way308252936",
+      "country": "CA",
+      "state": "SK",
+      "name": "Wascana Trails Recreation Site",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.55563,
+      "lon": -104.84216,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred",
+        "missing-url"
+      ],
+      "osmId": "way/308252936",
+      "osmConfidence": "operator"
+    },
+    {
+      "id": "sp-ca-sk-white-butte-trails-way165371377",
+      "country": "CA",
+      "state": "SK",
+      "name": "White Butte Trails",
+      "designation": "Provincial Park",
+      "category": "park",
+      "lat": 50.4707,
+      "lon": -104.38098,
+      "source": "osm",
+      "needsReview": true,
+      "reviewReasons": [
+        "operator-inferred"
+      ],
+      "url": "https://saskparks.tourismsaskatchewan.com/white-butte-trails",
+      "osmId": "way/165371377",
+      "osmConfidence": "operator"
+    }
+  ]
+}

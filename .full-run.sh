@@ -77,7 +77,14 @@ run node build-fuel-generic-explorer-embed.mjs
 run node build-camping-us-all.mjs
 run node build-camping-ca-all.mjs
 run node build-nps-us-cache.mjs
-run node build-nps-visitor-centers-all.mjs --skip-api
+vc_api_args=(--skip-api)
+if [[ -f .env ]] && grep -qE '^NPS_API_KEY=.+' .env; then
+  vc_api_args=(--require-api)
+  log "NPS visitor centers: NPS_API_KEY found — running API ingest"
+else
+  log "NPS visitor centers: no NPS_API_KEY — ArcGIS-only (--skip-api)"
+fi
+run node build-nps-visitor-centers-all.mjs "${vc_api_args[@]}"
 run node build-park-boundaries.mjs
 
 log "========================================"

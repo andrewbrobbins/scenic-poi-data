@@ -6,6 +6,8 @@ import { fetchArcgisAllFeatures, readJson, writeJson } from "./camping-us-lib.mj
 export const TOOLS_DIR = path.dirname(fileURLToPath(import.meta.url));
 export const INGEST_DIR = path.join(TOOLS_DIR, "nps-vc-us-ingest");
 export const MASTER_PATH = path.join(TOOLS_DIR, "nps-visitor-centers-us-master.json");
+export const QA_PATH = path.join(TOOLS_DIR, "nps-visitor-centers-qa.json");
+export const EMBED_PATH = path.join(TOOLS_DIR, "nps-visitor-centers-us-explorer-embed.js");
 export const NPS_GEO_PATH = path.join(TOOLS_DIR, "nps-us-geo.json");
 export const ARCGIS_POI_QUERY =
   "https://mapservices.nps.gov/arcgis/rest/services/NationalDatasets/NPS_Public_POIs/FeatureServer/0/query";
@@ -20,6 +22,12 @@ export function loadEnvFile() {
       process.env[m[1]] = m[2].replace(/^["']|["']$/g, "").trim();
     }
   }
+}
+
+/** True when a non-empty NPS_API_KEY is available (env or .env). */
+export function hasNpsApiKey() {
+  loadEnvFile();
+  return Boolean((process.env.NPS_API_KEY || "").trim());
 }
 
 export function slugify(s) {
@@ -236,4 +244,110 @@ export function addReview(record, reason, mapFlag) {
   if (!record.reviewReasons.includes(reason)) record.reviewReasons.push(reason);
   if (!record.verification.reviewReasons.includes(reason)) record.verification.reviewReasons.push(reason);
   if (mapFlag && !record.mapFlags.includes(mapFlag)) record.mapFlags.push(mapFlag);
+}
+
+export function clearReview(record, reason, mapFlag) {
+  record.reviewReasons = (record.reviewReasons || []).filter((r) => r !== reason);
+  record.verification.reviewReasons = (record.verification.reviewReasons || []).filter((r) => r !== reason);
+  if (mapFlag) record.mapFlags = (record.mapFlags || []).filter((f) => f !== mapFlag);
+  record.needsReview = record.reviewReasons.length > 0;
+  record.verification.needsReview = record.needsReview;
+}
+
+/** Approximate US state/territory centroids for coord fallback (affiliated areas, etc.). */
+const US_STATE_CENTROIDS = [
+  ["AL", 32.8, -86.8],
+  ["AK", 64.2, -152.5],
+  ["AZ", 34.3, -111.7],
+  ["AR", 34.8, -92.2],
+  ["CA", 37.2, -119.5],
+  ["CO", 39.0, -105.5],
+  ["CT", 41.6, -72.7],
+  ["DE", 39.0, -75.5],
+  ["DC", 38.9, -77.0],
+  ["FL", 28.6, -82.4],
+  ["GA", 32.7, -83.4],
+  ["HI", 20.8, -156.3],
+  ["ID", 44.4, -114.6],
+  ["IL", 40.0, -89.2],
+  ["IN", 39.9, -86.3],
+  ["IA", 42.0, -93.5],
+  ["KS", 38.5, -98.4],
+  ["KY", 37.8, -85.7],
+  ["LA", 31.0, -92.0],
+  ["ME", 45.4, -69.2],
+  ["MD", 39.0, -76.8],
+  ["MA", 42.3, -71.8],
+  ["MI", 44.3, -85.4],
+  ["MN", 46.3, -94.3],
+  ["MS", 32.7, -89.7],
+  ["MO", 38.4, -92.5],
+  ["MT", 47.0, -109.6],
+  ["NE", 41.5, -99.8],
+  ["NV", 39.3, -116.6],
+  ["NH", 43.7, -71.6],
+  ["NJ", 40.1, -74.7],
+  ["NM", 34.4, -106.1],
+  ["NY", 42.9, -75.5],
+  ["NC", 35.5, -79.4],
+  ["ND", 47.5, -100.5],
+  ["OH", 40.4, -82.8],
+  ["OK", 35.6, -97.5],
+  ["OR", 44.0, -120.5],
+  ["PA", 40.9, -77.8],
+  ["RI", 41.7, -71.5],
+  ["SC", 33.9, -80.9],
+  ["SD", 44.4, -100.2],
+  ["TN", 35.8, -86.3],
+  ["TX", 31.5, -99.4],
+  ["UT", 39.3, -111.7],
+  ["VT", 44.1, -72.7],
+  ["VA", 37.5, -78.7],
+  ["WA", 47.4, -120.5],
+  ["WV", 38.9, -80.5],
+  ["WI", 44.6, -89.8],
+  ["WY", 43.0, -107.5],
+  ["PR", 18.2, -66.5],
+  ["VI", 18.3, -64.8],
+  ["GU", 13.4, 144.7],
+  ["AS", -14.3, -170.7],
+  ["MP", 15.2, 145.7],
+];
+
+export function inferStateFromCoords(lat, lon) {
+  if (!coordValid(lat, lon)) return "";
+  let best = "";
+  let bestD = Infinity;
+  for (const [code, clat, clon] of US_STATE_CENTROIDS) {
+    const d = haversineM({ lat, lon }, { lat: clat, lon: clon });
+    if (d < bestD) {
+      bestD = d;
+      best = code;
+    }
+  }
+  return best;
+}
+
+/** Resolve two-letter state for a visitor center record. */
+export function resolveVisitorCenterState({ state, lat, lon, parkCode, parkStates = {} }) {
+  if (state) return state.split(",")[0].trim();
+  const code = (parkCode || "").toLowerCase();
+  if (code && parkStates[code]) return parkStates[code].split(",")[0].trim();
+  return inferStateFromCoords(lat, lon);
+}
+
+export function applyVisitorCenterState(record, parkStates) {
+  const resolved = resolveVisitorCenterState({
+    state: record.state,
+    lat: record.lat,
+    lon: record.lon,
+    parkCode: record.parkCode || record.parentUnit?.parkCode,
+    parkStates,
+  });
+  if (!resolved) return false;
+  record.state = resolved;
+  if (record.reviewReasons?.includes("missing-state")) {
+    clearReview(record, "missing-state", "NO_STATE");
+  }
+  return true;
 }

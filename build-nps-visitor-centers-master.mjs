@@ -4,14 +4,18 @@
  *
  * Usage:
  *   node build-nps-visitor-centers-master.mjs
- *   node build-nps-visitor-centers-master.mjs --verify-osm
+ *   node build-nps-visitor-centers-master.mjs --verify-osm [--refresh-osm]
+ *
+ * OSM verification uses local Geofabrik PBF only — never Overpass. See NPS-VISITOR-CENTERS.md.
  */
 import path from "path";
 import {
   INGEST_DIR,
   MASTER_PATH,
+  QA_PATH,
   TOOLS_DIR,
   addReview,
+  applyVisitorCenterState,
   baseRecord,
   coordValid,
   haversineM,
@@ -23,14 +27,18 @@ import {
   resolveParentUnit,
   seasonFromArcgis,
   summarizeHours,
+  inferStateFromCoords,
   vcId,
   writeJson,
 } from "./nps-visitor-centers-lib.mjs";
+import {
+  loadOsmCandidateIndex,
+  nearestOsmFromIndex,
+  OSM_VERIFY_RADIUS_M,
+} from "./nps-visitor-centers-osm-verify.mjs";
 
-const QA_PATH = path.join(TOOLS_DIR, "nps-visitor-centers-qa.json");
 const COORD_MISMATCH_M = 200;
-const OSM_VERIFY_RADIUS_M = 350;
-const OSM_DELAY_MS = 1100;
+const OSM_FAR_THRESHOLD_M = 150;
 
 function loadArcgisRecords() {
   const p = path.join(INGEST_DIR, "01-arcgis-poi", "visitor-centers.json");
@@ -49,7 +57,7 @@ function stateFromApi(vc, parentUnit, parkStates) {
   if (addr?.stateCode) return addr.stateCode;
   const code = parentUnit?.parkCode?.toLowerCase();
   if (code && parkStates[code]) return parkStates[code].split(",")[0];
-  return "";
+  return inferStateFromCoords(vc.lat, vc.lon);
 }
 
 function urlsFromApi(vc, parentUnit) {
@@ -150,77 +158,44 @@ function recordFromArcgis(ar) {
   return copy;
 }
 
-async function overpassNearest(lat, lon) {
-  const query = `
-[out:json][timeout:60];
-(
-  node(around:${OSM_VERIFY_RADIUS_M},${lat},${lon})["tourism"="information"];
-  node(around:${OSM_VERIFY_RADIUS_M},${lat},${lon})["information"="visitor_centre"];
-  node(around:${OSM_VERIFY_RADIUS_M},${lat},${lon})["amenity"="ranger_station"];
-  way(around:${OSM_VERIFY_RADIUS_M},${lat},${lon})["tourism"="information"];
-  way(around:${OSM_VERIFY_RADIUS_M},${lat},${lon})["information"="visitor_centre"];
-);
-out center tags;`;
-  const res = await fetch("https://overpass.kumi.systems/api/interpreter", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/x-www-form-urlencoded",
-      "User-Agent": "scenic-poi-data-nps-vc/1.0",
-    },
-    body: "data=" + encodeURIComponent(query),
-  });
-  if (!res.ok) throw new Error("Overpass HTTP " + res.status);
-  const j = await res.json();
-  const elements = j.elements || [];
-  let best = null;
-  let bestD = Infinity;
-  for (const el of elements) {
-    const elat = el.lat ?? el.center?.lat;
-    const elon = el.lon ?? el.center?.lon;
-    if (!Number.isFinite(elat) || !Number.isFinite(elon)) continue;
-    const d = haversineM({ lat, lon }, { lat: elat, lon: elon });
-    if (d < bestD) {
-      bestD = d;
-      best = { id: el.id, type: el.type, lat: elat, lon: elon, tags: el.tags || {}, distanceM: d };
-    }
-  }
-  return best;
-}
-
-async function runOsmVerification(master) {
-  console.log("OSM verification:", master.length, "records (slow)...");
+async function runOsmVerification(master, { refreshOsm = false } = {}) {
+  const index = await loadOsmCandidateIndex({ refresh: refreshOsm });
+  console.log("OSM verification (local PBF):", master.length, "records...");
   let checked = 0;
   for (const rec of master) {
     if (!coordValid(rec.lat, rec.lon)) continue;
-    try {
-      const hit = await overpassNearest(rec.lat, rec.lon);
-      if (hit) {
-        rec.verification.osmDistanceM = Math.round(hit.distanceM);
-        rec.verification.osmId = `${hit.type}/${hit.id}`;
-        if (hit.distanceM > 150) {
-          addReview(rec, "osm-far-from-vc", "OSM_FAR");
-        }
-      } else {
-        rec.verification.osmDistanceM = null;
-        addReview(rec, "no-osm-nearby", "NO_OSM");
+    const hit = nearestOsmFromIndex(index, rec.lat, rec.lon, OSM_VERIFY_RADIUS_M);
+    rec.verification.osmChecked = true;
+    if (hit) {
+      rec.verification.osmDistanceM = Math.round(hit.distanceM);
+      rec.verification.osmId = `${hit.type}/${hit.id}`;
+      if (hit.distanceM > OSM_FAR_THRESHOLD_M) {
+        addReview(rec, "osm-far-from-vc", "OSM_FAR");
       }
-    } catch (e) {
-      console.warn("OSM verify failed for", rec.id, e.message);
+    } else {
+      rec.verification.osmDistanceM = null;
+      addReview(rec, "no-osm-nearby", "NO_OSM");
     }
     checked++;
-    if (checked % 25 === 0) console.log("OSM verified", checked, "/", master.length);
-    await new Promise((r) => setTimeout(r, OSM_DELAY_MS));
+    if (checked % 200 === 0) console.log("OSM verified", checked, "...");
   }
+  console.log("OSM verification done:", checked, "records checked");
 }
 
 function buildQa(master, meta) {
   const needsReview = master.filter((r) => r.needsReview);
   const byCategory = {};
   const byFlag = {};
+  let osmChecked = 0;
+  let osmMatched = 0;
   for (const r of master) {
     const cat = r.parentUnit?.category || "other";
     byCategory[cat] = (byCategory[cat] || 0) + 1;
     for (const f of r.mapFlags || []) byFlag[f] = (byFlag[f] || 0) + 1;
+    if (r.verification?.osmChecked) {
+      osmChecked += 1;
+      if (r.verification.osmId) osmMatched += 1;
+    }
   }
   return {
     generated: new Date().toISOString(),
@@ -232,6 +207,9 @@ function buildQa(master, meta) {
     withHours: master.filter((r) => r.hoursSummary?.hasHours).length,
     apiSourced: master.filter((r) => r.coordSource === "nps-api").length,
     arcgisOnly: master.filter((r) => r.ingestSource === "01-arcgis-poi").length,
+    osmChecked,
+    osmMatched,
+    osmMatchRate: master.length ? osmMatched / master.length : 0,
     needsReviewSample: needsReview.slice(0, 80).map((r) => ({
       id: r.id,
       name: r.name,
@@ -246,7 +224,7 @@ function buildQa(master, meta) {
   };
 }
 
-export async function buildMaster({ verifyOsm = false } = {}) {
+export async function buildMaster({ verifyOsm = false, refreshOsm = false } = {}) {
   const unitMaps = loadNpsUnitMaps();
   const geo = readJson(path.join(TOOLS_DIR, "nps-us-geo.json"), {
     units: [],
@@ -281,7 +259,13 @@ export async function buildMaster({ verifyOsm = false } = {}) {
     return a.name.localeCompare(b.name);
   });
 
-  if (verifyOsm) await runOsmVerification(master);
+  if (verifyOsm) {
+    await runOsmVerification(master, { refreshOsm });
+  }
+
+  for (const rec of master) {
+    applyVisitorCenterState(rec, parkStates);
+  }
 
   const meta = {
     arcgisInput: arcgisList.length,
@@ -316,5 +300,6 @@ export async function buildMaster({ verifyOsm = false } = {}) {
 
 if (process.argv[1]?.endsWith("build-nps-visitor-centers-master.mjs")) {
   const verifyOsm = process.argv.includes("--verify-osm");
-  await buildMaster({ verifyOsm });
+  const refreshOsm = process.argv.includes("--refresh-osm");
+  await buildMaster({ verifyOsm, refreshOsm });
 }

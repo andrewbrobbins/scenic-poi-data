@@ -128,6 +128,35 @@ const stateParksSource = JSON.parse(
 );
 const usfsSource = JSON.parse(fs.readFileSync(path.join(tools, "usfs-camping-source.json"), "utf8"));
 
+function loadStateParkRoutePins() {
+  const pins = [];
+  for (const [file, landManager] of [
+    ["state-parks-us-master.json", "State"],
+    ["state-parks-ca-master.json", "Provincial"],
+  ]) {
+    const p = path.join(tools, file);
+    if (!fs.existsSync(p)) continue;
+    const master = JSON.parse(fs.readFileSync(p, "utf8"));
+    for (const r of master.records || []) {
+      pins.push({
+        id: r.id,
+        name: r.name,
+        state: r.state,
+        lat: r.lat,
+        lon: r.lon,
+        landManager,
+        cost: "fee",
+        campingAssumed: true,
+      });
+    }
+  }
+  if (pins.length) return pins;
+  return (stateParksSource.stateParks || []).map(({ corridors, ...rest }) => ({
+    ...rest,
+    campingAssumed: true,
+  }));
+}
+
 function buildCache() {
   const ROUTES = Object.fromEntries(Object.keys(ROUTES_PATHS).map((k) => [k, { path: ROUTES_PATHS[k] }]));
 
@@ -172,8 +201,8 @@ function buildCache() {
       }))
       .filter((c) => c.distToRouteMi <= OTHER_CAMPING_MAX_MI);
 
-    const campingState = (stateParksSource.stateParks || [])
-      .filter((c) => c.corridors.includes(rid))
+    const stateParkPins = loadStateParkRoutePins();
+    const campingState = stateParkPins
       .map((c) => ({
         ...c,
         distToRouteMi: Math.round(distPointToPathMi([c.lat, c.lon], pathPts) * 10) / 10,

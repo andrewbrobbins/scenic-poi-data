@@ -6,6 +6,7 @@ import { fileURLToPath } from "url";
 import {
   NPS_API_BASE,
   ensureIngestDir,
+  hasNpsApiKey,
   loadEnvFile,
   writeJson,
   TOOLS_DIR,
@@ -13,7 +14,7 @@ import {
 
 function apiKey() {
   loadEnvFile();
-  return process.env.NPS_API_KEY || "";
+  return (process.env.NPS_API_KEY || "").trim();
 }
 
 export async function ingestApi({ force = false } = {}) {
@@ -21,8 +22,9 @@ export async function ingestApi({ force = false } = {}) {
   const outPath = path.join(outDir, "visitor-centers.json");
 
   const key = apiKey();
-  if (!key) {
+  if (!hasNpsApiKey()) {
     console.warn("No NPS_API_KEY — skipping API ingest (hours will be incomplete until key is set).");
+    console.warn("Get a key: https://www.nps.gov/subjects/developer/get-started.htm");
     return { skipped: true, reason: "missing-api-key", recordCount: 0, records: [] };
   }
 
@@ -40,6 +42,9 @@ export async function ingestApi({ force = false } = {}) {
         console.warn(`NPS API rate limit — waiting ${wait}ms (start=${startOffset})`);
         await new Promise((r) => setTimeout(r, wait));
         continue;
+      }
+      if (res.status === 403) {
+        throw new Error("NPS visitorcenters HTTP 403 — invalid or unauthorized NPS_API_KEY");
       }
       if (!res.ok) {
         const body = await res.text();
