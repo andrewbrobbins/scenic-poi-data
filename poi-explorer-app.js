@@ -47,6 +47,7 @@
     preserve: "#059669",
     parkway_trail: "#2563eb",
     affiliated: "#64748b",
+    visitor_center: "#1d4ed8",
     other: "#94a3b8",
   };
   var VIEWPORT_CULL = 2000;
@@ -301,6 +302,10 @@
     if (rec.status === "kept") lines.push("Kept");
     if (rec.status === "excluded") lines.push("Excluded");
     if (rec.landManager) lines.push(escapeHtml(rec.landManager));
+    if (rec.parentName && Ldef && Ldef.id === "nps_visitor_centers") lines.push(escapeHtml(rec.parentName));
+    if (rec.hoursSummary && rec.hoursSummary.summary && Ldef && Ldef.id === "nps_visitor_centers") {
+      lines.push(escapeHtml(rec.hoursSummary.summary));
+    }
     if (rec.category && Ldef && Ldef.group === "nps") lines.push(escapeHtml(rec.category.replace(/_/g, " ")));
     var url = osmUrl(rec);
     if (url) {
@@ -359,6 +364,23 @@
     });
   }
 
+  function squareIcon(color, size) {
+    size = size || MARKER_SIZE.default;
+    return L.divIcon({
+      className: "",
+      html:
+        '<span style="display:block;width:' +
+        size +
+        "px;height:" +
+        size +
+        "px;border-radius:2px;background:" +
+        color +
+        ';border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.55)"></span>',
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+    });
+  }
+
   function showDetail(rec, layerKey) {
     var Ldef = state.manifest.layers[layerKey];
     var panel = el("detail");
@@ -377,6 +399,16 @@
       ["State", rec.state || "—"],
     ];
     if (rec.parkCode) rows.push(["Park code", rec.parkCode]);
+    if (rec.parentName) rows.push(["Parent unit", rec.parentName]);
+    if (rec.parentDesignation) rows.push(["Designation", rec.parentDesignation]);
+    if (rec.parentCategory) rows.push(["Unit category", rec.parentCategory.replace(/_/g, " ")]);
+    if (rec.hoursSummary && rec.hoursSummary.summary) rows.push(["Hours", rec.hoursSummary.summary]);
+    if (rec.hoursSummary && rec.hoursSummary.seasonalNote) rows.push(["Seasonal hours", rec.hoursSummary.seasonalNote]);
+    if (rec.seasonal && rec.seasonal.description && !rec.hoursSummary?.seasonalNote) {
+      rows.push(["Season", rec.seasonal.description]);
+    }
+    if (rec.coordConfidence) rows.push(["Coord confidence", rec.coordConfidence]);
+    if (rec.needsReview) rows.push(["Needs review", "Yes"]);
     if (rec.roadDistanceM != null) rows.push(["Road distance", rec.roadDistanceM + " m"]);
     if (rec.dLean != null) rows.push(["dLean", rec.dLean + " m"]);
     if (rec.dPath != null) rows.push(["dPath", rec.dPath + " m"]);
@@ -444,9 +476,13 @@
         ? function () {
             return diamondIcon(color);
           }
-        : function () {
-            return circleIcon(color, Ldef.id === "scenic_excluded" ? MARKER_SIZE.small : MARKER_SIZE.default);
-          };
+        : Ldef.id === "nps_visitor_centers"
+          ? function () {
+              return squareIcon(color);
+            }
+          : function () {
+              return circleIcon(color, Ldef.id === "scenic_excluded" ? MARKER_SIZE.small : MARKER_SIZE.default);
+            };
     var shown = 0;
     var maxShow = cull ? 8000 : records.length;
 

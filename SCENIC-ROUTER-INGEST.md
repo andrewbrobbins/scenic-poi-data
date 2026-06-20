@@ -28,6 +28,7 @@ Or clone this repo as a sibling folder named `tools/` (auto-discovered).
 | `SCENIC_US` / `SCENIC_CA` | `build-poi-osm-explorer-embed.mjs` | Scenic overlooks (road-filtered) |
 | `HISTORIC_US` / `HISTORIC_CA` | `build-poi-osm-explorer-embed.mjs` | Historic POIs |
 | `nps-us-geo.json` | `build-nps-us-cache.mjs` | NPS unit points |
+| `NPS_VISITOR_CENTERS_US` → `nps-visitor-centers-us-explorer-embed.js` | `build-nps-visitor-centers-explorer-embed.mjs` | NPS visitor centers |
 | `park-boundaries.geojson` + embed | `build-park-boundaries.mjs` | Park boundary polygons |
 
 Canonical full records live in `*-master.json` (same IDs as embeds; embeds are slim map rows).
@@ -59,6 +60,27 @@ Global name: `{EMBED_VAR}_{REGION}` e.g. `SCENIC_US`, `PLAYGROUNDS_CA`.
 ```json
 { "generated", "filterEnabled", "count", "records": [{ "id", "name", "lat", "lon", "landManager", "state", "cost", "url", "parent" }] }
 ```
+
+### NPS visitor centers embed shape
+
+Built by `build-nps-visitor-centers-explorer-embed.mjs`. Full records in `nps-visitor-centers-us-master.json`.
+
+```json
+{
+  "generated", "kind", "region", "count", "withHours", "needsReviewCount",
+  "records": [{
+    "id", "name", "lat", "lon", "state", "parkCode",
+    "parentName", "parentCategory", "parentDesignation",
+    "hoursSummary": { "hasHours", "summary", "seasonalNote" },
+    "seasonal": { "isSeasonal", "description" },
+    "url", "coordConfidence", "needsReview"
+  }]
+}
+```
+
+Global: `NPS_VISITOR_CENTERS_US`.
+
+Build: `node build-nps-visitor-centers-all.mjs` (set `NPS_API_KEY` in `.env` for operating hours).
 
 ## Dev-only (NOT synced)
 

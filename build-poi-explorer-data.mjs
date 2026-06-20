@@ -10,6 +10,7 @@ import { fileURLToPath } from "url";
 import { readJson, masterPath, POI_KINDS } from "./poi-osm-lib.mjs";
 import { MASTER_PATH as FUEL_US_MASTER } from "./fuel-us-lib.mjs";
 import { MASTER_PATH as FUEL_CA_MASTER } from "./fuel-ca-lib.mjs";
+import { MASTER_PATH as NPS_VC_MASTER } from "./nps-visitor-centers-lib.mjs";
 import { brandGroupLabel, brandIdToSelectId, buildBrandGroups, normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const TOOLS = path.dirname(fileURLToPath(import.meta.url));
@@ -200,6 +201,29 @@ function loadBenchmark() {
   }));
 }
 
+function loadNpsVisitorCenters() {
+  const master = readJson(NPS_VC_MASTER, { records: [] });
+  return (master.records || []).map((r) => {
+    const pu = r.parentUnit || {};
+    return {
+      id: r.id,
+      name: r.name,
+      lat: round5(r.lat),
+      lon: round5(r.lon),
+      state: r.state || "",
+      parkCode: r.parkCode || pu.parkCode || "",
+      parentName: pu.name || "",
+      parentCategory: pu.category || "",
+      parentDesignation: pu.designation || "",
+      hoursSummary: r.hoursSummary || { hasHours: false, summary: "", seasonalNote: "" },
+      seasonal: r.seasonal || { isSeasonal: null, description: "" },
+      url: r.urls?.detail || r.urls?.visitorCenters || r.urls?.park || "",
+      coordConfidence: r.coordConfidence || "",
+      needsReview: !!r.needsReview,
+    };
+  });
+}
+
 function loadNpsByCategory() {
   const nps = readJson(NPS_PATH, { units: [] });
   const byCat = {};
@@ -271,6 +295,15 @@ for (const cat of Object.keys(npsByCat).sort()) {
     defaultInCategory: true,
     noRegionFilter: true,
     npsCategory: cat,
+  });
+}
+
+const npsVc = loadNpsVisitorCenters();
+if (npsVc.length) {
+  addLayer("nps_visitor_centers", "Visitor centers", "nps", "us", npsVc, {
+    defaultInCategory: true,
+    noRegionFilter: true,
+    npsCategory: "visitor_center",
   });
 }
 

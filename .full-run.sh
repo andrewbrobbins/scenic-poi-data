@@ -77,6 +77,7 @@ run node build-fuel-generic-explorer-embed.mjs
 run node build-camping-us-all.mjs
 run node build-camping-ca-all.mjs
 run node build-nps-us-cache.mjs
+run node build-nps-visitor-centers-all.mjs --skip-api
 run node build-park-boundaries.mjs
 
 log "========================================"

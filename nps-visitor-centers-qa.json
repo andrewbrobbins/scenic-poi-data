@@ -1,0 +1,1233 @@
+{
+  "generated": "2026-06-20T14:38:23.187Z",
+  "arcgisInput": 568,
+  "apiInput": 0,
+  "mergedCount": 568,
+  "totalRecords": 568,
+  "needsReviewCount": 568,
+  "byParentCategory": {
+    "historic_park": 66,
+    "park": 162,
+    "monument": 80,
+    "other": 41,
+    "historic_site": 102,
+    "recreation": 86,
+    "memorial": 14,
+    "preserve": 12,
+    "affiliated": 4,
+    "parkway_trail": 1
+  },
+  "mapFlagCounts": {
+    "NO_HOURS": 568,
+    "NO_STATE": 17
+  },
+  "withHours": 0,
+  "apiSourced": 0,
+  "arcgisOnly": 568,
+  "needsReviewSample": [
+    {
+      "id": "VC-NPS-ABLI-kentucky-boyhood-home-at-knob-creek-unit-visitor-376114-856382",
+      "name": "Kentucky Boyhood Home at Knob Creek Unit Visitor Center",
+      "parkCode": "abli",
+      "lat": 37.6114217495908,
+      "lon": -85.63821501270404,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ABLI-visitor-center-375309-857359",
+      "name": "Visitor Center",
+      "parkCode": "abli",
+      "lat": 37.53090240047734,
+      "lon": -85.73592440038017,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ACAD-visitor-center-444268-683668",
+      "name": "Visitor Center",
+      "parkCode": "acad",
+      "lat": 44.42684796142846,
+      "lon": -68.36677503395254,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ACAD-visitor-center-444085-682461",
+      "name": "Visitor Center",
+      "parkCode": "acad",
+      "lat": 44.408541859543234,
+      "lon": -68.24613673419563,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ACAD-visitor-center-443804-680657",
+      "name": "Visitor Center",
+      "parkCode": "acad",
+      "lat": 44.38043496152829,
+      "lon": -68.06571003570963,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ADAM-adams-national-historical-park-visitor-center-422522-710036",
+      "name": "Adams National Historical Park Visitor Center",
+      "parkCode": "adam",
+      "lat": 42.25218295960928,
+      "lon": -71.00359803234936,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ADAM-visitor-center-422567-710105",
+      "name": "Visitor Center",
+      "parkCode": "adam",
+      "lat": 42.256699459251934,
+      "lon": -71.01046733286339,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-AFBG-visitor-center-407150-740054",
+      "name": "Visitor Center",
+      "parkCode": "afbg",
+      "lat": 40.714997057849466,
+      "lon": -74.00544613146398,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-AGFO-visitor-center-424252-1037342",
+      "name": "Visitor Center",
+      "parkCode": "agfo",
+      "lat": 42.42521043196722,
+      "lon": -103.7341756853367,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-AKRO-fairbanks-alaska-center-in-the-morris-thompson-c-648460-1477122",
+      "name": "Fairbanks Alaska Center in the Morris Thompson Cultural and Visitors Center",
+      "parkCode": "akro",
+      "lat": 64.84601177310883,
+      "lon": -147.71223593364726,
+      "mapFlags": [
+        "NO_STATE",
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-state",
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ALFL-alibates-flint-quarries-visitor-center-355793-1017033",
+      "name": "Alibates Flint Quarries Visitor Center",
+      "parkCode": "alfl",
+      "lat": 35.57931881505681,
+      "lon": -101.70333960924067,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ALPO-visitor-center-404574-785493",
+      "name": "Visitor Center",
+      "parkCode": "alpo",
+      "lat": 40.457350265415556,
+      "lon": -78.54929999580058,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-AMIS-visitor-center-294660-1009884",
+      "name": "Visitor Center",
+      "parkCode": "amis",
+      "lat": 29.465999795949365,
+      "lon": -100.98841115260751,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ANCH-alaska-public-lands-information-center-anchorage-612190-1498945",
+      "name": "Alaska Public Lands Information Center - Anchorage (in old Federal Building)",
+      "parkCode": "anch",
+      "lat": 61.21902061634004,
+      "lon": -149.89452559306304,
+      "mapFlags": [
+        "NO_STATE",
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-state",
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ANDE-national-prisoner-of-war-museum-321975-841271",
+      "name": "National Prisoner of War Museum",
+      "parkCode": "ande",
+      "lat": 32.197498399977626,
+      "lon": -84.12711019992567,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ANJO-visitor-center-361629-828295",
+      "name": "Visitor Center",
+      "parkCode": "anjo",
+      "lat": 36.16291459979358,
+      "lon": -82.82954190017949,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ANTI-antietam-national-battlefield-visitor-center-394742-777445",
+      "name": "Antietam National Battlefield Visitor Center",
+      "parkCode": "anti",
+      "lat": 39.47420800669885,
+      "lon": -77.74452502947454,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ARCH-arches-386166-1096200",
+      "name": "Arches",
+      "parkCode": "arch",
+      "lat": 38.61656768178978,
+      "lon": -109.6200423177213,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ARPO-visitor-center-340166-913451",
+      "name": "Visitor Center",
+      "parkCode": "arpo",
+      "lat": 34.01657479058363,
+      "lon": -91.34510797688384,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ASIS-visitor-center-379086-753562",
+      "name": "Visitor Center",
+      "parkCode": "asis",
+      "lat": 37.90861625575355,
+      "lon": -75.3561897299008,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ASIS-visitor-center-378900-753449",
+      "name": "Visitor Center",
+      "parkCode": "asis",
+      "lat": 37.890039356269355,
+      "lon": -75.34493323037812,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-ASIS-visitor-center-382476-751546",
+      "name": "Visitor Center",
+      "parkCode": "asis",
+      "lat": 38.24761295598836,
+      "lon": -75.15457403044336,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-AZRU-visitor-center-368346-1080003",
+      "name": "Visitor Center",
+      "parkCode": "azru",
+      "lat": 36.83458544516976,
+      "lon": -108.00025693734824,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BADL-visitor-center-435116-1024966",
+      "name": "Visitor Center",
+      "parkCode": "badl",
+      "lat": 43.511604295665826,
+      "lon": -102.4965510351859,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BADL-visitor-center-437491-1019417",
+      "name": "Visitor Center",
+      "parkCode": "badl",
+      "lat": 43.74907252169334,
+      "lon": -101.94165113793363,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BAND-visitor-center-357791-1062709",
+      "name": "Visitor Center",
+      "parkCode": "band",
+      "lat": 35.77911246992455,
+      "lon": -106.27088579730396,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BAND-white-rock-county-visitor-center-358275-1062113",
+      "name": "White Rock County Visitor Center",
+      "parkCode": "band",
+      "lat": 35.82752489556292,
+      "lon": -106.21131978932358,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BEOL-bent-s-old-fort-380405-1034296",
+      "name": "Bent's Old Fort",
+      "parkCode": "beol",
+      "lat": 38.04049854644363,
+      "lon": -103.42957384699982,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BELA-nome-visitor-center-and-headquarters-644978-1654082",
+      "name": "Nome - Visitor Center and Headquarters",
+      "parkCode": "bela",
+      "lat": 64.49783286325487,
+      "lon": -165.40824917276825,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIBE-castolon-291336-1035142",
+      "name": "Castolon",
+      "parkCode": "bibe",
+      "lat": 29.133634291192664,
+      "lon": -103.51416322761136,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIBE-chisos-basin-292705-1032993",
+      "name": "Chisos Basin",
+      "parkCode": "bibe",
+      "lat": 29.27051938150201,
+      "lon": -103.29934793664151,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIBE-panther-junction-293278-1032059",
+      "name": "Panther Junction",
+      "parkCode": "bibe",
+      "lat": 29.327827164187678,
+      "lon": -103.20588916781736,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIBE-persimmon-gap-296600-1031736",
+      "name": "Persimmon Gap",
+      "parkCode": "bibe",
+      "lat": 29.66003958469742,
+      "lon": -103.17361347476151,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIBE-rio-grande-village-291853-1029622",
+      "name": "Rio Grande Village",
+      "parkCode": "bibe",
+      "lat": 29.185260542528063,
+      "lon": -102.96222491343538,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BICY-national-p-reed-visitor-center-259008-813259",
+      "name": "National P. Reed Visitor Center",
+      "parkCode": "bicy",
+      "lat": 25.900808000116157,
+      "lon": -81.32592899989822,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BICY-oasis-visitor-center-258573-810326",
+      "name": "Oasis Visitor Center",
+      "parkCode": "bicy",
+      "lat": 25.857293000497375,
+      "lon": -81.03258099950892,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIHO-big-hole-visitor-center-456413-1136433",
+      "name": "Big Hole Visitor Center",
+      "parkCode": "biho",
+      "lat": 45.64134722978942,
+      "lon": -113.64329017878964,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BIHO-interim-visitor-center-485908-1092315",
+      "name": "Interim Visitor Center",
+      "parkCode": "biho",
+      "lat": 48.59082278355089,
+      "lon": -109.23154368035323,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISO-bandy-creek-visitor-center-364877-846975",
+      "name": "Bandy Creek Visitor Center",
+      "parkCode": "biso",
+      "lat": 36.487712900180405,
+      "lon": -84.69747619990555,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISO-blue-heron-interpretive-center-366708-845476",
+      "name": "Blue Heron Interpretive Center",
+      "parkCode": "biso",
+      "lat": 36.670794000373604,
+      "lon": -84.54764800009791,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISO-crossville-visitor-center-359811-850089",
+      "name": "Crossville Visitor Center",
+      "parkCode": "biso",
+      "lat": 35.981131999596194,
+      "lon": -85.00890300007416,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISO-helenwood-visitor-center-364201-845381",
+      "name": "Helenwood Visitor Center",
+      "parkCode": "biso",
+      "lat": 36.420108000264015,
+      "lon": -84.53806500002008,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISO-rugby-visitor-contact-center-363611-847022",
+      "name": "Rugby Visitor Contact Center",
+      "parkCode": "biso",
+      "lat": 36.361105000434684,
+      "lon": -84.70222700010734,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISO-stearns-visitor-contact-station-367041-844666",
+      "name": "Stearns Visitor Contact Station",
+      "parkCode": "biso",
+      "lat": 36.704084999507465,
+      "lon": -84.4665869995761,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BITH-big-thicket-visitor-center-304583-943874",
+      "name": "Big Thicket Visitor Center",
+      "parkCode": "bith",
+      "lat": 30.458334454150794,
+      "lon": -94.38740418403985,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BICA-bldg-cal-s-taggert-visitor-center-448375-1083767",
+      "name": "Bldg Cal S. Taggert Visitor Center",
+      "parkCode": "bica",
+      "lat": 44.83747990335158,
+      "lon": -108.37667251748623,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BICA-yellowtail-dam-visitor-center-453087-1079558",
+      "name": "Yellowtail Dam Visitor Center",
+      "parkCode": "bica",
+      "lat": 45.30869922706608,
+      "lon": -107.95581113805478,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BISC-dante-fascell-visitor-center-254645-803348",
+      "name": "Dante Fascell Visitor Center",
+      "parkCode": "bisc",
+      "lat": 25.464501199723056,
+      "lon": -80.334784500001,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLCA-south-rim-visitor-center-385550-1076866",
+      "name": "South Rim Visitor Center",
+      "parkCode": "blca",
+      "lat": 38.55499145224056,
+      "lon": -107.68658383354138,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-blue-ridge-music-center-365732-808500",
+      "name": "Blue Ridge Music Center",
+      "parkCode": "blri",
+      "lat": 36.57319740140937,
+      "lon": -80.85000089935518,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-blue-ridge-parkway-visitor-center-355658-824864",
+      "name": "Blue Ridge Parkway Visitor Center",
+      "parkCode": "blri",
+      "lat": 35.56582952020497,
+      "lon": -82.48636615843745,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-craggy-gardens-visitor-center-357003-823796",
+      "name": "Craggy Gardens Visitor Center",
+      "parkCode": "blri",
+      "lat": 35.70029687546305,
+      "lon": -82.3796455317102,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-folk-art-center-355928-824818",
+      "name": "Folk Art Center",
+      "parkCode": "blri",
+      "lat": 35.59278127202376,
+      "lon": -82.48180048464988,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-humpback-rocks-visitor-center-379727-788995",
+      "name": "Humpback Rocks Visitor Center",
+      "parkCode": "blri",
+      "lat": 37.97272400036432,
+      "lon": -78.89946450045016,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-james-river-visitor-center-375552-793659",
+      "name": "James River Visitor Center",
+      "parkCode": "blri",
+      "lat": 37.555168700111174,
+      "lon": -79.3658927004773,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-linville-falls-visitor-center-359546-819278",
+      "name": "Linville Falls Visitor Center",
+      "parkCode": "blri",
+      "lat": 35.95455336604927,
+      "lon": -81.9277526966508,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-mabry-mill-visitor-center-367499-804050",
+      "name": "Mabry Mill Visitor Center",
+      "parkCode": "blri",
+      "lat": 36.74986855717549,
+      "lon": -80.40495462400357,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-moses-cone-manor-house-and-visitor-center-361491-816929",
+      "name": "Moses Cone Manor House and Visitor Center",
+      "parkCode": "blri",
+      "lat": 36.14909290167862,
+      "lon": -81.69288334624139,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-museum-of-north-carolina-minerals-358542-820514",
+      "name": "Museum of North Carolina Minerals",
+      "parkCode": "blri",
+      "lat": 35.854162282312046,
+      "lon": -82.05142190348434,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-peaks-of-otter-visitor-center-374456-796100",
+      "name": "Peaks of Otter Visitor Center",
+      "parkCode": "blri",
+      "lat": 37.44560649925198,
+      "lon": -79.60995820111403,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-rocky-knob-visitor-center-368115-803498",
+      "name": "Rocky Knob Visitor Center",
+      "parkCode": "blri",
+      "lat": 36.81150655206227,
+      "lon": -80.34984908005379,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BLRI-waterrock-knob-visitor-center-354605-831411",
+      "name": "Waterrock Knob Visitor Center",
+      "parkCode": "blri",
+      "lat": 35.460514420752666,
+      "lon": -83.14114187313666,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOWA-visitor-center-371195-797317",
+      "name": "Visitor Center",
+      "parkCode": "bowa",
+      "lat": 37.11948885544342,
+      "lon": -79.73165422746824,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOAF-visitor-center-423601-710652",
+      "name": "Visitor Center",
+      "parkCode": "boaf",
+      "lat": 42.36007795918331,
+      "lon": -71.06516303279388,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOHA-visitor-center-423543-710470",
+      "name": "Visitor Center",
+      "parkCode": "boha",
+      "lat": 42.35429865766507,
+      "lon": -71.04698223248835,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOHA-visitor-center-422997-709275",
+      "name": "Visitor Center",
+      "parkCode": "boha",
+      "lat": 42.29974435908499,
+      "lon": -70.92745663309024,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOHA-visitor-center-423196-709300",
+      "name": "Visitor Center",
+      "parkCode": "boha",
+      "lat": 42.31960055878509,
+      "lon": -70.92997783305984,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOHA-visitor-center-423222-709874",
+      "name": "Visitor Center",
+      "parkCode": "boha",
+      "lat": 42.32215275944771,
+      "lon": -70.9874329330747,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOHA-visitor-center-423195-709301",
+      "name": "Visitor Center",
+      "parkCode": "boha",
+      "lat": 42.319544558770076,
+      "lon": -70.93011583310195,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOST-visitor-center-423732-710566",
+      "name": "Visitor Center",
+      "parkCode": "bost",
+      "lat": 42.37322245895342,
+      "lon": -71.05661873275089,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BOST-visitor-center-423601-710560",
+      "name": "Visitor Center",
+      "parkCode": "bost",
+      "lat": 42.36006225947271,
+      "lon": -71.05600243278472,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BRVB-visitor-center-390378-956764",
+      "name": "Visitor Center",
+      "parkCode": "brvb",
+      "lat": 39.037842095057876,
+      "lon": -95.67642722480731,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BRVB-visitor-center-390542-956719",
+      "name": "Visitor Center",
+      "parkCode": "brvb",
+      "lat": 39.05419529104796,
+      "lon": -95.67189022518737,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BRCA-visitor-center-376404-1121696",
+      "name": "Visitor Center",
+      "parkCode": "brca",
+      "lat": 37.64038731672209,
+      "lon": -112.1696423449278,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BUFF-visitor-center-359865-927634",
+      "name": "Visitor Center",
+      "parkCode": "buff",
+      "lat": 35.98654717708856,
+      "lon": -92.76341706115782,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-BUFF-visitor-center-360788-925739",
+      "name": "Visitor Center",
+      "parkCode": "buff",
+      "lat": 36.07877035052154,
+      "lon": -92.57388440584045,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-CABR-cabrillo-visitor-center-326748-1172395",
+      "name": "Cabrillo Visitor Center",
+      "parkCode": "cabr",
+      "lat": 32.67483666201217,
+      "lon": -117.23950774163647,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-CANA-merritt-island-nwr-286414-807356",
+      "name": "Merritt Island Nwr",
+      "parkCode": "cana",
+      "lat": 28.641354546106374,
+      "lon": -80.73559916813615,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-CANA-visitor-center-289273-808244",
+      "name": "Visitor Center",
+      "parkCode": "cana",
+      "lat": 28.927298099692887,
+      "lon": -80.82440179980217,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    },
+    {
+      "id": "VC-NPS-CARI-visitor-center-317410-930881",
+      "name": "Visitor Center",
+      "parkCode": "cari",
+      "lat": 31.740999199821278,
+      "lon": -93.08812589970083,
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "arcgisDistanceM": null,
+      "osmDistanceM": null
+    }
+  ]
+}
