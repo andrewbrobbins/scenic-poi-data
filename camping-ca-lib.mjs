@@ -110,7 +110,13 @@ export function addReview(record, reason, mapFlag) {
   if (mapFlag && !record.mapFlags.includes(mapFlag)) record.mapFlags.push(mapFlag);
 }
 
-export async function fetchArcgisAllFeatures(queryUrlBase, where, outFields, pageSize = 2000) {
+export async function fetchArcgisAllFeatures(
+  queryUrlBase,
+  where,
+  outFields,
+  pageSize = 2000,
+  maxAllowableOffset = null
+) {
   const features = [];
   let offset = 0;
   while (true) {
@@ -123,6 +129,10 @@ export async function fetchArcgisAllFeatures(queryUrlBase, where, outFields, pag
       resultRecordCount: String(pageSize),
       resultOffset: String(offset),
     });
+    if (maxAllowableOffset != null) {
+      params.set("maxAllowableOffset", String(maxAllowableOffset));
+      params.set("geometryPrecision", "5");
+    }
     const url = `${queryUrlBase}?${params}`;
     const res = await fetch(url, { signal: AbortSignal.timeout(120000) });
     if (!res.ok) throw new Error(`ArcGIS HTTP ${res.status} ${url}`);

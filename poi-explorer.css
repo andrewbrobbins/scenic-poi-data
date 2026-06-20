@@ -57,6 +57,11 @@
 .poi-map-tooltip a:hover {
   text-decoration: underline;
 }
+.check {
+  display: block;
+  font-size: 0.9rem;
+  margin: 4px 0;
+}
 .layer-list {
   max-height: 320px;
   overflow: auto;

@@ -50,6 +50,7 @@
     other: "#94a3b8",
   };
   var VIEWPORT_CULL = 2000;
+  var BOUNDARY_STYLE = { weight: 2, opacity: 0.9, fillOpacity: 0.14 };
 
   var state = {
     region: "both",
@@ -58,6 +59,8 @@
     enabled: new Set(),
     loadedSlices: {},
     layerGroups: {},
+    boundariesGroup: null,
+    showParkBoundaries: false,
     map: null,
     renderTimer: null,
   };
@@ -154,6 +157,129 @@
       return FUEL_BRAND_COLORS[Ldef.fuelBrandId] || "#94a3b8";
     }
     return COLORS[Ldef.id] || "#94a3b8";
+  }
+
+  function boundaryColor(props) {
+    return NPS_COLORS[props.category] || "#15803d";
+  }
+
+  /** Leaflet + preferCanvas only draws the first polygon of MultiPolygon features. */
+  function flattenBoundaryCollection(fc) {
+    var features = [];
+    (fc.features || []).forEach(function (f) {
+      if (!f.geometry) return;
+      if (f.geometry.type === "MultiPolygon") {
+        f.geometry.coordinates.forEach(function (poly) {
+          features.push({
+            type: "Feature",
+            properties: f.properties,
+            geometry: { type: "Polygon", coordinates: poly },
+          });
+        });
+      } else {
+        features.push(f);
+      }
+    });
+    return { type: "FeatureCollection", features: features };
+  }
+
+  function boundaryPassesFilters(props) {
+    if (!props) return false;
+    if (state.region === "us" && props.country !== "US") return false;
+    if (state.region === "ca" && props.country !== "CA") return false;
+    var st = el("stateSelect").value;
+    if (st && props.state) {
+      var states = String(props.state)
+        .split(/[,;]/)
+        .map(function (s) {
+          return s.trim();
+        });
+      if (states.indexOf(st) === -1) return false;
+    }
+    var q = (el("searchBox").value || "").toLowerCase().trim();
+    if (!q) return true;
+    var hay = [props.name, props.parkCode, props.unitType, props.state, props.country]
+      .filter(Boolean)
+      .join(" ")
+      .toLowerCase();
+    return hay.indexOf(q) !== -1;
+  }
+
+  function showBoundaryDetail(props) {
+    var panel = el("detail");
+    panel.classList.remove("hidden");
+    var rows = [
+      ["Type", "Park boundary"],
+      ["Name", props.name || "—"],
+      ["Park code", props.parkCode || "—"],
+      ["Country", props.country || "—"],
+      ["State", props.state || "—"],
+      ["Unit type", props.unitType || "—"],
+      ["Category", (props.category || "").replace(/_/g, " ")],
+    ];
+    var dl = rows
+      .map(function (r) {
+        return "<dt>" + r[0] + "</dt><dd>" + escapeHtml(String(r[1])) + "</dd>";
+      })
+      .join("");
+  var links = "";
+    if (props.parkCode && props.country === "US") {
+      links =
+        '<p><a href="https://www.nps.gov/' +
+        props.parkCode +
+        '/" target="_blank" rel="noopener">NPS unit page</a></p>';
+    }
+    panel.innerHTML = "<h3>" + escapeHtml(props.name || "Park boundary") + "</h3>" + "<dl>" + dl + "</dl>" + links;
+  }
+
+  function renderParkBoundaries() {
+    if (!state.boundariesGroup) {
+      state.boundariesGroup = L.layerGroup();
+    }
+    state.boundariesGroup.clearLayers();
+
+    if (!state.showParkBoundaries) {
+      if (state.map.hasLayer(state.boundariesGroup)) state.map.removeLayer(state.boundariesGroup);
+      return 0;
+    }
+
+    if (typeof PARK_BOUNDARIES === "undefined" || !PARK_BOUNDARIES.features) {
+      return 0;
+    }
+
+    var flatBoundaries = flattenBoundaryCollection(PARK_BOUNDARIES);
+    var geo = L.geoJSON(flatBoundaries, {
+      filter: function (feature) {
+        return boundaryPassesFilters(feature.properties);
+      },
+      style: function (feature) {
+        var color = boundaryColor(feature.properties || {});
+        return {
+          color: color,
+          weight: BOUNDARY_STYLE.weight,
+          opacity: BOUNDARY_STYLE.opacity,
+          fillColor: color,
+          fillOpacity: BOUNDARY_STYLE.fillOpacity,
+        };
+      },
+      onEachFeature: function (feature, layer) {
+        var props = feature.properties || {};
+        layer.bindTooltip(escapeHtml(props.name || props.parkCode || "Boundary"), {
+          sticky: true,
+          className: "poi-tooltip-leaflet",
+        });
+        layer.on("click", function () {
+          showBoundaryDetail(props);
+        });
+      },
+    });
+    state.boundariesGroup.addLayer(geo);
+    geo.bringToBack();
+
+    if (!state.map.hasLayer(state.boundariesGroup)) {
+      state.boundariesGroup.addTo(state.map);
+    }
+    return geo.getLayers().length;
   }
 
   function osmUrl(rec) {
@@ -349,6 +475,7 @@
   }
 
   function renderAllLayers() {
+    var boundaryCount = renderParkBoundaries();
     var stats = [];
     var keys = new Set(layerKeysForRegion());
     Object.keys(state.layerGroups).forEach(function (k) {
@@ -358,14 +485,17 @@
       var r = renderLayer(key);
       if (r) stats.push(r);
     });
-    updateStats(stats);
+    updateStats(stats, boundaryCount);
   }
 
-  function updateStats(extra) {
+  function updateStats(extra, boundaryCount) {
     var lines = [
       "Category: " + (GROUP_LABELS[state.activeCategory] || state.activeCategory),
       "Generated: " + (state.manifest.generated || "?").slice(0, 19),
     ];
+    if (state.showParkBoundaries) {
+      lines.push("Park boundaries shown: " + (boundaryCount || 0).toLocaleString());
+    }
     state.enabled.forEach(function (key) {
       var Ldef = state.manifest.layers[key];
       if (!Ldef) return;
@@ -565,6 +695,13 @@
     buildStateSelect();
     el("searchBox").addEventListener("input", scheduleRender);
     el("stateSelect").addEventListener("change", scheduleRender);
+    var boundaryCb = el("layerParkBoundaries");
+    if (boundaryCb) {
+      boundaryCb.addEventListener("change", function () {
+        state.showParkBoundaries = boundaryCb.checked;
+        renderAllLayers();
+      });
+    }
     preloadDefaultSlices().then(renderAllLayers);
   }
 

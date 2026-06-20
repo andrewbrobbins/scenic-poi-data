@@ -5,6 +5,104 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const US = new Set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY VI PR GU AS MP".split(" "));
 
+const ARCGIS_UNITS_URL =
+  "https://services.northeastoceandata.org/arcgis1/rest/services/RecreationAndCulture/MapServer/28/query";
+
+/** Prefer National Park / Monument rows when ArcGIS returns multiple UNIT_CODE rows. */
+const UNIT_TYPE_RANK = {
+  "National Park": 100,
+  "National Park and Preserve": 95,
+  "National Monument": 90,
+  "National Historical Park": 80,
+  "National Historic Park": 80,
+  "National Memorial": 70,
+  "National Recreation Area": 60,
+  "National Seashore": 60,
+  "National Lakeshore": 60,
+  "National Preserve": 50,
+  Park: 10,
+};
+
+function unitTypeRank(unitType) {
+  return UNIT_TYPE_RANK[unitType] || 40;
+}
+
+function dedupeArcgisUnits(rows) {
+  const byCode = new Map();
+  for (const row of rows) {
+    const code = (row.UNIT_CODE || "").toLowerCase();
+    if (!code) continue;
+    const prev = byCode.get(code);
+    if (!prev || unitTypeRank(row.UNIT_TYPE) > unitTypeRank(prev.UNIT_TYPE)) {
+      byCode.set(code, row);
+    }
+  }
+  return [...byCode.values()];
+}
+
+/** ArcGIS sometimes uses a separate preserve code (e.g. CRMP) for the same PARKNAME as the monument (CRMO). */
+function isSubsidiaryPreserveUnit(row, allRows) {
+  const code = (row.UNIT_CODE || "").toLowerCase();
+  const park = (row.PARKNAME || "").trim();
+  if (!code || !park || row.UNIT_TYPE !== "National Preserve") return false;
+  return allRows.some(
+    (other) =>
+      (other.PARKNAME || "").trim() === park &&
+      (other.UNIT_CODE || "").toLowerCase() !== code &&
+      unitTypeRank(other.UNIT_TYPE) > unitTypeRank(row.UNIT_TYPE)
+  );
+}
+
+function centroidFromGeometry(geom) {
+  if (!geom) return null;
+  if (geom.x != null && geom.y != null) {
+    return { lat: geom.y, lon: geom.x };
+  }
+  const ring = geom.rings?.[0];
+  if (!ring?.length) return null;
+  let south = Infinity;
+  let west = Infinity;
+  let north = -Infinity;
+  let east = -Infinity;
+  for (const [lon, lat] of ring) {
+    if (lat < south) south = lat;
+    if (lat > north) north = lat;
+    if (lon < west) west = lon;
+    if (lon > east) east = lon;
+  }
+  if (!Number.isFinite(south)) return null;
+  return { lat: (south + north) / 2, lon: (west + east) / 2 };
+}
+
+async function fetchArcgisGeometryMap(codes) {
+  if (!codes.length) return {};
+  const out = {};
+  const batch = 20;
+  for (let i = 0; i < codes.length; i += batch) {
+    const chunk = codes.slice(i, i + batch);
+    const where = `UNIT_CODE IN ('${chunk.map((c) => c.toUpperCase()).join("','")}')`;
+    const url =
+      ARCGIS_UNITS_URL +
+      "?where=" +
+      encodeURIComponent(where) +
+      "&outFields=UNIT_CODE,UNIT_TYPE&returnGeometry=true&outSR=4326&f=json";
+    const j = await (await fetch(url)).json();
+    if (!j.features) {
+      console.warn("ArcGIS geometry batch failed:", j.error || "no features");
+      continue;
+    }
+    for (const f of j.features) {
+      const code = (f.attributes?.UNIT_CODE || "").toLowerCase();
+      const c = centroidFromGeometry(f.geometry);
+      if (!code || !c) continue;
+      const rank = unitTypeRank(f.attributes?.UNIT_TYPE);
+      const prev = out[code];
+      if (!prev || rank > prev.rank) out[code] = { lat: c.lat, lon: c.lon, rank };
+    }
+  }
+  return out;
+}
+
 function npsCategory(designation) {
   const d = (designation || "").toLowerCase().trim();
   if (d.includes("national park and preserve") || d.includes("national historical park and preserve")) return "park";
@@ -16,7 +114,8 @@ function npsCategory(designation) {
   if (d.includes("national preserve") || d.includes("national reserve")) return "preserve";
   if (d.includes("national battlefield") || d.includes("national military") || d.includes("national cemetery")) return "historic_site";
   if (d.includes("national parkway") || d.includes("national scenic trail") || d.includes("national historic trail")) return "parkway_trail";
-  if (d === "park" || d.includes("national park")) return "park";
+  if (d === "park") return "other";
+  if (d.includes("national park")) return "park";
   if (d.includes("affiliated") || d.includes("other designation")) return "affiliated";
   return "other";
 }
@@ -30,7 +129,7 @@ async function fetchCentroids() {
 }
 
 async function fetchArcgisUnits() {
-  const url = "https://services.northeastoceandata.org/arcgis1/rest/services/RecreationAndCulture/MapServer/28/query?where=1%3D1&outFields=UNIT_CODE,UNIT_NAME,UNIT_TYPE,STATE,PARKNAME&returnGeometry=false&f=json";
+  const url = ARCGIS_UNITS_URL + "?where=1%3D1&outFields=UNIT_CODE,UNIT_NAME,UNIT_TYPE,STATE,PARKNAME&returnGeometry=false&f=json";
   const j = await (await fetch(url)).json();
   if (!j.features) throw new Error("ArcGIS query failed: " + JSON.stringify(j.error));
   return j.features.map((f) => f.attributes);
@@ -133,11 +232,15 @@ export async function buildNpsCache(refreshNetwork = false) {
 
   const visitorByPark = await loadVisitorCentersByPark(refreshNetwork, tools);
 
+  const arcgisRows = dedupeArcgisUnits(arcgis);
+  const pendingGeometry = [];
   const units = [];
   const seen = new Set();
-  for (const row of arcgis) {
+
+  for (const row of arcgisRows) {
     const code = (row.UNIT_CODE || "").toLowerCase();
     if (!code || seen.has(code)) continue;
+    if (isSubsidiaryPreserveUnit(row, arcgis)) continue;
     const states = (row.STATE || "").split(/[,;]/).map((s) => s.trim().toUpperCase()).filter((s) => US.has(s));
     if (!states.length) continue;
     const designation = row.UNIT_TYPE || "Park";
@@ -162,6 +265,7 @@ export async function buildNpsCache(refreshNetwork = false) {
       lon = cen.c[1];
       coordSource = "centroid";
     } else {
+      pendingGeometry.push(code);
       continue;
     }
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
@@ -182,13 +286,45 @@ export async function buildNpsCache(refreshNetwork = false) {
     });
     seen.add(code);
   }
+
+  if (pendingGeometry.length) {
+    console.log("Fetching ArcGIS geometry for", pendingGeometry.length, "units without centroids...");
+    const geomMap = await fetchArcgisGeometryMap(pendingGeometry);
+    for (const row of arcgisRows) {
+      const code = (row.UNIT_CODE || "").toLowerCase();
+      if (!code || seen.has(code)) continue;
+      if (isSubsidiaryPreserveUnit(row, arcgis)) continue;
+      const geom = geomMap[code];
+      if (!geom) continue;
+      const states = (row.STATE || "").split(/[,;]/).map((s) => s.trim().toUpperCase()).filter((s) => US.has(s));
+      if (!states.length) continue;
+      const designation = row.UNIT_TYPE || "Park";
+      const rich = richByCode[code];
+      units.push({
+        id: "nps-" + code,
+        parkCode: code,
+        name: rich?.fullName || row.UNIT_NAME || row.PARKNAME || code.toUpperCase(),
+        designation,
+        category: npsCategory(designation),
+        lat: geom.lat,
+        lon: geom.lon,
+        visitorCenter: null,
+        coordSource: "arcgis_geometry",
+        state: states.join(","),
+        url: rich?.url || "https://www.nps.gov/" + code + "/",
+        jr: rich?.activities && /junior ranger/i.test(rich.activities) ? "yes" : "unknown",
+        activities: (rich?.activities || "").slice(0, 200),
+      });
+      seen.add(code);
+    }
+  }
   units.sort((a, b) => a.name.localeCompare(b.name));
   const cats = {};
   units.forEach((u) => { cats[u.category] = (cats[u.category] || 0) + 1; });
   const vcCount = units.filter((u) => u.coordSource === "visitor_center").length;
   const geo = {
     generated: new Date().toISOString(),
-    source: "arcgis+visitorcenters+park-list+centroids",
+    source: "arcgis+visitorcenters+park-list+centroids+arcgis_geometry",
     count: units.length,
     visitorCenterCount: vcCount,
     categories: cats,

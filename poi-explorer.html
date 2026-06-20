@@ -31,6 +31,10 @@
         <select id="stateSelect"><option value="">All</option></select>
       </section>
       <section>
+        <label class="field-label">Map overlays</label>
+        <label class="check"><input type="checkbox" id="layerParkBoundaries" /> Park boundaries</label>
+      </section>
+      <section>
         <label class="field-label">Category (one at a time)</label>
         <div id="categoryList" class="category-list"></div>
       </section>
@@ -51,6 +55,7 @@
   </div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="poi-explorer-data.js"></script>
+  <script src="park-boundaries-embed.js"></script>
   <script src="poi-explorer-app.js"></script>
 </body>
 </html>

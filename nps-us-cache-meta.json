@@ -1,16 +1,16 @@
 {
-  "generated": "2026-06-01T14:30:43.785Z",
-  "count": 389,
+  "generated": "2026-06-19T23:43:47.888Z",
+  "count": 413,
   "categories": {
-    "historic_park": 44,
-    "park": 65,
-    "monument": 75,
-    "recreation": 44,
-    "historic_site": 105,
-    "parkway_trail": 4,
-    "memorial": 26,
-    "preserve": 13,
-    "other": 5,
+    "historic_park": 49,
+    "park": 64,
+    "monument": 86,
+    "recreation": 45,
+    "historic_site": 106,
+    "other": 9,
+    "parkway_trail": 7,
+    "memorial": 29,
+    "preserve": 10,
     "affiliated": 8
   }
 }
