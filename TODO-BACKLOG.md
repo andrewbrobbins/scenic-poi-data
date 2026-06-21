@@ -457,6 +457,179 @@ The US visitor center pipeline (`build-nps-visitor-centers-all.mjs`, `NPS-VISITO
 
 ---
 
+### NF-001 — National Forest unit catalog (USFS admin lands)
+
+- **Priority:** medium
+- **Status:** backlog
+
+**Your request**
+
+> Add national forests — need a lot more detail on what to include.
+
+**Full description**
+
+There is **no nationwide USFS unit catalog** in this repo today. National forests appear only as:
+
+- Hand-curated corridor seeds in `usfs-camping-source.json` (legacy; same problem SP-001 is fixing for state parks)
+- **Campground POIs** in `build-camping-us-ingest-usfs.mjs` (EDW Recreation Sites) with `landManager: "USFS"` but **`parentUnit: null`** and widespread `NO_PARENT` / `missing-parent-forest` QA flags
+- Scenic/historic POIs that happen to mention a forest name in OSM — not linked to an admin unit
+
+Goal: define scope, then build a **canonical USFS administrative unit database** (analogous to `nps-us-geo.json`) plus downstream map layers — **not** fold forests into SP-001 (state/provincial parks).
+
+**Scope — phase 0: research & scope lock (required before build)**
+
+Document decisions in a new `NATIONAL-FORESTS-US.md` source matrix:
+
+| Question | Options to evaluate |
+|----------|---------------------|
+| **Which admin units?** | National Forests only vs include **National Grasslands**, purchase units, special areas |
+| **Sub-units?** | Forest-level only vs also **Ranger Districts** (for parent-linking campgrounds) |
+| **Geometry** | Unit **centroid points** (v1) vs **boundary polygons** (v2; PAD-US / USFS ArcGIS / `build-park-boundaries`-style pipeline) |
+| **POI types to parent-link** | Campgrounds (existing USFS ingest), trailheads, scenic viewpoints, developed rec sites, visitor/ranger stations |
+| **Coverage** | **US only** (USFS is federal US; no CA equivalent in this item) |
+| **Nationwide** | Full US — retire corridor framing in `usfs-camping-source.json` when catalog lands |
+
+**Candidate data sources (research, not committed)**
+
+| Source | Likely use |
+|--------|------------|
+| [USFS EDW / ArcGIS](https://apps.fs.usda.gov/arcx/) | Admin boundaries, recreation sites, forest codes |
+| [USFS GeoData](https://data.fs.usda.gov/) / Open Forest | Forest boundaries, ranger districts |
+| [PAD-US (USGS GAP)](https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview) | Manager = USFS polygons, overlap checks |
+| Existing `02-usfs-recreation` ingest | Link campgrounds → forest id |
+| OSM US PBF | Supplement names/ids; verify coords (local PBF only) |
+| RIDB / Recreation.gov | Cross-check developed sites (already in camping pipeline) |
+
+**Scope — phase 1: catalog pipeline (after scope lock)**
+
+- Ingest + merge → `usfs-us-geo.json` (name TBD) with stable ids, forest name, **admin code** (if available), state(s), region, centroid, optional `url`, `category` (e.g. `national_forest`, `national_grassland`), `needsReview`
+- Validation script + QA report (counts per state/region, orphans, duplicate names)
+- Optional explorer embed (`USFS_UNITS_US` or similar)
+
+**Scope — phase 2: integrations (separate commits OK)**
+
+- **Camping parent-linking** — resolve `NO_PARENT` on USFS campgrounds in `camping-us-master.json` via forest id
+- **POI explorer** — new sidebar group or sub-group under federal lands; point layers by unit type; optional boundary overlay (depends on polygon work)
+- **Park boundaries** — extend or parallel `build-park-boundaries.mjs` for USFS polygons (may split to **NF-002** if large)
+- **Visitor/ranger stations** — optional follow-up (like VC-* for NPS); USFS does not have NPS-style API
+
+**Affected files (expected)**
+
+- New: `build-usfs-us-cache.mjs`, `usfs-us-geo.json`, `NATIONAL-FORESTS-US.md`, `validate-usfs-us.mjs`
+- `build-camping-us-ingest-usfs.mjs`, `build-camping-us-master.mjs`, `camping-us-qa-report.json`
+- `usfs-camping-source.json` (deprecate corridor seeds)
+- `build-poi-explorer-data.mjs`, `poi-explorer-app.js`
+- `build-stopping-points-cache.mjs` (legacy USFS pins)
+
+**Done when**
+
+- [ ] Written scope doc: which unit types, sub-units, and POI link rules are **in** vs **out**
+- [ ] Source matrix with at least 2 viable boundary sources and 1 centroid source, plus known gaps
+- [ ] Pipeline produces nationwide USFS unit catalog (count TBD after research — expect ~150 national forests + grasslands if all included)
+- [ ] Sample forests (e.g. White River, Shoshone, Gila) have correct state(s) and coords
+- [ ] USFS campground `NO_PARENT` rate drops materially after parent-link pass (target TBD)
+- [ ] POI explorer shows forest unit layer(s) for visual QA
+
+**Depends on**
+
+- None; complements **SP-001** (explicitly excludes national forests) and **PB-001** (NPS/PC boundaries only today)
+
+**Notes**
+
+- **Open question:** Include **National Grasslands** and **special management areas** in v1, or forests only?
+- **Open question:** Ranger districts in v1, or forest-level catalog only with districts deferred?
+- **Open question:** Boundary polygons in v1, or centroids first (recommended) with **NF-002** for polygons?
+- Do not mix with **state forests** (state-managed; belongs in SP-001 if ever in scope)
+
+---
+
+### BLM-001 — BLM lands catalog (Bureau of Land Management)
+
+- **Priority:** medium
+- **Status:** backlog
+
+**Your request**
+
+> Add BLM lands — similarly a lot to figure out.
+
+**Full description**
+
+BLM is **structurally different from NPS/USFS**: most public land is a **continuous fabric** of parcels and management designations, not a tidy list of named “parks.” Today BLM appears only as:
+
+- Scattered **campground/OSM** rows with `landManager: "BLM"` in `camping-us-master.json` (inferred from tags)
+- Manual seed `C-BLM-utah` in `build-stopping-points-cache.mjs`
+- Occasional **visitor centers** co-managed with NPS (e.g. El Malpais BLM desk in NPS VC data) — not a BLM unit catalog
+
+This item starts with **research and a data model proposal**, then a phased catalog — likely **polygons + access points**, not a simple clone of `nps-us-geo.json`.
+
+**Scope — phase 0: research & model (required before build)**
+
+Produce `BLM-LANDS-US.md` answering:
+
+| Question | Why it matters |
+|----------|----------------|
+| **What is a “unit” for BLM?** | Field offices, **National Conservation Areas (NCAs)**, **National Monuments** (BLM-managed), **Wilderness Areas**, **WSAs**, **ACECs**, **SRMAs**, **recreation management areas**, or state-level BLM regions |
+| **Points vs polygons** | BLM travel use often needs **where dispersed camping is typical** vs official **developed sites** vs **admin boundaries** |
+| **Relationship to camping** | Link existing BLM-tagged campgrounds; separate track for **dispersed** (may stay POI-less or low-density regions) |
+| **Overlap** | BLM vs NPS vs USFS vs state land on PAD-US; dedupe rules |
+| **Coverage** | **US only**; **nationwide** (no corridor subset) |
+
+**Candidate data sources (research)**
+
+| Source | Likely use |
+|--------|------------|
+| [BLM National Data / GIS Hub](https://gblm-nls.opendata.arcgis.com/) | Surface management agency, NLCS units, recreation sites |
+| [PAD-US](https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview) | `Manager Name` = Bureau of Land Management; boundary geometry |
+| BLM **Recreation.gov** / facility datasets | Developed campgrounds, trailheads |
+| Existing camping OSM + RIDB ingest | BLM-tagged sites to parent-link |
+| BLM **field office** locators | Service/access points (not recreation destinations themselves) |
+
+**Proposed artifact shapes (pick one in phase 0)**
+
+1. **Named-unit catalog** — one record per NCA/monument/recreation area with centroid + optional boundary id (closest to NPS model; incomplete for general BLM open land)
+2. **Polygon layer + POI linking** — `blm-lands-us-boundaries.geojson` (simplified) + point POIs that reference `blmUnitId` / `padUsId`
+3. **Hybrid** — named units where they exist; remaining BLM surface as simplified **state/regional** polygons for map context only (no POI parent)
+
+**Scope — phase 1: minimal catalog (after model lock)**
+
+- Implement chosen model; master JSON and/or GeoJSON committed via pipeline
+- Validation: topology sanity, manager tag checks, sample QA in western states (UT, CO, WY, NV, AZ, NM, OR, ID, MT, CA)
+- `validate-blm-us.mjs` + QA report
+
+**Scope — phase 2: integrations**
+
+- Parent-link BLM campgrounds in camping master (today mostly OSM-inferred)
+- POI explorer: BLM group (polygons + key points); detail panel explains designation type
+- Optional: developed recreation sites layer distinct from “general BLM land”
+
+**Affected files (expected)**
+
+- New: `build-blm-us-*.mjs`, `BLM-LANDS-US.md`, master/boundary artifacts (names TBD after model lock)
+- `build-camping-us-ingest-osm.mjs`, `build-camping-us-master.mjs` (BLM parent-linking)
+- `build-stopping-points-cache.mjs` (remove manual BLM seed when catalog exists)
+- `build-poi-explorer-data.mjs`, `poi-explorer-app.js`, `park-boundaries-embed.js` or sibling BLM embed
+
+**Done when**
+
+- [ ] Scope doc recommends unit model (named units vs polygons vs hybrid) with pros/cons
+- [ ] At least one authoritative BLM boundary source integrated and simplified for web embed size
+- [ ] Named BLM recreation/NLCS units (or equivalent) listed with stable ids — count target set after research
+- [ ] POI explorer renders BLM layer(s) without breaking NPS/USFS overlays
+- [ ] BLM campground parent-linking rules documented; sample linked records in QA report
+
+**Depends on**
+
+- None strictly; **NF-001** research patterns (PAD-US, federal land pipeline) may be reused
+
+**Notes**
+
+- **Open question:** Is **dispersed camping** in scope as mappable regions, or only **named sites + NLCS units**?
+- **Open question:** Show **all BLM surface** on map (heavy) vs **recreation-relevant subset** only?
+- **Open question:** Single combined **“Federal lands”** explorer group (NPS + USFS + BLM) vs separate groups?
+- BLM **national monuments** may overlap NPS catalog — need explicit dedupe/ownership rules (manager tag wins)
+
+---
+
 ## In progress
 
 _(none)_
