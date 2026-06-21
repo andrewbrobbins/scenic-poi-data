@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-21T05:33:46.476Z",
+  "generated": "2026-06-21T05:50:57.480Z",
   "source": "park-boundaries.geojson+overrides",
   "parkCount": 377,
-  "multiPinCount": 47,
+  "multiPinCount": 46,
   "parks": {
     "amme": {
       "parkCode": "amme",
@@ -10583,8 +10583,8 @@
     },
     "klgo": {
       "parkCode": "klgo",
-      "strategy": "multi_pin",
-      "pinCount": 2,
+      "strategy": "single",
+      "pinCount": 1,
       "pins": [
         {
           "id": "klgo-area-1",
@@ -10600,18 +10600,6 @@
           ],
           "areaDeg2": 0.0390224580000012,
           "labelSource": "heuristic"
-        },
-        {
-          "id": "klgo-seattle-unit",
-          "label": "Seattle Unit",
-          "lat": 47.59937,
-          "lon": -122.33197,
-          "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 0,
-          "sectionIndices": [],
-          "areaDeg2": 0,
-          "labelSource": "park_list_klse"
         }
       ],
       "primary": {

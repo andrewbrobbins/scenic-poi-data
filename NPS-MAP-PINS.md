@@ -52,9 +52,7 @@ Example (`thro` — three distinct visit areas):
 }
 ```
 
-Add overrides when NPS boundaries omit a staffed/distinct unit polygon (e.g. `klgo` Seattle Unit — separate park code `klse` with no boundary polygon).
-
-Park-list-only units (missing from ArcGIS) are added from `nps-parks-cache.json` when they are discrete sites — trails and affiliated areas are skipped.
+Add overrides when NPS boundaries omit a staffed/distinct unit polygon (e.g. Elkhorn Ranch at `thro`). Discrete units with their own park code (e.g. `klse`) belong in the catalog via `nps-parks-cache.json`, not as extra pins on a sibling code.
 
 ## Parks Canada
 
