@@ -6,8 +6,8 @@ Park catalog pins (`nps-us-geo.json`) use **boundary geometry**, not visitor cen
 
 | Case | Pin placement |
 |------|----------------|
-| Single boundary (or nearby sections) | Bbox centroid of the boundary polygon |
-| Distant sections (≥ **18 km** apart) | One pin per cluster — area-weighted centroid |
+| Single boundary (or fragment rings within **3 km**) | Bbox centroid — nearby rings merged as one pin |
+| Separate boundary sections (≥ **3 km** apart, each ≥ **1.8%** of largest ring) | One pin per section — area-weighted centroid when merged |
 | Units missing from boundary data | Manual pin in `nps-park-pin-overrides.json` |
 
 Visitor centers remain in `nps-visitor-centers-us-master.json` as a separate layer; `visitorCenter` on catalog units is informational only.

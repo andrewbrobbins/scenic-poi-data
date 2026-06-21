@@ -13,9 +13,9 @@ export const NPS_PIN_OVERRIDES_PATH = path.join(tools, "nps-park-pin-overrides.j
 /** Drop specks below this bbox-area (deg²) — keep in sync with build-park-boundaries.mjs */
 export const MIN_SECTION_AREA_DEG2 = 0.000003;
 /** Secondary section must be at least this share of the largest section area. */
-export const MIN_SECTION_AREA_RATIO = 0.035;
-/** Sections/clusters farther apart than this (km) get separate map pins. */
-export const MULTI_PIN_MIN_DISTANCE_KM = 18;
+export const MIN_SECTION_AREA_RATIO = 0.018;
+/** Merge boundary sections closer than this (km); farther sections stay separate pins. */
+export const MULTI_PIN_MIN_DISTANCE_KM = 3;
 
 export function haversineKm(a, b) {
   const R = 6371;

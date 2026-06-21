@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { fetchArcgisAllFeatures } from "./camping-ca-lib.mjs";
+import { MIN_SECTION_AREA_DEG2, MIN_SECTION_AREA_RATIO } from "./park-boundary-pins.mjs";
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
 const NPS_GEO_PATH = path.join(tools, "nps-us-geo.json");
@@ -20,9 +21,9 @@ const MAX_PTS_MAIN_RING = 256;
 /** Max extra disjoint sections per unit (after area filter). */
 const MAX_SECONDARY_RINGS = 32;
 /** Drop specks below this bbox-area (deg²). */
-const MIN_RING_AREA_DEG2 = 0.000003;
+const MIN_RING_AREA_DEG2 = MIN_SECTION_AREA_DEG2;
 /** Secondary section must be at least this share of the main ring bbox area. */
-const MIN_SECONDARY_AREA_RATIO = 0.035;
+const MIN_SECONDARY_AREA_RATIO = MIN_SECTION_AREA_RATIO;
 
 function ptsForSecondaryRing(area, mainArea) {
   const ratio = mainArea > 0 ? area / mainArea : 0;

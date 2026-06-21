@@ -457,7 +457,7 @@ export async function buildNpsCache(refreshNetwork = false) {
   const geo = {
     generated: new Date().toISOString(),
     source: "arcgis+boundary-pins+park-list+centroids+arcgis_geometry",
-    pinPolicy: "boundary_centroid; multi_pin when sections >= 18 km apart (see nps-us-park-pins.json)",
+    pinPolicy: "boundary_centroid; one pin per boundary section unless sections are within 3 km (see nps-us-park-pins.json)",
     count: units.length,
     visitorCenterCount: vcCount,
     multiPinCount: units.filter((u) => u.pinStrategy === "multi_pin").length,

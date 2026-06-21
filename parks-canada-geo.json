@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T04:40:36.112Z",
+  "generated": "2026-06-21T06:18:34.504Z",
   "source": "apca-places-arcgis",
   "count": 53,
   "categories": {
@@ -158,27 +158,66 @@
       "nameFr": "Parc national du Canada de la Péninsule-Bruce",
       "designation": "National Park",
       "category": "park",
-      "lat": 45.1831,
-      "lon": -81.49365,
+      "lat": 45.19663,
+      "lon": -81.47748,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "bruce-peninsula-area-1",
-          "label": "",
-          "lat": 45.1831,
-          "lon": -81.49365,
+          "id": "bruce-peninsula-area-2",
+          "label": "Area 2",
+          "lat": 45.19663,
+          "lon": -81.47748,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
-            2,
+            0
+          ],
+          "areaDeg2": 0.030076561199998634,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "bruce-peninsula-area-1",
+          "label": "Area 1",
+          "lat": 45.19758,
+          "lon": -81.59857,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
             3
           ],
-          "areaDeg2": 0.039729535799999,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0020781384000001023,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "bruce-peninsula-area-3",
+          "label": "Area 3",
+          "lat": 45.15419,
+          "lon": -81.55649,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0033734634000000523,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "bruce-peninsula-area-4",
+          "label": "Area 4",
+          "lat": 45.10229,
+          "lon": -81.50706,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.004201372800000209,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "ON",
@@ -225,25 +264,38 @@
       "nameFr": "Parc national du Canada Elk Island",
       "designation": "National Park",
       "category": "park",
-      "lat": 53.61476,
-      "lon": -112.86847,
+      "lat": 53.64096,
+      "lon": -112.86525,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "elk-island-area-1",
-          "label": "",
-          "lat": 53.61476,
-          "lon": -112.86847,
+          "label": "Area 1",
+          "lat": 53.64096,
+          "lon": -112.86525,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.025889432800000202,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "elk-island-area-2",
+          "label": "Area 2",
+          "lat": 53.54209,
+          "lon": -112.8774,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.03522428920000028,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.009334856400000075,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AB",
@@ -354,25 +406,53 @@
       "nameFr": "Parc national du Canada des Île-de-la-Baie-Georgiene",
       "designation": "National Park",
       "category": "park",
-      "lat": 44.86902,
-      "lon": -79.8606,
+      "lat": 44.86495,
+      "lon": -79.86056,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "georgian-bay-islands-area-1",
-          "label": "",
-          "lat": 44.86902,
-          "lon": -79.8606,
+          "id": "georgian-bay-islands-area-3",
+          "label": "Area 3",
+          "lat": 44.86495,
+          "lon": -79.86056,
           "role": "primary",
           "clusterIndex": 0,
+          "sectionCount": 1,
+          "sectionIndices": [
+            0
+          ],
+          "areaDeg2": 0.003704068900000015,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "georgian-bay-islands-area-1",
+          "label": "Area 1",
+          "lat": 45.02749,
+          "lon": -79.9957,
+          "role": "secondary",
+          "clusterIndex": 2,
           "sectionCount": 2,
           "sectionIndices": [
-            0,
+            2,
+            3
+          ],
+          "areaDeg2": 0.0001920239999999266,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "georgian-bay-islands-area-2",
+          "label": "Area 2",
+          "lat": 44.942,
+          "lon": -79.86132,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.003910693900000148,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0002066250000001329,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "ON",
@@ -441,16 +521,29 @@
         {
           "id": "grasslands-area-2",
           "label": "Area 2",
-          "lat": 49.09299,
-          "lon": -106.67504,
+          "lat": 49.10186,
+          "lon": -106.69675,
           "role": "secondary",
           "clusterIndex": 1,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
+            1
+          ],
+          "areaDeg2": 0.054351788400001384,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "grasslands-area-3",
+          "label": "Area 3",
+          "lat": 49.04729,
+          "lon": -106.56326,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.06490537560000015,
+          "areaDeg2": 0.010553587199998764,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -498,33 +591,60 @@
       "nameFr": "Réserve de parc national et site du patrimoine haïda Gwaii Haanas",
       "designation": "National Park Reserve",
       "category": "park",
-      "lat": 52.4535,
-      "lon": -131.55897,
+      "lat": 52.44061,
+      "lon": -131.5574,
       "coordSource": "boundary_centroid",
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "gwaii-haanas-area-1",
-          "label": "Area 1",
-          "lat": 52.4535,
-          "lon": -131.55897,
+          "id": "gwaii-haanas-area-2",
+          "label": "Area 2",
+          "lat": 52.44061,
+          "lon": -131.5574,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1
+            0
           ],
-          "areaDeg2": 0.7455926479999924,
+          "areaDeg2": 0.70181365999999,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "gwaii-haanas-area-2",
-          "label": "Area 2",
+          "id": "gwaii-haanas-area-1",
+          "label": "Area 1",
+          "lat": 52.66007,
+          "lon": -131.58409,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.04377898800000231,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gwaii-haanas-area-3",
+          "label": "Area 3",
+          "lat": 52.38771,
+          "lon": -131.30372,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.016045720199999988,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gwaii-haanas-area-4",
+          "label": "Area 4",
           "lat": 52.04782,
           "lon": -131.03498,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
@@ -545,33 +665,60 @@
       "nameFr": "Réserve de parc national, réserve d'aire marine nationale de conservation et site du patrimoine haïda Gwaii Haanas",
       "designation": "National Marine Conservation Area Reserve",
       "category": "marine",
-      "lat": 52.4535,
-      "lon": -131.55897,
+      "lat": 52.44061,
+      "lon": -131.5574,
       "coordSource": "boundary_centroid",
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "gwaii-haanas-area-1",
-          "label": "Area 1",
-          "lat": 52.4535,
-          "lon": -131.55897,
+          "id": "gwaii-haanas-area-2",
+          "label": "Area 2",
+          "lat": 52.44061,
+          "lon": -131.5574,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1
+            0
           ],
-          "areaDeg2": 0.7455926479999924,
+          "areaDeg2": 0.70181365999999,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "gwaii-haanas-area-2",
-          "label": "Area 2",
+          "id": "gwaii-haanas-area-1",
+          "label": "Area 1",
+          "lat": 52.66007,
+          "lon": -131.58409,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.04377898800000231,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gwaii-haanas-area-3",
+          "label": "Area 3",
+          "lat": 52.38771,
+          "lon": -131.30372,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.016045720199999988,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gwaii-haanas-area-4",
+          "label": "Area 4",
           "lat": 52.04782,
           "lon": -131.03498,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
@@ -833,11 +980,11 @@
       "lat": 48.485,
       "lon": -87.89257,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "lake-superior-area-1",
-          "label": "",
+          "id": "lake-superior-area-2",
+          "label": "Area 2",
           "lat": 48.485,
           "lon": -87.89257,
           "role": "primary",
@@ -847,7 +994,21 @@
             0
           ],
           "areaDeg2": 2.192570141999986,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lake-superior-area-1",
+          "label": "Area 1",
+          "lat": 48.77264,
+          "lon": -87.92207,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.05672711399999969,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "ON",
@@ -862,39 +1023,100 @@
       "nameFr": "Réserve de parc national du Canada de l'Archipel-de-Mingan",
       "designation": "National Park Reserve",
       "category": "park",
-      "lat": 50.21983,
-      "lon": -63.71711,
+      "lat": 50.21576,
+      "lon": -63.88843,
       "coordSource": "boundary_centroid",
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "mingan-archipelago-area-2",
-          "label": "Area 2",
-          "lat": 50.21983,
-          "lon": -63.71711,
+          "id": "mingan-archipelago-area-8",
+          "label": "Area 8",
+          "lat": 50.21576,
+          "lon": -63.88843,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 12,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12
+            0
           ],
-          "areaDeg2": 0.015273066300000044,
+          "areaDeg2": 0.004692566999999499,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "mingan-archipelago-area-1",
           "label": "Area 1",
+          "lat": 50.28627,
+          "lon": -62.99318,
+          "role": "secondary",
+          "clusterIndex": 12,
+          "sectionCount": 1,
+          "sectionIndices": [
+            15
+          ],
+          "areaDeg2": 0.00009294420000005192,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-2",
+          "label": "Area 2",
+          "lat": 50.273,
+          "lon": -63.82198,
+          "role": "secondary",
+          "clusterIndex": 9,
+          "sectionCount": 1,
+          "sectionIndices": [
+            9
+          ],
+          "areaDeg2": 0.0005013124999999976,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-3",
+          "label": "Area 3",
+          "lat": 50.24523,
+          "lon": -63.06697,
+          "role": "secondary",
+          "clusterIndex": 6,
+          "sectionCount": 1,
+          "sectionIndices": [
+            6
+          ],
+          "areaDeg2": 0.0010169390000000088,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-4",
+          "label": "Area 4",
+          "lat": 50.23413,
+          "lon": -64.00109,
+          "role": "secondary",
+          "clusterIndex": 7,
+          "sectionCount": 2,
+          "sectionIndices": [
+            7,
+            10
+          ],
+          "areaDeg2": 0.0010963087999999272,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-5",
+          "label": "Area 5",
+          "lat": 50.22506,
+          "lon": -63.68297,
+          "role": "secondary",
+          "clusterIndex": 10,
+          "sectionCount": 2,
+          "sectionIndices": [
+            11,
+            13
+          ],
+          "areaDeg2": 0.0004694601999999556,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-6",
+          "label": "Area 6",
           "lat": 50.22357,
           "lon": -63.15018,
           "role": "secondary",
@@ -904,6 +1126,119 @@
             1
           ],
           "areaDeg2": 0.0038654040000000917,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-7",
+          "label": "Area 7",
+          "lat": 50.22132,
+          "lon": -63.62616,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.002019940800000289,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-9",
+          "label": "Area 9",
+          "lat": 50.21558,
+          "lon": -63.55288,
+          "role": "secondary",
+          "clusterIndex": 11,
+          "sectionCount": 2,
+          "sectionIndices": [
+            12,
+            14
+          ],
+          "areaDeg2": 0.0002866478999999909,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-10",
+          "label": "Area 10",
+          "lat": 50.21228,
+          "lon": -63.7497,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.0013742647999999563,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-11",
+          "label": "Area 11",
+          "lat": 50.21193,
+          "lon": -63.81122,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.0017386182000002763,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-12",
+          "label": "Area 12",
+          "lat": 50.21074,
+          "lon": -64.12581,
+          "role": "secondary",
+          "clusterIndex": 8,
+          "sectionCount": 1,
+          "sectionIndices": [
+            8
+          ],
+          "areaDeg2": 0.0005270772000003546,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-13",
+          "label": "Area 13",
+          "lat": 50.2069,
+          "lon": -63.38376,
+          "role": "secondary",
+          "clusterIndex": 13,
+          "sectionCount": 1,
+          "sectionIndices": [
+            16
+          ],
+          "areaDeg2": 0.00008811000000008661,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-14",
+          "label": "Area 14",
+          "lat": 50.2047,
+          "lon": -63.31943,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.0017701949999998177,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mingan-archipelago-area-15",
+          "label": "Area 15",
+          "lat": 50.199,
+          "lon": -63.20253,
+          "role": "secondary",
+          "clusterIndex": 14,
+          "sectionCount": 1,
+          "sectionIndices": [
+            17
+          ],
+          "areaDeg2": 0.00008580960000004528,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -1153,41 +1488,80 @@
       "nameFr": "Parc national du Canada de l'Île-du-Prince-Édouard",
       "designation": "National Park",
       "category": "park",
-      "lat": 46.45188,
-      "lon": -63.26437,
+      "lat": 46.42053,
+      "lon": -63.1559,
       "coordSource": "boundary_centroid",
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "prince-edward-island-area-1",
-          "label": "Area 1",
-          "lat": 46.45188,
-          "lon": -63.26437,
+          "id": "prince-edward-island-area-4",
+          "label": "Area 4",
+          "lat": 46.42053,
+          "lon": -63.1559,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.01020519400000123,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "prince-edward-island-area-1",
+          "label": "Area 1",
+          "lat": 46.48497,
+          "lon": -63.38654,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 2,
+          "sectionIndices": [
             1,
-            3,
             5
           ],
-          "areaDeg2": 0.02109601260000043,
+          "areaDeg2": 0.010307663299999397,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "prince-edward-island-area-2",
           "label": "Area 2",
-          "lat": 46.45027,
-          "lon": -62.6882,
+          "lat": 46.45378,
+          "lon": -62.66178,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 4,
+          "sectionCount": 1,
           "sectionIndices": [
-            2,
             4
           ],
-          "areaDeg2": 0.001380672499999913,
+          "areaDeg2": 0.00047990249999992735,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "prince-edward-island-area-3",
+          "label": "Area 3",
+          "lat": 46.44841,
+          "lon": -62.70228,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0009007699999999858,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "prince-edward-island-area-5",
+          "label": "Area 5",
+          "lat": 46.41563,
+          "lon": -63.00337,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.0005831552999997976,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -1260,7 +1634,7 @@
           "lat": 76.65948,
           "lon": -100.97909,
           "role": "secondary",
-          "clusterIndex": 4,
+          "clusterIndex": 5,
           "sectionCount": 1,
           "sectionIndices": [
             5
@@ -1271,21 +1645,34 @@
         {
           "id": "qausuittuq-area-3",
           "label": "Area 3",
-          "lat": 76.11169,
-          "lon": -103.34471,
+          "lat": 76.18202,
+          "lon": -103.49186,
           "role": "secondary",
           "clusterIndex": 2,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            2,
-            4
+            2
           ],
-          "areaDeg2": 0.8910872571000041,
+          "areaDeg2": 0.5520524610000155,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "qausuittuq-area-4",
           "label": "Area 4",
+          "lat": 75.99718,
+          "lon": -103.10511,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.33903479609998866,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "qausuittuq-area-5",
+          "label": "Area 5",
           "lat": 75.87403,
           "lon": -102.68702,
           "role": "secondary",
@@ -1298,8 +1685,8 @@
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "qausuittuq-area-5",
-          "label": "Area 5",
+          "id": "qausuittuq-area-6",
+          "label": "Area 6",
           "lat": 75.70423,
           "lon": -101.94041,
           "role": "secondary",
@@ -1490,8 +1877,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "sirmilik-area-1",
-          "label": "Area 1",
+          "id": "sirmilik-area-2",
+          "label": "Area 2",
           "lat": 73.25628,
           "lon": -78.54816,
           "role": "primary",
@@ -1504,8 +1891,22 @@
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "sirmilik-area-2",
-          "label": "Area 2",
+          "id": "sirmilik-area-1",
+          "label": "Area 1",
+          "lat": 73.39706,
+          "lon": -84.14587,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.16366490719999532,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "sirmilik-area-3",
+          "label": "Area 3",
           "lat": 73.17195,
           "lon": -82.20863,
           "role": "secondary",
@@ -1518,8 +1919,8 @@
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "sirmilik-area-3",
-          "label": "Area 3",
+          "id": "sirmilik-area-4",
+          "label": "Area 4",
           "lat": 72.08477,
           "lon": -77.65541,
           "role": "secondary",
@@ -1593,11 +1994,11 @@
       "lat": 48.52247,
       "lon": -53.96908,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "terra-nova-area-1",
-          "label": "",
+          "id": "terra-nova-area-2",
+          "label": "Area 2",
           "lat": 48.52247,
           "lon": -53.96908,
           "role": "primary",
@@ -1607,7 +2008,21 @@
             0
           ],
           "areaDeg2": 0.1327876560000016,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "terra-nova-area-1",
+          "label": "Area 1",
+          "lat": 48.60131,
+          "lon": -53.73986,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0038533219999996866,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NL",
@@ -1654,52 +2069,165 @@
       "nameFr": "Parc national du Canada des Mille-îles",
       "designation": "National Park",
       "category": "park",
-      "lat": 44.40423,
-      "lon": -75.94018,
+      "lat": 44.36545,
+      "lon": -76.05446,
       "coordSource": "boundary_centroid",
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "thousand-islands-area-1",
-          "label": "Area 1",
-          "lat": 44.40423,
-          "lon": -75.94018,
+          "id": "thousand-islands-area-4",
+          "label": "Area 4",
+          "lat": 44.36545,
+          "lon": -76.05446,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 21,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
-            3,
+            9
+          ],
+          "areaDeg2": 0.0011998224999996933,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-1",
+          "label": "Area 1",
+          "lat": 44.49524,
+          "lon": -75.83627,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 4,
+          "sectionIndices": [
             5,
             4,
-            6,
-            7,
-            9,
-            8,
             10,
-            11,
-            12,
-            14,
-            15,
-            16,
-            17,
-            13,
-            19,
-            18,
-            21,
-            22
+            14
           ],
-          "areaDeg2": 0.005041555899999313,
+          "areaDeg2": 0.0010219461999998133,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "thousand-islands-area-2",
           "label": "Area 2",
+          "lat": 44.42722,
+          "lon": -75.86625,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 12,
+          "sectionIndices": [
+            3,
+            7,
+            8,
+            12,
+            16,
+            13,
+            19,
+            21,
+            22,
+            23,
+            28,
+            32
+          ],
+          "areaDeg2": 0.0013992353999999123,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-3",
+          "label": "Area 3",
+          "lat": 44.38985,
+          "lon": -75.95504,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 2,
+          "sectionIndices": [
+            6,
+            25
+          ],
+          "areaDeg2": 0.00029190060000008693,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-5",
+          "label": "Area 5",
+          "lat": 44.35524,
+          "lon": -75.96131,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 4,
+          "sectionIndices": [
+            1,
+            17,
+            24,
+            26
+          ],
+          "areaDeg2": 0.0011110388999999478,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-6",
+          "label": "Area 6",
+          "lat": 44.33089,
+          "lon": -76.10343,
+          "role": "secondary",
+          "clusterIndex": 8,
+          "sectionCount": 1,
+          "sectionIndices": [
+            29
+          ],
+          "areaDeg2": 0.000023827800000012796,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-7",
+          "label": "Area 7",
+          "lat": 44.30279,
+          "lon": -76.15584,
+          "role": "secondary",
+          "clusterIndex": 6,
+          "sectionCount": 3,
+          "sectionIndices": [
+            11,
+            15,
+            18
+          ],
+          "areaDeg2": 0.0001896954999998813,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-8",
+          "label": "Area 8",
+          "lat": 44.30187,
+          "lon": -76.09967,
+          "role": "secondary",
+          "clusterIndex": 9,
+          "sectionCount": 1,
+          "sectionIndices": [
+            30
+          ],
+          "areaDeg2": 0.00002161079999998668,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-9",
+          "label": "Area 9",
+          "lat": 44.2267,
+          "lon": -76.45265,
+          "role": "secondary",
+          "clusterIndex": 7,
+          "sectionCount": 1,
+          "sectionIndices": [
+            27
+          ],
+          "areaDeg2": 0.00002988700000003854,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "thousand-islands-area-10",
+          "label": "Area 10",
           "lat": 43.92851,
           "lon": -76.61576,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 2,
           "sectionIndices": [
             2,
@@ -1944,11 +2472,11 @@
       "lat": 49.10121,
       "lon": -113.9097,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "waterton-lakes-area-1",
-          "label": "",
+          "label": "Area 1",
           "lat": 49.10121,
           "lon": -113.9097,
           "role": "primary",
@@ -1958,7 +2486,21 @@
             0
           ],
           "areaDeg2": 0.10622718860000006,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "waterton-lakes-area-2",
+          "label": "Area 2",
+          "lat": 49.04078,
+          "lon": -113.70874,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0020263728000005808,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AB",

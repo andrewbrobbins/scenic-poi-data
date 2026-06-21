@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-21T05:50:57.859Z",
+  "generated": "2026-06-21T06:18:34.033Z",
   "source": "arcgis+boundary-pins+park-list+centroids+arcgis_geometry",
-  "pinPolicy": "boundary_centroid; multi_pin when sections >= 18 km apart (see nps-us-park-pins.json)",
+  "pinPolicy": "boundary_centroid; one pin per boundary section unless sections are within 3 km (see nps-us-park-pins.json)",
   "count": 419,
   "visitorCenterCount": 1043,
-  "multiPinCount": 46,
+  "multiPinCount": 98,
   "categories": {
     "historic_park": 51,
     "park": 64,
@@ -24,8 +24,8 @@
       "name": "Abraham Lincoln Birthplace National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 37.58966,
-      "lon": -85.66911,
+      "lat": 37.6117,
+      "lon": -85.64349,
       "visitorCenter": {
         "name": "Kentucky Boyhood Home at Knob Creek Unit Visitor Center",
         "lat": 37.6114217495908,
@@ -33,23 +33,36 @@
       },
       "visitorCenterCount": 4,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "abli-area-1",
-          "label": "",
-          "lat": 37.58966,
-          "lon": -85.66911,
+          "label": "Area 1",
+          "lat": 37.6117,
+          "lon": -85.64349,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
             2
           ],
-          "areaDeg2": 0.0003112380000001,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00022404120000017684,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "abli-area-2",
+          "label": "Area 2",
+          "lat": 37.53303,
+          "lon": -85.73492,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0000871967999999232,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "KY",
@@ -63,8 +76,8 @@
       "name": "Acadia National Park",
       "designation": "National Park",
       "category": "park",
-      "lat": 44.33448,
-      "lon": -68.27389,
+      "lat": 44.35669,
+      "lon": -68.24465,
       "visitorCenter": {
         "name": "Acadia Gateway Center",
         "lat": 44.47054889222931,
@@ -75,29 +88,83 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "acad-area-1",
-          "label": "Area 1",
-          "lat": 44.33448,
-          "lon": -68.27389,
+          "id": "acad-area-2",
+          "label": "Area 2",
+          "lat": 44.35669,
+          "lon": -68.24465,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
-            3,
-            4
+            5
           ],
-          "areaDeg2": 0.029987204399999745,
+          "areaDeg2": 0.017416128599999282,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "acad-area-2",
-          "label": "Area 2",
+          "id": "acad-area-1",
+          "label": "Area 1",
+          "lat": 44.41871,
+          "lon": -68.31792,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            6
+          ],
+          "areaDeg2": 0.0003437644999999361,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "acad-area-3",
+          "label": "Area 3",
+          "lat": 44.35322,
+          "lon": -68.05767,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.0017037786000000778,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "acad-area-4",
+          "label": "Area 4",
+          "lat": 44.30721,
+          "lon": -68.35604,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.009725174100000067,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "acad-area-5",
+          "label": "Area 5",
+          "lat": 44.23945,
+          "lon": -68.32043,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.0015045709000002807,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "acad-area-6",
+          "label": "Area 6",
           "lat": 44.03848,
           "lon": -68.63574,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
@@ -221,11 +288,11 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "alag-area-1",
-          "label": "",
+          "id": "alag-area-2",
+          "label": "Area 2",
           "lat": 59.05543,
           "lon": -156.08225,
           "role": "primary",
@@ -235,7 +302,21 @@
             0
           ],
           "areaDeg2": 0.12054748560000242,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "alag-area-1",
+          "label": "Area 1",
+          "lat": 59.06988,
+          "lon": -156.49509,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.002227225000000239,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AK",
@@ -286,8 +367,8 @@
       "name": "Allegheny Portage Railroad National Historic Site",
       "designation": "National Historic Site",
       "category": "historic_site",
-      "lat": 40.43331,
-      "lon": -78.50811,
+      "lat": 40.43162,
+      "lon": -78.50527,
       "visitorCenter": {
         "name": "Summit Level Visitor Center",
         "lat": 40.4573503091,
@@ -298,23 +379,36 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "alpo-area-1",
-          "label": "Area 1",
-          "lat": 40.43331,
-          "lon": -78.50811,
+          "id": "alpo-area-2",
+          "label": "Area 2",
+          "lat": 40.43162,
+          "lon": -78.50527,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            2
+            0
           ],
-          "areaDeg2": 0.005467073199999717,
+          "areaDeg2": 0.005134863999999594,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "alpo-area-2",
-          "label": "Area 2",
+          "id": "alpo-area-1",
+          "label": "Area 1",
+          "lat": 40.4595,
+          "lon": -78.55193,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0003322092000001223,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "alpo-area-3",
+          "label": "Area 3",
           "lat": 40.36685,
           "lon": -78.84665,
           "role": "secondary",
@@ -574,8 +668,8 @@
       "name": "Apostle Islands National Lakeshore",
       "designation": "National Lakeshore",
       "category": "recreation",
-      "lat": 46.95773,
-      "lon": -90.8532,
+      "lat": 46.91696,
+      "lon": -90.96359,
       "visitorCenter": {
         "name": "Bayfield Headquarters",
         "lat": 46.812314,
@@ -586,48 +680,270 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "apis-area-1",
-          "label": "Area 1",
-          "lat": 46.95773,
-          "lon": -90.8532,
+          "id": "apis-area-15",
+          "label": "Area 15",
+          "lat": 46.91696,
+          "lon": -90.96359,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 11,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            5,
-            9,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
+            0
+          ],
+          "areaDeg2": 0.013668183799999468,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-1",
+          "label": "Area 1",
+          "lat": 47.07174,
+          "lon": -90.72605,
+          "role": "secondary",
+          "clusterIndex": 17,
+          "sectionCount": 1,
+          "sectionIndices": [
             18
           ],
-          "areaDeg2": 0.028965429399999368,
+          "areaDeg2": 0.0006540020999997597,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "apis-area-2",
           "label": "Area 2",
-          "lat": 46.94377,
-          "lon": -90.59028,
+          "lat": 47.0678,
+          "lon": -90.58708,
+          "role": "secondary",
+          "clusterIndex": 18,
+          "sectionCount": 1,
+          "sectionIndices": [
+            19
+          ],
+          "areaDeg2": 0.0004763270000000051,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-3",
+          "label": "Area 3",
+          "lat": 47.03621,
+          "lon": -90.66534,
+          "role": "secondary",
+          "clusterIndex": 7,
+          "sectionCount": 2,
+          "sectionIndices": [
+            7,
+            17
+          ],
+          "areaDeg2": 0.0031988975000005167,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-4",
+          "label": "Area 4",
+          "lat": 47.03275,
+          "lon": -90.43194,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.008721574399999866,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-5",
+          "label": "Area 5",
+          "lat": 47.01827,
+          "lon": -90.55997,
+          "role": "secondary",
+          "clusterIndex": 11,
+          "sectionCount": 1,
+          "sectionIndices": [
+            11
+          ],
+          "areaDeg2": 0.0022550397999996966,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-6",
+          "label": "Area 6",
+          "lat": 47.01729,
+          "lon": -90.75779,
+          "role": "secondary",
+          "clusterIndex": 9,
+          "sectionCount": 1,
+          "sectionIndices": [
+            9
+          ],
+          "areaDeg2": 0.0023013655999996286,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-7",
+          "label": "Area 7",
+          "lat": 46.99913,
+          "lon": -90.61457,
+          "role": "secondary",
+          "clusterIndex": 14,
+          "sectionCount": 1,
+          "sectionIndices": [
+            14
+          ],
+          "areaDeg2": 0.001052998799999944,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-8",
+          "label": "Area 8",
+          "lat": 46.99561,
+          "lon": -90.69042,
+          "role": "secondary",
+          "clusterIndex": 12,
+          "sectionCount": 1,
+          "sectionIndices": [
+            12
+          ],
+          "areaDeg2": 0.0018291357000000542,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-9",
+          "label": "Area 9",
+          "lat": 46.98366,
+          "lon": -90.86491,
+          "role": "secondary",
+          "clusterIndex": 15,
+          "sectionCount": 1,
+          "sectionIndices": [
+            15
+          ],
+          "areaDeg2": 0.0009348416000003434,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-10",
+          "label": "Area 10",
+          "lat": 46.98254,
+          "lon": -90.95371,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.003696649600000537,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-11",
+          "label": "Area 11",
+          "lat": 46.97499,
+          "lon": -90.79554,
+          "role": "secondary",
+          "clusterIndex": 16,
+          "sectionCount": 1,
+          "sectionIndices": [
+            16
+          ],
+          "areaDeg2": 0.0007330718999996269,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-12",
+          "label": "Area 12",
+          "lat": 46.96562,
+          "lon": -90.65468,
+          "role": "secondary",
+          "clusterIndex": 8,
+          "sectionCount": 1,
+          "sectionIndices": [
+            8
+          ],
+          "areaDeg2": 0.002327458799999889,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-13",
+          "label": "Area 13",
+          "lat": 46.93903,
+          "lon": -90.72586,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.005154738000000517,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-14",
+          "label": "Area 14",
+          "lat": 46.93863,
+          "lon": -90.58154,
           "role": "secondary",
           "clusterIndex": 1,
-          "sectionCount": 8,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
-            2,
-            3,
-            4,
-            6,
-            7,
-            8,
+            1
+          ],
+          "areaDeg2": 0.011474319999998388,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-16",
+          "label": "Area 16",
+          "lat": 46.88948,
+          "lon": -90.4794,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.003874605299999808,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-17",
+          "label": "Area 17",
+          "lat": 46.88807,
+          "lon": -90.68545,
+          "role": "secondary",
+          "clusterIndex": 13,
+          "sectionCount": 1,
+          "sectionIndices": [
+            13
+          ],
+          "areaDeg2": 0.0011793600000002463,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-18",
+          "label": "Area 18",
+          "lat": 46.85272,
+          "lon": -90.74182,
+          "role": "secondary",
+          "clusterIndex": 6,
+          "sectionCount": 1,
+          "sectionIndices": [
+            6
+          ],
+          "areaDeg2": 0.0027448950999998533,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "apis-area-19",
+          "label": "Area 19",
+          "lat": 46.71744,
+          "lon": -90.78269,
+          "role": "secondary",
+          "clusterIndex": 10,
+          "sectionCount": 1,
+          "sectionIndices": [
             10
           ],
-          "areaDeg2": 0.03913168099999849,
+          "areaDeg2": 0.0022959723999997172,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -1515,8 +1831,8 @@
       "name": "Boston Harbor Islands National Recreation Area",
       "designation": "National Recreation Area",
       "category": "recreation",
-      "lat": 42.3091,
-      "lon": -70.94593,
+      "lat": 42.32191,
+      "lon": -70.959,
       "visitorCenter": {
         "name": "Boston Harbor Islands Welcome Center",
         "lat": 42.360224,
@@ -1524,36 +1840,129 @@
       },
       "visitorCenterCount": 9,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "boha-island",
-          "label": "Island",
-          "lat": 42.3091,
-          "lon": -70.94593,
+          "id": "boha-area-3",
+          "label": "Area 3",
+          "lat": 42.32191,
+          "lon": -70.959,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 17,
+          "sectionCount": 10,
           "sectionIndices": [
             0,
-            1,
-            2,
-            3,
-            4,
             5,
-            6,
-            7,
-            8,
             9,
             10,
             11,
             12,
-            13,
             14,
             15,
+            17,
+            18
+          ],
+          "areaDeg2": 0.0007351366000000961,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-area-1",
+          "label": "Area 1",
+          "lat": 42.35034,
+          "lon": -70.96085,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.00020358000000011506,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-area-2",
+          "label": "Area 2",
+          "lat": 42.34189,
+          "lon": -70.87875,
+          "role": "secondary",
+          "clusterIndex": 7,
+          "sectionCount": 1,
+          "sectionIndices": [
+            8
+          ],
+          "areaDeg2": 0.00003446400000004712,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-island",
+          "label": "Island",
+          "lat": 42.32947,
+          "lon": -70.92759,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            6
+          ],
+          "areaDeg2": 0.00007661200000001367,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-area-4",
+          "label": "Area 4",
+          "lat": 42.31512,
+          "lon": -71.00811,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.00022100540000005817,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-area-5",
+          "label": "Area 5",
+          "lat": 42.29318,
+          "lon": -70.939,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 2,
+          "sectionIndices": [
+            1,
             16
           ],
-          "areaDeg2": 0.002030368100000333,
+          "areaDeg2": 0.00044481319999983875,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-area-6",
+          "label": "Area 6",
+          "lat": 42.26941,
+          "lon": -70.92117,
+          "role": "secondary",
+          "clusterIndex": 6,
+          "sectionCount": 1,
+          "sectionIndices": [
+            7
+          ],
+          "areaDeg2": 0.00004736160000000735,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "boha-area-7",
+          "label": "Area 7",
+          "lat": 42.26726,
+          "lon": -70.8781,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 2,
+          "sectionIndices": [
+            2,
+            13
+          ],
+          "areaDeg2": 0.00028906400000014806,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -1871,8 +2280,8 @@
       "name": "Cane River Creole National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 31.65322,
-      "lon": -93.00143,
+      "lat": 31.66503,
+      "lon": -93.00835,
       "visitorCenter": {
         "name": "Magnolia Plantation Store",
         "lat": 31.550318,
@@ -1880,22 +2289,35 @@
       },
       "visitorCenterCount": 4,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "cari-area-1",
-          "label": "",
-          "lat": 31.65322,
-          "lon": -93.00143,
+          "label": "Area 1",
+          "lat": 31.66503,
+          "lon": -93.00835,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.000139106400000055,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "cari-area-2",
+          "label": "Area 2",
+          "lat": 31.54954,
+          "lon": -92.94071,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00015495720000004729,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000015850799999992283,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "LA",
@@ -2417,27 +2839,40 @@
       "name": "Castle Mountains National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 35.29584,
-      "lon": -115.09032,
+      "lat": 35.29249,
+      "lon": -115.08918,
       "visitorCenter": null,
       "visitorCenterCount": 0,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "camo-area-1",
-          "label": "",
-          "lat": 35.29584,
-          "lon": -115.09032,
+          "id": "camo-area-2",
+          "label": "Area 2",
+          "lat": 35.29249,
+          "lon": -115.08918,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.022747544399998654,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "camo-area-1",
+          "label": "Area 1",
+          "lat": 35.34158,
+          "lon": -115.10581,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.024415573399998787,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0016680290000001348,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "CA",
@@ -2525,8 +2960,8 @@
       "name": "Cedar Creek and Belle Grove National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 39.01597,
-      "lon": -78.30157,
+      "lat": 39.02717,
+      "lon": -78.29616,
       "visitorCenter": {
         "name": "Belle Grove Welcome Center",
         "lat": 39.02147594601894,
@@ -2534,23 +2969,37 @@
       },
       "visitorCenterCount": 4,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "cebe-area-1",
-          "label": "",
-          "lat": 39.01597,
-          "lon": -78.30157,
+          "label": "Area 1",
+          "lat": 39.02717,
+          "lon": -78.29616,
           "role": "primary",
           "clusterIndex": 0,
           "sectionCount": 3,
           "sectionIndices": [
             0,
-            1,
-            2
+            2,
+            3
           ],
-          "areaDeg2": 0.003946798699999461,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0027619307999994782,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "cebe-area-2",
+          "label": "Area 2",
+          "lat": 38.99054,
+          "lon": -78.31421,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.001237866299999992,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VA",
@@ -2601,8 +3050,8 @@
       "name": "Chaco Culture National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 36.03247,
-      "lon": -107.96494,
+      "lat": 36.034,
+      "lon": -107.9587,
       "visitorCenter": {
         "name": "Chaco Culture National Historical Park Visitor Center",
         "lat": 36.03032544420494,
@@ -2610,22 +3059,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "chcu-area-1",
-          "label": "",
-          "lat": 36.03247,
-          "lon": -107.96494,
+          "label": "Area 1",
+          "lat": 36.034,
+          "lon": -107.9587,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.026153930399999872,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "chcu-area-2",
+          "label": "Area 2",
+          "lat": 35.98949,
+          "lon": -108.14064,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.02708208840000022,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0009281580000003477,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NM",
@@ -2901,8 +3363,8 @@
       "name": "Chickamauga and Chattanooga National Military Park",
       "designation": "National Military Park",
       "category": "historic_site",
-      "lat": 34.98326,
-      "lon": -85.30816,
+      "lat": 34.9933,
+      "lon": -85.36505,
       "visitorCenter": {
         "name": "Chickamauga Battlefield Visitor Center",
         "lat": 34.940311047,
@@ -2910,29 +3372,68 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "chch-area-1",
-          "label": "",
-          "lat": 34.98326,
-          "lon": -85.30816,
+          "id": "chch-area-3",
+          "label": "Area 3",
+          "lat": 34.9933,
+          "lon": -85.36505,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 9,
+          "sectionCount": 4,
           "sectionIndices": [
             0,
-            1,
-            2,
             3,
-            4,
             5,
-            6,
-            7,
             8
           ],
-          "areaDeg2": 0.012083800500001943,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.005007528500000766,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "chch-area-1",
+          "label": "Area 1",
+          "lat": 35.02302,
+          "lon": -85.33704,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 3,
+          "sectionIndices": [
+            4,
+            6,
+            7
+          ],
+          "areaDeg2": 0.000856734300000254,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "chch-area-2",
+          "label": "Area 2",
+          "lat": 35.01974,
+          "lon": -85.26133,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0032171866000005054,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "chch-area-4",
+          "label": "Area 4",
+          "lat": 34.91608,
+          "lon": -85.2552,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.003002351100000414,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "GA",
@@ -3020,8 +3521,8 @@
       "name": "Christiansted National Historic Site",
       "designation": "National Historic Site",
       "category": "historic_site",
-      "lat": 17.73742,
-      "lon": -64.73002,
+      "lat": 17.7341,
+      "lon": -64.73998,
       "visitorCenter": {
         "name": "Christiansted National Historic Site Bookstore and Welcome Center",
         "lat": 17.746931,
@@ -3029,22 +3530,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "chri-area-1",
-          "label": "",
-          "lat": 17.73742,
-          "lon": -64.73002,
+          "id": "chri-area-2",
+          "label": "Area 2",
+          "lat": 17.7341,
+          "lon": -64.73998,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.000011297000000016585,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "chri-area-1",
+          "label": "Area 1",
+          "lat": 17.74667,
+          "lon": -64.70221,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.000015347600000033046,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000004050600000016462,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VI",
@@ -3128,8 +3642,8 @@
       "name": "Colonial National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 37.24072,
-      "lon": -76.62778,
+      "lat": 37.24472,
+      "lon": -76.5808,
       "visitorCenter": {
         "name": "Historic Jamestowne",
         "lat": 37.211281079593796,
@@ -3137,25 +3651,78 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "colo-area-1",
-          "label": "",
-          "lat": 37.24072,
-          "lon": -76.62778,
+          "id": "colo-area-2",
+          "label": "Area 2",
+          "lat": 37.24472,
+          "lon": -76.5808,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 5,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
-            2,
+            0
+          ],
+          "areaDeg2": 0.0153820030000002,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "colo-area-1",
+          "label": "Area 1",
+          "lat": 37.24555,
+          "lon": -76.73067,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.00693759640000014,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "colo-area-3",
+          "label": "Area 3",
+          "lat": 37.2136,
+          "lon": -76.52571,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 2,
+          "sectionIndices": [
             3,
             4
           ],
-          "areaDeg2": 0.025360436899999787,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.001673438199999675,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "colo-area-4",
+          "label": "Area 4",
+          "lat": 37.20445,
+          "lon": -76.75904,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0013673992999997712,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "colo-area-5",
+          "label": "Area 5",
+          "lat": 37.2009,
+          "lon": -76.81831,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.00041517079999990164,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VA",
@@ -3542,11 +4109,11 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "cuva-area-1",
-          "label": "",
+          "label": "Area 1",
           "lat": 41.25531,
           "lon": -81.56998,
           "role": "primary",
@@ -3556,7 +4123,21 @@
             0
           ],
           "areaDeg2": 0.05159616300000068,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "cuva-area-2",
+          "label": "Area 2",
+          "lat": 41.24759,
+          "lon": -81.6095,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0012869311000001146,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "OH",
@@ -3570,8 +4151,8 @@
       "name": "Dayton Aviation Heritage National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 39.7943,
-      "lon": -84.09365,
+      "lat": 39.80348,
+      "lon": -84.06355,
       "visitorCenter": {
         "name": "Huffman Prairie Interpretive Center",
         "lat": 39.7938642924,
@@ -3579,22 +4160,35 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "daav-area-1",
-          "label": "",
-          "lat": 39.7943,
-          "lon": -84.09365,
+          "label": "Area 1",
+          "lat": 39.80348,
+          "lon": -84.06355,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.0000679654999999396,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "daav-area-2",
+          "label": "Area 2",
+          "lat": 39.75046,
+          "lon": -84.23734,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00008220039999989279,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000014234899999953196,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "OH",
@@ -3699,8 +4293,8 @@
       "name": "Delaware Water Gap National Recreation Area",
       "designation": "National Recreation Area",
       "category": "recreation",
-      "lat": 41.13533,
-      "lon": -75.02396,
+      "lat": 41.12865,
+      "lon": -75.08012,
       "visitorCenter": {
         "name": "Bushkill Meeting Center",
         "lat": 41.089977226123224,
@@ -3708,22 +4302,35 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "dewa-area-1",
-          "label": "",
-          "lat": 41.13533,
-          "lon": -75.02396,
+          "id": "dewa-area-2",
+          "label": "Area 2",
+          "lat": 41.12865,
+          "lon": -75.08012,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.22304566020000194,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "dewa-area-1",
+          "label": "Area 1",
+          "lat": 41.14517,
+          "lon": -74.94142,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.3747998672000056,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.1517542070000036,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "PA",
@@ -4000,8 +4607,8 @@
       "name": "Effigy Mounds National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 43.08018,
-      "lon": -91.20347,
+      "lat": 43.08569,
+      "lon": -91.20489,
       "visitorCenter": {
         "name": "Visitor Center",
         "lat": 43.088812767000036,
@@ -4009,23 +4616,36 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "efmo-area-1",
-          "label": "",
-          "lat": 43.08018,
-          "lon": -91.20347,
+          "label": "Area 1",
+          "lat": 43.08569,
+          "lon": -91.20489,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
+            1
+          ],
+          "areaDeg2": 0.0025689229999993376,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "efmo-area-2",
+          "label": "Area 2",
+          "lat": 42.94136,
+          "lon": -91.16772,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.0026710541999994033,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00010213120000006543,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "IA",
@@ -4574,8 +5194,8 @@
       "name": "Fort Donelson National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 36.48307,
-      "lon": -87.85057,
+      "lat": 36.48284,
+      "lon": -87.85066,
       "visitorCenter": {
         "name": "Fort Donelson Visitor Center",
         "lat": 36.48240704749231,
@@ -4588,17 +5208,18 @@
         {
           "id": "fodo-area-2",
           "label": "Area 2",
-          "lat": 36.48307,
-          "lon": -87.85057,
+          "lat": 36.48284,
+          "lon": -87.85066,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 4,
           "sectionIndices": [
             0,
             2,
-            3
+            3,
+            4
           ],
-          "areaDeg2": 0.0007836583999997575,
+          "areaDeg2": 0.0007987791999997733,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
@@ -4627,8 +5248,8 @@
       "name": "Fort Frederica National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 31.22162,
-      "lon": -81.39438,
+      "lat": 31.22313,
+      "lon": -81.39472,
       "visitorCenter": {
         "name": "Fort Frederica Visitor Center",
         "lat": 31.2233940463,
@@ -4636,24 +5257,37 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "fofr-area-1",
-          "label": "",
-          "lat": 31.22162,
-          "lon": -81.39438,
+          "label": "Area 1",
+          "lat": 31.22313,
+          "lon": -81.39472,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 3,
           "sectionIndices": [
             0,
             1,
-            2,
+            2
+          ],
+          "areaDeg2": 0.00023660189999992316,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fofr-area-2",
+          "label": "Area 2",
+          "lat": 31.15658,
+          "lon": -81.37992,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             3
           ],
-          "areaDeg2": 0.00024207659999992431,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000005474700000001148,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "GA",
@@ -4704,8 +5338,8 @@
       "name": "Fort Larned National Historic Site",
       "designation": "National Historic Site",
       "category": "historic_site",
-      "lat": 38.18111,
-      "lon": -99.21982,
+      "lat": 38.18379,
+      "lon": -99.21897,
       "visitorCenter": {
         "name": "Fort Larned Visitor Center",
         "lat": 38.183811192,
@@ -4713,22 +5347,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "fols-area-1",
-          "label": "",
-          "lat": 38.18111,
-          "lon": -99.21982,
+          "label": "Area 1",
+          "lat": 38.18379,
+          "lon": -99.21897,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.00042855119999996076,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fols-area-2",
+          "label": "Area 2",
+          "lat": 38.12067,
+          "lon": -99.23907,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00044756099999996327,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0000190098000000025,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "KS",
@@ -4818,8 +5465,8 @@
       "name": "Fort Monroe National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 37.0181,
-      "lon": -76.30216,
+      "lat": 37.01838,
+      "lon": -76.3021,
       "visitorCenter": {
         "name": "Casemate Museum",
         "lat": 37.00216282070882,
@@ -4832,15 +5479,16 @@
         {
           "id": "fomr-area-1",
           "label": "",
-          "lat": 37.0181,
-          "lon": -76.30216,
+          "lat": 37.01838,
+          "lon": -76.3021,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 1,
+          "sectionCount": 2,
           "sectionIndices": [
-            0
+            0,
+            1
           ],
-          "areaDeg2": 0.0006549299999999774,
+          "areaDeg2": 0.0006731579999999808,
           "labelSource": "heuristic"
         }
       ],
@@ -4855,8 +5503,8 @@
       "name": "Fort Necessity National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 39.81477,
-      "lon": -79.58978,
+      "lat": 39.81263,
+      "lon": -79.58805,
       "visitorCenter": {
         "name": "Fort Necessity/National Road Interpretive and Education Center",
         "lat": 39.814121,
@@ -4864,24 +5512,37 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "fone-area-1",
-          "label": "",
-          "lat": 39.81477,
-          "lon": -79.58978,
+          "id": "fone-area-2",
+          "label": "Area 2",
+          "lat": 39.81263,
+          "lon": -79.58805,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 3,
           "sectionIndices": [
             0,
             1,
-            2,
+            2
+          ],
+          "areaDeg2": 0.0006505756000000861,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fone-area-1",
+          "label": "Area 1",
+          "lat": 39.87958,
+          "lon": -79.64206,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             3
           ],
-          "areaDeg2": 0.0006720846000000269,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000021508999999940813,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "PA",
@@ -4932,8 +5593,8 @@
       "name": "Fort Pulaski National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 32.0326,
-      "lon": -80.94169,
+      "lat": 32.03279,
+      "lon": -80.94363,
       "visitorCenter": {
         "name": "FOPU Visitor Center",
         "lat": 32.0271478999648,
@@ -4941,22 +5602,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "fopu-area-1",
-          "label": "",
-          "lat": 32.0326,
-          "lon": -80.94169,
+          "label": "Area 1",
+          "lat": 32.03279,
+          "lon": -80.94363,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.010973816000000495,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fopu-area-2",
+          "label": "Area 2",
+          "lat": 32.02808,
+          "lon": -80.89665,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.011447027200000525,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0004732112000000293,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "GA",
@@ -5120,8 +5794,8 @@
       "name": "Fort Sumter National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 32.75626,
-      "lon": -79.87088,
+      "lat": 32.75492,
+      "lon": -79.86877,
       "visitorCenter": {
         "name": "Fort Moultrie Visitor Center",
         "lat": 32.76035244619513,
@@ -5129,25 +5803,38 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "fosu-area-1",
-          "label": "",
-          "lat": 32.75626,
-          "lon": -79.87088,
+          "id": "fosu-area-2",
+          "label": "Area 2",
+          "lat": 32.75492,
+          "lon": -79.86877,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 5,
+          "sectionCount": 4,
           "sectionIndices": [
             0,
             1,
             2,
-            3,
             4
           ],
-          "areaDeg2": 0.00016419449999991912,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00015807449999995191,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fosu-area-1",
+          "label": "Area 1",
+          "lat": 32.79094,
+          "lon": -79.92548,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.00000611999999996721,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "SC",
@@ -5443,8 +6130,8 @@
       "name": "Fredericksburg and Spotsylvania County Battlefields Memorial National Military Park",
       "designation": "National Military Park",
       "category": "historic_site",
-      "lat": 38.28281,
-      "lon": -77.64252,
+      "lat": 38.29443,
+      "lon": -77.71739,
       "visitorCenter": {
         "name": "Chancellorsville Battlefield Visitor Center",
         "lat": 38.3111533997,
@@ -5452,27 +6139,120 @@
       },
       "visitorCenterCount": 8,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "frsp-area-1",
-          "label": "",
-          "lat": 38.28281,
-          "lon": -77.64252,
+          "id": "frsp-area-4",
+          "label": "Area 4",
+          "lat": 38.29443,
+          "lon": -77.71739,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 7,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
+            0
+          ],
+          "areaDeg2": 0.005374651700000776,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-1",
+          "label": "Area 1",
+          "lat": 38.3239,
+          "lon": -77.74907,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.0005828196000001654,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-2",
+          "label": "Area 2",
+          "lat": 38.31455,
+          "lon": -77.6531,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.0010139199999999865,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-3",
+          "label": "Area 3",
+          "lat": 38.30947,
+          "lon": -77.45664,
+          "role": "secondary",
+          "clusterIndex": 7,
+          "sectionCount": 1,
+          "sectionIndices": [
+            8
+          ],
+          "areaDeg2": 0.00009885500000003078,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-5",
+          "label": "Area 5",
+          "lat": 38.28686,
+          "lon": -77.64437,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.002956303099999474,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-6",
+          "label": "Area 6",
+          "lat": 38.26458,
+          "lon": -77.45416,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 2,
+          "sectionIndices": [
             2,
-            3,
-            4,
-            5,
             6
           ],
-          "areaDeg2": 0.013586332600000372,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.002244428599999948,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-7",
+          "label": "Area 7",
+          "lat": 38.21941,
+          "lon": -77.60153,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.001414209600000023,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "frsp-area-8",
+          "label": "Area 8",
+          "lat": 38.20141,
+          "lon": -77.57583,
+          "role": "secondary",
+          "clusterIndex": 6,
+          "sectionCount": 1,
+          "sectionIndices": [
+            7
+          ],
+          "areaDeg2": 0.00010130989999998417,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VA",
@@ -5691,16 +6471,29 @@
         {
           "id": "gate-area-2",
           "label": "Area 2",
-          "lat": 40.51873,
-          "lon": -74.05695,
+          "lat": 40.56763,
+          "lon": -74.09387,
           "role": "secondary",
           "clusterIndex": 1,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
+            1
+          ],
+          "areaDeg2": 0.007809205199999922,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gate-area-3",
+          "label": "Area 3",
+          "lat": 40.44007,
+          "lon": -73.99756,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.012663986400000295,
+          "areaDeg2": 0.004854781200000374,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -5901,8 +6694,8 @@
       "name": "Gettysburg National Military Park",
       "designation": "National Military Park",
       "category": "historic_site",
-      "lat": 39.8149,
-      "lon": -77.23119,
+      "lat": 39.80277,
+      "lon": -77.23793,
       "visitorCenter": {
         "name": "David Wills House",
         "lat": 39.83078932411578,
@@ -5910,23 +6703,49 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "gett-area-1",
-          "label": "",
-          "lat": 39.8149,
-          "lon": -77.23119,
+          "id": "gett-area-3",
+          "label": "Area 3",
+          "lat": 39.80277,
+          "lon": -77.23793,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
+            0
+          ],
+          "areaDeg2": 0.003426834899999966,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gett-area-1",
+          "label": "Area 1",
+          "lat": 39.84156,
+          "lon": -77.24186,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0012663551999998553,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gett-area-2",
+          "label": "Area 2",
+          "lat": 39.82779,
+          "lon": -77.17063,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.005298354199999868,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0006051641000000462,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "PA",
@@ -5940,8 +6759,8 @@
       "name": "Gila Cliff Dwellings National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 33.22713,
-      "lon": -108.27079,
+      "lat": 33.22761,
+      "lon": -108.2735,
       "visitorCenter": {
         "name": "Gila Visitor Center",
         "lat": 33.223820659103055,
@@ -5949,22 +6768,35 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "gicl-area-1",
-          "label": "",
-          "lat": 33.22713,
-          "lon": -108.27079,
+          "label": "Area 1",
+          "lat": 33.22761,
+          "lon": -108.2735,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.00024527319999995546,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gicl-area-2",
+          "label": "Area 2",
+          "lat": 33.22145,
+          "lon": -108.23853,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00026594559999995506,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00002067239999999961,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NM",
@@ -6314,8 +7146,8 @@
       "name": "Grand Portage National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 47.98871,
-      "lon": -89.75807,
+      "lat": 47.98954,
+      "lon": -89.76069,
       "visitorCenter": {
         "name": "Heritage Center",
         "lat": 47.96068779984491,
@@ -6323,22 +7155,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "grpo-area-1",
-          "label": "",
-          "lat": 47.98871,
-          "lon": -89.75807,
+          "label": "Area 1",
+          "lat": 47.98954,
+          "lon": -89.76069,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.004656845500000809,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "grpo-area-2",
+          "label": "Area 2",
+          "lat": 47.96569,
+          "lon": -89.68472,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.004823521900000742,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0001666763999999339,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "MI",
@@ -6463,8 +7308,8 @@
       "name": "Great Sand Dunes National Park & Preserve",
       "designation": "National Park",
       "category": "park",
-      "lat": 37.80699,
-      "lon": -105.57028,
+      "lat": 37.79446,
+      "lon": -105.61302,
       "visitorCenter": {
         "name": "Entrance Station",
         "lat": 37.7251159672,
@@ -6472,22 +7317,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "grsa-area-1",
-          "label": "",
-          "lat": 37.80699,
-          "lon": -105.57028,
+          "id": "grsa-area-2",
+          "label": "Area 2",
+          "lat": 37.79446,
+          "lon": -105.61302,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.06064654799999913,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "grsa-area-1",
+          "label": "Area 1",
+          "lat": 37.82609,
+          "lon": -105.50516,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.10046336349999746,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.03981681549999834,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "CO",
@@ -6513,8 +7371,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "grsm-area-2",
-          "label": "Area 2",
+          "id": "grsm-area-3",
+          "label": "Area 3",
           "lat": 35.62279,
           "lon": -83.50513,
           "role": "primary",
@@ -6529,6 +7387,20 @@
         {
           "id": "grsm-area-1",
           "label": "Area 1",
+          "lat": 35.7278,
+          "lon": -83.57252,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.007404234699999245,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "grsm-area-2",
+          "label": "Area 2",
           "lat": 35.6426,
           "lon": -83.81574,
           "role": "secondary",
@@ -6627,8 +7499,8 @@
       "name": "Guilford Courthouse National Military Park",
       "designation": "National Military Park",
       "category": "historic_site",
-      "lat": 36.13137,
-      "lon": -79.84187,
+      "lat": 36.13131,
+      "lon": -79.8422,
       "visitorCenter": {
         "name": "Guilford Courthouse National Military Park",
         "lat": 36.131210999849834,
@@ -6641,15 +7513,16 @@
         {
           "id": "guco-area-1",
           "label": "",
-          "lat": 36.13137,
-          "lon": -79.84187,
+          "lat": 36.13131,
+          "lon": -79.8422,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 1,
+          "sectionCount": 2,
           "sectionIndices": [
-            0
+            0,
+            1
           ],
-          "areaDeg2": 0.0001892575999999033,
+          "areaDeg2": 0.0001954615999999085,
           "labelSource": "heuristic"
         }
       ],
@@ -6876,8 +7749,8 @@
       "name": "Harpers Ferry National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 39.31358,
-      "lon": -77.74096,
+      "lat": 39.3072,
+      "lon": -77.74348,
       "visitorCenter": {
         "name": "Appalachian National Scenic Trail Headquarters and Visitor Center",
         "lat": 39.32549052034516,
@@ -6885,27 +7758,79 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "hafe-area-1",
-          "label": "",
-          "lat": 39.31358,
-          "lon": -77.74096,
+          "id": "hafe-area-4",
+          "label": "Area 4",
+          "lat": 39.3072,
+          "lon": -77.74348,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 7,
+          "sectionCount": 3,
           "sectionIndices": [
             0,
-            1,
             2,
-            3,
-            4,
-            5,
+            5
+          ],
+          "areaDeg2": 0.0034595999000002205,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hafe-area-1",
+          "label": "Area 1",
+          "lat": 39.33502,
+          "lon": -77.72187,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.0006177099999999438,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hafe-area-2",
+          "label": "Area 2",
+          "lat": 39.32608,
+          "lon": -77.75853,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0008281488000002574,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hafe-area-3",
+          "label": "Area 3",
+          "lat": 39.31691,
+          "lon": -77.68582,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.0005296871999998239,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hafe-area-5",
+          "label": "Area 5",
+          "lat": 39.3057,
+          "lon": -77.78345,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
             6
           ],
-          "areaDeg2": 0.005852638500000218,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00041749259999997185,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "WV",
@@ -7245,8 +8170,8 @@
       "name": "Hopewell Culture National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 39.32384,
-      "lon": -83.06082,
+      "lat": 39.38286,
+      "lon": -82.99398,
       "visitorCenter": {
         "name": "Mound City Group Visitor Center",
         "lat": 39.3759933216,
@@ -7254,26 +8179,78 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "hocu-area-1",
-          "label": "",
-          "lat": 39.32384,
-          "lon": -83.06082,
+          "label": "Area 1",
+          "lat": 39.38286,
+          "lon": -82.99398,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 6,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
-            2,
-            3,
-            4,
             5
           ],
-          "areaDeg2": 0.0014066206999999238,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0004994771000000869,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hocu-area-2",
+          "label": "Area 2",
+          "lat": 39.36285,
+          "lon": -83.09258,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.00021011159999996724,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hocu-area-3",
+          "label": "Area 3",
+          "lat": 39.29421,
+          "lon": -82.91913,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.00020607099999979725,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hocu-area-4",
+          "label": "Area 4",
+          "lat": 39.27959,
+          "lon": -83.13505,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0002610985999999995,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hocu-area-5",
+          "label": "Area 5",
+          "lat": 39.23677,
+          "lon": -83.21976,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.00022986240000007294,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "OH",
@@ -7398,8 +8375,8 @@
       "name": "Hovenweep National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 37.38621,
-      "lon": -109.06575,
+      "lat": 37.38355,
+      "lon": -109.073,
       "visitorCenter": {
         "name": "Hovenweep Visitor Center",
         "lat": 37.38580419830155,
@@ -7410,34 +8387,74 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "hove-area-2",
-          "label": "Area 2",
-          "lat": 37.38621,
-          "lon": -109.06575,
+          "id": "hove-area-4",
+          "label": "Area 4",
+          "lat": 37.38355,
+          "lon": -109.073,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
-            3,
-            4
+            0
           ],
-          "areaDeg2": 0.00031332250000002537,
+          "areaDeg2": 0.0001979440000000866,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "hove-area-1",
           "label": "Area 1",
+          "lat": 37.44312,
+          "lon": -108.98283,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.000006172100000000782,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hove-area-2",
+          "label": "Area 2",
           "lat": 37.41026,
           "lon": -108.72821,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
           ],
           "areaDeg2": 0.00006338660000000022,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hove-area-3",
+          "label": "Area 3",
+          "lat": 37.40581,
+          "lon": -109.03157,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 2,
+          "sectionIndices": [
+            1,
+            3
+          ],
+          "areaDeg2": 0.00009894369999989489,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "hove-area-5",
+          "label": "Area 5",
+          "lat": 37.3002,
+          "lon": -109.1842,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.000016434800000043846,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -7554,8 +8571,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "indu-area-1",
-          "label": "Area 1",
+          "id": "indu-area-2",
+          "label": "Area 2",
           "lat": 41.65927,
           "lon": -87.04313,
           "role": "primary",
@@ -7568,8 +8585,22 @@
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "indu-area-2",
-          "label": "Area 2",
+          "id": "indu-area-1",
+          "label": "Area 1",
+          "lat": 41.68886,
+          "lon": -86.98048,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0008148066000001522,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "indu-area-3",
+          "label": "Area 3",
           "lat": 41.6147,
           "lon": -87.25519,
           "role": "secondary",
@@ -7667,8 +8698,8 @@
       "name": "Jean Lafitte National Historical Park and Preserve",
       "designation": "National Historical Park and Preserve",
       "category": "park",
-      "lat": 29.80646,
-      "lon": -90.16578,
+      "lat": 29.80748,
+      "lon": -90.17016,
       "visitorCenter": {
         "name": "Acadian Cultural Center",
         "lat": 30.21339638288027,
@@ -7676,22 +8707,35 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "jela-area-1",
-          "label": "",
-          "lat": 29.80646,
-          "lon": -90.16578,
+          "label": "Area 1",
+          "lat": 29.80748,
+          "lon": -90.17016,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.018788275400000543,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "jela-area-2",
+          "label": "Area 2",
+          "lat": 29.78685,
+          "lon": -90.08184,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.019768835400000705,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0009805600000001608,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "LA",
@@ -7805,8 +8849,8 @@
       "name": "John Day Fossil Beds National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 44.55757,
-      "lon": -119.64737,
+      "lat": 44.54924,
+      "lon": -119.64829,
       "visitorCenter": {
         "name": "Cant Ranch House Visitor Center",
         "lat": 44.55513985923973,
@@ -7817,18 +8861,17 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "joda-area-3",
-          "label": "Area 3",
-          "lat": 44.55757,
-          "lon": -119.64737,
+          "id": "joda-area-4",
+          "label": "Area 4",
+          "lat": 44.54924,
+          "lon": -119.64829,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            3
+            0
           ],
-          "areaDeg2": 0.007894736800000003,
+          "areaDeg2": 0.007277048799999899,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
@@ -7848,6 +8891,20 @@
         {
           "id": "joda-area-2",
           "label": "Area 2",
+          "lat": 44.65565,
+          "lon": -119.63656,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.0006176880000001035,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "joda-area-3",
+          "label": "Area 3",
           "lat": 44.6482,
           "lon": -120.26305,
           "role": "secondary",
@@ -7892,8 +8949,8 @@
       "name": "John Muir National Historic Site",
       "designation": "National Historic Site",
       "category": "historic_site",
-      "lat": 37.98257,
-      "lon": -122.13235,
+      "lat": 37.98282,
+      "lon": -122.13234,
       "visitorCenter": {
         "name": "John Muir National Historic Site Visitor Center",
         "lat": 37.9921704989769,
@@ -7906,15 +8963,16 @@
         {
           "id": "jomu-area-1",
           "label": "",
-          "lat": 37.98257,
-          "lon": -122.13235,
+          "lat": 37.98282,
+          "lon": -122.13234,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 1,
+          "sectionCount": 2,
           "sectionIndices": [
-            0
+            0,
+            1
           ],
-          "areaDeg2": 0.00021579449999983917,
+          "areaDeg2": 0.00022205849999981764,
           "labelSource": "heuristic"
         }
       ],
@@ -8057,8 +9115,8 @@
       "name": "Katahdin Woods And Waters National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 45.98141,
-      "lon": -68.68353,
+      "lat": 45.97627,
+      "lon": -68.69165,
       "visitorCenter": {
         "name": "Lumbermen's Museum",
         "lat": 46.0014814643301,
@@ -8066,22 +9124,49 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "kaww-area-1",
-          "label": "",
-          "lat": 45.98141,
-          "lon": -68.68353,
+          "id": "kaww-area-2",
+          "label": "Area 2",
+          "lat": 45.97627,
+          "lon": -68.69165,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.07936213950000029,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "kaww-area-1",
+          "label": "Area 1",
+          "lat": 46.0348,
+          "lon": -68.5993,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.08701591520000006,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.007653775699999766,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "kaww-area-3",
+          "label": "Area 3",
+          "lat": 45.87479,
+          "lon": -68.58765,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.002258883800000334,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "ME",
@@ -8183,8 +9268,8 @@
       "name": "Kennesaw Mountain National Battlefield Park",
       "designation": "National Battlefield Park",
       "category": "historic_site",
-      "lat": 33.94942,
-      "lon": -84.59008,
+      "lat": 33.95124,
+      "lon": -84.5895,
       "visitorCenter": {
         "name": "Kennesaw Mountain National Battlefield Park Visitor Center",
         "lat": 33.9830763468,
@@ -8192,23 +9277,36 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "kemo-area-1",
-          "label": "",
-          "lat": 33.94942,
-          "lon": -84.59008,
+          "label": "Area 1",
+          "lat": 33.95124,
+          "lon": -84.5895,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
+            1
+          ],
+          "areaDeg2": 0.003596935499999951,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "kemo-area-2",
+          "label": "Area 2",
+          "lat": 33.92198,
+          "lon": -84.59886,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.0038353514000000147,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00023841590000006358,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "GA",
@@ -8222,8 +9320,8 @@
       "name": "Keweenaw National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 47.1857,
-      "lon": -88.51638,
+      "lat": 47.14059,
+      "lon": -88.56934,
       "visitorCenter": {
         "name": "Calumet Visitor Center",
         "lat": 47.244,
@@ -8231,22 +9329,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "kewe-area-1",
-          "label": "",
-          "lat": 47.1857,
-          "lon": -88.51638,
+          "id": "kewe-area-2",
+          "label": "Area 2",
+          "lat": 47.14059,
+          "lon": -88.56934,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.0010053069000001478,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "kewe-area-1",
+          "label": "Area 1",
+          "lat": 47.24018,
+          "lon": -88.45243,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.001837831700000508,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0008325248000003602,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "MI",
@@ -8379,8 +9490,8 @@
       "name": "Klondike Gold Rush National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 59.59463,
-      "lon": -135.2655,
+      "lat": 59.59537,
+      "lon": -135.29266,
       "visitorCenter": {
         "name": "Administrative Office",
         "lat": 59.453527982997336,
@@ -8388,22 +9499,35 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "klgo-area-1",
-          "label": "",
-          "lat": 59.59463,
-          "lon": -135.2655,
+          "label": "Area 1",
+          "lat": 59.59537,
+          "lon": -135.29266,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.03168698000000118,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "klgo-area-2",
+          "label": "Area 2",
+          "lat": 59.59141,
+          "lon": -135.14819,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.0390224580000012,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.007335478000000024,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AK",
@@ -8608,8 +9732,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "lake-area-2",
-          "label": "Area 2",
+          "id": "lake-area-4",
+          "label": "Area 4",
           "lat": 35.88149,
           "lon": -114.38055,
           "role": "primary",
@@ -8624,16 +9748,43 @@
         {
           "id": "lake-area-1",
           "label": "Area 1",
-          "lat": 35.96872,
-          "lon": -113.5142,
+          "lat": 36.17807,
+          "lon": -113.28304,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
+            3
+          ],
+          "areaDeg2": 0.037702615199998554,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lake-area-2",
+          "label": "Area 2",
+          "lat": 36.01319,
+          "lon": -113.49506,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.4420363009999997,
+          "areaDeg2": 0.10848516000000215,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lake-area-3",
+          "label": "Area 3",
+          "lat": 35.95426,
+          "lon": -113.52042,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.33355114099999755,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -8817,8 +9968,8 @@
       "name": "Lewis and Clark National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 46.14882,
-      "lon": -123.89648,
+      "lat": 46.12779,
+      "lon": -123.89254,
       "visitorCenter": {
         "name": "Fort Clatsop Visitor Center",
         "lat": 46.13446882119664,
@@ -8829,21 +9980,18 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "lewi-area-2",
-          "label": "Area 2",
-          "lat": 46.14882,
-          "lon": -123.89648,
+          "id": "lewi-area-4",
+          "label": "Area 4",
+          "lat": 46.12779,
+          "lon": -123.89254,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 5,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            2,
-            3,
-            4,
-            5
+            3
           ],
-          "areaDeg2": 0.002626746500000005,
+          "areaDeg2": 0.0017919727999999426,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
@@ -8858,6 +10006,48 @@
             1
           ],
           "areaDeg2": 0.0011874201999998067,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lewi-area-2",
+          "label": "Area 2",
+          "lat": 46.25087,
+          "lon": -123.90699,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.00028174080000003475,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lewi-area-3",
+          "label": "Area 3",
+          "lat": 46.24806,
+          "lon": -123.86189,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.00024552989999999876,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lewi-area-5",
+          "label": "Area 5",
+          "lat": 46.09862,
+          "lon": -123.93745,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0003075030000000284,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -8947,8 +10137,8 @@
       "name": "Little Bighorn Battlefield National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 45.55857,
-      "lon": -107.42139,
+      "lat": 45.56545,
+      "lon": -107.42958,
       "visitorCenter": {
         "name": "Little Bighorn Battlefield Visitor Center",
         "lat": 45.570039459461746,
@@ -8956,22 +10146,35 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "libi-area-1",
-          "label": "",
-          "lat": 45.55857,
-          "lon": -107.42139,
+          "label": "Area 1",
+          "lat": 45.56545,
+          "lon": -107.42958,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.0005849822000001882,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "libi-area-2",
+          "label": "Area 2",
+          "lat": 45.52301,
+          "lon": -107.37902,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.0006979924000003541,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00011301020000016586,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "MT",
@@ -9080,8 +10283,8 @@
       "name": "Lowell National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 42.64541,
-      "lon": -71.31873,
+      "lat": 42.64537,
+      "lon": -71.31846,
       "visitorCenter": {
         "name": "Boott Cotton Mills Museum",
         "lat": 42.64734786875267,
@@ -9094,17 +10297,19 @@
         {
           "id": "lowe-area-1",
           "label": "",
-          "lat": 42.64541,
-          "lon": -71.31873,
+          "lat": 42.64537,
+          "lon": -71.31846,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 5,
           "sectionIndices": [
             0,
             1,
-            2
+            2,
+            3,
+            4
           ],
-          "areaDeg2": 0.00043878400000020443,
+          "areaDeg2": 0.00046242520000025337,
           "labelSource": "heuristic"
         }
       ],
@@ -9278,8 +10483,8 @@
       "name": "Manassas National Battlefield Park",
       "designation": "National Battlefield Park",
       "category": "historic_site",
-      "lat": 38.82094,
-      "lon": -77.53325,
+      "lat": 38.82232,
+      "lon": -77.53074,
       "visitorCenter": {
         "name": "Brawner Farm Interpretive Center",
         "lat": 38.81332553041789,
@@ -9287,22 +10492,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "mana-area-1",
-          "label": "",
-          "lat": 38.82094,
-          "lon": -77.53325,
+          "label": "Area 1",
+          "lat": 38.82232,
+          "lon": -77.53074,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.003813209099999849,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mana-area-2",
+          "label": "Area 2",
+          "lat": 38.80558,
+          "lon": -77.56129,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.004153527099999591,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00034031799999974157,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VA",
@@ -9328,8 +10546,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "mapr-area-3",
-          "label": "Area 3",
+          "id": "mapr-area-5",
+          "label": "Area 5",
           "lat": 35.93593,
           "lon": -84.39456,
           "role": "primary",
@@ -9344,46 +10562,85 @@
         {
           "id": "mapr-area-1",
           "label": "Area 1",
-          "lat": 46.63371,
-          "lon": -119.67228,
+          "lat": 46.66133,
+          "lon": -119.47866,
           "role": "secondary",
-          "clusterIndex": 3,
-          "sectionCount": 2,
+          "clusterIndex": 5,
+          "sectionCount": 1,
           "sectionIndices": [
-            3,
-            6
+            5
           ],
-          "areaDeg2": 0.000009359100000008806,
+          "areaDeg2": 0.000003657000000008889,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "mapr-area-2",
           "label": "Area 2",
-          "lat": 46.61191,
-          "lon": -119.41893,
+          "lat": 46.63909,
+          "lon": -119.71644,
           "role": "secondary",
-          "clusterIndex": 2,
-          "sectionCount": 2,
+          "clusterIndex": 6,
+          "sectionCount": 1,
           "sectionIndices": [
-            2,
-            5
+            6
           ],
-          "areaDeg2": 0.000010951399999999444,
+          "areaDeg2": 0.0000033926999999883285,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mapr-area-3",
+          "label": "Area 3",
+          "lat": 46.63066,
+          "lon": -119.64717,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.000005966400000020478,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "mapr-area-4",
           "label": "Area 4",
-          "lat": 35.84495,
-          "lon": -106.28519,
+          "lat": 46.58713,
+          "lon": -119.38899,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
+            2
+          ],
+          "areaDeg2": 0.0000072943999999905556,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mapr-area-6",
+          "label": "Area 6",
+          "lat": 35.85728,
+          "lon": -106.34786,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
             4
           ],
-          "areaDeg2": 0.000022833000000026302,
+          "areaDeg2": 0.0000052440000000080994,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mapr-area-7",
+          "label": "Area 7",
+          "lat": 35.84128,
+          "lon": -106.2665,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0000175890000000182,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -9644,11 +10901,11 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "miin-area-1",
-          "label": "",
+          "id": "miin-area-2",
+          "label": "Area 2",
           "lat": 42.68267,
           "lon": -114.24732,
           "role": "primary",
@@ -9659,7 +10916,21 @@
             1
           ],
           "areaDeg2": 0.00025189439999994263,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "miin-area-1",
+          "label": "Area 1",
+          "lat": 47.6153,
+          "lon": -122.50895,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0000061655000000044085,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "WA",
@@ -9673,8 +10944,8 @@
       "name": "Minute Man National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 42.45638,
-      "lon": -71.29826,
+      "lat": 42.45491,
+      "lon": -71.29163,
       "visitorCenter": {
         "name": "Hartwell Tavern",
         "lat": 42.451185,
@@ -9682,23 +10953,36 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "mima-area-1",
-          "label": "",
-          "lat": 42.45638,
-          "lon": -71.29826,
+          "id": "mima-area-2",
+          "label": "Area 2",
+          "lat": 42.45491,
+          "lon": -71.29163,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.0013271389999999685,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mima-area-1",
+          "label": "Area 1",
+          "lat": 42.47003,
+          "lon": -71.35973,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 2,
+          "sectionIndices": [
             1,
             2
           ],
-          "areaDeg2": 0.001470183400000086,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0001430444000001174,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "MA",
@@ -9712,8 +10996,8 @@
       "name": "Minuteman Missile National Historic Site",
       "designation": "National Historic Site",
       "category": "historic_site",
-      "lat": 43.85439,
-      "lon": -101.91713,
+      "lat": 43.84459,
+      "lon": -101.89868,
       "visitorCenter": {
         "name": "Minuteman Missile NHS Visitor Center",
         "lat": 43.844506640113046,
@@ -9721,22 +11005,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "mimi-area-1",
-          "label": "",
-          "lat": 43.85439,
-          "lon": -101.91713,
+          "id": "mimi-area-2",
+          "label": "Area 2",
+          "lat": 43.84459,
+          "lon": -101.89868,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.00002598079999995345,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mimi-area-1",
+          "label": "Area 1",
+          "lat": 43.87757,
+          "lon": -101.96074,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.000036971599999966685,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00001099080000001323,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "SD",
@@ -9847,11 +11144,11 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "moja-area-1",
-          "label": "",
+          "id": "moja-area-2",
+          "label": "Area 2",
           "lat": 35.09673,
           "lon": -115.55237,
           "role": "primary",
@@ -9861,7 +11158,21 @@
             0
           ],
           "areaDeg2": 0.9143140108000042,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "moja-area-1",
+          "label": "Area 1",
+          "lat": 35.53009,
+          "lon": -115.61601,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.023040351600000078,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "CA",
@@ -9912,8 +11223,8 @@
       "name": "Montezuma Castle National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 34.62374,
-      "lon": -111.81407,
+      "lat": 34.6132,
+      "lon": -111.83663,
       "visitorCenter": {
         "name": "Montezuma Castle Visitor Center",
         "lat": 34.6117752905,
@@ -9921,22 +11232,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "moca-area-1",
-          "label": "",
-          "lat": 34.62374,
-          "lon": -111.81407,
+          "id": "moca-area-2",
+          "label": "Area 2",
+          "lat": 34.6132,
+          "lon": -111.83663,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.00033505999999976753,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "moca-area-1",
+          "label": "Area 1",
+          "lat": 34.64928,
+          "lon": -111.75941,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00047334559999973334,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00013828559999996582,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AZ",
@@ -9996,11 +11320,11 @@
       },
       "visitorCenterCount": 4,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "morr-area-1",
-          "label": "",
+          "id": "morr-area-2",
+          "label": "Area 2",
           "lat": 40.76116,
           "lon": -74.5375,
           "role": "primary",
@@ -10010,7 +11334,21 @@
             0
           ],
           "areaDeg2": 0.00242278260000005,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "morr-area-1",
+          "label": "Area 1",
+          "lat": 40.79369,
+          "lon": -74.48883,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.000055278600000067366,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NJ",
@@ -10120,8 +11458,8 @@
       "name": "Natchez National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 31.54769,
-      "lon": -91.39239,
+      "lat": 31.54262,
+      "lon": -91.38214,
       "visitorCenter": {
         "name": "Melrose Visitor Center",
         "lat": 31.5431623493,
@@ -10129,22 +11467,35 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "natc-area-1",
-          "label": "",
-          "lat": 31.54769,
-          "lon": -91.39239,
+          "id": "natc-area-2",
+          "label": "Area 2",
+          "lat": 31.54262,
+          "lon": -91.38214,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.000046964199999947525,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "natc-area-1",
+          "label": "Area 1",
+          "lat": 31.55758,
+          "lon": -91.41237,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00007103559999993839,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00002407139999999087,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "MS",
@@ -10233,6 +11584,20 @@
         {
           "id": "naca-area-2",
           "label": "Area 2",
+          "lat": 38.90681,
+          "lon": -76.95041,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.0005869816000001828,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "naca-area-3",
+          "label": "Area 3",
           "lat": 38.88781,
           "lon": -77.04512,
           "role": "secondary",
@@ -10242,6 +11607,34 @@
             1
           ],
           "areaDeg2": 0.0028377281000005598,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "naca-area-4",
+          "label": "Area 4",
+          "lat": 38.87332,
+          "lon": -76.98355,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.0006989952000000789,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "naca-area-5",
+          "label": "Area 5",
+          "lat": 38.83538,
+          "lon": -76.89417,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.0011289290000002876,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -10391,8 +11784,8 @@
       "name": "Navajo National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 36.72315,
-      "lon": -110.51699,
+      "lat": 36.6855,
+      "lon": -110.53626,
       "visitorCenter": {
         "name": "Navajo National Monument Visitor Center",
         "lat": 36.678225798,
@@ -10403,27 +11796,40 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "nava-area-1",
-          "label": "Area 1",
-          "lat": 36.72315,
-          "lon": -110.51699,
+          "id": "nava-area-2",
+          "label": "Area 2",
+          "lat": 36.6855,
+          "lon": -110.53626,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1
+            0
           ],
-          "areaDeg2": 0.00013127909999996495,
+          "areaDeg2": 0.00006608429999988507,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "nava-area-2",
-          "label": "Area 2",
+          "id": "nava-area-1",
+          "label": "Area 1",
+          "lat": 36.76132,
+          "lon": -110.49745,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0000651948000000799,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "nava-area-3",
+          "label": "Area 3",
           "lat": 36.67191,
           "lon": -110.82,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
@@ -10627,15 +12033,17 @@
         {
           "id": "nepe-area-2",
           "label": "Area 2",
-          "lat": 46.45256,
-          "lon": -116.82321,
+          "lat": 46.45019,
+          "lon": -116.82192,
           "role": "secondary",
           "clusterIndex": 3,
-          "sectionCount": 1,
+          "sectionCount": 3,
           "sectionIndices": [
-            3
+            3,
+            5,
+            6
           ],
-          "areaDeg2": 0.0001692278999999702,
+          "areaDeg2": 0.00030243299999997307,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
@@ -11016,6 +12424,20 @@
           ],
           "areaDeg2": 0.03360468420000138,
           "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "olym-area-4",
+          "label": "Area 4",
+          "lat": 47.64993,
+          "lon": -124.38348,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.013546972399998263,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "WA",
@@ -11328,8 +12750,8 @@
       "name": "Pecos National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 35.54256,
-      "lon": -105.68727,
+      "lat": 35.53995,
+      "lon": -105.67493,
       "visitorCenter": {
         "name": "E. E. Fogelson Visitor Center",
         "lat": 35.55040794557632,
@@ -11337,23 +12759,49 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "peco-area-1",
-          "label": "",
-          "lat": 35.54256,
-          "lon": -105.68727,
+          "id": "peco-area-3",
+          "label": "Area 3",
+          "lat": 35.53995,
+          "lon": -105.67493,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
+            0
+          ],
+          "areaDeg2": 0.003326413999999751,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "peco-area-1",
+          "label": "Area 1",
+          "lat": 35.57116,
+          "lon": -105.75378,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.00028950820000002274,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "peco-area-2",
+          "label": "Area 2",
+          "lat": 35.54511,
+          "lon": -105.82443,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.00377484539999971,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00015892319999993658,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NM",
@@ -11421,8 +12869,8 @@
       "name": "Petersburg National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 37.22524,
-      "lon": -77.37196,
+      "lat": 37.23075,
+      "lon": -77.36371,
       "visitorCenter": {
         "name": "Eastern Front Visitor Center",
         "lat": 37.24376507688345,
@@ -11433,25 +12881,53 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "pete-area-1",
-          "label": "Area 1",
-          "lat": 37.22524,
-          "lon": -77.37196,
+          "id": "pete-area-2",
+          "label": "Area 2",
+          "lat": 37.23075,
+          "lon": -77.36371,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            2,
-            3,
-            4
+            2
           ],
-          "areaDeg2": 0.00128681419999982,
+          "areaDeg2": 0.00116434449999982,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "pete-area-2",
-          "label": "Area 2",
+          "id": "pete-area-1",
+          "label": "Area 1",
+          "lat": 37.31537,
+          "lon": -77.2749,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.000032219999999996476,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "pete-area-3",
+          "label": "Area 3",
+          "lat": 37.17697,
+          "lon": -77.4503,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 3,
+          "sectionIndices": [
+            3,
+            4,
+            6
+          ],
+          "areaDeg2": 0.00014678409999998495,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "pete-area-4",
+          "label": "Area 4",
           "lat": 37.14444,
           "lon": -77.62275,
           "role": "secondary",
@@ -11512,8 +12988,8 @@
       "name": "Petroglyph National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 35.1418,
-      "lon": -106.73717,
+      "lat": 35.14014,
+      "lon": -106.73871,
       "visitorCenter": {
         "name": "Petroglyph Information Center",
         "lat": 35.1385,
@@ -11521,22 +12997,49 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "petr-area-1",
-          "label": "",
-          "lat": 35.1418,
-          "lon": -106.73717,
+          "id": "petr-area-3",
+          "label": "Area 3",
+          "lat": 35.14014,
+          "lon": -106.73871,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.006565985999999135,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "petr-area-1",
+          "label": "Area 1",
+          "lat": 35.18505,
+          "lon": -106.69683,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.006818158799999065,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0002521727999999305,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "petr-area-2",
+          "label": "Area 2",
+          "lat": 35.17892,
+          "lon": -106.75198,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.00012079860000001911,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NM",
@@ -11698,8 +13201,8 @@
       "name": "Piscataway Park",
       "designation": "Other Designation",
       "category": "affiliated",
-      "lat": 38.68601,
-      "lon": -77.05385,
+      "lat": 38.68479,
+      "lon": -77.05668,
       "visitorCenter": {
         "name": "Education Center at National Colonial Farm",
         "lat": 38.69430695626275,
@@ -11707,22 +13210,35 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "pisc-area-1",
-          "label": "",
-          "lat": 38.68601,
-          "lon": -77.05385,
+          "id": "pisc-area-2",
+          "label": "Area 2",
+          "lat": 38.68479,
+          "lon": -77.05668,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.003352041000000307,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "pisc-area-1",
+          "label": "Area 1",
+          "lat": 38.70295,
+          "lon": -77.01464,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.0035935806000001883,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0002415395999998813,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "MD",
@@ -12013,8 +13529,8 @@
       "name": "Reconstruction Era National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 32.38786,
-      "lon": -80.60655,
+      "lat": 32.3885,
+      "lon": -80.57925,
       "visitorCenter": {
         "name": "Darrah Hall",
         "lat": 32.387100987,
@@ -12022,22 +13538,35 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "reer-area-1",
-          "label": "",
-          "lat": 32.38786,
-          "lon": -80.60655,
+          "label": "Area 1",
+          "lat": 32.3885,
+          "lon": -80.57925,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.00002352800000002164,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "reer-area-2",
+          "label": "Area 2",
+          "lat": 32.38617,
+          "lon": -80.67922,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.00003236400000004725,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000008836000000025606,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "SC",
@@ -12088,8 +13617,8 @@
       "name": "Richmond National Battlefield Park",
       "designation": "National Battlefield Park",
       "category": "historic_site",
-      "lat": 37.49942,
-      "lon": -77.30253,
+      "lat": 37.58203,
+      "lon": -77.28291,
       "visitorCenter": {
         "name": "Chimborazo Medical Museum",
         "lat": 37.52681660119179,
@@ -12100,38 +13629,131 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "rich-area-2",
-          "label": "Area 2",
-          "lat": 37.49942,
-          "lon": -77.30253,
+          "id": "rich-area-6",
+          "label": "Area 6",
+          "lat": 37.58203,
+          "lon": -77.28291,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 7,
+          "sectionCount": 3,
           "sectionIndices": [
             0,
-            1,
-            2,
-            4,
-            5,
-            6,
-            7
+            9,
+            10
           ],
-          "areaDeg2": 0.007960095400000661,
+          "areaDeg2": 0.0027095726999999837,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "rich-area-1",
           "label": "Area 1",
-          "lat": 37.90802,
-          "lon": -77.52153,
+          "lat": 37.91204,
+          "lon": -77.53381,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            3,
+            3
+          ],
+          "areaDeg2": 0.000544603900000149,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-2",
+          "label": "Area 2",
+          "lat": 37.89164,
+          "lon": -77.47145,
+          "role": "secondary",
+          "clusterIndex": 8,
+          "sectionCount": 1,
+          "sectionIndices": [
             8
           ],
-          "areaDeg2": 0.0006782239000001315,
+          "areaDeg2": 0.00013361999999998256,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-3",
+          "label": "Area 3",
+          "lat": 37.6778,
+          "lon": -77.30518,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.00031785750000007097,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-4",
+          "label": "Area 4",
+          "lat": 37.65589,
+          "lon": -77.34804,
+          "role": "secondary",
+          "clusterIndex": 7,
+          "sectionCount": 1,
+          "sectionIndices": [
+            7
+          ],
+          "areaDeg2": 0.00013884410000003424,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-5",
+          "label": "Area 5",
+          "lat": 37.59158,
+          "lon": -77.35407,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.00047460040000005,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-7",
+          "label": "Area 7",
+          "lat": 37.42658,
+          "lon": -77.31729,
+          "role": "secondary",
+          "clusterIndex": 6,
+          "sectionCount": 1,
+          "sectionIndices": [
+            6
+          ],
+          "areaDeg2": 0.00024236970000014095,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-8",
+          "label": "Area 8",
+          "lat": 37.42578,
+          "lon": -77.24581,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.002269423200000682,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "rich-area-9",
+          "label": "Area 9",
+          "lat": 37.42311,
+          "lon": -77.37535,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.001953282999999806,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -12722,8 +14344,8 @@
       "name": "Salinas Pueblo Missions National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 34.46632,
-      "lon": -106.36222,
+      "lat": 34.44619,
+      "lon": -106.37269,
       "visitorCenter": {
         "name": "Abó Visitor Center",
         "lat": 34.45014109085602,
@@ -12734,23 +14356,36 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "sapu-area-1",
-          "label": "Area 1",
-          "lat": 34.46632,
-          "lon": -106.36222,
+          "id": "sapu-area-2",
+          "label": "Area 2",
+          "lat": 34.44619,
+          "lon": -106.37269,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            2
+            0
           ],
-          "areaDeg2": 0.00033406200000010087,
+          "areaDeg2": 0.00028882260000012326,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "sapu-area-2",
-          "label": "Area 2",
+          "id": "sapu-area-1",
+          "label": "Area 1",
+          "lat": 34.59486,
+          "lon": -106.29537,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.00004523939999997761,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "sapu-area-3",
+          "label": "Area 3",
           "lat": 34.25974,
           "lon": -106.09021,
           "role": "secondary",
@@ -12811,8 +14446,8 @@
       "name": "San Antonio Missions National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 29.33258,
-      "lon": -98.45568,
+      "lat": 29.332,
+      "lon": -98.45522,
       "visitorCenter": {
         "name": "Mission San Jose Visitor Center",
         "lat": 29.360149780336926,
@@ -12823,24 +14458,51 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "saan-area-1",
-          "label": "Area 1",
-          "lat": 29.33258,
-          "lon": -98.45568,
+          "id": "saan-area-3",
+          "label": "Area 3",
+          "lat": 29.332,
+          "lon": -98.45522,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            1,
-            3
+            1
           ],
-          "areaDeg2": 0.0029749712000000437,
+          "areaDeg2": 0.0029150832000000705,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "saan-area-1",
+          "label": "Area 1",
+          "lat": 29.39049,
+          "lon": -98.4925,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.00002930400000000566,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "saan-area-2",
           "label": "Area 2",
+          "lat": 29.36118,
+          "lon": -98.4781,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.00005988799999997324,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "saan-area-4",
+          "label": "Area 4",
           "lat": 29.09569,
           "lon": -98.1691,
           "role": "secondary",
@@ -12901,8 +14563,8 @@
       "name": "San Juan Island National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 48.5211,
-      "lon": -123.07186,
+      "lat": 48.46222,
+      "lon": -123.00354,
       "visitorCenter": {
         "name": "American Camp Visitor Center",
         "lat": 48.46480369846706,
@@ -12910,22 +14572,35 @@
       },
       "visitorCenterCount": 3,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "sajh-area-1",
-          "label": "",
-          "lat": 48.5211,
-          "lon": -123.07186,
+          "id": "sajh-area-2",
+          "label": "Area 2",
+          "lat": 48.46222,
+          "lon": -123.00354,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.00103145000000002,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "sajh-area-1",
+          "label": "Area 1",
+          "lat": 48.58162,
+          "lon": -123.14206,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.002035185799999954,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.001003735799999934,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "WA",
@@ -13059,11 +14734,11 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "sara-area-1",
-          "label": "",
+          "id": "sara-area-2",
+          "label": "Area 2",
           "lat": 42.9942,
           "lon": -73.62954,
           "role": "primary",
@@ -13073,7 +14748,21 @@
             0
           ],
           "areaDeg2": 0.0024706779999998096,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "sara-area-1",
+          "label": "Area 1",
+          "lat": 43.09216,
+          "lon": -73.58017,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.00007253460000010396,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NY",
@@ -13247,8 +14936,8 @@
       "name": "Shiloh National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 35.13952,
-      "lon": -88.33951,
+      "lat": 35.14208,
+      "lon": -88.3362,
       "visitorCenter": {
         "name": "Bookstore",
         "lat": 35.150774499565145,
@@ -13261,21 +14950,34 @@
         {
           "id": "shil-area-1",
           "label": "Area 1",
-          "lat": 35.13952,
-          "lon": -88.33951,
+          "lat": 35.14208,
+          "lon": -88.3362,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            3
+            0
           ],
-          "areaDeg2": 0.0040165614999999304,
+          "areaDeg2": 0.003754734999999878,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "shil-area-2",
           "label": "Area 2",
+          "lat": 35.10276,
+          "lon": -88.38694,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.00026182650000005215,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "shil-area-3",
+          "label": "Area 3",
           "lat": 35.03065,
           "lon": -88.79151,
           "role": "secondary",
@@ -13288,8 +14990,8 @@
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "shil-area-3",
-          "label": "Area 3",
+          "id": "shil-area-4",
+          "label": "Area 4",
           "lat": 34.96552,
           "lon": -88.52493,
           "role": "secondary",
@@ -13299,6 +15001,34 @@
             2
           ],
           "areaDeg2": 0.00034561800000004566,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "shil-area-5",
+          "label": "Area 5",
+          "lat": 34.95526,
+          "lon": -88.47384,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.0000888047999999869,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "shil-area-6",
+          "label": "Area 6",
+          "lat": 34.93767,
+          "lon": -88.53358,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.00011206579999999507,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -13350,8 +15080,8 @@
       "name": "Sleeping Bear Dunes National Lakeshore",
       "designation": "National Lakeshore",
       "category": "recreation",
-      "lat": 44.77322,
-      "lon": -86.09411,
+      "lat": 44.73341,
+      "lon": -86.12261,
       "visitorCenter": {
         "name": "Philip A. Hart Visitor Center",
         "lat": 44.81153454723621,
@@ -13362,38 +15092,50 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "slbe-area-2",
-          "label": "Area 2",
-          "lat": 44.77322,
-          "lon": -86.09411,
+          "id": "slbe-area-5",
+          "label": "Area 5",
+          "lat": 44.73341,
+          "lon": -86.12261,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            3
+            0
           ],
-          "areaDeg2": 0.034565352300001004,
-          "labelSource": "visitor_center_or_heuristic"
-        },
-        {
-          "id": "slbe-island",
-          "label": "Island",
-          "lat": 45.08192,
-          "lon": -86.04283,
-          "role": "secondary",
-          "clusterIndex": 2,
-          "sectionCount": 2,
-          "sectionIndices": [
-            2,
-            4
-          ],
-          "areaDeg2": 0.018296508399999564,
+          "areaDeg2": 0.02475364680000021,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "slbe-area-1",
           "label": "Area 1",
+          "lat": 45.10659,
+          "lon": -86.0125,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            2
+          ],
+          "areaDeg2": 0.01291640839999952,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "slbe-island",
+          "label": "Island",
+          "lat": 45.0227,
+          "lon": -86.11563,
+          "role": "secondary",
+          "clusterIndex": 4,
+          "sectionCount": 1,
+          "sectionIndices": [
+            4
+          ],
+          "areaDeg2": 0.005380100000000044,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "slbe-area-2",
+          "label": "Area 2",
           "lat": 44.93086,
           "lon": -85.88599,
           "role": "secondary",
@@ -13403,6 +15145,34 @@
             1
           ],
           "areaDeg2": 0.015058720599999761,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "slbe-area-3",
+          "label": "Area 3",
+          "lat": 44.87368,
+          "lon": -86.0222,
+          "role": "secondary",
+          "clusterIndex": 3,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.009811705500000796,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "slbe-area-4",
+          "label": "Area 4",
+          "lat": 44.83553,
+          "lon": -85.91098,
+          "role": "secondary",
+          "clusterIndex": 5,
+          "sectionCount": 1,
+          "sectionIndices": [
+            5
+          ],
+          "areaDeg2": 0.0005824474000001392,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -13564,8 +15334,8 @@
       "name": "Stones River National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 35.87759,
-      "lon": -86.43054,
+      "lat": 35.87846,
+      "lon": -86.43113,
       "visitorCenter": {
         "name": "Stones River National Battlefield Visitor Center",
         "lat": 35.88053829999382,
@@ -13573,25 +15343,41 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "stri-area-1",
-          "label": "",
-          "lat": 35.87759,
-          "lon": -86.43054,
+          "label": "Area 1",
+          "lat": 35.87846,
+          "lon": -86.43113,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 5,
+          "sectionCount": 7,
           "sectionIndices": [
             0,
             1,
             2,
-            3,
-            4
+            4,
+            5,
+            6,
+            7
           ],
-          "areaDeg2": 0.0005533794000002183,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0005438168000003119,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "stri-area-2",
+          "label": "Area 2",
+          "lat": 35.85182,
+          "lon": -86.41077,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.000027806999999959844,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "TN",
@@ -13992,11 +15778,11 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "timu-area-1",
-          "label": "",
+          "id": "timu-area-2",
+          "label": "Area 2",
           "lat": 30.47622,
           "lon": -81.54714,
           "role": "primary",
@@ -14006,7 +15792,21 @@
             0
           ],
           "areaDeg2": 0.06356577599999962,
-          "labelSource": "heuristic"
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "timu-area-1",
+          "label": "Area 1",
+          "lat": 30.51471,
+          "lon": -81.48005,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0013695263999995123,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "FL",
@@ -14094,27 +15894,40 @@
       "name": "Tule Springs Fossil Beds National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 36.38643,
-      "lon": -115.3263,
+      "lat": 36.40276,
+      "lon": -115.35415,
       "visitorCenter": null,
       "visitorCenterCount": 0,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "tusk-area-1",
-          "label": "",
-          "lat": 36.38643,
-          "lon": -115.3263,
+          "label": "Area 1",
+          "lat": 36.40276,
+          "lon": -115.35415,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.025018155600000775,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "tusk-area-2",
+          "label": "Area 2",
+          "lat": 36.31384,
+          "lon": -115.20252,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.030646334800001295,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00562817920000052,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NV",
@@ -14128,8 +15941,8 @@
       "name": "Tumacácori National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 31.5526,
-      "lon": -111.03159,
+      "lat": 31.57239,
+      "lon": -111.04761,
       "visitorCenter": {
         "name": "Tumacácori Visitor Center and Museum",
         "lat": 31.5678351658,
@@ -14137,23 +15950,49 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "tuma-area-1",
-          "label": "",
-          "lat": 31.5526,
-          "lon": -111.03159,
+          "label": "Area 1",
+          "lat": 31.57239,
+          "lon": -111.04761,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
+            0
+          ],
+          "areaDeg2": 0.00016141370000024105,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "tuma-area-2",
+          "label": "Area 2",
+          "lat": 31.45235,
+          "lon": -110.9594,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.000016315200000027748,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "tuma-area-3",
+          "label": "Area 3",
+          "lat": 31.40885,
+          "lon": -110.90181,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.0001885817000002303,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000010852799999961506,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AZ",
@@ -14510,16 +16349,17 @@
         {
           "id": "vick-area-2",
           "label": "Area 2",
-          "lat": 32.33464,
-          "lon": -90.53723,
+          "lat": 32.33486,
+          "lon": -90.53822,
           "role": "secondary",
           "clusterIndex": 1,
-          "sectionCount": 2,
+          "sectionCount": 3,
           "sectionIndices": [
             2,
-            3
+            3,
+            4
           ],
-          "areaDeg2": 0.0003425339999997831,
+          "areaDeg2": 0.0003926222999998582,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -14551,8 +16391,8 @@
       "name": "Virgin Islands Coral Reef National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 18.30691,
-      "lon": -64.70829,
+      "lat": 18.27971,
+      "lon": -64.70793,
       "visitorCenter": {
         "name": "Cruz Bay Visitor Center",
         "lat": 18.3327793,
@@ -14560,23 +16400,49 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "vicr-area-1",
-          "label": "",
-          "lat": 18.30691,
-          "lon": -64.70829,
+          "id": "vicr-area-3",
+          "label": "Area 3",
+          "lat": 18.27971,
+          "lon": -64.70793,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1,
+            0
+          ],
+          "areaDeg2": 0.00607014389999952,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "vicr-area-1",
+          "label": "Area 1",
+          "lat": 18.3632,
+          "lon": -64.71302,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0025558702000003752,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "vicr-area-2",
+          "label": "Area 2",
+          "lat": 18.34296,
+          "lon": -64.69148,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
             2
           ],
-          "areaDeg2": 0.009215363700000008,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.000589349600000113,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VI",
@@ -14738,8 +16604,8 @@
       "name": "War in the Pacific",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 13.43419,
-      "lon": 144.69136,
+      "lat": 13.38963,
+      "lon": 144.65628,
       "visitorCenter": {
         "name": "T. Stell Newman Visitor Center",
         "lat": 13.422416166193349,
@@ -14747,26 +16613,53 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "wapa-area-1",
-          "label": "",
-          "lat": 13.43419,
-          "lon": 144.69136,
+          "id": "wapa-area-3",
+          "label": "Area 3",
+          "lat": 13.38963,
+          "lon": 144.65628,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 6,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
+            4
+          ],
+          "areaDeg2": 0.0006376904999998819,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "wapa-area-1",
+          "label": "Area 1",
+          "lat": 13.47067,
+          "lon": 144.717,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 4,
+          "sectionIndices": [
             1,
             2,
-            3,
-            4,
-            5
+            5,
+            6
           ],
-          "areaDeg2": 0.0015714664999999068,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0008094340999997815,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "wapa-area-2",
+          "label": "Area 2",
+          "lat": 13.42811,
+          "lon": 144.7036,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 1,
+          "sectionIndices": [
+            3
+          ],
+          "areaDeg2": 0.00013568940000021904,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "GU",

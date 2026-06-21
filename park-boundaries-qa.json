@@ -1,12 +1,12 @@
 {
-  "generated": "2026-06-20T20:46:39.695Z",
+  "generated": "2026-06-21T06:18:33.666Z",
   "us": {
-    "inScopeUnits": 377,
+    "inScopeUnits": 382,
     "withBoundary": 377,
-    "coveragePct": 100,
+    "coveragePct": 98.7,
     "byCategory": {
       "historic_park": {
-        "total": 49,
+        "total": 51,
         "withBoundary": 49
       },
       "park": {
@@ -14,7 +14,7 @@
         "withBoundary": 64
       },
       "monument": {
-        "total": 86,
+        "total": 88,
         "withBoundary": 86
       },
       "recreation": {
@@ -22,7 +22,7 @@
         "withBoundary": 45
       },
       "historic_site": {
-        "total": 106,
+        "total": 107,
         "withBoundary": 106
       },
       "other": {
@@ -38,7 +38,38 @@
         "withBoundary": 8
       }
     },
-    "missing": []
+    "missing": [
+      {
+        "parkCode": "till",
+        "name": "Emmett Till and Mamie Till-Mobley National Monument",
+        "category": "monument",
+        "designation": "National Monument"
+      },
+      {
+        "parkCode": "para",
+        "name": "Grand Canyon-Parashant National Monument",
+        "category": "monument",
+        "designation": "National Monument"
+      },
+      {
+        "parkCode": "klse",
+        "name": "Klondike Gold Rush - Seattle Unit National Historical Park",
+        "category": "historic_park",
+        "designation": "National Historical Park"
+      },
+      {
+        "parkCode": "neph",
+        "name": "New Philadelphia National Historic Site",
+        "category": "historic_site",
+        "designation": "National Historic Site"
+      },
+      {
+        "parkCode": "stge",
+        "name": "Ste. Geneviève National Historical Park",
+        "category": "historic_park",
+        "designation": "National Historical Park"
+      }
+    ]
   },
   "ca": {
     "catalogUnits": 53,
