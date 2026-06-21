@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  var GROUP_ORDER = ["scenic", "benchmark", "fuel", "camping", "playground", "historic", "nps"];
+  var GROUP_ORDER = ["scenic", "benchmark", "fuel", "camping", "playground", "historic", "nps", "pc"];
   var GROUP_LABELS = {
     scenic: "Scenic overlooks",
     benchmark: "Scenic benchmark",
@@ -11,6 +11,7 @@
     playground: "Playgrounds",
     historic: "Historic",
     nps: "NPS units",
+    pc: "Parks Canada",
   };
   var COLORS = {
     scenic_kept: "#06b6d4",
@@ -45,6 +46,7 @@
     recreation: "#0d9488",
     memorial: "#be123c",
     preserve: "#059669",
+    marine: "#0891b2",
     parkway_trail: "#2563eb",
     affiliated: "#64748b",
     visitor_center: "#1d4ed8",
@@ -151,8 +153,8 @@
   }
 
   function layerColor(Ldef) {
-    if (Ldef.group === "nps" && Ldef.npsCategory) {
-      return NPS_COLORS[Ldef.npsCategory] || "#15803d";
+    if ((Ldef.group === "nps" && Ldef.npsCategory) || (Ldef.group === "pc" && Ldef.pcCategory)) {
+      return NPS_COLORS[Ldef.npsCategory || Ldef.pcCategory] || "#15803d";
     }
     if (Ldef.fuelBrandId) {
       return FUEL_BRAND_COLORS[Ldef.fuelBrandId] || "#94a3b8";
@@ -229,6 +231,13 @@
         '<p><a href="https://www.nps.gov/' +
         props.parkCode +
         '/" target="_blank" rel="noopener">NPS unit page</a></p>';
+    } else if (props.parkCode && props.country === "CA") {
+      links =
+        '<p><a href="https://parks.canada.ca/pn-np/' +
+        (props.state || "ca").toLowerCase() +
+        "/" +
+        props.parkCode +
+        '" target="_blank" rel="noopener">Parks Canada unit page</a></p>';
     }
     panel.innerHTML = "<h3>" + escapeHtml(props.name || "Park boundary") + "</h3>" + "<dl>" + dl + "</dl>" + links;
   }
@@ -302,11 +311,20 @@
     if (rec.status === "kept") lines.push("Kept");
     if (rec.status === "excluded") lines.push("Excluded");
     if (rec.landManager) lines.push(escapeHtml(rec.landManager));
-    if (rec.parentName && Ldef && Ldef.id === "nps_visitor_centers") lines.push(escapeHtml(rec.parentName));
-    if (rec.hoursSummary && rec.hoursSummary.summary && Ldef && Ldef.id === "nps_visitor_centers") {
+    if (rec.parentName && Ldef && (Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers")) {
+      lines.push(escapeHtml(rec.parentName));
+    }
+    if (
+      rec.hoursSummary &&
+      rec.hoursSummary.summary &&
+      Ldef &&
+      (Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers")
+    ) {
       lines.push(escapeHtml(rec.hoursSummary.summary));
     }
-    if (rec.category && Ldef && Ldef.group === "nps") lines.push(escapeHtml(rec.category.replace(/_/g, " ")));
+    if (rec.category && Ldef && (Ldef.group === "nps" || Ldef.group === "pc")) {
+      lines.push(escapeHtml(rec.category.replace(/_/g, " ")));
+    }
     var url = osmUrl(rec);
     if (url) {
       lines.push('<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener">OSM details</a>');
@@ -399,6 +417,7 @@
       ["State", rec.state || "—"],
     ];
     if (rec.parkCode) rows.push(["Park code", rec.parkCode]);
+    if (rec.pinLabel) rows.push(["Map pin", rec.pinLabel]);
     if (rec.parentName) rows.push(["Parent unit", rec.parentName]);
     if (rec.parentDesignation) rows.push(["Designation", rec.parentDesignation]);
     if (rec.parentCategory) rows.push(["Unit category", rec.parentCategory.replace(/_/g, " ")]);
@@ -420,7 +439,7 @@
       rows.push(["Fuel type", rec.fuelType === "convenience_fuel" ? "Convenience fuel" : "Travel plaza"]);
     }
     if (rec.landManager) rows.push(["Land manager", rec.landManager]);
-    if (rec.category) rows.push(["NPS type", rec.category]);
+    if (rec.category) rows.push([Ldef && Ldef.group === "pc" ? "Parks Canada type" : "NPS type", rec.category]);
     if (rec.tier) rows.push(["Benchmark tier", rec.tier]);
     if (rec.expect) rows.push(["Expected @120m", rec.expect]);
     if (rec.notes) rows.push(["Notes", rec.notes]);
@@ -433,7 +452,10 @@
       .join("");
     var links = "";
     if (rec.url) {
-      var linkLabel = rec.url.indexOf("nps.gov") !== -1 ? "NPS" : "OpenStreetMap";
+      var linkLabel = "Open link";
+      if (rec.url.indexOf("nps.gov") !== -1) linkLabel = "NPS";
+      else if (rec.url.indexOf("parks.canada.ca") !== -1 || rec.url.indexOf("pc.gc.ca") !== -1) linkLabel = "Parks Canada";
+      else if (rec.url.indexOf("openstreetmap.org") !== -1) linkLabel = "OpenStreetMap";
       links += '<p><a href="' + rec.url + '" target="_blank" rel="noopener">' + linkLabel + "</a></p>";
     }
     if (rec.osmNodeId)
@@ -476,7 +498,7 @@
         ? function () {
             return diamondIcon(color);
           }
-        : Ldef.id === "nps_visitor_centers"
+        : Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers"
           ? function () {
               return squareIcon(color);
             }

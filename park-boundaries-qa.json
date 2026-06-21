@@ -1,0 +1,83 @@
+{
+  "generated": "2026-06-20T20:46:39.695Z",
+  "us": {
+    "inScopeUnits": 377,
+    "withBoundary": 377,
+    "coveragePct": 100,
+    "byCategory": {
+      "historic_park": {
+        "total": 49,
+        "withBoundary": 49
+      },
+      "park": {
+        "total": 64,
+        "withBoundary": 64
+      },
+      "monument": {
+        "total": 86,
+        "withBoundary": 86
+      },
+      "recreation": {
+        "total": 45,
+        "withBoundary": 45
+      },
+      "historic_site": {
+        "total": 106,
+        "withBoundary": 106
+      },
+      "other": {
+        "total": 9,
+        "withBoundary": 9
+      },
+      "preserve": {
+        "total": 10,
+        "withBoundary": 10
+      },
+      "affiliated": {
+        "total": 8,
+        "withBoundary": 8
+      }
+    },
+    "missing": []
+  },
+  "ca": {
+    "catalogUnits": 53,
+    "withBoundary": 53,
+    "coveragePct": 100,
+    "byType": {
+      "National Park Reserve": {
+        "total": 9,
+        "withBoundary": 9
+      },
+      "National Park": {
+        "total": 37,
+        "withBoundary": 37
+      },
+      "National Marine Conservation Area": {
+        "total": 3,
+        "withBoundary": 3
+      },
+      "National Marine Conservation Area Reserve": {
+        "total": 2,
+        "withBoundary": 2
+      },
+      "National Historic Site": {
+        "total": 2,
+        "withBoundary": 2
+      }
+    },
+    "missing": []
+  },
+  "excludedCategories": [
+    "memorial",
+    "parkway_trail"
+  ],
+  "excludedUsTypes": [
+    "National Memorial",
+    "National Parkway",
+    "Parkway",
+    "National Historic Trail",
+    "National Scenic Trail",
+    "National Monument and Historic Shrine"
+  ]
+}

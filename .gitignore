@@ -12,7 +12,7 @@ osm-pbf/
 
 # Rebuildable ingest caches (fuel PBF extract, per-state OSM, etc.)
 *-ingest/
-fuel-explorer-cache/
+parks-canada-arcgis-cache.json
 poi-explorer-data/
 
 # Logs and backups

@@ -11,6 +11,8 @@ import { readJson, masterPath, POI_KINDS } from "./poi-osm-lib.mjs";
 import { MASTER_PATH as FUEL_US_MASTER } from "./fuel-us-lib.mjs";
 import { MASTER_PATH as FUEL_CA_MASTER } from "./fuel-ca-lib.mjs";
 import { MASTER_PATH as NPS_VC_MASTER } from "./nps-visitor-centers-lib.mjs";
+import { MASTER_PATH as PC_VC_MASTER } from "./parks-canada-visitor-centers-lib.mjs";
+import { GEO_PATH as PC_GEO_PATH } from "./parks-canada-lib.mjs";
 import { MASTER_US_PATH as STATE_PARKS_US_MASTER, MASTER_CA_PATH as STATE_PARKS_CA_MASTER } from "./state-parks-lib.mjs";
 import { brandGroupLabel, brandIdToSelectId, buildBrandGroups, normalizeFuelType } from "./fuel-brand-lib.mjs";
 
@@ -241,24 +243,89 @@ function loadStateParks(region) {
   }));
 }
 
+function npsExplorerRows(units) {
+  const rows = [];
+  for (const u of units) {
+    const pins = u.mapPins?.length ? u.mapPins : [{ id: u.id, label: "", lat: u.lat, lon: u.lon, role: "primary" }];
+    for (const pin of pins) {
+      const suffix = pin.label ? ` — ${pin.label}` : "";
+      rows.push({
+        id: pin.id || u.id,
+        name: u.name + suffix,
+        lat: round5(pin.lat),
+        lon: round5(pin.lon),
+        state: u.state || "",
+        category: u.category || "other",
+        parkCode: u.parkCode || "",
+        pinLabel: pin.label || "",
+        pinRole: pin.role || "",
+        pinStrategy: u.pinStrategy || "",
+        url: u.url || "",
+      });
+    }
+  }
+  return rows;
+}
+
 function loadNpsByCategory() {
   const nps = readJson(NPS_PATH, { units: [] });
   const byCat = {};
   for (const u of nps.units || []) {
     const cat = u.category || "other";
     if (!byCat[cat]) byCat[cat] = [];
-    byCat[cat].push({
-      id: u.id,
-      name: u.name,
-      lat: round5(u.lat),
-      lon: round5(u.lon),
-      state: u.state || "",
-      category: cat,
-      parkCode: u.parkCode || "",
-      url: u.url || "",
-    });
+    byCat[cat].push(...npsExplorerRows([u]));
   }
   return byCat;
+}
+
+function loadPcByCategory() {
+  const pc = readJson(PC_GEO_PATH, { units: [] });
+  const byCat = {};
+  for (const u of pc.units || []) {
+    const cat = u.category || "other";
+    if (!byCat[cat]) byCat[cat] = [];
+    const pins = u.mapPins?.length ? u.mapPins : [{ id: u.id, label: "", lat: u.lat, lon: u.lon, role: "primary" }];
+    for (const pin of pins) {
+      const suffix = pin.label ? ` — ${pin.label}` : "";
+      byCat[cat].push({
+        id: pin.id || u.id,
+        name: u.name + suffix,
+        lat: round5(pin.lat),
+        lon: round5(pin.lon),
+        state: u.state || "",
+        category: cat,
+        parkCode: u.parkCode || "",
+        designation: u.designation || "",
+        pinLabel: pin.label || "",
+        pinRole: pin.role || "",
+        url: u.url || "",
+      });
+    }
+  }
+  return byCat;
+}
+
+function loadPcVisitorCenters() {
+  const master = readJson(PC_VC_MASTER, { records: [] });
+  return (master.records || []).map((r) => {
+    const pu = r.parentUnit || {};
+    return {
+      id: r.id,
+      name: r.name,
+      lat: round5(r.lat),
+      lon: round5(r.lon),
+      state: r.state || "",
+      parkCode: r.parkCode || pu.parkCode || "",
+      parentName: pu.name || "",
+      parentCategory: pu.category || "",
+      parentDesignation: pu.designation || "",
+      hoursSummary: r.hoursSummary || { hasHours: false, summary: "", seasonalNote: "" },
+      seasonal: r.seasonal || { isSeasonal: null, description: "" },
+      url: r.urls?.detail || r.urls?.park || "",
+      coordConfidence: r.coordConfidence || "",
+      needsReview: !!r.needsReview,
+    };
+  });
 }
 
 const NPS_LABELS = {
@@ -271,6 +338,13 @@ const NPS_LABELS = {
   preserve: "National preserves",
   parkway_trail: "Parkways & trails",
   affiliated: "Affiliated areas",
+  other: "Other",
+};
+
+const PC_LABELS = {
+  park: "National parks",
+  historic_site: "National historic sites",
+  marine: "Marine conservation areas",
   other: "Other",
 };
 
@@ -321,6 +395,22 @@ if (npsVc.length) {
     defaultInCategory: true,
     noRegionFilter: true,
     npsCategory: "visitor_center",
+  });
+}
+
+const pcByCat = loadPcByCategory();
+for (const cat of Object.keys(pcByCat).sort()) {
+  addLayer(`pc_${cat}`, PC_LABELS[cat] || cat, "pc", "ca", pcByCat[cat], {
+    defaultInCategory: true,
+    pcCategory: cat,
+  });
+}
+
+const pcVc = loadPcVisitorCenters();
+if (pcVc.length) {
+  addLayer("pc_visitor_centers", "Visitor centres", "pc", "ca", pcVc, {
+    defaultInCategory: true,
+    pcCategory: "visitor_center",
   });
 }
 

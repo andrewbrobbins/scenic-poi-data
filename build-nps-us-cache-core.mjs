@@ -1,6 +1,11 @@
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import {
+  buildPinCatalog,
+  loadBoundaryIndex,
+  loadPinOverrides,
+} from "./park-boundary-pins.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const US = new Set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY VI PR GU AS MP".split(" "));
@@ -152,19 +157,22 @@ function pickVisitorCenter(list) {
 
 function loadVisitorCenterMasterCounts(toolsDir) {
   const masterPath = path.join(toolsDir, "nps-visitor-centers-us-master.json");
-  if (!fs.existsSync(masterPath)) return { byPark: {}, primaryByPark: {}, total: 0 };
+  if (!fs.existsSync(masterPath)) return { byPark: {}, primaryByPark: {}, listByPark: {}, total: 0 };
   const master = JSON.parse(fs.readFileSync(masterPath, "utf8"));
   const byPark = {};
   const primaryByPark = {};
+  const listByPark = {};
   for (const r of master.records || []) {
     const code = (r.parkCode || "").toLowerCase();
     if (!code) continue;
     byPark[code] = (byPark[code] || 0) + 1;
+    if (!listByPark[code]) listByPark[code] = [];
+    listByPark[code].push({ name: r.name, lat: r.lat, lon: r.lon });
     if (!primaryByPark[code] && Number.isFinite(r.lat) && Number.isFinite(r.lon)) {
       primaryByPark[code] = { name: r.name || "Visitor Center", lat: r.lat, lon: r.lon };
     }
   }
-  return { byPark, primaryByPark, total: (master.records || []).length };
+  return { byPark, primaryByPark, listByPark, total: (master.records || []).length };
 }
 
 async function loadVisitorCentersByPark(refreshNetwork, toolsDir) {
@@ -249,6 +257,32 @@ export async function buildNpsCache(refreshNetwork = false) {
 
   const visitorByPark = await loadVisitorCentersByPark(refreshNetwork, tools);
   const vcMaster = loadVisitorCenterMasterCounts(tools);
+  const boundaryIndex = loadBoundaryIndex();
+  const pinOverrides = loadPinOverrides();
+  const pinCatalog = buildPinCatalog({
+    country: "US",
+    boundaryIndex,
+    overrides: pinOverrides,
+    visitorCentersByPark: vcMaster.listByPark,
+  });
+  const pinsPath = path.join(tools, "nps-us-park-pins.json");
+  const multiPinParks = Object.values(pinCatalog).filter((p) => p.pinCount > 1);
+  fs.writeFileSync(
+    pinsPath,
+    JSON.stringify(
+      {
+        generated: new Date().toISOString(),
+        source: "park-boundaries.geojson+overrides",
+        parkCount: Object.keys(pinCatalog).length,
+        multiPinCount: multiPinParks.length,
+        parks: pinCatalog,
+      },
+      null,
+      2
+    ) + "\n",
+    "utf8"
+  );
+  console.log("Park map pins:", Object.keys(pinCatalog).length, "| multi-pin:", multiPinParks.length);
 
   const arcgisRows = dedupeArcgisUnits(arcgis);
   const pendingGeometry = [];
@@ -267,15 +301,20 @@ export async function buildNpsCache(refreshNetwork = false) {
     const vcCount = vcMaster.byPark[code] ?? 0;
     const vcFromMaster = vcMaster.primaryByPark[code];
     const vc = vcFromMaster || pickVisitorCenter(visitorByPark[code]);
+    const pins = pinCatalog[code];
     let lat;
     let lon;
     let coordSource = "centroid";
     let visitorCenter = null;
-    if (vc) {
-      lat = vc.latitude ?? vc.lat;
-      lon = vc.longitude ?? vc.lon;
-      coordSource = vcFromMaster ? "visitor_center_master" : "visitor_center";
-      visitorCenter = { name: vc.name, lat, lon };
+    let mapPins = null;
+    let pinStrategy = "fallback";
+
+    if (pins?.primary) {
+      lat = pins.primary.lat;
+      lon = pins.primary.lon;
+      coordSource = "boundary_centroid";
+      pinStrategy = pins.strategy;
+      mapPins = pins.pins;
     } else if (rich && Number.isFinite(+rich.latitude) && Number.isFinite(+rich.longitude)) {
       lat = +rich.latitude;
       lon = +rich.longitude;
@@ -287,6 +326,10 @@ export async function buildNpsCache(refreshNetwork = false) {
     } else {
       pendingGeometry.push(code);
       continue;
+    }
+
+    if (vc) {
+      visitorCenter = { name: vc.name, lat: vc.latitude ?? vc.lat, lon: vc.longitude ?? vc.lon };
     }
     if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
     units.push({
@@ -300,6 +343,8 @@ export async function buildNpsCache(refreshNetwork = false) {
       visitorCenter,
       visitorCenterCount: vcCount,
       coordSource,
+      pinStrategy,
+      mapPins: mapPins || undefined,
       state: states.join(","),
       url: rich?.url || "https://www.nps.gov/" + code + "/",
       jr: rich?.activities && /junior ranger/i.test(rich.activities) ? "yes" : "unknown",
@@ -346,9 +391,11 @@ export async function buildNpsCache(refreshNetwork = false) {
   const vcCount = vcMaster.total || units.reduce((n, u) => n + (u.visitorCenterCount || 0), 0);
   const geo = {
     generated: new Date().toISOString(),
-    source: "arcgis+visitorcenters+visitor-center-master+park-list+centroids+arcgis_geometry",
+    source: "arcgis+boundary-pins+park-list+centroids+arcgis_geometry",
+    pinPolicy: "boundary_centroid; multi_pin when sections >= 25 km apart (see nps-us-park-pins.json)",
     count: units.length,
     visitorCenterCount: vcCount,
+    multiPinCount: units.filter((u) => u.pinStrategy === "multi_pin").length,
     categories: cats,
     units,
   };

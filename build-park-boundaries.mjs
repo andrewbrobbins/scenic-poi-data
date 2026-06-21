@@ -5,6 +5,8 @@ import { fetchArcgisAllFeatures } from "./camping-ca-lib.mjs";
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
 const NPS_GEO_PATH = path.join(tools, "nps-us-geo.json");
+const PC_GEO_PATH = path.join(tools, "parks-canada-geo.json");
+const BOUNDARY_QA_PATH = path.join(tools, "park-boundaries-qa.json");
 
 const US_QUERY =
   "https://services1.arcgis.com/fBc8EJBxQRMcHlei/ArcGIS/rest/services/National_Park_Service_Boundaries/FeatureServer/0/query";
@@ -30,14 +32,64 @@ function ptsForSecondaryRing(area, mainArea) {
   return 64;
 }
 
+/** In-scope for boundary backfill (excludes memorials and linear trails/parkways — PB-001). */
+const US_TYPES_EXCLUDED = new Set([
+  "National Memorial",
+  "National Parkway",
+  "Parkway",
+  "National Historic Trail",
+  "National Scenic Trail",
+  "National Monument and Historic Shrine",
+]);
+
 const US_TYPES = new Set([
   "National Park",
   "National Monument",
-  "National Memorial",
   "National Preserve",
   "Other Designation",
+  "National Historical Park",
+  "National Historical Park and Preserve",
+  "National Historic Site",
+  "International Historic Site",
+  "National Recreation Area",
+  "National Seashore",
+  "National Lakeshore",
+  "National Battlefield",
+  "National Battlefield Park",
+  "National Battlefield Site",
+  "National Military Park",
+  "National Historical Reserve",
+  "Ecological and Historic Preserve",
+  "National Recreation River",
+  "National River",
+  "National River and Recreation Area",
+  "National Scenic River",
+  "National Scenic Riverway",
+  "Scenic and Recreational River",
+  "Wild River",
+  "Wild and Scenic River",
+  "National Reserve",
+  "Park",
 ]);
-const CA_TYPES = new Set(["National Park", "National Park Reserve", "National Historic Site"]);
+
+const IN_SCOPE_NPS_CATEGORIES = new Set([
+  "park",
+  "monument",
+  "preserve",
+  "historic_park",
+  "historic_site",
+  "recreation",
+  "affiliated",
+  "other",
+]);
+
+const CA_TYPES = new Set([
+  "National Park",
+  "National Park Reserve",
+  "National Historic Site",
+  "National Marine Conservation Area",
+  "National Marine Conservation Area Reserve",
+]);
 
 const UNIT_TYPE_RANK = {
   "National Park": 100,
@@ -143,10 +195,31 @@ function esriToGeoJsonGeometry(geom) {
 
 function usCategory(unitType) {
   const t = (unitType || "").toLowerCase();
-  if (t.includes("national park") && !t.includes("historical")) return "park";
+  if (t.includes("national historical park") || t.includes("national historic park")) return "historic_park";
+  if (t.includes("national historic site") || t.includes("international historic site")) return "historic_site";
+  if (t.includes("national park") && !t.includes("historical") && !t.includes("historic")) return "park";
   if (t.includes("monument")) return "monument";
   if (t.includes("memorial")) return "memorial";
-  if (t.includes("preserve")) return "preserve";
+  if (
+    t.includes("recreation") ||
+    t.includes("seashore") ||
+    t.includes("lakeshore") ||
+    t.includes("scenic river") ||
+    t.includes("wild river")
+  ) {
+    return "recreation";
+  }
+  if (t.includes("preserve") || t.includes("reserve")) return "preserve";
+  if (t.includes("battlefield") || t.includes("military")) return "historic_site";
+  if (t.includes("parkway") || t.includes("trail")) return "parkway_trail";
+  return "other";
+}
+
+function caCategory(placeType) {
+  const t = (placeType || "").toLowerCase();
+  if (t.includes("historic site")) return "historic_site";
+  if (t.includes("marine conservation")) return "marine";
+  if (t.includes("national park")) return "park";
   return "other";
 }
 
@@ -247,7 +320,7 @@ async function fetchUsBoundaries(npsGeo) {
 
   const byCode = groupByParkCode(feats);
   const wantCodes = (npsGeo?.units || [])
-    .filter((u) => ["park", "monument", "memorial", "preserve"].includes(u.category))
+    .filter((u) => IN_SCOPE_NPS_CATEGORIES.has(u.category))
     .map((u) => u.parkCode);
   const missingCodes = wantCodes.filter((code) => !byCode.has(code));
   if (missingCodes.length) {
@@ -288,13 +361,24 @@ async function fetchUsBoundaries(npsGeo) {
   return features.filter(Boolean);
 }
 
-async function fetchCaBoundaries() {
+function parkCodeFromPcDesc(descEn, pcGeo) {
+  const key = slug(
+    (descEn || "")
+      .replace(/\s+of Canada$/i, "")
+      .replace(/\s+National (Park|Historic Site|Park Reserve|Marine Conservation Area).*$/i, "")
+      .trim()
+  );
+  const unit = (pcGeo?.units || []).find((u) => u.parkCode === key || slug(u.name) === key);
+  return unit?.parkCode || key;
+}
+
+async function fetchCaBoundaries(pcGeo) {
   const where = [...CA_TYPES].map((t) => `PLACE_TYPE_E='${t.replace(/'/g, "''")}'`).join(" OR ");
   console.log("CA boundaries:", where);
   const feats = await fetchArcgisAllFeatures(
     CA_QUERY,
     where,
-    "PLACE_TYPE_E,DESC_EN,DESC_FR",
+    "BAID,PLACE_TYPE_E,DESC_EN,DESC_FR",
     200,
     ARCGIS_OFFSET
   );
@@ -304,17 +388,19 @@ async function fetchCaBoundaries() {
     const poly = esriToGeoJsonGeometry(f.geometry);
     if (!poly) continue;
     const placeType = a.PLACE_TYPE_E || "";
-    const category = /historic site/i.test(placeType) ? "monument" : "park";
+    const name = a.DESC_EN || a.DESC_FR || "Parks Canada place";
+    const parkCode = parkCodeFromPcDesc(name, pcGeo);
+    const pcUnit = (pcGeo?.units || []).find((u) => u.parkCode === parkCode || u.baid === a.BAID);
     features.push(
       toFeature(
         {
-          id: "ca-" + slug(a.DESC_EN || a.DESC_FR || "pc"),
+          id: "ca-" + (parkCode || slug(name)),
           country: "CA",
-          name: a.DESC_EN || a.DESC_FR || "Parks Canada place",
-          parkCode: "",
-          category,
+          name: pcUnit?.name || name,
+          parkCode,
+          category: pcUnit?.category || caCategory(placeType),
           unitType: placeType,
-          state: "",
+          state: pcUnit?.state || "",
         },
         poly
       )
@@ -361,12 +447,63 @@ function summarizeFeatures(features) {
   };
 }
 
+function buildCoverageReport(npsGeo, pcGeo, features) {
+  const usCodes = new Set(features.filter((f) => f.properties.country === "US").map((f) => f.properties.parkCode));
+  const caCodes = new Set(features.filter((f) => f.properties.country === "CA").map((f) => f.properties.parkCode));
+
+  const usByCategory = {};
+  const usMissing = [];
+  for (const u of npsGeo?.units || []) {
+    if (!IN_SCOPE_NPS_CATEGORIES.has(u.category)) continue;
+    usByCategory[u.category] = usByCategory[u.category] || { total: 0, withBoundary: 0 };
+    usByCategory[u.category].total += 1;
+    if (usCodes.has(u.parkCode)) usByCategory[u.category].withBoundary += 1;
+    else usMissing.push({ parkCode: u.parkCode, name: u.name, category: u.category, designation: u.designation });
+  }
+
+  const caByType = {};
+  const caMissing = [];
+  for (const u of pcGeo?.units || []) {
+    const t = u.designation || u.category;
+    caByType[t] = caByType[t] || { total: 0, withBoundary: 0 };
+    caByType[t].total += 1;
+    if (caCodes.has(u.parkCode)) caByType[t].withBoundary += 1;
+    else caMissing.push({ parkCode: u.parkCode, name: u.name, designation: u.designation });
+  }
+
+  const usInScope = Object.values(usByCategory).reduce((n, c) => n + c.total, 0);
+  const usWith = Object.values(usByCategory).reduce((n, c) => n + c.withBoundary, 0);
+  const caTotal = Object.values(caByType).reduce((n, c) => n + c.total, 0);
+  const caWith = Object.values(caByType).reduce((n, c) => n + c.withBoundary, 0);
+
+  return {
+    generated: new Date().toISOString(),
+    us: {
+      inScopeUnits: usInScope,
+      withBoundary: usWith,
+      coveragePct: usInScope ? Math.round((1000 * usWith) / usInScope) / 10 : 0,
+      byCategory: usByCategory,
+      missing: usMissing,
+    },
+    ca: {
+      catalogUnits: caTotal,
+      withBoundary: caWith,
+      coveragePct: caTotal ? Math.round((1000 * caWith) / caTotal) / 10 : 0,
+      byType: caByType,
+      missing: caMissing,
+    },
+    excludedCategories: ["memorial", "parkway_trail"],
+    excludedUsTypes: [...US_TYPES_EXCLUDED],
+  };
+}
+
 async function main() {
   const npsGeo = fs.existsSync(NPS_GEO_PATH) ? JSON.parse(fs.readFileSync(NPS_GEO_PATH, "utf8")) : null;
+  const pcGeo = fs.existsSync(PC_GEO_PATH) ? JSON.parse(fs.readFileSync(PC_GEO_PATH, "utf8")) : null;
 
   const us = await fetchUsBoundaries(npsGeo);
   console.log("US features:", us.length);
-  const ca = await fetchCaBoundaries();
+  const ca = await fetchCaBoundaries(pcGeo);
   console.log("CA features:", ca.length);
 
   const features = [...us, ...ca];
@@ -404,11 +541,39 @@ async function main() {
   );
   console.log("Wrote", embedPath, (fs.statSync(embedPath).size / 1024 / 1024).toFixed(2), "MB");
 
+  const coverage = buildCoverageReport(npsGeo, pcGeo, features);
+  fs.writeFileSync(BOUNDARY_QA_PATH, JSON.stringify(coverage, null, 2) + "\n", "utf8");
+  console.log(
+    "US boundary coverage:",
+    coverage.us.withBoundary + "/" + coverage.us.inScopeUnits,
+    "(" + coverage.us.coveragePct + "%)"
+  );
+  console.log("US by category:", coverage.us.byCategory);
+  console.log(
+    "CA boundary coverage:",
+    coverage.ca.withBoundary + "/" + coverage.ca.catalogUnits,
+    "(" + coverage.ca.coveragePct + "%)"
+  );
+  console.log("CA by type:", coverage.ca.byType);
+  if (coverage.us.missing.length) {
+    console.log(
+      "US in-scope units without boundary:",
+      coverage.us.missing.length,
+      "— see",
+      BOUNDARY_QA_PATH
+    );
+  }
+  if (coverage.ca.missing.length) {
+    console.log("CA catalog units without boundary:", coverage.ca.missing.length);
+  }
+
   if (npsGeo) {
     const codes = new Set(features.filter((f) => f.properties.country === "US").map((f) => f.properties.parkCode));
-    const missingParks = npsGeo.units.filter((u) => u.designation === "National Park" && !codes.has(u.parkCode));
+    const missingParks = npsGeo.units.filter(
+      (u) => u.category === "park" && IN_SCOPE_NPS_CATEGORIES.has(u.category) && !codes.has(u.parkCode)
+    );
     const missingMon = npsGeo.units.filter(
-      (u) => u.designation === "National Monument" && !codes.has(u.parkCode)
+      (u) => u.category === "monument" && !codes.has(u.parkCode)
     );
     if (missingParks.length) console.log("Still missing National Park boundaries:", missingParks.map((u) => u.parkCode));
     if (missingMon.length) console.log("Still missing National Monument boundaries:", missingMon.map((u) => u.parkCode));

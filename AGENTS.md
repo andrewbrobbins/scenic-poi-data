@@ -2,6 +2,14 @@
 
 This repo builds **static map bundles** from OpenStreetMap. Many outputs are committed JSON/JS files that the scenic-router app loads directly.
 
+## OSM source — PBF, not Overpass
+
+When `osm-pbf/geofabrik/us-latest.osm.pbf` and/or `canada-latest.osm.pbf` exist locally (**normal for this project**), **never use the Overpass API** for OSM ingest or spatial queries. Use the on-disk PBF instead.
+
+Full policy: **[POI-OSM-PBF.md](POI-OSM-PBF.md)** (rule + layer mapping). Legacy `*-ingest-osm.mjs` Overpass scripts are for PBF-missing bootstrap only, not routine rebuilds.
+
+Check PBF: `node fuel-cache-status.mjs` or `ls osm-pbf/geofabrik/`.
+
 ## Fuel data — read this before editing
 
 Gas stations are split into two layers per country:
@@ -101,6 +109,7 @@ See [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md).
 ### Do NOT
 
 - Use **Overpass** for visitor-center OSM verification — it rate-limits and takes hours
+- Use **Overpass** for any OSM work when the relevant Geofabrik PBF is already on disk — see [POI-OSM-PBF.md](POI-OSM-PBF.md)
 - Run `--verify-osm` without `osm-pbf/geofabrik/us-latest.osm.pbf` on disk
 
 ### Do
@@ -108,3 +117,34 @@ See [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md).
 - Use **local Geofabrik PBF** only — `nps-visitor-centers-osm-verify.mjs` scans US PBF once, caches candidates
 - OSM verify: `node build-nps-visitor-centers-master.mjs --verify-osm` (add `--refresh-osm` to rescan PBF)
 - Full pipeline: `node build-nps-visitor-centers-all.mjs --require-api`
+
+## Parks Canada — read this before editing
+
+Unit catalog: [PARKS-CANADA.md](PARKS-CANADA.md). Visitor centres: [PARKS-CANADA-VISITOR-CENTERS.md](PARKS-CANADA-VISITOR-CENTERS.md).
+
+### Do NOT
+
+- Hand-edit `parks-canada-geo.json` or `parks-canada-visitor-centers-ca-master.json` — rebuild via pipeline
+- Fold Canada visitor centres into US `nps-visitor-centers-*` files
+- Use **Overpass** for PC visitor-center OSM verify when `canada-latest.osm.pbf` is on disk
+
+### Do
+
+- Build catalog first: `node build-parks-canada-cache.mjs` (PC-001)
+- Visitor centres: `node build-parks-canada-visitor-centers-all.mjs` (requires PC-001)
+- OSM verify: add `--verify-osm` (local Canada PBF only)
+- Park boundaries: `node build-park-boundaries.mjs` (PB-001; reads `parks-canada-geo.json` for CA park codes)
+
+## NPS map pins — read this before editing
+
+See [NPS-MAP-PINS.md](NPS-MAP-PINS.md).
+
+### Do NOT
+
+- Use visitor center or headquarters coords for catalog `lat`/`lon` in `nps-us-geo.json`
+- Hand-edit `nps-us-park-pins.json` — rebuild via `node build-nps-us-cache.mjs`
+
+### Do
+
+- Pin from boundary centroid (`coordSource: boundary_centroid`)
+- Multi-pin distant units via `mapPins` (≥ 25 km cluster split); manual gaps in `nps-park-pin-overrides.json`

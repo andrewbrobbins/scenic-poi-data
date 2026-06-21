@@ -222,7 +222,7 @@ Current ArcGIS-only build flags 17 records with `NO_STATE`. Infer state from par
 ### PB-001 — Expand NPS park boundaries to additional unit types
 
 - **Priority:** medium
-- **Status:** backlog
+- **Status:** done (2026-06-20)
 
 **Your request**
 
@@ -263,12 +263,12 @@ Extend `build-park-boundaries.mjs` so `park-boundaries.geojson` and `park-bounda
 
 **Done when**
 
-- [ ] Coverage report: % of **in-scope** `nps-us-geo.json` units with a boundary polygon, broken down by `category`
-- [ ] Canada coverage report: count of Parks Canada polygons by unit type vs target types
-- [ ] All in-scope US + CA units have polygons or are explicitly documented as boundary-less
-- [ ] `node build-park-boundaries.mjs` completes without error; embed size acceptable for app load
-- [ ] POI explorer / app map renders new boundary categories correctly (no regressions on existing parks/monuments)
-- [ ] Remaining gaps listed in build output or a small QA artifact
+- [x] Coverage report: % of **in-scope** `nps-us-geo.json` units with a boundary polygon, broken down by `category`
+- [x] Canada coverage report: count of Parks Canada polygons by unit type vs target types
+- [x] All in-scope US + CA units have polygons or are explicitly documented as boundary-less
+- [x] `node build-park-boundaries.mjs` completes without error; embed size acceptable for app load
+- [x] POI explorer / app map renders new boundary categories correctly (no regressions on existing parks/monuments)
+- [x] Remaining gaps listed in build output or a small QA artifact
 
 **Notes**
 
@@ -347,6 +347,113 @@ Build a canonical **state and provincial park unit catalog** for the **US and Ca
 - Forests explicitly out of scope — national forests not in repo yet either; do not conflate with this item
 - Parks Canada **national** sites stay in NPS/Parks Canada pipelines; this catalog is **state/provincial** land managers only
 - Existing `state-parks-camping-source.json` (~80 hand-curated pins) — overlap-check only until catalog subsumes it
+
+---
+
+### PC-001 — Parks Canada unit catalog + POI explorer visualization
+
+- **Priority:** medium
+- **Status:** done (2026-06-20)
+
+**Your request**
+
+> Add National Parks Canada visualization to the POI explorer.
+
+**Full description**
+
+Today the POI explorer **NPS units** category only loads `nps-us-geo.json` (413 US units). Parks Canada national sites are not shown as point layers — only a subset appear as **CA boundary polygons** in the park-boundaries overlay (`build-park-boundaries.mjs` → APCA FeatureServer). Build a Parks Canada unit catalog (analogous to `nps-us-geo.json`) and wire it into `build-poi-explorer-data.mjs` + `poi-explorer-app.js` so Canada region / “Both” shows national park, historic site, and related Parks Canada units with the same category breakdown and detail panel patterns as US NPS.
+
+**Scope**
+
+- **Unit catalog pipeline** — ingest Parks Canada places from open data (primary candidate: same APCA ArcGIS layer used in `build-park-boundaries.mjs`: `vw_Places_Public_lieux_public_APCA`); dedupe by place id/name; assign stable ids, province/territory, designation, normalized `category`, centroid, bilingual names where applicable, Parks Canada URLs
+- **Output artifacts** — `parks-canada-geo.json` (+ optional `parks-canada-us-embed.js` if scenic-router needs it later); pipeline doc (e.g. `PARKS-CANADA.md`)
+- **POI explorer manifest** — add layer keys per category (e.g. `pc_park_ca`, `pc_historic_site_ca`) in `build-poi-explorer-data.mjs`; region `ca`, visible when region filter is Canada or Both
+- **POI explorer UI** — extend `poi-explorer-app.js`: category group label (rename “NPS units” → “National parks” or add sibling “Parks Canada” group — see Notes), marker colors, detail panel fields (parent name, designation, province, url)
+- **Rebuild hook** — `node build-poi-explorer-data.mjs` after catalog build; visual QA in `poi-explorer.html`
+- **Cross-check** — unit list should align with CA features already in `park-boundaries.geojson`; flag places missing boundary or centroid
+
+**Affected files**
+
+- New: `build-parks-canada-cache.mjs`, `build-parks-canada-cache-core.mjs`, `parks-canada-geo.json`, `PARKS-CANADA.md`
+- `build-poi-explorer-data.mjs`
+- `poi-explorer-app.js`
+- `poi-explorer-data.js` (generated)
+- `build-park-boundaries.mjs` (read-only cross-check; boundary expansion tracked in PB-001)
+- `SCENIC-ROUTER-INGEST.md` (when embed contract is defined)
+
+**Done when**
+
+- [x] `parks-canada-geo.json` lists all in-scope Parks Canada units with coords + categories
+- [x] POI explorer shows Parks Canada layers when **Canada** or **Both** region is selected
+- [x] Sample sites (e.g. Banff, Jasper, Pacific Rim) appear on map with correct province and detail panel
+- [x] Category toggles work (enable/disable per designation type)
+- [x] Park boundary overlay colors match PC unit categories where both exist
+
+**Depends on**
+
+- None for catalog + explorer; **PB-001** improves boundary coverage in parallel
+
+**Notes**
+
+- **Open question:** One sidebar group (“National parks” covering US NPS + CA Parks Canada) vs two groups (“NPS units” + “Parks Canada”)?
+- Distinct from **SP-001** (state/provincial parks) — this item is **federal Parks Canada only**
+- Camping pipeline already ingests PC campgrounds via `build-camping-ca-ingest-pc.mjs`; reuse ArcGIS domain knowledge, not the camping master
+
+---
+
+### VC-CA-001 — Parks Canada visitor centers (mirror US pipeline)
+
+- **Priority:** medium
+- **Status:** done (2026-06-20)
+
+**Your request**
+
+> Identify visitor centers for CA parks, just like for US.
+
+**Full description**
+
+The US visitor center pipeline (`build-nps-visitor-centers-all.mjs`, `NPS-VISITOR-CENTERS.md`) produces ArcGIS + NPS API → master → embed → POI explorer layer. **No equivalent exists for Parks Canada.** Build a Canada pipeline that finds visitor centres / information centres for Parks Canada units, links each record to a parent park in `parks-canada-geo.json`, and surfaces them in POI explorer (and later scenic-router) with hours/seasonality where a trustworthy source exists.
+
+**Scope**
+
+- **Source research** — Parks Canada open data & ArcGIS (APCA places layer, accommodation/POI services, Open Government API if available); OSM Canada PBF (`information=visitor_centre`, `tourism=information`, bilingual tags); no NPS Developer API for Canada
+- **Ingest pipeline** (mirror US stages):
+  - ArcGIS / official ingest → `pc-vc-ca-ingest/01-…`
+  - Optional secondary source for hours (web/API — TBD in research)
+  - Master merge + dedupe by parent park + name + proximity → `parks-canada-visitor-centers-ca-master.json`
+  - QA report (`parks-canada-visitor-centers-qa.json`) with `withHours`, `needsReview`, coord confidence
+  - Explorer embed → `PARKS_CANADA_VISITOR_CENTERS_CA` (or consistent naming with US embed)
+- **Parent linking** — require `parks-canada-geo.json` (**PC-001**) for `parentUnit` (park code/id, name, category, designation)
+- **OSM verification** — local Canada Geofabrik PBF only (same policy as US: `nps-visitor-centers-osm-verify.mjs` pattern, not Overpass)
+- **POI explorer** — add visitor centers layer under Parks Canada / national parks group; detail panel shows hours summary + seasonal note like US
+- **Validation script** — `validate-parks-canada-visitor-centers.mjs`
+- **Docs** — `PARKS-CANADA-VISITOR-CENTERS.md`, update `AGENTS.md` / ingest doc
+
+**Affected files (new / expected)**
+
+- `build-pc-visitor-centers-all.mjs` (or `build-parks-canada-visitor-centers-all.mjs`)
+- `build-pc-visitor-centers-ingest-arcgis.mjs`, master, embed, lib, osm-verify, validate
+- `parks-canada-visitor-centers-ca-master.json`
+- `parks-canada-visitor-centers-ca-explorer-embed.js`
+- `build-poi-explorer-data.mjs`, `poi-explorer-app.js`
+
+**Done when**
+
+- [x] Master lists visitor/information centres for major Parks Canada units (target: high coverage of parks with staffed centres)
+- [x] Each record has parent park link, province, coords, and `needsReview` flags where data is weak
+- [x] Hours populated where official source provides them; QA documents gaps (no silent empty hours)
+- [x] POI explorer shows CA visitor centers when Canada/Both region selected; sample parks verified visually
+- [x] OSM verify optional pass completes on Canada PBF without Overpass
+
+**Depends on**
+
+- **PC-001** (Parks Canada unit catalog for parent linking and explorer group)
+
+**Notes**
+
+- **Open question:** Primary hours source for Canada — Parks Canada web pages, open-data API, ArcGIS attributes, or manual seed?
+- US `coordValid()` bounds are US-only today; Canada pipeline needs separate coord/province resolution (see `camping-ca-geo-utils.mjs`)
+- Do not fold into US `nps-visitor-centers-*` files — separate region pipeline, shared patterns only
 
 ---
 

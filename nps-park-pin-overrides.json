@@ -1,0 +1,18 @@
+{
+  "thro": {
+    "pinLabels": {
+      "0": "South Unit",
+      "1": "North Unit"
+    },
+    "extraPins": [
+      {
+        "id": "thro-elkhorn-ranch",
+        "label": "Elkhorn Ranch Unit",
+        "lat": 46.9334,
+        "lon": -103.9951,
+        "source": "manual_override",
+        "notes": "Historic Elkhorn Ranch site — not a separate polygon in NPS boundaries layer"
+      }
+    ]
+  }
+}

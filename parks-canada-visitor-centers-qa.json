@@ -1,0 +1,247 @@
+{
+  "generated": "2026-06-20T20:46:44.292Z",
+  "totalRecords": 44,
+  "withHours": 0,
+  "needsReview": 44,
+  "needsReviewSample": [
+    {
+      "id": "VC-PC-mingan-aguanish-reception-kiosk-502297-621157",
+      "name": "Aguanish Reception Kiosk",
+      "parkCode": "mingan",
+      "flags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "reasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ]
+    },
+    {
+      "id": "VC-PC-kejimkujik-amphitheatre-444060-652437",
+      "name": "AMPHITHEATRE",
+      "parkCode": "kejimkujik",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-baie-johan-beetz-reception-centre-502867-628095",
+      "name": "Baie-Johan-Beetz Reception centre",
+      "parkCode": "mingan",
+      "flags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "reasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ]
+    },
+    {
+      "id": "VC-PC-kootenay-banff-park-museum-national-historic-site-511738-1155716",
+      "name": "Banff Park Museum National Historic Site",
+      "parkCode": "kootenay",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-banff-banff-visitor-centre-511780-1155704",
+      "name": "Banff Visitor Centre",
+      "parkCode": "banff",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-pc-bar-u-visitor-centre-504195-1142436",
+      "name": "Bar U Visitor Centre",
+      "parkCode": "pc",
+      "flags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "reasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ]
+    },
+    {
+      "id": "VC-PC-gros-morne-broom-point-fishing-exhibit-498370-578689",
+      "name": "Broom Point Fishing Exhibit",
+      "parkCode": "gros-morne",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-kootenay-cave-and-basin-511691-1155910",
+      "name": "Cave and Basin",
+      "parkCode": "kootenay",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-georgian-bay-islands-cedar-spring-visitor-centre-448528-798651",
+      "name": "Cedar Spring Visitor Centre",
+      "parkCode": "georgian-bay-islands",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-gros-morne-discovery-centre-woody-point-494917-579279",
+      "name": "Discovery Centre Woody Point",
+      "parkCode": "gros-morne",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-gros-morne-entrance-gate-kiosk-wiltondale-493905-575998",
+      "name": "Entrance Gate Kiosk Wiltondale",
+      "parkCode": "gros-morne",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-havre-saint-pierre-reception-and-interpretation--502367-636062",
+      "name": "Havre-Saint-Pierre Reception and Interpretation Center",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-pc-icefield-centre-522203-1172242",
+      "name": "Icefield Centre",
+      "parkCode": "pc",
+      "flags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "reasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502070-637327",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502217-642041",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502237-641302",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502122-635589",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502225-636746",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502157-637990",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502701-641357",
+      "name": "Information board",
+      "parkCode": "mingan-archipelago",
+      "flags": [
+        "NO_HOURS"
+      ],
+      "reasons": [
+        "missing-hours"
+      ]
+    }
+  ],
+  "byParentCategory": {
+    "other": 12,
+    "park": 32
+  },
+  "mapFlagCounts": {
+    "NO_HOURS": 44,
+    "WEAK_PARENT": 12
+  },
+  "osmChecked": 0,
+  "osmMatched": 0,
+  "arcgisInput": 44
+}

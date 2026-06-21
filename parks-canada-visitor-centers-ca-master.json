@@ -1,0 +1,2594 @@
+{
+  "generated": "2026-06-20T20:46:44.291Z",
+  "source": "pc-arcgis-facilities",
+  "recordCount": 44,
+  "records": [
+    {
+      "id": "VC-PC-mingan-aguanish-reception-kiosk-502297-621157",
+      "name": "Aguanish Reception Kiosk",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan",
+        "name": "Aguanish Reception Kiosk",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "NL",
+      "lat": 50.229696433799525,
+      "lon": -62.11570267424701,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/info/contact"
+      },
+      "sourceIds": {
+        "objectId": 988,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/info/contact"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-kejimkujik-amphitheatre-444060-652437",
+      "name": "AMPHITHEATRE",
+      "facilityType": "visitor_center",
+      "parkCode": "kejimkujik",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "kejimkujik",
+        "baid": 100247,
+        "name": "Kejimkujik National Park and National Historic Site of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NS",
+      "lat": 44.406003718389826,
+      "lon": -65.243730519555,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ns/kejimkujik"
+      },
+      "sourceIds": {
+        "objectId": 1247,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-baie-johan-beetz-reception-centre-502867-628095",
+      "name": "Baie-Johan-Beetz Reception centre",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan",
+        "name": "Baie-Johan-Beetz Reception centre",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "NL",
+      "lat": 50.28668883919693,
+      "lon": -62.80953176488403,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/info/contact"
+      },
+      "sourceIds": {
+        "objectId": 1025,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/info/contact"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-kootenay-banff-park-museum-national-historic-site-511738-1155716",
+      "name": "Banff Park Museum National Historic Site",
+      "facilityType": "visitor_center",
+      "parkCode": "kootenay",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "kootenay",
+        "baid": 100253,
+        "name": "Kootenay National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 51.17380607409032,
+      "lon": -115.57164689631013,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/kootenay"
+      },
+      "sourceIds": {
+        "objectId": 68,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-banff-banff-visitor-centre-511780-1155704",
+      "name": "Banff Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "banff",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "banff",
+        "baid": 100092,
+        "name": "Banff National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 51.17798397647028,
+      "lon": -115.57038264704744,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/banff",
+        "detail": "https://www.pc.gc.ca/en/pn-np/ab/banff/visit/installations-facilities"
+      },
+      "sourceIds": {
+        "objectId": 3,
+        "facilityType": "Visitor centre//Centre des visiteurs",
+        "url": "https://www.pc.gc.ca/en/pn-np/ab/banff/visit/installations-facilities"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-bar-u-visitor-centre-504195-1142436",
+      "name": "Bar U Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Bar U Visitor Centre",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "AB",
+      "lat": 50.41949747022403,
+      "lon": -114.24356213041278,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/pc"
+      },
+      "sourceIds": {
+        "objectId": 1405,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-gros-morne-broom-point-fishing-exhibit-498370-578689",
+      "name": "Broom Point Fishing Exhibit",
+      "facilityType": "visitor_center",
+      "parkCode": "gros-morne",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "gros-morne",
+        "baid": 100211,
+        "name": "Gros Morne National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 49.836978179406586,
+      "lon": -57.86890366694574,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/gros-morne"
+      },
+      "sourceIds": {
+        "objectId": 1079,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-kootenay-cave-and-basin-511691-1155910",
+      "name": "Cave and Basin",
+      "facilityType": "visitor_center",
+      "parkCode": "kootenay",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "kootenay",
+        "baid": 100253,
+        "name": "Kootenay National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 51.16913649266676,
+      "lon": -115.59103240012115,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/kootenay"
+      },
+      "sourceIds": {
+        "objectId": 67,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-georgian-bay-islands-cedar-spring-visitor-centre-448528-798651",
+      "name": "Cedar Spring Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "georgian-bay-islands",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "georgian-bay-islands",
+        "baid": 100204,
+        "name": "Georgian Bay Islands National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "ON",
+      "lat": 44.85277483488588,
+      "lon": -79.86509328930485,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/on/georgian-bay-islands"
+      },
+      "sourceIds": {
+        "objectId": 211,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-gros-morne-discovery-centre-woody-point-494917-579279",
+      "name": "Discovery Centre Woody Point",
+      "facilityType": "visitor_center",
+      "parkCode": "gros-morne",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "gros-morne",
+        "baid": 100211,
+        "name": "Gros Morne National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 49.4916717713517,
+      "lon": -57.92793629370162,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/gros-morne"
+      },
+      "sourceIds": {
+        "objectId": 1086,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-gros-morne-entrance-gate-kiosk-wiltondale-493905-575998",
+      "name": "Entrance Gate Kiosk Wiltondale",
+      "facilityType": "visitor_center",
+      "parkCode": "gros-morne",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "gros-morne",
+        "baid": 100211,
+        "name": "Gros Morne National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 49.39050607867849,
+      "lon": -57.59981268784435,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/gros-morne"
+      },
+      "sourceIds": {
+        "objectId": 1066,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-havre-saint-pierre-reception-and-interpretation--502367-636062",
+      "name": "Havre-Saint-Pierre Reception and Interpretation Center",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.236698072347544,
+      "lon": -63.60623333761321,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/heures-hours"
+      },
+      "sourceIds": {
+        "objectId": 1017,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/heures-hours"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-icefield-centre-522203-1172242",
+      "name": "Icefield Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Icefield Centre",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "AB",
+      "lat": 52.22034293765754,
+      "lon": -117.22419042783793,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/pc"
+      },
+      "sourceIds": {
+        "objectId": 342,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502070-637327",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.20702171818558,
+      "lon": -63.732677878125784,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "sourceIds": {
+        "objectId": 997,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502217-642041",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.22165170038001,
+      "lon": -64.20408905177872,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "sourceIds": {
+        "objectId": 1003,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502237-641302",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.22371030088769,
+      "lon": -64.13016336983215,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "sourceIds": {
+        "objectId": 1006,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502122-635589",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.21222828813538,
+      "lon": -63.558884887047924,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "sourceIds": {
+        "objectId": 1009,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502225-636746",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.22251363836608,
+      "lon": -63.674624379454926,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "sourceIds": {
+        "objectId": 1021,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502157-637990",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.215716023453076,
+      "lon": -63.798978473898444,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "sourceIds": {
+        "objectId": 1040,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/Cartes_Maps"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-information-board-502701-641357",
+      "name": "Information board",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.27010022424462,
+      "lon": -64.13573663317433,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago"
+      },
+      "sourceIds": {
+        "objectId": 1058,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-jasper-jasper-information-centre-528773-1180807",
+      "name": "Jasper Information Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "jasper",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "jasper",
+        "baid": 100244,
+        "name": "Jasper National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 52.87729557087605,
+      "lon": -118.08070843749871,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/jasper"
+      },
+      "sourceIds": {
+        "objectId": 510,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-kootenay-kootenay-visitor-center-506195-1160695",
+      "name": "Kootenay Visitor Center",
+      "facilityType": "visitor_center",
+      "parkCode": "kootenay",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "kootenay",
+        "baid": 100253,
+        "name": "Kootenay National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 50.619528075744455,
+      "lon": -116.06945983674035,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/kootenay"
+      },
+      "sourceIds": {
+        "objectId": 726,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-l-anse-aux-meadows-visitor-centre-515922-555330",
+      "name": "L'Anse aux Meadows Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "L'Anse aux Meadows Visitor Centre",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "NL",
+      "lat": 51.59218314508699,
+      "lon": -55.53296094758024,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/pc"
+      },
+      "sourceIds": {
+        "objectId": 1081,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-yoho-lake-louise-visitor-centre-514261-1161790",
+      "name": "Lake Louise Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "yoho",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "yoho",
+        "baid": 100815,
+        "name": "Yoho National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 51.42613335622475,
+      "lon": -116.17903137050537,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/yoho"
+      },
+      "sourceIds": {
+        "objectId": 572,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-mingan-archipelago-longue-pointe-de-mingan-visitor-center-502610-641550",
+      "name": "Longue-Pointe-de-Mingan Visitor Center",
+      "facilityType": "visitor_center",
+      "parkCode": "mingan-archipelago",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "mingan-archipelago",
+        "baid": 100376,
+        "name": "Mingan Archipelago National Park Reserve of Canada",
+        "designation": "National Park Reserve",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 50.26095388371225,
+      "lon": -64.15496968508718,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/mingan-archipelago",
+        "detail": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/heures-hours"
+      },
+      "sourceIds": {
+        "objectId": 1015,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": "https://www.pc.gc.ca/en/pn-np/qc/mingan/visit/heures-hours"
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-prince-albert-nature-centre-539228-1060891",
+      "name": "Nature Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "prince-albert",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "prince-albert",
+        "baid": 100346,
+        "name": "Prince Albert National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NU",
+      "lat": 53.92277117123386,
+      "lon": -106.08910872674673,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nu/prince-albert"
+      },
+      "sourceIds": {
+        "objectId": 1121,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-point-pelee-park-orientation-419830-825458",
+      "name": "Park Orientation",
+      "facilityType": "visitor_center",
+      "parkCode": "point-pelee",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "point-pelee",
+        "baid": 100337,
+        "name": "Point Pelee National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "ON",
+      "lat": 41.98300012894528,
+      "lon": -82.54576855165871,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/on/point-pelee"
+      },
+      "sourceIds": {
+        "objectId": 1378,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-port-au-choix-visitor-centre-506970-573815",
+      "name": "Port au Choix Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Port au Choix Visitor Centre",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "NL",
+      "lat": 50.696962342077775,
+      "lon": -57.38150560746746,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/pc"
+      },
+      "sourceIds": {
+        "objectId": 1083,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-kootenay-vermilion-crossing-information-centre-510251-1159800",
+      "name": "Vermilion Crossing Information Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "kootenay",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "kootenay",
+        "baid": 100253,
+        "name": "Kootenay National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 51.02514238468502,
+      "lon": -115.979980256939,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/kootenay"
+      },
+      "sourceIds": {
+        "objectId": 620,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-visitor-center-interpretation-facility-fort-cote-452876-741777",
+      "name": "Visitor center/Interpretation facility - Fort Coteau-du-Lac",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Visitor center/Interpretation facility - Fort Coteau-du-Lac",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "ON",
+      "lat": 45.28755052241696,
+      "lon": -74.17772798895491,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/on/pc"
+      },
+      "sourceIds": {
+        "objectId": 836,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-visitor-center-interpretation-facility-fort-lenn-451270-732696",
+      "name": "Visitor center/Interpretation facility - Fort Lennox",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Visitor center/Interpretation facility - Fort Lennox",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "QC",
+      "lat": 45.12695896831743,
+      "lon": -73.26962716159376,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/qc/pc"
+      },
+      "sourceIds": {
+        "objectId": 899,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-visitor-center-interpretation-facility-fort-t-mi-472895-794587",
+      "name": "Visitor center/Interpretation facility - Fort Témiscamingue",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Visitor center/Interpretation facility - Fort Témiscamingue",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "ON",
+      "lat": 47.28946016781596,
+      "lon": -79.45866189700398,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/on/pc"
+      },
+      "sourceIds": {
+        "objectId": 802,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-visitor-center-interpretation-facility-maison-si-458526-737575",
+      "name": "Visitor center/Interpretation facility - Maison Sir Wilfrid Laurier",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Visitor center/Interpretation facility - Maison Sir Wilfrid Laurier",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "QC",
+      "lat": 45.85258488118034,
+      "lon": -73.75748523371846,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/qc/pc"
+      },
+      "sourceIds": {
+        "objectId": 806,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-la-mauricie-visitor-center-interpretation-facility-parc-nati-467334-727681",
+      "name": "Visitor center/Interpretation facility - Parc national de la mauricie (Entrée Saint-Jean-des-Piles)",
+      "facilityType": "visitor_center",
+      "parkCode": "la-mauricie",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "la-mauricie",
+        "baid": 100257,
+        "name": "La Mauricie National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "QC",
+      "lat": 46.733392444649525,
+      "lon": -72.76811711420669,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/qc/la-mauricie"
+      },
+      "sourceIds": {
+        "objectId": 794,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-la-mauricie-visitor-center-interpretation-facility-parc-nati-466499-729676",
+      "name": "Visitor center/Interpretation facility - Parc national de la mauricie (Saint-Mathieu)",
+      "facilityType": "visitor_center",
+      "parkCode": "la-mauricie",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "la-mauricie",
+        "baid": 100257,
+        "name": "La Mauricie National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "QC",
+      "lat": 46.64990908578644,
+      "lon": -72.96758988228278,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/qc/la-mauricie"
+      },
+      "sourceIds": {
+        "objectId": 936,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-visitor-centre-515964-555333",
+      "name": "Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Visitor Centre",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "NL",
+      "lat": 51.596426281881335,
+      "lon": -55.533299335555085,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/pc"
+      },
+      "sourceIds": {
+        "objectId": 1099,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-prince-albert-visitor-centre-539227-1060832",
+      "name": "Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "prince-albert",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "prince-albert",
+        "baid": 100346,
+        "name": "Prince Albert National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NU",
+      "lat": 53.92274559887624,
+      "lon": -106.08315329813072,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nu/prince-albert"
+      },
+      "sourceIds": {
+        "objectId": 1122,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-elk-island-visitor-centre-535788-1128382",
+      "name": "Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "elk-island",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "elk-island",
+        "baid": 100157,
+        "name": "Elk Island National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 53.57878086575073,
+      "lon": -112.8382417669027,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/elk-island"
+      },
+      "sourceIds": {
+        "objectId": 1201,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-point-pelee-visitor-centre-419316-825131",
+      "name": "Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "point-pelee",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "point-pelee",
+        "baid": 100337,
+        "name": "Point Pelee National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "ON",
+      "lat": 41.9316076512663,
+      "lon": -82.51312981670377,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/on/point-pelee"
+      },
+      "sourceIds": {
+        "objectId": 1367,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-kejimkujik-visitor-centre-444382-652087",
+      "name": "VISITOR CENTRE",
+      "facilityType": "visitor_center",
+      "parkCode": "kejimkujik",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "kejimkujik",
+        "baid": 100247,
+        "name": "Kejimkujik National Park and National Historic Site of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NS",
+      "lat": 44.43823318146597,
+      "lon": -65.20871251075377,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ns/kejimkujik"
+      },
+      "sourceIds": {
+        "objectId": 1234,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-pc-visitor-information-532536-1320699",
+      "name": "Visitor Information",
+      "facilityType": "visitor_center",
+      "parkCode": "pc",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "pc",
+        "name": "Visitor Information",
+        "designation": "",
+        "category": "other"
+      },
+      "state": "BC",
+      "lat": 53.25355551651588,
+      "lon": -132.06989211178404,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/bc/pc"
+      },
+      "sourceIds": {
+        "objectId": 241,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours",
+          "weak-parent-link"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours",
+        "weak-parent-link"
+      ],
+      "mapFlags": [
+        "NO_HOURS",
+        "WEAK_PARENT"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-gros-morne-vistor-centre-rocky-harbour-495724-578749",
+      "name": "Vistor Centre Rocky Harbour",
+      "facilityType": "visitor_center",
+      "parkCode": "gros-morne",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "gros-morne",
+        "baid": 100211,
+        "name": "Gros Morne National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "NL",
+      "lat": 49.572377757669706,
+      "lon": -57.87491663385162,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/nl/gros-morne"
+      },
+      "sourceIds": {
+        "objectId": 1097,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-waterton-lakes-wlnp-visitor-centre-490506-1139091",
+      "name": "WLNP Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "waterton-lakes",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "waterton-lakes",
+        "baid": 100429,
+        "name": "Waterton Lakes National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 49.050591667749,
+      "lon": -113.90914254038061,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/waterton-lakes"
+      },
+      "sourceIds": {
+        "objectId": 1433,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    },
+    {
+      "id": "VC-PC-yoho-yoho-visitor-centre-513978-1164919",
+      "name": "Yoho Visitor Centre",
+      "facilityType": "visitor_center",
+      "parkCode": "yoho",
+      "parentUnit": {
+        "system": "pc",
+        "parkCode": "yoho",
+        "baid": 100815,
+        "name": "Yoho National Park of Canada",
+        "designation": "National Park",
+        "category": "park"
+      },
+      "state": "AB",
+      "lat": 51.3978114273869,
+      "lon": -116.49191638647612,
+      "coordSource": "pc-arcgis-facilities",
+      "coordConfidence": "high",
+      "seasonal": {
+        "isSeasonal": null,
+        "description": "",
+        "source": ""
+      },
+      "operatingHours": [],
+      "hoursSummary": {
+        "hasHours": false,
+        "summary": "",
+        "seasonalNote": ""
+      },
+      "phones": [],
+      "emails": [],
+      "urls": {
+        "park": "https://parks.canada.ca/pn-np/ab/yoho"
+      },
+      "sourceIds": {
+        "objectId": 671,
+        "facilityType": "Visitor centre / interpretation facility//Centre d'accueil / installation d'interprétation",
+        "url": ""
+      },
+      "verification": {
+        "osmDistanceM": null,
+        "osmId": null,
+        "needsReview": true,
+        "reviewReasons": [
+          "missing-hours"
+        ]
+      },
+      "needsReview": true,
+      "reviewReasons": [
+        "missing-hours"
+      ],
+      "mapFlags": [
+        "NO_HOURS"
+      ],
+      "status": "active",
+      "ingestSource": "01-arcgis-facilities",
+      "verifiedAt": "2026-06-20"
+    }
+  ]
+}
