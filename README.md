@@ -4,6 +4,8 @@ Build pipelines and pre-built map bundles for [scenic-router](https://github.com
 
 Sources are **OpenStreetMap** (Geofabrik PBF), plus NPS/park-boundary caches where noted. Outputs are static `*-explorer-embed.js` files and JSON the app loads from `public/legacy-data/`.
 
+**OSM rule:** If `osm-pbf/geofabrik/*.osm.pbf` is on disk, **never use Overpass** — always parse the local PBF. See **[POI-OSM-PBF.md](POI-OSM-PBF.md)**.
+
 ## Quick start
 
 Fuel catalog work on a new clone: **[FUEL-LOCAL-DEV.md](FUEL-LOCAL-DEV.md)** (`ensure-fuel-cache.mjs` downloads PBF locally, caches extract, enables fast re-filter).
@@ -59,6 +61,7 @@ Open the HTML from the repo root. Large layers load on demand from `poi-explorer
 | Camping | `build-camping-us-all.mjs` | `camping-*-explorer-embed.js` | [CAMPING-US.md](CAMPING-US.md) |
 | Playgrounds / scenic / historic | `build-poi-osm-all.mjs` | `playgrounds-*`, `scenic-*`, `historic-*` | [POI-OSM-PBF.md](POI-OSM-PBF.md) |
 | NPS units | `build-nps-us-cache.mjs` | `nps-us-geo.json` | — |
+| NPS visitor centers | `build-nps-visitor-centers-all.mjs` | `nps-visitor-centers-us-explorer-embed.js` | [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md) |
 | Park boundaries | `build-park-boundaries.mjs` | `park-boundaries.*` | — |
 
 Brand matching rules live in `fuel-us-brand-catalog.json` and `fuel-ca-brand-catalog.json`.
@@ -69,7 +72,7 @@ Brand matching rules live in `fuel-us-brand-catalog.json` and `fuel-ca-brand-cat
 
 | Path | Why |
 |------|-----|
-| `osm-pbf/` | Geofabrik `.osm.pbf` files (download locally) |
+| `osm-pbf/` | Geofabrik `.osm.pbf` files (download locally) — **use these, not Overpass**, when present |
 | `*-ingest/` | Intermediate per-state JSON caches |
 | `node_modules/`, `vendor/` | Installed dependencies |
 | `.env` | API keys |

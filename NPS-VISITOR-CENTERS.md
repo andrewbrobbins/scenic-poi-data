@@ -20,7 +20,9 @@ node build-poi-explorer-data.mjs
 
 ## OSM verification — local PBF only
 
-**Do not use Overpass** for visitor-center OSM verification. Overpass rate-limits and turns a 2-minute local scan into a multi-hour job.
+**Do not use Overpass** when `osm-pbf/geofabrik/us-latest.osm.pbf` is present. Repo-wide rule: **[POI-OSM-PBF.md](POI-OSM-PBF.md)**.
+
+Overpass rate-limits and turns a ~15-minute local scan into a multi-hour job.
 
 Use the built-in PBF pass instead:
 

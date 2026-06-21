@@ -82,7 +82,7 @@ Built by `build-nps-visitor-centers-explorer-embed.mjs`. Full records in `nps-vi
 
 Global: `NPS_VISITOR_CENTERS_US`. Synced to scenic-router as `nps-visitor-centers-us-explorer-embed.js` (layer toggle: **Visitor centers**).
 
-Build: `node build-nps-visitor-centers-all.mjs --require-api` (set `NPS_API_KEY` in `.env` for operating hours). OSM verification uses **local PBF only** — see [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md) (never Overpass).
+Build: `node build-nps-visitor-centers-all.mjs --require-api` (set `NPS_API_KEY` in `.env` for operating hours). OSM verification uses **local PBF only** — see [NPS-VISITOR-CENTERS.md](NPS-VISITOR-CENTERS.md) and [POI-OSM-PBF.md](POI-OSM-PBF.md) (never Overpass when PBF is on disk).
 
 ### State / provincial parks embed shape
 
