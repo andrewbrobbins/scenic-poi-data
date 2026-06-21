@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-21T04:39:02.294Z",
+  "generated": "2026-06-21T05:33:46.476Z",
   "source": "park-boundaries.geojson+overrides",
   "parkCount": 377,
-  "multiPinCount": 37,
+  "multiPinCount": 47,
   "parks": {
     "amme": {
       "parkCode": "amme",
@@ -3203,45 +3203,57 @@
     },
     "pete": {
       "parkCode": "pete",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
           "id": "pete-area-1",
-          "label": "",
-          "lat": 37.19228,
-          "lon": -77.47425,
+          "label": "Area 1",
+          "lat": 37.22524,
+          "lon": -77.37196,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 5,
+          "sectionCount": 4,
           "sectionIndices": [
             0,
-            1,
             2,
             3,
             4
           ],
-          "areaDeg2": 0.0021732502999997215,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00128681419999982,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "pete-area-2",
+          "label": "Area 2",
+          "lat": 37.14444,
+          "lon": -77.62275,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0008864360999999015,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
         "id": "pete-area-1",
-        "label": "",
-        "lat": 37.19228,
-        "lon": -77.47425,
+        "label": "Area 1",
+        "lat": 37.22524,
+        "lon": -77.37196,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 5,
+        "sectionCount": 4,
         "sectionIndices": [
           0,
-          1,
           2,
           3,
           4
         ],
-        "areaDeg2": 0.0021732502999997215,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.00128681419999982,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "fova": {
@@ -5347,7 +5359,7 @@
     "goga": {
       "parkCode": "goga",
       "strategy": "multi_pin",
-      "pinCount": 3,
+      "pinCount": 4,
       "pins": [
         {
           "id": "goga-area-2",
@@ -5380,16 +5392,29 @@
         {
           "id": "goga-area-3",
           "label": "Area 3",
-          "lat": 37.58128,
-          "lon": -122.41607,
+          "lat": 37.73583,
+          "lon": -122.47405,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
             3
           ],
-          "areaDeg2": 0.06144408060000165,
+          "areaDeg2": 0.01512733380000114,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "goga-area-4",
+          "label": "Area 4",
+          "lat": 37.53081,
+          "lon": -122.39714,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.04631674680000051,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -5694,43 +5719,55 @@
     },
     "fodo": {
       "parkCode": "fodo",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
-          "id": "fodo-area-1",
-          "label": "",
-          "lat": 36.48937,
-          "lon": -87.91407,
+          "id": "fodo-area-2",
+          "label": "Area 2",
+          "lat": 36.48307,
+          "lon": -87.85057,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 3,
           "sectionIndices": [
             0,
-            1,
             2,
             3
           ],
-          "areaDeg2": 0.0011181609999998785,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0007836583999997575,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fodo-area-1",
+          "label": "Area 1",
+          "lat": 36.50411,
+          "lon": -88.06285,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.00033450260000012107,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "fodo-area-1",
-        "label": "",
-        "lat": 36.48937,
-        "lon": -87.91407,
+        "id": "fodo-area-2",
+        "label": "Area 2",
+        "lat": 36.48307,
+        "lon": -87.85057,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 4,
+        "sectionCount": 3,
         "sectionIndices": [
           0,
-          1,
           2,
           3
         ],
-        "areaDeg2": 0.0011181609999998785,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.0007836583999997575,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "vama": {
@@ -5817,41 +5854,52 @@
     },
     "gate": {
       "parkCode": "gate",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
           "id": "gate-area-1",
-          "label": "",
-          "lat": 40.56779,
-          "lon": -73.93633,
+          "label": "Area 1",
+          "lat": 40.59841,
+          "lon": -73.86104,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.020288702200000147,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gate-area-2",
+          "label": "Area 2",
+          "lat": 40.51873,
+          "lon": -74.05695,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 2,
+          "sectionIndices": [
             1,
             2
           ],
-          "areaDeg2": 0.032952688600000446,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.012663986400000295,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
         "id": "gate-area-1",
-        "label": "",
-        "lat": 40.56779,
-        "lon": -73.93633,
+        "label": "Area 1",
+        "lat": 40.59841,
+        "lon": -73.86104,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 3,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1,
-          2
+          0
         ],
-        "areaDeg2": 0.032952688600000446,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.020288702200000147,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "upde": {
@@ -6034,11 +6082,11 @@
     "mapr": {
       "parkCode": "mapr",
       "strategy": "multi_pin",
-      "pinCount": 3,
+      "pinCount": 4,
       "pins": [
         {
-          "id": "mapr-area-2",
-          "label": "Area 2",
+          "id": "mapr-area-3",
+          "label": "Area 3",
           "lat": 35.93593,
           "lon": -84.39456,
           "role": "primary",
@@ -6053,23 +6101,36 @@
         {
           "id": "mapr-area-1",
           "label": "Area 1",
-          "lat": 46.62196,
-          "lon": -119.53568,
+          "lat": 46.63371,
+          "lon": -119.67228,
           "role": "secondary",
-          "clusterIndex": 2,
-          "sectionCount": 4,
+          "clusterIndex": 3,
+          "sectionCount": 2,
           "sectionIndices": [
-            2,
             3,
-            5,
             6
           ],
-          "areaDeg2": 0.000020310500000008248,
+          "areaDeg2": 0.000009359100000008806,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "mapr-area-3",
-          "label": "Area 3",
+          "id": "mapr-area-2",
+          "label": "Area 2",
+          "lat": 46.61191,
+          "lon": -119.41893,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 2,
+          "sectionIndices": [
+            2,
+            5
+          ],
+          "areaDeg2": 0.000010951399999999444,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mapr-area-4",
+          "label": "Area 4",
           "lat": 35.84495,
           "lon": -106.28519,
           "role": "secondary",
@@ -6084,8 +6145,8 @@
         }
       ],
       "primary": {
-        "id": "mapr-area-2",
-        "label": "Area 2",
+        "id": "mapr-area-3",
+        "label": "Area 3",
         "lat": 35.93593,
         "lon": -84.39456,
         "role": "primary",
@@ -6847,11 +6908,11 @@
     "npsa": {
       "parkCode": "npsa",
       "strategy": "multi_pin",
-      "pinCount": 2,
+      "pinCount": 3,
       "pins": [
         {
-          "id": "npsa-area-2",
-          "label": "Area 2",
+          "id": "npsa-area-3",
+          "label": "Area 3",
           "lat": -14.25454,
           "lon": -170.68891,
           "role": "primary",
@@ -6866,22 +6927,35 @@
         {
           "id": "npsa-area-1",
           "label": "Area 1",
-          "lat": -14.23951,
-          "lon": -169.47849,
+          "lat": -14.17794,
+          "lon": -169.64874,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
             2
           ],
-          "areaDeg2": 0.004545204999999558,
+          "areaDeg2": 0.0005956790000001008,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "npsa-area-2",
+          "label": "Area 2",
+          "lat": -14.2488,
+          "lon": -169.45281,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.003949525999999457,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "npsa-area-2",
-        "label": "Area 2",
+        "id": "npsa-area-3",
+        "label": "Area 3",
         "lat": -14.25454,
         "lon": -170.68891,
         "role": "primary",
@@ -7225,39 +7299,51 @@
     },
     "lyjo": {
       "parkCode": "lyjo",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
-          "id": "lyjo-area-1",
-          "label": "",
-          "lat": 30.25256,
-          "lon": -98.6174,
+          "id": "lyjo-area-2",
+          "label": "Area 2",
+          "lat": 30.25179,
+          "lon": -98.62514,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.0013186950000000713,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lyjo-area-1",
+          "label": "Area 1",
+          "lat": 30.27273,
+          "lon": -98.41533,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.0013692372000000442,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00005054219999997287,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "lyjo-area-1",
-        "label": "",
-        "lat": 30.25256,
-        "lon": -98.6174,
+        "id": "lyjo-area-2",
+        "label": "Area 2",
+        "lat": 30.25179,
+        "lon": -98.62514,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 2,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1
+          0
         ],
-        "areaDeg2": 0.0013692372000000442,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.0013186950000000713,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "cave": {
@@ -7695,23 +7781,17 @@
       "pinCount": 2,
       "pins": [
         {
-          "id": "apis-area-2",
-          "label": "Area 2",
-          "lat": 46.93724,
-          "lon": -90.78019,
+          "id": "apis-area-1",
+          "label": "Area 1",
+          "lat": 46.95773,
+          "lon": -90.8532,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 17,
+          "sectionCount": 11,
           "sectionIndices": [
             0,
-            3,
-            4,
             5,
-            6,
-            7,
-            8,
             9,
-            10,
             11,
             12,
             13,
@@ -7721,43 +7801,43 @@
             17,
             18
           ],
-          "areaDeg2": 0.0479012159999996,
+          "areaDeg2": 0.028965429399999368,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "apis-area-1",
-          "label": "Area 1",
-          "lat": 46.97928,
-          "lon": -90.51693,
+          "id": "apis-area-2",
+          "label": "Area 2",
+          "lat": 46.94377,
+          "lon": -90.59028,
           "role": "secondary",
           "clusterIndex": 1,
-          "sectionCount": 2,
+          "sectionCount": 8,
           "sectionIndices": [
             1,
-            2
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            10
           ],
-          "areaDeg2": 0.020195894399998256,
+          "areaDeg2": 0.03913168099999849,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "apis-area-2",
-        "label": "Area 2",
-        "lat": 46.93724,
-        "lon": -90.78019,
+        "id": "apis-area-1",
+        "label": "Area 1",
+        "lat": 46.95773,
+        "lon": -90.8532,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 17,
+        "sectionCount": 11,
         "sectionIndices": [
           0,
-          3,
-          4,
           5,
-          6,
-          7,
-          8,
           9,
-          10,
           11,
           12,
           13,
@@ -7767,7 +7847,7 @@
           17,
           18
         ],
-        "areaDeg2": 0.0479012159999996,
+        "areaDeg2": 0.028965429399999368,
         "labelSource": "visitor_center_or_heuristic"
       }
     },
@@ -8078,39 +8158,51 @@
     },
     "naca": {
       "parkCode": "naca",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
           "id": "naca-area-1",
-          "label": "",
-          "lat": 39.02776,
-          "lon": -76.85204,
+          "label": "Area 1",
+          "lat": 39.03995,
+          "lon": -76.83523,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.03259504989999851,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "naca-area-2",
+          "label": "Area 2",
+          "lat": 38.88781,
+          "lon": -77.04512,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.03543277799999907,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0028377281000005598,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
         "id": "naca-area-1",
-        "label": "",
-        "lat": 39.02776,
-        "lon": -76.85204,
+        "label": "Area 1",
+        "lat": 39.03995,
+        "lon": -76.83523,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 2,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1
+          0
         ],
-        "areaDeg2": 0.03543277799999907,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.03259504989999851,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "grte": {
@@ -9474,30 +9566,43 @@
     "ozar": {
       "parkCode": "ozar",
       "strategy": "multi_pin",
-      "pinCount": 2,
+      "pinCount": 3,
       "pins": [
         {
           "id": "ozar-area-1",
           "label": "Area 1",
-          "lat": 37.22464,
-          "lon": -91.38121,
+          "lat": 37.24299,
+          "lon": -91.35588,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1
+            0
           ],
-          "areaDeg2": 0.311620824800006,
+          "areaDeg2": 0.27124136520000675,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "ozar-area-2",
           "label": "Area 2",
+          "lat": 37.10144,
+          "lon": -91.55139,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.04037945959999927,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "ozar-area-3",
+          "label": "Area 3",
           "lat": 36.89767,
           "lon": -90.95504,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
@@ -9509,16 +9614,15 @@
       "primary": {
         "id": "ozar-area-1",
         "label": "Area 1",
-        "lat": 37.22464,
-        "lon": -91.38121,
+        "lat": 37.24299,
+        "lon": -91.35588,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 2,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1
+          0
         ],
-        "areaDeg2": 0.311620824800006,
+        "areaDeg2": 0.27124136520000675,
         "labelSource": "visitor_center_or_heuristic"
       }
     },
@@ -9877,22 +9981,20 @@
     "wrst": {
       "parkCode": "wrst",
       "strategy": "multi_pin",
-      "pinCount": 3,
+      "pinCount": 4,
       "pins": [
         {
-          "id": "wrst-area-3",
-          "label": "Area 3",
-          "lat": 61.20222,
-          "lon": -142.41387,
+          "id": "wrst-area-4",
+          "label": "Area 4",
+          "lat": 61.17451,
+          "lon": -142.36094,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            3,
-            2
+            0
           ],
-          "areaDeg2": 20.411438502299927,
+          "areaDeg2": 16.754581583999926,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
@@ -9915,29 +10017,42 @@
           "lat": 61.91998,
           "lon": -144.65649,
           "role": "secondary",
-          "clusterIndex": 2,
+          "clusterIndex": 3,
           "sectionCount": 1,
           "sectionIndices": [
             4
           ],
           "areaDeg2": 1.1681060022999943,
           "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "wrst-area-3",
+          "label": "Area 3",
+          "lat": 61.32915,
+          "lon": -142.65639,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 2,
+          "sectionIndices": [
+            3,
+            2
+          ],
+          "areaDeg2": 3.6568569183,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "wrst-area-3",
-        "label": "Area 3",
-        "lat": 61.20222,
-        "lon": -142.41387,
+        "id": "wrst-area-4",
+        "label": "Area 4",
+        "lat": 61.17451,
+        "lon": -142.36094,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 3,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          3,
-          2
+          0
         ],
-        "areaDeg2": 20.411438502299927,
+        "areaDeg2": 16.754581583999926,
         "labelSource": "visitor_center_or_heuristic"
       }
     },
@@ -10251,39 +10366,51 @@
     },
     "ania": {
       "parkCode": "ania",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
-          "id": "ania-area-1",
-          "label": "",
-          "lat": 56.86428,
-          "lon": -157.77972,
+          "id": "ania-area-2",
+          "label": "Area 2",
+          "lat": 56.85649,
+          "lon": -157.71246,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.5462441549999958,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "ania-area-1",
+          "label": "Area 1",
+          "lat": 56.90108,
+          "lon": -158.09728,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.6619364909999992,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.11569233600000342,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "ania-area-1",
-        "label": "",
-        "lat": 56.86428,
-        "lon": -157.77972,
+        "id": "ania-area-2",
+        "label": "Area 2",
+        "lat": 56.85649,
+        "lon": -157.71246,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 2,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1
+          0
         ],
-        "areaDeg2": 0.6619364909999992,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.5462441549999958,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "cakr": {
@@ -10456,8 +10583,8 @@
     },
     "klgo": {
       "parkCode": "klgo",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
           "id": "klgo-area-1",
@@ -10473,6 +10600,18 @@
           ],
           "areaDeg2": 0.0390224580000012,
           "labelSource": "heuristic"
+        },
+        {
+          "id": "klgo-seattle-unit",
+          "label": "Seattle Unit",
+          "lat": 47.59937,
+          "lon": -122.33197,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list_klse"
         }
       ],
       "primary": {
@@ -11009,39 +11148,51 @@
     },
     "badl": {
       "parkCode": "badl",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
           "id": "badl-area-1",
-          "label": "",
-          "lat": 43.69563,
-          "lon": -102.39276,
+          "label": "Area 1",
+          "lat": 43.70212,
+          "lon": -102.39394,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.4440597239999943,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "badl-area-2",
+          "label": "Area 2",
+          "lat": 43.52735,
+          "lon": -102.36194,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.4611756923999927,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.017115968399998356,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
         "id": "badl-area-1",
-        "label": "",
-        "lat": 43.69563,
-        "lon": -102.39276,
+        "label": "Area 1",
+        "lat": 43.70212,
+        "lon": -102.39394,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 2,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1
+          0
         ],
-        "areaDeg2": 0.4611756923999927,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.4440597239999943,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "amis": {
@@ -12093,47 +12244,59 @@
     },
     "lewi": {
       "parkCode": "lewi",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
-          "id": "lewi-area-1",
-          "label": "",
-          "lat": 46.19119,
-          "lon": -123.94921,
+          "id": "lewi-area-2",
+          "label": "Area 2",
+          "lat": 46.14882,
+          "lon": -123.89648,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 6,
+          "sectionCount": 5,
           "sectionIndices": [
             0,
-            1,
             2,
             3,
             4,
             5
           ],
-          "areaDeg2": 0.0038141666999998115,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.002626746500000005,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lewi-area-1",
+          "label": "Area 1",
+          "lat": 46.28492,
+          "lon": -124.06586,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0011874201999998067,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "lewi-area-1",
-        "label": "",
-        "lat": 46.19119,
-        "lon": -123.94921,
+        "id": "lewi-area-2",
+        "label": "Area 2",
+        "lat": 46.14882,
+        "lon": -123.89648,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 6,
+        "sectionCount": 5,
         "sectionIndices": [
           0,
-          1,
           2,
           3,
           4,
           5
         ],
-        "areaDeg2": 0.0038141666999998115,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.002626746500000005,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "nepe": {
@@ -12977,39 +13140,51 @@
     },
     "indu": {
       "parkCode": "indu",
-      "strategy": "single",
-      "pinCount": 1,
+      "strategy": "multi_pin",
+      "pinCount": 2,
       "pins": [
         {
           "id": "indu-area-1",
-          "label": "",
-          "lat": 41.65152,
-          "lon": -87.08,
+          "label": "Area 1",
+          "lat": 41.65927,
+          "lon": -87.04313,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.028881770400000412,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "indu-area-2",
+          "label": "Area 2",
+          "lat": 41.6147,
+          "lon": -87.25519,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.03496013780000049,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0060783674000000785,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
         "id": "indu-area-1",
-        "label": "",
-        "lat": 41.65152,
-        "lon": -87.08,
+        "label": "Area 1",
+        "lat": 41.65927,
+        "lon": -87.04313,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 2,
+        "sectionCount": 1,
         "sectionIndices": [
-          0,
-          1
+          0
         ],
-        "areaDeg2": 0.03496013780000049,
-        "labelSource": "heuristic"
+        "areaDeg2": 0.028881770400000412,
+        "labelSource": "visitor_center_or_heuristic"
       }
     },
     "deva": {
@@ -13050,54 +13225,66 @@
     "slbe": {
       "parkCode": "slbe",
       "strategy": "multi_pin",
-      "pinCount": 2,
+      "pinCount": 3,
       "pins": [
         {
-          "id": "slbe-area-1",
-          "label": "Area 1",
-          "lat": 44.80682,
-          "lon": -86.09701,
+          "id": "slbe-area-2",
+          "label": "Area 2",
+          "lat": 44.77322,
+          "lon": -86.09411,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            3,
-            4
+            3
           ],
-          "areaDeg2": 0.039945452300001044,
+          "areaDeg2": 0.034565352300001004,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "slbe-island",
           "label": "Island",
-          "lat": 45.01199,
-          "lon": -85.9444,
+          "lat": 45.08192,
+          "lon": -86.04283,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 2,
           "sectionIndices": [
-            1,
-            2
+            2,
+            4
           ],
-          "areaDeg2": 0.02797512899999928,
+          "areaDeg2": 0.018296508399999564,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "slbe-area-1",
+          "label": "Area 1",
+          "lat": 44.93086,
+          "lon": -85.88599,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.015058720599999761,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "primary": {
-        "id": "slbe-area-1",
-        "label": "Area 1",
-        "lat": 44.80682,
-        "lon": -86.09701,
+        "id": "slbe-area-2",
+        "label": "Area 2",
+        "lat": 44.77322,
+        "lon": -86.09411,
         "role": "primary",
         "clusterIndex": 0,
-        "sectionCount": 3,
+        "sectionCount": 2,
         "sectionIndices": [
           0,
-          3,
-          4
+          3
         ],
-        "areaDeg2": 0.039945452300001044,
+        "areaDeg2": 0.034565352300001004,
         "labelSource": "visitor_center_or_heuristic"
       }
     },

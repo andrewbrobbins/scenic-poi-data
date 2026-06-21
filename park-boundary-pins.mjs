@@ -15,7 +15,7 @@ export const MIN_SECTION_AREA_DEG2 = 0.000003;
 /** Secondary section must be at least this share of the largest section area. */
 export const MIN_SECTION_AREA_RATIO = 0.035;
 /** Sections/clusters farther apart than this (km) get separate map pins. */
-export const MULTI_PIN_MIN_DISTANCE_KM = 25;
+export const MULTI_PIN_MIN_DISTANCE_KM = 18;
 
 export function haversineKm(a, b) {
   const R = 6371;

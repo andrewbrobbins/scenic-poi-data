@@ -140,6 +140,17 @@ async function fetchArcgisUnits() {
   return j.features.map((f) => f.attributes);
 }
 
+/** Park-list units missing from ArcGIS (e.g. KLSE) — skip linear trails and affiliated areas. */
+const SUPPLEMENTAL_SKIP_DESIGNATION =
+  /national historic trail|national scenic trail|national geologic trail|affiliated area/i;
+
+function parseParkListStates(statesStr) {
+  return (statesStr || "")
+    .split(/[,;]/)
+    .map((s) => s.trim().toUpperCase())
+    .filter((s) => US.has(s));
+}
+
 function pickVisitorCenter(list) {
   if (!list || !list.length) return null;
   const scored = list.map((vc) => {
@@ -385,6 +396,60 @@ export async function buildNpsCache(refreshNetwork = false) {
       seen.add(code);
     }
   }
+
+  for (const rich of Object.values(richByCode)) {
+    const code = (rich.parkCode || "").toLowerCase();
+    if (!code || seen.has(code)) continue;
+    if (SUPPLEMENTAL_SKIP_DESIGNATION.test(rich.designation || "") || SUPPLEMENTAL_SKIP_DESIGNATION.test(rich.fullName || "")) {
+      continue;
+    }
+    const states = parseParkListStates(rich.states);
+    if (!states.length) continue;
+    const lat = +rich.latitude;
+    const lon = +rich.longitude;
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
+    const designation = rich.designation || "Park";
+    const vcFromMaster = vcMaster.primaryByPark[code];
+    const vc = vcFromMaster || pickVisitorCenter(visitorByPark[code]);
+    const pins = pinCatalog[code];
+    units.push({
+      id: "nps-" + code,
+      parkCode: code,
+      name: rich.fullName || code.toUpperCase(),
+      designation,
+      category: npsCategory(designation),
+      lat: pins?.primary?.lat ?? lat,
+      lon: pins?.primary?.lon ?? lon,
+      visitorCenter: vc
+        ? { name: vc.name, lat: vc.latitude ?? vc.lat, lon: vc.longitude ?? vc.lon }
+        : null,
+      visitorCenterCount: vcMaster.byPark[code] ?? 0,
+      coordSource: pins?.primary ? "boundary_centroid" : "park_list",
+      pinStrategy: pins?.strategy || "single",
+      mapPins:
+        pins?.pins ||
+        [
+          {
+            id: `${code}-primary`,
+            label: "",
+            lat: Math.round(lat * 1e5) / 1e5,
+            lon: Math.round(lon * 1e5) / 1e5,
+            role: "primary",
+            clusterIndex: 0,
+            sectionCount: 0,
+            sectionIndices: [],
+            areaDeg2: 0,
+            labelSource: "park_list",
+          },
+        ],
+      state: states.join(","),
+      url: rich.url || "https://www.nps.gov/" + code + "/",
+      jr: rich.activities && /junior ranger/i.test(rich.activities) ? "yes" : "unknown",
+      activities: (rich.activities || "").slice(0, 200),
+    });
+    seen.add(code);
+  }
+
   units.sort((a, b) => a.name.localeCompare(b.name));
   const cats = {};
   units.forEach((u) => { cats[u.category] = (cats[u.category] || 0) + 1; });
@@ -392,7 +457,7 @@ export async function buildNpsCache(refreshNetwork = false) {
   const geo = {
     generated: new Date().toISOString(),
     source: "arcgis+boundary-pins+park-list+centroids+arcgis_geometry",
-    pinPolicy: "boundary_centroid; multi_pin when sections >= 25 km apart (see nps-us-park-pins.json)",
+    pinPolicy: "boundary_centroid; multi_pin when sections >= 18 km apart (see nps-us-park-pins.json)",
     count: units.length,
     visitorCenterCount: vcCount,
     multiPinCount: units.filter((u) => u.pinStrategy === "multi_pin").length,

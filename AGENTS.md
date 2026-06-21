@@ -147,4 +147,4 @@ See [NPS-MAP-PINS.md](NPS-MAP-PINS.md).
 ### Do
 
 - Pin from boundary centroid (`coordSource: boundary_centroid`)
-- Multi-pin distant units via `mapPins` (≥ 25 km cluster split); manual gaps in `nps-park-pin-overrides.json`
+- Multi-pin distant units via `mapPins` (≥ 18 km cluster split); manual gaps in `nps-park-pin-overrides.json`

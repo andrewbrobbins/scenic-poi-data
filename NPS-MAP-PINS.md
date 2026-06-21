@@ -7,7 +7,7 @@ Park catalog pins (`nps-us-geo.json`) use **boundary geometry**, not visitor cen
 | Case | Pin placement |
 |------|----------------|
 | Single boundary (or nearby sections) | Bbox centroid of the boundary polygon |
-| Distant sections (≥ **25 km** apart) | One pin per cluster — area-weighted centroid |
+| Distant sections (≥ **18 km** apart) | One pin per cluster — area-weighted centroid |
 | Units missing from boundary data | Manual pin in `nps-park-pin-overrides.json` |
 
 Visitor centers remain in `nps-visitor-centers-us-master.json` as a separate layer; `visitorCenter` on catalog units is informational only.
@@ -52,7 +52,9 @@ Example (`thro` — three distinct visit areas):
 }
 ```
 
-Add overrides when NPS boundaries omit a staffed/distinct unit polygon.
+Add overrides when NPS boundaries omit a staffed/distinct unit polygon (e.g. `klgo` Seattle Unit — separate park code `klse` with no boundary polygon).
+
+Park-list-only units (missing from ArcGIS) are added from `nps-parks-cache.json` when they are discrete sites — trails and affiliated areas are skipped.
 
 ## Parks Canada
 

@@ -1,4 +1,16 @@
 {
+  "klgo": {
+    "extraPins": [
+      {
+        "id": "klgo-seattle-unit",
+        "label": "Seattle Unit",
+        "lat": 47.59937,
+        "lon": -122.33197,
+        "source": "park_list_klse",
+        "notes": "Seattle unit (KLSE) — no polygon in NPS boundaries layer; coords from NPS park list"
+      }
+    ]
+  },
   "thro": {
     "pinLabels": {
       "0": "South Unit",

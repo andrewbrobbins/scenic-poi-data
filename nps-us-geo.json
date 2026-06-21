@@ -1,19 +1,19 @@
 {
-  "generated": "2026-06-21T04:39:02.713Z",
+  "generated": "2026-06-21T05:33:46.791Z",
   "source": "arcgis+boundary-pins+park-list+centroids+arcgis_geometry",
-  "pinPolicy": "boundary_centroid; multi_pin when sections >= 25 km apart (see nps-us-park-pins.json)",
-  "count": 413,
+  "pinPolicy": "boundary_centroid; multi_pin when sections >= 18 km apart (see nps-us-park-pins.json)",
+  "count": 419,
   "visitorCenterCount": 1043,
-  "multiPinCount": 37,
+  "multiPinCount": 47,
   "categories": {
-    "historic_park": 49,
+    "historic_park": 51,
     "park": 64,
-    "monument": 86,
+    "monument": 88,
     "recreation": 45,
-    "historic_site": 106,
+    "historic_site": 107,
     "other": 9,
     "parkway_trail": 7,
-    "memorial": 29,
+    "memorial": 30,
     "preserve": 10,
     "affiliated": 8
   },
@@ -486,8 +486,8 @@
       "name": "Aniakchak National Monument",
       "designation": "National Monument",
       "category": "monument",
-      "lat": 56.86428,
-      "lon": -157.77972,
+      "lat": 56.85649,
+      "lon": -157.71246,
       "visitorCenter": {
         "name": "King Salmon Visitor Center",
         "lat": 58.682802,
@@ -495,22 +495,35 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "ania-area-1",
-          "label": "",
-          "lat": 56.86428,
-          "lon": -157.77972,
+          "id": "ania-area-2",
+          "label": "Area 2",
+          "lat": 56.85649,
+          "lon": -157.71246,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.5462441549999958,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "ania-area-1",
+          "label": "Area 1",
+          "lat": 56.90108,
+          "lon": -158.09728,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.6619364909999992,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.11569233600000342,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "AK",
@@ -561,8 +574,8 @@
       "name": "Apostle Islands National Lakeshore",
       "designation": "National Lakeshore",
       "category": "recreation",
-      "lat": 46.93724,
-      "lon": -90.78019,
+      "lat": 46.95773,
+      "lon": -90.8532,
       "visitorCenter": {
         "name": "Bayfield Headquarters",
         "lat": 46.812314,
@@ -573,23 +586,17 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "apis-area-2",
-          "label": "Area 2",
-          "lat": 46.93724,
-          "lon": -90.78019,
+          "id": "apis-area-1",
+          "label": "Area 1",
+          "lat": 46.95773,
+          "lon": -90.8532,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 17,
+          "sectionCount": 11,
           "sectionIndices": [
             0,
-            3,
-            4,
             5,
-            6,
-            7,
-            8,
             9,
-            10,
             11,
             12,
             13,
@@ -599,22 +606,28 @@
             17,
             18
           ],
-          "areaDeg2": 0.0479012159999996,
+          "areaDeg2": 0.028965429399999368,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "apis-area-1",
-          "label": "Area 1",
-          "lat": 46.97928,
-          "lon": -90.51693,
+          "id": "apis-area-2",
+          "label": "Area 2",
+          "lat": 46.94377,
+          "lon": -90.59028,
           "role": "secondary",
           "clusterIndex": 1,
-          "sectionCount": 2,
+          "sectionCount": 8,
           "sectionIndices": [
             1,
-            2
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            10
           ],
-          "areaDeg2": 0.020195894399998256,
+          "areaDeg2": 0.03913168099999849,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -837,8 +850,8 @@
       "name": "Badlands National Park",
       "designation": "National Park",
       "category": "park",
-      "lat": 43.69563,
-      "lon": -102.39276,
+      "lat": 43.70212,
+      "lon": -102.39394,
       "visitorCenter": {
         "name": "Ben Reifel Visitor Center",
         "lat": 43.74908,
@@ -846,22 +859,35 @@
       },
       "visitorCenterCount": 4,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "badl-area-1",
-          "label": "",
-          "lat": 43.69563,
-          "lon": -102.39276,
+          "label": "Area 1",
+          "lat": 43.70212,
+          "lon": -102.39394,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.4440597239999943,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "badl-area-2",
+          "label": "Area 2",
+          "lat": 43.52735,
+          "lon": -102.36194,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.4611756923999927,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.017115968399998356,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "SD",
@@ -4156,6 +4182,37 @@
       "activities": ""
     },
     {
+      "id": "nps-till",
+      "parkCode": "till",
+      "name": "Emmett Till and Mamie Till-Mobley National Monument",
+      "designation": "National Monument",
+      "category": "monument",
+      "lat": 33.9711,
+      "lon": -90.3698,
+      "visitorCenter": null,
+      "visitorCenterCount": 0,
+      "coordSource": "park_list",
+      "pinStrategy": "single",
+      "mapPins": [
+        {
+          "id": "till-primary",
+          "label": "",
+          "lat": 33.9711,
+          "lon": -90.3698,
+          "role": "primary",
+          "clusterIndex": 0,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list"
+        }
+      ],
+      "state": "IL,MS",
+      "url": "https://www.nps.gov/till/index.htm",
+      "jr": "unknown",
+      "activities": "Arts and Culture, Museum Exhibits"
+    },
+    {
       "id": "nps-euon",
       "parkCode": "euon",
       "name": "Eugene O'Neill National Historic Site",
@@ -4517,8 +4574,8 @@
       "name": "Fort Donelson National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 36.48937,
-      "lon": -87.91407,
+      "lat": 36.48307,
+      "lon": -87.85057,
       "visitorCenter": {
         "name": "Fort Donelson Visitor Center",
         "lat": 36.48240704749231,
@@ -4526,24 +4583,37 @@
       },
       "visitorCenterCount": 1,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "fodo-area-1",
-          "label": "",
-          "lat": 36.48937,
-          "lon": -87.91407,
+          "id": "fodo-area-2",
+          "label": "Area 2",
+          "lat": 36.48307,
+          "lon": -87.85057,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 4,
+          "sectionCount": 3,
           "sectionIndices": [
             0,
-            1,
             2,
             3
           ],
-          "areaDeg2": 0.0011181609999998785,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0007836583999997575,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "fodo-area-1",
+          "label": "Area 1",
+          "lat": 36.50411,
+          "lon": -88.06285,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.00033450260000012107,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "TN",
@@ -5593,8 +5663,8 @@
       "name": "Gateway National Recreation Area",
       "designation": "National Recreation Area",
       "category": "recreation",
-      "lat": 40.56779,
-      "lon": -73.93633,
+      "lat": 40.59841,
+      "lon": -73.86104,
       "visitorCenter": {
         "name": "Fort Wadsworth Visitor Center",
         "lat": 40.603837,
@@ -5602,23 +5672,36 @@
       },
       "visitorCenterCount": 9,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "gate-area-1",
-          "label": "",
-          "lat": 40.56779,
-          "lon": -73.93633,
+          "label": "Area 1",
+          "lat": 40.59841,
+          "lon": -73.86104,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.020288702200000147,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "gate-area-2",
+          "label": "Area 2",
+          "lat": 40.51873,
+          "lon": -74.05695,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 2,
+          "sectionIndices": [
             1,
             2
           ],
-          "areaDeg2": 0.032952688600000446,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.012663986400000295,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "NY",
@@ -6048,16 +6131,29 @@
         {
           "id": "goga-area-3",
           "label": "Area 3",
-          "lat": 37.58128,
-          "lon": -122.41607,
+          "lat": 37.73583,
+          "lon": -122.47405,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
             3
           ],
-          "areaDeg2": 0.06144408060000165,
+          "areaDeg2": 0.01512733380000114,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "goga-area-4",
+          "label": "Area 4",
+          "lat": 37.53081,
+          "lon": -122.39714,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.04631674680000051,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -6176,6 +6272,41 @@
       "url": "https://www.nps.gov/grca/index.htm",
       "jr": "yes",
       "activities": "Arts and Culture, Cultural Demonstrations, Auto and ATV, Scenic Driving, Astronomy, Stargazing, Biking, Road Biking, Boating, Camping, Backcountry Camping, Car or Front Country Camping, Horse Camping "
+    },
+    {
+      "id": "nps-para",
+      "parkCode": "para",
+      "name": "Grand Canyon-Parashant National Monument",
+      "designation": "National Monument",
+      "category": "monument",
+      "lat": 36.41535465,
+      "lon": -113.6682797,
+      "visitorCenter": {
+        "name": "Public Lands Center",
+        "lat": 37.03092506115131,
+        "lon": -113.50038187283553
+      },
+      "visitorCenterCount": 1,
+      "coordSource": "park_list",
+      "pinStrategy": "single",
+      "mapPins": [
+        {
+          "id": "para-primary",
+          "label": "",
+          "lat": 36.41535,
+          "lon": -113.66828,
+          "role": "primary",
+          "clusterIndex": 0,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list"
+        }
+      ],
+      "state": "AZ",
+      "url": "https://www.nps.gov/para/index.htm",
+      "jr": "yes",
+      "activities": "Auto and ATV, Scenic Driving, Astronomy, Stargazing, Biking, Camping, Backcountry Camping, Hiking, Backcountry Hiking, Junior Ranger Program"
     },
     {
       "id": "nps-grpo",
@@ -7411,8 +7542,8 @@
       "name": "Indiana Dunes National Park",
       "designation": "National Park",
       "category": "park",
-      "lat": 41.65152,
-      "lon": -87.08,
+      "lat": 41.65927,
+      "lon": -87.04313,
       "visitorCenter": {
         "name": "Indiana Dunes Visitor Center (Dorothy Buell Memorial Visitor Center)",
         "lat": 41.6332151113,
@@ -7420,22 +7551,35 @@
       },
       "visitorCenterCount": 7,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "indu-area-1",
-          "label": "",
-          "lat": 41.65152,
-          "lon": -87.08,
+          "label": "Area 1",
+          "lat": 41.65927,
+          "lon": -87.04313,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.028881770400000412,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "indu-area-2",
+          "label": "Area 2",
+          "lat": 41.6147,
+          "lon": -87.25519,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.03496013780000049,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0060783674000000785,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "IN",
@@ -8195,6 +8339,41 @@
       "activities": ""
     },
     {
+      "id": "nps-klse",
+      "parkCode": "klse",
+      "name": "Klondike Gold Rush - Seattle Unit National Historical Park",
+      "designation": "National Historical Park",
+      "category": "historic_park",
+      "lat": 47.5993663,
+      "lon": -122.3319664,
+      "visitorCenter": {
+        "name": "Bainbridge Island Japanese American Exclusion Memorial",
+        "lat": 47.61449,
+        "lon": -122.508886
+      },
+      "visitorCenterCount": 3,
+      "coordSource": "park_list",
+      "pinStrategy": "single",
+      "mapPins": [
+        {
+          "id": "klse-primary",
+          "label": "",
+          "lat": 47.59937,
+          "lon": -122.33197,
+          "role": "primary",
+          "clusterIndex": 0,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list"
+        }
+      ],
+      "state": "WA",
+      "url": "https://www.nps.gov/klse/index.htm",
+      "jr": "unknown",
+      "activities": "Guided Tours, Self-Guided Tours - Walking, Living History, Park Film, Museum Exhibits"
+    },
+    {
       "id": "nps-klgo",
       "parkCode": "klgo",
       "name": "Klondike Gold Rush National Historical Park",
@@ -8209,7 +8388,7 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "klgo-area-1",
@@ -8225,6 +8404,18 @@
           ],
           "areaDeg2": 0.0390224580000012,
           "labelSource": "heuristic"
+        },
+        {
+          "id": "klgo-seattle-unit",
+          "label": "Seattle Unit",
+          "lat": 47.59937,
+          "lon": -122.33197,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list_klse"
         }
       ],
       "state": "AK",
@@ -8638,8 +8829,8 @@
       "name": "Lewis and Clark National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 46.19119,
-      "lon": -123.94921,
+      "lat": 46.14882,
+      "lon": -123.89648,
       "visitorCenter": {
         "name": "Fort Clatsop Visitor Center",
         "lat": 46.13446882119664,
@@ -8647,26 +8838,39 @@
       },
       "visitorCenterCount": 2,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "lewi-area-1",
-          "label": "",
-          "lat": 46.19119,
-          "lon": -123.94921,
+          "id": "lewi-area-2",
+          "label": "Area 2",
+          "lat": 46.14882,
+          "lon": -123.89648,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 6,
+          "sectionCount": 5,
           "sectionIndices": [
             0,
-            1,
             2,
             3,
             4,
             5
           ],
-          "areaDeg2": 0.0038141666999998115,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.002626746500000005,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lewi-area-1",
+          "label": "Area 1",
+          "lat": 46.28492,
+          "lon": -124.06586,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0011874201999998067,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "WA",
@@ -8960,8 +9164,8 @@
       "name": "Lyndon B Johnson National Historical Park",
       "designation": "National Historical Park",
       "category": "historic_park",
-      "lat": 30.25256,
-      "lon": -98.6174,
+      "lat": 30.25179,
+      "lon": -98.62514,
       "visitorCenter": {
         "name": "Hangar Visitor Center",
         "lat": 30.241749,
@@ -8969,22 +9173,35 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "lyjo-area-1",
-          "label": "",
-          "lat": 30.25256,
-          "lon": -98.6174,
+          "id": "lyjo-area-2",
+          "label": "Area 2",
+          "lat": 30.25179,
+          "lon": -98.62514,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.0013186950000000713,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "lyjo-area-1",
+          "label": "Area 1",
+          "lat": 30.27273,
+          "lon": -98.41533,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.0013692372000000442,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00005054219999997287,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "TX",
@@ -9123,8 +9340,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "mapr-area-2",
-          "label": "Area 2",
+          "id": "mapr-area-3",
+          "label": "Area 3",
           "lat": 35.93593,
           "lon": -84.39456,
           "role": "primary",
@@ -9139,23 +9356,36 @@
         {
           "id": "mapr-area-1",
           "label": "Area 1",
-          "lat": 46.62196,
-          "lon": -119.53568,
+          "lat": 46.63371,
+          "lon": -119.67228,
           "role": "secondary",
-          "clusterIndex": 2,
-          "sectionCount": 4,
+          "clusterIndex": 3,
+          "sectionCount": 2,
           "sectionIndices": [
-            2,
             3,
-            5,
             6
           ],
-          "areaDeg2": 0.000020310500000008248,
+          "areaDeg2": 0.000009359100000008806,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
-          "id": "mapr-area-3",
-          "label": "Area 3",
+          "id": "mapr-area-2",
+          "label": "Area 2",
+          "lat": 46.61191,
+          "lon": -119.41893,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 2,
+          "sectionIndices": [
+            2,
+            5
+          ],
+          "areaDeg2": 0.000010951399999999444,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "mapr-area-4",
+          "label": "Area 4",
           "lat": 35.84495,
           "lon": -106.28519,
           "role": "secondary",
@@ -9991,27 +10221,40 @@
       "name": "National Capital Parks",
       "designation": "Park",
       "category": "other",
-      "lat": 39.02776,
-      "lon": -76.85204,
+      "lat": 39.03995,
+      "lon": -76.83523,
       "visitorCenter": null,
       "visitorCenterCount": 0,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "naca-area-1",
-          "label": "",
-          "lat": 39.02776,
-          "lon": -76.85204,
+          "label": "Area 1",
+          "lat": 39.03995,
+          "lon": -76.83523,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
+            0
+          ],
+          "areaDeg2": 0.03259504989999851,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "naca-area-2",
+          "label": "Area 2",
+          "lat": 38.88781,
+          "lon": -77.04512,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
             1
           ],
-          "areaDeg2": 0.03543277799999907,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.0028377281000005598,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "DC",
@@ -10070,8 +10313,8 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "npsa-area-2",
-          "label": "Area 2",
+          "id": "npsa-area-3",
+          "label": "Area 3",
           "lat": -14.25454,
           "lon": -170.68891,
           "role": "primary",
@@ -10086,16 +10329,29 @@
         {
           "id": "npsa-area-1",
           "label": "Area 1",
-          "lat": -14.23951,
-          "lon": -169.47849,
+          "lat": -14.17794,
+          "lon": -169.64874,
           "role": "secondary",
-          "clusterIndex": 1,
-          "sectionCount": 2,
+          "clusterIndex": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            1,
             2
           ],
-          "areaDeg2": 0.004545204999999558,
+          "areaDeg2": 0.0005956790000001008,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "npsa-area-2",
+          "label": "Area 2",
+          "lat": -14.2488,
+          "lon": -169.45281,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.003949525999999457,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -10266,6 +10522,37 @@
       "url": "https://www.nps.gov/jazz/",
       "jr": "unknown",
       "activities": ""
+    },
+    {
+      "id": "nps-neph",
+      "parkCode": "neph",
+      "name": "New Philadelphia National Historic Site",
+      "designation": "National Historic Site",
+      "category": "historic_site",
+      "lat": 39.69803,
+      "lon": -90.96131,
+      "visitorCenter": null,
+      "visitorCenterCount": 0,
+      "coordSource": "park_list",
+      "pinStrategy": "single",
+      "mapPins": [
+        {
+          "id": "neph-primary",
+          "label": "",
+          "lat": 39.69803,
+          "lon": -90.96131,
+          "role": "primary",
+          "clusterIndex": 0,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list"
+        }
+      ],
+      "state": "IL",
+      "url": "https://www.nps.gov/neph/index.htm",
+      "jr": "unknown",
+      "activities": "Guided Tours"
     },
     {
       "id": "nps-neri",
@@ -10653,6 +10940,37 @@
       "activities": ""
     },
     {
+      "id": "nps-okci",
+      "parkCode": "okci",
+      "name": "Oklahoma City National Memorial",
+      "designation": "National Memorial",
+      "category": "memorial",
+      "lat": 35.473,
+      "lon": -97.5171,
+      "visitorCenter": null,
+      "visitorCenterCount": 0,
+      "coordSource": "park_list",
+      "pinStrategy": "single",
+      "mapPins": [
+        {
+          "id": "okci-primary",
+          "label": "",
+          "lat": 35.473,
+          "lon": -97.5171,
+          "role": "primary",
+          "clusterIndex": 0,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list"
+        }
+      ],
+      "state": "OK",
+      "url": "https://www.nps.gov/okci/index.htm",
+      "jr": "yes",
+      "activities": "Guided Tours, Self-Guided Tours - Walking, Junior Ranger Program"
+    },
+    {
       "id": "nps-olym",
       "parkCode": "olym",
       "name": "Olympic National Park",
@@ -10797,8 +11115,8 @@
       "name": "Ozark National Scenic Riverways",
       "designation": "National Scenic Riverway",
       "category": "recreation",
-      "lat": 37.22464,
-      "lon": -91.38121,
+      "lat": 37.24299,
+      "lon": -91.35588,
       "visitorCenter": {
         "name": "Alley General Store",
         "lat": 37.153108,
@@ -10811,25 +11129,38 @@
         {
           "id": "ozar-area-1",
           "label": "Area 1",
-          "lat": 37.22464,
-          "lon": -91.38121,
+          "lat": 37.24299,
+          "lon": -91.35588,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 2,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            1
+            0
           ],
-          "areaDeg2": 0.311620824800006,
+          "areaDeg2": 0.27124136520000675,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "ozar-area-2",
           "label": "Area 2",
+          "lat": 37.10144,
+          "lon": -91.55139,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.04037945959999927,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "ozar-area-3",
+          "label": "Area 3",
           "lat": 36.89767,
           "lon": -90.95504,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 1,
           "sectionIndices": [
             2
@@ -11102,8 +11433,8 @@
       "name": "Petersburg National Battlefield",
       "designation": "National Battlefield",
       "category": "historic_site",
-      "lat": 37.19228,
-      "lon": -77.47425,
+      "lat": 37.22524,
+      "lon": -77.37196,
       "visitorCenter": {
         "name": "Eastern Front Visitor Center",
         "lat": 37.24376507688345,
@@ -11111,25 +11442,38 @@
       },
       "visitorCenterCount": 6,
       "coordSource": "boundary_centroid",
-      "pinStrategy": "single",
+      "pinStrategy": "multi_pin",
       "mapPins": [
         {
           "id": "pete-area-1",
-          "label": "",
-          "lat": 37.19228,
-          "lon": -77.47425,
+          "label": "Area 1",
+          "lat": 37.22524,
+          "lon": -77.37196,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 5,
+          "sectionCount": 4,
           "sectionIndices": [
             0,
-            1,
             2,
             3,
             4
           ],
-          "areaDeg2": 0.0021732502999997215,
-          "labelSource": "heuristic"
+          "areaDeg2": 0.00128681419999982,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "pete-area-2",
+          "label": "Area 2",
+          "lat": 37.14444,
+          "lon": -77.62275,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.0008864360999999015,
+          "labelSource": "visitor_center_or_heuristic"
         }
       ],
       "state": "VA",
@@ -13018,8 +13362,8 @@
       "name": "Sleeping Bear Dunes National Lakeshore",
       "designation": "National Lakeshore",
       "category": "recreation",
-      "lat": 44.80682,
-      "lon": -86.09701,
+      "lat": 44.77322,
+      "lon": -86.09411,
       "visitorCenter": {
         "name": "Philip A. Hart Visitor Center",
         "lat": 44.81153454723621,
@@ -13030,34 +13374,47 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "slbe-area-1",
-          "label": "Area 1",
-          "lat": 44.80682,
-          "lon": -86.09701,
+          "id": "slbe-area-2",
+          "label": "Area 2",
+          "lat": 44.77322,
+          "lon": -86.09411,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 2,
           "sectionIndices": [
             0,
-            3,
-            4
+            3
           ],
-          "areaDeg2": 0.039945452300001044,
+          "areaDeg2": 0.034565352300001004,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
           "id": "slbe-island",
           "label": "Island",
-          "lat": 45.01199,
-          "lon": -85.9444,
+          "lat": 45.08192,
+          "lon": -86.04283,
           "role": "secondary",
-          "clusterIndex": 1,
+          "clusterIndex": 2,
           "sectionCount": 2,
           "sectionIndices": [
-            1,
-            2
+            2,
+            4
           ],
-          "areaDeg2": 0.02797512899999928,
+          "areaDeg2": 0.018296508399999564,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "slbe-area-1",
+          "label": "Area 1",
+          "lat": 44.93086,
+          "lon": -85.88599,
+          "role": "secondary",
+          "clusterIndex": 1,
+          "sectionCount": 1,
+          "sectionIndices": [
+            1
+          ],
+          "areaDeg2": 0.015058720599999761,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
@@ -13140,6 +13497,41 @@
       "url": "https://www.nps.gov/stli/",
       "jr": "unknown",
       "activities": ""
+    },
+    {
+      "id": "nps-stge",
+      "parkCode": "stge",
+      "name": "Ste. Geneviève National Historical Park",
+      "designation": "National Historical Park",
+      "category": "historic_park",
+      "lat": 37.9792171421,
+      "lon": -90.0432157516,
+      "visitorCenter": {
+        "name": "Ste. Genevieve Welcome Center",
+        "lat": 37.97930074772547,
+        "lon": -90.0427267624907
+      },
+      "visitorCenterCount": 1,
+      "coordSource": "park_list",
+      "pinStrategy": "single",
+      "mapPins": [
+        {
+          "id": "stge-primary",
+          "label": "",
+          "lat": 37.97922,
+          "lon": -90.04322,
+          "role": "primary",
+          "clusterIndex": 0,
+          "sectionCount": 0,
+          "sectionIndices": [],
+          "areaDeg2": 0,
+          "labelSource": "park_list"
+        }
+      ],
+      "state": "MO",
+      "url": "https://www.nps.gov/stge/index.htm",
+      "jr": "yes",
+      "activities": "Arts and Culture, Guided Tours, Self-Guided Tours - Walking, Junior Ranger Program, Museum Exhibits, Shopping, Bookstore and Park Store"
     },
     {
       "id": "nps-stea",
@@ -14827,8 +15219,8 @@
       "name": "Wrangell-St. Elias National Park",
       "designation": "National Park",
       "category": "park",
-      "lat": 61.20222,
-      "lon": -142.41387,
+      "lat": 61.17451,
+      "lon": -142.36094,
       "visitorCenter": {
         "name": "Chitina Orr Cabin Vistor Center",
         "lat": 61.5159518985298,
@@ -14839,19 +15231,17 @@
       "pinStrategy": "multi_pin",
       "mapPins": [
         {
-          "id": "wrst-area-3",
-          "label": "Area 3",
-          "lat": 61.20222,
-          "lon": -142.41387,
+          "id": "wrst-area-4",
+          "label": "Area 4",
+          "lat": 61.17451,
+          "lon": -142.36094,
           "role": "primary",
           "clusterIndex": 0,
-          "sectionCount": 3,
+          "sectionCount": 1,
           "sectionIndices": [
-            0,
-            3,
-            2
+            0
           ],
-          "areaDeg2": 20.411438502299927,
+          "areaDeg2": 16.754581583999926,
           "labelSource": "visitor_center_or_heuristic"
         },
         {
@@ -14874,12 +15264,27 @@
           "lat": 61.91998,
           "lon": -144.65649,
           "role": "secondary",
-          "clusterIndex": 2,
+          "clusterIndex": 3,
           "sectionCount": 1,
           "sectionIndices": [
             4
           ],
           "areaDeg2": 1.1681060022999943,
+          "labelSource": "visitor_center_or_heuristic"
+        },
+        {
+          "id": "wrst-area-3",
+          "label": "Area 3",
+          "lat": 61.32915,
+          "lon": -142.65639,
+          "role": "secondary",
+          "clusterIndex": 2,
+          "sectionCount": 2,
+          "sectionIndices": [
+            3,
+            2
+          ],
+          "areaDeg2": 3.6568569183,
           "labelSource": "visitor_center_or_heuristic"
         }
       ],
