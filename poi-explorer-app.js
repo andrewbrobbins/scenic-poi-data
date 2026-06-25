@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  var GROUP_ORDER = ["scenic", "benchmark", "fuel", "camping", "playground", "historic", "nps", "pc"];
+  var GROUP_ORDER = ["scenic", "benchmark", "fuel", "camping", "playground", "historic", "nps", "amenities", "pc"];
   var GROUP_LABELS = {
     scenic: "Scenic overlooks",
     benchmark: "Scenic benchmark",
@@ -11,6 +11,7 @@
     playground: "Playgrounds",
     historic: "Historic",
     nps: "NPS units",
+    amenities: "Park amenities",
     pc: "Parks Canada",
   };
   var COLORS = {
@@ -21,6 +22,11 @@
     camping: "#ea580c",
     playground: "#22c55e",
     historic: "#a855f7",
+    amenities_camp_developed: "#c2410c",
+    amenities_camp_backcountry: "#b45309",
+    amenities_camp_primitive: "#92400e",
+    amenities_picnic: "#65a30d",
+    amenities_restroom: "#0369a1",
   };
   var FUEL_BRAND_COLORS = {
     bucees: "#e11d48",
@@ -311,8 +317,14 @@
     if (rec.status === "kept") lines.push("Kept");
     if (rec.status === "excluded") lines.push("Excluded");
     if (rec.landManager) lines.push(escapeHtml(rec.landManager));
-    if (rec.parentName && Ldef && (Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers")) {
+    if (rec.parentName && Ldef && (Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers" || Ldef.group === "amenities")) {
       lines.push(escapeHtml(rec.parentName));
+    }
+    if (rec.kind && Ldef && Ldef.group === "amenities") {
+      lines.push(escapeHtml(rec.kind.replace(/_/g, " ")));
+    }
+    if (rec.campTier && Ldef && Ldef.group === "amenities") {
+      lines.push("Camp tier: " + escapeHtml(rec.campTier));
     }
     if (
       rec.hoursSummary &&
@@ -337,7 +349,7 @@
     if (st && rec.state !== st) return false;
     var q = (el("searchBox").value || "").toLowerCase().trim();
     if (!q) return true;
-    var hay = [rec.id, rec.name, rec.state, rec.brand, rec.brandId, rec.tier, rec.category, rec.landManager, rec.notes, rec.parkCode]
+    var hay = [rec.id, rec.name, rec.state, rec.brand, rec.brandId, rec.tier, rec.category, rec.landManager, rec.notes, rec.parkCode, rec.kind, rec.campTier, rec.subtype]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -421,6 +433,9 @@
     if (rec.parentName) rows.push(["Parent unit", rec.parentName]);
     if (rec.parentDesignation) rows.push(["Designation", rec.parentDesignation]);
     if (rec.parentCategory) rows.push(["Unit category", rec.parentCategory.replace(/_/g, " ")]);
+    if (rec.kind) rows.push(["Amenity kind", rec.kind.replace(/_/g, " ")]);
+    if (rec.campTier) rows.push(["Camp tier", rec.campTier]);
+    if (rec.subtype) rows.push(["Subtype", rec.subtype]);
     if (rec.hoursSummary && rec.hoursSummary.summary) rows.push(["Hours", rec.hoursSummary.summary]);
     if (rec.hoursSummary && rec.hoursSummary.seasonalNote) rows.push(["Seasonal hours", rec.hoursSummary.seasonalNote]);
     if (rec.seasonal && rec.seasonal.description && !rec.hoursSummary?.seasonalNote) {

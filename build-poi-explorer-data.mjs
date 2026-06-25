@@ -14,6 +14,7 @@ import { MASTER_PATH as NPS_VC_MASTER } from "./nps-visitor-centers-lib.mjs";
 import { MASTER_PATH as PC_VC_MASTER } from "./parks-canada-visitor-centers-lib.mjs";
 import { GEO_PATH as PC_GEO_PATH } from "./parks-canada-lib.mjs";
 import { MASTER_US_PATH as STATE_PARKS_US_MASTER, MASTER_CA_PATH as STATE_PARKS_CA_MASTER } from "./state-parks-lib.mjs";
+import { MASTER_PATH as PARK_AMENITIES_US_MASTER } from "./park-amenities-us-lib.mjs";
 import { brandGroupLabel, brandIdToSelectId, buildBrandGroups, normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const TOOLS = path.dirname(fileURLToPath(import.meta.url));
@@ -202,6 +203,32 @@ function loadBenchmark() {
     osmNodeId: c.osmNodeId || null,
     notes: c.notes || "",
   }));
+}
+
+function loadParkAmenities(filter = () => true) {
+  const master = readJson(PARK_AMENITIES_US_MASTER, { records: [] });
+  return (master.records || []).filter(filter).map((r) => {
+    const pu = r.parentUnit || {};
+    const row = {
+      id: r.id,
+      name: r.name,
+      lat: round5(r.lat),
+      lon: round5(r.lon),
+      state: r.state || "",
+      kind: r.kind,
+      subtype: r.subtype || "",
+      parkCode: r.parkCode || pu.parkCode || "",
+      parentName: pu.name || "",
+      parentCategory: pu.category || "",
+      parentDesignation: pu.designation || "",
+      landManager: r.landManager || "NPS",
+      url: r.urls?.detail || r.urls?.park || "",
+      coordConfidence: r.coordConfidence || "",
+      needsReview: !!r.needsReview,
+    };
+    if (r.kind === "campground") row.campTier = r.campTier || "developed";
+    return row;
+  });
 }
 
 function loadNpsVisitorCenters() {
@@ -395,6 +422,37 @@ if (npsVc.length) {
     defaultInCategory: true,
     noRegionFilter: true,
     npsCategory: "visitor_center",
+  });
+}
+
+const amenDeveloped = loadParkAmenities((r) => r.kind === "campground" && r.campTier === "developed");
+const amenBackcountry = loadParkAmenities((r) => r.kind === "campground" && r.campTier === "backcountry");
+const amenPrimitive = loadParkAmenities((r) => r.kind === "campground" && r.campTier === "primitive");
+const amenPicnic = loadParkAmenities((r) => r.kind === "picnic_area");
+const amenRestroom = loadParkAmenities((r) => r.kind === "restroom");
+if (amenDeveloped.length + amenBackcountry.length + amenPrimitive.length + amenPicnic.length + amenRestroom.length) {
+  addLayer("amenities_camp_developed", "Campgrounds (developed)", "amenities", "us", amenDeveloped, {
+    defaultInCategory: true,
+    amenityKind: "campground",
+    campTier: "developed",
+  });
+  addLayer("amenities_camp_backcountry", "Campgrounds (backcountry)", "amenities", "us", amenBackcountry, {
+    defaultInCategory: false,
+    amenityKind: "campground",
+    campTier: "backcountry",
+  });
+  addLayer("amenities_camp_primitive", "Campgrounds (primitive)", "amenities", "us", amenPrimitive, {
+    defaultInCategory: false,
+    amenityKind: "campground",
+    campTier: "primitive",
+  });
+  addLayer("amenities_picnic", "Picnic areas", "amenities", "us", amenPicnic, {
+    defaultInCategory: true,
+    amenityKind: "picnic_area",
+  });
+  addLayer("amenities_restroom", "Restrooms", "amenities", "us", amenRestroom, {
+    defaultInCategory: false,
+    amenityKind: "restroom",
   });
 }
 

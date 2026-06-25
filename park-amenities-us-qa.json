@@ -1,0 +1,243 @@
+{
+  "generated": "2026-06-25T18:58:31.454Z",
+  "totalRecords": 7703,
+  "needsReviewCount": 1,
+  "suppressedDuplicateCount": 2297,
+  "ingest": {
+    "source": "mapservices.nps.gov NPS_Public_POIs",
+    "rawCount": 10021,
+    "skipped": {
+      "noCoords": 21,
+      "noPark": 0,
+      "unclassified": 0
+    }
+  },
+  "byKind": {
+    "campground": 3437,
+    "restroom": 2910,
+    "picnic_area": 1356
+  },
+  "byCampTier": {
+    "developed": 866,
+    "backcountry": 2334,
+    "primitive": 237
+  },
+  "bySubtype": {
+    "campground:backcountry": 2210,
+    "restroom:restroom": 2493,
+    "restroom:flush_toilet": 107,
+    "picnic_area:area": 1227,
+    "campground:developed": 813,
+    "restroom:vault_toilet": 223,
+    "campground:rv": 36,
+    "restroom:showers": 40,
+    "picnic_area:grill": 14,
+    "picnic_area:table": 69,
+    "picnic_area:campfire_ring": 22,
+    "campground:group": 80,
+    "restroom:toilet": 32,
+    "campground:primitive": 196,
+    "campground:walk_in": 92,
+    "picnic_area:shelter": 11,
+    "picnic_area:pavilion": 13,
+    "campground:cabin": 10,
+    "restroom:pit_toilet": 2,
+    "restroom:shower": 1,
+    "restroom:floating_restroom": 11,
+    "restroom:outhouse": 1
+  },
+  "mapFlagCounts": {
+    "CAMP_TIER_GUESS": 1
+  },
+  "coverage": {
+    "catalogUnits": 419,
+    "unitsWithAnyAmenity": 262,
+    "unitsWithDevelopedCampground": 117,
+    "unitsWithBackcountryCampground": 43,
+    "unitsWithPrimitiveCampground": 19,
+    "unitsWithPicnicArea": 206,
+    "unitsWithRestroom": 203
+  },
+  "suppressedSample": [
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376204-1121764",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376199-1121760",
+      "name": "Sunset Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-CEBR-campground-backcountry-12-376095-1128311",
+      "dropped": "AMEN-NPS-CEBR-campground-backcountry-11-376096-1128311",
+      "name": "11",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376204-1121764",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376202-1121760",
+      "name": "Sunset Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376214-1121759",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376213-1121756",
+      "name": "Sunset Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-gros-ventre-campground-site-c135-436171-1106614",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-gros-ventre-campground-site-c133-436170-1106617",
+      "name": "Gros Ventre Campground Site C133",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-606-441046-1106694",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-607-441047-1106695",
+      "name": "Headwaters Campground Site 607",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BICA-campground-backcountry-horseshoe-bend-campground-full-hook-up-campsite-449629-1082609",
+      "dropped": "AMEN-NPS-BICA-campground-backcountry-horseshoe-bend-campground-full-hook-up-campsite-449631-1082618",
+      "name": "Horseshoe Bend Campground Full Hook-Up Campsite",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-colter-bay-campground-k213-439116-1106443",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-colter-bay-campground-k212-439118-1106445",
+      "name": "Colter Bay Campground K212",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376372-1121679",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376373-1121673",
+      "name": "North Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376384-1121679",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376385-1121681",
+      "name": "North Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-YELL-campground-backcountry-tower-fall-site-9-448891-1103910",
+      "dropped": "AMEN-NPS-YELL-campground-backcountry-tower-fall-site-6-448892-1103908",
+      "name": "TOWER FALL SITE #6",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-jenny-lake-campground-site-15-437558-1107193",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-jenny-lake-campground-site-16-437558-1107191",
+      "name": "Jenny Lake Campground Site 16",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-ROMO-campground-backcountry-campsite-403297-1055944",
+      "dropped": "AMEN-NPS-ROMO-campground-backcountry-campsite-403299-1055943",
+      "name": "Campsite",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376240-1121737",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-sunset-campground-376240-1121738",
+      "name": "Sunset Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-colter-bay-campground-l250-439135-1106435",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-colter-bay-campground-l248-439136-1106433",
+      "name": "Colter Bay Campground L248",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376392-1121681",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376387-1121675",
+      "name": "North Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-CHCU-campground-backcountry-campsite-25-360372-1078904",
+      "dropped": "AMEN-NPS-CHCU-campground-backcountry-campsite-26-360371-1078906",
+      "name": "Campsite #26",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376384-1121679",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376381-1121674",
+      "name": "North Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376356-1121662",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376356-1121664",
+      "name": "North Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-ZION-campground-backcountry-watchman-campground-site-47-371948-1129897",
+      "dropped": "AMEN-NPS-ZION-campground-backcountry-watchman-campground-site-14-371948-1129895",
+      "name": "Watchman Campground, Site: 14",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-ZION-campground-backcountry-watchman-campground-site-29-371954-1129891",
+      "dropped": "AMEN-NPS-ZION-campground-backcountry-watchman-campground-site-31-371956-1129891",
+      "name": "Watchman Campground, Site: 31",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-612-441045-1106700",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-616-441045-1106702",
+      "name": "Headwaters Campground Site 616",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-BICA-picnic_area-campfire-ring-451065-1082271",
+      "dropped": "AMEN-NPS-BICA-picnic_area-campfire-ring-451065-1082268",
+      "name": "Campfire Ring",
+      "kind": "picnic_area"
+    },
+    {
+      "kept": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376372-1121679",
+      "dropped": "AMEN-NPS-BRCA-campground-backcountry-north-campground-376375-1121680",
+      "name": "North Campground",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-402-441049-1106688",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-404-441049-1106691",
+      "name": "Headwaters Campground Site 404",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-PAAL-picnic_area-picnic-area-260170-974788",
+      "dropped": "AMEN-NPS-PAAL-picnic_area-picnic-area-260171-974788",
+      "name": "Picnic Area",
+      "kind": "picnic_area"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-612-441045-1106700",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-headwaters-campground-site-609-441046-1106698",
+      "name": "Headwaters Campground Site 609",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-GRTE-campground-backcountry-colter-bay-campground-n294-439143-1106439",
+      "dropped": "AMEN-NPS-GRTE-campground-backcountry-colter-bay-campground-n293-439142-1106441",
+      "name": "Colter Bay Campground N293",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-CEBR-campground-backcountry-6-376102-1128311",
+      "dropped": "AMEN-NPS-CEBR-campground-backcountry-7-376101-1128313",
+      "name": "7",
+      "kind": "campground"
+    },
+    {
+      "kept": "AMEN-NPS-HOVE-picnic_area-campsite-19-373839-1090702",
+      "dropped": "AMEN-NPS-HOVE-picnic_area-campsite-19-373839-1090702",
+      "name": "campsite 19",
+      "kind": "picnic_area"
+    }
+  ]
+}

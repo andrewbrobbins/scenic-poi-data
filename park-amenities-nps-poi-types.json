@@ -1,0 +1,65 @@
+{
+  "description": "NPS Public POIs POITYPE → park amenity kind. Campgrounds split into developed / backcountry / primitive tiers.",
+  "campground": {
+    "developed": [
+      "Campground",
+      "RV Campground",
+      "Cabin Campground"
+    ],
+    "backcountry": [
+      "Backcountry Campsite",
+      "Backcountry Cabin",
+      "Campsite"
+    ],
+    "primitive": [
+      "Primitive Campground",
+      "Primitive Camping",
+      "Primitive Campsite"
+    ],
+    "ambiguous": ["Camping"]
+  },
+  "picnic_area": {
+    "types": [
+      "Picnic Area",
+      "Picnic Shelter",
+      "Pavilion",
+      "Grill",
+      "Campfire Ring",
+      "Picnic Table"
+    ],
+    "subtypes": {
+      "Picnic Area": "area",
+      "Picnic Shelter": "shelter",
+      "Pavilion": "pavilion",
+      "Grill": "grill",
+      "Campfire Ring": "campfire_ring",
+      "Picnic Table": "table"
+    }
+  },
+  "restroom": {
+    "types": [
+      "Restroom",
+      "Vault Toilet",
+      "Flush Toilet",
+      "Bathroom",
+      "Toilet",
+      "Pit Toilet",
+      "Outhouse",
+      "Floating Restroom",
+      "Showers",
+      "Shower"
+    ],
+    "subtypes": {
+      "Restroom": "restroom",
+      "Vault Toilet": "vault_toilet",
+      "Flush Toilet": "flush_toilet",
+      "Bathroom": "restroom",
+      "Toilet": "toilet",
+      "Pit Toilet": "pit_toilet",
+      "Outhouse": "outhouse",
+      "Floating Restroom": "floating_restroom",
+      "Showers": "showers",
+      "Shower": "shower"
+    }
+  }
+}
