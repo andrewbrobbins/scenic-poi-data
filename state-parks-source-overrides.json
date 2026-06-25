@@ -1,0 +1,200 @@
+{
+  "description": "Manually verified Tier A/B sources — merged into state-parks-source-matrix.json by build-state-parks-apply-matrix-overrides.mjs",
+  "us": {
+    "CA": {
+      "agency": "California State Parks",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkEntryPoints/FeatureServer/2",
+      "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkEntryPoints/FeatureServer/2/query",
+      "where": "1=1",
+      "outFields": "PARK_NAME,PARK_WEB_PG,UNIT_NBR,LAT,LON",
+      "geometry": "point",
+      "license": "public",
+      "refreshCadence": "annual",
+      "includesHistoricSites": true,
+      "featureCount": 288,
+      "fieldMap": { "name": "PARK_NAME", "code": "UNIT_NBR", "url": "PARK_WEB_PG" },
+      "notes": "ParkEntryPoints — 282 public units with web links"
+    },
+    "TX": {
+      "agency": "Texas Parks and Wildlife",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services1.arcgis.com/1mtXwieMId59thmg/ArcGIS/rest/services/Texas_State_Parks_Boundaries/FeatureServer/0",
+      "queryUrl": "https://services1.arcgis.com/1mtXwieMId59thmg/ArcGIS/rest/services/Texas_State_Parks_Boundaries/FeatureServer/0/query",
+      "where": "PropType IN ('SP','SHS','SP/SHS')",
+      "outFields": "ParkName,PropType,GlobalID",
+      "geometry": "polygon",
+      "license": "public",
+      "refreshCadence": "annual",
+      "includesHistoricSites": true,
+      "featureCount": 116,
+      "fieldMap": { "name": "ParkName", "code": "GlobalID" },
+      "notes": "Texas State Parks Boundaries — filter PropType SP/HS only"
+    },
+    "FL": {
+      "agency": "Florida DEP",
+      "tier": "A",
+      "status": "verified",
+      "outFields": "SITE_NAME,UNIT_ID,URL,COUNTY,PUBLIC_ACC",
+      "simplifyGeometry": true,
+      "fieldMap": { "name": "SITE_NAME", "code": "UNIT_ID", "url": "URL" },
+      "notes": "PARKS_BOUNDARIES OpenData"
+    },
+    "MO": {
+      "agency": "Missouri DNR State Parks",
+      "tier": "A",
+      "status": "verified",
+      "fieldMap": { "name": "LOC_NAME", "code": "PARK_ID", "url": "URL" },
+      "notes": "MO State Parks and Historic Sites layer 4"
+    },
+    "WA": {
+      "agency": "Washington State Parks (WSPRC)",
+      "tier": "A",
+      "status": "verified",
+      "fieldMap": { "name": "ParkName", "code": "ParkCode", "url": "WebPage" },
+      "notes": "WA Park Boundaries"
+    },
+    "SC": {
+      "agency": "South Carolina State Parks",
+      "tier": "A",
+      "status": "verified",
+      "fieldMap": { "name": "NAME", "code": "FID" },
+      "notes": "SC State Parks polygons"
+    },
+    "AK": {
+      "agency": "Alaska DNR Division of Parks",
+      "tier": "A",
+      "status": "verified",
+      "fieldMap": { "name": "PARKNAME", "code": "OBJECTID" },
+      "notes": "ASP Park Boundary"
+    },
+    "MN": {
+      "agency": "Minnesota DNR",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/bdry_dnr_managed_areas/FeatureServer/2",
+      "queryUrl": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/bdry_dnr_managed_areas/FeatureServer/2/query",
+      "where": "area_type IN ('State Park','State Wayside') OR area_type LIKE 'State Historic%'",
+      "outFields": "area_name,area_type,pgrm_project,guid",
+      "geometry": "polygon",
+      "license": "public",
+      "featureCount": 75,
+      "fieldMap": { "name": "area_name", "code": "pgrm_project" },
+      "notes": "MN DNR Stat Plan Areas — parks and historic only"
+    },
+    "NY": {
+      "agency": "NYS Office of Parks Recreation and Historic Preservation",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services.arcgis.com/1xFZPtKn1wKC6POA/arcgis/rest/services/NYS_Park_Polygons/FeatureServer/0",
+      "queryUrl": "https://services.arcgis.com/1xFZPtKn1wKC6POA/arcgis/rest/services/NYS_Park_Polygons/FeatureServer/0/query",
+      "where": "Category IN ('State Park','Historic Site','Historic Park','State Historic Site')",
+      "outFields": "Name,Label,Category,UID,FacilityAbbrev,WebAreaID",
+      "geometry": "polygon",
+      "license": "public",
+      "featureCount": 858,
+      "fieldMap": { "name": "Label", "code": "UID" },
+      "notes": "NYS Park Polygons — filter parks and historic sites"
+    },
+    "NC": {
+      "agency": "NC State Parks",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services6.arcgis.com/nRIB86xC7kq6wavB/arcgis/rest/services/NC_State_Parks_System/FeatureServer/0",
+      "queryUrl": "https://services6.arcgis.com/nRIB86xC7kq6wavB/arcgis/rest/services/NC_State_Parks_System/FeatureServer/0/query",
+      "where": "1=1",
+      "outFields": "*",
+      "geometry": "polygon",
+      "license": "public",
+      "featureCount": 348,
+      "fieldMap": { "name": "NAME", "code": "OBJECTID" },
+      "notes": "NC State Parks System boundaries"
+    },
+    "TN": {
+      "agency": "Tennessee State Parks",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer/0",
+      "queryUrl": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer/0/query",
+      "where": "1=1",
+      "outFields": "PARK_NAME,TSP_UID,Acres",
+      "featureCount": 66,
+      "fieldMap": { "name": "PARK_NAME", "code": "TSP_UID" },
+      "notes": "TN State Parks Boundaries (hub search)"
+    },
+    "NE": {
+      "agency": "Nebraska Game and Parks",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services6.arcgis.com/Sjtjj6zwMH9eAgbl/arcgis/rest/services/Nebraska_State_Parks_by_Jennifer_Nelson_/FeatureServer/0",
+      "queryUrl": "https://services6.arcgis.com/Sjtjj6zwMH9eAgbl/arcgis/rest/services/Nebraska_State_Parks_by_Jennifer_Nelson_/FeatureServer/0/query",
+      "where": "1=1",
+      "outFields": "Park_Name,Website,ObjectId",
+      "featureCount": 72,
+      "fieldMap": { "name": "Park_Name", "code": "ObjectId", "url": "Website" },
+      "notes": "Nebraska State Parks (NGPC open data mirror)"
+    },
+    "UT": {
+      "agency": "Utah State Parks",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Utah_State_Parks/FeatureServer/0",
+      "queryUrl": "https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Utah_State_Parks/FeatureServer/0/query",
+      "where": "1=1",
+      "outFields": "name,objectid",
+      "featureCount": 56,
+      "fieldMap": { "name": "name", "code": "objectid" },
+      "notes": "Utah State Parks (hub search)"
+    },
+    "ND": {
+      "agency": "North Dakota Parks and Recreation",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_State_Parks/FeatureServer/0",
+      "queryUrl": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_State_Parks/FeatureServer/0/query",
+      "where": "1=1",
+      "outFields": "UNIT_NAME,OBJECTID",
+      "featureCount": 21,
+      "fieldMap": { "name": "UNIT_NAME", "code": "OBJECTID" },
+      "notes": "NDGISHUB State Parks"
+    },
+    "PA": {
+      "agency": "Pennsylvania DCNR",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://www.gis.dcnr.pa.gov/agsprod/rest/services/Parks/State_Parks/MapServer/9",
+      "queryUrl": "https://www.gis.dcnr.pa.gov/agsprod/rest/services/Parks/State_Parks/MapServer/9/query",
+      "where": "TYPE='STATE PARK'",
+      "outFields": "PARK_NAME,TYPE,WEBLINK,ICSORG",
+      "featureCount": 124,
+      "fieldMap": { "name": "PARK_NAME", "code": "ICSORG", "url": "WEBLINK" },
+      "notes": "DCNR State Parks MapServer layer 9 (subagent research)"
+    },
+    "IN": {
+      "agency": "Indiana DNR",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://gisdata.in.gov/server/rest/services/Hosted/Sites_StateParks/FeatureServer/8",
+      "queryUrl": "https://gisdata.in.gov/server/rest/services/Hosted/Sites_StateParks/FeatureServer/8/query",
+      "where": "1=1",
+      "outFields": "site,website,objectid,category",
+      "featureCount": 27,
+      "fieldMap": { "name": "site", "code": "objectid", "url": "website" },
+      "notes": "IN DNR Sites_StateParks (subagent research)"
+    },
+    "OR": {
+      "agency": "Oregon State Parks (OPRD)",
+      "tier": "A",
+      "status": "verified",
+      "primaryUrl": "https://maps.prd.state.or.us/arcgis/rest/services/Land_ownership/Oregon_State_Parks/FeatureServer/0",
+      "queryUrl": "https://maps.prd.state.or.us/arcgis/rest/services/Land_ownership/Oregon_State_Parks/FeatureServer/0/query",
+      "where": "DESIGNATION LIKE '%State Park%'",
+      "outFields": "FULL_NAME,NAME,DESIGNATION,OBJECTID",
+      "featureCount": 63,
+      "fieldMap": { "name": "FULL_NAME", "code": "OBJECTID" },
+      "notes": "OR State Parks — state park designation only (subagent research)"
+    }
+  }
+}

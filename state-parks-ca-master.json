@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T18:22:03.540Z",
+  "generated": "2026-06-22T23:03:35.362Z",
   "source": "osm-pbf",
   "country": "CA",
   "count": 330,
@@ -20,6 +20,8 @@
     "SK": 6
   },
   "needsReviewCount": 271,
+  "officialCount": 0,
+  "osmCount": 346,
   "pbfPath": "/home/andrew/Cursor-Projects/scenic-poi-data/osm-pbf/geofabrik/canada-latest.osm.pbf",
   "records": [
     {

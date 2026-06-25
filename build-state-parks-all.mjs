@@ -16,6 +16,7 @@ const nodeArgs = process.argv.slice(2);
 
 const STEPS = [
   { script: "build-state-parks-cache.mjs", label: "PBF extract" },
+  { script: "build-state-parks-ingest-official.mjs", label: "Official source ingest", optional: true },
   { script: "build-state-parks-master.mjs", label: "Master merge" },
   { script: "build-state-parks-explorer-embed.mjs", label: "Explorer embed" },
   { script: "validate-state-parks.mjs", label: "Validation" },
@@ -29,6 +30,10 @@ function run(step, index) {
     cwd: tools,
   });
   if (r.status !== 0) {
+    if (step.optional) {
+      log(`${step.script} failed (exit ${r.status}) — continuing`, { level: "warn" });
+      return;
+    }
     log(`${step.script} failed (exit ${r.status})`, { level: "error" });
     process.exit(r.status || 1);
   }

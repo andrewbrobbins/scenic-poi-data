@@ -277,6 +277,7 @@ export function dedupeKey(rec) {
 
 export function recordRank(rec) {
   let score = 0;
+  if (rec.source === "official") score += 50;
   if (rec.url) score += 20;
   if (rec.officialCode) score += 15;
   if (rec.osmId?.startsWith("relation/")) score += 10;

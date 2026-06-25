@@ -73,74 +73,70 @@ Example CA record:
 
 ## Source matrix
 
-**v1 ingest uses local Geofabrik PBF only** (`osm-pbf/geofabrik/us-latest.osm.pbf`, `canada-latest.osm.pbf`). No Overpass. Tags: `boundary=protected_area`, `leisure=nature_reserve`, filtered to state/provincial park units in code.
+**Primary ingest is now official state GIS where verified**, merged with OSM PBF as secondary. Full research docs: **[STATE-PARKS-SOURCES.md](STATE-PARKS-SOURCES.md)**.
 
-Progress logs emit every 10 seconds during PBF scans (byte % + OSM block counts). Use `--refresh` to rescan after a PBF update.
+| Artifact | Role |
+|----------|------|
+| `state-parks-source-matrix.json` | Per-state tier, status, endpoints, field maps (committed) |
+| `state-parks-source-seeds.json` | Candidate URLs for discovery probes |
+| `state-parks-source-overrides.json` | Manually verified sources (merged into matrix) |
+| `state-parks-ingest/01-official/{st}.json` | Per-state official ingest cache (gitignored) |
 
-Download PBF if missing:
+Research commands:
 
 ```bash
-node build-poi-osm-download.mjs --source=us
-node build-poi-osm-download.mjs --source=ca
+node build-state-parks-research-all.mjs          # Hub search + apply overrides
+node build-state-parks-discover-sources.mjs      # Probe seed URLs
+node build-state-parks-ingest-official.mjs --refresh --state=CA,TX
 ```
 
-Official open-data APIs below are documented for future enrichment merges.
+### United States (verified Tier A — see STATE-PARKS-SOURCES.md for full list)
 
-### United States
+| State | Agency | Ingest ~count |
+|-------|--------|---------------|
+| AK, CA, FL, MN, MO, NC, NY, SC, TX, WA | State DNR / parks dept | 1,400+ combined |
+| Remaining states | OSM PBF + research in progress | varies |
 
-| State | Primary source (v1) | Official open data | Notes |
-|-------|---------------------|--------------------|-------|
-| All states | **Local OSM PBF** | Varies by state | Per-state DNR GIS portals exist for most states; not wired in v1 |
-| TX | **Local OSM PBF** | [TPWD GIS](https://tpwd.texas.gov/) | Strong OSM coverage for state parks |
-| CA | **Local OSM PBF** | [California State Parks GIS](https://data.ca.gov/) | Large catalog; OSM + future state API merge |
-| NY | **Local OSM PBF** | [NYS Parks GIS](https://data.ny.gov/) | |
-| FL | **Local OSM PBF** | [Florida DEP](https://geodata.dep.state.fl.us/) | |
-| WA, OR, CO, UT, AZ, NM | **Local OSM PBF** | State DNR portals | Well mapped in OSM |
-| AK, HI | **Local OSM PBF** | State parks dept sites | Sparse OSM in remote units — expect gaps |
-| PAD-US | — | [USGS PAD-US](https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview) | Future secondary source for boundaries + manager verification |
-
-License: OSM ODbL. Do not mix proprietary state GIS without documenting license.
+PAD-US remains a future cross-check source (Tier E), not primary ingest.
 
 ### Canada
 
 | Province | Primary source (v1) | Official open data | Notes |
 |----------|---------------------|--------------------|-------|
-| All provinces | **Local OSM PBF** | Varies | Parks Canada **national** sites stay in NPS/Parks Canada pipelines |
-| BC | **Local OSM PBF** | [BC Parks locations](https://catalogue.data.gov.bc.ca/) | Good OSM coverage |
-| AB | **Local OSM PBF** | Alberta Parks | |
-| ON | **Local OSM PBF** | Ontario Parks GIS | Large province |
-| QC | **Local OSM PBF** | SEPAQ / Parcs Québec | French names common |
-| Atlantic (NB, NS, PE, NL) | **Local OSM PBF** | Provincial parks sites | |
-| North (YT, NT, NU) | **Local OSM PBF** | Territorial governments | Expect sparse coverage |
+| All provinces | **Local OSM PBF** + research | Varies | Provincial ArcGIS ingest pending |
 
 ## Pipeline
 
 Run from **repo root**:
 
 ```bash
-# Full pipeline (local PBF → master → embed → validate)
+# Full pipeline (PBF + official → master → embed → validate)
 node build-state-parks-all.mjs
 
-# Rescan after PBF update
+# Rescan PBF after update
 node build-state-parks-all.mjs --refresh
 
-# Extract only (single country)
-node build-state-parks-extract-pbf.mjs --source=us
-node build-state-parks-master.mjs
+# Official ingest only (network)
+node build-state-parks-ingest-official.mjs --refresh --state=CA,TX,NY
+
+# Source research (network)
+node build-state-parks-research-all.mjs
 ```
 
 ### Stages
 
 | Step | Script | Output |
 |------|--------|--------|
+| 0 | `build-state-parks-research-all.mjs` (optional) | Updates `state-parks-source-matrix.json` |
 | 1 | `build-state-parks-extract-pbf.mjs` | `state-parks-ingest/00-pbf/state-parks-{us\|ca}.json` (gitignored) |
-| 2 | `build-state-parks-master.mjs` | `state-parks-us-master.json`, `state-parks-ca-master.json` |
-| 3 | `build-state-parks-explorer-embed.mjs` | `state-parks-us-explorer-embed.js`, `state-parks-ca-explorer-embed.js` |
+| 1b | `build-state-parks-ingest-official.mjs` | `state-parks-ingest/01-official/{st}.json` (gitignored) |
+| 2 | `build-state-parks-master.mjs` | Merges official + OSM → `state-parks-*-master.json` |
+| 3 | `build-state-parks-explorer-embed.mjs` | `state-parks-*-explorer-embed.js` |
 | 4 | `validate-state-parks.mjs` | exit 0/1; reads `state-parks-qa.json` |
 
 ### Dedupe rules
 
-- Same normalized name + state/province within **500 m** → merge (keep higher rank: relation > way, has URL, has official code)
+- Same normalized name + state/province within **500 m** → merge (prefer **official** source, then URL, official code, OSM relation rank)
 - Same name farther apart → keep both; logged in `state-parks-qa.json` as conflicts
 
 ## Key files
@@ -148,7 +144,10 @@ node build-state-parks-master.mjs
 | File | Role |
 |------|------|
 | `state-parks-lib.mjs` | Schema helpers, OSM classification, dedupe |
-| `build-state-parks-extract-pbf.mjs` | Local PBF scan (primary ingest) |
+| `state-parks-source-matrix.json` | Committed source research matrix |
+| `state-parks-official-lib.mjs` | Official ArcGIS ingest helpers |
+| `build-state-parks-extract-pbf.mjs` | Local PBF scan (OSM secondary) |
+| `build-state-parks-ingest-official.mjs` | Fetch verified Tier A sources |
 | `state-parks-us-master.json` | Committed US catalog |
 | `state-parks-ca-master.json` | Committed CA catalog |
 | `state-parks-qa.json` | Per-region counts + merge conflicts |

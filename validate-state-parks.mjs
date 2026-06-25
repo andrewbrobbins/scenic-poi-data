@@ -12,6 +12,7 @@ import {
   QA_PATH,
   readJson,
 } from "./state-parks-lib.mjs";
+import { MATRIX_PATH, loadSourceMatrix } from "./state-parks-official-lib.mjs";
 
 let errors = 0;
 let warnings = 0;
@@ -97,7 +98,17 @@ if (us && ca) {
   const usStates = Object.keys(us.byAdmin || {}).length;
   const caProvinces = Object.keys(ca.byAdmin || {}).length;
   ok(`Coverage: ${usStates} US states/territories, ${caProvinces} CA provinces with records`);
-  if (usStates < 20) warn(`Only ${usStates} US regions have records — cache may be incomplete`);
+
+  const matrix = loadSourceMatrix();
+  for (const row of matrix.us || []) {
+    if (row.status !== "verified") continue;
+    const actual = us.byAdmin?.[row.admin] || 0;
+    const expected = row.ingestedCount ?? row.featureCount;
+    if (!expected) continue;
+    if (actual < expected * 0.5) {
+      warn(`${row.admin}: ${actual} records in master vs ~${expected} expected from official source`);
+    }
+  }
 }
 
 log(`Validation finished: ${errors} error(s), ${warnings} warning(s)`);

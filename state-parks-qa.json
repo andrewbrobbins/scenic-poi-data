@@ -1,28 +1,30 @@
 {
-  "generated": "2026-06-20T18:22:03.540Z",
+  "generated": "2026-06-22T23:03:35.363Z",
   "us": {
-    "recordCount": 1706,
-    "rawCount": 1725,
+    "recordCount": 3409,
+    "rawCount": 3539,
+    "officialCount": 1814,
+    "osmCount": 1725,
     "categories": {
-      "park": 1597,
-      "historic_site": 109
+      "park": 3185,
+      "historic_site": 224
     },
     "byAdmin": {
-      "AK": 12,
+      "AK": 142,
       "AL": 9,
       "AR": 12,
       "AZ": 8,
-      "CA": 30,
+      "CA": 315,
       "CO": 32,
       "CT": 47,
       "DE": 21,
-      "FL": 33,
+      "FL": 201,
       "GA": 16,
       "HI": 4,
       "IA": 78,
       "ID": 3,
       "IL": 119,
-      "IN": 13,
+      "IN": 39,
       "KS": 24,
       "KY": 7,
       "LA": 4,
@@ -30,32 +32,320 @@
       "MD": 388,
       "ME": 14,
       "MI": 62,
-      "MN": 52,
-      "MO": 181,
+      "MN": 119,
+      "MO": 266,
       "MS": 1,
       "MT": 6,
-      "NC": 4,
-      "ND": 2,
-      "NE": 2,
+      "NC": 73,
+      "ND": 17,
+      "NE": 74,
       "NH": 18,
       "NJ": 23,
       "NM": 24,
-      "NY": 90,
+      "NY": 262,
       "OH": 34,
       "OK": 7,
-      "OR": 28,
-      "PA": 10,
-      "SC": 4,
-      "TN": 6,
-      "TX": 50,
-      "UT": 11,
+      "OR": 80,
+      "PA": 117,
+      "SC": 59,
+      "TN": 70,
+      "TX": 143,
+      "UT": 61,
       "VA": 25,
-      "WA": 18,
+      "WA": 211,
       "WY": 4
     },
-    "needsReviewCount": 1295,
+    "needsReviewCount": 1260,
     "pbfPath": "/home/andrew/Cursor-Projects/scenic-poi-data/osm-pbf/geofabrik/us-latest.osm.pbf",
     "conflicts": [
+      {
+        "key": "US::IN::clifty falls",
+        "a": {
+          "id": "sp-us-in-clifty-falls-state-park-official-code4",
+          "name": "Clifty Falls State Park",
+          "lat": 38.77035,
+          "lon": -85.43628
+        },
+        "b": {
+          "id": "sp-us-in-clifty-falls-state-park-official-code85",
+          "name": "Clifty Falls State Park",
+          "lat": 38.74269,
+          "lon": -85.41271
+        },
+        "distanceM": 3693
+      },
+      {
+        "key": "US::NE::fort kearny",
+        "a": {
+          "id": "sp-us-ne-fort-kearny-official-code23",
+          "name": "Fort Kearny",
+          "lat": 40.65211,
+          "lon": -98.9895
+        },
+        "b": {
+          "id": "sp-us-ne-fort-kearny-official-code72",
+          "name": "Fort Kearny",
+          "lat": 40.64362,
+          "lon": -99.00498
+        },
+        "distanceM": 1611
+      },
+      {
+        "key": "US::NY::robert moses",
+        "a": {
+          "id": "sp-us-ny-robert-moses-state-park-official-coder120",
+          "name": "Robert Moses State Park",
+          "lat": 45.00221,
+          "lon": -74.83786
+        },
+        "b": {
+          "id": "sp-us-ny-robert-moses-state-park-official-coder121",
+          "name": "Robert Moses State Park",
+          "lat": 40.62614,
+          "lon": -73.26957
+        },
+        "distanceM": 503102
+      },
+      {
+        "key": "US::NY::john boyd thacher",
+        "a": {
+          "id": "sp-us-ny-john-boyd-thacher-state-park-official-coder074",
+          "name": "John Boyd Thacher State Park",
+          "lat": 42.67546,
+          "lon": -74.03915
+        },
+        "b": {
+          "id": "sp-us-ny-john-boyd-thacher-state-park-official-coder138",
+          "name": "John Boyd Thacher State Park",
+          "lat": 42.66264,
+          "lon": -74.04794
+        },
+        "distanceM": 1596
+      },
+      {
+        "key": "US::NY::hither hills",
+        "a": {
+          "id": "sp-us-ny-hither-hills-state-park-official-coder067",
+          "name": "Hither Hills State Park",
+          "lat": 41.01772,
+          "lon": -72.01666
+        },
+        "b": {
+          "id": "sp-us-ny-hither-hills-state-park-official-coder062",
+          "name": "Hither Hills State Park",
+          "lat": 40.99905,
+          "lon": -72.01118
+        },
+        "distanceM": 2126
+      },
+      {
+        "key": "US::OR::valley of the rogue",
+        "a": {
+          "id": "sp-us-or-valley-of-the-rogue-state-park-official-code178",
+          "name": "Valley of the Rogue State Park",
+          "lat": 42.41324,
+          "lon": -123.14316
+        },
+        "b": {
+          "id": "sp-us-or-valley-of-the-rogue-state-park-official-code179",
+          "name": "Valley of the Rogue State Park",
+          "lat": 42.41858,
+          "lon": -123.14789
+        },
+        "distanceM": 709
+      },
+      {
+        "key": "US::OR::brian booth",
+        "a": {
+          "id": "sp-us-or-brian-booth-state-park-official-code195",
+          "name": "Brian Booth State Park",
+          "lat": 44.51579,
+          "lon": -124.04589
+        },
+        "b": {
+          "id": "sp-us-or-brian-booth-state-park-official-code223",
+          "name": "Brian Booth State Park",
+          "lat": 44.51305,
+          "lon": -124.06105
+        },
+        "distanceM": 1240
+      },
+      {
+        "key": "US::OR::humbug mountain",
+        "a": {
+          "id": "sp-us-or-humbug-mountain-state-park-official-code379",
+          "name": "Humbug Mountain State Park",
+          "lat": 42.7345,
+          "lon": -124.47576
+        },
+        "b": {
+          "id": "sp-us-or-humbug-mountain-state-park-official-code380",
+          "name": "Humbug Mountain State Park",
+          "lat": 42.71934,
+          "lon": -124.46568
+        },
+        "distanceM": 1876
+      },
+      {
+        "key": "US::OR::humbug mountain",
+        "a": {
+          "id": "sp-us-or-humbug-mountain-state-park-official-code379",
+          "name": "Humbug Mountain State Park",
+          "lat": 42.7345,
+          "lon": -124.47576
+        },
+        "b": {
+          "id": "sp-us-or-humbug-mountain-state-park-official-code388",
+          "name": "Humbug Mountain State Park",
+          "lat": 42.69244,
+          "lon": -124.43955
+        },
+        "distanceM": 5534
+      },
+      {
+        "key": "US::OR::wallowa lake",
+        "a": {
+          "id": "sp-us-or-wallowa-lake-state-park-official-code355",
+          "name": "Wallowa Lake State Park",
+          "lat": 45.28051,
+          "lon": -117.20145
+        },
+        "b": {
+          "id": "sp-us-or-wallowa-lake-state-park-official-code438",
+          "name": "Wallowa Lake State Park",
+          "lat": 45.2877,
+          "lon": -117.21142
+        },
+        "distanceM": 1117
+      },
+      {
+        "key": "US::OR::wallowa lake",
+        "a": {
+          "id": "sp-us-or-wallowa-lake-state-park-official-code355",
+          "name": "Wallowa Lake State Park",
+          "lat": 45.28051,
+          "lon": -117.20145
+        },
+        "b": {
+          "id": "sp-us-or-wallowa-lake-state-park-official-code439",
+          "name": "Wallowa Lake State Park",
+          "lat": 45.26878,
+          "lon": -117.21388
+        },
+        "distanceM": 1627
+      },
+      {
+        "key": "US::OR::wallowa lake",
+        "a": {
+          "id": "sp-us-or-wallowa-lake-state-park-official-code355",
+          "name": "Wallowa Lake State Park",
+          "lat": 45.28051,
+          "lon": -117.20145
+        },
+        "b": {
+          "id": "sp-us-or-wallowa-lake-state-park-official-code440",
+          "name": "Wallowa Lake State Park",
+          "lat": 45.26927,
+          "lon": -117.21109
+        },
+        "distanceM": 1460
+      },
+      {
+        "key": "US::OR::ainsworth",
+        "a": {
+          "id": "sp-us-or-ainsworth-state-park-official-code124",
+          "name": "Ainsworth State Park",
+          "lat": 45.59516,
+          "lon": -122.05143
+        },
+        "b": {
+          "id": "sp-us-or-ainsworth-state-park-official-code68474",
+          "name": "Ainsworth State Park",
+          "lat": 45.60328,
+          "lon": -122.04519
+        },
+        "distanceM": 1025
+      },
+      {
+        "key": "US::OR::mayer",
+        "a": {
+          "id": "sp-us-or-mayer-state-park-official-code144",
+          "name": "Mayer State Park",
+          "lat": 45.68033,
+          "lon": -121.29862
+        },
+        "b": {
+          "id": "sp-us-or-mayer-state-park-official-code75681",
+          "name": "Mayer State Park",
+          "lat": 45.66801,
+          "lon": -121.2411
+        },
+        "distanceM": 4674
+      },
+      {
+        "key": "US::TX::martin dies jr",
+        "a": {
+          "id": "sp-us-tx-martin-dies-jr-official-code9e4eb502-9890-4504-bf0a-99738efd8aca",
+          "name": "Martin Dies, Jr.",
+          "lat": 30.84304,
+          "lon": -94.16686
+        },
+        "b": {
+          "id": "sp-us-tx-martin-dies-jr-official-codeb001d67a-6b7c-48e4-9247-2d6b4a0d0788",
+          "name": "Martin Dies, Jr.",
+          "lat": 30.86384,
+          "lon": -94.17923
+        },
+        "distanceM": 2597
+      },
+      {
+        "key": "US::TX::martin dies jr",
+        "a": {
+          "id": "sp-us-tx-martin-dies-jr-official-code9e4eb502-9890-4504-bf0a-99738efd8aca",
+          "name": "Martin Dies, Jr.",
+          "lat": 30.84304,
+          "lon": -94.16686
+        },
+        "b": {
+          "id": "sp-us-tx-martin-dies-jr-official-code2d033ae5-a0bf-4617-944a-e473987cdbb2",
+          "name": "Martin Dies, Jr.",
+          "lat": 30.85372,
+          "lon": -94.21146
+        },
+        "distanceM": 4420
+      },
+      {
+        "key": "US::TX::lake somerville trailway",
+        "a": {
+          "id": "sp-us-tx-lake-somerville-trailway-official-code27e5a2fb-7362-460a-a926-d09ca68ef",
+          "name": "Lake Somerville Trailway",
+          "lat": 30.31004,
+          "lon": -96.69707
+        },
+        "b": {
+          "id": "sp-us-tx-lake-somerville-trailway-official-code11f24de4-7d7d-46a1-9c69-d60b22f94",
+          "name": "Lake Somerville Trailway",
+          "lat": 30.27411,
+          "lon": -96.71649
+        },
+        "distanceM": 4409
+      },
+      {
+        "key": "US::TX::lake somerville trailway",
+        "a": {
+          "id": "sp-us-tx-lake-somerville-trailway-official-code27e5a2fb-7362-460a-a926-d09ca68ef",
+          "name": "Lake Somerville Trailway",
+          "lat": 30.31004,
+          "lon": -96.69707
+        },
+        "b": {
+          "id": "sp-us-tx-lake-somerville-trailway-official-codeb561828d-9efa-4ec9-b9e9-8b765ee0b",
+          "name": "Lake Somerville Trailway",
+          "lat": 30.33248,
+          "lon": -96.75923
+        },
+        "distanceM": 6467
+      },
       {
         "key": "US::NJ::hunterdon county sourland mountain preserve",
         "a": {
@@ -75,6 +365,40 @@
         "distanceM": 1094
       },
       {
+        "key": "US::AK::kachemak bay",
+        "a": {
+          "id": "sp-us-ak-kachemak-bay-state-park-official-code116",
+          "name": "Kachemak Bay State Park",
+          "lat": 59.56057,
+          "lon": -151.24652
+        },
+        "b": {
+          "id": "sp-us-ak-kachemak-bay-state-park-node4210631063",
+          "name": "Kachemak Bay State Park",
+          "lat": 59.38312,
+          "lon": -151.62219,
+          "osmId": "node/4210631063"
+        },
+        "distanceM": 28975
+      },
+      {
+        "key": "US::OR::nehalem bay",
+        "a": {
+          "id": "sp-us-or-nehalem-bay-state-park-official-code435",
+          "name": "Nehalem Bay State Park",
+          "lat": 45.68429,
+          "lon": -123.92858
+        },
+        "b": {
+          "id": "sp-us-or-nehalem-bay-state-park-node6194611278",
+          "name": "Nehalem Bay State Park",
+          "lat": 45.70408,
+          "lon": -123.91685,
+          "osmId": "node/6194611278"
+        },
+        "distanceM": 2382
+      },
+      {
         "key": "US::MN::des moines river sna",
         "a": {
           "id": "sp-us-mn-des-moines-river-sna-node10911610650",
@@ -91,6 +415,108 @@
           "osmId": "node/10911631562"
         },
         "distanceM": 1763
+      },
+      {
+        "key": "US::TX::lake whitney",
+        "a": {
+          "id": "sp-us-tx-lake-whitney-official-code94473e2e-d36e-4b73-b106-844e3ea05421",
+          "name": "Lake Whitney",
+          "lat": 31.92539,
+          "lon": -97.36174
+        },
+        "b": {
+          "id": "sp-us-tx-lake-whitney-state-park-way28664133",
+          "name": "Lake Whitney State Park",
+          "lat": 31.92032,
+          "lon": -97.36346,
+          "osmId": "way/28664133"
+        },
+        "distanceM": 587
+      },
+      {
+        "key": "US::TX::san angelo",
+        "a": {
+          "id": "sp-us-tx-san-angelo-official-code51ab0caa-a726-4533-8690-25c9a9abc059",
+          "name": "San Angelo",
+          "lat": 31.4954,
+          "lon": -100.5231
+        },
+        "b": {
+          "id": "sp-us-tx-san-angelo-state-park-way28711140",
+          "name": "San Angelo State Park",
+          "lat": 31.50093,
+          "lon": -100.53743,
+          "osmId": "way/28711140"
+        },
+        "distanceM": 1491
+      },
+      {
+        "key": "US::TX::longhorn cavern",
+        "a": {
+          "id": "sp-us-tx-longhorn-cavern-official-code76e2b540-f6a9-4c86-a167-8cf732300516",
+          "name": "Longhorn Cavern",
+          "lat": 30.68637,
+          "lon": -98.31801
+        },
+        "b": {
+          "id": "sp-us-tx-longhorn-cavern-state-park-way28714467",
+          "name": "Longhorn Cavern State Park",
+          "lat": 30.69013,
+          "lon": -98.35985,
+          "osmId": "way/28714467"
+        },
+        "distanceM": 4023
+      },
+      {
+        "key": "US::TX::village creek",
+        "a": {
+          "id": "sp-us-tx-village-creek-official-codeff45ba72-2cc7-41b8-a2c6-a02146f0be17",
+          "name": "Village Creek",
+          "lat": 30.24852,
+          "lon": -94.15287
+        },
+        "b": {
+          "id": "sp-us-tx-village-creek-state-park-way28714897",
+          "name": "Village Creek State Park",
+          "lat": 30.25038,
+          "lon": -94.16795,
+          "osmId": "way/28714897"
+        },
+        "distanceM": 1463
+      },
+      {
+        "key": "US::TX::pedernales falls",
+        "a": {
+          "id": "sp-us-tx-pedernales-falls-official-code0cebd80b-ee22-4e16-95d1-9e8d59241ab2",
+          "name": "Pedernales Falls",
+          "lat": 30.30771,
+          "lon": -98.24595
+        },
+        "b": {
+          "id": "sp-us-tx-pedernales-falls-state-park-way28715022",
+          "name": "Pedernales Falls State Park",
+          "lat": 30.32711,
+          "lon": -98.24776,
+          "osmId": "way/28715022"
+        },
+        "distanceM": 2164
+      },
+      {
+        "key": "US::TX::brazos bend",
+        "a": {
+          "id": "sp-us-tx-brazos-bend-official-codea4355858-7ec6-4105-8594-73d394fd2967",
+          "name": "Brazos Bend",
+          "lat": 29.37857,
+          "lon": -95.59484
+        },
+        "b": {
+          "id": "sp-us-tx-brazos-bend-state-park-way28733729",
+          "name": "Brazos Bend State Park",
+          "lat": 29.38224,
+          "lon": -95.58402,
+          "osmId": "way/28733729"
+        },
+        "distanceM": 1125
       },
       {
         "key": "US::MA::pilgrim memorial",
@@ -1335,22 +1761,259 @@
         "distanceM": 1728
       },
       {
+        "key": "US::IN::chain o lakes",
+        "a": {
+          "id": "sp-us-in-chain-o-lakes-state-park-official-code5",
+          "name": "Chain O'Lakes State Park",
+          "lat": 41.34131,
+          "lon": -85.40149
+        },
+        "b": {
+          "id": "sp-us-in-chain-o-lakes-state-park-way30963497",
+          "name": "Chain O'Lakes State Park",
+          "lat": 41.33279,
+          "lon": -85.38081,
+          "osmId": "way/30963497"
+        },
+        "distanceM": 1969
+      },
+      {
+        "key": "US::NC::medoc mountain",
+        "a": {
+          "id": "sp-us-nc-medoc-mountain",
+          "name": "Medoc Mountain",
+          "lat": 36.24792,
+          "lon": -77.88532
+        },
+        "b": {
+          "id": "sp-us-nc-medoc-mountain-state-park-way33011295",
+          "name": "Medoc Mountain State Park",
+          "lat": 36.25027,
+          "lon": -77.89731,
+          "osmId": "way/33011295"
+        },
+        "distanceM": 1106
+      },
+      {
+        "key": "US::FL::hillsborough river",
+        "a": {
+          "id": "sp-us-fl-hillsborough-river-state-park-official-codes00037",
+          "name": "Hillsborough River State Park",
+          "lat": 28.10007,
+          "lon": -82.28046
+        },
+        "b": {
+          "id": "sp-us-fl-hillsborough-river-state-park-way35014944",
+          "name": "Hillsborough River State Park",
+          "lat": 28.14959,
+          "lon": -82.22779,
+          "osmId": "way/35014944"
+        },
+        "distanceM": 7550
+      },
+      {
+        "key": "US::FL::alafia river",
+        "a": {
+          "id": "sp-us-fl-alafia-river-state-park-official-codes00251",
+          "name": "Alafia River State Park",
+          "lat": 27.77386,
+          "lon": -82.11501
+        },
+        "b": {
+          "id": "sp-us-fl-alafia-river-state-park-way37288188",
+          "name": "Alafia River State Park",
+          "lat": 27.76773,
+          "lon": -82.1257,
+          "osmId": "way/37288188"
+        },
+        "distanceM": 1253
+      },
+      {
+        "key": "US::SC::givhans ferry",
+        "a": {
+          "id": "sp-us-sc-givhans-ferry-state-park-official-code15",
+          "name": "Givhans Ferry State Park",
+          "lat": 33.03029,
+          "lon": -80.39149
+        },
+        "b": {
+          "id": "sp-us-sc-givhans-ferry-state-park-way37783051",
+          "name": "Givhans Ferry State Park",
+          "lat": 33.03358,
+          "lon": -80.37572,
+          "osmId": "way/37783051"
+        },
+        "distanceM": 1515
+      },
+      {
+        "key": "US::MN::whitewater",
+        "a": {
+          "id": "sp-us-mn-whitewater-official-codespk00280",
+          "name": "Whitewater",
+          "lat": 44.05455,
+          "lon": -92.05436
+        },
+        "b": {
+          "id": "sp-us-mn-whitewater-state-park-way39876346",
+          "name": "Whitewater State Park",
+          "lat": 44.05916,
+          "lon": -92.04145,
+          "osmId": "way/39876346"
+        },
+        "distanceM": 1152
+      },
+      {
+        "key": "US::MN::jay cooke",
+        "a": {
+          "id": "sp-us-mn-jay-cooke-official-codespk00187",
+          "name": "Jay Cooke",
+          "lat": 46.6488,
+          "lon": -92.35088
+        },
+        "b": {
+          "id": "sp-us-mn-jay-cooke-state-park-way39876348",
+          "name": "Jay Cooke State Park",
+          "lat": 46.65481,
+          "lon": -92.33701,
+          "osmId": "way/39876348"
+        },
+        "distanceM": 1252
+      },
+      {
+        "key": "US::MN::frontenac",
+        "a": {
+          "id": "sp-us-mn-frontenac-official-codespk00160",
+          "name": "Frontenac",
+          "lat": 44.52272,
+          "lon": -92.37033
+        },
+        "b": {
+          "id": "sp-us-mn-frontenac-state-park-way39876362",
+          "name": "Frontenac State Park",
+          "lat": 44.52176,
+          "lon": -92.34144,
+          "osmId": "way/39876362"
+        },
+        "distanceM": 2293
+      },
+      {
+        "key": "US::MN::mille lacs kathio",
+        "a": {
+          "id": "sp-us-mn-mille-lacs-kathio-official-codespk00232",
+          "name": "Mille Lacs Kathio",
+          "lat": 46.1312,
+          "lon": -93.73583
+        },
+        "b": {
+          "id": "sp-us-mn-mille-lacs-kathio-state-park-way39876380",
+          "name": "Mille Lacs Kathio State Park",
+          "lat": 46.14299,
+          "lon": -93.7342,
+          "osmId": "way/39876380"
+        },
+        "distanceM": 1317
+      },
+      {
+        "key": "US::MN::bear head lake",
+        "a": {
+          "id": "sp-us-mn-bear-head-lake-official-codespk00109",
+          "name": "Bear Head Lake",
+          "lat": 47.79424,
+          "lon": -92.07504
+        },
+        "b": {
+          "id": "sp-us-mn-bear-head-lake-state-park-way39876382",
+          "name": "Bear Head Lake State Park",
+          "lat": 47.79759,
+          "lon": -92.0811,
+          "osmId": "way/39876382"
+        },
+        "distanceM": 586
+      },
+      {
         "key": "US::MN::sakatah lake",
         "a": {
+          "id": "sp-us-mn-sakatah-lake-official-codespk00256",
+          "name": "Sakatah Lake",
+          "lat": 44.22388,
+          "lon": -93.52774
+        },
+        "b": {
           "id": "sp-us-mn-sakatah-lake-state-park-way39876391",
           "name": "Sakatah Lake State Park",
           "lat": 44.22989,
           "lon": -93.5189,
           "osmId": "way/39876391"
         },
-        "b": {
-          "id": "sp-us-mn-sakatah-lake-state-park-way39876438",
-          "name": "Sakatah Lake State Park",
-          "lat": 44.22435,
-          "lon": -93.52433,
-          "osmId": "way/39876438"
+        "distanceM": 971
+      },
+      {
+        "key": "US::MN::wild river",
+        "a": {
+          "id": "sp-us-mn-wild-river-official-codespk00254",
+          "name": "Wild River",
+          "lat": 45.56788,
+          "lon": -92.80944
         },
-        "distanceM": 753
+        "b": {
+          "id": "sp-us-mn-wild-river-state-park-way39876430",
+          "name": "Wild River State Park",
+          "lat": 45.56351,
+          "lon": -92.81641,
+          "osmId": "way/39876430"
+        },
+        "distanceM": 728
+      },
+      {
+        "key": "US::MN::crow wing",
+        "a": {
+          "id": "sp-us-mn-crow-wing-official-codespk00139",
+          "name": "Crow Wing",
+          "lat": 46.28436,
+          "lon": -94.32912
+        },
+        "b": {
+          "id": "sp-us-mn-crow-wing-state-park-way39876435",
+          "name": "Crow Wing State Park",
+          "lat": 46.28075,
+          "lon": -94.34159,
+          "osmId": "way/39876435"
+        },
+        "distanceM": 1039
+      },
+      {
+        "key": "US::MN::minneopa",
+        "a": {
+          "id": "sp-us-mn-minneopa-official-codespk00235",
+          "name": "Minneopa",
+          "lat": 44.17093,
+          "lon": -94.12117
+        },
+        "b": {
+          "id": "sp-us-mn-minneopa-state-park-way39876437",
+          "name": "Minneopa State Park",
+          "lat": 44.17125,
+          "lon": -94.10921,
+          "osmId": "way/39876437"
+        },
+        "distanceM": 955
+      },
+      {
+        "key": "US::IN::mccormick s creek",
+        "a": {
+          "id": "sp-us-in-mccormick-s-creek-state-park-official-code131",
+          "name": "McCormick's Creek State Park",
+          "lat": 39.2845,
+          "lon": -86.72635
+        },
+        "b": {
+          "id": "sp-us-in-mccormick-s-creek-state-park-way51734608",
+          "name": "McCormick's Creek State Park",
+          "lat": 39.30286,
+          "lon": -86.7283,
+          "osmId": "way/51734608"
+        },
+        "distanceM": 2048
       },
       {
         "key": "US::IA::rock creek wildlife management area",
@@ -1533,6 +2196,210 @@
         "distanceM": 661
       },
       {
+        "key": "US::FL::colt creek",
+        "a": {
+          "id": "sp-us-fl-colt-creek-state-park-official-codes00273",
+          "name": "Colt Creek State Park",
+          "lat": 28.2848,
+          "lon": -82.03926
+        },
+        "b": {
+          "id": "sp-us-fl-colt-creek-state-park-way84968078",
+          "name": "Colt Creek State Park",
+          "lat": 28.29853,
+          "lon": -82.04681,
+          "osmId": "way/84968078"
+        },
+        "distanceM": 1696
+      },
+      {
+        "key": "US::TN::big hill pond",
+        "a": {
+          "id": "sp-us-tn-big-hill-pond-state-park-official-codetsp-0020",
+          "name": "Big Hill Pond State Park",
+          "lat": 35.02717,
+          "lon": -88.80459
+        },
+        "b": {
+          "id": "sp-us-tn-big-hill-pond-state-park-way96778371",
+          "name": "Big Hill Pond State Park",
+          "lat": 35.03771,
+          "lon": -88.7361,
+          "osmId": "way/96778371"
+        },
+        "distanceM": 6345
+      },
+      {
+        "key": "US::MN::forestville mystery cave",
+        "a": {
+          "id": "sp-us-mn-forestville-mystery-cave-official-codespk00148",
+          "name": "Forestville/Mystery Cave",
+          "lat": 43.61879,
+          "lon": -92.31069
+        },
+        "b": {
+          "id": "sp-us-mn-forestville-mystery-cave-state-park-way99189734",
+          "name": "Forestville/Mystery Cave State Park",
+          "lat": 43.63935,
+          "lon": -92.2077,
+          "osmId": "way/99189734"
+        },
+        "distanceM": 8599
+      },
+      {
+        "key": "US::FL::highlands hammock",
+        "a": {
+          "id": "sp-us-fl-highlands-hammock-state-park-official-codes00036",
+          "name": "Highlands Hammock State Park",
+          "lat": 27.42876,
+          "lon": -81.53952
+        },
+        "b": {
+          "id": "sp-us-fl-highlands-hammock-state-park-way99432134",
+          "name": "Highlands Hammock State Park",
+          "lat": 27.4666,
+          "lon": -81.53967,
+          "osmId": "way/99432134"
+        },
+        "distanceM": 4208
+      },
+      {
+        "key": "US::OR::white river falls",
+        "a": {
+          "id": "sp-us-or-white-river-falls-state-park-official-code173",
+          "name": "White River Falls State Park",
+          "lat": 45.24121,
+          "lon": -121.08957
+        },
+        "b": {
+          "id": "sp-us-or-white-river-falls-state-park-way100482922",
+          "name": "White River Falls State Park",
+          "lat": 45.24166,
+          "lon": -121.09619,
+          "osmId": "way/100482922"
+        },
+        "distanceM": 521
+      },
+      {
+        "key": "US::FL::savannas preserve",
+        "a": {
+          "id": "sp-us-fl-savannas-preserve-state-park-official-codes00130",
+          "name": "Savannas Preserve State Park",
+          "lat": 27.34,
+          "lon": -80.28748
+        },
+        "b": {
+          "id": "sp-us-fl-savannas-preserve-state-park-way128009063",
+          "name": "Savannas Preserve State Park",
+          "lat": 27.29014,
+          "lon": -80.26154,
+          "osmId": "way/128009063"
+        },
+        "distanceM": 6108
+      },
+      {
+        "key": "US::MN::fort snelling",
+        "a": {
+          "id": "sp-us-mn-fort-snelling-official-codespk00154",
+          "name": "Fort Snelling",
+          "lat": 44.8611,
+          "lon": -93.18881
+        },
+        "b": {
+          "id": "sp-us-mn-fort-snelling-state-park-way154130176",
+          "name": "Fort Snelling State Park",
+          "lat": 44.86746,
+          "lon": -93.19546,
+          "osmId": "way/154130176"
+        },
+        "distanceM": 880
+      },
+      {
+        "key": "US::IN::o bannon woods",
+        "a": {
+          "id": "sp-us-in-o-bannon-woods-state-park-official-code132",
+          "name": "O'Bannon Woods State Park",
+          "lat": 38.19931,
+          "lon": -86.26592
+        },
+        "b": {
+          "id": "sp-us-in-o-bannon-woods-state-park-way155905207",
+          "name": "O'Bannon Woods State Park",
+          "lat": 38.186,
+          "lon": -86.29322,
+          "osmId": "way/155905207"
+        },
+        "distanceM": 2808
+      },
+      {
+        "key": "US::IN::lincoln",
+        "a": {
+          "id": "sp-us-in-lincoln-state-park-official-code15",
+          "name": "Lincoln State Park",
+          "lat": 38.11119,
+          "lon": -86.99807
+        },
+        "b": {
+          "id": "sp-us-in-lincoln-state-park-way157653919",
+          "name": "Lincoln State Park",
+          "lat": 38.10903,
+          "lon": -87.00714,
+          "osmId": "way/157653919"
+        },
+        "distanceM": 829
+      },
+      {
+        "key": "US::FL::oscar scherer",
+        "a": {
+          "id": "sp-us-fl-oscar-scherer-state-park-official-codes00062",
+          "name": "Oscar Scherer State Park",
+          "lat": 27.18016,
+          "lon": -82.46727
+        },
+        "b": {
+          "id": "sp-us-fl-oscar-scherer-state-park-way165265506",
+          "name": "Oscar Scherer State Park",
+          "lat": 27.17441,
+          "lon": -82.46807,
+          "osmId": "way/165265506"
+        },
+        "distanceM": 644
+      },
+      {
+        "key": "US::FL::atlantic ridge preserve",
+        "a": {
+          "id": "sp-us-fl-atlantic-ridge-preserve-state-park-official-codes00261",
+          "name": "Atlantic Ridge Preserve State Park",
+          "lat": 27.08986,
+          "lon": -80.21597
+        },
+        "b": {
+          "id": "sp-us-fl-atlantic-ridge-preserve-state-park-way166553881",
+          "name": "Atlantic Ridge Preserve State Park",
+          "lat": 27.09788,
+          "lon": -80.22268,
+          "osmId": "way/166553881"
+        },
+        "distanceM": 1112
+      },
+      {
+        "key": "US::FL::little manatee river",
+        "a": {
+          "id": "sp-us-fl-little-manatee-river-state-park-official-codes00115",
+          "name": "Little Manatee River State Park",
+          "lat": 27.6731,
+          "lon": -82.37328
+        },
+        "b": {
+          "id": "sp-us-fl-little-manatee-river-state-park-way171070166",
+          "name": "Little Manatee River State Park",
+          "lat": 27.66805,
+          "lon": -82.38099,
+          "osmId": "way/171070166"
+        },
+        "distanceM": 944
+      },
+      {
         "key": "US::AZ::homolovi",
         "a": {
           "id": "sp-us-az-homolovi-state-park-way140792133",
@@ -1549,6 +2416,57 @@
           "osmId": "way/177420302"
         },
         "distanceM": 7820
+      },
+      {
+        "key": "US::MN::blue mounds",
+        "a": {
+          "id": "sp-us-mn-blue-mounds-official-codespk00121",
+          "name": "Blue Mounds",
+          "lat": 43.70713,
+          "lon": -96.19265
+        },
+        "b": {
+          "id": "sp-us-mn-blue-mounds-state-park-way188688376",
+          "name": "Blue Mounds State Park",
+          "lat": 43.70595,
+          "lon": -96.18439,
+          "osmId": "way/188688376"
+        },
+        "distanceM": 677
+      },
+      {
+        "key": "US::FL::gasparilla island",
+        "a": {
+          "id": "sp-us-fl-gasparilla-island-state-park-official-codes00191",
+          "name": "Gasparilla Island State Park",
+          "lat": 26.73256,
+          "lon": -82.26044
+        },
+        "b": {
+          "id": "sp-us-fl-gasparilla-island-state-park-way192024942",
+          "name": "Gasparilla Island State Park",
+          "lat": 26.74256,
+          "lon": -82.25623,
+          "osmId": "way/192024942"
+        },
+        "distanceM": 1188
+      },
+      {
+        "key": "US::SC::huntington beach",
+        "a": {
+          "id": "sp-us-sc-huntington-beach-state-park-official-code22",
+          "name": "Huntington Beach State Park",
+          "lat": 33.51322,
+          "lon": -79.05931
+        },
+        "b": {
+          "id": "sp-us-sc-huntington-beach-state-park-way196215409",
+          "name": "Huntington Beach State Park",
+          "lat": 33.51909,
+          "lon": -79.05638,
+          "osmId": "way/196215409"
+        },
+        "distanceM": 707
       },
       {
         "key": "US::MD::fair hill natural resource management area",
@@ -1583,6 +2501,57 @@
           "lat": 39.66522,
           "lon": -75.82678,
           "osmId": "way/218150663"
+        },
+        "distanceM": 802
+      },
+      {
+        "key": "US::WA::pacific beach",
+        "a": {
+          "id": "sp-us-wa-pacific-beach-official-code46501",
+          "name": "Pacific Beach",
+          "lat": 47.17568,
+          "lon": -124.19441
+        },
+        "b": {
+          "id": "sp-us-wa-pacific-beach-state-park-way238394386",
+          "name": "Pacific Beach State Park",
+          "lat": 47.20591,
+          "lon": -124.20256,
+          "osmId": "way/238394386"
+        },
+        "distanceM": 3417
+      },
+      {
+        "key": "US::AK::denali",
+        "a": {
+          "id": "sp-us-ak-denali-state-park-official-code104",
+          "name": "Denali State Park",
+          "lat": 62.75523,
+          "lon": -150.22371
+        },
+        "b": {
+          "id": "sp-us-ak-denali-state-park-way268206171",
+          "name": "Denali State Park",
+          "lat": 62.76517,
+          "lon": -149.80751,
+          "osmId": "way/268206171"
+        },
+        "distanceM": 21212
+      },
+      {
+        "key": "US::MO::ha ha tonka",
+        "a": {
+          "id": "sp-us-mo-ha-ha-tonka-state-park-official-code4303",
+          "name": "Ha Ha Tonka State Park",
+          "lat": 37.96786,
+          "lon": -92.76355
+        },
+        "b": {
+          "id": "sp-us-mo-ha-ha-tonka-state-park-way288212287",
+          "name": "Ha Ha Tonka State Park",
+          "lat": 37.9716,
+          "lon": -92.77137,
+          "osmId": "way/288212287"
         },
         "distanceM": 802
       },
@@ -5853,6 +6822,142 @@
         "distanceM": 1519
       },
       {
+        "key": "US::FL::kissimmee prairie preserve",
+        "a": {
+          "id": "sp-us-fl-kissimmee-prairie-preserve-state-park-official-codes00252",
+          "name": "Kissimmee Prairie Preserve State Park",
+          "lat": 27.57274,
+          "lon": -81.06511
+        },
+        "b": {
+          "id": "sp-us-fl-kissimmee-prairie-preserve-state-park-way328695818",
+          "name": "Kissimmee Prairie Preserve State Park",
+          "lat": 27.54127,
+          "lon": -81.13531,
+          "osmId": "way/328695818"
+        },
+        "distanceM": 7755
+      },
+      {
+        "key": "US::TN::savage gulf",
+        "a": {
+          "id": "sp-us-tn-savage-gulf-state-park-official-codetsp-0319",
+          "name": "Savage Gulf State Park",
+          "lat": 35.43894,
+          "lon": -85.69771
+        },
+        "b": {
+          "id": "sp-us-tn-savage-gulf-state-park-way335828143",
+          "name": "Savage Gulf State Park",
+          "lat": 35.43775,
+          "lon": -85.63905,
+          "osmId": "way/335828143"
+        },
+        "distanceM": 5316
+      },
+      {
+        "key": "US::IN::clifty falls",
+        "a": {
+          "id": "sp-us-in-clifty-falls-state-park-official-code4",
+          "name": "Clifty Falls State Park",
+          "lat": 38.77035,
+          "lon": -85.43628
+        },
+        "b": {
+          "id": "sp-us-in-clifty-falls-state-park-way350946919",
+          "name": "Clifty Falls State Park",
+          "lat": 38.75897,
+          "lon": -85.426,
+          "osmId": "way/350946919"
+        },
+        "distanceM": 1548
+      },
+      {
+        "key": "US::PA::pymatuning",
+        "a": {
+          "id": "sp-us-pa-pymatuning-state-park-official-code6226",
+          "name": "Pymatuning State Park",
+          "lat": 41.59287,
+          "lon": -80.4688
+        },
+        "b": {
+          "id": "sp-us-pa-pymatuning-state-park-way365249806",
+          "name": "Pymatuning State Park",
+          "lat": 41.60139,
+          "lon": -80.46548,
+          "osmId": "way/365249806"
+        },
+        "distanceM": 987
+      },
+      {
+        "key": "US::PA::maurice k goddard",
+        "a": {
+          "id": "sp-us-pa-maurice-k-goddard-state-park-official-code6215",
+          "name": "Maurice K. Goddard State Park",
+          "lat": 41.40008,
+          "lon": -80.12263
+        },
+        "b": {
+          "id": "sp-us-pa-maurice-k-goddard-state-park-way365489580",
+          "name": "Maurice K. Goddard State Park",
+          "lat": 41.41199,
+          "lon": -80.13343,
+          "osmId": "way/365489580"
+        },
+        "distanceM": 1602
+      },
+      {
+        "key": "US::NY::selkirk shores",
+        "a": {
+          "id": "sp-us-ny-selkirk-shores-state-park-official-coder126",
+          "name": "Selkirk Shores State Park",
+          "lat": 43.55591,
+          "lon": -76.19691
+        },
+        "b": {
+          "id": "sp-us-ny-selkirk-shores-state-park-way434948757",
+          "name": "Selkirk Shores State Park",
+          "lat": 43.56086,
+          "lon": -76.20556,
+          "osmId": "way/434948757"
+        },
+        "distanceM": 888
+      },
+      {
+        "key": "US::FL::price s scrub",
+        "a": {
+          "id": "sp-us-fl-price-s-scrub-state-park-official-codes00278",
+          "name": "Price's Scrub State Park",
+          "lat": 29.46907,
+          "lon": -82.28802
+        },
+        "b": {
+          "id": "sp-us-fl-price-s-scrub-state-park-way449120820",
+          "name": "Price's Scrub State Park",
+          "lat": 29.45912,
+          "lon": -82.27766,
+          "osmId": "way/449120820"
+        },
+        "distanceM": 1493
+      },
+      {
+        "key": "US::OR::bullards beach",
+        "a": {
+          "id": "sp-us-or-bullards-beach-state-park-official-code267",
+          "name": "Bullards Beach State Park",
+          "lat": 43.15182,
+          "lon": -124.40885
+        },
+        "b": {
+          "id": "sp-us-or-bullards-beach-state-park-way481438896",
+          "name": "Bullards Beach State Park",
+          "lat": 43.14672,
+          "lon": -124.41353,
+          "osmId": "way/481438896"
+        },
+        "distanceM": 682
+      },
+      {
         "key": "US::AL::turkey creek nature preserve",
         "a": {
           "id": "sp-us-al-turkey-creek-nature-preserve-way497494374",
@@ -5887,6 +6992,23 @@
           "osmId": "way/541148598"
         },
         "distanceM": 646
+      },
+      {
+        "key": "US::SC::hunting island",
+        "a": {
+          "id": "sp-us-sc-hunting-island-state-park-official-code21",
+          "name": "Hunting Island State Park",
+          "lat": 32.36999,
+          "lon": -80.46
+        },
+        "b": {
+          "id": "sp-us-sc-hunting-island-state-park-way583838149",
+          "name": "Hunting Island State Park",
+          "lat": 32.37561,
+          "lon": -80.44952,
+          "osmId": "way/583838149"
+        },
+        "distanceM": 1166
       },
       {
         "key": "US::MI::watkins lake",
@@ -5943,13 +7065,46 @@
         "distanceM": 3419
       },
       {
+        "key": "US::OR::william m tugman",
+        "a": {
+          "id": "sp-us-or-william-m-tugman-state-park-official-code47",
+          "name": "William M. Tugman State Park",
+          "lat": 43.611,
+          "lon": -124.17503
+        },
+        "b": {
+          "id": "sp-us-or-william-m-tugman-state-park-way719529325",
+          "name": "William M. Tugman State Park",
+          "lat": 43.60383,
+          "lon": -124.17711,
+          "osmId": "way/719529325"
+        },
+        "distanceM": 815
+      },
+      {
         "key": "US::FL::lower wekiva river preserve",
         "a": {
+          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-official-codes00124",
+          "name": "Lower Wekiva River Preserve State Park",
+          "lat": 28.88734,
+          "lon": -81.38902
+        },
+        "b": {
           "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460128",
           "name": "Lower Wekiva River Preserve State Park",
           "lat": 28.8291,
           "lon": -81.41251,
           "osmId": "way/799460128"
+        },
+        "distanceM": 6868
+      },
+      {
+        "key": "US::FL::lower wekiva river preserve",
+        "a": {
+          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-official-codes00124",
+          "name": "Lower Wekiva River Preserve State Park",
+          "lat": 28.88734,
+          "lon": -81.38902
         },
         "b": {
           "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460129",
@@ -5958,16 +7113,15 @@
           "lon": -81.38911,
           "osmId": "way/799460129"
         },
-        "distanceM": 19742
+        "distanceM": 13134
       },
       {
         "key": "US::FL::lower wekiva river preserve",
         "a": {
-          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460128",
+          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-official-codes00124",
           "name": "Lower Wekiva River Preserve State Park",
-          "lat": 28.8291,
-          "lon": -81.41251,
-          "osmId": "way/799460128"
+          "lat": 28.88734,
+          "lon": -81.38902
         },
         "b": {
           "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460130",
@@ -5976,16 +7130,15 @@
           "lon": -81.38076,
           "osmId": "way/799460130"
         },
-        "distanceM": 19585
+        "distanceM": 12889
       },
       {
         "key": "US::FL::lower wekiva river preserve",
         "a": {
-          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460128",
+          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-official-codes00124",
           "name": "Lower Wekiva River Preserve State Park",
-          "lat": 28.8291,
-          "lon": -81.41251,
-          "osmId": "way/799460128"
+          "lat": 28.88734,
+          "lon": -81.38902
         },
         "b": {
           "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460131",
@@ -5994,16 +7147,15 @@
           "lon": -81.39911,
           "osmId": "way/799460131"
         },
-        "distanceM": 19661
+        "distanceM": 13179
       },
       {
         "key": "US::FL::lower wekiva river preserve",
         "a": {
-          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460128",
+          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-official-codes00124",
           "name": "Lower Wekiva River Preserve State Park",
-          "lat": 28.8291,
-          "lon": -81.41251,
-          "osmId": "way/799460128"
+          "lat": 28.88734,
+          "lon": -81.38902
         },
         "b": {
           "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460132",
@@ -6012,16 +7164,15 @@
           "lon": -81.39235,
           "osmId": "way/799460132"
         },
-        "distanceM": 15601
+        "distanceM": 9007
       },
       {
         "key": "US::FL::lower wekiva river preserve",
         "a": {
-          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460128",
+          "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-official-codes00124",
           "name": "Lower Wekiva River Preserve State Park",
-          "lat": 28.8291,
-          "lon": -81.41251,
-          "osmId": "way/799460128"
+          "lat": 28.88734,
+          "lon": -81.38902
         },
         "b": {
           "id": "sp-us-fl-lower-wekiva-river-preserve-state-park-way799460133",
@@ -6030,7 +7181,7 @@
           "lon": -81.36867,
           "osmId": "way/799460133"
         },
-        "distanceM": 8744
+        "distanceM": 2293
       },
       {
         "key": "US::VA::north landing river natural area preserve",
@@ -6069,6 +7220,23 @@
         "distanceM": 7658
       },
       {
+        "key": "US::TX::kickapoo cavern",
+        "a": {
+          "id": "sp-us-tx-kickapoo-cavern-official-codecf41e1dc-8ba1-40e8-851c-f6af05316a24",
+          "name": "Kickapoo Cavern",
+          "lat": 29.61147,
+          "lon": -100.448
+        },
+        "b": {
+          "id": "sp-us-tx-kickapoo-cavern-state-park-way860448279",
+          "name": "Kickapoo Cavern State Park",
+          "lat": 29.61287,
+          "lon": -100.43612,
+          "osmId": "way/860448279"
+        },
+        "distanceM": 1159
+      },
+      {
         "key": "US::MA::borderland",
         "a": {
           "id": "sp-us-ma-borderland-state-park-way29830588",
@@ -6105,6 +7273,40 @@
         "distanceM": 1555
       },
       {
+        "key": "US::AK::granite bay state marine park",
+        "a": {
+          "id": "sp-us-ak-granite-bay-state-marine-park-official-code96",
+          "name": "Granite Bay State Marine Park",
+          "lat": 60.88102,
+          "lon": -148.07287
+        },
+        "b": {
+          "id": "sp-us-ak-granite-bay-state-marine-park-way895110362",
+          "name": "Granite Bay State Marine Park",
+          "lat": 60.88237,
+          "lon": -148.08563,
+          "osmId": "way/895110362"
+        },
+        "distanceM": 707
+      },
+      {
+        "key": "US::TX::bastrop",
+        "a": {
+          "id": "sp-us-tx-bastrop-official-code57a2de79-2236-4ef1-9923-b31319bc8343",
+          "name": "Bastrop",
+          "lat": 30.11522,
+          "lon": -97.23895
+        },
+        "b": {
+          "id": "sp-us-tx-bastrop-state-park-way904012259",
+          "name": "Bastrop State Park",
+          "lat": 30.11278,
+          "lon": -97.23241,
+          "osmId": "way/904012259"
+        },
+        "distanceM": 685
+      },
+      {
         "key": "US::NJ::hacklebarney",
         "a": {
           "id": "sp-us-nj-hacklebarney-state-park-way587924332",
@@ -6121,6 +7323,23 @@
           "osmId": "way/914463435"
         },
         "distanceM": 1768
+      },
+      {
+        "key": "US::IN::summit lake",
+        "a": {
+          "id": "sp-us-in-summit-lake-state-park-official-code121",
+          "name": "Summit Lake State Park",
+          "lat": 40.02064,
+          "lon": -85.30314
+        },
+        "b": {
+          "id": "sp-us-in-summit-lake-state-park-way915963171",
+          "name": "Summit Lake State Park",
+          "lat": 40.03231,
+          "lon": -85.30524,
+          "osmId": "way/915963171"
+        },
+        "distanceM": 1310
       },
       {
         "key": "US::NJ::farny",
@@ -6159,6 +7378,40 @@
         "distanceM": 4936
       },
       {
+        "key": "US::SC::poinsett",
+        "a": {
+          "id": "sp-us-sc-poinsett-state-park-official-code39",
+          "name": "Poinsett State Park",
+          "lat": 33.80526,
+          "lon": -80.53989
+        },
+        "b": {
+          "id": "sp-us-sc-poinsett-state-park-way1040694604",
+          "name": "Poinsett State Park",
+          "lat": 33.80694,
+          "lon": -80.53199,
+          "osmId": "way/1040694604"
+        },
+        "distanceM": 753
+      },
+      {
+        "key": "US::OR::humbug mountain",
+        "a": {
+          "id": "sp-us-or-humbug-mountain-state-park-official-code379",
+          "name": "Humbug Mountain State Park",
+          "lat": 42.7345,
+          "lon": -124.47576
+        },
+        "b": {
+          "id": "sp-us-or-humbug-mountain-state-park-way1144469211",
+          "name": "Humbug Mountain State Park",
+          "lat": 42.68322,
+          "lon": -124.44748,
+          "osmId": "way/1144469211"
+        },
+        "distanceM": 6152
+      },
+      {
         "key": "US::IA::brickyard hill loess mound natural area",
         "a": {
           "id": "sp-us-ia-brickyard-hill-loess-mound-natural-area-way1336362807",
@@ -6193,6 +7446,23 @@
           "osmId": "way/1336362809"
         },
         "distanceM": 4273
+      },
+      {
+        "key": "US::CA::dos rios",
+        "a": {
+          "id": "sp-us-ca-dos-rios",
+          "name": "Dos Rios",
+          "lat": 37.59665,
+          "lon": -121.15269
+        },
+        "b": {
+          "id": "sp-us-ca-dos-rios-state-park-way1377930544",
+          "name": "Dos Rios State Park",
+          "lat": 37.60199,
+          "lon": -121.16237,
+          "osmId": "way/1377930544"
+        },
+        "distanceM": 1039
       },
       {
         "key": "US::AR::cossatot river natural area",
@@ -6271,6 +7541,8 @@
   "ca": {
     "recordCount": 330,
     "rawCount": 346,
+    "officialCount": 0,
+    "osmCount": 346,
     "categories": {
       "park": 326,
       "historic_site": 4
@@ -7534,5 +8806,5 @@
       }
     ]
   },
-  "conflictCount": 414
+  "conflictCount": 490
 }

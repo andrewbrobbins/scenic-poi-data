@@ -1,8 +1,9 @@
 /**
- * Merge PBF extracts → committed master JSON (US + CA).
+ * Merge PBF extracts + official source caches → committed master JSON (US + CA).
  */
 import path from "path";
 import { log, logSection } from "./pipeline-log.mjs";
+import { loadAllOfficialRecords } from "./state-parks-official-lib.mjs";
 import {
   INGEST_DIR,
   MASTER_CA_PATH,
@@ -31,24 +32,32 @@ function loadExtract(country) {
   return j;
 }
 
-function buildMaster(country, outPath) {
+function buildMaster(country, outPath, officialRecords) {
   logSection(`Build ${country} master`);
   const extract = loadExtract(country);
-  const raw = extract.records || [];
-  log(`Merging/deduping ${raw.length} records...`);
+  const rawOsm = extract.records || [];
+  const rawOfficial = officialRecords.filter((r) => r.country === country);
+  const raw = [...rawOfficial, ...rawOsm];
+  log(`Merging ${rawOfficial.length} official + ${rawOsm.length} OSM = ${raw.length} raw records...`);
   const { records, conflicts } = mergeRecords(raw);
   log(`  → ${records.length} units after dedupe (${conflicts.length} name conflicts)`);
 
   records.sort((a, b) => a.state.localeCompare(b.state) || a.name.localeCompare(b.name));
 
+  const sources = [];
+  if (rawOfficial.length) sources.push("official");
+  if (rawOsm.length) sources.push("osm-pbf");
+
   const payload = {
     generated: new Date().toISOString(),
-    source: extract.source || "osm-pbf",
+    source: sources.length === 2 ? "official+osm-pbf" : sources[0] || "osm-pbf",
     country,
     count: records.length,
     categories: countByCategory(records),
     byAdmin: countByAdmin(records),
     needsReviewCount: records.filter((r) => r.needsReview).length,
+    officialCount: rawOfficial.length,
+    osmCount: rawOsm.length,
     pbfPath: extract.pbfPath || null,
     records,
   };
@@ -60,8 +69,11 @@ function buildMaster(country, outPath) {
 }
 
 log("build-state-parks-master.mjs starting");
-const us = buildMaster("US", MASTER_US_PATH);
-const ca = buildMaster("CA", MASTER_CA_PATH);
+const officialRecords = loadAllOfficialRecords();
+log(`Loaded ${officialRecords.length} official records from cache`);
+
+const us = buildMaster("US", MASTER_US_PATH, officialRecords);
+const ca = buildMaster("CA", MASTER_CA_PATH, officialRecords);
 
 log("Writing QA report...");
 const qa = {
@@ -69,6 +81,8 @@ const qa = {
   us: {
     recordCount: us.payload.count,
     rawCount: us.rawCount,
+    officialCount: us.payload.officialCount,
+    osmCount: us.payload.osmCount,
     categories: us.payload.categories,
     byAdmin: us.payload.byAdmin,
     needsReviewCount: us.payload.needsReviewCount,
@@ -78,6 +92,8 @@ const qa = {
   ca: {
     recordCount: ca.payload.count,
     rawCount: ca.rawCount,
+    officialCount: ca.payload.officialCount,
+    osmCount: ca.payload.osmCount,
     categories: ca.payload.categories,
     byAdmin: ca.payload.byAdmin,
     needsReviewCount: ca.payload.needsReviewCount,

@@ -1,0 +1,647 @@
+{
+  "description": "Candidate ArcGIS / open-data endpoints for SP-001 source investigation. Verified rows graduate to state-parks-source-matrix.json.",
+  "us": {
+    "AL": {
+      "agency": "Alabama State Parks / ADCNR",
+      "candidates": [
+        {
+          "label": "AL State Parks Hub",
+          "queryUrl": "https://services2.arcgis.com/MzZP2B4A2DWcRACE/ArcGIS/rest/services/State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "AK": {
+      "agency": "Alaska DNR Division of Parks",
+      "candidates": [
+        {
+          "label": "ASP Park Boundary",
+          "queryUrl": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Recreational_ParkBoundary/FeatureServer/2/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "ASP Park Facility",
+          "queryUrl": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Recreational_ParkBoundary/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "AZ": {
+      "agency": "Arizona State Parks",
+      "candidates": [
+        {
+          "label": "AZ State Parks boundaries",
+          "queryUrl": "https://services1.arcgis.com/66aQDO6dLQz7c4y9/arcgis/rest/services/Arizona_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "AR": {
+      "agency": "Arkansas State Parks",
+      "candidates": [
+        {
+          "label": "AR State Parks",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/Arkansas_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "CA": {
+      "agency": "California State Parks",
+      "candidates": [
+        {
+          "label": "CA State Parks units",
+          "queryUrl": "https://services1.arcgis.com/KbxwQRRieI5KBFoP/ArcGIS/rest/services/California_State_Parks_Units/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "CA State Parks boundaries",
+          "queryUrl": "https://services1.arcgis.com/KbxwQRRieI5KBFoP/ArcGIS/rest/services/State_Park_Boundaries/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "CO": {
+      "agency": "Colorado Parks and Wildlife",
+      "candidates": [
+        {
+          "label": "CPW State Parks",
+          "queryUrl": "https://services1.arcgis.com/wwT3v19ou2ie7CMA/ArcGIS/rest/services/Colorado_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "CT": {
+      "agency": "CT DEEP State Parks",
+      "candidates": [
+        {
+          "label": "CT State Parks",
+          "queryUrl": "https://services1.arcgis.com/FjPcSmEFuDYlIdKC/arcgis/rest/services/Connecticut_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "DE": {
+      "agency": "Delaware DNREC",
+      "candidates": [
+        {
+          "label": "DE State Parks",
+          "queryUrl": "https://services1.arcgis.com/PlNIOV4V1d9FG8V0/arcgis/rest/services/Delaware_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "DC": {
+      "agency": "DC / NPS local",
+      "candidates": []
+    },
+    "FL": {
+      "agency": "Florida State Parks / DEP",
+      "candidates": [
+        {
+          "label": "FL State Parks",
+          "queryUrl": "https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "FL DEP geodata parks",
+          "queryUrl": "https://geodata.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "GA": {
+      "agency": "Georgia State Parks",
+      "candidates": [
+        {
+          "label": "GA State Parks",
+          "queryUrl": "https://services2.arcgis.com/G5v0G2zU3s0F9sQ5/arcgis/rest/services/Georgia_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "HI": {
+      "agency": "Hawaii DLNR State Parks",
+      "candidates": [
+        {
+          "label": "HI State Parks",
+          "queryUrl": "https://services.arcgis.com/HRPe58PVUyBqyyQ0/arcgis/rest/services/Hawaii_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "ID": {
+      "agency": "Idaho State Parks",
+      "candidates": [
+        {
+          "label": "ID State Parks",
+          "queryUrl": "https://services1.arcgis.com/5Q0dMNE7Z5F0dJ0H/arcgis/rest/services/Idaho_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "IL": {
+      "agency": "Illinois DNR",
+      "candidates": [
+        {
+          "label": "IL State Parks",
+          "queryUrl": "https://services3.arcgis.com/H3d0rysukAdmQbZQ/arcgis/rest/services/Illinois_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "IN": {
+      "agency": "Indiana DNR State Parks",
+      "candidates": [
+        {
+          "label": "IN State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Indiana_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "IA": {
+      "agency": "Iowa DNR State Parks",
+      "candidates": [
+        {
+          "label": "IA State Parks",
+          "queryUrl": "https://services.arcgis.com/vPD5PV0w8s7cJz8q/arcgis/rest/services/Iowa_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "KS": {
+      "agency": "Kansas State Parks",
+      "candidates": [
+        {
+          "label": "KS State Parks",
+          "queryUrl": "https://services1.arcgis.com/8lRhdTsJsUiV9Z0Q/arcgis/rest/services/Kansas_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "KY": {
+      "agency": "Kentucky State Parks",
+      "candidates": [
+        {
+          "label": "KY State Parks",
+          "queryUrl": "https://services1.arcgis.com/3930K0wV8Xh7wK9K/arcgis/rest/services/Kentucky_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "LA": {
+      "agency": "Louisiana State Parks",
+      "candidates": [
+        {
+          "label": "LA State Parks",
+          "queryUrl": "https://services1.arcgis.com/0f0s3JFKYqYQ8KJ0/arcgis/rest/services/Louisiana_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "ME": {
+      "agency": "Maine Bureau of Parks and Lands",
+      "candidates": [
+        {
+          "label": "ME State Parks",
+          "queryUrl": "https://services1.arcgis.com/RbMX0mRVOFNTdLx0/arcgis/rest/services/Maine_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MD": {
+      "agency": "Maryland DNR",
+      "candidates": [
+        {
+          "label": "MD State Parks",
+          "queryUrl": "https://services.arcgis.com/cJ9YRem8pm4J9Lg2/arcgis/rest/services/Maryland_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MA": {
+      "agency": "Massachusetts DCR",
+      "candidates": [
+        {
+          "label": "MA State Parks",
+          "queryUrl": "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/Massachusetts_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MI": {
+      "agency": "Michigan DNR Parks",
+      "candidates": [
+        {
+          "label": "MI State Parks",
+          "queryUrl": "https://services2.arcgis.com/8k2Py0jN6bK0F8V0/arcgis/rest/services/Michigan_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MN": {
+      "agency": "Minnesota DNR",
+      "candidates": [
+        {
+          "label": "MN State Parks reference points",
+          "queryUrl": "https://arcgis.dnr.state.mn.us/host/rest/services/Hosted/Minnesota_State_Parks_Recreation_Areas_Waysides/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*",
+          "layerFilter": "state park|state recreation area"
+        }
+      ]
+    },
+    "MS": {
+      "agency": "Mississippi State Parks",
+      "candidates": [
+        {
+          "label": "MS State Parks",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/Mississippi_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MO": {
+      "agency": "Missouri DNR State Parks",
+      "candidates": [
+        {
+          "label": "MO State Parks and Historic Sites",
+          "queryUrl": "https://gis.dnr.mo.gov/server/rest/services/parks/Missouri_State_Parks_Boundaries/FeatureServer/4/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MT": {
+      "agency": "Montana State Parks",
+      "candidates": [
+        {
+          "label": "MT State Parks",
+          "queryUrl": "https://services3.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Montana_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NE": {
+      "agency": "Nebraska Game and Parks",
+      "candidates": [
+        {
+          "label": "NE State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Nebraska_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NV": {
+      "agency": "Nevada State Parks",
+      "candidates": [
+        {
+          "label": "NV State Parks",
+          "queryUrl": "https://services1.arcgis.com/C2X0F3k3Q8KJ0/arcgis/rest/services/Nevada_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NH": {
+      "agency": "NH State Parks",
+      "candidates": [
+        {
+          "label": "NH State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/New_Hampshire_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NJ": {
+      "agency": "New Jersey DEP Parks",
+      "candidates": [
+        {
+          "label": "NJ State Parks",
+          "queryUrl": "https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services/New_Jersey_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NM": {
+      "agency": "New Mexico State Parks",
+      "candidates": [
+        {
+          "label": "NM State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/New_Mexico_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NY": {
+      "agency": "NYS Parks",
+      "candidates": [
+        {
+          "label": "NY State Parks",
+          "queryUrl": "https://services6.arcgis.com/DZHaqZm9fc0iTR0K/arcgis/rest/services/NYS_OPRHP_Parks_Historic_Sites/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "NC": {
+      "agency": "NC State Parks",
+      "candidates": [
+        {
+          "label": "NC State Parks",
+          "queryUrl": "https://services.nconemap.gov/secure/rest/services/NC/NC_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "ND": {
+      "agency": "North Dakota Parks",
+      "candidates": [
+        {
+          "label": "ND State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/North_Dakota_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "OH": {
+      "agency": "Ohio DNR State Parks",
+      "candidates": [
+        {
+          "label": "OH State Parks",
+          "queryUrl": "https://services2.arcgis.com/MzZP2B4A2DWcRACE/ArcGIS/rest/services/Ohio_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "OK": {
+      "agency": "Oklahoma State Parks",
+      "candidates": [
+        {
+          "label": "OK State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Oklahoma_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "OR": {
+      "agency": "Oregon State Parks",
+      "candidates": [
+        {
+          "label": "OR State Parks",
+          "queryUrl": "https://services6.arcgis.com/PD5P0N0H0N0H0N0H/arcgis/rest/services/Oregon_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "OR OPRD parks",
+          "queryUrl": "https://gis.oregon.gov/arcgis/rest/services/Hosted/Oregon_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "PA": {
+      "agency": "Pennsylvania DCNR",
+      "candidates": [
+        {
+          "label": "PA State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Pennsylvania_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "PA DCNR state parks boundaries",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/DCNR_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "RI": {
+      "agency": "Rhode Island DEM",
+      "candidates": [
+        {
+          "label": "RI State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Rhode_Island_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "SC": {
+      "agency": "South Carolina State Parks",
+      "candidates": [
+        {
+          "label": "SC State Parks",
+          "queryUrl": "https://services5.arcgis.com/bPacKTm9cauMXVfn/ArcGIS/rest/services/South_Carolina_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "SD": {
+      "agency": "South Dakota GFP",
+      "candidates": [
+        {
+          "label": "SD State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/South_Dakota_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "TN": {
+      "agency": "Tennessee State Parks",
+      "candidates": [
+        {
+          "label": "TN State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Tennessee_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "TX": {
+      "agency": "Texas Parks and Wildlife",
+      "candidates": [
+        {
+          "label": "TX TPWD State Parks",
+          "queryUrl": "https://services.tpwd.state.tx.us/arcgis/rest/services/Parks/Park_Boundaries/MapServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "TX TPWD parks points",
+          "queryUrl": "https://services.tpwd.state.tx.us/arcgis/rest/services/Parks/Park_Locations/MapServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "UT": {
+      "agency": "Utah State Parks",
+      "candidates": [
+        {
+          "label": "UT State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Utah_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "VT": {
+      "agency": "Vermont State Parks",
+      "candidates": [
+        {
+          "label": "VT State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Vermont_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "VA": {
+      "agency": "Virginia State Parks",
+      "candidates": [
+        {
+          "label": "VA State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Virginia_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "WA": {
+      "agency": "Washington State Parks (WSPRC)",
+      "candidates": [
+        {
+          "label": "WA Park Boundaries",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/ParkBoundaries/FeatureServer/2/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "WV": {
+      "agency": "West Virginia State Parks",
+      "candidates": [
+        {
+          "label": "WV State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/West_Virginia_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "WI": {
+      "agency": "Wisconsin DNR",
+      "candidates": [
+        {
+          "label": "WI State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Wisconsin_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        },
+        {
+          "label": "WI DNR parks",
+          "queryUrl": "https://dnrmaps.wi.gov/arcgis/rest/services/Hosted/WI_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "WY": {
+      "agency": "Wyoming State Parks",
+      "candidates": [
+        {
+          "label": "WY State Parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Wyoming_State_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    }
+  },
+  "ca": {
+    "AB": { "agency": "Alberta Parks", "candidates": [] },
+    "BC": {
+      "agency": "BC Parks",
+      "candidates": [
+        {
+          "label": "BC Parks protected areas",
+          "queryUrl": "https://services6.arcgis.com/ubm4tcTYICKBpist/ArcGIS/rest/services/BC_Parks_Established_Protected_Areas/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "MB": { "agency": "Manitoba Parks", "candidates": [] },
+    "NB": { "agency": "NB Parks", "candidates": [] },
+    "NL": { "agency": "NL Parks", "candidates": [] },
+    "NS": { "agency": "NS Parks", "candidates": [] },
+    "NT": { "agency": "NT Parks", "candidates": [] },
+    "NU": { "agency": "NU Parks", "candidates": [] },
+    "ON": {
+      "agency": "Ontario Parks",
+      "candidates": [
+        {
+          "label": "ON Provincial Parks",
+          "queryUrl": "https://services5.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Ontario_Provincial_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "PE": { "agency": "PEI Parks", "candidates": [] },
+    "QC": {
+      "agency": "SEPAQ / Parcs Québec",
+      "candidates": [
+        {
+          "label": "QC SEPAQ parks",
+          "queryUrl": "https://services1.arcgis.com/0m0s3JFKYqYQ8KJ0/arcgis/rest/services/Quebec_Provincial_Parks/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*"
+        }
+      ]
+    },
+    "SK": { "agency": "Saskatchewan Parks", "candidates": [] },
+    "YT": { "agency": "Yukon Parks", "candidates": [] }
+  }
+}
