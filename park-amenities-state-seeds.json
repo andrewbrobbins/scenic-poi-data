@@ -1,0 +1,94 @@
+{
+  "description": "Candidate US state park amenity ArcGIS layers. Probe with build-park-amenities-discover-state.mjs. Tier-A ingest: park-amenities-state-sources.json.",
+  "us": {
+    "CA": {
+      "agency": "California State Parks",
+      "server": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services",
+      "boundaries": [
+        {
+          "label": "ParkBoundaries",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkBoundaries/FeatureServer/0/query",
+          "geometry": "polygon",
+          "codeField": "UNITNBR",
+          "nameField": "UNITNAME",
+          "notes": "462 park unit polygons; same server as amenity points. SP-001 uses ParkEntryPoints for catalog centroids."
+        }
+      ],
+      "candidates": [
+        {
+          "amenity": "campground",
+          "label": "Campgrounds",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Campgrounds/FeatureServer/0/query",
+          "codeField": "UNITNBR",
+          "notes": "531 camp areas — Tier A wired"
+        },
+        {
+          "amenity": "campsite",
+          "label": "CSP_Campsite_Locations",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/CSP_Campsite_Locations/FeatureServer/0/query",
+          "codeField": "Unit_Num",
+          "notes": "8251 numbered individual sites — Tier A wired as campground"
+        },
+        {
+          "amenity": "restroom",
+          "label": "Restrooms",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Restrooms/FeatureServer/0/query",
+          "parentNameField": "Park_Unit",
+          "notes": "47 restrooms — parent by park unit name"
+        },
+        {
+          "amenity": "parking",
+          "label": "ParkingPoints",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkingPoints/FeatureServer/0/query",
+          "codeField": "UNITNBR",
+          "notes": "2342 parking/trailhead points — Tier A wired"
+        },
+        {
+          "amenity": "parking",
+          "label": "Parking_Areas",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Parking_Areas/FeatureServer/0/query",
+          "codeField": "UNIT_NBR",
+          "geometry": "polygon",
+          "notes": "161 parking lot polygons — use centroid if wired"
+        },
+        {
+          "amenity": "visitor_center",
+          "label": "Facility_level",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Facility_level/FeatureServer/0/query",
+          "parentNameField": "Park_Unit",
+          "notes": "20 visitor centers / museums / offices — Tier A wired"
+        },
+        {
+          "amenity": "picnic_area",
+          "label": "PicnicGrounds",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/PicnicGrounds/FeatureServer/0/query",
+          "codeField": "UNITNBR",
+          "notes": "Tier A wired"
+        }
+      ]
+    },
+    "WY": {
+      "agency": "Wyoming State Parks",
+      "candidates": [
+        {
+          "amenity": "parking",
+          "label": "Parking_Areas (Hub)",
+          "queryUrl": "https://services1.arcgis.com/WOPmQY9FJsLgGOzw/arcgis/rest/services/Parking_Areas/FeatureServer/0/query",
+          "notes": "Hub match in cross-check; verify park code fields before ingest"
+        }
+      ]
+    },
+    "FL": {
+      "agency": "Florida DEP",
+      "candidates": [
+        {
+          "amenity": "boundary",
+          "label": "PARKS_BOUNDARIES",
+          "queryUrl": "https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/0/query",
+          "geometry": "polygon",
+          "notes": "SP-001 verified boundary layer; amenity layers TBD"
+        }
+      ]
+    }
+  }
+}

@@ -68,7 +68,9 @@ else {
       n +
       p.campground.total +
       p.picnic_area.count +
-      p.restroom.count,
+      p.restroom.count +
+      (p.parking?.count || 0) +
+      (p.visitor_center?.count || 0),
     0
   );
   if (totalFromRollup !== records.length) {

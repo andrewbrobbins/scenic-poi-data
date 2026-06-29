@@ -1,5 +1,5 @@
 {
-  "description": "Tier A state/provincial park amenity ArcGIS layers (parent link via officialCode / UNITNBR).",
+  "description": "Tier A state/provincial park amenity ArcGIS layers (parent link via officialCode / UNITNBR or park unit name).",
   "us": {
     "CA": {
       "agency": "California State Parks",
@@ -14,6 +14,16 @@
           "subtypeField": "SUBTYPE"
         },
         {
+          "kind": "campground",
+          "label": "Individual campsites",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/CSP_Campsite_Locations/FeatureServer/0/query",
+          "outFields": "Campground,SiteNumber,SiteType,Type,Subtype,Unit_Num",
+          "nameTemplate": "{Campground} site {SiteNumber}",
+          "codeField": "Unit_Num",
+          "typeField": "Type",
+          "subtypeField": "Subtype"
+        },
+        {
           "kind": "picnic_area",
           "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/PicnicGrounds/FeatureServer/0/query",
           "outFields": "UNITNAME,TYPE,SUBCLASS,UNITNBR,DETAIL",
@@ -22,6 +32,32 @@
           "typeField": "TYPE",
           "subtypeField": "SUBCLASS",
           "nameFallbackField": "DETAIL"
+        },
+        {
+          "kind": "restroom",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Restrooms/FeatureServer/0/query",
+          "outFields": "Park_Unit,Type,Description,Status",
+          "nameField": "Description",
+          "nameFallbackField": "Type",
+          "parentNameField": "Park_Unit",
+          "typeField": "Type"
+        },
+        {
+          "kind": "parking",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkingPoints/FeatureServer/0/query",
+          "outFields": "NAME,TYPE,SUBTYPE,UNITNBR,UNITNAME,USETYPE,TRAILHEAD",
+          "nameField": "NAME",
+          "nameFallbackField": "UNITNAME",
+          "codeField": "UNITNBR",
+          "typeField": "TYPE",
+          "subtypeField": "SUBTYPE"
+        },
+        {
+          "kind": "visitor_center",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Facility_level/FeatureServer/0/query",
+          "outFields": "Facility_Name,Park_Unit,Status,Notes",
+          "nameField": "Facility_Name",
+          "parentNameField": "Park_Unit"
         }
       ]
     }
@@ -34,7 +70,7 @@
         {
           "label": "AB park facilities",
           "queryUrl": "https://geospatial.alberta.ca/arcgis/rest/services/Hosted/Park_Facility_Points/FeatureServer/1869/query",
-          "where": "properties_ftype IN ('Campground','Group Campground','Comfort Camping','Day Use')",
+          "where": "properties_ftype IN ('Campground','Group Campground','Comfort Camping','Day Use','Visitor Centre')",
           "outFields": "properties_ftype,properties_fname,properties_fid,properties_rap,properties_url,objectid",
           "nameField": "properties_fname",
           "codeField": "properties_fid",
@@ -43,7 +79,8 @@
             "Campground": "campground",
             "Group Campground": "campground",
             "Comfort Camping": "campground",
-            "Day Use": "picnic_area"
+            "Day Use": "picnic_area",
+            "Visitor Centre": "visitor_center"
           },
           "urlField": "properties_url"
         }

@@ -127,8 +127,8 @@ export async function fetchArcgisAllFeatures(
       outSR: "4326",
       f: "json",
       resultRecordCount: String(pageSize),
-      resultOffset: String(offset),
     });
+    if (offset > 0) params.set("resultOffset", String(offset));
     if (maxAllowableOffset != null) {
       params.set("maxAllowableOffset", String(maxAllowableOffset));
       params.set("geometryPrecision", "5");

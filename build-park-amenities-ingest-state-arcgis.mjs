@@ -17,7 +17,7 @@ import {
 } from "./park-amenities-us-lib.mjs";
 import { INGEST_DIR as US_INGEST_DIR } from "./park-amenities-us-lib.mjs";
 import { INGEST_DIR as CA_INGEST_DIR } from "./park-amenities-ca-lib.mjs";
-import { loadStateParkIndex, resolveStateParkParent } from "./park-amenities-state-park-lib.mjs";
+import { loadStateParkIndex, resolveStateParkParent, resolveStateParkParentByName } from "./park-amenities-state-park-lib.mjs";
 import { inferStateFromCoords } from "./camping-us-geo-utils.mjs";
 import { inferStateFromCoords as inferProvinceFromCoords } from "./camping-ca-geo-utils.mjs";
 import { coordValid as coordValidCa } from "./camping-ca-lib.mjs";
@@ -40,6 +40,32 @@ function resolveKind(layer, a) {
   return layer.kind || null;
 }
 
+function coordsFromFeature(f, layer) {
+  let lat = f.geometry?.y;
+  let lon = f.geometry?.x;
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) {
+    const a = f.attributes || {};
+    lat = Number(attr(a, layer.latField));
+    lon = Number(attr(a, layer.lonField));
+  }
+  return { lat, lon };
+}
+
+function buildName(layer, a, kind) {
+  if (layer.nameTemplate) {
+    return layer.nameTemplate
+      .replace(/\{(\w+)\}/g, (_, key) => attr(a, key))
+      .replace(/\s+/g, " ")
+      .trim();
+  }
+  let name = attr(a, layer.nameField) || attr(a, layer.nameFallbackField);
+  if (!name && kind === "picnic_area") name = "Picnic area";
+  if (!name && kind === "parking") name = "Parking";
+  if (!name && kind === "restroom") name = "Restroom";
+  if (!name && kind === "visitor_center") name = "Visitor center";
+  return name;
+}
+
 function ingestLayer(layer, stateCode, country, parkIndex, coordCheck) {
   const where = layer.where || "1=1";
   const features = fetchArcgisAllFeatures(layer.queryUrl, where, layer.outFields, 2000);
@@ -48,8 +74,7 @@ function ingestLayer(layer, stateCode, country, parkIndex, coordCheck) {
     const skipped = { noCoords: 0, noName: 0, noParent: 0, unmappedType: 0 };
     for (const f of feats) {
       const a = f.attributes || {};
-      const lat = f.geometry?.y;
-      const lon = f.geometry?.x;
+      const { lat, lon } = coordsFromFeature(f, layer);
       if (!coordCheck(lat, lon)) {
         skipped.noCoords++;
         continue;
@@ -61,18 +86,23 @@ function ingestLayer(layer, stateCode, country, parkIndex, coordCheck) {
         continue;
       }
 
-      let name = attr(a, layer.nameField) || attr(a, layer.nameFallbackField);
-      if (!name && kind === "picnic_area") name = "Picnic area";
+      const name = buildName(layer, a, kind);
       if (!name) {
         skipped.noName++;
         continue;
       }
       const officialCode = attr(a, layer.codeField);
+      const parkUnitName = attr(a, layer.parentNameField);
       const admin = country === "CA" ? inferProvinceFromCoords(lat, lon) : inferStateFromCoords(lat, lon);
-      const parentUnit = resolveStateParkParent(
-        { officialCode, lat, lon, state: admin || stateCode, country },
-        parkIndex
-      );
+      const parentUnit = layer.parentNameField
+        ? resolveStateParkParentByName(
+            { parkUnitName, lat, lon, state: admin || stateCode, country },
+            parkIndex
+          )
+        : resolveStateParkParent(
+            { officialCode, lat, lon, state: admin || stateCode, country },
+            parkIndex
+          );
       if (!parentUnit.id && !officialCode) skipped.noParent++;
 
       let campTier;

@@ -19,6 +19,11 @@ export function osmAmenityKind(tags) {
   if (tags.tourism === "camp_site" || tags.camp_site) return "campground";
   if (tags.tourism === "picnic_site" || tags.leisure === "picnic_table") return "picnic_area";
   if (tags.amenity === "toilets" || tags.building === "toilets") return "restroom";
+  if (tags.amenity === "parking" || tags.parking === "yes") return "parking";
+  if (tags.tourism === "information" && /visitor|interpret/i.test(tags.information || tags.name || "")) {
+    return "visitor_center";
+  }
+  if (tags.amenity === "ranger_station" || tags.tourism === "museum") return "visitor_center";
   return null;
 }
 

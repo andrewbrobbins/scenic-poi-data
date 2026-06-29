@@ -9,7 +9,14 @@ import { readJson as readJsonCamping, writeJson as writeJsonCamping, slugify as 
 export const TOOLS_DIR = path.dirname(fileURLToPath(import.meta.url));
 
 export const CAMP_TIERS = ["developed", "backcountry", "primitive"];
-export const AMENITY_KINDS = ["campground", "picnic_area", "restroom"];
+export const AMENITY_KINDS = [
+  "campground",
+  "campsite",
+  "picnic_area",
+  "restroom",
+  "parking",
+  "visitor_center",
+];
 export const ACCESS_MODES = ["road", "trail", "unknown"];
 
 /** Meters — campsite considered road-adjacent when within this distance of a vehicle highway. */

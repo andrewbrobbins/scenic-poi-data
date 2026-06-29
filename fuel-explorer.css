@@ -81,7 +81,28 @@ input[type=search], select {
 .detail a { color: var(--accent); }
 .badge { display: inline-block; padding: 1px 6px; border-radius: 4px; font-size: 0.72rem; margin-right: 4px; background: #334155; }
 @media (max-width: 900px) {
-  .layout { flex-direction: column; height: auto; }
-  .sidebar { width: 100%; max-height: 40vh; }
-  .map-wrap { height: 60vh; }
+  .layout {
+    flex-direction: column;
+    height: calc(100vh - 72px);
+    min-height: 0;
+    overflow: hidden;
+  }
+  .sidebar {
+    width: 100%;
+    flex: 0 1 40%;
+    max-height: 40%;
+    min-height: 0;
+    overflow: auto;
+  }
+  .map-wrap {
+    flex: 1 1 60%;
+    min-height: 0;
+    position: relative;
+  }
+  #map {
+    position: absolute;
+    inset: 0;
+    width: auto;
+    height: auto;
+  }
 }

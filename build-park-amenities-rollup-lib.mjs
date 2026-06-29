@@ -39,6 +39,8 @@ export function buildRollupFromRecords(records) {
         campground: emptyCampgroundRollup(),
         picnic_area: emptyKindRollup(),
         restroom: emptyKindRollup(),
+        parking: emptyKindRollup(),
+        visitor_center: emptyKindRollup(),
         sources: new Set(),
         coverage: "official",
       });
@@ -57,6 +59,12 @@ export function buildRollupFromRecords(records) {
     } else if (r.kind === "restroom") {
       row.restroom.count += 1;
       row.restroom.has = true;
+    } else if (r.kind === "parking") {
+      row.parking.count += 1;
+      row.parking.has = true;
+    } else if (r.kind === "visitor_center") {
+      row.visitor_center.count += 1;
+      row.visitor_center.has = true;
     }
   }
 

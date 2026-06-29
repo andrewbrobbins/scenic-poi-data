@@ -1,6 +1,8 @@
-# Park amenities (campgrounds, picnic, restrooms)
+# Park amenities (campgrounds, picnic, restrooms, parking, visitor centers)
 
 Point-level amenities linked to **NPS**, **US state parks**, **Parks Canada**, and **provincial parks**. Campgrounds split into **developed / backcountry / primitive** tiers, with **road vs trail access** on campgrounds.
+
+State/provincial amenity source research: **[PARK-AMENITIES-STATE-SOURCES.md](PARK-AMENITIES-STATE-SOURCES.md)**.
 
 ## Build (full)
 
@@ -42,7 +44,7 @@ node build-camping-us-enrich.mjs --fetch-roads --state=CA,MT,WY
 
 | Field | Description |
 |-------|-------------|
-| `kind` | `campground`, `picnic_area`, `restroom` |
+| `kind` | `campground`, `picnic_area`, `restroom`, `parking`, `visitor_center` |
 | `campTier` | `developed`, `backcountry`, `primitive` (campgrounds only) |
 | `accessMode` | `road`, `trail`, `unknown` (campgrounds) |
 | `accessConfidence` | `high`, `medium`, `inferred`, `measured_far`, … |
@@ -56,13 +58,13 @@ node build-camping-us-enrich.mjs --fetch-roads --state=CA,MT,WY
 | Region | Source | Parent link |
 |--------|--------|-------------|
 | US NPS | NPS Public POIs ArcGIS | `UNITCODE` |
-| US state parks | CA Campgrounds / PicnicGrounds ArcGIS + OSM PBF | `UNITNBR` → `officialCode`; OSM spatial |
+| US state parks | CA Campgrounds / Picnic / Restrooms / Parking / Visitor centers ArcGIS + OSM PBF | `UNITNBR` or park unit name → catalog; OSM spatial |
 | CA Parks Canada | Accommodation + Facilities ArcGIS | park code from URL / name |
 | CA provincial | Alberta Park Facility Points (+ research in [PARK-AMENITIES-PROVINCIAL-SOURCES.md](PARK-AMENITIES-PROVINCIAL-SOURCES.md)) | spatial → provincial catalog |
 
 US state parks without Tier-A ArcGIS layers are supplemented from **local US PBF** (`operator` / name heuristics).
 
-Config: `park-amenities-nps-poi-types.json`, `park-amenities-state-sources.json`.
+Config: `park-amenities-nps-poi-types.json`, `park-amenities-state-sources.json`, `park-amenities-state-seeds.json`.
 
 ## Artifacts
 
