@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  var GROUP_ORDER = ["scenic", "benchmark", "fuel", "camping", "playground", "historic", "nps", "amenities", "pc"];
+  var GROUP_ORDER = ["scenic", "benchmark", "fuel", "camping", "playground", "historic", "nps", "amenities", "state_parks", "pc"];
   var GROUP_LABELS = {
     scenic: "Scenic overlooks",
     benchmark: "Scenic benchmark",
@@ -12,6 +12,7 @@
     historic: "Historic",
     nps: "NPS units",
     amenities: "Park amenities",
+    state_parks: "State / provincial parks",
     pc: "Parks Canada",
   };
   var COLORS = {
@@ -23,10 +24,32 @@
     playground: "#22c55e",
     historic: "#a855f7",
     amenities_camp_developed: "#c2410c",
+    amenities_camp_road: "#15803d",
+    amenities_camp_trail: "#854d0e",
+    amenities_ca_camp_developed: "#c2410c",
+    amenities_ca_camp_backcountry: "#b45309",
+    amenities_ca_camp_primitive: "#92400e",
+    amenities_ca_camp_road: "#15803d",
+    amenities_ca_camp_trail: "#854d0e",
+    amenities_ca_picnic: "#65a30d",
+    amenities_ca_restroom: "#0369a1",
+    amenities_ca_src_pc: "#1d4ed8",
+    amenities_ca_src_prov_arcgis: "#7c3aed",
+    amenities_ca_src_prov_osm: "#0d9488",
+    amenities_src_nps: "#1d4ed8",
+    amenities_src_state_arcgis: "#7c3aed",
+    amenities_src_state_osm: "#0d9488",
     amenities_camp_backcountry: "#b45309",
     amenities_camp_primitive: "#92400e",
     amenities_picnic: "#65a30d",
     amenities_restroom: "#0369a1",
+    state_parks: "#166534",
+    state_park_us: "#166534",
+    state_park_ca: "#047857",
+    state_historic_us: "#7c3aed",
+    state_historic_ca: "#9333ea",
+    state_parks_us: "#166534",
+    state_parks_ca: "#047857",
   };
   var FUEL_BRAND_COLORS = {
     bucees: "#e11d48",
@@ -112,6 +135,9 @@
       maxZoom: 19,
     }).addTo(state.map);
     state.map.on("moveend zoomend", scheduleRender);
+    window.addEventListener("resize", function () {
+      if (state.map) state.map.invalidateSize();
+    });
   }
 
   function scheduleRender() {
@@ -307,9 +333,15 @@
   function markerTooltipHtml(rec, layerKey) {
     var Ldef = state.manifest.layers[layerKey];
     var lines = [];
-    var title = rec.name || rec.id;
+    var title = rec.displayName || rec.name || rec.id;
     lines.push("<strong>" + escapeHtml(title) + "</strong>");
     if (rec.state) lines.push(escapeHtml(rec.state));
+    if (Ldef && Ldef.group === "state_parks") {
+      if (rec.designation) lines.push(escapeHtml(rec.designation));
+      if (rec.catalogName && rec.catalogName !== title) {
+        lines.push("Catalog: " + escapeHtml(rec.catalogName));
+      }
+    }
     if (rec.brand && Ldef && Ldef.group === "fuel") lines.push(escapeHtml(rec.brand));
     if (rec.diesel) lines.push("Diesel");
     if (rec.highway) lines.push(escapeHtml(rec.highway));
@@ -323,8 +355,14 @@
     if (rec.kind && Ldef && Ldef.group === "amenities") {
       lines.push(escapeHtml(rec.kind.replace(/_/g, " ")));
     }
-    if (rec.campTier && Ldef && Ldef.group === "amenities") {
-      lines.push("Camp tier: " + escapeHtml(rec.campTier));
+    if (rec.accessMode && Ldef && Ldef.group === "amenities") {
+      lines.push("Access: " + escapeHtml(rec.accessMode));
+    }
+    if (rec.ingestSource && Ldef && Ldef.group === "amenities") {
+      lines.push("Source: " + escapeHtml(rec.ingestSource));
+    }
+    if (rec.roadDistanceM != null && Ldef && Ldef.group === "amenities") {
+      lines.push("Road: " + Math.round(rec.roadDistanceM) + " m");
     }
     if (
       rec.hoursSummary &&
@@ -349,7 +387,28 @@
     if (st && rec.state !== st) return false;
     var q = (el("searchBox").value || "").toLowerCase().trim();
     if (!q) return true;
-    var hay = [rec.id, rec.name, rec.state, rec.brand, rec.brandId, rec.tier, rec.category, rec.landManager, rec.notes, rec.parkCode, rec.kind, rec.campTier, rec.subtype]
+    var hay = [
+      rec.id,
+      rec.name,
+      rec.displayName,
+      rec.catalogName,
+      rec.designation,
+      rec.unitType,
+      rec.state,
+      rec.brand,
+      rec.brandId,
+      rec.tier,
+      rec.category,
+      rec.landManager,
+      rec.ingestSource,
+      rec.notes,
+      rec.parkCode,
+      rec.kind,
+      rec.campTier,
+      rec.accessMode,
+      rec.subtype,
+      rec.parentName,
+    ]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -435,6 +494,10 @@
     if (rec.parentCategory) rows.push(["Unit category", rec.parentCategory.replace(/_/g, " ")]);
     if (rec.kind) rows.push(["Amenity kind", rec.kind.replace(/_/g, " ")]);
     if (rec.campTier) rows.push(["Camp tier", rec.campTier]);
+    if (rec.accessMode) rows.push(["Access mode", rec.accessMode]);
+    if (rec.accessConfidence) rows.push(["Access confidence", rec.accessConfidence]);
+    if (rec.roadDistanceM != null) rows.push(["Road distance", Math.round(rec.roadDistanceM) + " m"]);
+    if (rec.trailDistanceM != null) rows.push(["Trail distance", Math.round(rec.trailDistanceM) + " m"]);
     if (rec.subtype) rows.push(["Subtype", rec.subtype]);
     if (rec.hoursSummary && rec.hoursSummary.summary) rows.push(["Hours", rec.hoursSummary.summary]);
     if (rec.hoursSummary && rec.hoursSummary.seasonalNote) rows.push(["Seasonal hours", rec.hoursSummary.seasonalNote]);
@@ -454,6 +517,16 @@
       rows.push(["Fuel type", rec.fuelType === "convenience_fuel" ? "Convenience fuel" : "Travel plaza"]);
     }
     if (rec.landManager) rows.push(["Land manager", rec.landManager]);
+    if (rec.designation && Ldef && Ldef.group === "state_parks") rows.push(["Designation", rec.designation]);
+    if (rec.unitType && Ldef && Ldef.group === "state_parks") {
+      if (rec.unitType === "park_and_historic") rows.push(["Unit type", "State park & historic site"]);
+      else rows.push(["Unit type", rec.unitType === "historic_site" ? "Historic site" : "Park"]);
+    }
+    if (rec.catalogName && rec.catalogName !== (rec.displayName || rec.name) && Ldef && Ldef.group === "state_parks") {
+      rows.push(["Catalog name", rec.catalogName]);
+    }
+    if (rec.ingestSource) rows.push(["Ingest source", rec.ingestSource]);
+    if (rec.country) rows.push(["Country", rec.country]);
     if (rec.category) rows.push([Ldef && Ldef.group === "pc" ? "Parks Canada type" : "NPS type", rec.category]);
     if (rec.tier) rows.push(["Benchmark tier", rec.tier]);
     if (rec.expect) rows.push(["Expected @120m", rec.expect]);
@@ -481,7 +554,7 @@
         rec.osmNodeId +
         "</a></p>";
 
-    panel.innerHTML = "<h3>" + escapeHtml(rec.name || rec.id) + "</h3>" + tags + "<dl>" + dl + "</dl>" + links;
+    panel.innerHTML = "<h3>" + escapeHtml(rec.displayName || rec.name || rec.id) + "</h3>" + tags + "<dl>" + dl + "</dl>" + links;
   }
 
   function escapeHtml(s) {
@@ -513,7 +586,7 @@
         ? function () {
             return diamondIcon(color);
           }
-        : Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers"
+        : Ldef.id === "nps_visitor_centers" || Ldef.id === "pc_visitor_centers" || Ldef.id === "state_historic"
           ? function () {
               return squareIcon(color);
             }
@@ -588,10 +661,20 @@
 
   function applyCategoryDefaults() {
     state.enabled.clear();
+    var enableAll = state.activeCategory === "amenities" || state.activeCategory === "state_parks";
     layerKeysForCategory().forEach(function (key) {
       var L = state.manifest.layers[key];
-      if (L.defaultInCategory) state.enabled.add(key);
+      if (enableAll || L.defaultInCategory) state.enabled.add(key);
     });
+  }
+
+  function initialCategory() {
+    var hash = (location.hash || "").replace(/^#/, "").toLowerCase();
+    var params = new URLSearchParams(location.search);
+    var fromQuery = (params.get("category") || "").toLowerCase();
+    var want = hash || fromQuery;
+    if (want && GROUP_ORDER.indexOf(want) !== -1) return want;
+    return state.manifest.defaultCategory || "scenic";
   }
 
   function syncLayerCheckboxes() {
@@ -759,7 +842,7 @@
         "<p style='padding:24px'>Missing poi-explorer-data.js — run <code>node build-poi-explorer-data.mjs</code></p>";
       return;
     }
-    state.activeCategory = state.manifest.defaultCategory || "scenic";
+    state.activeCategory = initialCategory();
     initMap();
     bindRegion();
     applyCategoryDefaults();
@@ -775,7 +858,10 @@
         renderAllLayers();
       });
     }
-    preloadDefaultSlices().then(renderAllLayers);
+    preloadDefaultSlices().then(function () {
+      if (state.map) state.map.invalidateSize();
+      renderAllLayers();
+    });
   }
 
   init();

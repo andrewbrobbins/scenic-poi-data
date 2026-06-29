@@ -1,0 +1,53 @@
+{
+  "description": "Tier A state/provincial park amenity ArcGIS layers (parent link via officialCode / UNITNBR).",
+  "us": {
+    "CA": {
+      "agency": "California State Parks",
+      "layers": [
+        {
+          "kind": "campground",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Campgrounds/FeatureServer/0/query",
+          "outFields": "Campground,TYPE,SUBTYPE,UNITNBR,UNITNAME",
+          "nameField": "Campground",
+          "codeField": "UNITNBR",
+          "typeField": "TYPE",
+          "subtypeField": "SUBTYPE"
+        },
+        {
+          "kind": "picnic_area",
+          "queryUrl": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/PicnicGrounds/FeatureServer/0/query",
+          "outFields": "UNITNAME,TYPE,SUBCLASS,UNITNBR,DETAIL",
+          "nameField": "UNITNAME",
+          "codeField": "UNITNBR",
+          "typeField": "TYPE",
+          "subtypeField": "SUBCLASS",
+          "nameFallbackField": "DETAIL"
+        }
+      ]
+    }
+  },
+  "ca": {
+    "AB": {
+      "agency": "Alberta Environment and Parks",
+      "country": "CA",
+      "layers": [
+        {
+          "label": "AB park facilities",
+          "queryUrl": "https://geospatial.alberta.ca/arcgis/rest/services/Hosted/Park_Facility_Points/FeatureServer/1869/query",
+          "where": "properties_ftype IN ('Campground','Group Campground','Comfort Camping','Day Use')",
+          "outFields": "properties_ftype,properties_fname,properties_fid,properties_rap,properties_url,objectid",
+          "nameField": "properties_fname",
+          "codeField": "properties_fid",
+          "kindFromTypeField": "properties_ftype",
+          "kindFromTypeMap": {
+            "Campground": "campground",
+            "Group Campground": "campground",
+            "Comfort Camping": "campground",
+            "Day Use": "picnic_area"
+          },
+          "urlField": "properties_url"
+        }
+      ]
+    }
+  }
+}

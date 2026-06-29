@@ -1,5 +1,5 @@
 /**
- * Slim park amenities layer for poi-explorer / scenic-router.
+ * Explorer embed for US park amenities.
  */
 import fs from "fs";
 import { EMBED_PATH, MASTER_PATH } from "./park-amenities-us-lib.mjs";
@@ -14,15 +14,22 @@ function toEmbedRow(r) {
     lat: r.lat,
     lon: r.lon,
     state: r.state || "",
+    country: r.country || "US",
     parkCode: r.parkCode || pu.parkCode || "",
     parentName: pu.name || "",
     parentCategory: pu.category || "",
-    landManager: r.landManager || "NPS",
-    url: r.urls?.detail || r.urls?.park || "",
+    landManager: r.landManager || "",
+    url: r.urls?.detail || r.urls?.park || r.urls?.osm || "",
     coordConfidence: r.coordConfidence || "",
     needsReview: !!r.needsReview,
   };
-  if (r.kind === "campground") row.campTier = r.campTier || "developed";
+  if (r.kind === "campground") {
+    row.campTier = r.campTier || "developed";
+    row.accessMode = r.accessMode || "unknown";
+    row.accessConfidence = r.accessConfidence || "";
+    if (r.roadDistanceM != null) row.roadDistanceM = r.roadDistanceM;
+    if (r.trailDistanceM != null) row.trailDistanceM = r.trailDistanceM;
+  }
   return row;
 }
 
@@ -31,21 +38,21 @@ const records = (master.records || []).map(toEmbedRow);
 
 const byKind = {};
 const byCampTier = { developed: 0, backcountry: 0, primitive: 0 };
+const byAccessMode = { road: 0, trail: 0, unknown: 0 };
 for (const r of records) {
   byKind[r.kind] = (byKind[r.kind] || 0) + 1;
-  if (r.kind === "campground" && r.campTier) {
-    byCampTier[r.campTier] = (byCampTier[r.campTier] || 0) + 1;
-  }
+  if (r.kind === "campground" && r.campTier) byCampTier[r.campTier] += 1;
+  if (r.kind === "campground") byAccessMode[r.accessMode] = (byAccessMode[r.accessMode] || 0) + 1;
 }
 
 const payload = {
   generated: master.generated,
   kind: "park_amenity",
   region: "us",
-  manager: "nps",
   count: records.length,
   byKind,
   byCampTier,
+  byAccessMode,
   needsReviewCount: records.filter((r) => r.needsReview).length,
   records,
 };
@@ -58,4 +65,4 @@ fs.writeFileSync(
   "utf8"
 );
 
-console.log("Wrote", EMBED_PATH, records.length, "records", byKind, byCampTier);
+console.log("Wrote", EMBED_PATH, records.length, byKind, byCampTier, byAccessMode);

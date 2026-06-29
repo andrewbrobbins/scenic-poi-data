@@ -1,0 +1,140 @@
+{
+  "description": "Candidate provincial park amenity sources (ArcGIS + open APIs). Probe with build-park-amenities-discover-provincial.mjs.",
+  "ca": {
+    "AB": {
+      "agency": "Alberta Environment and Parks",
+      "candidates": [
+        {
+          "label": "Park Facility Points",
+          "queryUrl": "https://geospatial.alberta.ca/arcgis/rest/services/Hosted/Park_Facility_Points/FeatureServer/1869/query",
+          "where": "1=1",
+          "outFields": "properties_ftype,properties_fname,properties_fid,properties_rap,properties_url,objectid",
+          "notes": "898 points. properties_ftype: Campground, Group Campground, Comfort Camping, Day Use, Visitor Centre, Special Facility"
+        }
+      ],
+      "lists": [
+        "https://www.albertaparks.ca/albertaparksca/visit-our-parks/",
+        "https://www.albertaparks.ca/albertaparksca/camping/camping-in-alberta/"
+      ]
+    },
+    "BC": {
+      "agency": "BC Parks",
+      "candidates": [
+        {
+          "label": "Protected Lands Facilities (park-level)",
+          "queryUrl": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgwpub/MapServer/741/query",
+          "where": "1=1",
+          "outFields": "*",
+          "notes": "~1025 park facility points (one per protected area, not individual campsites)"
+        },
+        {
+          "label": "Coastal BC Campsites",
+          "queryUrl": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgwpub/MapServer/684/query",
+          "where": "1=1",
+          "outFields": "*",
+          "notes": "711 coastal marine campsites; sparse park-name fields"
+        },
+        {
+          "label": "BC Parks established areas",
+          "queryUrl": "https://services6.arcgis.com/ubm4tcTYICKBpist/ArcGIS/rest/services/BC_Parks_Established_Protected_Areas/FeatureServer/0/query",
+          "where": "1=1",
+          "outFields": "*",
+          "notes": "Park unit catalog (boundaries), not amenities"
+        }
+      ],
+      "lists": [
+        "https://bcparks.ca/explore/",
+        "https://camping.bcparks.ca/"
+      ]
+    },
+    "ON": {
+      "agency": "Ontario Parks",
+      "candidates": [
+        {
+          "label": "Provincial Park Regulated (boundaries only)",
+          "queryUrl": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/4/query",
+          "where": "1=1",
+          "outFields": "PROTECTED_SITE_IDENT,PROTECTED_AREA_NAME_ENG",
+          "notes": "347 park polygons; PROTECTED_SITE_IDENT may link amenities"
+        },
+        {
+          "label": "Ontario Parks Infrastructure points (Geocortex)",
+          "queryUrl": "https://www.lioapplications.lrc.gov.on.ca/Geocortex/Essentials/essentials414/REST/sites/AFFES_Mapper/map/mapservices/204/layers/71/query",
+          "where": "1=1",
+          "outFields": "*",
+          "notes": "PARK_INFRASTRUCTURE_POINT_FT — campsites, picnic, washrooms; Geocortex REST may reject standard /query"
+        }
+      ],
+      "lists": [
+        "https://www.ontarioparks.ca/park-locator",
+        "https://reservations.ontarioparks.ca/"
+      ]
+    },
+    "QC": {
+      "agency": "Sépaq",
+      "candidates": [
+        {
+          "label": "TerrAPI lieux.sepaq.camping",
+          "queryUrl": "https://geoegl.msp.gouv.qc.ca/apis/terrapi/lieux/sepaq/camping",
+          "where": null,
+          "outFields": null,
+          "notes": "Non-ArcGIS; requires baseTerritoire param. Fields: code, nom, secteur, parc, parcCode"
+        }
+      ],
+      "lists": [
+        "https://www.sepaq.com/rf/pal/index.dot",
+        "https://www.sepaq.com/activites/camping"
+      ]
+    },
+    "SK": {
+      "agency": "Saskatchewan Ministry of Parks",
+      "candidates": [
+        {
+          "label": "Parks as Legislated (boundaries)",
+          "queryUrl": "https://gis.saskatchewan.ca/arcgis/rest/services/ParksAsLegislated/FeatureServer/4/query",
+          "where": "1=1",
+          "outFields": "PPID,PARKNM,PARKTYPE",
+          "notes": "Park boundaries only; campgrounds on parks.saskatchewan.ca reservation system"
+        }
+      ],
+      "lists": [
+        "https://parks.saskatchewan.ca/",
+        "https://parks.saskatchewan.ca/camping"
+      ]
+    },
+    "MB": {
+      "agency": "Manitoba Parks",
+      "candidates": [],
+      "lists": [
+        "https://www.gov.mb.ca/sd/parks/",
+        "https://reservation.pc.mb.ca/"
+      ]
+    },
+    "NS": {
+      "agency": "Nova Scotia Parks",
+      "candidates": [],
+      "lists": [
+        "https://parks.novascotia.ca/",
+        "https://camping.novascotia.ca/"
+      ]
+    },
+    "NB": {
+      "agency": "NB Parks",
+      "candidates": [],
+      "lists": ["https://www.tourismnewbrunswick.ca/things-to-do/camping"]
+    },
+    "NL": {
+      "agency": "NL Parks",
+      "candidates": [],
+      "lists": ["https://www.gov.nl.ca/era/parks/"]
+    },
+    "PE": {
+      "agency": "PEI Parks",
+      "candidates": [],
+      "lists": ["https://www.princeedwardisland.ca/en/information/transportation-and-infrastructure/parks"]
+    },
+    "YT": { "agency": "Yukon Parks", "candidates": [], "lists": ["https://yukon.ca/en/outdoor-recreation-and-wildlife/camping"] },
+    "NT": { "agency": "NT Parks", "candidates": [], "lists": ["https://www.nwtourism.ca/explore/nwt-parks"] },
+    "NU": { "agency": "NU Parks", "candidates": [], "lists": ["https://www.nunavuttourism.com/things-to-see-do/nunavut-parks"] }
+  }
+}

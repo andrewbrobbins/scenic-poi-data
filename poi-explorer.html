@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>POI map explorer</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="poi-explorer.css" />
+  <link rel="stylesheet" href="fuel-explorer.css?v=2" />
+  <link rel="stylesheet" href="poi-explorer.css?v=2" />
 </head>
 <body>
   <header class="topbar">
@@ -24,7 +25,7 @@
       </section>
       <section>
         <label class="field-label" for="searchBox">Search</label>
-        <input id="searchBox" type="search" placeholder="name, id, state…" />
+        <input id="searchBox" type="search" placeholder="name, state, land manager, ingest source…" />
       </section>
       <section>
         <label class="field-label" for="stateSelect">State / province</label>
@@ -44,6 +45,10 @@
       </section>
       <section class="stats" id="statsPanel"></section>
       <section class="hint-block">
+        <p class="hint">Serve from repo root (required — <code>file://</code> breaks the map):</p>
+        <p class="hint"><code>python3 -m http.server 8765</code></p>
+        <p class="hint">Then open <code>http://localhost:8765/poi-explorer.html#amenities</code></p>
+        <p class="hint">Park amenities: search <code>02-state-arcgis</code>, <code>03-provincial-osm</code>, <code>Parks Canada</code>.</p>
         <p class="hint">Rebuild data after pipeline runs:</p>
         <p class="hint"><code>node build-poi-explorer-data.mjs</code></p>
       </section>

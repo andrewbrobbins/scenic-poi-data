@@ -13,8 +13,9 @@ import { MASTER_PATH as FUEL_CA_MASTER } from "./fuel-ca-lib.mjs";
 import { MASTER_PATH as NPS_VC_MASTER } from "./nps-visitor-centers-lib.mjs";
 import { MASTER_PATH as PC_VC_MASTER } from "./parks-canada-visitor-centers-lib.mjs";
 import { GEO_PATH as PC_GEO_PATH } from "./parks-canada-lib.mjs";
-import { MASTER_US_PATH as STATE_PARKS_US_MASTER, MASTER_CA_PATH as STATE_PARKS_CA_MASTER } from "./state-parks-lib.mjs";
+import { MASTER_US_PATH as STATE_PARKS_US_MASTER, MASTER_CA_PATH as STATE_PARKS_CA_MASTER, stateParkDisplayName } from "./state-parks-lib.mjs";
 import { MASTER_PATH as PARK_AMENITIES_US_MASTER } from "./park-amenities-us-lib.mjs";
+import { MASTER_PATH as PARK_AMENITIES_CA_MASTER } from "./park-amenities-ca-lib.mjs";
 import { brandGroupLabel, brandIdToSelectId, buildBrandGroups, normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const TOOLS = path.dirname(fileURLToPath(import.meta.url));
@@ -205,8 +206,8 @@ function loadBenchmark() {
   }));
 }
 
-function loadParkAmenities(filter = () => true) {
-  const master = readJson(PARK_AMENITIES_US_MASTER, { records: [] });
+function loadParkAmenities(masterPath, filter = () => true) {
+  const master = readJson(masterPath, { records: [] });
   return (master.records || []).filter(filter).map((r) => {
     const pu = r.parentUnit || {};
     const row = {
@@ -215,6 +216,7 @@ function loadParkAmenities(filter = () => true) {
       lat: round5(r.lat),
       lon: round5(r.lon),
       state: r.state || "",
+      country: r.country || "",
       kind: r.kind,
       subtype: r.subtype || "",
       parkCode: r.parkCode || pu.parkCode || "",
@@ -222,12 +224,114 @@ function loadParkAmenities(filter = () => true) {
       parentCategory: pu.category || "",
       parentDesignation: pu.designation || "",
       landManager: r.landManager || "NPS",
-      url: r.urls?.detail || r.urls?.park || "",
+      ingestSource: r.ingestSource || "",
+      url: r.urls?.detail || r.urls?.park || r.urls?.osm || "",
       coordConfidence: r.coordConfidence || "",
       needsReview: !!r.needsReview,
     };
-    if (r.kind === "campground") row.campTier = r.campTier || "developed";
+    if (r.kind === "campground") {
+      row.campTier = r.campTier || "developed";
+      row.accessMode = r.accessMode || "unknown";
+      row.accessConfidence = r.accessConfidence || "";
+      if (r.roadDistanceM != null) row.roadDistanceM = r.roadDistanceM;
+      if (r.trailDistanceM != null) row.trailDistanceM = r.trailDistanceM;
+    }
     return row;
+  });
+}
+
+function addParkAmenityLayers(region, masterPath) {
+  const prefix = region === "ca" ? "amenities_ca" : "amenities";
+  const group = "amenities";
+  const developed = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.campTier === "developed");
+  const backcountry = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.campTier === "backcountry");
+  const primitive = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.campTier === "primitive");
+  const picnic = loadParkAmenities(masterPath, (r) => r.kind === "picnic_area");
+  const restroom = loadParkAmenities(masterPath, (r) => r.kind === "restroom");
+  const roadCamp = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.accessMode === "road");
+  const trailCamp = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.accessMode === "trail");
+  if (!developed.length && !picnic.length && !restroom.length) return;
+
+  const all = loadParkAmenities(masterPath, () => true);
+  const srcPc = all.filter((r) => r.landManager === "Parks Canada");
+  const srcProvArcgis = all.filter((r) => r.landManager === "Provincial" && r.ingestSource === "02-state-arcgis");
+  const srcProvOsm = all.filter((r) => r.ingestSource?.includes("osm"));
+  const srcNps = all.filter((r) => r.landManager === "NPS");
+  const srcStateArcgis = all.filter((r) => r.landManager === "State" && r.ingestSource === "02-state-arcgis");
+  const srcStateOsm = all.filter((r) => r.landManager === "State" && r.ingestSource === "03-state-osm");
+
+  if (region === "ca") {
+    if (srcPc.length) {
+      addLayer(`${prefix}_src_pc`, "★ Parks Canada (all kinds)", group, region, srcPc, {
+        defaultInCategory: true,
+        validationLayer: true,
+      });
+    }
+    if (srcProvArcgis.length) {
+      addLayer(`${prefix}_src_prov_arcgis`, "★ Provincial — ArcGIS", group, region, srcProvArcgis, {
+        defaultInCategory: true,
+        validationLayer: true,
+      });
+    }
+    if (srcProvOsm.length) {
+      addLayer(`${prefix}_src_prov_osm`, "★ Provincial — OSM PBF", group, region, srcProvOsm, {
+        defaultInCategory: true,
+        validationLayer: true,
+      });
+    }
+  } else {
+    if (srcNps.length) {
+      addLayer(`${prefix}_src_nps`, "★ NPS ArcGIS (all kinds)", group, region, srcNps, {
+        defaultInCategory: true,
+        validationLayer: true,
+      });
+    }
+    if (srcStateArcgis.length) {
+      addLayer(`${prefix}_src_state_arcgis`, "★ State parks — ArcGIS", group, region, srcStateArcgis, {
+        defaultInCategory: true,
+        validationLayer: true,
+      });
+    }
+    if (srcStateOsm.length) {
+      addLayer(`${prefix}_src_state_osm`, "★ State parks — OSM PBF", group, region, srcStateOsm, {
+        defaultInCategory: true,
+        validationLayer: true,
+      });
+    }
+  }
+
+  addLayer(`${prefix}_camp_developed`, "Campgrounds (developed)", group, region, developed, {
+    defaultInCategory: true,
+    amenityKind: "campground",
+    campTier: "developed",
+  });
+  addLayer(`${prefix}_camp_backcountry`, "Campgrounds (backcountry)", group, region, backcountry, {
+    defaultInCategory: true,
+    amenityKind: "campground",
+    campTier: "backcountry",
+  });
+  addLayer(`${prefix}_camp_primitive`, "Campgrounds (primitive)", group, region, primitive, {
+    defaultInCategory: true,
+    amenityKind: "campground",
+    campTier: "primitive",
+  });
+  addLayer(`${prefix}_camp_road`, "Campgrounds (road access)", group, region, roadCamp, {
+    defaultInCategory: true,
+    amenityKind: "campground",
+    accessMode: "road",
+  });
+  addLayer(`${prefix}_camp_trail`, "Campgrounds (trail access)", group, region, trailCamp, {
+    defaultInCategory: true,
+    amenityKind: "campground",
+    accessMode: "trail",
+  });
+  addLayer(`${prefix}_picnic`, "Picnic areas", group, region, picnic, {
+    defaultInCategory: true,
+    amenityKind: "picnic_area",
+  });
+  addLayer(`${prefix}_restroom`, "Restrooms", group, region, restroom, {
+    defaultInCategory: true,
+    amenityKind: "restroom",
   });
 }
 
@@ -257,17 +361,50 @@ function loadNpsVisitorCenters() {
 function loadStateParks(region) {
   const masterPath = region === "us" ? STATE_PARKS_US_MASTER : STATE_PARKS_CA_MASTER;
   const master = readJson(masterPath, { records: [] });
-  return (master.records || []).map((r) => ({
-    id: r.id,
-    name: r.name,
-    lat: round5(r.lat),
-    lon: round5(r.lon),
-    state: r.state || "",
-    designation: r.designation || "",
-    category: r.category || "",
-    url: r.url || "",
-    needsReview: !!r.needsReview,
-  }));
+  return (master.records || []).map((r) => {
+    const displayName = r.displayName || stateParkDisplayName(r.name, r.designation, r.country);
+    return {
+      id: r.id,
+      name: displayName,
+      catalogName: r.name,
+      displayName,
+      lat: round5(r.lat),
+      lon: round5(r.lon),
+      state: r.state || "",
+      country: r.country || (region === "ca" ? "CA" : "US"),
+      designation: r.designation || "",
+      category: r.category || "park",
+      alsoHistoricSite: !!r.alsoHistoricSite,
+      unitType: r.alsoHistoricSite
+        ? "park_and_historic"
+        : r.category === "historic_site"
+          ? "historic_site"
+          : "park",
+      url: r.url || "",
+      needsReview: !!r.needsReview,
+    };
+  });
+}
+
+function addStateParkLayers(region, records) {
+  if (!records.length) return;
+  const group = "state_parks";
+  const parks = records.filter((r) => r.unitType !== "historic_site");
+  const historic = records.filter((r) => r.unitType === "historic_site" || r.unitType === "park_and_historic");
+  const parkLabel = region === "ca" ? "Provincial parks" : "State parks";
+  const historicLabel = region === "ca" ? "Provincial historic sites" : "State historic sites";
+  if (parks.length) {
+    addLayer("state_park", parkLabel, group, region, parks, {
+      defaultInCategory: true,
+      stateParkUnitType: "park",
+    });
+  }
+  if (historic.length) {
+    addLayer("state_historic", historicLabel, group, region, historic, {
+      defaultInCategory: true,
+      stateParkUnitType: "historic_site",
+    });
+  }
 }
 
 function npsExplorerRows(units) {
@@ -425,36 +562,8 @@ if (npsVc.length) {
   });
 }
 
-const amenDeveloped = loadParkAmenities((r) => r.kind === "campground" && r.campTier === "developed");
-const amenBackcountry = loadParkAmenities((r) => r.kind === "campground" && r.campTier === "backcountry");
-const amenPrimitive = loadParkAmenities((r) => r.kind === "campground" && r.campTier === "primitive");
-const amenPicnic = loadParkAmenities((r) => r.kind === "picnic_area");
-const amenRestroom = loadParkAmenities((r) => r.kind === "restroom");
-if (amenDeveloped.length + amenBackcountry.length + amenPrimitive.length + amenPicnic.length + amenRestroom.length) {
-  addLayer("amenities_camp_developed", "Campgrounds (developed)", "amenities", "us", amenDeveloped, {
-    defaultInCategory: true,
-    amenityKind: "campground",
-    campTier: "developed",
-  });
-  addLayer("amenities_camp_backcountry", "Campgrounds (backcountry)", "amenities", "us", amenBackcountry, {
-    defaultInCategory: false,
-    amenityKind: "campground",
-    campTier: "backcountry",
-  });
-  addLayer("amenities_camp_primitive", "Campgrounds (primitive)", "amenities", "us", amenPrimitive, {
-    defaultInCategory: false,
-    amenityKind: "campground",
-    campTier: "primitive",
-  });
-  addLayer("amenities_picnic", "Picnic areas", "amenities", "us", amenPicnic, {
-    defaultInCategory: true,
-    amenityKind: "picnic_area",
-  });
-  addLayer("amenities_restroom", "Restrooms", "amenities", "us", amenRestroom, {
-    defaultInCategory: false,
-    amenityKind: "restroom",
-  });
-}
+addParkAmenityLayers("us", PARK_AMENITIES_US_MASTER);
+addParkAmenityLayers("ca", PARK_AMENITIES_CA_MASTER);
 
 const pcByCat = loadPcByCategory();
 for (const cat of Object.keys(pcByCat).sort()) {
@@ -490,12 +599,7 @@ for (const region of ["us", "ca"]) {
 }
 
 for (const region of ["us", "ca"]) {
-  const sp = loadStateParks(region);
-  if (sp.length) {
-    addLayer("state_parks", "State / provincial parks", "state_parks", region, sp, {
-      defaultInCategory: true,
-    });
-  }
+  addStateParkLayers(region, loadStateParks(region));
 }
 
 for (const kind of ["playground", "historic"]) {

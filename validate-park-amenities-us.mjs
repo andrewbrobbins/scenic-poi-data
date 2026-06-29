@@ -44,6 +44,15 @@ const missingTier = campRecords.filter((r) => !r.campTier);
 if (missingTier.length) fail(`${missingTier.length} campground records missing campTier`);
 else ok(`All ${campRecords.length} campground records have campTier`);
 
+const byAccess = { road: 0, trail: 0, unknown: 0 };
+for (const r of campRecords) {
+  byAccess[r.accessMode] = (byAccess[r.accessMode] || 0) + 1;
+}
+ok(`Campground access: road=${byAccess.road} trail=${byAccess.trail} unknown=${byAccess.unknown}`);
+
+const statePark = records.filter((r) => r.landManager === "State");
+if (statePark.length) ok(`State park amenities: ${statePark.length}`);
+
 for (const tier of CAMP_TIERS) {
   const n = campRecords.filter((r) => r.campTier === tier).length;
   if (!n) warn(`No campground records with campTier=${tier}`);

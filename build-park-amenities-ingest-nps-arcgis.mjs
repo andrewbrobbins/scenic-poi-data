@@ -5,7 +5,6 @@ import path from "path";
 import {
   addReview,
   allNpsPoiTypes,
-  amenityId,
   baseRecord,
   buildPoiTypeWhere,
   classifyNpsPoiType,
@@ -14,6 +13,8 @@ import {
   fetchArcgisAllFeatures,
   loadNpsUnitMaps,
   loadPoiTypeConfig,
+  npsAmenityId,
+  applyInferredCampgroundAccess,
   resolveParentUnit,
   resolveState,
   stateByParkCode,
@@ -65,7 +66,7 @@ export async function ingestNpsArcgis() {
 
     const parentUnit = resolveParentUnit(parkCodeRaw, unitMaps);
     const rec = baseRecord({
-      id: amenityId(
+      id: npsAmenityId(
         parentUnit.parkCode,
         classified.kind,
         classified.campTier,
@@ -78,6 +79,7 @@ export async function ingestNpsArcgis() {
       subtype: classified.subtype,
       campTier: classified.campTier,
       landManager: "NPS",
+      country: "US",
       parkCode: parentUnit.parkCode,
       parentUnit,
       state: "",
@@ -95,6 +97,7 @@ export async function ingestNpsArcgis() {
     });
 
     resolveState(rec, parkStates);
+    applyInferredCampgroundAccess(rec);
     if (!rec.state) addReview(rec, "missing-state", "NO_STATE");
     if (poiType === "Camping") addReview(rec, "ambiguous-camp-tier", "CAMP_TIER_GUESS");
 

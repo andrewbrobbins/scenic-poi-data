@@ -1,0 +1,48 @@
+{
+  "generated": "2026-06-25T20:45:36.247Z",
+  "totalRecords": 2476,
+  "needsReviewCount": 277,
+  "suppressedDuplicateCount": 203,
+  "ingestLayers": [
+    {
+      "step": "01-pc-arcgis",
+      "count": 617
+    },
+    {
+      "step": "02-state-arcgis",
+      "count": 835
+    },
+    {
+      "step": "03-provincial-osm",
+      "count": 1227
+    }
+  ],
+  "byKind": {
+    "campground": 852,
+    "picnic_area": 1004,
+    "restroom": 620
+  },
+  "byCampTier": {
+    "developed": 783,
+    "backcountry": 69,
+    "primitive": 0
+  },
+  "byManager": {
+    "Parks Canada": 617,
+    "Provincial": 1859
+  },
+  "coverage": {
+    "pcCatalogUnits": 53,
+    "provincialCatalogUnits": 934
+  },
+  "accessEnrichment": {
+    "enriched": 852,
+    "byAccess": {
+      "road": 783,
+      "trail": 69,
+      "unknown": 0
+    },
+    "roadCaches": [],
+    "trailCaches": []
+  }
+}
