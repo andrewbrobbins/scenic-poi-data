@@ -26,7 +26,7 @@ const FEDERAL_EXCLUDE =
   /national park service|\bnps\b|u\.?s\.?\s*forest service|\busfs\b|bureau of land management|\bblm\b|fish and wildlife|\busfws\b|army corps|parks canada|parcs canada|pc\.gc\.ca|national park of canada|parc national du canada/i;
 
 const US_EXCLUDE_NAME =
-  /\b(national park|national monument|national forest|national wildlife|national recreation area|national seashore|national lakeshore|county park|city park|municipal park|regional park|metro park|township park|state forest|state game land|state wildlife area|state fish hatchery|state nursery|state natural area)\b/i;
+  /\b(national park|national monument|national forest|national wildlife|national recreation area|national seashore|national lakeshore|county park|city park|municipal park|regional park|metro park|township park|state forest|state game land|state wildlife area|state fish hatchery|state nursery|state natural area|state recreation area|wildlife management area|wildlife area|waterfowl management area|game management area|fish hatchery|\bhatchery\b|nature preserve|conservation area|heritage preserve|heritage conservation|cooperative wildlife|greenway|\bWMA\b|\bWRDA\b)\b/i;
 
 const US_INCLUDE_NAME =
   /\bstate park\b|\bstate historic (site|park|area|monument|preserve|landmark)\b|\bstate historical (site|park|area)\b|\bstate heritage (site|park)\b|\bstate memorial\b/i;
@@ -35,7 +35,7 @@ const US_STATE_OPERATOR =
   /state parks|state park system|dept\.? of natural resources|\bdnr\b|parks and wildlife|division of parks|department of conservation|office of parks|bureau of state parks|state recreation and parks|state dept of parks/i;
 
 const CA_EXCLUDE_NAME =
-  /\b(national park|national forest|parc national|forêt nationale|county park|city park|municipal park|regional park|provincial forest|provincial recreation area)\b/i;
+  /\b(national park|national forest|parc national|forêt nationale|county park|city park|municipal park|regional park|provincial forest|provincial recreation area|conservation reserve|ecological reserve|nature reserve|réserve faunique|wildlife management area|wildlife area)\b/i;
 
 const CA_INCLUDE_NAME =
   /\bprovincial park\b|\bparc provincial\b|\bprovincial historic (site|park)\b|\bsite historique provincial\b|\bprovincial heritage (site|park)\b|\bprovincial marine park\b|\bparc marin provincial\b/i;
@@ -98,6 +98,112 @@ export function normalizeName(name) {
     .trim();
 }
 
+const STATE_PARK_TYPE_IN_NAME =
+  /\b(state|provincial)\s+(park|historic|historical|heritage|memorial)\b|\bsite\s+historique\s+provincial\b|\bparc\s+(provincial|marin\s+provincial)\b/i;
+
+/** Map label when catalog name omits designation (e.g. TX official "Abilene" → "Abilene State Park"). */
+export function isExcludedUsStateParkName(name) {
+  return US_EXCLUDE_NAME.test(name || "");
+}
+
+export function isExcludedCaStateParkName(name) {
+  return CA_EXCLUDE_NAME.test(name || "");
+}
+
+/** Drop OSM operator guesses and non-park land designations from the catalog. */
+export function isExcludedCatalogRecord(rec) {
+  if (!rec?.name) return true;
+  if (rec.country === "CA" && isExcludedCaStateParkName(rec.name)) return true;
+  if (rec.country === "US" && isExcludedUsStateParkName(rec.name)) return true;
+  if (rec.source === "osm" && rec.osmConfidence === "operator") return true;
+  return false;
+}
+
+/** OSM / secondary sources must name a state or provincial park unit explicitly. */
+export function isExplicitStateParkCatalogName(name, country = "US") {
+  const n = name || "";
+  if (country === "CA") {
+    return CA_INCLUDE_NAME.test(n) || /\b(historic|heritage|historique|memorial|monument)\b/i.test(n);
+  }
+  return US_INCLUDE_NAME.test(n) || /\b(historic|heritage|memorial|monument)\b/i.test(n);
+}
+
+/**
+ * Unified catalog filter for OSM extract, official ingest, and master merge.
+ * When a state/province has verified Tier-A GIS, OSM rows need explicit park naming.
+ */
+export function shouldKeepCatalogRecord(rec, { verifiedOfficialAdmins = null } = {}) {
+  if (isExcludedCatalogRecord(rec)) return false;
+  if (rec.source === "official") return true;
+  if (rec.source !== "osm") return true;
+  const admins = verifiedOfficialAdmins;
+  if (admins && admins.has(rec.state)) {
+    if (rec.osmConfidence === "protection_title") return true;
+    return isExplicitStateParkCatalogName(rec.name, rec.country);
+  }
+  return true;
+}
+
+export function catalogRejectReason(rec, { verifiedOfficialAdmins = null } = {}) {
+  if (!rec?.name) return "missing-name";
+  if (rec.country === "CA" && isExcludedCaStateParkName(rec.name)) return "excluded-name-ca";
+  if (rec.country === "US" && isExcludedUsStateParkName(rec.name)) return "excluded-name-us";
+  if (rec.source === "osm" && rec.osmConfidence === "operator") return "osm-operator-guess";
+  if (rec.source === "osm" && verifiedOfficialAdmins?.has(rec.state)) {
+    if (rec.osmConfidence !== "protection_title" && !isExplicitStateParkCatalogName(rec.name, rec.country)) {
+      return "osm-no-explicit-name";
+    }
+  }
+  return null;
+}
+
+/** California / Arizona official GIS suffixes (PARK_NAME, DESC_) → public display name. */
+export function expandOfficialParkNameAbbrev(name) {
+  const n = (name || "").trim();
+  if (/\sSHP$/i.test(n)) return n.replace(/\sSHP$/i, " State Historic Park");
+  if (/\sSHM$/i.test(n)) return n.replace(/\sSHM$/i, " State Historic Monument");
+  if (/\sSP$/i.test(n)) return n.replace(/\sSP$/i, " State Park");
+  return n;
+}
+
+/** Normalize catalog record when official name uses SP/SHP/SHM suffix abbreviations. */
+export function normalizeOfficialParkAbbrevFields(rec) {
+  if (!rec?.name) return rec;
+  const raw = rec.name.trim();
+  if (/\sSHP$/i.test(raw)) {
+    const name = expandOfficialParkNameAbbrev(raw);
+    return { ...rec, name, designation: "State Historic Park", category: "historic_site", displayName: name };
+  }
+  if (/\sSHM$/i.test(raw)) {
+    const name = expandOfficialParkNameAbbrev(raw);
+    return { ...rec, name, designation: "State Historic Monument", category: "historic_site", displayName: name };
+  }
+  if (/\sSP$/i.test(raw)) {
+    const name = expandOfficialParkNameAbbrev(raw);
+    return { ...rec, name, designation: "State Park", category: "park", displayName: name };
+  }
+  return rec;
+}
+
+export function stateParkDisplayName(name, designation, country = "US") {
+  const n = expandOfficialParkNameAbbrev((name || "").trim());
+  const d = (designation || "").trim();
+  if (!n) return d;
+  if (!d) return n;
+  if (n.toLowerCase().includes(d.toLowerCase())) return n;
+  if (STATE_PARK_TYPE_IN_NAME.test(n)) return n;
+  return `${n} ${d}`;
+}
+
+export function withStateParkDisplayFields(rec) {
+  if (!rec?.name) return rec;
+  const normalized = normalizeOfficialParkAbbrevFields(rec);
+  const displayName =
+    normalized.displayName || stateParkDisplayName(normalized.name, normalized.designation, normalized.country);
+  if (displayName === normalized.name && normalized.displayName === displayName && normalized === rec) return rec;
+  return { ...normalized, displayName };
+}
+
 export function tagBlob(tags) {
   return [
     tags.operator,
@@ -130,8 +236,12 @@ export function isFederalOrOutOfScope(tags, country) {
   if (country === "CA" && /parc national|national park of canada/i.test(n + " " + blob) && !/provincial/i.test(n)) {
     return true;
   }
-  if (country === "US" && US_EXCLUDE_NAME.test(name) && !/historic/i.test(name)) return true;
-  if (country === "CA" && CA_EXCLUDE_NAME.test(name) && !/historic|heritage|historique/i.test(name)) return true;
+  if (country === "US" && isExcludedUsStateParkName(name) && !/historic/i.test(name)) return true;
+  if (country === "CA" && isExcludedCaStateParkName(name) && !/historic|heritage|historique/i.test(name)) return true;
+  if (tags.protection_title) {
+    if (country === "US" && isExcludedUsStateParkName(tags.protection_title)) return true;
+    if (country === "CA" && isExcludedCaStateParkName(tags.protection_title)) return true;
+  }
 
   if (country === "US" && /\bstate recreation area\b/i.test(name) && !/historic/i.test(name)) return true;
 
@@ -153,15 +263,6 @@ export function classifyUnit(tags, country) {
       const designation = category === "historic_site" ? inferUsDesignation(name) : "State Park";
       return { category, designation, confidence: "name" };
     }
-    if (US_STATE_OPERATOR.test(blob) && (tags.boundary === "protected_area" || tags.leisure === "nature_reserve")) {
-      const category = /historic|heritage|memorial|historical/i.test(name) ? "historic_site" : "park";
-      return {
-        category,
-        designation: category === "historic_site" ? inferUsDesignation(name) : "State Park",
-        confidence: "operator",
-        needsReview: true,
-      };
-    }
     if (tags.protection_title && /state park|state historic/i.test(tags.protection_title)) {
       const category = /historic/i.test(tags.protection_title) ? "historic_site" : "park";
       return { category, designation: tags.protection_title, confidence: "protection_title" };
@@ -174,15 +275,6 @@ export function classifyUnit(tags, country) {
       const category = /historic|heritage|historique/i.test(name + " " + blob) ? "historic_site" : "park";
       const designation = category === "historic_site" ? inferCaDesignation(name) : "Provincial Park";
       return { category, designation, confidence: "name" };
-    }
-    if (CA_PROVINCIAL_OPERATOR.test(blob) && (tags.boundary === "protected_area" || tags.leisure === "nature_reserve")) {
-      const category = /historic|heritage|historique/i.test(name) ? "historic_site" : "park";
-      return {
-        category,
-        designation: category === "historic_site" ? inferCaDesignation(name) : "Provincial Park",
-        confidence: "operator",
-        needsReview: true,
-      };
     }
     return null;
   }

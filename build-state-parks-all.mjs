@@ -17,8 +17,11 @@ const nodeArgs = process.argv.slice(2);
 const STEPS = [
   { script: "build-state-parks-cache.mjs", label: "PBF extract" },
   { script: "build-state-parks-ingest-official.mjs", label: "Official source ingest", optional: true },
+  { script: "build-state-parks-ingest-listings.mjs", label: "Official park listings", optional: true },
   { script: "build-state-parks-master.mjs", label: "Master merge" },
   { script: "build-state-parks-explorer-embed.mjs", label: "Explorer embed" },
+  { script: "build-poi-explorer-data.mjs", label: "POI map explorer bundle" },
+  { script: "build-state-parks-cross-check.mjs", label: "Cross-check report", optional: true },
   { script: "validate-state-parks.mjs", label: "Validation" },
 ];
 

@@ -11,8 +11,9 @@ import {
   MASTER_US_PATH,
   QA_PATH,
   readJson,
+  shouldKeepCatalogRecord,
 } from "./state-parks-lib.mjs";
-import { MATRIX_PATH, loadSourceMatrix } from "./state-parks-official-lib.mjs";
+import { loadSourceMatrix, verifiedSources, catalogBackedAdmins } from "./state-parks-official-lib.mjs";
 
 let errors = 0;
 let warnings = 0;
@@ -31,7 +32,7 @@ function ok(msg) {
   log(`OK: ${msg}`);
 }
 
-function validateMaster(label, masterPath, embedPath, minExpected) {
+function validateMaster(label, masterPath, embedPath, minExpected, verifiedOfficialAdmins) {
   log(`Validating ${label} master...`);
   if (!fs.existsSync(masterPath)) {
     fail(`Missing ${masterPath}`);
@@ -55,8 +56,12 @@ function validateMaster(label, masterPath, embedPath, minExpected) {
     if (!r.country) fail(`${label} ${r.id} missing country`);
     if (!r.state) fail(`${label} ${r.id} missing state/province`);
     if (!r.name) fail(`${label} ${r.id} missing name`);
+    if (!r.displayName) fail(`${label} ${r.id} missing displayName`);
     if (!r.category) fail(`${label} ${r.id} missing category`);
     if (!Number.isFinite(r.lat) || !Number.isFinite(r.lon)) fail(`${label} ${r.id} bad coords`);
+    if (!shouldKeepCatalogRecord(r, { verifiedOfficialAdmins })) {
+      fail(`${label} ${r.id} should have been filtered: ${r.name} (${r.source})`);
+    }
   }
 
   if (!fs.existsSync(embedPath)) {
@@ -81,8 +86,14 @@ function validateMaster(label, masterPath, embedPath, minExpected) {
 log("validate-state-parks.mjs starting");
 logSection("Validation");
 
-const us = validateMaster("US", MASTER_US_PATH, EMBED_US_PATH, 500);
-const ca = validateMaster("CA", MASTER_CA_PATH, EMBED_CA_PATH, 100);
+const matrix = loadSourceMatrix();
+const verifiedOfficialAdmins = new Set([
+  ...catalogBackedAdmins(matrix, "US"),
+  ...catalogBackedAdmins(matrix, "CA"),
+]);
+
+const us = validateMaster("US", MASTER_US_PATH, EMBED_US_PATH, 500, verifiedOfficialAdmins);
+const ca = validateMaster("CA", MASTER_CA_PATH, EMBED_CA_PATH, 100, verifiedOfficialAdmins);
 
 const qa = readJson(QA_PATH);
 if (!qa?.us || !qa?.ca) {
@@ -99,7 +110,6 @@ if (us && ca) {
   const caProvinces = Object.keys(ca.byAdmin || {}).length;
   ok(`Coverage: ${usStates} US states/territories, ${caProvinces} CA provinces with records`);
 
-  const matrix = loadSourceMatrix();
   for (const row of matrix.us || []) {
     if (row.status !== "verified") continue;
     const actual = us.byAdmin?.[row.admin] || 0;

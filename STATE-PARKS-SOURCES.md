@@ -4,6 +4,8 @@ Per-state and per-province data source research for the state/provincial parks c
 
 ## Research workflow
 
+Listing-backed catalog (Texas reference → all Tier-A): **[STATE-PARKS-LISTINGS.md](STATE-PARKS-LISTINGS.md)**.
+
 ```bash
 # Probe seeded URLs + ArcGIS Hub search + merge overrides → matrix
 node build-state-parks-research-all.mjs
@@ -62,15 +64,18 @@ These had **zero OSM coverage** or no viable Tier A source after automated searc
 | ST | Status | Next step |
 |----|--------|-----------|
 | DC | `none` | No state park system — NPS/local only |
-| NV | `blocked` | Scrape [parks.nv.gov](https://parks.nv.gov/) or locate NV Division of State Parks GIS |
-| RI | `blocked` | RI DEM GIS / scrape park listing |
-| SD | `blocked` | SD GFP open data |
-| VT | `blocked` | VT State Parks / ANR GIS |
-| WV | `blocked` | WV State Parks GIS |
-| WI | `blocked` | [dnrmaps.wi.gov](https://dnrmaps.wi.gov/) — locate state parks layer (not state forests) |
-| PA | `blocked` | **Ingested** — DCNR MapServer layer 9 |
+| DE | `verified` | [FirstMap ORPTP Open Space layer 10](https://enterprise.firstmaptest.delaware.gov/arcgis/rest/services/Environmental/DE_Protected_Natural_Resources/FeatureServer/10) — `AGENCY='Parks'` |
+| NV | `verified` | [NDSL Nevada_State_Lands MapServer/17](https://arcgis.water.nv.gov/arcgis/rest/services/NDSL/Nevada_State_Lands/MapServer/17) Parks layer |
+| RI | `verified` | [RIDEM Conserved_Land layer 3](https://risegis.ri.gov/hosting/rest/services/RIDEM/Conserved_Land_in_RI_v2/MapServer/3) — `PrimUse IN ('State Park','State Beach')` |
+| SD | `verified` | [ArcGIS Online CDC mirror layer 18](https://services8.arcgis.com/3imH29cidUY8teIo/ArcGIS/rest/services/mtribble_cdcfors_South_Dakota_layers/FeatureServer/18) (gfpgis Parks folder empty) |
+| VT | `verified` | [ANR OPENDATA_ANR_TOURISM_SP layer 0](https://anrmaps.vermont.gov/arcgis/rest/services/Open_Data/OPENDATA_ANR_TOURISM_SP_NOCACHE_v2/MapServer/0) |
+| WV | `verified` | [WV_Public_Lands FeatureServer/3](https://services9.arcgis.com/SQbkdxLkuQJuLGtx/ArcGIS/rest/services/WV_Public_Lands/FeatureServer/3) |
+| WI | `verified` | [DNR managed property layer 6](https://dnrmaps.wi.gov/arcgis/rest/services/LF_DML/LF_DNR_MGD_PROPERTY_WTM_Ext/MapServer/6) — `PROP_NAME LIKE '%STATE PARK%'` |
+| PA | `verified` | **Ingested** — DCNR MapServer layer 9 |
 
 Also blocked after bad Hub matches (rejected): IN, UT — do not use national “USA Parks” or unrelated layers.
+
+**Previously blank — now filled:** DE, NV, RI, SD, VT, WV, WI. **DC** remains excluded (no state park system).
 
 ## Canada provinces
 
@@ -94,6 +99,20 @@ Document `license` per row. OSM = ODbL. State GIS typically public domain or ope
 
 ## QA signals
 
-- `validate-state-parks.mjs` compares master per-state counts to matrix expectations.
+- `validate-state-parks.mjs` compares master per-state counts to matrix expectations and fails on catalog leakage (WMA/hatchery/operator guesses).
+- `build-state-parks-cross-check.mjs` writes `state-parks-cross-check-report.json` — master vs Tier-A GIS vs public listing URLs.
+- Cross-check source URLs (all states): `state-parks-cross-check-sources.json` (generate with `node build-state-parks-cross-check.mjs --write-sources`).
 - Hub auto-verify rejects layers with >5,000 features or national-scope titles (PAD-US, USA Parks, etc.).
 - Official ingest aborts if raw feature count >3,000 without a narrowed `where` clause.
+
+### Cross-check tiers
+
+| Tier | Source | Use |
+|------|--------|-----|
+| A | State GIS (matrix) | Primary ingest |
+| Listing | Agency park finder / A–Z | Manual count spot-check — URLs in `state-parks-cross-check-sources.json` |
+| Wiki | Wikipedia `List of {state} state parks` | Secondary count check |
+| NASPD | [stateparks.org/locate-a-park](https://stateparks.org/locate-a-park/) | Agency directory |
+| ASP | [americasstateparks.org](https://www.americasstateparks.org/state-park-agencies/) | Agency + park finder (third-party) |
+| E | PAD-US (USGS) | National cross-check only — not primary |
+| F | OSM PBF | Secondary; explicit naming required when Tier A exists |

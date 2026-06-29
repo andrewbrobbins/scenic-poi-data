@@ -605,10 +605,10 @@
       "agency": "BC Parks",
       "candidates": [
         {
-          "label": "BC Parks protected areas",
-          "queryUrl": "https://services6.arcgis.com/ubm4tcTYICKBpist/ArcGIS/rest/services/BC_Parks_Established_Protected_Areas/FeatureServer/0/query",
-          "where": "1=1",
-          "outFields": "*"
+          "label": "BC Parks provincial parks (BCGW)",
+          "queryUrl": "https://delivery.maps.gov.bc.ca/arcgis/rest/services/mpcm/bcgwpub/MapServer/512/query",
+          "where": "PROTECTED_LANDS_DESIGNATION='PROVINCIAL PARK'",
+          "outFields": "PROTECTED_LANDS_NAME,PROTECTED_LANDS_CODE,OBJECTID"
         }
       ]
     },

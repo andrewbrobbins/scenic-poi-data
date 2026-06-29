@@ -1,0 +1,1899 @@
+{
+  "generated": "2026-06-26T15:17:55.059Z",
+  "description": "Alternative online lists for manual / automated cross-check of SP-001 catalog counts",
+  "globalDirectories": [
+    {
+      "name": "NASPD Locate a Park",
+      "url": "https://stateparks.org/locate-a-park/"
+    },
+    {
+      "name": "America's State Parks — agency directory",
+      "url": "https://www.americasstateparks.org/state-park-agencies/"
+    },
+    {
+      "name": "America's State Parks — park finder",
+      "url": "https://www.americasstateparks.org/state-parks/"
+    },
+    {
+      "name": "PAD-US (USGS)",
+      "url": "https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview",
+      "tier": "E",
+      "role": "national_cross_check"
+    }
+  ],
+  "us": {
+    "AL": {
+      "agency": "Alabama State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.alapark.com/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Alabama_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "AK": {
+      "agency": "Alaska State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://dnr.alaska.gov/parks/asp"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Alaska_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Recreational_ParkBoundary/FeatureServer/2/query",
+      "tierAGisCount": 157
+    },
+    "AZ": {
+      "agency": "Arizona State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://azstateparks.com/find-a-park/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Arizona_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "AR": {
+      "agency": "Arkansas State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.arkansasstateparks.com/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Arkansas_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Utah_State_Park_Management_Areas/FeatureServer/0/query",
+      "tierAGisCount": 78
+    },
+    "CA": {
+      "agency": "California State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.parks.ca.gov/ParkList"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_California_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkEntryPoints/FeatureServer/2/query",
+      "tierAGisCount": 288
+    },
+    "CO": {
+      "agency": "Colorado Parks and Wildlife",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://cpw.state.co.us/placestogo/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Colorado_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "CT": {
+      "agency": "Connecticut State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://portal.ct.gov/deep/state-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Connecticut_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/FjPcSmEFuDYlIdKC/arcgis/rest/services/Connecticut_DEEP_Property/FeatureServer/0/query",
+      "tierAGisCount": 491
+    },
+    "DE": {
+      "agency": "Delaware State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://destateparks.com/FindAStatePark"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Delaware_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services3.arcgis.com/8mRVhBBtAu5eqZUu/arcgis/rest/services/CMI_Phase_2_Historic_Resource_Forms_view_TEST/FeatureServer/0/query",
+      "tierAGisCount": 39
+    },
+    "FL": {
+      "agency": "Florida State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.floridastateparks.org/parks-and-trails"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Florida_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/0/query",
+      "tierAGisCount": 179
+    },
+    "GA": {
+      "agency": "Georgia State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://gastateparks.org/Parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Georgia_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "HI": {
+      "agency": "Hawaii State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://dlnr.hawaii.gov/dsp/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Hawaii_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "ID": {
+      "agency": "Idaho State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parksandrecreation.idaho.gov/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Idaho_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "IL": {
+      "agency": "Illinois State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://dnr.illinois.gov/experience/parks.html"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Illinois"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services5.arcgis.com/PADY1WtQSQ4Ijq5k/arcgis/rest/services/NPS_Illinois_River_Watershed_Model_Input_Layers/FeatureServer/0/query",
+      "tierAGisCount": 1
+    },
+    "IN": {
+      "agency": "Indiana State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.in.gov/dnr/state-parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Indiana_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://gisdata.in.gov/server/rest/services/Hosted/Sites_StateParks/FeatureServer/8/query",
+      "tierAGisCount": 27
+    },
+    "IA": {
+      "agency": "Iowa State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.iowadnr.gov/places-go/state-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Iowa_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/HPHS/FeatureServer/0/query",
+      "tierAGisCount": 93
+    },
+    "KS": {
+      "agency": "Kansas State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://ksoutdoors.com/State-Parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kansas_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "KY": {
+      "agency": "Kentucky State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parks.ky.gov/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Kentucky_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "LA": {
+      "agency": "Louisiana State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.lastateparks.com/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Louisiana_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/HPHS/FeatureServer/0/query",
+      "tierAGisCount": 93
+    },
+    "ME": {
+      "agency": "Maine State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.maine.gov/dacf/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Maine_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "MD": {
+      "agency": "Maryland State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://dnr.maryland.gov/publiclands/Pages/default.aspx"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Maryland_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services.arcgis.com/njFNhDsUCentVYJW/arcgis/rest/services/State_Parks_on_Maryland_Eastern_Shore/FeatureServer/0/query",
+      "tierAGisCount": 15
+    },
+    "MA": {
+      "agency": "Massachusetts State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.mass.gov/orgs/department-of-conservation-recreation"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Massachusetts_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "MI": {
+      "agency": "Michigan State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.michigan.gov/dnr/places/state-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Michigan_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "MN": {
+      "agency": "Minnesota State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.dnr.state.mn.us/state_parks/index.html"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Minnesota_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/bdry_dnr_managed_areas/FeatureServer/2/query",
+      "tierAGisCount": 75
+    },
+    "MS": {
+      "agency": "Mississippi State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.mdwfp.com/parks-destinations/state-parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Mississippi_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/biota_mrcca_vegetation/FeatureServer/0/query",
+      "tierAGisCount": 4498
+    },
+    "MO": {
+      "agency": "Missouri State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://mostateparks.com/park"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Missouri_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://gis.dnr.mo.gov/server/rest/services/parks/Missouri_State_Parks_Boundaries/FeatureServer/4/query",
+      "tierAGisCount": 90
+    },
+    "MT": {
+      "agency": "Montana State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://fwp.mt.gov/stateparks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Montana_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/fBc8EJBxQRMcHlei/arcgis/rest/services/HPHS/FeatureServer/0/query",
+      "tierAGisCount": 93
+    },
+    "NE": {
+      "agency": "Nebraska Game and Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://outdoornebraska.gov/stateparks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nebraska_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services6.arcgis.com/Sjtjj6zwMH9eAgbl/arcgis/rest/services/Nebraska_State_Parks_by_Jennifer_Nelson_/FeatureServer/0/query",
+      "tierAGisCount": 72
+    },
+    "NV": {
+      "agency": "Nevada State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parks.nv.gov/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Nevada_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/KbxwQRRfWyEYLgp4/arcgis/rest/services/BLM_Natl_WesternUS_GRSG_Biologically_Significant_Units_October_2017_Update/FeatureServer/0/query",
+      "tierAGisCount": 160
+    },
+    "NH": {
+      "agency": "New Hampshire State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.nhstateparks.org/find-parks-trails"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_New_Hampshire_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/PwLrOgCfU0cYShcG/arcgis/rest/services/State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 13
+    },
+    "NJ": {
+      "agency": "New Jersey State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.nj.gov/dep/parksandforests/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_New_Jersey_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "NM": {
+      "agency": "New Mexico State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.emnrd.nm.gov/spd/find-a-park/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_New_Mexico_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services2.arcgis.com/CjbW1bVhK4dB3WOa/arcgis/rest/services/New_Mexico_OHV_Recreation_Atlas_Finder_v2_WFL1/FeatureServer/0/query",
+      "tierAGisCount": 1
+    },
+    "NY": {
+      "agency": "New York State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parks.ny.gov/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_New_York_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services.arcgis.com/1xFZPtKn1wKC6POA/arcgis/rest/services/NYS_Park_Polygons/FeatureServer/0/query",
+      "tierAGisCount": 858
+    },
+    "NC": {
+      "agency": "North Carolina State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.ncparks.gov/state-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_North_Carolina_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services6.arcgis.com/nRIB86xC7kq6wavB/arcgis/rest/services/NC_State_Parks_System/FeatureServer/0/query",
+      "tierAGisCount": 348
+    },
+    "ND": {
+      "agency": "North Dakota State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.parkrec.nd.gov/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_North_Dakota_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 21
+    },
+    "OH": {
+      "agency": "Ohio State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Ohio"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "OK": {
+      "agency": "Oklahoma State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.travelok.com/state-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Oklahoma_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "OR": {
+      "agency": "Oregon State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://stateparks.oregon.gov/index.cfm?do=visit.find"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Oregon_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://maps.prd.state.or.us/arcgis/rest/services/Land_ownership/Oregon_State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 63
+    },
+    "PA": {
+      "agency": "Pennsylvania State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/Pages/default.aspx"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Pennsylvania_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://www.gis.dcnr.pa.gov/agsprod/rest/services/Parks/State_Parks/MapServer/9/query",
+      "tierAGisCount": 124
+    },
+    "RI": {
+      "agency": "Rhode Island State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://riparks.ri.gov/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Rhode_Island_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/PwLrOgCfU0cYShcG/arcgis/rest/services/State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 13
+    },
+    "SC": {
+      "agency": "South Carolina State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://southcarolinaparks.com/park-finder"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_South_Carolina_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services5.arcgis.com/bPacKTm9cauMXVfn/ArcGIS/rest/services/South_Carolina_State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 55
+    },
+    "SD": {
+      "agency": "South Dakota State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://gfp.sd.gov/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_South_Dakota_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "TN": {
+      "agency": "Tennessee State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://tnstateparks.com/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Tennessee_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer/0/query",
+      "tierAGisCount": 66
+    },
+    "TX": {
+      "agency": "Texas Parks and Wildlife",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://tpwd.texas.gov/state-parks/parks-map"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Texas_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/1mtXwieMId59thmg/ArcGIS/rest/services/Texas_State_Parks_Boundaries/FeatureServer/0/query",
+      "tierAGisCount": 116
+    },
+    "UT": {
+      "agency": "Utah State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://stateparks.utah.gov/find-a-park/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Utah_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Utah_State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 56
+    },
+    "VT": {
+      "agency": "Vermont State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://vtstateparks.com/find.html"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Vermont_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services5.arcgis.com/Uzks6LSde6r23wwG/arcgis/rest/services/LWCF_6f_Boundary_view/FeatureServer/0/query",
+      "tierAGisCount": 508
+    },
+    "VA": {
+      "agency": "Virginia State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.dcr.virginia.gov/state-parks/find-a-park"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Virginia_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "WA": {
+      "agency": "Washington State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parks.wa.gov/find-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Washington_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/ParkBoundaries/FeatureServer/2/query",
+      "tierAGisCount": 207
+    },
+    "WV": {
+      "agency": "West Virginia State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://wvstateparks.com/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_West_Virginia_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "WI": {
+      "agency": "Wisconsin State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://dnr.wisconsin.gov/topic/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Wisconsin_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/PwLrOgCfU0cYShcG/arcgis/rest/services/State_Parks/FeatureServer/0/query",
+      "tierAGisCount": 13
+    },
+    "WY": {
+      "agency": "Wyoming State Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://wyoparks.wyo.gov/parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Wyoming_state_parks"
+        },
+        {
+          "tier": "naspd_directory",
+          "role": "directory",
+          "url": "https://stateparks.org/locate-a-park/"
+        },
+        {
+          "tier": "asp_agencies",
+          "role": "directory",
+          "url": "https://www.americasstateparks.org/state-park-agencies/"
+        },
+        {
+          "tier": "asp_finder",
+          "role": "third_party",
+          "url": "https://www.americasstateparks.org/state-parks/",
+          "notes": "Commercial directory — spot-check only"
+        }
+      ],
+      "tierAGis": "https://services1.arcgis.com/WOPmQY9FJsLgGOzw/arcgis/rest/services/Parking_Areas/FeatureServer/0/query",
+      "tierAGisCount": 206
+    }
+  },
+  "ca": {
+    "AB": {
+      "agency": "Alberta Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.albertaparks.ca/albertaparksca/visit-our-parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Alberta"
+        }
+      ],
+      "tierAGis": "https://geospatial.alberta.ca/titan/rest/services/boundary/parks_protected_areas_alberta/FeatureServer/0/query",
+      "tierAGisCount": 469
+    },
+    "BC": {
+      "agency": "BC Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://bcparks.ca/explore/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_British_Columbia"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "MB": {
+      "agency": "Manitoba Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.gov.mb.ca/sd/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Manitoba"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "NB": {
+      "agency": "New Brunswick Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parcsnbparks.ca/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_New_Brunswick"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "NL": {
+      "agency": "NL Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.gov.nl.ca/ffa/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Newfoundland_and_Labrador"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "NS": {
+      "agency": "Nova Scotia Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://parks.novascotia.ca/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Nova_Scotia"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "NT": {
+      "agency": "NWT Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.nwtourism.ca/explore/nwt-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Northwest_Territories_parks"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "NU": {
+      "agency": "Nunavut Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.nunavuttourism.com/things-to-do/parks-special-places/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Nunavut"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "ON": {
+      "agency": "Ontario Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.ontarioparks.ca/park-locator"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Ontario"
+        }
+      ],
+      "tierAGis": "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open03/MapServer/4/query",
+      "tierAGisCount": 347
+    },
+    "PE": {
+      "agency": "PEI Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.princeedwardisland.ca/en/information/environment-energy-and-climate-action/pei-provincial-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Prince_Edward_Island"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "QC": {
+      "agency": "Sépaq",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.sepaq.com/pq/parks/"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Quebec_national_parks"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "SK": {
+      "agency": "Saskatchewan Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://www.tourismsaskatchewan.com/places-to-go/provincial-parks"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Saskatchewan"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    },
+    "YT": {
+      "agency": "Yukon Parks",
+      "sources": [
+        {
+          "tier": "official_listing",
+          "role": "cross_check",
+          "url": "https://yukon.ca/en/outdoor-recreation-and-wildlife/camping-and-picnicking/find-campground-or-picnic-site"
+        },
+        {
+          "tier": "wikipedia",
+          "role": "cross_check",
+          "url": "https://en.wikipedia.org/wiki/List_of_Yukon_parks"
+        }
+      ],
+      "tierAGis": null,
+      "tierAGisCount": null
+    }
+  }
+}

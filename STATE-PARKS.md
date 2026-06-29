@@ -75,6 +75,28 @@ Example CA record:
 
 **Primary ingest is now official state GIS where verified**, merged with OSM PBF as secondary. Full research docs: **[STATE-PARKS-SOURCES.md](STATE-PARKS-SOURCES.md)**.
 
+### Four-source completion goal
+
+Each US state should have **four independent verification sources** before the catalog is considered done:
+
+| # | Source | What counts as “present” | Ingest / cross-check |
+|---|--------|--------------------------|----------------------|
+| 1 | **GIS** | Verified ArcGIS boundary layer in `state-parks-source-matrix.json` | `build-state-parks-ingest-official.mjs` |
+| 2 | **OSM** | At least one candidate in local PBF extract | `build-state-parks-extract-pbf.mjs` |
+| 3 | **Official website** | Agency park finder allowlist in listing cache | `build-state-parks-ingest-listings.mjs` |
+| 4 | **Wikipedia** | Parsed count from en.wikipedia list page (wikitable rows + location map) | `node build-state-parks-wiki-counts.mjs` → `state-parks-wiki-counts-cache.json` |
+
+**Completed** = all four present **and** GIS, website, Wikipedia, and **plotted master** counts agree within **1.35×** (raw OSM is not used for agreement — it is unfiltered and often over-counts).
+
+Track status:
+
+```bash
+node build-state-parks-wiki-counts.mjs          # refresh Wikipedia list-page counts
+node build-state-parks-four-source-status.mjs   # → state-parks-four-source-status.json + STATE-PARKS-COMPLETION.md
+```
+
+See **[STATE-PARKS-COMPLETION.md](STATE-PARKS-COMPLETION.md)** for the live completed / remaining tables.
+
 | Artifact | Role |
 |----------|------|
 | `state-parks-source-matrix.json` | Per-state tier, status, endpoints, field maps (committed) |
@@ -116,6 +138,9 @@ node build-state-parks-all.mjs
 # Rescan PBF after update
 node build-state-parks-all.mjs --refresh
 
+# Listing allowlists for all Tier-A states (see STATE-PARKS-LISTINGS.md)
+node build-state-parks-ingest-listings.mjs --tier-a --refresh
+
 # Official ingest only (network)
 node build-state-parks-ingest-official.mjs --refresh --state=CA,TX,NY
 
@@ -133,6 +158,7 @@ node build-state-parks-research-all.mjs
 | 2 | `build-state-parks-master.mjs` | Merges official + OSM → `state-parks-*-master.json` |
 | 3 | `build-state-parks-explorer-embed.mjs` | `state-parks-*-explorer-embed.js` |
 | 4 | `validate-state-parks.mjs` | exit 0/1; reads `state-parks-qa.json` |
+| 5 | `build-state-parks-four-source-status.mjs` | Four-source completion tracker |
 
 ### Dedupe rules
 
@@ -151,6 +177,8 @@ node build-state-parks-research-all.mjs
 | `state-parks-us-master.json` | Committed US catalog |
 | `state-parks-ca-master.json` | Committed CA catalog |
 | `state-parks-qa.json` | Per-region counts + merge conflicts |
+| `state-parks-four-source-status.json` | Four-source completion tracker (generated) |
+| `STATE-PARKS-COMPLETION.md` | Human-readable completion tables (generated) |
 | `state-parks-camping-source.json` | **Deprecated** manual camping seeds — overlap-check only |
 
 ## Explorer / app

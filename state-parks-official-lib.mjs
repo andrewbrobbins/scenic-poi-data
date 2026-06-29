@@ -9,6 +9,8 @@ import {
   INGEST_DIR,
   coordValid,
   inferAdminRegion,
+  isExcludedCaStateParkName,
+  isExcludedUsStateParkName,
   readJson,
   slugify,
   unitId,
@@ -18,9 +20,6 @@ import {
 const tools = path.dirname(fileURLToPath(import.meta.url));
 export const MATRIX_PATH = path.join(tools, "state-parks-source-matrix.json");
 export const OFFICIAL_INGEST_DIR = path.join(INGEST_DIR, "01-official");
-
-const OUT_OF_SCOPE =
-  /\b(state forest|state game land|state wildlife|state natural area|state recreation area|county park|city park|municipal|regional park|national park|national forest)\b/i;
 
 const HISTORIC =
   /\b(historic site|historical site|historic park|historical park|heritage site|heritage park|memorial|battlefield|monument)\b/i;
@@ -35,6 +34,14 @@ export function loadSourceMatrix() {
 export function verifiedSources(matrix, country) {
   const key = country === "CA" ? "ca" : "us";
   return (matrix[key] || []).filter((r) => r.status === "verified" && r.queryUrl);
+}
+
+/** Admins with official GIS and/or listing-primary catalog (no GIS required). */
+export function catalogBackedAdmins(matrix, country) {
+  const key = country === "CA" ? "ca" : "us";
+  return (matrix[key] || [])
+    .filter((r) => (r.status === "verified" && r.queryUrl) || r.listingPrimary === true)
+    .map((r) => r.admin);
 }
 
 export function attrString(attrs, field) {
@@ -73,14 +80,35 @@ export function pickUrlFromAttrs(attrs, fieldMap) {
   return "";
 }
 
-export function classifyOfficialName(name, country, { trustLayer = false } = {}) {
+export function classifyOfficialName(name, country, { trustLayer = false, propType = null } = {}) {
   const n = name.trim();
   if (!n) return null;
-  if (OUT_OF_SCOPE.test(n) && !HISTORIC.test(n)) return null;
+  if (country === "CA" && isExcludedCaStateParkName(n) && !HISTORIC.test(n)) return null;
+  if (country === "US" && isExcludedUsStateParkName(n) && !HISTORIC.test(n)) return null;
+
+  if (propType === "SHS") {
+    return {
+      category: "historic_site",
+      designation: country === "CA" ? "Provincial Historic Site" : "State Historic Site",
+    };
+  }
+
   if (trustLayer) {
-    const category = HISTORIC.test(n) || /historic site|heritage site|memorial|battlefield/i.test(n)
-      ? "historic_site"
-      : "park";
+    if (/\sSHP$/i.test(n)) {
+      return { category: "historic_site", designation: "State Historic Park" };
+    }
+    if (/\sSHM$/i.test(n)) {
+      return { category: "historic_site", designation: "State Historic Monument" };
+    }
+    if (/\sSP$/i.test(n)) {
+      return { category: "park", designation: "State Park" };
+    }
+    let category = "park";
+    if (propType === "SP/SHS" && (HISTORIC.test(n) || /\b(fort |goliad|seminole|hueco tanks|lyndon b|historic)/i.test(n))) {
+      category = "historic_site";
+    } else if (HISTORIC.test(n) || /historic site|heritage site|memorial|battlefield/i.test(n)) {
+      category = "historic_site";
+    }
     let designation = country === "CA" ? "Provincial Park" : "State Park";
     if (category === "historic_site") {
       designation = country === "CA" ? "Provincial Historic Site" : "State Historic Site";
@@ -129,7 +157,8 @@ export function featureToRecord(feature, row) {
   if (!name) return null;
 
   const country = row.country || "US";
-  const cls = classifyOfficialName(name, country, { trustLayer: true });
+  const propType = attrString(attrs, row.fieldMap?.propType || "PropType") || null;
+  const cls = classifyOfficialName(name, country, { trustLayer: true, propType });
   if (!cls) return null;
 
   const coords = coordsFromFeature(feature, attrs, row.fieldMap);
@@ -155,11 +184,30 @@ export function featureToRecord(feature, row) {
     reviewReasons: [],
     url: url || undefined,
     officialCode: code || undefined,
+    propType: propType || undefined,
     officialSource: row.notes || row.agency,
   };
 }
 
 const MAX_OFFICIAL_FEATURES = 3000;
+
+async function fetchArcgisOnce(queryBase, where, outFields, maxAllowableOffset = null) {
+  const params = new URLSearchParams({
+    where,
+    outFields,
+    returnGeometry: "true",
+    outSR: "4326",
+    f: "json",
+  });
+  if (maxAllowableOffset != null) {
+    params.set("maxAllowableOffset", String(maxAllowableOffset));
+    params.set("geometryPrecision", "5");
+  }
+  const res = await fetch(`${queryBase}?${params}`, { signal: AbortSignal.timeout(120000) });
+  const j = await res.json();
+  if (j.error) throw new Error(`ArcGIS error: ${JSON.stringify(j.error)}`);
+  return j.features || [];
+}
 
 export async function fetchOfficialFeatures(row) {
   const queryBase = row.queryUrl.replace(/\?.*$/, "");
@@ -177,6 +225,9 @@ export async function fetchOfficialFeatures(row) {
     throw new Error(`Feature count ${total} exceeds safety limit ${MAX_OFFICIAL_FEATURES} — narrow where clause or add manual override`);
   }
   const simplify = row.simplifyGeometry ? 0.0001 : null;
+  if (row.singleQuery) {
+    return fetchArcgisOnce(queryBase, row.where || "1=1", row.outFields || "*", simplify);
+  }
   return fetchArcgisAllFeatures(queryBase, row.where || "1=1", row.outFields || "*", 500, simplify);
 }
 

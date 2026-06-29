@@ -19,11 +19,13 @@ function toEmbedRow(r) {
   return {
     id: r.id,
     name: r.name,
+    displayName: r.displayName || r.name,
     lat: r.lat,
     lon: r.lon,
     state: r.state || "",
     designation: r.designation || "",
     category: r.category || "",
+    alsoHistoricSite: !!r.alsoHistoricSite,
     url: r.url || "",
     needsReview: !!r.needsReview,
   };

@@ -1,0 +1,1874 @@
+{
+  "generated": "2026-06-27T03:06:08.645Z",
+  "policy": {
+    "requiredSources": [
+      "GIS",
+      "OSM",
+      "official_website",
+      "wikipedia"
+    ],
+    "agreementCounts": [
+      "gis",
+      "website",
+      "wikipedia",
+      "plotted"
+    ],
+    "agreeMaxRatio": 1.35
+  },
+  "completedCount": 11,
+  "completed": [
+    "FL",
+    "IA",
+    "KY",
+    "MD",
+    "MI",
+    "MN",
+    "MT",
+    "PA",
+    "SC",
+    "TX",
+    "UT"
+  ],
+  "rows": [
+    {
+      "admin": "AL",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 21,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 9,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 22,
+        "url": "https://www.alapark.com/map-of-parks",
+        "method": "official_listing_html+page_enrich+wiki_coords"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 21,
+        "url": "https://en.wikipedia.org/wiki/List_of_Alabama_state_parks"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": 22,
+        "wikipedia": 21,
+        "plotted": 21
+      },
+      "missing": [
+        "GIS"
+      ]
+    },
+    {
+      "admin": "AK",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 137,
+      "gis": {
+        "has": true,
+        "count": 157,
+        "url": "https://arcgis.dnr.alaska.gov/arcgis/rest/services/OpenData/Recreational_ParkBoundary/FeatureServer/2/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 12,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 21,
+        "url": "https://dnr.alaska.gov/parks/asp",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 77,
+        "url": "https://en.wikipedia.org/wiki/List_of_Alaska_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 157,
+        "website": 21,
+        "wikipedia": 77,
+        "plotted": 137
+      },
+      "missing": []
+    },
+    {
+      "admin": "AZ",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 23,
+      "gis": {
+        "has": true,
+        "count": 26,
+        "url": "https://azgeo.az.gov/arcgis/rest/services/asld/BLM_SurfaceManagement/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 8,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 58,
+        "url": "https://azstateparks.com/find-a-park/",
+        "method": "official_listing_html+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 34,
+        "url": "https://en.wikipedia.org/wiki/List_of_Arizona_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 26,
+        "website": 58,
+        "wikipedia": 34,
+        "plotted": 23
+      },
+      "missing": []
+    },
+    {
+      "admin": "AR",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 10,
+      "gis": {
+        "has": true,
+        "count": 78,
+        "url": "https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Utah_State_Park_Management_Areas/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 12,
+        "plotted": 10
+      },
+      "website": {
+        "has": true,
+        "count": 5,
+        "url": "https://www.arkansasstateparks.com/parks",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 53,
+        "url": "https://en.wikipedia.org/wiki/List_of_Arkansas_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 78,
+        "website": 5,
+        "wikipedia": 53,
+        "plotted": 10
+      },
+      "missing": []
+    },
+    {
+      "admin": "CA",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 138,
+      "gis": {
+        "has": true,
+        "count": 138,
+        "url": "https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/ParkEntryPoints/FeatureServer/2/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 30,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 138,
+        "url": "https://www.parks.ca.gov/ParkList",
+        "method": "official_gis_urls"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 281,
+        "url": "https://en.wikipedia.org/wiki/List_of_California_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 138,
+        "website": 138,
+        "wikipedia": 281,
+        "plotted": 138
+      },
+      "missing": []
+    },
+    {
+      "admin": "CO",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 32,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "blocked"
+      },
+      "osm": {
+        "has": true,
+        "raw": 32,
+        "plotted": 32
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://cpw.state.co.us/placestogo/parks",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 44,
+        "url": "https://en.wikipedia.org/wiki/List_of_Colorado_state_parks"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": null,
+        "wikipedia": 44,
+        "plotted": 32
+      },
+      "missing": [
+        "GIS",
+        "website"
+      ]
+    },
+    {
+      "admin": "CT",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 71,
+      "gis": {
+        "has": true,
+        "count": 72,
+        "url": "https://services1.arcgis.com/FjPcSmEFuDYlIdKC/arcgis/rest/services/Connecticut_DEEP_Property/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 48,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 71,
+        "url": "https://portal.ct.gov/deep/state-parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 102,
+        "url": "https://en.wikipedia.org/wiki/List_of_Connecticut_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 72,
+        "website": 71,
+        "wikipedia": 102,
+        "plotted": 71
+      },
+      "missing": []
+    },
+    {
+      "admin": "DE",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 11,
+      "gis": {
+        "has": true,
+        "count": 66,
+        "url": "https://enterprise.firstmaptest.delaware.gov/arcgis/rest/services/Environmental/DE_Protected_Natural_Resources/FeatureServer/10/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 21,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 11,
+        "url": "https://destateparks.com/FindAStatePark",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 17,
+        "url": "https://en.wikipedia.org/wiki/List_of_Delaware_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 66,
+        "website": 11,
+        "wikipedia": 17,
+        "plotted": 11
+      },
+      "missing": []
+    },
+    {
+      "admin": "FL",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 176,
+      "gis": {
+        "has": true,
+        "count": 179,
+        "url": "https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 33,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 176,
+        "url": "https://www.floridastateparks.org/parks-and-trails",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 162,
+        "url": "https://en.wikipedia.org/wiki/List_of_Florida_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 179,
+        "website": 176,
+        "wikipedia": 162,
+        "plotted": 176
+      },
+      "missing": []
+    },
+    {
+      "admin": "GA",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 47,
+      "gis": {
+        "has": true,
+        "count": 76,
+        "url": "https://maps.itos.uga.edu/arcgis/rest/services/FrameWork/Conservation/FeatureServer/5/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 16,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 47,
+        "url": "https://gastateparks.org/Parks",
+        "method": "official_gis_names+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 46,
+        "url": "https://en.wikipedia.org/wiki/List_of_Georgia_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 76,
+        "website": 47,
+        "wikipedia": 46,
+        "plotted": 47
+      },
+      "missing": []
+    },
+    {
+      "admin": "HI",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 23,
+      "gis": {
+        "has": true,
+        "count": 23,
+        "url": "https://services1.arcgis.com/x4h61KaW16vFs7PM/arcgis/rest/services/parks_state_shp/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 4,
+        "plotted": 0
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://dlnr.hawaii.gov/dsp/parks/",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 43,
+        "url": "https://en.wikipedia.org/wiki/List_of_Hawaii_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 23,
+        "website": null,
+        "wikipedia": 43,
+        "plotted": 23
+      },
+      "missing": [
+        "website"
+      ]
+    },
+    {
+      "admin": "ID",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 28,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 3,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 28,
+        "url": "https://parksandrecreation.idaho.gov/wp-json/wp/v2/state-park?per_page=100",
+        "method": "official_wordpress_api+page_enrich+wiki_coords"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 24,
+        "url": "https://en.wikipedia.org/wiki/List_of_Idaho_state_parks"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": 28,
+        "wikipedia": 24,
+        "plotted": 28
+      },
+      "missing": [
+        "GIS"
+      ]
+    },
+    {
+      "admin": "IL",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 37,
+      "gis": {
+        "has": true,
+        "count": 1,
+        "url": "https://services5.arcgis.com/PADY1WtQSQ4Ijq5k/arcgis/rest/services/NPS_Illinois_River_Watershed_Model_Input_Layers/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 121,
+        "plotted": 37
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://dnr.illinois.gov/experience/parks.html",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 47,
+        "url": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Illinois"
+      },
+      "catalogCounts": {
+        "gis": 1,
+        "website": null,
+        "wikipedia": 47,
+        "plotted": 37
+      },
+      "missing": [
+        "website"
+      ]
+    },
+    {
+      "admin": "IN",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 27,
+      "gis": {
+        "has": true,
+        "count": 27,
+        "url": "https://gisdata.in.gov/server/rest/services/Hosted/Sites_StateParks/FeatureServer/8/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 13,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 11,
+        "url": "https://www.in.gov/dnr/state-parks/",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 25,
+        "url": "https://en.wikipedia.org/wiki/List_of_Indiana_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 27,
+        "website": 11,
+        "wikipedia": 25,
+        "plotted": 27
+      },
+      "missing": []
+    },
+    {
+      "admin": "IA",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 54,
+      "gis": {
+        "has": true,
+        "count": 65,
+        "url": "https://programs.iowadnr.gov/geospatial/rest/services/Recreation/State_Parks/MapServer/13/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 80,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 54,
+        "url": "https://www.iowadnr.gov/places-go/state-parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 67,
+        "url": "https://en.wikipedia.org/wiki/List_of_Iowa_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 65,
+        "website": 54,
+        "wikipedia": 67,
+        "plotted": 54
+      },
+      "missing": []
+    },
+    {
+      "admin": "KS",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 41,
+      "gis": {
+        "has": true,
+        "count": 47,
+        "url": "https://kanplan.ksdot.gov/arcgis_web_adaptor/rest/services/Boundaries/State_Park_Area/MapServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 24,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 41,
+        "url": "https://ksoutdoors.com/State-Parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 27,
+        "url": "https://en.wikipedia.org/wiki/List_of_Kansas_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 47,
+        "website": 41,
+        "wikipedia": 27,
+        "plotted": 41
+      },
+      "missing": []
+    },
+    {
+      "admin": "KY",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 49,
+      "gis": {
+        "has": true,
+        "count": 49,
+        "url": "https://services3.arcgis.com/ghsX9CKghMvyYjBU/arcgis/rest/services/Ky_State_Park_Boundaries_WM_gdb/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 7,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 49,
+        "url": "https://parks.ky.gov/parks",
+        "method": "official_gis_names+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 47,
+        "url": "https://en.wikipedia.org/wiki/List_of_Kentucky_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 49,
+        "website": 49,
+        "wikipedia": 47,
+        "plotted": 49
+      },
+      "missing": []
+    },
+    {
+      "admin": "LA",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 18,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 4,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 22,
+        "url": "https://www.lastateparks.com/parks",
+        "method": "wikipedia+page_enrich+wiki_coords"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 21,
+        "url": "https://en.wikipedia.org/wiki/List_of_Louisiana_state_parks"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": 22,
+        "wikipedia": 21,
+        "plotted": 18
+      },
+      "missing": [
+        "GIS"
+      ]
+    },
+    {
+      "admin": "ME",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 44,
+      "gis": {
+        "has": true,
+        "count": 44,
+        "url": "https://services1.arcgis.com/RbMX0mRVOFNTdLzd/arcgis/rest/services/Maine_Conserved_Lands_BPL_Interests/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 14,
+        "plotted": 0
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://www.maine.gov/dacf/parks/",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 38,
+        "url": "https://en.wikipedia.org/wiki/List_of_Maine_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 44,
+        "website": null,
+        "wikipedia": 38,
+        "plotted": 44
+      },
+      "missing": [
+        "website"
+      ]
+    },
+    {
+      "admin": "MD",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 52,
+      "gis": {
+        "has": true,
+        "count": 67,
+        "url": "https://mdgeodata.md.gov/imap/rest/services/Environment/MD_ProtectedLands/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 389,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 52,
+        "url": "https://dnr.maryland.gov/publiclands/Pages/default.aspx",
+        "method": "official_gis_names+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 58,
+        "url": "https://en.wikipedia.org/wiki/List_of_Maryland_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 67,
+        "website": 52,
+        "wikipedia": 58,
+        "plotted": 52
+      },
+      "missing": []
+    },
+    {
+      "admin": "MA",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 50,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "blocked"
+      },
+      "osm": {
+        "has": true,
+        "raw": 181,
+        "plotted": 50
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://www.mass.gov/orgs/department-of-conservation-recreation",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 59,
+        "url": "https://en.wikipedia.org/wiki/List_of_Massachusetts_state_parks"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": null,
+        "wikipedia": 59,
+        "plotted": 50
+      },
+      "missing": [
+        "GIS",
+        "website"
+      ]
+    },
+    {
+      "admin": "MI",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 78,
+      "gis": {
+        "has": true,
+        "count": 79,
+        "url": "https://services3.arcgis.com/Jdnp1TjADvSDxMAX/arcgis/rest/services/DNRManagementBoundariesOPENDATA/FeatureServer/8/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 62,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 78,
+        "url": "https://www.michigan.gov/dnr/places/state-parks",
+        "method": "official_gis_names+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 80,
+        "url": "https://en.wikipedia.org/wiki/List_of_Michigan_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 79,
+        "website": 78,
+        "wikipedia": 80,
+        "plotted": 78
+      },
+      "missing": []
+    },
+    {
+      "admin": "MN",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 73,
+      "gis": {
+        "has": true,
+        "count": 75,
+        "url": "https://enterprise.gisdata.mn.gov/aghost/rest/services/us_mn_state_dnr/bdry_dnr_managed_areas/FeatureServer/2/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 52,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 73,
+        "url": "https://www.dnr.state.mn.us/state_parks/index.html",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 73,
+        "url": "https://en.wikipedia.org/wiki/List_of_Minnesota_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 75,
+        "website": 73,
+        "wikipedia": 73,
+        "plotted": 73
+      },
+      "missing": []
+    },
+    {
+      "admin": "MS",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 37,
+      "gis": {
+        "has": true,
+        "count": 53,
+        "url": "https://gis.mississippi.edu/server/rest/services/Cultural/MS_StateParks_2019/MapServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 1,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 37,
+        "url": "https://www.mdwfp.com/parks-destinations/state-parks/",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 25,
+        "url": "https://en.wikipedia.org/wiki/List_of_Mississippi_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 53,
+        "website": 37,
+        "wikipedia": 25,
+        "plotted": 37
+      },
+      "missing": []
+    },
+    {
+      "admin": "MO",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 89,
+      "gis": {
+        "has": true,
+        "count": 90,
+        "url": "https://gis.dnr.mo.gov/server/rest/services/parks/Missouri_State_Parks_Boundaries/FeatureServer/4/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 181,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 89,
+        "url": "https://mostateparks.com/park",
+        "method": "official_gis_urls"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 57,
+        "url": "https://en.wikipedia.org/wiki/List_of_Missouri_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 90,
+        "website": 89,
+        "wikipedia": 57,
+        "plotted": 89
+      },
+      "missing": []
+    },
+    {
+      "admin": "MT",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 55,
+      "gis": {
+        "has": true,
+        "count": 55,
+        "url": "https://fwp-gis.mt.gov/arcgis/rest/services/fwplnd/fwpLands/MapServer/5/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 6,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 55,
+        "url": "https://fwp.mt.gov/stateparks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 56,
+        "url": "https://en.wikipedia.org/wiki/List_of_Montana_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 55,
+        "website": 55,
+        "wikipedia": 56,
+        "plotted": 55
+      },
+      "missing": []
+    },
+    {
+      "admin": "NE",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 72,
+      "gis": {
+        "has": true,
+        "count": 72,
+        "url": "https://services6.arcgis.com/Sjtjj6zwMH9eAgbl/arcgis/rest/services/Nebraska_State_Parks_by_Jennifer_Nelson_/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 2,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 19,
+        "url": "https://outdoornebraska.gov/stateparks/",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 17,
+        "url": "https://en.wikipedia.org/wiki/List_of_Nebraska_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 72,
+        "website": 19,
+        "wikipedia": 17,
+        "plotted": 72
+      },
+      "missing": []
+    },
+    {
+      "admin": "NV",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 29,
+      "gis": {
+        "has": true,
+        "count": 30,
+        "url": "https://arcgis.water.nv.gov/arcgis/rest/services/NDSL/Nevada_State_Lands/MapServer/17/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": false,
+        "raw": 0,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 29,
+        "url": "https://parks.nv.gov/parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 25,
+        "url": "https://en.wikipedia.org/wiki/List_of_Nevada_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 30,
+        "website": 29,
+        "wikipedia": 25,
+        "plotted": 29
+      },
+      "missing": [
+        "OSM"
+      ]
+    },
+    {
+      "admin": "NH",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 35,
+      "gis": {
+        "has": true,
+        "count": 46,
+        "url": "https://maps.dot.nh.gov/arcgis_server/rest/services/ProjectViewer/NHDOT_PROJECT_VIEWER_DOT_BASEMAP/MapServer/30/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 18,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 35,
+        "url": "https://www.nhstateparks.org/find-parks-trails",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 52,
+        "url": "https://en.wikipedia.org/wiki/List_of_New_Hampshire_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 46,
+        "website": 35,
+        "wikipedia": 52,
+        "plotted": 35
+      },
+      "missing": []
+    },
+    {
+      "admin": "NJ",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 14,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "blocked"
+      },
+      "osm": {
+        "has": true,
+        "raw": 23,
+        "plotted": 14
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://www.nj.gov/dep/parksandforests/parks/",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 53,
+        "url": "https://en.wikipedia.org/wiki/List_of_New_Jersey_state_parks"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": null,
+        "wikipedia": 53,
+        "plotted": 14
+      },
+      "missing": [
+        "GIS",
+        "website"
+      ]
+    },
+    {
+      "admin": "NM",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 24,
+      "gis": {
+        "has": true,
+        "count": 1,
+        "url": "https://services2.arcgis.com/CjbW1bVhK4dB3WOa/arcgis/rest/services/New_Mexico_OHV_Recreation_Atlas_Finder_v2_WFL1/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 24,
+        "plotted": 24
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://www.emnrd.nm.gov/spd/find-a-park/",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 35,
+        "url": "https://en.wikipedia.org/wiki/List_of_New_Mexico_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 1,
+        "website": null,
+        "wikipedia": 35,
+        "plotted": 24
+      },
+      "missing": [
+        "website"
+      ]
+    },
+    {
+      "admin": "NY",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 206,
+      "gis": {
+        "has": true,
+        "count": 858,
+        "url": "https://services.arcgis.com/1xFZPtKn1wKC6POA/arcgis/rest/services/NYS_Park_Polygons/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 91,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 256,
+        "url": "https://parks.ny.gov/parks/",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 199,
+        "url": "https://en.wikipedia.org/wiki/List_of_New_York_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 858,
+        "website": 256,
+        "wikipedia": 199,
+        "plotted": 206
+      },
+      "missing": []
+    },
+    {
+      "admin": "NC",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 69,
+      "gis": {
+        "has": true,
+        "count": 348,
+        "url": "https://services6.arcgis.com/nRIB86xC7kq6wavB/arcgis/rest/services/NC_State_Parks_System/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 4,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 69,
+        "url": "https://www.ncparks.gov/state-parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 36,
+        "url": "https://en.wikipedia.org/wiki/List_of_North_Carolina_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 348,
+        "website": 69,
+        "wikipedia": 36,
+        "plotted": 69
+      },
+      "missing": []
+    },
+    {
+      "admin": "ND",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 13,
+      "gis": {
+        "has": true,
+        "count": 21,
+        "url": "https://services1.arcgis.com/GOcSXpzwBHyk2nog/arcgis/rest/services/NDGISHUB_State_Parks/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 2,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 19,
+        "url": "https://www.parkrec.nd.gov/parks",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 19,
+        "url": "https://en.wikipedia.org/wiki/List_of_North_Dakota_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 21,
+        "website": 19,
+        "wikipedia": 19,
+        "plotted": 13
+      },
+      "missing": []
+    },
+    {
+      "admin": "OH",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 28,
+      "gis": {
+        "has": false,
+        "count": null,
+        "url": null,
+        "status": "blocked"
+      },
+      "osm": {
+        "has": true,
+        "raw": 34,
+        "plotted": 28
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 75,
+        "url": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Ohio"
+      },
+      "catalogCounts": {
+        "gis": null,
+        "website": null,
+        "wikipedia": 75,
+        "plotted": 28
+      },
+      "missing": [
+        "GIS",
+        "website"
+      ]
+    },
+    {
+      "admin": "OK",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 34,
+      "gis": {
+        "has": true,
+        "count": 50,
+        "url": "https://services6.arcgis.com/RBtoEUQ2lmN0K3GY/arcgis/rest/services/OklahomaRecreationalAreas/FeatureServer/3/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 7,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 34,
+        "url": "https://www.travelok.com/state-parks",
+        "method": "official_gis_names+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 37,
+        "url": "https://en.wikipedia.org/wiki/List_of_Oklahoma_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 50,
+        "website": 34,
+        "wikipedia": 37,
+        "plotted": 34
+      },
+      "missing": []
+    },
+    {
+      "admin": "OR",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 54,
+      "gis": {
+        "has": true,
+        "count": 63,
+        "url": "https://maps.prd.state.or.us/arcgis/rest/services/Land_ownership/Oregon_State_Parks/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 28,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 54,
+        "url": "https://stateparks.oregon.gov/index.cfm?do=visit.find",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 197,
+        "url": "https://en.wikipedia.org/wiki/List_of_Oregon_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 63,
+        "website": 54,
+        "wikipedia": 197,
+        "plotted": 54
+      },
+      "missing": []
+    },
+    {
+      "admin": "PA",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 114,
+      "gis": {
+        "has": true,
+        "count": 124,
+        "url": "https://www.gis.dcnr.pa.gov/agsprod/rest/services/Parks/State_Parks/MapServer/9/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 10,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 114,
+        "url": "https://www.dcnr.pa.gov/StateParks/FindAPark/Pages/default.aspx",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 125,
+        "url": "https://en.wikipedia.org/wiki/List_of_Pennsylvania_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 124,
+        "website": 114,
+        "wikipedia": 125,
+        "plotted": 114
+      },
+      "missing": []
+    },
+    {
+      "admin": "RI",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 28,
+      "gis": {
+        "has": true,
+        "count": 35,
+        "url": "https://risegis.ri.gov/hosting/rest/services/RIDEM/Conserved_Land_in_RI_v2/MapServer/3/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": false,
+        "raw": 0,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 28,
+        "url": "https://riparks.ri.gov/parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 27,
+        "url": "https://en.wikipedia.org/wiki/List_of_Rhode_Island_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 35,
+        "website": 28,
+        "wikipedia": 27,
+        "plotted": 28
+      },
+      "missing": [
+        "OSM"
+      ]
+    },
+    {
+      "admin": "SC",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 55,
+      "gis": {
+        "has": true,
+        "count": 55,
+        "url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/ArcGIS/rest/services/South_Carolina_State_Parks/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 4,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 55,
+        "url": "https://southcarolinaparks.com/park-finder",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 50,
+        "url": "https://en.wikipedia.org/wiki/List_of_South_Carolina_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 55,
+        "website": 55,
+        "wikipedia": 50,
+        "plotted": 55
+      },
+      "missing": []
+    },
+    {
+      "admin": "SD",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 49,
+      "gis": {
+        "has": true,
+        "count": 53,
+        "url": "https://services8.arcgis.com/3imH29cidUY8teIo/ArcGIS/rest/services/mtribble_cdcfors_South_Dakota_layers/FeatureServer/18/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": false,
+        "raw": 0,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 49,
+        "url": "https://gfp.sd.gov/parks/",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 43,
+        "url": "https://en.wikipedia.org/wiki/List_of_South_Dakota_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 53,
+        "website": 49,
+        "wikipedia": 43,
+        "plotted": 49
+      },
+      "missing": [
+        "OSM"
+      ]
+    },
+    {
+      "admin": "TN",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": false,
+      "plotted": 66,
+      "gis": {
+        "has": true,
+        "count": 66,
+        "url": "https://services5.arcgis.com/bPacKTm9cauMXVfn/arcgis/rest/services/TN_State_Parks_Boundaries/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 6,
+        "plotted": 0
+      },
+      "website": {
+        "has": false,
+        "count": null,
+        "url": "https://tnstateparks.com/parks",
+        "method": null
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 34,
+        "url": "https://en.wikipedia.org/wiki/List_of_Tennessee_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 66,
+        "website": null,
+        "wikipedia": 34,
+        "plotted": 66
+      },
+      "missing": [
+        "website"
+      ]
+    },
+    {
+      "admin": "TX",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 91,
+      "gis": {
+        "has": true,
+        "count": 116,
+        "url": "https://services1.arcgis.com/1mtXwieMId59thmg/ArcGIS/rest/services/Texas_State_Parks_Boundaries/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 50,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 92,
+        "url": "https://tpwd.texas.gov/state-parks/parks-map",
+        "method": "official_listing_html+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 93,
+        "url": "https://en.wikipedia.org/wiki/List_of_Texas_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 116,
+        "website": 92,
+        "wikipedia": 93,
+        "plotted": 91
+      },
+      "missing": []
+    },
+    {
+      "admin": "UT",
+      "completed": true,
+      "fourPresent": true,
+      "catalogAgree": true,
+      "plotted": 46,
+      "gis": {
+        "has": true,
+        "count": 56,
+        "url": "https://services.arcgis.com/ZzrwjTRez6FJiOq4/arcgis/rest/services/Utah_State_Parks/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 11,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 46,
+        "url": "https://stateparks.utah.gov/find-a-park/",
+        "method": "official_listing_html+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 46,
+        "url": "https://en.wikipedia.org/wiki/List_of_Utah_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 56,
+        "website": 46,
+        "wikipedia": 46,
+        "plotted": 46
+      },
+      "missing": []
+    },
+    {
+      "admin": "VT",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 51,
+      "gis": {
+        "has": true,
+        "count": 51,
+        "url": "https://anrmaps.vermont.gov/arcgis/rest/services/Open_Data/OPENDATA_ANR_TOURISM_SP_NOCACHE_v2/MapServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": false,
+        "raw": 0,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 51,
+        "url": "https://vtstateparks.com/find.html",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 60,
+        "url": "https://en.wikipedia.org/wiki/List_of_Vermont_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 51,
+        "website": 51,
+        "wikipedia": 60,
+        "plotted": 51
+      },
+      "missing": [
+        "OSM"
+      ]
+    },
+    {
+      "admin": "VA",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 46,
+      "gis": {
+        "has": true,
+        "count": 339,
+        "url": "https://services1.arcgis.com/PxUNqSbaWFvFgHnJ/arcgis/rest/services/VAConservationLands/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 26,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 46,
+        "url": "https://www.dcr.virginia.gov/state-parks/find-a-park",
+        "method": "official_gis_names+page_enrich"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 46,
+        "url": "https://en.wikipedia.org/wiki/List_of_Virginia_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 339,
+        "website": 46,
+        "wikipedia": 46,
+        "plotted": 46
+      },
+      "missing": []
+    },
+    {
+      "admin": "WA",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 140,
+      "gis": {
+        "has": true,
+        "count": 207,
+        "url": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/ParkBoundaries/FeatureServer/2/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 18,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 140,
+        "url": "https://parks.wa.gov/find-parks",
+        "method": "official_gis_urls"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 111,
+        "url": "https://en.wikipedia.org/wiki/List_of_Washington_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 207,
+        "website": 140,
+        "wikipedia": 111,
+        "plotted": 140
+      },
+      "missing": []
+    },
+    {
+      "admin": "WV",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 35,
+      "gis": {
+        "has": true,
+        "count": 36,
+        "url": "https://services9.arcgis.com/SQbkdxLkuQJuLGtx/ArcGIS/rest/services/WV_Public_Lands/FeatureServer/3/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": false,
+        "raw": 0,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 35,
+        "url": "https://wvstateparks.com/",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 39,
+        "url": "https://en.wikipedia.org/wiki/List_of_West_Virginia_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 36,
+        "website": 35,
+        "wikipedia": 39,
+        "plotted": 35
+      },
+      "missing": [
+        "OSM"
+      ]
+    },
+    {
+      "admin": "WI",
+      "completed": false,
+      "fourPresent": false,
+      "catalogAgree": true,
+      "plotted": 55,
+      "gis": {
+        "has": true,
+        "count": 66,
+        "url": "https://dnrmaps.wi.gov/arcgis/rest/services/LF_DML/LF_DNR_MGD_PROPERTY_WTM_Ext/MapServer/6/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": false,
+        "raw": 0,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 55,
+        "url": "https://dnr.wisconsin.gov/topic/parks",
+        "method": "official_gis_names"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 58,
+        "url": "https://en.wikipedia.org/wiki/List_of_Wisconsin_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 66,
+        "website": 55,
+        "wikipedia": 58,
+        "plotted": 55
+      },
+      "missing": [
+        "OSM"
+      ]
+    },
+    {
+      "admin": "WY",
+      "completed": false,
+      "fourPresent": true,
+      "catalogAgree": false,
+      "plotted": 11,
+      "gis": {
+        "has": true,
+        "count": 13,
+        "url": "https://services6.arcgis.com/Sjtjj6zwMH9eAgbl/arcgis/rest/services/Wyoming_State_Parks/FeatureServer/0/query",
+        "status": "verified"
+      },
+      "osm": {
+        "has": true,
+        "raw": 4,
+        "plotted": 0
+      },
+      "website": {
+        "has": true,
+        "count": 16,
+        "url": "https://wyoparks.wyo.gov/parks",
+        "method": "wikipedia"
+      },
+      "wikipedia": {
+        "has": true,
+        "count": 38,
+        "url": "https://en.wikipedia.org/wiki/List_of_Wyoming_state_parks"
+      },
+      "catalogCounts": {
+        "gis": 13,
+        "website": 16,
+        "wikipedia": 38,
+        "plotted": 11
+      },
+      "missing": []
+    }
+  ]
+}

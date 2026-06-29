@@ -1,0 +1,1633 @@
+{
+  "US:AK": {
+    "wiki": "List_of_Alaska_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Alaska_state_parks",
+    "total": 77,
+    "parks": 70,
+    "historic": 7,
+    "method": "bullet_list",
+    "tables": [],
+    "namesSample": [
+      "Afognak Island State Park",
+      "Anchor River State Recreation Area",
+      "Big Delta State Historical Park"
+    ]
+  },
+  "US:AZ": {
+    "wiki": "List_of_Arizona_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Arizona_state_parks",
+    "total": 34,
+    "parks": 34,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 34
+      }
+    ],
+    "namesSample": [
+      "Alamo Lake State Park",
+      "Buckskin Mountain State Park",
+      "Catalina State Park"
+    ]
+  },
+  "US:AR": {
+    "wiki": "List_of_Arkansas_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Arkansas_state_parks",
+    "total": 53,
+    "parks": 46,
+    "historic": 7,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": "Current Arkansas state parks",
+        "kind": "current",
+        "count": 53
+      }
+    ],
+    "namesSample": [
+      "Arkansas Museum of Natural Resources",
+      "Arkansas Post",
+      "Blanchard Springs Caverns"
+    ]
+  },
+  "US:CA": {
+    "wiki": "List_of_California_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_California_state_parks",
+    "total": 281,
+    "parks": 279,
+    "historic": 2,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 281
+      }
+    ],
+    "namesSample": [
+      "Admiral William Standley State Recreation Area",
+      "Ahjumawi Lava Springs State Park",
+      "Albany State Marine Reserve"
+    ]
+  },
+  "US:CO": {
+    "wiki": "List_of_Colorado_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Colorado_state_parks",
+    "total": 44,
+    "parks": 44,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 44
+      }
+    ],
+    "namesSample": [
+      "Arkansas Headwaters Recreation Area",
+      "Barr Lake State Park",
+      "Boyd Lake State Park"
+    ]
+  },
+  "US:CT": {
+    "wiki": "List_of_Connecticut_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Connecticut_state_parks",
+    "total": 102,
+    "parks": 102,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 102
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 6
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 32
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 58
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      }
+    ],
+    "namesSample": [
+      "Above All State Park",
+      "Beaver Brook State Park",
+      "Becket Hill State Park Reserve"
+    ]
+  },
+  "US:DE": {
+    "wiki": "List_of_Delaware_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Delaware_state_parks",
+    "total": 17,
+    "parks": 16,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 17
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 1
+      }
+    ],
+    "namesSample": [
+      "Alapocas Run State Park",
+      "Auburn Valley State Park",
+      "Bellevue State Park (Delaware)"
+    ]
+  },
+  "US:FL": {
+    "wiki": "List_of_Florida_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Florida_state_parks",
+    "total": 162,
+    "parks": 151,
+    "historic": 11,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 163
+      }
+    ],
+    "namesSample": [
+      "Addison Blockhouse Historic State Park",
+      "Alafia River State Park",
+      "Alfred B. Maclay Gardens State Park"
+    ]
+  },
+  "US:GA": {
+    "wiki": "List_of_Georgia_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Georgia_state_parks",
+    "total": 46,
+    "parks": 46,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 46
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 18
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 10
+      }
+    ],
+    "namesSample": [
+      "A. H. Stephens State Park",
+      "Amicalola Falls State Park",
+      "Black Rock Mountain State Park"
+    ]
+  },
+  "US:HI": {
+    "wiki": "List_of_Hawaii_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Hawaii_state_parks",
+    "total": 43,
+    "parks": 37,
+    "historic": 6,
+    "method": "bullet_list",
+    "tables": [],
+    "namesSample": [
+      "Ahukini State Recreation Pier",
+      "Ahupuaʻa O Kahana State Park",
+      "Civilian Conservation Corps Camp in Kokeʻe State Park"
+    ]
+  },
+  "US:ID": {
+    "wiki": "List_of_Idaho_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Idaho_state_parks",
+    "total": 24,
+    "parks": 24,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 24
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 3
+      }
+    ],
+    "namesSample": [
+      "Bear Lake State Park (Idaho)",
+      "Bruneau Dunes State Park",
+      "Castle Rocks State Park"
+    ]
+  },
+  "US:IL": {
+    "wiki": "List_of_protected_areas_of_Illinois",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Illinois",
+    "total": 47,
+    "parks": 47,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 45
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 47
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 16
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 14
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 9
+      }
+    ],
+    "namesSample": [
+      "Anderson Lake State Fish & Wildlife Area",
+      "Baldwin Lake State Fish & Wildlife Area",
+      "Banner Marsh State Fish and Wildlife Area"
+    ]
+  },
+  "US:IN": {
+    "wiki": "List_of_Indiana_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Indiana_state_parks",
+    "total": 25,
+    "parks": 25,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 25
+      }
+    ],
+    "namesSample": [
+      "Brown County State Park",
+      "Chain O'Lakes State Park (Indiana)",
+      "Charlestown State Park"
+    ]
+  },
+  "US:IA": {
+    "wiki": "List_of_Iowa_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Iowa_state_parks",
+    "total": 67,
+    "parks": 67,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 67
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 19
+      }
+    ],
+    "namesSample": [
+      "Ambrose A. Call State Park",
+      "Backbone State Park",
+      "Badger Creek State Recreation Area"
+    ]
+  },
+  "US:KS": {
+    "wiki": "List_of_Kansas_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Kansas_state_parks",
+    "total": 27,
+    "parks": 27,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 27
+      }
+    ],
+    "namesSample": [
+      "Cedar Bluff State Park",
+      "Cheney State Park",
+      "Clinton State Park"
+    ]
+  },
+  "US:KY": {
+    "wiki": "List_of_Kentucky_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Kentucky_state_parks",
+    "total": 47,
+    "parks": 40,
+    "historic": 7,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 21
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 18
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 8
+      }
+    ],
+    "namesSample": [
+      "Barren River Lake State Resort Park",
+      "Big Bone Lick State Park",
+      "Blue Licks Battlefield State Park"
+    ]
+  },
+  "US:LA": {
+    "wiki": "List_of_Louisiana_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Louisiana_state_parks",
+    "total": 21,
+    "parks": 21,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 21
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 4
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 1
+      }
+    ],
+    "namesSample": [
+      "Bayou Segnette State Park",
+      "Bogue Chitto State Park",
+      "Chemin-A-Haut State Park"
+    ]
+  },
+  "US:ME": {
+    "wiki": "List_of_Maine_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Maine_state_parks",
+    "total": 38,
+    "parks": 38,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 38
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 17
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 6
+      }
+    ],
+    "namesSample": [
+      "Allagash Wilderness Waterway",
+      "Androscoggin Riverlands",
+      "Aroostook State Park"
+    ]
+  },
+  "US:MD": {
+    "wiki": "List_of_Maryland_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Maryland_state_parks",
+    "total": 58,
+    "parks": 57,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 58
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      }
+    ],
+    "namesSample": [
+      "Assateague State Park",
+      "Big Run State Park",
+      "Bill Burton Fishing Pier State Park"
+    ]
+  },
+  "US:MA": {
+    "wiki": "List_of_Massachusetts_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Massachusetts_state_parks",
+    "total": 59,
+    "parks": 59,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 59
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 44
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 34
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 9
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 1
+      }
+    ],
+    "namesSample": [
+      "Ames Nowell State Park",
+      "Ashland State Park",
+      "Bash Bish Falls State Park"
+    ]
+  },
+  "US:MI": {
+    "wiki": "List_of_Michigan_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Michigan_state_parks",
+    "total": 80,
+    "parks": 80,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 80
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 22
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 4
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 6
+      }
+    ],
+    "namesSample": [
+      "Albert E. Sleeper State Park",
+      "Algonac State Park",
+      "Aloha State Park"
+    ]
+  },
+  "US:MN": {
+    "wiki": "List_of_Minnesota_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Minnesota_state_parks",
+    "total": 73,
+    "parks": 73,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 73
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 9
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 23
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 16
+      }
+    ],
+    "namesSample": [
+      "Afton State Park",
+      "Banning State Park",
+      "Bear Head Lake State Park"
+    ]
+  },
+  "US:MS": {
+    "wiki": "List_of_Mississippi_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Mississippi_state_parks",
+    "total": 25,
+    "parks": 25,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 25
+      }
+    ],
+    "namesSample": [
+      "Buccaneer State Park",
+      "Clark Creek Natural Area",
+      "Clarkco State Park"
+    ]
+  },
+  "US:MO": {
+    "wiki": "List_of_Missouri_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Missouri_state_parks",
+    "total": 57,
+    "parks": 56,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 57
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 37
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      }
+    ],
+    "namesSample": [
+      "Babler State Park",
+      "Bennett Spring State Park",
+      "Big Lake State Park"
+    ]
+  },
+  "US:MT": {
+    "wiki": "List_of_Montana_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Montana_state_parks",
+    "total": 56,
+    "parks": 55,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 56
+      }
+    ],
+    "namesSample": [
+      "Ackley Lake State Park",
+      "Anaconda Smelter Stack",
+      "Bannack, Montana"
+    ]
+  },
+  "US:NE": {
+    "wiki": "List_of_Nebraska_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Nebraska_state_parks",
+    "total": 17,
+    "parks": 12,
+    "historic": 5,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 8
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 9
+      }
+    ],
+    "namesSample": [
+      "Arbor Lodge State Historical Park",
+      "Ash Hollow State Historical Park",
+      "Ashfall Fossil Beds"
+    ]
+  },
+  "US:NV": {
+    "wiki": "List_of_Nevada_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Nevada_state_parks",
+    "total": 25,
+    "parks": 24,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 20
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      }
+    ],
+    "namesSample": [
+      "Beaver Dam State Park (Nevada)",
+      "Berlin–Ichthyosaur State Park",
+      "Big Bend of the Colorado State Recreation Area"
+    ]
+  },
+  "US:NH": {
+    "wiki": "List_of_New_Hampshire_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_New_Hampshire_state_parks",
+    "total": 52,
+    "parks": 52,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 52
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 16
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 15
+      }
+    ],
+    "namesSample": [
+      "Ahern State Park",
+      "Androscoggin Wayside Park",
+      "Bear Brook State Park"
+    ]
+  },
+  "US:NJ": {
+    "wiki": "List_of_New_Jersey_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_New_Jersey_state_parks",
+    "total": 53,
+    "parks": 51,
+    "historic": 2,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 31
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 1
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 12
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 6
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      }
+    ],
+    "namesSample": [
+      "Abram S. Hewitt State Forest",
+      "Allaire State Park",
+      "Allamuchy Mountain State Park"
+    ]
+  },
+  "US:NM": {
+    "wiki": "List_of_New_Mexico_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_New_Mexico_state_parks",
+    "total": 35,
+    "parks": 35,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 35
+      }
+    ],
+    "namesSample": [
+      "Bluewater Lake State Park",
+      "Bottomless Lakes State Park",
+      "Brantley Lake State Park"
+    ]
+  },
+  "US:NY": {
+    "wiki": "List_of_New_York_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_New_York_state_parks",
+    "total": 199,
+    "parks": 198,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 199
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      }
+    ],
+    "namesSample": [
+      "Allan H. Treman State Marine Park",
+      "Allegany State Park",
+      "Amherst State Park"
+    ]
+  },
+  "US:NC": {
+    "wiki": "List_of_North_Carolina_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_North_Carolina_state_parks",
+    "total": 36,
+    "parks": 36,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 36
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 4
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 22
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 15
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 6
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 11
+      }
+    ],
+    "namesSample": [
+      "Carolina Beach State Park",
+      "Carvers Creek State Park",
+      "Chimney Rock State Park"
+    ]
+  },
+  "US:ND": {
+    "wiki": "List_of_North_Dakota_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_North_Dakota_state_parks",
+    "total": 19,
+    "parks": 19,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 19
+      }
+    ],
+    "namesSample": [
+      "Beaver Lake State Park (North Dakota)",
+      "Butte Saint Paul State Recreation Area",
+      "Cross Ranch State Park"
+    ]
+  },
+  "US:OH": {
+    "wiki": "List_of_protected_areas_of_Ohio",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Ohio",
+    "total": 75,
+    "parks": 75,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 75
+      }
+    ],
+    "namesSample": [
+      "A. W. Marion State Park",
+      "Adams Lake State Park",
+      "Alum Creek State Park"
+    ]
+  },
+  "US:OK": {
+    "wiki": "List_of_Oklahoma_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Oklahoma_state_parks",
+    "total": 37,
+    "parks": 37,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 37
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 15
+      }
+    ],
+    "namesSample": [
+      "Alabaster Caverns State Park",
+      "Arrowhead State Park",
+      "Beavers Bend State Park"
+    ]
+  },
+  "US:OR": {
+    "wiki": "List_of_Oregon_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Oregon_state_parks",
+    "total": 197,
+    "parks": 189,
+    "historic": 8,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 198
+      }
+    ],
+    "namesSample": [
+      "Agate Beach State Recreation Site",
+      "Ainsworth State Park",
+      "Alderwood State Wayside"
+    ]
+  },
+  "US:PA": {
+    "wiki": "List_of_Pennsylvania_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Pennsylvania_state_parks",
+    "total": 125,
+    "parks": 125,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": "Current Pennsylvania state parks",
+        "kind": "current",
+        "count": 125
+      }
+    ],
+    "namesSample": [
+      "Allegheny Islands State Park",
+      "Archbald Pothole State Park",
+      "Bald Eagle State Park"
+    ]
+  },
+  "US:RI": {
+    "wiki": "List_of_Rhode_Island_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Rhode_Island_state_parks",
+    "total": 27,
+    "parks": 27,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 15
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      }
+    ],
+    "namesSample": [
+      "Arcadia Management Area",
+      "Beach Pond",
+      "Beavertail State Park"
+    ]
+  },
+  "US:SC": {
+    "wiki": "List_of_South_Carolina_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_South_Carolina_state_parks",
+    "total": 50,
+    "parks": 44,
+    "historic": 6,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 50
+      }
+    ],
+    "namesSample": [
+      "Aiken State Park",
+      "Andrew Jackson State Park",
+      "Baker Creek State Park"
+    ]
+  },
+  "US:SD": {
+    "wiki": "List_of_South_Dakota_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_South_Dakota_state_parks",
+    "total": 43,
+    "parks": 43,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 13
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 43
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      }
+    ],
+    "namesSample": [
+      "Angostura Recreation Area",
+      "Big Sioux Recreation Area",
+      "Burke Lake Recreation Area"
+    ]
+  },
+  "US:TN": {
+    "wiki": "List_of_Tennessee_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Tennessee_state_parks",
+    "total": 34,
+    "parks": 33,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 61
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 79
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 1
+      }
+    ],
+    "namesSample": [
+      "Bays Mountain Park",
+      "Big Bone Cave",
+      "Big Cypress Tree State Park"
+    ]
+  },
+  "US:TX": {
+    "wiki": "List_of_Texas_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Texas_state_parks",
+    "total": 93,
+    "parks": 87,
+    "historic": 6,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 93
+      }
+    ],
+    "namesSample": [
+      "Abilene State Park",
+      "Albert and Bessie Kronkosky State Natural Area",
+      "Atlanta State Park"
+    ]
+  },
+  "US:UT": {
+    "wiki": "List_of_Utah_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Utah_state_parks",
+    "total": 46,
+    "parks": 45,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 46
+      }
+    ],
+    "namesSample": [
+      "Anasazi State Park Museum",
+      "Antelope Island State Park",
+      "Bear Lake State Park (Utah)"
+    ]
+  },
+  "US:VT": {
+    "wiki": "List_of_Vermont_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Vermont_state_parks",
+    "total": 60,
+    "parks": 60,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": "! style=\"width: 14em;\" rowspan=2 | Name",
+        "kind": "unknown",
+        "count": 60
+      }
+    ],
+    "namesSample": [
+      "Alburgh Dunes State Park",
+      "Allis State Park",
+      "Big Deer State Park"
+    ]
+  },
+  "US:VA": {
+    "wiki": "List_of_Virginia_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Virginia_state_parks",
+    "total": 46,
+    "parks": 43,
+    "historic": 3,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 46
+      }
+    ],
+    "namesSample": [
+      "Bear Creek Lake State Park",
+      "Belle Isle State Park (Virginia)",
+      "Breaks Interstate Park"
+    ]
+  },
+  "US:WA": {
+    "wiki": "List_of_Washington_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Washington_state_parks",
+    "total": 111,
+    "parks": 111,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 111
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 20
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 16
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 15
+      }
+    ],
+    "namesSample": [
+      "Alta Lake State Park",
+      "Anderson Lake State Park",
+      "Battle Ground Lake State Park"
+    ]
+  },
+  "US:WV": {
+    "wiki": "List_of_West_Virginia_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_West_Virginia_state_parks",
+    "total": 39,
+    "parks": 37,
+    "historic": 2,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": "Current West Virginia state parks",
+        "kind": "current",
+        "count": 39
+      }
+    ],
+    "namesSample": [
+      "Audra State Park",
+      "Babcock State Park",
+      "Beartown State Park"
+    ]
+  },
+  "US:WI": {
+    "wiki": "List_of_Wisconsin_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Wisconsin_state_parks",
+    "total": 58,
+    "parks": 57,
+    "historic": 1,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 58
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      }
+    ],
+    "namesSample": [
+      "Amnicon Falls State Park",
+      "Aztalan State Park",
+      "Belmont Mound State Park"
+    ]
+  },
+  "US:WY": {
+    "wiki": "List_of_Wyoming_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Wyoming_state_parks",
+    "total": 38,
+    "parks": 30,
+    "historic": 8,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 12
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 26
+      }
+    ],
+    "namesSample": [
+      "Ames Monument",
+      "Bear River State Park",
+      "Boysen State Park"
+    ]
+  },
+  "CA:AB": {
+    "wiki": "List_of_provincial_parks_in_Alberta",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Alberta",
+    "total": 77,
+    "parks": 77,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 77
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 34
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 1
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 12
+      }
+    ],
+    "namesSample": [
+      "Antelope Hill Provincial Park",
+      "Aspen Beach Provincial Park",
+      "Beauvais Lake Provincial Park"
+    ]
+  },
+  "CA:MB": {
+    "wiki": "List_of_provincial_parks_in_Manitoba",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Manitoba",
+    "total": 90,
+    "parks": 90,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 91
+      }
+    ],
+    "namesSample": [
+      "Asessippi Provincial Park",
+      "Atikaki Provincial Park",
+      "Bakers Narrows Provincial Park"
+    ]
+  },
+  "CA:NB": {
+    "wiki": "List_of_provincial_parks_in_New_Brunswick",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_New_Brunswick",
+    "total": 0,
+    "parks": 0,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [],
+    "namesSample": []
+  },
+  "CA:NS": {
+    "wiki": "List_of_provincial_parks_in_Nova_Scotia",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Nova_Scotia",
+    "total": 34,
+    "parks": 34,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 10
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 10
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 8
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 10
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 8
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 17
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 34
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 13
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 8
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 13
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 11
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 11
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 10
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 11
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 7
+      }
+    ],
+    "namesSample": [
+      "Blind Bay Provincial Park",
+      "Clam Harbour Beach Provincial Park",
+      "Cleveland Beach Provincial Park"
+    ]
+  },
+  "CA:NT": {
+    "wiki": "List_of_Northwest_Territories_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Northwest_Territories_parks",
+    "total": 0,
+    "parks": 0,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [],
+    "namesSample": []
+  },
+  "CA:NU": {
+    "wiki": "List_of_protected_areas_of_Nunavut",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Nunavut",
+    "total": 11,
+    "parks": 11,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 5
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 2
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 11
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 9
+      },
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 11
+      }
+    ],
+    "namesSample": [
+      "Agguttinni Territorial Park",
+      "Katannilik Territorial Park",
+      "Kingngaaluk Territorial Park"
+    ]
+  },
+  "CA:QC": {
+    "wiki": "List_of_Quebec_national_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Quebec_national_parks",
+    "total": 0,
+    "parks": 0,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [],
+    "namesSample": []
+  },
+  "CA:SK": {
+    "wiki": "List_of_provincial_parks_in_Saskatchewan",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Saskatchewan",
+    "total": 0,
+    "parks": 0,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [],
+    "namesSample": []
+  },
+  "CA:YT": {
+    "wiki": "List_of_Yukon_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Yukon_parks",
+    "total": 0,
+    "parks": 0,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [],
+    "namesSample": []
+  },
+  "US:AL": {
+    "wiki": "List_of_Alabama_state_parks",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_Alabama_state_parks",
+    "total": 21,
+    "parks": 21,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": "State parks under direct state management",
+        "kind": "current",
+        "count": 18
+      },
+      {
+        "caption": "State parks under shared management",
+        "kind": "current",
+        "count": 3
+      },
+      {
+        "caption": "! style=\"width:*;\" rowspan=2 |Name",
+        "kind": "unknown",
+        "count": 3
+      },
+      {
+        "caption": "! style=\"width:*;\" rowspan=2 |Name",
+        "kind": "unknown",
+        "count": 2
+      }
+    ],
+    "namesSample": [
+      "Bladon Springs State Park",
+      "Blue Springs State Park",
+      "Buck's Pocket State Park"
+    ]
+  },
+  "CA:BC": {
+    "wiki": "List_of_provincial_parks_in_British_Columbia",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_British_Columbia",
+    "total": 0,
+    "parks": 0,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [],
+    "namesSample": []
+  },
+  "CA:ON": {
+    "wiki": "List_of_provincial_parks_in_Ontario",
+    "wikiUrl": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Ontario",
+    "total": 337,
+    "parks": 337,
+    "historic": 0,
+    "method": "wikitable",
+    "tables": [
+      {
+        "caption": null,
+        "kind": "unknown",
+        "count": 337
+      }
+    ],
+    "namesSample": [
+      ":sv:Boyne Valley Provincial Park",
+      "Aaron Provincial Park",
+      "Abitibi-De-Troyes Provincial Park"
+    ]
+  },
+  "CA:NL": {
+    "wiki": "List_of_provincial_parks_in_Newfoundland_and_Labrador",
+    "total": 0,
+    "parks": 0,
+    "historic": 0
+  },
+  "CA:PE": {
+    "wiki": "List_of_provincial_parks_in_Prince_Edward_Island",
+    "total": 0,
+    "parks": 0,
+    "historic": 0
+  },
+  "generated": "2026-06-27T03:06:08.591Z"
+}

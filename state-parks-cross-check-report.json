@@ -1,0 +1,2126 @@
+{
+  "generated": "2026-06-26T21:37:43.100Z",
+  "summary": {
+    "usMaster": 2751,
+    "caMaster": 1488,
+    "usLeakage": 0,
+    "caLeakage": 308,
+    "usSuspiciousOsm": 69
+  },
+  "leakage": [
+    {
+      "id": "sp-ca-ab-aylmer-provincial-recreation-area-official-code10016",
+      "state": "AB",
+      "name": "Aylmer Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-beaver-lake-provincial-recreation-area-official-code10638",
+      "state": "AB",
+      "name": "Beaver Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-beaverdam-provincial-recreation-area-official-code10018",
+      "state": "AB",
+      "name": "Beaverdam Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-big-berland-provincial-recreation-area-official-code10019",
+      "state": "AB",
+      "name": "Big Berland Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-big-mountain-creek-provincial-recreation-area-official-code10020",
+      "state": "AB",
+      "name": "Big Mountain Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-bigelow-reservoir-provincial-recreation-area-official-code10639",
+      "state": "AB",
+      "name": "Bigelow Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-blackstone-provincial-recreation-area-official-code10021",
+      "state": "AB",
+      "name": "Blackstone Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-bleriot-ferry-provincial-recreation-area-official-code10640",
+      "state": "AB",
+      "name": "Bleriot Ferry Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-blue-rapids-provincial-recreation-area-official-code1129",
+      "state": "AB",
+      "name": "Blue Rapids Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-bow-valley-provincial-recreation-area-official-code10180",
+      "state": "AB",
+      "name": "Bow Valley Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-brazeau-reservoir-provincial-recreation-area-official-code10023",
+      "state": "AB",
+      "name": "Brazeau Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-brazeau-river-provincial-recreation-area-official-code10024",
+      "state": "AB",
+      "name": "Brazeau River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-brown-creek-provincial-recreation-area-official-code10025",
+      "state": "AB",
+      "name": "Brown Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-buck-lake-provincial-recreation-area-official-code10641",
+      "state": "AB",
+      "name": "Buck Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-buffalo-lake-provincial-recreation-area-official-code10642",
+      "state": "AB",
+      "name": "Buffalo Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-buffalo-tower-provincial-recreation-area-official-code10027",
+      "state": "AB",
+      "name": "Buffalo Tower Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-bullshead-reservoir-provincial-recreation-area-official-code10643",
+      "state": "AB",
+      "name": "Bullshead Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-burnt-timber-provincial-recreation-area-official-code10028",
+      "state": "AB",
+      "name": "Burnt Timber Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-calhoun-bay-provincial-recreation-area-official-code10644",
+      "state": "AB",
+      "name": "Calhoun Bay Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-cartier-creek-provincial-recreation-area-official-code10029",
+      "state": "AB",
+      "name": "Cartier Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-cat-creek-provincial-recreation-area-official-code10184",
+      "state": "AB",
+      "name": "Cat Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-cataract-creek-provincial-recreation-area-official-code10185",
+      "state": "AB",
+      "name": "Cataract Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-chain-lakes-provincial-recreation-area-official-code10032",
+      "state": "AB",
+      "name": "Chain Lakes Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-chambers-creek-group-camp-provincial-recreation--official-code10034",
+      "state": "AB",
+      "name": "Chambers Creek Group Camp Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-chambers-creek-provincial-recreation-area-official-code10033",
+      "state": "AB",
+      "name": "Chambers Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-chin-coulee-provincial-recreation-area-official-code10647",
+      "state": "AB",
+      "name": "Chin Coulee Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-chinook-provincial-recreation-area-official-code10035",
+      "state": "AB",
+      "name": "Chinook Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-chrystina-lake-provincial-recreation-area-official-code10036",
+      "state": "AB",
+      "name": "Chrystina Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-coal-lake-north-provincial-recreation-area-official-code10649",
+      "state": "AB",
+      "name": "Coal Lake North Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-cobble-flats-provincial-recreation-area-official-code10186",
+      "state": "AB",
+      "name": "Cobble Flats Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-cooking-lake-blackfoot-provincial-recreation-are-official-code10651",
+      "state": "AB",
+      "name": "Cooking Lake-Blackfoot Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-crescent-falls-provincial-recreation-area-official-code10038",
+      "state": "AB",
+      "name": "Crescent Falls Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-dawson-provincial-recreation-area-official-code10188",
+      "state": "AB",
+      "name": "Dawson Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-deer-creek-provincial-recreation-area-official-code10039",
+      "state": "AB",
+      "name": "Deer Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-demmitt-provincial-recreation-area-official-code10655",
+      "state": "AB",
+      "name": "Demmitt Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-dry-haven-provincial-recreation-area-official-code10040",
+      "state": "AB",
+      "name": "Dry Haven Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-dutch-creek-provincial-recreation-area-official-code10041",
+      "state": "AB",
+      "name": "Dutch Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-edith-lake-provincial-recreation-area-official-code10043",
+      "state": "AB",
+      "name": "Edith Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-elbow-falls-provincial-recreation-area-official-code10191",
+      "state": "AB",
+      "name": "Elbow Falls Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-elbow-river-launch-provincial-recreation-area-official-code10193",
+      "state": "AB",
+      "name": "Elbow River Launch Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-elbow-river-provincial-recreation-area-official-code10192",
+      "state": "AB",
+      "name": "Elbow River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-elk-creek-fish-pond-provincial-recreation-area-official-code10045",
+      "state": "AB",
+      "name": "Elk Creek Fish Pond Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-elk-creek-provincial-recreation-area-official-code10044",
+      "state": "AB",
+      "name": "Elk Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-elk-river-provincial-recreation-area-official-code10152",
+      "state": "AB",
+      "name": "Elk River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-english-bay-provincial-recreation-area-official-code10662",
+      "state": "AB",
+      "name": "English Bay Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-engstrom-lake-provincial-recreation-area-official-code10047",
+      "state": "AB",
+      "name": "Engstrom Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-etherington-creek-provincial-recreation-area-official-code10194",
+      "state": "AB",
+      "name": "Etherington Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-evan-thomas-provincial-recreation-area-official-code10195",
+      "state": "AB",
+      "name": "Evan-Thomas Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fairfax-lake-provincial-recreation-area-official-code10048",
+      "state": "AB",
+      "name": "Fairfax Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fallen-timber-provincial-recreation-area-official-code10664",
+      "state": "AB",
+      "name": "Fallen Timber Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fallen-timber-south-provincial-recreation-area-official-code10049",
+      "state": "AB",
+      "name": "Fallen Timber South Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fawcett-lake-provincial-recreation-area-official-code10050",
+      "state": "AB",
+      "name": "Fawcett Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fickle-lake-provincial-recreation-area-official-code10051",
+      "state": "AB",
+      "name": "Fickle Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-figure-eight-lake-provincial-recreation-area-official-code10665",
+      "state": "AB",
+      "name": "Figure Eight Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fish-lake-provincial-recreation-area-official-code10052",
+      "state": "AB",
+      "name": "Fish Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fisher-creek-provincial-recreation-area-official-code10198",
+      "state": "AB",
+      "name": "Fisher Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-fitzsimmons-creek-provincial-recreation-area-official-code10199",
+      "state": "AB",
+      "name": "Fitzsimmons Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-franchere-bay-provincial-recreation-area-official-code10669",
+      "state": "AB",
+      "name": "Franchere Bay Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-freeman-river-provincial-recreation-area-official-code10054",
+      "state": "AB",
+      "name": "Freeman River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-french-bay-provincial-recreation-area-official-code10670",
+      "state": "AB",
+      "name": "French Bay Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-ghost-airstrip-provincial-recreation-area-official-code10055",
+      "state": "AB",
+      "name": "Ghost Airstrip Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-ghost-reservoir-provincial-recreation-area-official-code10671",
+      "state": "AB",
+      "name": "Ghost Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-gleniffer-reservoir-provincial-recreation-area-official-code1131",
+      "state": "AB",
+      "name": "Gleniffer Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-goldeye-lake-provincial-recreation-area-official-code10056",
+      "state": "AB",
+      "name": "Goldeye Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-gooseberry-provincial-recreation-area-official-code10202",
+      "state": "AB",
+      "name": "Gooseberry Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-greenford-provincial-recreation-area-official-code10672",
+      "state": "AB",
+      "name": "Greenford Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-hangingstone-provincial-recreation-area-official-code10675",
+      "state": "AB",
+      "name": "Hangingstone Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-harlech-provincial-recreation-area-official-code10058",
+      "state": "AB",
+      "name": "Harlech Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-heart-creek-provincial-recreation-area-official-code10207",
+      "state": "AB",
+      "name": "Heart Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-heart-river-dam-provincial-recreation-area-official-code10677",
+      "state": "AB",
+      "name": "Heart River Dam Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-highwood-compound-provincial-recreation-area-official-code10211",
+      "state": "AB",
+      "name": "Highwood Compound Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-highwood-junction-provincial-recreation-area-official-code10212",
+      "state": "AB",
+      "name": "Highwood Junction Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-highwood-provincial-recreation-area-official-code10210",
+      "state": "AB",
+      "name": "Highwood Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-honeymoon-creek-provincial-recreation-area-official-code10266",
+      "state": "AB",
+      "name": "Honeymoon Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-horburg-provincial-recreation-area-official-code10059",
+      "state": "AB",
+      "name": "Horburg Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-hornbeck-creek-provincial-recreation-area-official-code10680",
+      "state": "AB",
+      "name": "Hornbeck Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-indian-graves-provincial-recreation-area-official-code10213",
+      "state": "AB",
+      "name": "Indian Graves Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-ing-s-mine-provincial-recreation-area-official-code10215",
+      "state": "AB",
+      "name": "Ing's Mine Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-iosegun-lake-provincial-recreation-area-official-code10061",
+      "state": "AB",
+      "name": "Iosegun Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-island-lake-provincial-recreation-area-official-code10682",
+      "state": "AB",
+      "name": "Island Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-jackfish-lake-provincial-recreation-area-official-code10062",
+      "state": "AB",
+      "name": "Jackfish Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-jackson-lake-trail-staging-provincial-recreation-official-code10684",
+      "state": "AB",
+      "name": "Jackson Lake Trail Staging Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-james-wilson-provincial-recreation-area-official-code10063",
+      "state": "AB",
+      "name": "James-Wilson Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-jensen-reservoir-provincial-recreation-area-official-code10686",
+      "state": "AB",
+      "name": "Jensen Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-jumpingpound-creek-provincial-recreation-area-official-code10216",
+      "state": "AB",
+      "name": "Jumpingpound Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-kakwa-river-provincial-recreation-area-official-code10064",
+      "state": "AB",
+      "name": "Kakwa River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-kehiwin-provincial-recreation-area-official-code10687",
+      "state": "AB",
+      "name": "Kehiwin Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-kootenay-plains-provincial-recreation-area-official-code10065",
+      "state": "AB",
+      "name": "Kootenay Plains Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-la-biche-river-provincial-recreation-area-official-code1165",
+      "state": "AB",
+      "name": "La Biche River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lake-mcgregor-provincial-recreation-area-official-code10689",
+      "state": "AB",
+      "name": "Lake McGregor Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lakeland-provincial-recreation-area-official-code10690",
+      "state": "AB",
+      "name": "Lakeland Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lantern-creek-provincial-recreation-area-official-code10219",
+      "state": "AB",
+      "name": "Lantern Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lawrence-lake-provincial-recreation-area-official-code10068",
+      "state": "AB",
+      "name": "Lawrence Lake Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lineham-provincial-recreation-area-official-code10221",
+      "state": "AB",
+      "name": "Lineham Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-little-bow-reservoir-provincial-recreation-area-official-code10692",
+      "state": "AB",
+      "name": "Little Bow Reservoir Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-little-elbow-provincial-recreation-area-official-code10222",
+      "state": "AB",
+      "name": "Little Elbow Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-little-sundance-creek-provincial-recreation-area-official-code10069",
+      "state": "AB",
+      "name": "Little Sundance Creek Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-livingstone-falls-provincial-recreation-area-official-code10070",
+      "state": "AB",
+      "name": "Livingstone Falls Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lovett-river-provincial-recreation-area-official-code10071",
+      "state": "AB",
+      "name": "Lovett River Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    },
+    {
+      "id": "sp-ca-ab-lundbreck-falls-provincial-recreation-area-official-code10695",
+      "state": "AB",
+      "name": "Lundbreck Falls Provincial Recreation Area",
+      "source": "official",
+      "reason": "excluded-name-ca"
+    }
+  ],
+  "suspiciousOsmInTierAStates": [
+    {
+      "id": "sp-us-ar-cossatot-river-state-park-natural-area-way1414308385",
+      "state": "AR",
+      "name": "Cossatot River State Park-Natural Area",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-cossatot-river-state-park-natural-area-way1414308386",
+      "state": "AR",
+      "name": "Cossatot River State Park-Natural Area",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-mount-magazine-state-park-way1415966453",
+      "state": "AR",
+      "name": "Mount Magazine State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-mount-nebo-state-park-way1415963641",
+      "state": "AR",
+      "name": "Mount Nebo State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-mount-nebo-state-park-way1415963642",
+      "state": "AR",
+      "name": "Mount Nebo State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-petit-jean-state-park-way1415965388",
+      "state": "AR",
+      "name": "Petit Jean State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-petit-jean-state-park-way1415965389",
+      "state": "AR",
+      "name": "Petit Jean State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-petit-jean-state-park-way1415965390",
+      "state": "AR",
+      "name": "Petit Jean State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-pinnacle-mountain-state-park-way178224871",
+      "state": "AR",
+      "name": "Pinnacle Mountain State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-ar-village-creek-state-park-way485781580",
+      "state": "AR",
+      "name": "Village Creek State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-adeline-jay-geo-karis-illinois-beach-state-park-way374974187",
+      "state": "IL",
+      "name": "Adeline Jay Geo-Karis Illinois Beach State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-apple-river-canyon-state-park-way35305855",
+      "state": "IL",
+      "name": "Apple River Canyon State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-argyle-lake-state-park-way311217073",
+      "state": "IL",
+      "name": "Argyle Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-beall-woods-state-park-way874956628",
+      "state": "IL",
+      "name": "Beall Woods State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-beaver-dam-state-park-way311994701",
+      "state": "IL",
+      "name": "Beaver Dam State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-castle-rock-state-park-way328448966",
+      "state": "IL",
+      "name": "Castle Rock State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-don-robinson-state-park-way730849173",
+      "state": "IL",
+      "name": "Don Robinson State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-eagle-creek-state-park-way1172170272",
+      "state": "IL",
+      "name": "Eagle Creek State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-fort-defiance-state-park-way77004677",
+      "state": "IL",
+      "name": "Fort Defiance State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-fort-kaskaskia-state-historic-site-way1424151748",
+      "state": "IL",
+      "name": "Fort Kaskaskia State Historic Site",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-fox-ridge-state-park-way1176385731",
+      "state": "IL",
+      "name": "Fox Ridge State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-giant-city-state-park-way636140490",
+      "state": "IL",
+      "name": "Giant City State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-harmonie-state-park-way849035177",
+      "state": "IL",
+      "name": "Harmonie State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-horseshoe-lake-state-park-way469517181",
+      "state": "IL",
+      "name": "Horseshoe Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-illini-state-park-way1323438635",
+      "state": "IL",
+      "name": "Illini State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-indiana-dunes-state-park-way321571777",
+      "state": "IL",
+      "name": "Indiana Dunes State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-johnson-sauk-trail-state-park-way943591673",
+      "state": "IL",
+      "name": "Johnson Sauk Trail State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-jubilee-college-state-park-way968259844",
+      "state": "IL",
+      "name": "Jubilee College State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-lake-le-aqua-na-state-park-way763502953",
+      "state": "IL",
+      "name": "Lake Le-Aqua-Na State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-lake-murphysboro-state-park-way671039791",
+      "state": "IL",
+      "name": "Lake Murphysboro State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-lincoln-trail-homestead-state-park-way486256993",
+      "state": "IL",
+      "name": "Lincoln Trail Homestead State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-lincoln-trail-state-park-way556784017",
+      "state": "IL",
+      "name": "Lincoln Trail State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-lincoln-s-new-salem-state-historic-site-way300861633",
+      "state": "IL",
+      "name": "Lincoln's New Salem State Historic Site",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-matthiessen-state-park-node354123680",
+      "state": "IL",
+      "name": "Matthiessen State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-mississippi-palisades-state-park-way436478260",
+      "state": "IL",
+      "name": "Mississippi Palisades State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-moraine-hills-state-park-way420384756",
+      "state": "IL",
+      "name": "Moraine Hills State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-morrison-rockwood-state-park-way50639491",
+      "state": "IL",
+      "name": "Morrison-Rockwood State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-rock-cut-state-park-way71064740",
+      "state": "IL",
+      "name": "Rock Cut State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-shades-state-park-way269994214",
+      "state": "IL",
+      "name": "Shades State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-siloam-springs-state-park-way1323518877",
+      "state": "IL",
+      "name": "Siloam Springs State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-turkey-run-state-park-way283066668",
+      "state": "IL",
+      "name": "Turkey Run State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-wapsipinicon-state-park-way245916226",
+      "state": "IL",
+      "name": "Wapsipinicon State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-weinberg-king-state-park-way311215848",
+      "state": "IL",
+      "name": "Weinberg-King State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-white-pines-forest-state-park-way703464821",
+      "state": "IL",
+      "name": "White Pines Forest State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-wildcat-den-state-park-way245918076",
+      "state": "IL",
+      "name": "Wildcat Den State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-il-wolf-creek-state-park-way1172215173",
+      "state": "IL",
+      "name": "Wolf Creek State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-bottomless-lakes-state-park-way579777811",
+      "state": "NM",
+      "name": "Bottomless Lakes State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-brantley-lake-state-park-way628495303",
+      "state": "NM",
+      "name": "Brantley Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-caballo-lake-state-park-way579777814",
+      "state": "NM",
+      "name": "Caballo Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-cimarron-canyon-state-park-way579777782",
+      "state": "NM",
+      "name": "Cimarron Canyon State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-city-of-rocks-state-park-way579777809",
+      "state": "NM",
+      "name": "City of Rocks State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-clayton-lake-state-park-and-dinosaur-trackways-way579777808",
+      "state": "NM",
+      "name": "Clayton Lake State Park and Dinosaur Trackways",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-coyote-creek-state-park-way579777770",
+      "state": "NM",
+      "name": "Coyote Creek State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-eagle-nest-lake-state-park-way579777810",
+      "state": "NM",
+      "name": "Eagle Nest Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-el-vado-lake-state-park-way579777787",
+      "state": "NM",
+      "name": "El Vado Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-heron-lake-state-park-way579777786",
+      "state": "NM",
+      "name": "Heron Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-hueco-tanks-state-park-and-historic-site-way28663887",
+      "state": "NM",
+      "name": "Hueco Tanks State Park and Historic Site",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-hyde-memorial-state-park-way579777806",
+      "state": "NM",
+      "name": "Hyde Memorial State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-leasburg-dam-state-park-way579777778",
+      "state": "NM",
+      "name": "Leasburg Dam State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-living-desert-zoo-and-gardens-state-park-way192381559",
+      "state": "NM",
+      "name": "Living Desert Zoo and Gardens State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-manzano-mountains-state-park-way579777804",
+      "state": "NM",
+      "name": "Manzano Mountains State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-morphy-lake-state-park-way579777769",
+      "state": "NM",
+      "name": "Morphy Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-oasis-state-park-way579777801",
+      "state": "NM",
+      "name": "Oasis State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-pancho-villa-state-park-way579777798",
+      "state": "NM",
+      "name": "Pancho Villa State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-percha-dam-state-park-way579777815",
+      "state": "NM",
+      "name": "Percha Dam State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-rio-grande-nature-center-state-park-way579777797",
+      "state": "NM",
+      "name": "Rio Grande Nature Center State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-storrie-lake-state-park-way579777796",
+      "state": "NM",
+      "name": "Storrie Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-sumner-lake-state-park-way579777768",
+      "state": "NM",
+      "name": "Sumner Lake State Park",
+      "osmConfidence": "name"
+    },
+    {
+      "id": "sp-us-nm-villanueva-state-park-way579777812",
+      "state": "NM",
+      "name": "Villanueva State Park",
+      "osmConfidence": "name"
+    }
+  ],
+  "byAdmin": [
+    {
+      "admin": "AB",
+      "country": "CA",
+      "masterCount": 275,
+      "officialInMaster": 275,
+      "osmInMaster": 0,
+      "listingCount": 116,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 469,
+      "tierAStatus": "verified",
+      "agency": "Alberta Parks",
+      "officialListing": "https://www.albertaparks.ca/albertaparksca/visit-our-parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Alberta",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "AK",
+      "country": "US",
+      "masterCount": 137,
+      "officialInMaster": 137,
+      "osmInMaster": 0,
+      "listingCount": 21,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 157,
+      "tierAStatus": "verified",
+      "agency": "Alaska State Parks",
+      "officialListing": "https://dnr.alaska.gov/parks/asp",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Alaska_state_parks",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "AL",
+      "country": "US",
+      "masterCount": 21,
+      "officialInMaster": 21,
+      "osmInMaster": 0,
+      "listingCount": 22,
+      "listingMethod": "official_listing_html+page_enrich+wiki_coords",
+      "tierAGisCount": null,
+      "tierAStatus": "verified",
+      "agency": "Alabama State Parks",
+      "officialListing": "https://www.alapark.com/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_alabama_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "AR",
+      "country": "US",
+      "masterCount": 10,
+      "officialInMaster": 0,
+      "osmInMaster": 10,
+      "listingCount": 5,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 78,
+      "tierAStatus": "verified",
+      "agency": "Arkansas State Parks",
+      "officialListing": "https://www.arkansasstateparks.com/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Arkansas_state_parks",
+      "flags": [
+        "under_official_gis",
+        "has_osm_in_tier_a_state",
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "AZ",
+      "country": "US",
+      "masterCount": 23,
+      "officialInMaster": 23,
+      "osmInMaster": 0,
+      "listingCount": 58,
+      "listingMethod": "official_listing_html+page_enrich",
+      "tierAGisCount": 26,
+      "tierAStatus": "verified",
+      "agency": "Arizona State Parks",
+      "officialListing": "https://azstateparks.com/find-a-park/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Arizona_state_parks",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "BC",
+      "country": "CA",
+      "masterCount": 693,
+      "officialInMaster": 693,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 693,
+      "tierAStatus": "verified",
+      "agency": "BC Parks",
+      "officialListing": "https://bcparks.ca/explore/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_of_British_Columbia",
+      "flags": [
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "CA",
+      "country": "US",
+      "masterCount": 138,
+      "officialInMaster": 138,
+      "osmInMaster": 0,
+      "listingCount": 138,
+      "listingMethod": "official_gis_urls",
+      "tierAGisCount": 138,
+      "tierAStatus": "verified",
+      "agency": "California State Parks",
+      "officialListing": "https://www.parks.ca.gov/ParkList",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_California_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "CO",
+      "country": "US",
+      "masterCount": 32,
+      "officialInMaster": 0,
+      "osmInMaster": 32,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "tierAStatus": "blocked",
+      "agency": "Colorado Parks and Wildlife",
+      "officialListing": "https://cpw.state.co.us/placestogo/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Colorado_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "CT",
+      "country": "US",
+      "masterCount": 71,
+      "officialInMaster": 71,
+      "osmInMaster": 0,
+      "listingCount": 71,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 72,
+      "tierAStatus": "verified",
+      "agency": "Connecticut State Parks",
+      "officialListing": "https://portal.ct.gov/deep/state-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Connecticut_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "DC",
+      "country": "US",
+      "masterCount": 0,
+      "officialInMaster": 0,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "tierAStatus": "none",
+      "agency": "DC / NPS local",
+      "officialListing": null,
+      "wikipedia": null,
+      "flags": []
+    },
+    {
+      "admin": "DE",
+      "country": "US",
+      "masterCount": 11,
+      "officialInMaster": 11,
+      "osmInMaster": 0,
+      "listingCount": 11,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 66,
+      "tierAStatus": "verified",
+      "agency": "Delaware State Parks",
+      "officialListing": "https://destateparks.com/FindAStatePark",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Delaware_state_parks",
+      "flags": [
+        "under_official_gis"
+      ]
+    },
+    {
+      "admin": "FL",
+      "country": "US",
+      "masterCount": 174,
+      "officialInMaster": 174,
+      "osmInMaster": 0,
+      "listingCount": 176,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 179,
+      "tierAStatus": "verified",
+      "agency": "Florida State Parks",
+      "officialListing": "https://www.floridastateparks.org/parks-and-trails",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Florida_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "GA",
+      "country": "US",
+      "masterCount": 47,
+      "officialInMaster": 47,
+      "osmInMaster": 0,
+      "listingCount": 47,
+      "listingMethod": "official_gis_names+page_enrich",
+      "tierAGisCount": 76,
+      "tierAStatus": "verified",
+      "agency": "Georgia State Parks",
+      "officialListing": "https://gastateparks.org/Parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Georgia_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "HI",
+      "country": "US",
+      "masterCount": 23,
+      "officialInMaster": 23,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 23,
+      "tierAStatus": "verified",
+      "agency": "Hawaii State Parks",
+      "officialListing": "https://dlnr.hawaii.gov/dsp/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Hawaii_state_parks",
+      "flags": [
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "IA",
+      "country": "US",
+      "masterCount": 54,
+      "officialInMaster": 54,
+      "osmInMaster": 0,
+      "listingCount": 54,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 65,
+      "tierAStatus": "verified",
+      "agency": "Iowa State Parks",
+      "officialListing": "https://www.iowadnr.gov/places-go/state-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Iowa_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "ID",
+      "country": "US",
+      "masterCount": 3,
+      "officialInMaster": 0,
+      "osmInMaster": 3,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "tierAStatus": "blocked",
+      "agency": "Idaho State Parks",
+      "officialListing": "https://parksandrecreation.idaho.gov/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Idaho_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "IL",
+      "country": "US",
+      "masterCount": 37,
+      "officialInMaster": 0,
+      "osmInMaster": 37,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 1,
+      "tierAStatus": "verified",
+      "agency": "Illinois State Parks",
+      "officialListing": "https://dnr.illinois.gov/experience/parks.html",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Illinois_state_parks",
+      "flags": [
+        "over_official_gis",
+        "has_osm_in_tier_a_state",
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "IN",
+      "country": "US",
+      "masterCount": 27,
+      "officialInMaster": 27,
+      "osmInMaster": 0,
+      "listingCount": 11,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 27,
+      "tierAStatus": "verified",
+      "agency": "Indiana State Parks",
+      "officialListing": "https://www.in.gov/dnr/state-parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Indiana_state_parks",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "KS",
+      "country": "US",
+      "masterCount": 41,
+      "officialInMaster": 41,
+      "osmInMaster": 0,
+      "listingCount": 41,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 47,
+      "tierAStatus": "verified",
+      "agency": "Kansas State Parks",
+      "officialListing": "https://ksoutdoors.com/State-Parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Kansas_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "KY",
+      "country": "US",
+      "masterCount": 49,
+      "officialInMaster": 49,
+      "osmInMaster": 0,
+      "listingCount": 49,
+      "listingMethod": "official_gis_names+page_enrich",
+      "tierAGisCount": 49,
+      "tierAStatus": "verified",
+      "agency": "Kentucky State Parks",
+      "officialListing": "https://parks.ky.gov/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Kentucky_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "LA",
+      "country": "US",
+      "masterCount": 18,
+      "officialInMaster": 18,
+      "osmInMaster": 0,
+      "listingCount": 22,
+      "listingMethod": "wikipedia+page_enrich+wiki_coords",
+      "tierAGisCount": 93,
+      "tierAStatus": "verified",
+      "agency": "Louisiana State Parks",
+      "officialListing": "https://www.lastateparks.com/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Louisiana_state_parks",
+      "flags": [
+        "under_official_gis"
+      ]
+    },
+    {
+      "admin": "MA",
+      "country": "US",
+      "masterCount": 50,
+      "officialInMaster": 0,
+      "osmInMaster": 50,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "tierAStatus": "blocked",
+      "agency": "Massachusetts State Parks",
+      "officialListing": "https://www.mass.gov/orgs/department-of-conservation-recreation",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Massachusetts_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "MB",
+      "country": "CA",
+      "masterCount": 41,
+      "officialInMaster": 0,
+      "osmInMaster": 41,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "Manitoba Parks",
+      "officialListing": "https://www.gov.mb.ca/sd/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Manitoba",
+      "flags": []
+    },
+    {
+      "admin": "MD",
+      "country": "US",
+      "masterCount": 52,
+      "officialInMaster": 52,
+      "osmInMaster": 0,
+      "listingCount": 52,
+      "listingMethod": "official_gis_names+page_enrich",
+      "tierAGisCount": 67,
+      "tierAStatus": "verified",
+      "agency": "Maryland State Parks",
+      "officialListing": "https://dnr.maryland.gov/publiclands/Pages/default.aspx",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Maryland_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "ME",
+      "country": "US",
+      "masterCount": 44,
+      "officialInMaster": 44,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 44,
+      "tierAStatus": "verified",
+      "agency": "Maine State Parks",
+      "officialListing": "https://www.maine.gov/dacf/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Maine_state_parks",
+      "flags": [
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "MI",
+      "country": "US",
+      "masterCount": 78,
+      "officialInMaster": 78,
+      "osmInMaster": 0,
+      "listingCount": 78,
+      "listingMethod": "official_gis_names+page_enrich",
+      "tierAGisCount": 79,
+      "tierAStatus": "verified",
+      "agency": "Michigan State Parks",
+      "officialListing": "https://www.michigan.gov/dnr/places/state-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Michigan_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "MN",
+      "country": "US",
+      "masterCount": 65,
+      "officialInMaster": 65,
+      "osmInMaster": 0,
+      "listingCount": 73,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 75,
+      "tierAStatus": "verified",
+      "agency": "Minnesota State Parks",
+      "officialListing": "https://www.dnr.state.mn.us/state_parks/index.html",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Minnesota_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "MO",
+      "country": "US",
+      "masterCount": 89,
+      "officialInMaster": 89,
+      "osmInMaster": 0,
+      "listingCount": 89,
+      "listingMethod": "official_gis_urls",
+      "tierAGisCount": 90,
+      "tierAStatus": "verified",
+      "agency": "Missouri State Parks",
+      "officialListing": "https://mostateparks.com/park",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Missouri_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "MS",
+      "country": "US",
+      "masterCount": 37,
+      "officialInMaster": 37,
+      "osmInMaster": 0,
+      "listingCount": 37,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 53,
+      "tierAStatus": "verified",
+      "agency": "Mississippi State Parks",
+      "officialListing": "https://www.mdwfp.com/parks-destinations/state-parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Mississippi_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "MT",
+      "country": "US",
+      "masterCount": 55,
+      "officialInMaster": 55,
+      "osmInMaster": 0,
+      "listingCount": 55,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 55,
+      "tierAStatus": "verified",
+      "agency": "Montana State Parks",
+      "officialListing": "https://fwp.mt.gov/stateparks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Montana_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "NB",
+      "country": "CA",
+      "masterCount": 31,
+      "officialInMaster": 0,
+      "osmInMaster": 31,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "New Brunswick Parks",
+      "officialListing": "https://parcsnbparks.ca/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_New_Brunswick",
+      "flags": []
+    },
+    {
+      "admin": "NC",
+      "country": "US",
+      "masterCount": 69,
+      "officialInMaster": 69,
+      "osmInMaster": 0,
+      "listingCount": 69,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 348,
+      "tierAStatus": "verified",
+      "agency": "North Carolina State Parks",
+      "officialListing": "https://www.ncparks.gov/state-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_North_Carolina_state_parks",
+      "flags": [
+        "under_official_gis"
+      ]
+    },
+    {
+      "admin": "ND",
+      "country": "US",
+      "masterCount": 13,
+      "officialInMaster": 13,
+      "osmInMaster": 0,
+      "listingCount": 19,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 21,
+      "tierAStatus": "verified",
+      "agency": "North Dakota State Parks",
+      "officialListing": "https://www.parkrec.nd.gov/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_North_Dakota_state_parks",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "NE",
+      "country": "US",
+      "masterCount": 72,
+      "officialInMaster": 72,
+      "osmInMaster": 0,
+      "listingCount": 19,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 72,
+      "tierAStatus": "verified",
+      "agency": "Nebraska Game and Parks",
+      "officialListing": "https://outdoornebraska.gov/stateparks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nebraska_state_parks",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "NH",
+      "country": "US",
+      "masterCount": 35,
+      "officialInMaster": 35,
+      "osmInMaster": 0,
+      "listingCount": 35,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 46,
+      "tierAStatus": "verified",
+      "agency": "New Hampshire State Parks",
+      "officialListing": "https://www.nhstateparks.org/find-parks-trails",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_New_Hampshire_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "NJ",
+      "country": "US",
+      "masterCount": 14,
+      "officialInMaster": 0,
+      "osmInMaster": 14,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "tierAStatus": "blocked",
+      "agency": "New Jersey State Parks",
+      "officialListing": "https://www.nj.gov/dep/parksandforests/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_New_Jersey_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "NL",
+      "country": "CA",
+      "masterCount": 66,
+      "officialInMaster": 0,
+      "osmInMaster": 66,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "NL Parks",
+      "officialListing": "https://www.gov.nl.ca/ffa/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Newfoundland_and_Labrador",
+      "flags": []
+    },
+    {
+      "admin": "NM",
+      "country": "US",
+      "masterCount": 24,
+      "officialInMaster": 0,
+      "osmInMaster": 24,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 1,
+      "tierAStatus": "verified",
+      "agency": "New Mexico State Parks",
+      "officialListing": "https://www.emnrd.nm.gov/spd/find-a-park/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_New_Mexico_state_parks",
+      "flags": [
+        "over_official_gis",
+        "has_osm_in_tier_a_state",
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "NS",
+      "country": "CA",
+      "masterCount": 20,
+      "officialInMaster": 0,
+      "osmInMaster": 20,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "Nova Scotia Parks",
+      "officialListing": "https://parks.novascotia.ca/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Nova_Scotia",
+      "flags": []
+    },
+    {
+      "admin": "NT",
+      "country": "CA",
+      "masterCount": 0,
+      "officialInMaster": 0,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "NWT Parks",
+      "officialListing": "https://www.nwtourism.ca/explore/nwt-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Northwest_Territories_parks",
+      "flags": []
+    },
+    {
+      "admin": "NU",
+      "country": "CA",
+      "masterCount": 16,
+      "officialInMaster": 0,
+      "osmInMaster": 16,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "Nunavut Parks",
+      "officialListing": "https://www.nunavuttourism.com/things-to-do/parks-special-places/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_protected_areas_of_Nunavut",
+      "flags": []
+    },
+    {
+      "admin": "NV",
+      "country": "US",
+      "masterCount": 27,
+      "officialInMaster": 27,
+      "osmInMaster": 0,
+      "listingCount": 29,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 30,
+      "tierAStatus": "verified",
+      "agency": "Nevada State Parks",
+      "officialListing": "https://parks.nv.gov/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Nevada_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "NY",
+      "country": "US",
+      "masterCount": 206,
+      "officialInMaster": 206,
+      "osmInMaster": 0,
+      "listingCount": 256,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 858,
+      "tierAStatus": "verified",
+      "agency": "New York State Parks",
+      "officialListing": "https://parks.ny.gov/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_New_York_state_parks",
+      "flags": [
+        "under_official_gis"
+      ]
+    },
+    {
+      "admin": "OH",
+      "country": "US",
+      "masterCount": 28,
+      "officialInMaster": 0,
+      "osmInMaster": 28,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "tierAStatus": "blocked",
+      "agency": "Ohio State Parks",
+      "officialListing": "https://ohiodnr.gov/go-and-do/plan-a-visit/find-a-property",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Ohio_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "OK",
+      "country": "US",
+      "masterCount": 34,
+      "officialInMaster": 34,
+      "osmInMaster": 0,
+      "listingCount": 34,
+      "listingMethod": "official_gis_names+page_enrich",
+      "tierAGisCount": 50,
+      "tierAStatus": "verified",
+      "agency": "Oklahoma State Parks",
+      "officialListing": "https://www.travelok.com/state-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Oklahoma_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "ON",
+      "country": "CA",
+      "masterCount": 342,
+      "officialInMaster": 342,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 347,
+      "tierAStatus": "verified",
+      "agency": "Ontario Parks",
+      "officialListing": "https://www.ontarioparks.ca/park-locator",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_of_Ontario",
+      "flags": [
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "OR",
+      "country": "US",
+      "masterCount": 63,
+      "officialInMaster": 63,
+      "osmInMaster": 0,
+      "listingCount": 51,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 63,
+      "tierAStatus": "verified",
+      "agency": "Oregon State Parks",
+      "officialListing": "https://stateparks.oregon.gov/index.cfm?do=visit.find",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Oregon_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "PA",
+      "country": "US",
+      "masterCount": 109,
+      "officialInMaster": 109,
+      "osmInMaster": 0,
+      "listingCount": 122,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 124,
+      "tierAStatus": "verified",
+      "agency": "Pennsylvania State Parks",
+      "officialListing": "https://www.dcnr.pa.gov/StateParks/FindAPark/Pages/default.aspx",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Pennsylvania_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "PE",
+      "country": "CA",
+      "masterCount": 0,
+      "officialInMaster": 0,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "PEI Parks",
+      "officialListing": "https://www.princeedwardisland.ca/en/information/environment-energy-and-climate-action/pei-provincial-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Prince_Edward_Island",
+      "flags": []
+    },
+    {
+      "admin": "QC",
+      "country": "CA",
+      "masterCount": 0,
+      "officialInMaster": 0,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "Sépaq",
+      "officialListing": "https://www.sepaq.com/pq/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Quebec_national_parks",
+      "flags": []
+    },
+    {
+      "admin": "RI",
+      "country": "US",
+      "masterCount": 28,
+      "officialInMaster": 28,
+      "osmInMaster": 0,
+      "listingCount": 28,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 35,
+      "tierAStatus": "verified",
+      "agency": "Rhode Island State Parks",
+      "officialListing": "https://riparks.ri.gov/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Rhode_Island_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "SC",
+      "country": "US",
+      "masterCount": 55,
+      "officialInMaster": 55,
+      "osmInMaster": 0,
+      "listingCount": 50,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 55,
+      "tierAStatus": "verified",
+      "agency": "South Carolina State Parks",
+      "officialListing": "https://southcarolinaparks.com/park-finder",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_South_Carolina_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "SD",
+      "country": "US",
+      "masterCount": 49,
+      "officialInMaster": 49,
+      "osmInMaster": 0,
+      "listingCount": 49,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 53,
+      "tierAStatus": "verified",
+      "agency": "South Dakota State Parks",
+      "officialListing": "https://gfp.sd.gov/parks/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_South_Dakota_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "SK",
+      "country": "CA",
+      "masterCount": 4,
+      "officialInMaster": 0,
+      "osmInMaster": 4,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "Saskatchewan Parks",
+      "officialListing": "https://www.tourismsaskatchewan.com/places-to-go/provincial-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_provincial_parks_in_Saskatchewan",
+      "flags": []
+    },
+    {
+      "admin": "TN",
+      "country": "US",
+      "masterCount": 66,
+      "officialInMaster": 66,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": 66,
+      "tierAStatus": "verified",
+      "agency": "Tennessee State Parks",
+      "officialListing": "https://tnstateparks.com/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Tennessee_state_parks",
+      "flags": [
+        "missing_listing_cache"
+      ]
+    },
+    {
+      "admin": "TX",
+      "country": "US",
+      "masterCount": 91,
+      "officialInMaster": 91,
+      "osmInMaster": 0,
+      "listingCount": 92,
+      "listingMethod": "official_listing_html+page_enrich",
+      "tierAGisCount": 116,
+      "tierAStatus": "verified",
+      "agency": "Texas Parks and Wildlife",
+      "officialListing": "https://tpwd.texas.gov/state-parks/find-a-park",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Texas_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "UT",
+      "country": "US",
+      "masterCount": 46,
+      "officialInMaster": 46,
+      "osmInMaster": 0,
+      "listingCount": 46,
+      "listingMethod": "official_listing_html+page_enrich",
+      "tierAGisCount": 56,
+      "tierAStatus": "verified",
+      "agency": "Utah State Parks",
+      "officialListing": "https://stateparks.utah.gov/find-a-park/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Utah_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "VA",
+      "country": "US",
+      "masterCount": 46,
+      "officialInMaster": 46,
+      "osmInMaster": 0,
+      "listingCount": 46,
+      "listingMethod": "official_gis_names+page_enrich",
+      "tierAGisCount": 339,
+      "tierAStatus": "verified",
+      "agency": "Virginia State Parks",
+      "officialListing": "https://www.dcr.virginia.gov/state-parks/find-a-park",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Virginia_state_parks",
+      "flags": [
+        "under_official_gis"
+      ]
+    },
+    {
+      "admin": "VT",
+      "country": "US",
+      "masterCount": 51,
+      "officialInMaster": 51,
+      "osmInMaster": 0,
+      "listingCount": 51,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 51,
+      "tierAStatus": "verified",
+      "agency": "Vermont State Parks",
+      "officialListing": "https://vtstateparks.com/find.html",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Vermont_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "WA",
+      "country": "US",
+      "masterCount": 138,
+      "officialInMaster": 138,
+      "osmInMaster": 0,
+      "listingCount": 140,
+      "listingMethod": "official_gis_urls",
+      "tierAGisCount": 207,
+      "tierAStatus": "verified",
+      "agency": "Washington State Parks",
+      "officialListing": "https://parks.wa.gov/find-parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Washington_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "WI",
+      "country": "US",
+      "masterCount": 55,
+      "officialInMaster": 55,
+      "osmInMaster": 0,
+      "listingCount": 55,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 66,
+      "tierAStatus": "verified",
+      "agency": "Wisconsin State Parks",
+      "officialListing": "https://dnr.wisconsin.gov/topic/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Wisconsin_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "WV",
+      "country": "US",
+      "masterCount": 35,
+      "officialInMaster": 35,
+      "osmInMaster": 0,
+      "listingCount": 35,
+      "listingMethod": "official_gis_names",
+      "tierAGisCount": 36,
+      "tierAStatus": "verified",
+      "agency": "West Virginia State Parks",
+      "officialListing": "https://wvstateparks.com/",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_West_Virginia_state_parks",
+      "flags": []
+    },
+    {
+      "admin": "WY",
+      "country": "US",
+      "masterCount": 11,
+      "officialInMaster": 11,
+      "osmInMaster": 0,
+      "listingCount": 16,
+      "listingMethod": "wikipedia",
+      "tierAGisCount": 13,
+      "tierAStatus": "verified",
+      "agency": "Wyoming State Parks",
+      "officialListing": "https://wyoparks.wyo.gov/parks",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Wyoming_state_parks",
+      "flags": [
+        "listing_master_mismatch"
+      ]
+    },
+    {
+      "admin": "YT",
+      "country": "CA",
+      "masterCount": 0,
+      "officialInMaster": 0,
+      "osmInMaster": 0,
+      "listingCount": null,
+      "listingMethod": null,
+      "tierAGisCount": null,
+      "agency": "Yukon Parks",
+      "officialListing": "https://yukon.ca/en/outdoor-recreation-and-wildlife/camping-and-picnicking/find-campground-or-picnic-site",
+      "wikipedia": "https://en.wikipedia.org/wiki/List_of_Yukon_parks",
+      "flags": []
+    }
+  ]
+}

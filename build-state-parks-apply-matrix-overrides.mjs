@@ -9,7 +9,8 @@ import { fileURLToPath } from "url";
 import { log } from "./pipeline-log.mjs";
 import { INGEST_DIR, readJson, writeJson, US_STATES, CA_PROVINCES } from "./state-parks-lib.mjs";
 
-const HUB_EXCLUDE = /PADUS|FederalLands|E911|Green Book|Geoheritage|IndianReservation|NationalParkService|Chesapeake Conservation|Detroit_MP|Oblique Aerial|RaceHispanic/i;
+const HUB_EXCLUDE =
+  /PADUS|FederalLands|E911|Green Book|Geoheritage|IndianReservation|NationalParkService|Chesapeake Conservation|Detroit_MP|Oblique Aerial|RaceHispanic|HPHS|biota_mrcca|UNC|LWCF|USA Parks|National Historic|Parking_Areas|NRHP|KSHS_RESOURCES|National Historic Places/i;
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
 const MATRIX_PATH = path.join(tools, "state-parks-source-matrix.json");
@@ -21,7 +22,7 @@ function mergeRow(existing, patch) {
   return {
     ...existing,
     ...patch,
-    fieldMap: patch.fieldMap ? { ...(existing?.fieldMap || {}), ...patch.fieldMap } : existing?.fieldMap,
+    fieldMap: patch.fieldMap !== undefined ? patch.fieldMap : existing?.fieldMap,
     country: existing?.country || patch.country || "US",
     admin: existing?.admin || patch.admin,
     investigatedAt: new Date().toISOString().slice(0, 10),
@@ -62,7 +63,7 @@ function applyRegion(matrix, regionKey, adminList, overrides, hub) {
     if (ovr) row = mergeRow(row, { ...ovr, admin, country: row.country });
 
     const hubHit = hub?.states?.[admin]?.hits?.[0];
-    if (hubHit && row.status !== "verified" && !HUB_EXCLUDE.test(hubHit.title || "")) {
+    if (hubHit && row.status !== "verified" && row.status !== "blocked" && ovr?.status !== "blocked" && !HUB_EXCLUDE.test(hubHit.title || "")) {
       const hubRow = rowFromHubHit(admin, hubHit, ovr?.agency);
       if (hubRow) row = mergeRow(row, hubRow);
     }
