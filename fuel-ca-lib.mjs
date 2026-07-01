@@ -203,6 +203,36 @@ export function filterBrandFromContext(ctx, catalog) {
   const pfj = matchPilotFlyingJ({ normBrand, normOp, normName }, brands.flyingj, brands.pilot);
   if (pfj) return pfj;
 
+  const couche = brands.couche_tard;
+  if (couche) {
+    if (
+      brandTagMatches(normBrand, "Couche-Tard") ||
+      brandTagMatches(normOp, "Couche-Tard") ||
+      nameHasAny(normName, couche.osm?.nameContains)
+    ) {
+      return pickBrand(couche);
+    }
+  }
+
+  const circleK = brands.circle_k;
+  if (circleK) {
+    if (brandTagMatches(normBrand, "Circle K") || nameHasAny(normName, circleK.osm?.nameContains)) {
+      return pickBrand(circleK);
+    }
+  }
+
+  const macsBrand = brands.macs;
+  if (macsBrand) {
+    if (
+      brandTagMatches(normBrand, "Mac's") ||
+      brandTagMatches(normBrand, "Macs") ||
+      brandTagMatches(normOp, "Mac's") ||
+      nameHasAny(normName, macsBrand.osm?.nameContains)
+    ) {
+      return pickBrand(macsBrand);
+    }
+  }
+
   return null;
 }
 

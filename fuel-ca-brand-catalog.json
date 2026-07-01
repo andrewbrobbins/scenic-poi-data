@@ -68,6 +68,41 @@
         "brand": ["Husky Travel Center", "Husky Travel Centre"],
         "nameContains": ["husky travel", "husky truck", "husky travel centre", "husky travel center"]
       }
+    },
+    {
+      "id": "couche_tard",
+      "displayName": "Couche-Tard",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "strict": true,
+        "brand": ["Couche-Tard", "Couche Tard"],
+        "operator": ["Couche-Tard"],
+        "nameContains": ["couche-tard", "couche tard"]
+      }
+    },
+    {
+      "id": "circle_k",
+      "displayName": "Circle K",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "strict": true,
+        "brand": ["Circle K"],
+        "nameContains": ["circle k"]
+      }
+    },
+    {
+      "id": "macs",
+      "displayName": "Mac's",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "strict": true,
+        "brand": ["Mac's", "Macs"],
+        "operator": ["Mac's"],
+        "nameContains": ["mac's", "macs convenience"]
+      }
     }
   ]
 }

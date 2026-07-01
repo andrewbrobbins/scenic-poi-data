@@ -1,7 +1,628 @@
 {
-  "generated": "2026-06-19T19:58:49.351Z",
-  "count": 14,
+  "generated": "2026-07-01T04:30:16.217Z",
+  "count": 41,
   "records": [
+    {
+      "kept": "FUEL-CA-PILOT-ON-pilot-4351271365",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-4351271372",
+      "reason": "pilot-fj-merge",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-4351271372",
+        "lat": 48.603947700000006,
+        "lon": -88.78198920000001,
+        "name": "Flying J",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 4351271372
+        },
+        "url": "https://www.openstreetmap.org/node/4351271372"
+      }
+    },
+    {
+      "kept": "FUEL-CA-COUCHE_TARD-QC-couche-tard-6617611801",
+      "dropped": "FUEL-CA-COUCHE_TARD-QC-couche-tard-6617611806",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-COUCHE_TARD-QC-couche-tard-6617611806",
+        "lat": 45.54214520000001,
+        "lon": -73.187494,
+        "name": "Couche-Tard",
+        "brandId": "couche_tard",
+        "brand": "Couche-Tard",
+        "state": "QC",
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 6617611806
+        },
+        "url": "https://www.openstreetmap.org/node/6617611806"
+      }
+    },
+    {
+      "kept": "FUEL-CA-COUCHE_TARD-QC-couche-tard-10693536991",
+      "dropped": "FUEL-CA-COUCHE_TARD-QC-couche-tard-13938832542",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-COUCHE_TARD-QC-couche-tard-13938832542",
+        "lat": 46.642298100000005,
+        "lon": -72.6736419,
+        "name": "Couche-Tard",
+        "brandId": "couche_tard",
+        "brand": "Couche-Tard",
+        "state": "QC",
+        "osmTags": {
+          "brand": "Couche-Tard",
+          "operator": ""
+        },
+        "osm": {
+          "type": "node",
+          "id": 13938832542
+        },
+        "url": "https://www.openstreetmap.org/node/13938832542"
+      }
+    },
+    {
+      "kept": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-112581235",
+      "dropped": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-and-blue-canoe-restauran-112581241",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-IRVING_BIGSTOP-NB-irving-big-stop-and-blue-canoe-restauran-112581241",
+        "lat": 45.851252710000004,
+        "lon": -66.56078201,
+        "name": "Irving Big Stop and Blue Canoe Restaurant",
+        "brandId": "irving_bigstop",
+        "brand": "Irving Big Stop",
+        "state": "NB",
+        "osmTags": {
+          "brand": "Irving",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 112581241
+        },
+        "url": "https://www.openstreetmap.org/way/112581241"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-174528241",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-174528241",
+        "lat": 53.566589111111114,
+        "lon": -113.31791292222223,
+        "name": "Flying J",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 174528241
+        },
+        "url": "https://www.openstreetmap.org/way/174528241"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5362090346",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-183248946",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-183248946",
+        "lat": 43.3362392,
+        "lon": -80.43309298000001,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 183248946
+        },
+        "url": "https://www.openstreetmap.org/way/183248946"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-129468528",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-195507992",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-195507992",
+        "lat": 42.93392845625,
+        "lon": -81.17473615624999,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 195507992
+        },
+        "url": "https://www.openstreetmap.org/way/195507992"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-195821582",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-195821582",
+        "lat": 53.56684170000001,
+        "lon": -113.31689372222223,
+        "name": "Flying J",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 195821582
+        },
+        "url": "https://www.openstreetmap.org/way/195821582"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-230499047",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-230499047",
+        "lat": 42.262942679999995,
+        "lon": -82.4611349,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 230499047
+        },
+        "url": "https://www.openstreetmap.org/way/230499047"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-brooks-2393036695",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230869938",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230869938",
+        "lat": 50.572874507692305,
+        "lon": -111.86800600000001,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 230869938
+        },
+        "url": "https://www.openstreetmap.org/way/230869938"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-4558645789",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230870344",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230870344",
+        "lat": 50.948517554545454,
+        "lon": -113.97962394545456,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 230870344
+        },
+        "url": "https://www.openstreetmap.org/way/230870344"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-1450392033",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-243567682",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-243567682",
+        "lat": 53.33895866666668,
+        "lon": -113.54263700000001,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 243567682
+        },
+        "url": "https://www.openstreetmap.org/way/243567682"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-NU-flying-j-1449137107",
+      "dropped": "FUEL-CA-FLYINGJ-NU-flying-j-travel-center-296974568",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-NU-flying-j-travel-center-296974568",
+        "lat": 52.19653165714286,
+        "lon": -106.66860644285715,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "NU",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 296974568
+        },
+        "url": "https://www.openstreetmap.org/way/296974568"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-10271970972",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358968546",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358968546",
+        "lat": 45.138911453846156,
+        "lon": -74.49604090769232,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 358968546
+        },
+        "url": "https://www.openstreetmap.org/way/358968546"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358971488",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-358971489",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-358971489",
+        "lat": 42.921771580000005,
+        "lon": -78.96741894,
+        "name": "Flying J",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 358971489
+        },
+        "url": "https://www.openstreetmap.org/way/358971489"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5056486474",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-480751979",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-480751979",
+        "lat": 46.55683290000001,
+        "lon": -84.31876267142857,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 480751979
+        },
+        "url": "https://www.openstreetmap.org/way/480751979"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-486119828",
+      "dropped": "FUEL-CA-FLYINGJ-BC-flying-j-486119835",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-BC-flying-j-486119835",
+        "lat": 49.365450620000004,
+        "lon": -121.48323926000003,
+        "name": "Flying J",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "BC",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 486119835
+        },
+        "url": "https://www.openstreetmap.org/way/486119835"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-438542149",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-503663315",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-503663315",
+        "lat": 44.267364037499995,
+        "lon": -76.96871853750001,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 503663315
+        },
+        "url": "https://www.openstreetmap.org/way/503663315"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-527085036",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-527085036",
+        "lat": 42.26304802000001,
+        "lon": -82.46159709999999,
+        "name": "Flying J",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 527085036
+        },
+        "url": "https://www.openstreetmap.org/way/527085036"
+      }
+    },
+    {
+      "kept": "FUEL-CA-CIRCLE_K-ON-circle-k-12856479905",
+      "dropped": "FUEL-CA-CIRCLE_K-ON-circle-k-527350429",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-CIRCLE_K-ON-circle-k-527350429",
+        "lat": 42.8501042,
+        "lon": -80.4926384,
+        "name": "Circle K",
+        "brandId": "circle_k",
+        "brand": "Circle K",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Circle K",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 527350429
+        },
+        "url": "https://www.openstreetmap.org/way/527350429"
+      }
+    },
+    {
+      "kept": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-1450392049",
+      "dropped": "FUEL-CA-PETRO_PASS-AB-petro-pass-686971209",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-686971209",
+        "lat": 53.33668081666667,
+        "lon": -113.54333124444446,
+        "name": "Petro-Pass",
+        "brandId": "petro_pass",
+        "brand": "Petro-Pass",
+        "state": "AB",
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 686971209
+        },
+        "url": "https://www.openstreetmap.org/way/686971209"
+      }
+    },
+    {
+      "kept": "FUEL-CA-COUCHE_TARD-QC-couche-tard-8660119269",
+      "dropped": "FUEL-CA-COUCHE_TARD-QC-couche-tard-934430050",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-COUCHE_TARD-QC-couche-tard-934430050",
+        "lat": 46.06459808000001,
+        "lon": -73.48875996000001,
+        "name": "Couche-Tard",
+        "brandId": "couche_tard",
+        "brand": "Couche-Tard",
+        "state": "QC",
+        "osmTags": {
+          "brand": "Couche-Tard",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 934430050
+        },
+        "url": "https://www.openstreetmap.org/way/934430050"
+      }
+    },
+    {
+      "kept": "FUEL-CA-PETRO_PASS-AB-petro-pass-298735753",
+      "dropped": "FUEL-CA-PETRO_PASS-AB-petro-pass-968211070",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-968211070",
+        "lat": 53.396873920000004,
+        "lon": -117.60091180000002,
+        "name": "Petro-Pass",
+        "brandId": "petro_pass",
+        "brand": "Petro-Pass",
+        "state": "AB",
+        "osmTags": {
+          "brand": "",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 968211070
+        },
+        "url": "https://www.openstreetmap.org/way/968211070"
+      }
+    },
+    {
+      "kept": "FUEL-CA-PETRO_PASS-AB-petro-pass-968573338",
+      "dropped": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-968573352",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-PETRO_PASS-AB-petro-pass-cardlock-968573352",
+        "lat": 51.41482102000001,
+        "lon": -114.00050804,
+        "name": "Petro-Pass Cardlock",
+        "brandId": "petro_pass",
+        "brand": "Petro-Pass",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Petro-Canada",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 968573352
+        },
+        "url": "https://www.openstreetmap.org/way/968573352"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-5235136200",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1320728988",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1320728988",
+        "lat": 54.136604255555554,
+        "lon": -115.69592322222223,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 1320728988
+        },
+        "url": "https://www.openstreetmap.org/way/1320728988"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-AB-flying-j-6403402956",
+      "dropped": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1320729040",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1320729040",
+        "lat": 50.0551118,
+        "lon": -110.73536885555556,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "AB",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 1320729040
+        },
+        "url": "https://www.openstreetmap.org/way/1320729040"
+      }
+    },
+    {
+      "kept": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-9225535870",
+      "dropped": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-1323214543",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-1323214543",
+        "lat": 43.6537618375,
+        "lon": -79.6480952625,
+        "name": "Flying J Travel Center",
+        "brandId": "flyingj",
+        "brand": "Flying J",
+        "state": "ON",
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 1323214543
+        },
+        "url": "https://www.openstreetmap.org/way/1323214543"
+      }
+    },
     {
       "kept": "FUEL-CA-ONROUTE-PAIR-trenton-onroute",
       "dropped": "FUEL-ONROUTE-ON-trenton-south-trenton-south-supp",
