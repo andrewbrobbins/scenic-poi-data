@@ -57,6 +57,10 @@ California State Parks publishes a rich FeatureServer on `services2.arcgis.com/A
 
 Also available but not yet wired: [Parking_Areas](https://services2.arcgis.com/AhxrK3F6WM8ECvDi/ArcGIS/rest/services/Parking_Areas/FeatureServer/0) (161 lot polygons — centroid ingest candidate).
 
+## Progress tracker
+
+Per-state catalog / boundary / amenity / ingest status: **[PARK-AMENITIES-STATE-PROGRESS.md](PARK-AMENITIES-STATE-PROGRESS.md)**.
+
 ## Other US states
 
 Most states have **boundary** GIS in SP-001 (`state-parks-source-matrix.json`, 49 verified) but **not** amenity FeatureServers. Next steps per state:

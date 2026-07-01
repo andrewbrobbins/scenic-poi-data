@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-25T20:10:49.995Z",
-  "totalRecords": 30889,
-  "needsReviewCount": 9,
-  "suppressedDuplicateCount": 9595,
+  "generated": "2026-06-29T16:04:04.530Z",
+  "totalRecords": 108235,
+  "needsReviewCount": 3875,
+  "suppressedDuplicateCount": 46209,
   "ingestLayers": [
     {
       "step": "01-nps-arcgis",
@@ -10,41 +10,43 @@
     },
     {
       "step": "02-state-arcgis",
-      "count": 1942
+      "count": 12602
     },
     {
       "step": "03-state-osm",
-      "count": 28560
+      "count": 131860
     }
   ],
   "byKind": {
-    "campground": 5844,
-    "restroom": 12936,
-    "picnic_area": 12109
+    "campground": 12176,
+    "restroom": 12012,
+    "picnic_area": 10606,
+    "parking": 71661,
+    "visitor_center": 1780
   },
   "byCampTier": {
-    "developed": 1796,
-    "backcountry": 3707,
-    "primitive": 341
+    "developed": 7997,
+    "backcountry": 3826,
+    "primitive": 353
   },
   "byAccessMode": {
-    "road": 1796,
-    "trail": 4048,
+    "road": 7997,
+    "trail": 4179,
     "unknown": 0
   },
   "byManager": {
     "NPS": 8974,
-    "State": 21915
+    "State": 99261
   },
   "mapFlagCounts": {
     "CAMP_TIER_GUESS": 1,
-    "NO_PARENT": 8
+    "NO_PARENT": 3874
   },
   "coverage": {
     "npsCatalogUnits": 419,
     "npsUnitsWithAnyAmenity": 269,
-    "stateParkCatalogUnits": 3409,
-    "stateParksWithAnyAmenity": 2011
+    "stateParkCatalogUnits": 2786,
+    "stateParksWithAnyAmenity": 2034
   },
   "suppressedSample": [
     {
@@ -229,10 +231,10 @@
     }
   ],
   "accessEnrichment": {
-    "enriched": 5844,
+    "enriched": 12176,
     "byAccess": {
-      "road": 1796,
-      "trail": 4048,
+      "road": 7997,
+      "trail": 4179,
       "unknown": 0
     },
     "roadCaches": [],

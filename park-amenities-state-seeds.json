@@ -80,13 +80,116 @@
     },
     "FL": {
       "agency": "Florida DEP",
-      "candidates": [
+      "boundaries": [
         {
-          "amenity": "boundary",
           "label": "PARKS_BOUNDARIES",
           "queryUrl": "https://ca.dep.state.fl.us/arcgis/rest/services/OpenData/PARKS_BOUNDARIES/MapServer/0/query",
           "geometry": "polygon",
-          "notes": "SP-001 verified boundary layer; amenity layers TBD"
+          "codeField": "UNIT_ID",
+          "nameField": "SITE_NAME",
+          "notes": "SP-001 verified boundary layer (179 polygons); no open amenity FeatureServer found on DEP server (2026-06-29)"
+        }
+      ],
+      "candidates": []
+    },
+    "TX": {
+      "agency": "Texas Parks and Wildlife (TPWD)",
+      "server": "https://services1.arcgis.com/1mtXwieMId59thmg/arcgis/rest/services",
+      "boundaries": [
+        {
+          "label": "Texas_State_Parks_Boundaries",
+          "queryUrl": "https://services1.arcgis.com/1mtXwieMId59thmg/arcgis/rest/services/Texas_State_Parks_Boundaries/FeatureServer/0/query",
+          "geometry": "polygon",
+          "codeField": "GlobalID",
+          "nameField": "ParkName",
+          "notes": "SP-001 verified (116 features, PropType filter)"
+        }
+      ],
+      "candidates": [
+        {
+          "amenity": "visitor_center",
+          "label": "Texas_State_Parks_Headquarters__Access_Points",
+          "queryUrl": "https://services1.arcgis.com/1mtXwieMId59thmg/arcgis/rest/services/Texas_State_Parks_Headquarters__Access_Points/FeatureServer/0/query",
+          "codeField": "LoCode",
+          "notes": "129 HQ/access points; Type=State Park, Comments=Park Headquarters; parent link via LoCode or park name"
+        },
+        {
+          "amenity": "parking",
+          "label": "Texas_State_Parks_Public_Areas",
+          "queryUrl": "https://services1.arcgis.com/1mtXwieMId59thmg/arcgis/rest/services/Texas_State_Parks_Public_Areas/FeatureServer/0/query",
+          "notes": "123 public-use area points (park-level, not lot-level); UseType/Availability fields"
+        },
+        {
+          "amenity": "campground",
+          "label": "Texas_Campgrounds (TWDB)",
+          "queryUrl": "https://gis1.twdb.texas.gov/server/rest/services/WSC-FSCA-FM/Texas_Campgrounds/MapServer/0/query",
+          "notes": "6093 statewide campgrounds (includes private/KOA — filter by Source or parent spatial join before ingest)"
+        }
+      ]
+    },
+    "WA": {
+      "agency": "Washington State Parks (WSPRC)",
+      "server": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services",
+      "boundaries": [
+        {
+          "label": "ParkBoundaries",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/ParkBoundaries/FeatureServer/2/query",
+          "geometry": "polygon",
+          "nameField": "ParkName",
+          "notes": "SP-001 verified (207 features)"
+        }
+      ],
+      "candidates": [
+        {
+          "amenity": "campground",
+          "label": "Campsites (layer 78)",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/Campsites/FeatureServer/78/query",
+          "codeField": "ParkCode",
+          "notes": "6124 numbered campsites; ParkName + site Name; Filter=active"
+        },
+        {
+          "amenity": "parking",
+          "label": "ParkingAreas",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/ParkingAreas/FeatureServer/0/query",
+          "parentNameField": "ParkName",
+          "geometry": "polygon",
+          "notes": "622 lot polygons — centroid ingest; Surface/Capacity fields"
+        },
+        {
+          "amenity": "parking",
+          "label": "Park_Entrances",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/Park_Entrances/FeatureServer/0/query",
+          "parentNameField": "ParkName",
+          "codeField": "ParkCode",
+          "notes": "203 entrance/access points with lat/lon"
+        },
+        {
+          "amenity": "restroom",
+          "label": "FacilityInventory (toilets/restrooms)",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/FacilityInventory/FeatureServer/0/query",
+          "where": "Name LIKE '%TOILET%' OR Name LIKE '%RESTROOM%'",
+          "parentNameField": "Park",
+          "notes": "287 restroom/toilet facilities in 2792-feature inventory; TYPE code map TBD"
+        },
+        {
+          "amenity": "visitor_center",
+          "label": "FacilityInventory (visitor/ranger)",
+          "queryUrl": "https://services5.arcgis.com/4LKAHwqnBooVDUlX/arcgis/rest/services/FacilityInventory/FeatureServer/0/query",
+          "where": "Name LIKE '%VISITOR%' OR Name LIKE '%RANGER%'",
+          "parentNameField": "Park",
+          "notes": "17 visitor/ranger facilities; filter from FacilityInventory"
+        }
+      ]
+    },
+    "CO": {
+      "agency": "Colorado Parks and Wildlife",
+      "candidates": [
+        {
+          "amenity": "mixed",
+          "label": "CPWAdminData facilities",
+          "queryUrl": "https://services5.arcgis.com/ttNGmDvKQA7oeDQ3/arcgis/rest/services/CPWAdminData/FeatureServer/0/query",
+          "codeField": "PARK_ID",
+          "notes": "5520 facilities statewide (PROP_TYPE, FAC_TYPE, FAC_NAME); filter to state parks before ingest"
         }
       ]
     }
