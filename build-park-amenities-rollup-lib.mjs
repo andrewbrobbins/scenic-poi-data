@@ -97,7 +97,11 @@ export function buildRollupFromRecords(records) {
 
 export async function writeRollup(masterPath, rollupPath) {
   const master = readJson(masterPath, { records: [] });
-  const rollup = buildRollupFromRecords(master.records || []);
+  return writeRollupFromRecords(master.records || [], rollupPath);
+}
+
+export async function writeRollupFromRecords(records, rollupPath) {
+  const rollup = buildRollupFromRecords(records);
   writeJson(rollupPath, rollup);
   console.log("Rollup:", rollup.parentCount, "parents →", rollupPath);
   return rollup;

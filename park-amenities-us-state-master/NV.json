@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:40.129Z",
+  "shard": "state",
+  "state": "NV",
+  "landManager": "State",
+  "description": "US state park amenities — NV",
+  "accessEnriched": true,
+  "recordCount": 1,
+  "byKind": {
+    "visitor_center": 1
+  },
+  "byCampTier": {
+    "developed": 0,
+    "backcountry": 0,
+    "primitive": 0
+  },
+  "byAccessMode": {
+    "road": 0,
+    "trail": 0,
+    "unknown": 0
+  },
+  "byManager": {
+    "State": 1
+  },
+  "records": [
+    {
+      "id": "AMEN-SP-OSM-SP-US-NV-BEA-visitor_center-visitor-center-375171-1140834",
+      "name": "visitor center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "270",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nv-beaver-dam-listing",
+        "parkCode": "270",
+        "name": "Beaver Dam State Park",
+        "catalogName": "Beaver Dam",
+        "designation": "State Park",
+        "category": "park",
+        "state": "NV"
+      },
+      "state": "NV",
+      "lat": 37.5170936,
+      "lon": -114.08337890000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8635618991"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8635618991,
+        "tags": {
+          "amenity": "ranger_station"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    }
+  ]
+}

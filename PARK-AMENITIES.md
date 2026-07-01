@@ -70,10 +70,14 @@ Config: `park-amenities-nps-poi-types.json`, `park-amenities-state-sources.json`
 
 | File | Role |
 |------|------|
-| `park-amenities-us-master.json` | US NPS + state parks |
+| `park-amenities-us-master-manifest.json` | US shard index (counts, paths) |
+| `park-amenities-us-nps-master.json` | US NPS amenities |
+| `park-amenities-us-state-master/{ST}.json` | US state-park amenities per state |
 | `park-amenities-ca-master.json` | Parks Canada + provincial |
 | `park-amenities-*-rollup.json` | Per-parent counts + road/trail camp breakdown |
 | `park-amenities-*-explorer-embed.js` | `PARK_AMENITIES_US` / `PARK_AMENITIES_CA` |
+
+Legacy `park-amenities-us-master.json` (monolithic) is gitignored — rebuild writes shards via `build-park-amenities-us-master.mjs`.
 
 ## POI explorer
 

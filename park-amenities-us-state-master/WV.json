@@ -1,0 +1,1218 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:40.239Z",
+  "shard": "state",
+  "state": "WV",
+  "landManager": "State",
+  "description": "US state park amenities — WV",
+  "accessEnriched": true,
+  "recordCount": 27,
+  "byKind": {
+    "parking": 25,
+    "picnic_area": 1,
+    "restroom": 1
+  },
+  "byCampTier": {
+    "developed": 0,
+    "backcountry": 0,
+    "primitive": 0
+  },
+  "byAccessMode": {
+    "road": 0,
+    "trail": 0,
+    "unknown": 0
+  },
+  "byManager": {
+    "State": 27
+  },
+  "records": [
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394963-801031",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.496255700000006,
+      "lon": -80.10310740000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12670930996"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12670930996,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-395179-800923",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.51790626000001,
+      "lon": -80.09234364,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/970346491"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 970346491,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-395173-800964",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.517338542857146,
+      "lon": -80.0964337214286,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/970348425"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 970348425,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-395172-800950",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.517188700000005,
+      "lon": -80.09500124000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/970348426"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 970348426,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-395172-800927",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.51722756,
+      "lon": -80.09272906000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/970348427"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 970348427,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394888-801095",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48875814,
+      "lon": -80.10946220000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/970348433"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 970348433,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394881-800889",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48807318181819,
+      "lon": -80.08892112727273,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/972130421"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 972130421,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394979-800991",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.497915893750005,
+      "lon": -80.09914685625002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/972130425"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 972130425,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394976-801001",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.49756795000001,
+      "lon": -80.10005458333335,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/972130426"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 972130426,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394894-801311",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.489382485714295,
+      "lon": -80.1310677142857,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1085690622"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1085690622,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394883-801305",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48828395,
+      "lon": -80.1305378,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1085690624"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1085690624,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394845-801137",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48449976666667,
+      "lon": -80.11371163333332,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1187734433"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1187734433,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394828-801282",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48275992,
+      "lon": -80.12817516000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791612"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791612,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394821-801314",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48205188571429,
+      "lon": -80.1313874857143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791617"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791617,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394812-801310",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48119884285715,
+      "lon": -80.1310126857143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791619"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791619,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394789-801273",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.478877963636364,
+      "lon": -80.12726196363637,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791641"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791641,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394805-801247",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.480498620000006,
+      "lon": -80.12468428000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791647"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791647,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394787-801231",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.47870012,
+      "lon": -80.12310554000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791648"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791648,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394803-801216",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48028774000001,
+      "lon": -80.12160506000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791661"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791661,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394781-801178",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.47810606,
+      "lon": -80.11779858000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489791665"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489791665,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394820-801273",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48198602000001,
+      "lon": -80.12730667999999,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489798956"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489798956,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394824-801250",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48240581,
+      "lon": -80.12501881,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1489808093"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1489808093,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394830-801270",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.483007966666676,
+      "lon": -80.12698525555555,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1490258718"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1490258718,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-parking-394827-801261",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.48268710833333,
+      "lon": -80.12605029166669,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1490258721"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1490258721,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-parking-pricketts-fort-trail-head-395175-800954",
+      "name": "Pricketts Fort Trail Head",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.51753560000001,
+      "lon": -80.09540621666667,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/970348424"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 970348424,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-picnic_area-picnic-area-395178-800949",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.5178097,
+      "lon": -80.09492610000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8996923343"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8996923343,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WV-PRI-restroom-restroom-395168-800951",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "27",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wv-pricketts-fort-listing",
+        "parkCode": "27",
+        "name": "Pricketts Fort State Park",
+        "catalogName": "Pricketts Fort",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WV"
+      },
+      "state": "WV",
+      "lat": 39.51677502,
+      "lon": -80.09505496,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/972082363"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 972082363,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    }
+  ]
+}

@@ -1,0 +1,5536 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:40.239Z",
+  "shard": "state",
+  "state": "WY",
+  "landManager": "State",
+  "description": "US state park amenities — WY",
+  "accessEnriched": true,
+  "recordCount": 125,
+  "byKind": {
+    "parking": 65,
+    "campground": 4,
+    "picnic_area": 18,
+    "restroom": 36,
+    "visitor_center": 2
+  },
+  "byCampTier": {
+    "developed": 4,
+    "backcountry": 0,
+    "primitive": 0
+  },
+  "byAccessMode": {
+    "road": 4,
+    "trail": 0,
+    "unknown": 0
+  },
+  "byManager": {
+    "State": 125
+  },
+  "records": [
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-KEY-parking-parking-443466-1048121",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "10",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-keyhole-listing",
+        "parkCode": "10",
+        "name": "Keyhole State Park",
+        "catalogName": "Keyhole",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.34661181111111,
+      "lon": -104.81208676666665,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/261040782"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 261040782,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-campground-developed-lower-wind-river-campground-434410-1081728",
+      "name": "Lower Wind River Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.44095183571431,
+      "lon": -108.17280698571427,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/246554972"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 246554972,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-campground-developed-tamarask-campground-433920-1081605",
+      "name": "Tamarask Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.392029762500016,
+      "lon": -108.16046916875,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/246554990"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 246554990,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-campground-developed-upper-wind-river-campground-434321-1081787",
+      "name": "Upper Wind River Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.43210186875,
+      "lon": -108.17868804375001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/246554991"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 246554991,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-parking-parking-434011-1081688",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.401099885714295,
+      "lon": -108.16879892857146,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/231404600"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 231404600,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-parking-parking-434021-1081683",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.40207101666667,
+      "lon": -108.16833860000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/231404601"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 231404601,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-parking-parking-434056-1081724",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.40561248571429,
+      "lon": -108.17239741428571,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/246554998"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 246554998,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-picnic_area-picnic-area-433916-1081596",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.391622500000004,
+      "lon": -108.15955550000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2535844308"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2535844308,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-picnic_area-picnic-area-434027-1081698",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.402689,
+      "lon": -108.1697627,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2535844391"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2535844391,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BOY-restroom-restroom-433913-1081593",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "2",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-boysen-listing",
+        "parkCode": "2",
+        "name": "Boysen State Park",
+        "catalogName": "Boysen",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.391339900000006,
+      "lon": -108.15927620000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2535844298"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2535844298,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-campground-developed-buffalo-bill-state-park-lake-shore-campground-445006-1092343",
+      "name": "Buffalo Bill State Park - Lake Shore Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.500620164705886,
+      "lon": -109.23427522352941,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/125348232"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 125348232,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-444999-1091997",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.499942700000005,
+      "lon": -109.19971290000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3392881586"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3392881586,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-444997-1092089",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.4997248,
+      "lon": -109.2089368,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3392881587"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3392881587,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-444998-1092184",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.4997534,
+      "lon": -109.218394,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3392881588"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3392881588,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-445021-1092367",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.5021338,
+      "lon": -109.23673730000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3392881589"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3392881589,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-445032-1092583",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.5032402,
+      "lon": -109.25828380000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3392883015"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3392883015,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-444975-1092928",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.49754780000001,
+      "lon": -109.29278980000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3392883016"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3392883016,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-445006-1091882",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.50063667407408,
+      "lon": -109.18821667777776,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/327175227"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 327175227,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-444991-1092195",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.499124785714294,
+      "lon": -109.2195289857143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/327623057"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 327623057,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-445008-1092427",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.50084185714286,
+      "lon": -109.24267921428573,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/341457111"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 341457111,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-parking-parking-445000-1092424",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.499968020000004,
+      "lon": -109.24241426000003,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/341457112"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 341457112,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-picnic_area-picnic-area-444998-1092423",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.49982000000001,
+      "lon": -109.24226780000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12209997701"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12209997701,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-picnic_area-picnic-area-444988-1092226",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.498846900000004,
+      "lon": -109.22259450000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12209997801"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12209997801,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-picnic_area-picnic-area-444989-1092195",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.498859,
+      "lon": -109.21945540000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12209997901"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12209997901,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-BUF-restroom-restroom-445002-1092418",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-buffalo-bill-listing",
+        "parkCode": "3",
+        "name": "Buffalo Bill State Park",
+        "catalogName": "Buffalo Bill",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 44.5001772,
+      "lon": -109.24180760000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12209997602"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12209997602,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411611-1052066",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.16107792857143,
+      "lon": -105.20664617142859,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/247657301"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 247657301,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411657-1052124",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.16573927500001,
+      "lon": -105.21238682500001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/249593911"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 249593911,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411853-1052437",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.18528058666668,
+      "lon": -105.24368731000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/508040546"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 508040546,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411802-1052507",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.18018978461539,
+      "lon": -105.25066638461541,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/721755339"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 721755339,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411773-1052459",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.17732871176471,
+      "lon": -105.2458858647059,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/721761715"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 721761715,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411789-1052468",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.1788955,
+      "lon": -105.24678731818182,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/830796758"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 830796758,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-parking-parking-411964-1052554",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.19640601111111,
+      "lon": -105.25542504444448,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1337494159"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1337494159,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-picnic_area-picnic-area-411802-1052501",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.1801989,
+      "lon": -105.25009270000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2409196042"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2409196042,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-picnic_area-picnic-area-411553-1052401",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.15527590000001,
+      "lon": -105.24009790000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/10054116240"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 10054116240,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-picnic_area-picnic-area-411886-1052673",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.188596800000006,
+      "lon": -105.2673335,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/10315053465"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 10315053465,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-picnic_area-picnic-area-411813-1052438",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.18129750000001,
+      "lon": -105.2437864,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/10315053466"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 10315053466,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-restroom-restroom-411791-1052464",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.179098700000004,
+      "lon": -105.2463591,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2409196040"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2409196040,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-restroom-restroom-411760-1052429",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.1759877,
+      "lon": -105.24293130000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2409196041"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2409196041,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-restroom-restroom-411927-1052672",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.1927177,
+      "lon": -105.2671803,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/4974323148"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 4974323148,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-restroom-restroom-411801-1052499",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.1801149,
+      "lon": -105.24989242000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/721636298"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 721636298,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-restroom-restroom-411960-1052560",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.19603046,
+      "lon": -105.256021,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1337493615"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1337493615,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-CUR-restroom-restroom-411955-1052539",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "4",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-curt-gowdy-listing",
+        "parkCode": "4",
+        "name": "Curt Gowdy State Park",
+        "catalogName": "Curt Gowdy",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 41.19548658000001,
+      "lon": -105.2539033,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1337493616"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1337493616,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428577-1061741",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.8577111,
+      "lon": -106.1741286,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3996103566"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3996103566,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428582-1061773",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.858161900000006,
+      "lon": -106.17734550000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3996103574"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3996103574,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428544-1061782",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.854438800000004,
+      "lon": -106.17817880000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3996103584"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3996103584,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428548-1061756",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.8548139,
+      "lon": -106.17559670000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3996103650"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3996103650,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428554-1061796",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.855406800000004,
+      "lon": -106.1795747,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3996131579"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3996131579,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428477-1062158",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.84767384761905,
+      "lon": -106.2157826904762,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/792581266"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 792581266,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428471-1062150",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.84712958,
+      "lon": -106.21498744,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/792581267"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 792581267,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428462-1062150",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.8461901909091,
+      "lon": -106.21502501363635,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/792581270"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 792581270,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428456-1062116",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.84562118000001,
+      "lon": -106.21160766,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1245944390"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1245944390,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428478-1062132",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.847770114285716,
+      "lon": -106.21323685714286,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1245944391"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1245944391,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-EDN-parking-parking-428470-1062187",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "5",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-edness-k-wilkins-listing",
+        "parkCode": "5",
+        "name": "Edness K. Wilkins State Park",
+        "catalogName": "Edness K. Wilkins",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.847041790909095,
+      "lon": -106.2187316,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1245944392"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1245944392,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-parking-parking-425207-1049850",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.52070040000001,
+      "lon": -104.98496705000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/312585570"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 312585570,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425279-1049417",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.5279437,
+      "lon": -104.94170000000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/7873183374"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 7873183374,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425257-1049396",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.525747300000006,
+      "lon": -104.93962300000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8690889470"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8690889470,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425298-1049415",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.529803400000006,
+      "lon": -104.94150060000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8690889471"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8690889471,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425418-1049637",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.5417567,
+      "lon": -104.96365560000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8690889472"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8690889472,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425348-1049560",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.534823700000004,
+      "lon": -104.9560167,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8690889473"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8690889473,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425363-1049573",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.5363278,
+      "lon": -104.9572988,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/8690889474"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 8690889474,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GLE-restroom-restroom-425197-1049874",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "6",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-glendo-listing",
+        "parkCode": "6",
+        "name": "Glendo State Park",
+        "catalogName": "Glendo",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.519743520000006,
+      "lon": -104.98736684,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/312585575"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 312585575,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422571-1047492",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.257121644444446,
+      "lon": -104.74921474444446,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/291393920"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 291393920,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422619-1047419",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.2618739,
+      "lon": -104.7418803,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622367"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622367,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422615-1047433",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26154698888889,
+      "lon": -104.74330433333336,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622374"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622374,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422635-1047421",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26348560000001,
+      "lon": -104.74214485000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622380"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622380,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422605-1047240",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26047358000001,
+      "lon": -104.7240323,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622391"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622391,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422614-1047248",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26137964000001,
+      "lon": -104.72477634000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622393"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622393,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422616-1047265",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26163042,
+      "lon": -104.72653224000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622395"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622395,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422639-1047285",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26394877058824,
+      "lon": -104.72846045882355,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622408"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622408,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422667-1047360",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26665304000001,
+      "lon": -104.73604464,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1250622461"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1250622461,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422635-1047496",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26350926,
+      "lon": -104.74957048000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1273949180"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1273949180,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422642-1047524",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.264224500000005,
+      "lon": -104.7523846625,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1273954640"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1273954640,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422638-1047465",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26375616,
+      "lon": -104.74653962,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274180773"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274180773,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422638-1047451",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26376440000001,
+      "lon": -104.74513356000003,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274180775"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274180775,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422675-1047519",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.267540155555565,
+      "lon": -104.75185291111113,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274641015"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274641015,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422671-1047509",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26708086000001,
+      "lon": -104.75094874000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274641016"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274641016,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422702-1047481",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.27018638,
+      "lon": -104.74814352000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274683199"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274683199,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422702-1047471",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.27020542,
+      "lon": -104.74706492,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274683205"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274683205,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422702-1047510",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.27024727333334,
+      "lon": -104.75104534000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274683208"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274683208,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422696-1047454",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26956302000001,
+      "lon": -104.74543046000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1274683237"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1274683237,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422700-1047406",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.27001014444445,
+      "lon": -104.74063036666668,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1275050739"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1275050739,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422701-1047440",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.27010884285715,
+      "lon": -104.74402731428573,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1275060892"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1275060892,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422580-1047431",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.25797312,
+      "lon": -104.74311404,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1275744678"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1275744678,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-parking-parking-422697-1047377",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.26965088000001,
+      "lon": -104.73769864,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1275747174"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1275747174,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-422570-1047494",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.25695700000001,
+      "lon": -104.74935996000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1275422082"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1275422082,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423093-1047869",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.309269660000005,
+      "lon": -104.78687095999999,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359928569"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359928569,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423090-1047991",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.30899952,
+      "lon": -104.79908392,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359928570"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359928570,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423076-1048035",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.307590360000006,
+      "lon": -104.80354782000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359928572"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359928572,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423067-1048116",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.3066638,
+      "lon": -104.81156098000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359928573"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359928573,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423078-1048129",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.307797900000004,
+      "lon": -104.8129113,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359928574"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359928574,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423195-1047544",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.3194826,
+      "lon": -104.75437838,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967711"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967711,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423178-1047583",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.317807900000005,
+      "lon": -104.75830838000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967712"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967712,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423161-1047639",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.31611444,
+      "lon": -104.76392172000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967713"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967713,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423090-1047695",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.30902952,
+      "lon": -104.76952722000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967715"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967715,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423038-1047656",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.30384084000001,
+      "lon": -104.76564676000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967723"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967723,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423011-1047619",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.301074220000004,
+      "lon": -104.7618911,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967727"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967727,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423004-1047631",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.300350200000004,
+      "lon": -104.76309648000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967728"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967728,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-422910-1047627",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.291027140000004,
+      "lon": -104.76267582,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967753"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967753,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-422877-1047638",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.287691040000006,
+      "lon": -104.76384632000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967759"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967759,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-422875-1047737",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.28753236000001,
+      "lon": -104.77370926000003,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967781"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967781,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423039-1047720",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.30388526,
+      "lon": -104.77204176000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967805"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967805,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423203-1047831",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.32034660000001,
+      "lon": -104.78310772,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967808"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967808,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-restroom-restroom-423062-1047801",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.3062403,
+      "lon": -104.7801279,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1359967809"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1359967809,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-GUE-visitor_center-visitor-center-422952-1047631",
+      "name": "visitor center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-guernsey-listing",
+        "parkCode": "7",
+        "name": "Guernsey State Park",
+        "catalogName": "Guernsey",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 42.295181445454546,
+      "lon": -104.76307579090908,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/393217308"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 393217308,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-church-parking-436477-1082162",
+      "name": "Church Parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.647718659999995,
+      "lon": -108.21620794,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/704732161"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 704732161,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436539-1081944",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.6538814,
+      "lon": -108.19436200000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2397991733"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2397991733,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436518-1081992",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.6517883,
+      "lon": -108.19921891666668,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/231405503"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 231405503,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436523-1081981",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.6522551125,
+      "lon": -108.1980896875,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245725705"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245725705,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436497-1082005",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.64974923333334,
+      "lon": -108.20048810000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1013234858"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1013234858,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436511-1082007",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.651069060000005,
+      "lon": -108.20073208000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1013234861"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1013234861,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436564-1081981",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.65638781,
+      "lon": -108.19808958000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1013234869"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1013234869,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436437-1082227",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.643707860000006,
+      "lon": -108.22272304,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1361215660"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1361215660,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-parking-parking-436463-1082023",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.64629806000001,
+      "lon": -108.20233518,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1361438967"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1361438967,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436539-1081945",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.65391520000001,
+      "lon": -108.19450010000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2528646730"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2528646730,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436440-1082240",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.644023700000005,
+      "lon": -108.22395320000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/11780366239"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 11780366239,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436438-1082236",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.643816,
+      "lon": -108.2235897,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/11780366240"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 11780366240,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436438-1082230",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.6437578,
+      "lon": -108.22301300000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/11780366241"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 11780366241,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436441-1082245",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.6441207,
+      "lon": -108.22454320000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/11780366243"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 11780366243,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436441-1082250",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.644114900000005,
+      "lon": -108.22502600000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/11780366244"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 11780366244,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436457-1082018",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.645695800000006,
+      "lon": -108.20183820000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12603887869"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12603887869,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436465-1082022",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "table",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.646479500000005,
+      "lon": -108.20222460000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12603898557"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12603898557,
+        "tags": {
+          "leisure": "picnic_table"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-picnic_area-picnic-area-436515-1081992",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.65150564444445,
+      "lon": -108.19919167777779,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1268359880"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1268359880,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-restroom-restroom-436922-1081639",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.692200500000006,
+      "lon": -108.16389980000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/4085821025"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 4085821025,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-restroom-restroom-436520-1082000",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.6520011,
+      "lon": -108.20004054285717,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/305444749"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 305444749,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-WY-HOT-visitor_center-hot-springs-county-museum-436466-1082140",
+      "name": "Hot Springs County Museum",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "9",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-wy-hot-springs-listing",
+        "parkCode": "9",
+        "name": "Hot Springs State Park",
+        "catalogName": "Hot Springs",
+        "designation": "State Park",
+        "category": "park",
+        "state": "WY"
+      },
+      "state": "WY",
+      "lat": 43.646610685714286,
+      "lon": -108.21399327142858,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/305798515"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 305798515,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    }
+  ]
+}

@@ -14,7 +14,7 @@ import { MASTER_PATH as NPS_VC_MASTER } from "./nps-visitor-centers-lib.mjs";
 import { MASTER_PATH as PC_VC_MASTER } from "./parks-canada-visitor-centers-lib.mjs";
 import { GEO_PATH as PC_GEO_PATH } from "./parks-canada-lib.mjs";
 import { MASTER_US_PATH as STATE_PARKS_US_MASTER, MASTER_CA_PATH as STATE_PARKS_CA_MASTER, stateParkDisplayName } from "./state-parks-lib.mjs";
-import { MASTER_PATH as PARK_AMENITIES_US_MASTER } from "./park-amenities-us-lib.mjs";
+import { loadUsMasterRecords } from "./park-amenities-us-lib.mjs";
 import { MASTER_PATH as PARK_AMENITIES_CA_MASTER } from "./park-amenities-ca-lib.mjs";
 import { brandGroupLabel, brandIdToSelectId, buildBrandGroups, normalizeFuelType } from "./fuel-brand-lib.mjs";
 
@@ -206,8 +206,9 @@ function loadBenchmark() {
   }));
 }
 
-function loadParkAmenities(masterPath, filter = () => true) {
-  const master = readJson(masterPath, { records: [] });
+function loadParkAmenities(masterSource, filter = () => true) {
+  const master =
+    typeof masterSource === "string" ? readJson(masterSource, { records: [] }) : masterSource || { records: [] };
   return (master.records || []).filter(filter).map((r) => {
     const pu = r.parentUnit || {};
     const row = {
@@ -240,19 +241,19 @@ function loadParkAmenities(masterPath, filter = () => true) {
   });
 }
 
-function addParkAmenityLayers(region, masterPath) {
+function addParkAmenityLayers(region, masterSource) {
   const prefix = region === "ca" ? "amenities_ca" : "amenities";
   const group = "amenities";
-  const developed = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.campTier === "developed");
-  const backcountry = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.campTier === "backcountry");
-  const primitive = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.campTier === "primitive");
-  const picnic = loadParkAmenities(masterPath, (r) => r.kind === "picnic_area");
-  const restroom = loadParkAmenities(masterPath, (r) => r.kind === "restroom");
-  const roadCamp = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.accessMode === "road");
-  const trailCamp = loadParkAmenities(masterPath, (r) => r.kind === "campground" && r.accessMode === "trail");
+  const developed = loadParkAmenities(masterSource, (r) => r.kind === "campground" && r.campTier === "developed");
+  const backcountry = loadParkAmenities(masterSource, (r) => r.kind === "campground" && r.campTier === "backcountry");
+  const primitive = loadParkAmenities(masterSource, (r) => r.kind === "campground" && r.campTier === "primitive");
+  const picnic = loadParkAmenities(masterSource, (r) => r.kind === "picnic_area");
+  const restroom = loadParkAmenities(masterSource, (r) => r.kind === "restroom");
+  const roadCamp = loadParkAmenities(masterSource, (r) => r.kind === "campground" && r.accessMode === "road");
+  const trailCamp = loadParkAmenities(masterSource, (r) => r.kind === "campground" && r.accessMode === "trail");
   if (!developed.length && !picnic.length && !restroom.length) return;
 
-  const all = loadParkAmenities(masterPath, () => true);
+  const all = loadParkAmenities(masterSource, () => true);
   const srcPc = all.filter((r) => r.landManager === "Parks Canada");
   const srcProvArcgis = all.filter((r) => r.landManager === "Provincial" && r.ingestSource === "02-state-arcgis");
   const srcProvOsm = all.filter((r) => r.ingestSource?.includes("osm"));
@@ -562,7 +563,7 @@ if (npsVc.length) {
   });
 }
 
-addParkAmenityLayers("us", PARK_AMENITIES_US_MASTER);
+addParkAmenityLayers("us", loadUsMasterRecords());
 addParkAmenityLayers("ca", PARK_AMENITIES_CA_MASTER);
 
 const pcByCat = loadPcByCategory();

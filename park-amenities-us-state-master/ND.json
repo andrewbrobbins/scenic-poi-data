@@ -1,0 +1,6460 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:40.120Z",
+  "shard": "state",
+  "state": "ND",
+  "landManager": "State",
+  "description": "US state park amenities — ND",
+  "accessEnriched": true,
+  "recordCount": 146,
+  "byKind": {
+    "parking": 110,
+    "restroom": 23,
+    "campground": 4,
+    "visitor_center": 7,
+    "picnic_area": 2
+  },
+  "byCampTier": {
+    "developed": 4,
+    "backcountry": 0,
+    "primitive": 0
+  },
+  "byAccessMode": {
+    "road": 4,
+    "trail": 0,
+    "unknown": 0
+  },
+  "byManager": {
+    "State": 146
+  },
+  "records": [
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-475984-1014292",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "48",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-stevenson-listing",
+        "parkCode": "48",
+        "name": "Fort Stevenson State Park",
+        "catalogName": "Fort Stevenson",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.598445395000006,
+      "lon": -101.42921091500001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/168062891"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 168062891,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-restroom-restroom-475966-1014210",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "48",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-stevenson-listing",
+        "parkCode": "48",
+        "name": "Fort Stevenson State Park",
+        "catalogName": "Fort Stevenson",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.59658030000001,
+      "lon": -101.42098360000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/10713274750"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 10713274750,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-BEA-campground-developed-beaver-lake-state-park-campground-464042-996157",
+      "name": "Beaver Lake State Park Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "49",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-beaver-lake-listing",
+        "parkCode": "49",
+        "name": "Beaver Lake State Park",
+        "catalogName": "Beaver Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.404173400000005,
+      "lon": -99.61565477,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/265065020"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 265065020,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-BEA-campground-developed-beaver-lake-state-park-campground-464066-996165",
+      "name": "Beaver Lake State Park Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "49",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-beaver-lake-listing",
+        "parkCode": "49",
+        "name": "Beaver Lake State Park",
+        "catalogName": "Beaver Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.40662438529412,
+      "lon": -99.61651627647059,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/311568097"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 311568097,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-campground-developed-fort-abraham-lincoln-state-park-campground-467664-1008437",
+      "name": "Fort Abraham Lincoln State Park Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.76638839615385,
+      "lon": -100.84365305384611,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/265332218"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 265332218,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467572-1008472",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.757222000000006,
+      "lon": -100.84721150000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2941326302"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2941326302,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467515-1008511",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.751499422222224,
+      "lon": -100.85113764444445,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/61698706"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 61698706,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467693-1008553",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.769320230000005,
+      "lon": -100.85526436,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/265317902"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 265317902,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467886-1008153",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.78855266875,
+      "lon": -100.81529486250002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/303808440"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 303808440,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467508-1007935",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.75077158571429,
+      "lon": -100.79345154285714,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/846270703"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 846270703,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467452-1007937",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.745171437500005,
+      "lon": -100.79365443750001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/849613465"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 849613465,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467450-1007922",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.74504526666667,
+      "lon": -100.79219522222223,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/849613468"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 849613468,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467445-1007896",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.744467525,
+      "lon": -100.78963543750001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/849613469"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 849613469,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467443-1007873",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.744285680000004,
+      "lon": -100.78729192,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/849613484"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 849613484,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467466-1007875",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.74658392857143,
+      "lon": -100.78751397142857,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/849614482"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 849614482,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467836-1008148",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.78359322727274,
+      "lon": -100.8148239909091,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/851551562"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 851551562,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467794-1008153",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77938770000001,
+      "lon": -100.8153389,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/854036714"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 854036714,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467734-1008055",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.773438580000004,
+      "lon": -100.8054539,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/854040154"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 854040154,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467599-1008014",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.75985878000001,
+      "lon": -100.80139900000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/854246830"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 854246830,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467625-1007957",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.762532171428575,
+      "lon": -100.79574254285716,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/855509076"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 855509076,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467741-1007941",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.774056538461544,
+      "lon": -100.7941267,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/855539413"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 855539413,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467749-1007933",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77493100909091,
+      "lon": -100.79325112727274,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/855539425"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 855539425,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467744-1007919",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.774409666666664,
+      "lon": -100.79194765,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/855539440"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 855539440,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467758-1008266",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77578350000001,
+      "lon": -100.82657838333334,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/855542593"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 855542593,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467748-1008279",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.774770322222224,
+      "lon": -100.82794903333335,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/855542594"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 855542594,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467809-1007984",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.7808792,
+      "lon": -100.79843262,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/857854652"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 857854652,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467728-1007969",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77277758571429,
+      "lon": -100.79688727142857,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/863040752"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 863040752,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467719-1007960",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77193997500001,
+      "lon": -100.79599438333332,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/863040761"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 863040761,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467722-1007980",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77223826666667,
+      "lon": -100.79801802222224,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/863040779"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 863040779,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467728-1007958",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77279010000001,
+      "lon": -100.79578404000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/863040804"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 863040804,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467701-1007966",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77009304285714,
+      "lon": -100.79658304285715,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/863107504"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 863107504,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467728-1007993",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.77277276363637,
+      "lon": -100.79933131818183,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/863113578"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 863113578,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-468030-1008291",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.80303844615385,
+      "lon": -100.8291134769231,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/936285939"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 936285939,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-468016-1008285",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.80160778444444,
+      "lon": -100.82853056222226,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/936285948"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 936285948,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467838-1007934",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.78377502500001,
+      "lon": -100.7934454916667,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1088967931"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1088967931,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-468024-1008381",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.80242078,
+      "lon": -100.83808070000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1111778862"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1111778862,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467629-1008433",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.7629181,
+      "lon": -100.84334628000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1153617222"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1153617222,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467671-1008990",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.76705622000001,
+      "lon": -100.8990213,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1208796429"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1208796429,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467540-1008226",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.75396651000001,
+      "lon": -100.82259516,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1210435052"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1210435052,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467685-1007955",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.76850218,
+      "lon": -100.79546432000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1313465582"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1313465582,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467656-1008461",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.76555800909091,
+      "lon": -100.84611825454546,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1393164806"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1393164806,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467997-1008406",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.799693877777784,
+      "lon": -100.84061745555557,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1460206797"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1460206797,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-468029-1008392",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.802898077777776,
+      "lon": -100.83916226666669,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1460206822"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1460206822,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-467878-1007957",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.787778546666665,
+      "lon": -100.79571524666667,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1509646067"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1509646067,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-restroom-restroom-467465-1007874",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "50",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-abraham-lincoln-listing",
+        "parkCode": "50",
+        "name": "Fort Abraham Lincoln State Park",
+        "catalogName": "Fort Abraham Lincoln",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.74648444,
+      "lon": -100.78741620000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/849614481"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 849614481,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465440-979312",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.544001,
+      "lon": -97.931154,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/77410870"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 77410870,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465232-979337",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.52323556000001,
+      "lon": -97.93367210000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/497194845"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 497194845,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465325-979361",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.532454035714295,
+      "lon": -97.9360702357143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/497195285"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 497195285,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465454-979343",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.545386040000004,
+      "lon": -97.93425334,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/582399459"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 582399459,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465475-979320",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.54746126666668,
+      "lon": -97.93200855000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/582399460"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 582399460,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465474-979303",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.54737133333333,
+      "lon": -97.93025803333335,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/582399461"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 582399461,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465435-979300",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.54349832857144,
+      "lon": -97.93003452857145,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/582399465"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 582399465,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465462-979312",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.5461904857143,
+      "lon": -97.93123918571429,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/582399466"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 582399466,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465506-979325",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.55058977,
+      "lon": -97.9325462,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/628468379"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 628468379,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465424-979359",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.542407020000006,
+      "lon": -97.93589706000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1244067192"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1244067192,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-parking-parking-465204-979303",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.52039334,
+      "lon": -97.93030558000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1524712174"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1524712174,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-restroom-restroom-465451-979342",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.54509308,
+      "lon": -97.93417594000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/497194878"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 497194878,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-FOR-visitor_center-fort-ransom-visitor-center-465473-979317",
+      "name": "Fort Ransom Visitor Center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "51",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-fort-ransom-listing",
+        "parkCode": "51",
+        "name": "Fort Ransom State Park",
+        "catalogName": "Fort Ransom",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.547297560000004,
+      "lon": -97.93165468000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1244058444"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1244058444,
+        "tags": {
+          "amenity": "ranger_station"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-GRA-parking-parking-480416-990544",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "52",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-grahams-island-listing",
+        "parkCode": "52",
+        "name": "Grahams Island State Park",
+        "catalogName": "Grahams Island",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.04163788,
+      "lon": -99.05437412,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/813928222"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 813928222,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ICE-parking-parking-487738-977405",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "53",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-icelandic-listing",
+        "parkCode": "53",
+        "name": "Icelandic State Park",
+        "catalogName": "Icelandic",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.77379719333333,
+      "lon": -97.74053746666665,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/627477784"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 627477784,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ICE-parking-parking-487801-977581",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "53",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-icelandic-listing",
+        "parkCode": "53",
+        "name": "Icelandic State Park",
+        "catalogName": "Icelandic",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.78007996,
+      "lon": -97.75813736,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/627488402"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 627488402,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-parking-parking-489696-1003622",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "54",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-metigoshe-listing",
+        "parkCode": "54",
+        "name": "Lake Metigoshe State Park",
+        "catalogName": "Lake Metigoshe",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.96961635,
+      "lon": -100.36218446666668,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/504412848"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 504412848,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-parking-parking-489862-1003365",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "54",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-metigoshe-listing",
+        "parkCode": "54",
+        "name": "Lake Metigoshe State Park",
+        "catalogName": "Lake Metigoshe",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.98624092,
+      "lon": -100.33653372,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1054530738"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1054530738,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-parking-parking-489834-1003400",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "54",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-metigoshe-listing",
+        "parkCode": "54",
+        "name": "Lake Metigoshe State Park",
+        "catalogName": "Lake Metigoshe",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.98339748571429,
+      "lon": -100.34003340000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1054530739"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1054530739,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-restroom-restroom-489849-1003337",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "54",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-metigoshe-listing",
+        "parkCode": "54",
+        "name": "Lake Metigoshe State Park",
+        "catalogName": "Lake Metigoshe",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.9849302,
+      "lon": -100.33371170000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/9690586739"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 9690586739,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-restroom-restroom-489866-1003367",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "54",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-metigoshe-listing",
+        "parkCode": "54",
+        "name": "Lake Metigoshe State Park",
+        "catalogName": "Lake Metigoshe",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.98658132,
+      "lon": -100.33671910000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1054530740"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1054530740,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-restroom-restroom-489701-1003636",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "54",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-metigoshe-listing",
+        "parkCode": "54",
+        "name": "Lake Metigoshe State Park",
+        "catalogName": "Lake Metigoshe",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.97006606000001,
+      "lon": -100.36364418000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1148073577"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1148073577,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LEW-parking-parking-481281-1032253",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "55",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lewis-and-clark-listing",
+        "parkCode": "55",
+        "name": "Lewis and Clark State Park",
+        "catalogName": "Lewis and Clark",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.12813482,
+      "lon": -103.2252857,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1083290591"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1083290591,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LEW-parking-parking-481258-1032330",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "55",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lewis-and-clark-listing",
+        "parkCode": "55",
+        "name": "Lewis and Clark State Park",
+        "catalogName": "Lewis and Clark",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.125807420000015,
+      "lon": -103.23300486000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1466585870"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1466585870,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LEW-parking-parking-481252-1032321",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "55",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lewis-and-clark-listing",
+        "parkCode": "55",
+        "name": "Lewis and Clark State Park",
+        "catalogName": "Lewis and Clark",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.12524875000001,
+      "lon": -103.23214609000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1466585877"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1466585877,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LEW-restroom-restroom-481295-1032275",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "55",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lewis-and-clark-listing",
+        "parkCode": "55",
+        "name": "Lewis and Clark State Park",
+        "catalogName": "Lewis and Clark",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 48.12949528,
+      "lon": -103.22751004,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1083290593"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1083290593,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-campground-developed-rough-rider-state-park-campground-468934-1035382",
+      "name": "Rough Rider State Park Campground",
+      "kind": "campground",
+      "subtype": "developed",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.8933782,
+      "lon": -103.5382206,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "road",
+      "accessConfidence": "inferred",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/7647974830"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 7647974830,
+        "tags": {
+          "tourism": "camp_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29",
+      "campTier": "developed"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469165-1035253",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.916548828571436,
+      "lon": -103.52530124285715,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/60510376"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 60510376,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469327-1035522",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.932725520000005,
+      "lon": -103.55222848000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/60510419"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 60510419,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469189-1035323",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.918945445454554,
+      "lon": -103.53228064545456,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245749970"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245749970,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469131-1035218",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9130704625,
+      "lon": -103.521831175,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245749980"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245749980,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469130-1035206",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91303406000001,
+      "lon": -103.52061468,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245749991"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245749991,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469123-1035215",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.912349819999996,
+      "lon": -103.52149392000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245749993"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245749993,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469122-1035231",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91224116000001,
+      "lon": -103.52308554000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245750906"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245750906,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469117-1035222",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91171730000001,
+      "lon": -103.52217104000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245750907"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245750907,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469152-1035227",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.915209733333334,
+      "lon": -103.52265768333336,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245865555"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245865555,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469140-1035270",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.913954234782615,
+      "lon": -103.52696595217392,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245865581"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245865581,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469135-1035260",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91350802222224,
+      "lon": -103.52599715555554,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245865586"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245865586,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469130-1035248",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9129791923077,
+      "lon": -103.52478807692309,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245865597"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245865597,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469151-1035256",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.915146750000005,
+      "lon": -103.5256096125,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245871846"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245871846,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-468732-1035300",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.873188750000004,
+      "lon": -103.52997420000003,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245874308"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245874308,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469135-1035229",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91351414444444,
+      "lon": -103.52285911111112,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/249759939"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 249759939,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469108-1035229",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9107513857143,
+      "lon": -103.52290209523811,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/256508460"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 256508460,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469103-1035260",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91030492857143,
+      "lon": -103.52600762857143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/256508461"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 256508461,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469153-1035340",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91530223571427,
+      "lon": -103.53404092857144,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/256524593"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 256524593,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469135-1035355",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9135153147059,
+      "lon": -103.5354631147059,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/256524594"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 256524594,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469181-1035341",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91808961428571,
+      "lon": -103.5340861,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/364832914"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 364832914,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469103-1035274",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91031136428571,
+      "lon": -103.52739112857145,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556908261"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556908261,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469110-1035264",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91100391818182,
+      "lon": -103.52638731818183,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556908268"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556908268,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469074-1035271",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.907383947058825,
+      "lon": -103.5271005411765,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556910332"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556910332,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469214-1035379",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.92138021666668,
+      "lon": -103.53788608333333,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556913063"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556913063,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469219-1035310",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.92191376,
+      "lon": -103.53101556000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556914164"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556914164,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469161-1035292",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91605394,
+      "lon": -103.52922706,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556916834"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556916834,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469084-1035272",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.908418868421066,
+      "lon": -103.52723692631581,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/840331099"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 840331099,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469096-1035272",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.90956122000001,
+      "lon": -103.52718606,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/840331100"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 840331100,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469088-1035256",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.90884110000001,
+      "lon": -103.52559786000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/840331102"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 840331102,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469150-1035429",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91502664,
+      "lon": -103.54291411000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/897594052"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 897594052,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469125-1035405",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91248034166667,
+      "lon": -103.54047061666667,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/898006762"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 898006762,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469106-1035138",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91055589090909,
+      "lon": -103.51375014545457,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/978147867"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 978147867,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469352-1035311",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.935179205882356,
+      "lon": -103.53110020000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1290864199"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1290864199,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-parking-parking-469194-1035261",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91941743,
+      "lon": -103.52613608000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1340400539"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1340400539,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-picnic_area-picnic-area-469192-1035330",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9192369,
+      "lon": -103.53303460000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2528856642"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2528856642,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-picnic_area-picnic-area-469190-1035328",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.919035400000006,
+      "lon": -103.5328424,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2528856644"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2528856644,
+        "tags": {
+          "tourism": "picnic_site"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469144-1035250",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9143832,
+      "lon": -103.52498010000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/2528856724"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 2528856724,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469138-1035209",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91383806,
+      "lon": -103.52090552000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245747064"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245747064,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469223-1035318",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.922321440000005,
+      "lon": -103.53179098000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556916678"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556916678,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469233-1035339",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.923326380000006,
+      "lon": -103.5339248,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556916679"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556916679,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469173-1035287",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.917272080000004,
+      "lon": -103.52870788,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/556916836"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 556916836,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-468927-1035381",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.89273062000001,
+      "lon": -103.53814544,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/815086840"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 815086840,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-468902-1035372",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.89020066,
+      "lon": -103.53724998000003,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/815086843"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 815086843,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-468937-1035384",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.89372010000001,
+      "lon": -103.53835338000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/815086844"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 815086844,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469150-1035445",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91496362,
+      "lon": -103.54453794000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/898006749"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 898006749,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-restroom-restroom-469145-1035449",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91446638000001,
+      "lon": -103.54486028000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/898006750"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 898006750,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-visitor_center-billings-county-courthouse-museum-469131-1035227",
+      "name": "Billings County Courthouse Museum",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91305760000001,
+      "lon": -103.52272554615386,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/246058521"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 246058521,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-visitor_center-harold-schafer-heritage-center-469144-1035227",
+      "name": "Harold Schafer Heritage Center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91440095714286,
+      "lon": -103.52268801428572,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245747066"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245747066,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-visitor_center-north-dakota-cowboy-hall-of-fame-469149-1035264",
+      "name": "North Dakota Cowboy Hall of Fame",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.914931960000004,
+      "lon": -103.52636544000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245747072"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245747072,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-visitor_center-theodore-roosevelt-national-park-visitor-s-cente-469165-1035263",
+      "name": "Theodore Roosevelt National Park Visitor's Center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.91647350000001,
+      "lon": -103.52626052857146,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/246058513"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 246058513,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-ROU-visitor_center-von-hoffman-house-469140-1035218",
+      "name": "Von Hoffman House",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "57",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-rough-rider-listing",
+        "parkCode": "57",
+        "name": "Rough Rider State Park",
+        "catalogName": "Rough Rider",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 46.9140145,
+      "lon": -103.52176486,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/245747079"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 245747079,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479382-975058",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.9381864,
+      "lon": -97.50579599333335,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183057553"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183057553,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479391-974949",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.9391178125,
+      "lon": -97.49491036250001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183062410"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183062410,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479429-974996",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.942927166666664,
+      "lon": -97.49963034000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183177546"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183177546,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479374-975007",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.937391818518535,
+      "lon": -97.5007026148148,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183182527"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183182527,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479375-974968",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.93748542142857,
+      "lon": -97.49677655,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183190910"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183190910,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479363-974976",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.93631922,
+      "lon": -97.49755683000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183190914"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183190914,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479385-974966",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.93849616250001,
+      "lon": -97.496562525,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183190915"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183190915,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479395-974922",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.93953076060607,
+      "lon": -97.49224886363638,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183190924"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183190924,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479384-975023",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.93837822000001,
+      "lon": -97.50229947,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183190926"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183190926,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-parking-parking-479448-974994",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.94481202000001,
+      "lon": -97.49942328000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/307066323"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 307066323,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-restroom-chalet-479376-974970",
+      "name": "Chalet",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.937644660000004,
+      "lon": -97.49697102,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/183190925"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 183190925,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-restroom-restroom-479390-974951",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.939044100000004,
+      "lon": -97.49513850000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/1936240968"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 1936240968,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-restroom-restroom-479383-975050",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.938278600000004,
+      "lon": -97.5050305,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/1936240975"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 1936240975,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-restroom-restroom-479434-975011",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.943386000000004,
+      "lon": -97.50112790000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3121173014"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3121173014,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-TUR-restroom-restroom-479402-974983",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "58",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-turtle-river-listing",
+        "parkCode": "58",
+        "name": "Turtle River State Park",
+        "catalogName": "Turtle River",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.94020630000001,
+      "lon": -97.49834430000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/3121353240"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 3121353240,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-parking-parking-475302-1014561",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "59",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-sakakawea-listing",
+        "parkCode": "59",
+        "name": "Lake Sakakawea State Park",
+        "catalogName": "Lake Sakakawea",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.53015698,
+      "lon": -101.45613958000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/934997373"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 934997373,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-parking-parking-475304-1014548",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "59",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-sakakawea-listing",
+        "parkCode": "59",
+        "name": "Lake Sakakawea State Park",
+        "catalogName": "Lake Sakakawea",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.53042434285714,
+      "lon": -101.45475971428573,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/934997374"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 934997374,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-LAK-restroom-restroom-474805-1014295",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "59",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-lake-sakakawea-listing",
+        "parkCode": "59",
+        "name": "Lake Sakakawea State Park",
+        "catalogName": "Lake Sakakawea",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.48053254,
+      "lon": -101.42954176,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1472018126"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1472018126,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-CRO-parking-parking-472124-1009974",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "68",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-cross-ranch-listing",
+        "parkCode": "68",
+        "name": "Cross Ranch State Park",
+        "catalogName": "Cross Ranch",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.21239800000001,
+      "lon": -100.99742571666667,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1525219910"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1525219910,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-CRO-parking-parking-472133-1009998",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "68",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-cross-ranch-listing",
+        "parkCode": "68",
+        "name": "Cross Ranch State Park",
+        "catalogName": "Cross Ranch",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.213326071428575,
+      "lon": -100.9997693857143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1525219911"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1525219911,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-CRO-parking-parking-472149-1009948",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "68",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-cross-ranch-listing",
+        "parkCode": "68",
+        "name": "Cross Ranch State Park",
+        "catalogName": "Cross Ranch",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.21488971111111,
+      "lon": -100.99475402222224,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1525248504"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1525248504,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-CRO-parking-parking-472196-1009911",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "68",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-cross-ranch-listing",
+        "parkCode": "68",
+        "name": "Cross Ranch State Park",
+        "catalogName": "Cross Ranch",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.219630460000005,
+      "lon": -100.9911052,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1525248513"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1525248513,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-ND-CRO-visitor_center-visitor-center-472137-1009994",
+      "name": "visitor center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "68",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-nd-cross-ranch-listing",
+        "parkCode": "68",
+        "name": "Cross Ranch State Park",
+        "catalogName": "Cross Ranch",
+        "designation": "State Park",
+        "category": "park",
+        "state": "ND"
+      },
+      "state": "ND",
+      "lat": 47.21371955384617,
+      "lon": -100.99943528461542,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1525219912"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1525219912,
+        "tags": {
+          "tourism": "information"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    }
+  ]
+}

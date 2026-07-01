@@ -5,12 +5,12 @@ import path from "path";
 import {
   AMENITY_KINDS,
   INGEST_DIR,
-  MASTER_PATH,
   QA_PATH,
   addReview,
   dedupeAmenityRecords,
   readJson,
   writeJson,
+  writeUsMasterShards,
   NPS_GEO_PATH,
 } from "./park-amenities-us-lib.mjs";
 import { readJson as readStateParks } from "./state-parks-lib.mjs";
@@ -138,25 +138,18 @@ export async function buildMaster() {
       a.name.localeCompare(b.name)
   );
 
-  const out = {
-    schemaVersion: 2,
-    generated: new Date().toISOString(),
+  const manifest = writeUsMasterShards(master, {
     description:
       "US park amenities: NPS + state parks — campgrounds (developed/backcountry/primitive), picnic, restroom; road/trail access on campgrounds.",
-    recordCount: master.length,
-    byKind: qa.byKind,
-    byCampTier: qa.byCampTier,
-    byAccessMode: qa.byAccessMode,
-    records: master,
-  };
-
-  writeJson(MASTER_PATH, out);
+  });
   writeJson(QA_PATH, qa);
 
   console.log("US master:", master.length, "| tiers:", qa.byCampTier, "| access:", qa.byAccessMode);
+  console.log("  NPS shard:", manifest.shards.nps.recordCount);
+  console.log("  State shards:", Object.keys(manifest.shards.state).length, "states");
   console.log("  NPS units w/ amenities:", coverage.npsUnitsWithAnyAmenity);
   console.log("  State parks w/ amenities:", coverage.stateParksWithAnyAmenity);
-  return out;
+  return { ...manifest, records: master };
 }
 
 if (process.argv[1]?.endsWith("build-park-amenities-us-master.mjs")) {

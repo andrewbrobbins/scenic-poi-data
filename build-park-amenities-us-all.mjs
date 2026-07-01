@@ -14,7 +14,7 @@ import { ingestStateArcgis } from "./build-park-amenities-ingest-state-arcgis.mj
 import { ingestStateOsmPbf } from "./build-park-amenities-ingest-state-osm.mjs";
 import { buildMaster } from "./build-park-amenities-us-master.mjs";
 import { buildRollup } from "./build-park-amenities-rollup.mjs";
-import { readJson, QA_PATH, MASTER_PATH } from "./park-amenities-us-lib.mjs";
+import { readJson, QA_PATH, MANIFEST_PATH, loadUsMasterRecords } from "./park-amenities-us-lib.mjs";
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
 const extraArgs = process.argv.slice(2).filter((a) => a.startsWith("--"));
@@ -33,12 +33,12 @@ async function main() {
   execSync("node validate-park-amenities-us.mjs", { cwd: tools, stdio: "inherit" });
 
   const qa = readJson(QA_PATH, {});
-  const master = readJson(MASTER_PATH, {});
+  const manifest = readJson(MANIFEST_PATH, loadUsMasterRecords());
   console.log(
     "US park amenities done.",
-    master.recordCount,
+    manifest.recordCount,
     "records | access",
-    JSON.stringify(master.byAccessMode || qa.byAccessMode || {})
+    JSON.stringify(manifest.byAccessMode || qa.byAccessMode || {})
   );
 }
 

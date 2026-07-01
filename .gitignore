@@ -15,6 +15,9 @@ osm-pbf/
 parks-canada-arcgis-cache.json
 poi-explorer-data/
 
+# Legacy monolithic US park amenities master (replaced by sharded outputs)
+park-amenities-us-master.json
+
 # Logs and backups
 *.log
 *.pre-filter-backup.jsondesktop.ini

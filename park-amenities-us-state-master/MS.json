@@ -1,0 +1,1926 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:40.110Z",
+  "shard": "state",
+  "state": "MS",
+  "landManager": "State",
+  "description": "US state park amenities — MS",
+  "accessEnriched": true,
+  "recordCount": 43,
+  "byKind": {
+    "restroom": 2,
+    "visitor_center": 1,
+    "picnic_area": 3,
+    "parking": 37
+  },
+  "byCampTier": {
+    "developed": 0,
+    "backcountry": 0,
+    "primitive": 0
+  },
+  "byAccessMode": {
+    "road": 0,
+    "trail": 0,
+    "unknown": 0
+  },
+  "byManager": {
+    "State": 43
+  },
+  "records": [
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-TOM-restroom-restroom-342316-886212",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "13",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-tombigbee-listing",
+        "parkCode": "13",
+        "name": "Tombigbee State Park",
+        "catalogName": "Tombigbee",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 34.2315943,
+      "lon": -88.62120040000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/674436805"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 674436805,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-TOM-visitor_center-visitor-center-342307-886261",
+      "name": "visitor center",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "13",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-tombigbee-listing",
+        "parkCode": "13",
+        "name": "Tombigbee State Park",
+        "catalogName": "Tombigbee",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 34.23070712,
+      "lon": -88.62611666000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/674436798"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 674436798,
+        "tags": {
+          "amenity": "ranger_station"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-CLA-picnic_area-picnic-area-321019-886966",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-clarkco-listing",
+        "parkCode": "3",
+        "name": "Clarkco State Park",
+        "catalogName": "Clarkco",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 32.10186824,
+      "lon": -88.69663829999999,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/637324901"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 637324901,
+        "tags": {
+          "tourism": "picnic_site",
+          "amenity": "shelter"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-CLA-picnic_area-picnic-area-321015-886973",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-clarkco-listing",
+        "parkCode": "3",
+        "name": "Clarkco State Park",
+        "catalogName": "Clarkco",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 32.10146416,
+      "lon": -88.69732418000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/637324902"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 637324902,
+        "tags": {
+          "tourism": "picnic_site",
+          "amenity": "shelter"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-CLA-picnic_area-picnic-area-321030-886962",
+      "name": "picnic area",
+      "kind": "picnic_area",
+      "subtype": "picnic_area",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "3",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-clarkco-listing",
+        "parkCode": "3",
+        "name": "Clarkco State Park",
+        "catalogName": "Clarkco",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 32.10295023333333,
+      "lon": -88.69618582222222,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/637324903"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 637324903,
+        "tags": {
+          "tourism": "picnic_site",
+          "amenity": "shelter"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303933-886552",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.393333370588238,
+      "lon": -88.65521208823532,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/25570637"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 25570637,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303942-886580",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.39415020833334,
+      "lon": -88.65803390833334,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/25570648"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 25570648,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303956-886553",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.395585188888894,
+      "lon": -88.65527528333334,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/25570654"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 25570654,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303946-886441",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.394587169230768,
+      "lon": -88.64409796923078,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31291271"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31291271,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303964-886432",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.396362876744192,
+      "lon": -88.64316982093023,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31291272"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31291272,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303974-886450",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.397395322727267,
+      "lon": -88.64496455227273,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31291273"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31291273,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303960-886463",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.39601284347826,
+      "lon": -88.64628941739129,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31291274"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31291274,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303933-886448",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.393317444444442,
+      "lon": -88.64475507777779,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31291276"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31291276,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303937-886478",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.393669761538465,
+      "lon": -88.64775508076923,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31292868"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31292868,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303935-886501",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.393496080000006,
+      "lon": -88.65007212000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31292871"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31292871,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303924-886460",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.39235385,
+      "lon": -88.6460241375,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31292874"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31292874,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303928-886441",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.392842756250005,
+      "lon": -88.64408914375001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31304209"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31304209,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303908-886502",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.390815300000007,
+      "lon": -88.65015511,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/31304213"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 31304213,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303997-886457",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.3996929,
+      "lon": -88.64565660000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/77521510"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 77521510,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-304076-886614",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.407601120000002,
+      "lon": -88.66135840000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/141294927"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 141294927,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303948-886612",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.39477964117647,
+      "lon": -88.66124290000003,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/291477888"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 291477888,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303877-886231",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.387728638888884,
+      "lon": -88.62305399444445,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1021815137"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1021815137,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-parking-parking-303873-886222",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.38730826363636,
+      "lon": -88.62221141818183,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1021815144"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1021815144,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-SHE-restroom-restroom-303755-886306",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "33",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-shepard-listing",
+        "parkCode": "33",
+        "name": "Shepard State Park",
+        "catalogName": "Shepard",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 30.375500020000004,
+      "lon": -88.63058734,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/140794818"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 140794818,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331239-890370",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.123936310000005,
+      "lon": -89.03696406,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510315"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510315,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331233-890362",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.1232962625,
+      "lon": -89.03615035,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510318"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510318,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331235-890377",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12353808,
+      "lon": -89.03774104000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510325"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510325,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331220-890372",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12201557142858,
+      "lon": -89.03721445714287,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510326"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510326,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331225-890365",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12251851111111,
+      "lon": -89.0364952888889,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510327"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510327,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331221-890349",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12214354000001,
+      "lon": -89.03485680000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510330"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510330,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331242-890350",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.1241631625,
+      "lon": -89.03498270000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409510333"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409510333,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331215-890416",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.121510240000006,
+      "lon": -89.04161692000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1409548755"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1409548755,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331232-890543",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.123208500000004,
+      "lon": -89.05430432,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1450817028"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1450817028,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331229-890533",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12288866666667,
+      "lon": -89.05334293333334,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1450817041"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1450817041,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331242-890544",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.124175359999995,
+      "lon": -89.05440200000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1451502284"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1451502284,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331226-890556",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.122600469230775,
+      "lon": -89.05556761538462,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1451502300"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1451502300,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331234-890557",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.123405000000005,
+      "lon": -89.05568686000001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1451502311"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1451502311,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331241-890534",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12414836000001,
+      "lon": -89.05336802000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1451831924"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1451831924,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331211-890533",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.121076540000004,
+      "lon": -89.05334664000002,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1452235342"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1452235342,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331255-890537",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.1254542,
+      "lon": -89.05368669,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1452235348"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1452235348,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331254-890546",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12539335555555,
+      "lon": -89.05455437777779,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1452235358"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1452235358,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331248-890551",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.124809385714286,
+      "lon": -89.05509361428572,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1452235371"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1452235371,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-MS-LEG-parking-parking-331219-890541",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "40",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ms-legion-lake-listing",
+        "parkCode": "40",
+        "name": "Legion Lake State Park",
+        "catalogName": "Legion Lake",
+        "designation": "State Park",
+        "category": "park",
+        "state": "MS"
+      },
+      "state": "MS",
+      "lat": 33.12186469444444,
+      "lon": -89.05410191666667,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1452235384"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1452235384,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    }
+  ]
+}

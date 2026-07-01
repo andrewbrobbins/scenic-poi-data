@@ -2,7 +2,7 @@
  * Explorer embed for US park amenities.
  */
 import fs from "fs";
-import { EMBED_PATH, MASTER_PATH } from "./park-amenities-us-lib.mjs";
+import { EMBED_PATH, loadUsMasterRecords } from "./park-amenities-us-lib.mjs";
 
 function toEmbedRow(r) {
   const pu = r.parentUnit || {};
@@ -33,7 +33,7 @@ function toEmbedRow(r) {
   return row;
 }
 
-const master = JSON.parse(fs.readFileSync(MASTER_PATH, "utf8"));
+const master = loadUsMasterRecords();
 const records = (master.records || []).map(toEmbedRow);
 
 const byKind = {};

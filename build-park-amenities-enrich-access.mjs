@@ -8,10 +8,11 @@
 import path from "path";
 import { fileURLToPath } from "url";
 import {
-  MASTER_PATH as US_MASTER,
+  loadUsMasterRecords,
   QA_PATH as US_QA,
   readJson,
   writeJson,
+  writeUsMasterShards,
 } from "./park-amenities-us-lib.mjs";
 import {
   MASTER_PATH as CA_MASTER,
@@ -32,10 +33,16 @@ function parseStatesArg() {
 }
 
 async function enrichRegion(region) {
-  const masterPath = region === "ca" ? CA_MASTER : US_MASTER;
   const qaPath = region === "ca" ? CA_QA : US_QA;
-  const master = readJson(masterPath, { records: [] });
-  const records = master.records || [];
+  let master;
+  let records;
+  if (region === "ca") {
+    master = readJson(CA_MASTER, { records: [] });
+    records = master.records || [];
+  } else {
+    master = loadUsMasterRecords();
+    records = master.records || [];
+  }
 
   const campgroundStates = new Set();
   for (const r of records) {
@@ -51,11 +58,15 @@ async function enrichRegion(region) {
   }
 
   const stats = enrichAccessOnRecords(records);
-  master.generated = new Date().toISOString();
-  master.accessEnriched = true;
-  master.byAccessMode = stats.byAccess;
-  master.records = records;
-  writeJson(masterPath, master);
+  if (region === "ca") {
+    master.generated = new Date().toISOString();
+    master.accessEnriched = true;
+    master.byAccessMode = stats.byAccess;
+    master.records = records;
+    writeJson(CA_MASTER, master);
+  } else {
+    writeUsMasterShards(records, { accessEnriched: true });
+  }
 
   const qa = readJson(qaPath, {});
   qa.accessEnrichment = stats;

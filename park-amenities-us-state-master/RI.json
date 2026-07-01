@@ -1,0 +1,1042 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:40.191Z",
+  "shard": "state",
+  "state": "RI",
+  "landManager": "State",
+  "description": "US state park amenities — RI",
+  "accessEnriched": true,
+  "recordCount": 23,
+  "byKind": {
+    "parking": 20,
+    "restroom": 1,
+    "visitor_center": 2
+  },
+  "byCampTier": {
+    "developed": 0,
+    "backcountry": 0,
+    "primitive": 0
+  },
+  "byAccessMode": {
+    "road": 0,
+    "trail": 0,
+    "unknown": 0
+  },
+  "byManager": {
+    "State": 23
+  },
+  "records": [
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-lighthouse-parking-411544-715531",
+      "name": "Lighthouse Parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.1543816125,
+      "lon": -71.55305380624999,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1015249406"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1015249406,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-lighthouse-parking-411537-715525",
+      "name": "Lighthouse Parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.153653383333335,
+      "lon": -71.55245317500001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1015249410"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1015249410,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411522-715588",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.15223530000001,
+      "lon": -71.55882848333334,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/422263560"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 422263560,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411742-715621",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17423411111111,
+      "lon": -71.56207971111112,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/555526336"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 555526336,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411743-715631",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17428142857143,
+      "lon": -71.5630665,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/555526345"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 555526345,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411697-715802",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.16969525714286,
+      "lon": -71.58021868571429,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/564789088"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 564789088,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411639-715608",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.16387384545455,
+      "lon": -71.56079690909091,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/979562565"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 979562565,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411530-715551",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.15304635714286,
+      "lon": -71.55512107857143,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1015249401"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1015249401,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411677-715554",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.1677122625,
+      "lon": -71.55542275,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1086063401"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1086063401,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411720-715573",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17199816,
+      "lon": -71.5572786,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1086106505"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1086106505,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411833-715671",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.18334668333333,
+      "lon": -71.56712633333335,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1086106508"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1086106508,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411759-715626",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17591794285715,
+      "lon": -71.56261638571428,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1086106510"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1086106510,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411821-715667",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.18214688000001,
+      "lon": -71.56665828,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1086106511"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1086106511,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411736-715606",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17361442222223,
+      "lon": -71.56057824444446,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1122964158"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1122964158,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411736-715593",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17363407142857,
+      "lon": -71.55928024285716,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1122964159"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1122964159,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411716-715638",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17164941875,
+      "lon": -71.5637873125,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1122964161"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1122964161,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411783-715705",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17825886875,
+      "lon": -71.57046108750001,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1124789925"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1124789925,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411731-715582",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17314961666667,
+      "lon": -71.55823061666668,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1309489608"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1309489608,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411727-715568",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17269045,
+      "lon": -71.55677019285716,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1428393006"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1428393006,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-parking-parking-411760-715707",
+      "name": "parking",
+      "kind": "parking",
+      "subtype": "parking",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17603123846153,
+      "lon": -71.57065616153847,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/1511089494"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 1511089494,
+        "tags": {
+          "amenity": "parking"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-restroom-restroom-411727-715575",
+      "name": "restroom",
+      "kind": "restroom",
+      "subtype": "restroom",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.172686500000005,
+      "lon": -71.5574861,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/12125533502"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 12125533502,
+        "tags": {
+          "amenity": "toilets"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-visitor_center-block-island-historical-society-museum-411736-715623",
+      "name": "Block Island Historical Society Museum",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.17361030000001,
+      "lon": -71.5622556,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/node/366691025"
+      },
+      "sourceIds": {
+        "osmType": "node",
+        "osmId": 366691025,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    },
+    {
+      "id": "AMEN-SP-OSM-SP-US-RI-PHE-visitor_center-southeast-lighthouse-411535-715521",
+      "name": "Southeast Lighthouse",
+      "kind": "visitor_center",
+      "subtype": "visitor_center",
+      "country": "US",
+      "landManager": "State",
+      "parkCode": "7015",
+      "parentUnit": {
+        "system": "state_park_us",
+        "id": "sp-us-ri-phelan-listing",
+        "parkCode": "7015",
+        "name": "Phelan State Park",
+        "catalogName": "Phelan",
+        "designation": "State Park",
+        "category": "park",
+        "state": "RI"
+      },
+      "state": "RI",
+      "lat": 41.153487175,
+      "lon": -71.55213445,
+      "coordSource": "osm-pbf",
+      "coordConfidence": "medium",
+      "accessMode": "unknown",
+      "accessConfidence": "unknown",
+      "roadDistanceM": null,
+      "trailDistanceM": null,
+      "needsReview": false,
+      "reviewReasons": [],
+      "mapFlags": [],
+      "urls": {
+        "osm": "https://www.openstreetmap.org/way/555526366"
+      },
+      "sourceIds": {
+        "osmType": "way",
+        "osmId": 555526366,
+        "tags": {
+          "tourism": "museum"
+        }
+      },
+      "status": "active",
+      "ingestSource": "03-state-osm",
+      "verifiedAt": "2026-06-29"
+    }
+  ]
+}

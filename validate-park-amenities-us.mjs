@@ -5,9 +5,10 @@ import fs from "fs";
 import {
   CAMP_TIERS,
   EMBED_PATH,
-  MASTER_PATH,
+  MANIFEST_PATH,
   QA_PATH,
   ROLLUP_PATH,
+  loadUsMasterRecords,
   readJson,
 } from "./park-amenities-us-lib.mjs";
 
@@ -28,10 +29,25 @@ function ok(msg) {
   console.log(`OK: ${msg}`);
 }
 
-const master = readJson(MASTER_PATH, { records: [] });
+const manifest = readJson(MANIFEST_PATH, null);
+if (!manifest?.shards?.nps) fail(`Missing or invalid ${MANIFEST_PATH}`);
+else ok(`${MANIFEST_PATH} indexes ${manifest.recordCount} records`);
+
+const master = loadUsMasterRecords();
 const records = master.records || [];
-if (!records.length) fail(`Missing or empty ${MASTER_PATH}`);
-else ok(`${MASTER_PATH} has ${records.length} records`);
+if (!records.length) fail("No US park amenity records in shards");
+else ok(`Loaded ${records.length} records from shards`);
+
+if (manifest && manifest.recordCount !== records.length) {
+  fail(`Manifest recordCount (${manifest.recordCount}) != loaded (${records.length})`);
+} else ok("Manifest recordCount matches loaded records");
+
+const shardTotal =
+  (manifest?.shards?.nps?.recordCount || 0) +
+  Object.values(manifest?.shards?.state || {}).reduce((n, s) => n + (s.recordCount || 0), 0);
+if (manifest && shardTotal !== records.length) {
+  fail(`Shard recordCount sum (${shardTotal}) != loaded (${records.length})`);
+} else ok("Shard counts match loaded records");
 
 const qa = readJson(QA_PATH, null);
 if (!qa) fail(`Missing ${QA_PATH}`);

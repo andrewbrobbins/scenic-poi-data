@@ -1,0 +1,548 @@
+{
+  "schemaVersion": 2,
+  "generated": "2026-07-01T04:27:39.864Z",
+  "description": "US park amenities: NPS + state parks — campgrounds (developed/backcountry/primitive), picnic, restroom; road/trail access on campgrounds.",
+  "recordCount": 108235,
+  "byKind": {
+    "picnic_area": 10606,
+    "restroom": 12012,
+    "campground": 12176,
+    "parking": 71661,
+    "visitor_center": 1780
+  },
+  "byCampTier": {
+    "developed": 7997,
+    "backcountry": 3826,
+    "primitive": 353
+  },
+  "byAccessMode": {
+    "road": 7997,
+    "trail": 4179,
+    "unknown": 0
+  },
+  "byManager": {
+    "NPS": 8974,
+    "State": 99261
+  },
+  "accessEnriched": true,
+  "shards": {
+    "nps": {
+      "path": "park-amenities-us-nps-master.json",
+      "recordCount": 8974,
+      "byKind": {
+        "picnic_area": 1352,
+        "restroom": 2900,
+        "campground": 4722
+      }
+    },
+    "state": {
+      "AK": {
+        "path": "park-amenities-us-state-master/AK.json",
+        "recordCount": 1354,
+        "byKind": {
+          "campground": 4,
+          "parking": 1070,
+          "picnic_area": 110,
+          "restroom": 128,
+          "visitor_center": 42
+        }
+      },
+      "AL": {
+        "path": "park-amenities-us-state-master/AL.json",
+        "recordCount": 609,
+        "byKind": {
+          "parking": 511,
+          "restroom": 48,
+          "campground": 13,
+          "visitor_center": 10,
+          "picnic_area": 27
+        }
+      },
+      "AR": {
+        "path": "park-amenities-us-state-master/AR.json",
+        "recordCount": 218,
+        "byKind": {
+          "campground": 16,
+          "parking": 89,
+          "picnic_area": 87,
+          "restroom": 23,
+          "visitor_center": 3
+        }
+      },
+      "AZ": {
+        "path": "park-amenities-us-state-master/AZ.json",
+        "recordCount": 1453,
+        "byKind": {
+          "parking": 1202,
+          "picnic_area": 59,
+          "restroom": 92,
+          "campground": 65,
+          "visitor_center": 35
+        }
+      },
+      "CA": {
+        "path": "park-amenities-us-state-master/CA.json",
+        "recordCount": 21994,
+        "byKind": {
+          "parking": 10678,
+          "picnic_area": 2899,
+          "restroom": 1468,
+          "visitor_center": 299,
+          "campground": 6650
+        }
+      },
+      "CO": {
+        "path": "park-amenities-us-state-master/CO.json",
+        "recordCount": 2341,
+        "byKind": {
+          "parking": 1737,
+          "picnic_area": 324,
+          "restroom": 260,
+          "visitor_center": 8,
+          "campground": 12
+        }
+      },
+      "CT": {
+        "path": "park-amenities-us-state-master/CT.json",
+        "recordCount": 5926,
+        "byKind": {
+          "parking": 5158,
+          "picnic_area": 478,
+          "campground": 2,
+          "restroom": 209,
+          "visitor_center": 79
+        }
+      },
+      "DE": {
+        "path": "park-amenities-us-state-master/DE.json",
+        "recordCount": 862,
+        "byKind": {
+          "parking": 744,
+          "restroom": 60,
+          "picnic_area": 41,
+          "visitor_center": 15,
+          "campground": 2
+        }
+      },
+      "FL": {
+        "path": "park-amenities-us-state-master/FL.json",
+        "recordCount": 3850,
+        "byKind": {
+          "parking": 2883,
+          "picnic_area": 335,
+          "restroom": 484,
+          "visitor_center": 133,
+          "campground": 15
+        }
+      },
+      "GA": {
+        "path": "park-amenities-us-state-master/GA.json",
+        "recordCount": 638,
+        "byKind": {
+          "parking": 438,
+          "picnic_area": 81,
+          "restroom": 90,
+          "visitor_center": 21,
+          "campground": 8
+        }
+      },
+      "IA": {
+        "path": "park-amenities-us-state-master/IA.json",
+        "recordCount": 1590,
+        "byKind": {
+          "campground": 33,
+          "parking": 1263,
+          "restroom": 171,
+          "picnic_area": 94,
+          "visitor_center": 29
+        }
+      },
+      "ID": {
+        "path": "park-amenities-us-state-master/ID.json",
+        "recordCount": 665,
+        "byKind": {
+          "parking": 490,
+          "picnic_area": 33,
+          "restroom": 120,
+          "visitor_center": 8,
+          "campground": 14
+        }
+      },
+      "IL": {
+        "path": "park-amenities-us-state-master/IL.json",
+        "recordCount": 1228,
+        "byKind": {
+          "campground": 13,
+          "parking": 959,
+          "picnic_area": 53,
+          "restroom": 186,
+          "visitor_center": 17
+        }
+      },
+      "IN": {
+        "path": "park-amenities-us-state-master/IN.json",
+        "recordCount": 1674,
+        "byKind": {
+          "parking": 1392,
+          "picnic_area": 71,
+          "restroom": 180,
+          "visitor_center": 30,
+          "campground": 1
+        }
+      },
+      "KS": {
+        "path": "park-amenities-us-state-master/KS.json",
+        "recordCount": 1114,
+        "byKind": {
+          "campground": 66,
+          "parking": 810,
+          "picnic_area": 19,
+          "restroom": 196,
+          "visitor_center": 23
+        }
+      },
+      "KY": {
+        "path": "park-amenities-us-state-master/KY.json",
+        "recordCount": 815,
+        "byKind": {
+          "restroom": 55,
+          "campground": 6,
+          "parking": 709,
+          "picnic_area": 28,
+          "visitor_center": 17
+        }
+      },
+      "LA": {
+        "path": "park-amenities-us-state-master/LA.json",
+        "recordCount": 312,
+        "byKind": {
+          "campground": 4,
+          "parking": 212,
+          "picnic_area": 57,
+          "restroom": 30,
+          "visitor_center": 9
+        }
+      },
+      "MA": {
+        "path": "park-amenities-us-state-master/MA.json",
+        "recordCount": 2917,
+        "byKind": {
+          "campground": 3,
+          "parking": 2645,
+          "picnic_area": 135,
+          "restroom": 72,
+          "visitor_center": 62
+        }
+      },
+      "MD": {
+        "path": "park-amenities-us-state-master/MD.json",
+        "recordCount": 2611,
+        "byKind": {
+          "parking": 2024,
+          "picnic_area": 239,
+          "restroom": 267,
+          "visitor_center": 54,
+          "campground": 27
+        }
+      },
+      "ME": {
+        "path": "park-amenities-us-state-master/ME.json",
+        "recordCount": 1303,
+        "byKind": {
+          "parking": 1064,
+          "picnic_area": 90,
+          "restroom": 108,
+          "visitor_center": 39,
+          "campground": 2
+        }
+      },
+      "MI": {
+        "path": "park-amenities-us-state-master/MI.json",
+        "recordCount": 4621,
+        "byKind": {
+          "parking": 3782,
+          "picnic_area": 279,
+          "restroom": 457,
+          "visitor_center": 75,
+          "campground": 28
+        }
+      },
+      "MN": {
+        "path": "park-amenities-us-state-master/MN.json",
+        "recordCount": 1959,
+        "byKind": {
+          "campground": 130,
+          "parking": 1212,
+          "picnic_area": 186,
+          "restroom": 374,
+          "visitor_center": 57
+        }
+      },
+      "MO": {
+        "path": "park-amenities-us-state-master/MO.json",
+        "recordCount": 2349,
+        "byKind": {
+          "parking": 1868,
+          "picnic_area": 150,
+          "restroom": 246,
+          "visitor_center": 44,
+          "campground": 41
+        }
+      },
+      "MS": {
+        "path": "park-amenities-us-state-master/MS.json",
+        "recordCount": 43,
+        "byKind": {
+          "restroom": 2,
+          "visitor_center": 1,
+          "picnic_area": 3,
+          "parking": 37
+        }
+      },
+      "MT": {
+        "path": "park-amenities-us-state-master/MT.json",
+        "recordCount": 1239,
+        "byKind": {
+          "picnic_area": 63,
+          "restroom": 120,
+          "campground": 8,
+          "parking": 1025,
+          "visitor_center": 23
+        }
+      },
+      "NC": {
+        "path": "park-amenities-us-state-master/NC.json",
+        "recordCount": 2088,
+        "byKind": {
+          "parking": 1572,
+          "picnic_area": 226,
+          "visitor_center": 48,
+          "campground": 33,
+          "restroom": 209
+        }
+      },
+      "ND": {
+        "path": "park-amenities-us-state-master/ND.json",
+        "recordCount": 146,
+        "byKind": {
+          "parking": 110,
+          "restroom": 23,
+          "campground": 4,
+          "visitor_center": 7,
+          "picnic_area": 2
+        }
+      },
+      "NE": {
+        "path": "park-amenities-us-state-master/NE.json",
+        "recordCount": 286,
+        "byKind": {
+          "parking": 223,
+          "restroom": 41,
+          "visitor_center": 13,
+          "picnic_area": 9
+        }
+      },
+      "NH": {
+        "path": "park-amenities-us-state-master/NH.json",
+        "recordCount": 999,
+        "byKind": {
+          "campground": 10,
+          "parking": 838,
+          "restroom": 75,
+          "visitor_center": 23,
+          "picnic_area": 53
+        }
+      },
+      "NJ": {
+        "path": "park-amenities-us-state-master/NJ.json",
+        "recordCount": 1170,
+        "byKind": {
+          "parking": 1077,
+          "picnic_area": 26,
+          "restroom": 54,
+          "visitor_center": 11,
+          "campground": 2
+        }
+      },
+      "NM": {
+        "path": "park-amenities-us-state-master/NM.json",
+        "recordCount": 629,
+        "byKind": {
+          "parking": 485,
+          "picnic_area": 44,
+          "restroom": 81,
+          "campground": 6,
+          "visitor_center": 13
+        }
+      },
+      "NV": {
+        "path": "park-amenities-us-state-master/NV.json",
+        "recordCount": 1,
+        "byKind": {
+          "visitor_center": 1
+        }
+      },
+      "NY": {
+        "path": "park-amenities-us-state-master/NY.json",
+        "recordCount": 11269,
+        "byKind": {
+          "parking": 9990,
+          "campground": 19,
+          "picnic_area": 471,
+          "restroom": 590,
+          "visitor_center": 199
+        }
+      },
+      "OH": {
+        "path": "park-amenities-us-state-master/OH.json",
+        "recordCount": 1133,
+        "byKind": {
+          "campground": 12,
+          "parking": 850,
+          "picnic_area": 114,
+          "restroom": 141,
+          "visitor_center": 16
+        }
+      },
+      "OK": {
+        "path": "park-amenities-us-state-master/OK.json",
+        "recordCount": 233,
+        "byKind": {
+          "parking": 120,
+          "restroom": 59,
+          "picnic_area": 22,
+          "visitor_center": 7,
+          "campground": 25
+        }
+      },
+      "OR": {
+        "path": "park-amenities-us-state-master/OR.json",
+        "recordCount": 2043,
+        "byKind": {
+          "parking": 1340,
+          "picnic_area": 249,
+          "restroom": 387,
+          "campground": 38,
+          "visitor_center": 29
+        }
+      },
+      "PA": {
+        "path": "park-amenities-us-state-master/PA.json",
+        "recordCount": 1922,
+        "byKind": {
+          "parking": 1543,
+          "picnic_area": 135,
+          "restroom": 193,
+          "visitor_center": 40,
+          "campground": 11
+        }
+      },
+      "RI": {
+        "path": "park-amenities-us-state-master/RI.json",
+        "recordCount": 23,
+        "byKind": {
+          "parking": 20,
+          "restroom": 1,
+          "visitor_center": 2
+        }
+      },
+      "SC": {
+        "path": "park-amenities-us-state-master/SC.json",
+        "recordCount": 753,
+        "byKind": {
+          "parking": 615,
+          "restroom": 86,
+          "picnic_area": 28,
+          "visitor_center": 21,
+          "campground": 3
+        }
+      },
+      "SD": {
+        "path": "park-amenities-us-state-master/SD.json",
+        "recordCount": 502,
+        "byKind": {
+          "parking": 358,
+          "restroom": 88,
+          "visitor_center": 18,
+          "campground": 5,
+          "picnic_area": 33
+        }
+      },
+      "TN": {
+        "path": "park-amenities-us-state-master/TN.json",
+        "recordCount": 1641,
+        "byKind": {
+          "parking": 1343,
+          "picnic_area": 184,
+          "restroom": 73,
+          "visitor_center": 30,
+          "campground": 11
+        }
+      },
+      "TX": {
+        "path": "park-amenities-us-state-master/TX.json",
+        "recordCount": 1784,
+        "byKind": {
+          "parking": 1064,
+          "restroom": 266,
+          "picnic_area": 408,
+          "visitor_center": 38,
+          "campground": 8
+        }
+      },
+      "UT": {
+        "path": "park-amenities-us-state-master/UT.json",
+        "recordCount": 1556,
+        "byKind": {
+          "parking": 1118,
+          "picnic_area": 158,
+          "restroom": 250,
+          "visitor_center": 16,
+          "campground": 14
+        }
+      },
+      "VA": {
+        "path": "park-amenities-us-state-master/VA.json",
+        "recordCount": 658,
+        "byKind": {
+          "campground": 11,
+          "parking": 501,
+          "restroom": 87,
+          "visitor_center": 25,
+          "picnic_area": 34
+        }
+      },
+      "WA": {
+        "path": "park-amenities-us-state-master/WA.json",
+        "recordCount": 6588,
+        "byKind": {
+          "parking": 4402,
+          "picnic_area": 1098,
+          "restroom": 925,
+          "visitor_center": 88,
+          "campground": 75
+        }
+      },
+      "WV": {
+        "path": "park-amenities-us-state-master/WV.json",
+        "recordCount": 27,
+        "byKind": {
+          "parking": 25,
+          "picnic_area": 1,
+          "restroom": 1
+        }
+      },
+      "WY": {
+        "path": "park-amenities-us-state-master/WY.json",
+        "recordCount": 125,
+        "byKind": {
+          "parking": 65,
+          "campground": 4,
+          "picnic_area": 18,
+          "restroom": 36,
+          "visitor_center": 2
+        }
+      }
+    }
+  }
+}
