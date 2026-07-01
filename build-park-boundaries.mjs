@@ -3,6 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import { fetchArcgisAllFeatures } from "./camping-ca-lib.mjs";
 import { MIN_SECTION_AREA_DEG2, MIN_SECTION_AREA_RATIO } from "./park-boundary-pins.mjs";
+import { limitRingVertices } from "./park-boundary-simplify.mjs";
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
 const NPS_GEO_PATH = path.join(tools, "nps-us-geo.json");
@@ -14,24 +15,17 @@ const US_QUERY =
 const CA_QUERY =
   "https://services2.arcgis.com/wCOMu5IS7YdSyPNx/arcgis/rest/services/vw_Places_Public_lieux_public_APCA/FeatureServer/0/query";
 
-/** Server-side generalization for fetch (~15 m); main ring keeps more detail client-side. */
-const ARCGIS_OFFSET = 0.00015;
-/** Points on the primary (largest) boundary ring. */
-const MAX_PTS_MAIN_RING = 256;
+/** Server-side generalization for fetch (~3 m in WGS84 deg); primary simplification pass. */
+const ARCGIS_OFFSET = 0.00003;
+/** Safety ceiling after fetch — rings under this are kept verbatim; over uses Douglas–Peucker. */
+const MAX_PTS_MAIN_RING = 8192;
+const MAX_PTS_SECONDARY_RING = 8192;
 /** Max extra disjoint sections per unit (after area filter). */
 const MAX_SECONDARY_RINGS = 32;
 /** Drop specks below this bbox-area (deg²). */
 const MIN_RING_AREA_DEG2 = MIN_SECTION_AREA_DEG2;
 /** Secondary section must be at least this share of the main ring bbox area. */
 const MIN_SECONDARY_AREA_RATIO = MIN_SECTION_AREA_RATIO;
-
-function ptsForSecondaryRing(area, mainArea) {
-  const ratio = mainArea > 0 ? area / mainArea : 0;
-  if (ratio >= 0.2) return 160;
-  if (ratio >= 0.08) return 120;
-  if (ratio >= 0.05) return 96;
-  return 64;
-}
 
 /** In-scope for boundary backfill (excludes memorials and linear trails/parkways — PB-001). */
 const US_TYPES_EXCLUDED = new Set([
@@ -148,15 +142,8 @@ function collectionBbox(features) {
   return [west, south, east, north];
 }
 
-function simplifyRing(ring, maxPts = MAX_PTS_MAIN_RING) {
-  if (!ring?.length || ring.length <= maxPts) return ring;
-  const out = [];
-  const step = Math.ceil(ring.length / maxPts);
-  for (let i = 0; i < ring.length; i += step) out.push(ring[i]);
-  const last = ring[ring.length - 1];
-  const tail = out[out.length - 1];
-  if (!tail || tail[0] !== last[0] || tail[1] !== last[1]) out.push(last);
-  return out;
+function limitRing(ring, maxPts) {
+  return limitRingVertices(ring, maxPts, ARCGIS_OFFSET);
 }
 
 function prepareRings(rings) {
@@ -167,7 +154,7 @@ function prepareRings(rings) {
   if (!sorted.length) return [];
 
   const mainArea = ringBBoxArea(sorted[0]);
-  const main = simplifyRing(sorted[0], MAX_PTS_MAIN_RING);
+  const main = limitRing(sorted[0], MAX_PTS_MAIN_RING);
 
   const secondary = [];
   for (let i = 1; i < sorted.length; i++) {
@@ -176,7 +163,7 @@ function prepareRings(rings) {
     if (area < mainArea * MIN_SECONDARY_AREA_RATIO) continue;
     secondary.push({
       area,
-      ring: simplifyRing(sorted[i], ptsForSecondaryRing(area, mainArea)),
+      ring: limitRing(sorted[i], MAX_PTS_SECONDARY_RING),
     });
   }
 
