@@ -91,6 +91,120 @@
         "nameContains": ["flying j"]
       },
       "mergeWith": "pilot"
+    },
+    {
+      "id": "maverik",
+      "displayName": "Maverik",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Maverik", "Maverik Adventure's First Stop", "Kum & Go", "Kum and Go"],
+        "operator": ["Maverik", "Kum & Go", "FJ Management", "Maverik Inc"],
+        "nameContains": ["maverik", "kum & go", "kum and go"]
+      }
+    },
+    {
+      "id": "kwiktrip",
+      "displayName": "Kwik Trip",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Kwik Trip", "KwikTrip", "Kwik Trip Inc"],
+        "operator": ["Kwik Trip", "Kwik Trip Inc"],
+        "nameContains": ["kwik trip", "kwiktrip"]
+      }
+    },
+    {
+      "id": "kwikstar",
+      "displayName": "Kwik Star",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Kwik Star", "KwikStar"],
+        "operator": ["Kwik Trip", "Kwik Star", "Kwik Trip Inc"],
+        "nameContains": ["kwik star", "kwikstar"]
+      },
+      "mergeWith": "kwiktrip"
+    },
+    {
+      "id": "wallys",
+      "displayName": "Wally's",
+      "tier": "A",
+      "type": "travel_plaza",
+      "osm": {
+        "strict": true,
+        "brand": ["Wally's", "Wallys"],
+        "operator": ["Wally's"],
+        "nameContains": ["wally's", "wallys"]
+      }
+    },
+    {
+      "id": "busy_bee",
+      "displayName": "Busy Bee",
+      "tier": "A",
+      "type": "travel_plaza",
+      "osm": {
+        "strict": true,
+        "brand": ["Busy Bee", "Busy Bee Travel Center"],
+        "operator": ["Busy Bee"],
+        "nameContains": ["busy bee"]
+      }
+    },
+    {
+      "id": "parkers",
+      "displayName": "Parker's Kitchen",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Parker's", "Parkers", "Parker's Kitchen", "Parkers Kitchen"],
+        "operator": ["Parker's", "Parkers Kitchen"],
+        "nameContains": ["parker's kitchen", "parkers kitchen", "parker's #", "parkers #"]
+      }
+    },
+    {
+      "id": "cefco",
+      "displayName": "CEFCO",
+      "tier": "A",
+      "type": "travel_plaza",
+      "osm": {
+        "brand": ["CEFCO", "CEFCO Travel Center"],
+        "operator": ["CEFCO", "Fikes"],
+        "nameContains": ["cefco kitchen", "cefco travel", "travel center"]
+      }
+    },
+    {
+      "id": "royal_farms",
+      "displayName": "Royal Farms",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["Royal Farms", "Royal Farms Express"],
+        "operator": ["Royal Farms"],
+        "nameContains": ["royal farms"]
+      }
+    },
+    {
+      "id": "quickchek",
+      "displayName": "QuickChek",
+      "tier": "A",
+      "type": "convenience_fuel",
+      "osm": {
+        "brand": ["QuickChek", "Quick Chek", "QuickChek Fresh Market"],
+        "operator": ["QuickChek"],
+        "nameContains": ["quickchek", "quick chek"]
+      }
+    },
+    {
+      "id": "terribles",
+      "displayName": "Terrible's",
+      "tier": "A",
+      "type": "travel_plaza",
+      "osm": {
+        "strict": true,
+        "brand": ["Terrible's", "Terribles", "Terrible Herbst"],
+        "operator": ["Terrible's", "Terrible Herbst"],
+        "nameContains": ["terrible's", "terribles travel", "terrible travel"]
+      }
     }
   ]
 }

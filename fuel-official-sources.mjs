@@ -12,6 +12,7 @@ import {
   parseIrvingCoords,
   parsePilotBrand,
   parsePilotYextCoords,
+  parseYextGeoCoords,
   readCache,
   stateFromPilotUrl,
   writeCache,
@@ -24,6 +25,15 @@ import {
   isPilotOfficialFullTravelCenter,
   parsePilotYextFacility,
 } from "./fuel-travel-center-lib.mjs";
+import {
+  fetchBusyBeeOfficial,
+  fetchCefcoOfficial,
+  fetchKwikTripOfficial,
+  fetchParkersOfficial,
+  fetchQuickChekOfficial,
+  fetchRoyalFarmsOfficial,
+  fetchWallysOfficial,
+} from "./fuel-official-us-brands.mjs";
 
 const IRVING_BIG_STOP_IDS = [
   { id: "26271", city: "Aulac", state: "NB" },
@@ -99,6 +109,12 @@ const SKIPPED_SOURCES = {
     brandId: "husky_travel",
     reason: "myhusky.ca location pages lack stable coordinates in HTML; many sites rebranded to Esso/Co-op.",
     docs: "https://local.myhusky.ca/",
+  },
+  terribles: {
+    brandId: "terribles",
+    reason:
+      "Terrible's StoreRocket locator on terribles.com loads store JSON client-side with no stable bulk export; large-highway subset cannot be reconciled automatically yet.",
+    docs: "https://www.terribles.com/",
   },
 };
 
@@ -378,6 +394,84 @@ export async function fetchLovesOfficial(cacheDir) {
   throw new Error(`Love's fetch_stores failed: ${lastErr?.message || lastErr}`);
 }
 
+export async function fetchMaverikOfficial(cacheDir, opts = {}) {
+  const cacheFile = cacheDir ? path.join(cacheDir, "maverik-official.json") : null;
+  if (cacheFile && fs.existsSync(cacheFile)) {
+    const cached = readCache(cacheFile);
+    if (cached?.stores?.length) return cached;
+  }
+
+  const sitemap = await fetchText("https://locations.maverik.com/sitemap.xml");
+  const urls = [...sitemap.matchAll(/<loc>(https:\/\/locations\.maverik\.com\/[^<]+)<\/loc>/g)]
+    .map((m) => m[1])
+    .filter((u) => new URL(u).pathname.split("/").filter(Boolean).length === 3);
+
+  if (cacheDir) fs.mkdirSync(cacheDir, { recursive: true });
+  const max = opts.maxPages || urls.length;
+  const stores = [];
+  const errors = [];
+
+  for (const url of urls.slice(0, max)) {
+    const cp = cachePath(cacheDir, url);
+    let parsed = readCache(cp);
+    if (!parsed) {
+      try {
+        const html = await fetchText(url);
+        const coords = parseYextGeoCoords(html);
+        if (!coords || !coordValid(coords.lat, coords.lon)) {
+          errors.push({ url, reason: "no-coords" });
+          continue;
+        }
+        const parts = new URL(url).pathname.split("/").filter(Boolean);
+        const state = parts[0]?.toUpperCase() || "";
+        const city = parts[1]?.replace(/-/g, " ") || "";
+        const street = parts[2]?.replace(/-/g, " ") || "";
+        const title =
+          html.match(/<title>([^<]+)<\/title>/i)?.[1]?.replace(/\s*\|\s*Maverik.*/i, "").trim() || "";
+        const storeNum = title.match(/Maverik\s*#(\d+)/i)?.[1] || "";
+        parsed = {
+          officialId: url,
+          label: title || `Maverik — ${street}, ${city}, ${state}`,
+          brandId: "maverik",
+          city,
+          state,
+          street,
+          storeNumber: storeNum,
+          lat: coords.lat,
+          lon: coords.lon,
+          sourceUrl: url,
+        };
+        writeCache(cp, parsed);
+        await sleep(opts.delayMs ?? 25);
+      } catch (e) {
+        errors.push({ url, reason: String(e.message || e) });
+        continue;
+      }
+    }
+    stores.push(
+      storeRow({
+        ...parsed,
+        brand: "Maverik",
+        type: "convenience_fuel",
+        url: parsed.sourceUrl,
+      })
+    );
+  }
+
+  const payload = {
+    brandId: "maverik",
+    source: "https://locations.maverik.com/sitemap.xml",
+    sourceType: "yext-sitemap-pages",
+    sourceTag: "maverik-official",
+    storeCount: stores.length,
+    meta: { sitemapStoreUrls: urls.length, pagesFetched: Math.min(max, urls.length), errors: errors.length },
+    errors: errors.slice(0, 20),
+    stores,
+  };
+  if (cacheFile) writeCache(cacheFile, payload);
+  return payload;
+}
+
 export async function fetchRaceTracOfficial(cacheDir, opts = {}) {
   const sitemap = await fetchText("https://www.racetrac.com/sitemap.xml");
   const urls = [...sitemap.matchAll(/<loc>(https:\/\/www\.racetrac\.com\/locations\/[^<]+)<\/loc>/g)].map(
@@ -438,6 +532,15 @@ export const US_RECONCILE_BRANDS = [
   "bucees",
   "pfj",
   "loves",
+  "maverik",
+  "kwiktrip",
+  "kwikstar",
+  "wallys",
+  "busy_bee",
+  "parkers",
+  "cefco",
+  "royal_farms",
+  "quickchek",
   "quiktrip",
   "racetrac",
   "wawa",
@@ -469,7 +572,17 @@ export async function fetchPilotFlyingJCombined(region, cacheDir, opts = {}) {
 export async function fetchOfficialForBrand(brandId, opts = {}) {
   if (brandId === "bucees") return fetchBuceesOfficial();
   if (brandId === "loves") return fetchLovesOfficial(opts.cacheDir);
+  if (brandId === "maverik") return fetchMaverikOfficial(opts.cacheDir, opts);
   if (brandId === "pfj") return fetchPilotFlyingJCombined(opts.region || "us", opts.cacheDir, opts);
+  if (brandId === "kwiktrip" || brandId === "kwikstar") {
+    return fetchKwikTripOfficial(opts.cacheDir, { ...opts, brandId });
+  }
+  if (brandId === "royal_farms") return fetchRoyalFarmsOfficial(opts.cacheDir);
+  if (brandId === "quickchek") return fetchQuickChekOfficial(opts.cacheDir);
+  if (brandId === "parkers") return fetchParkersOfficial(opts.cacheDir, opts);
+  if (brandId === "cefco") return fetchCefcoOfficial(opts.cacheDir, opts);
+  if (brandId === "wallys") return fetchWallysOfficial();
+  if (brandId === "busy_bee") return fetchBusyBeeOfficial();
   if (brandId === "onroute") return fetchOnrouteOfficial();
   if (brandId === "irving_bigstop") return fetchIrvingBigStopOfficial();
 

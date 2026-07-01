@@ -170,7 +170,23 @@ export async function reconcileOfficialRegion(region, opts = {}) {
       reconcileNote:
         brandId === "bucees"
           ? "Matches open stores from buc-ees.com JSON-LD only. No mega/small size filter. OSM rejects = no official store within match radius."
-          : undefined,
+          : brandId === "maverik"
+            ? "Matches stores listed on locations.maverik.com (Yext sitemap). OSM rejects = not on official locator; supplements = official-only gaps."
+            : brandId === "kwiktrip" || brandId === "kwikstar"
+              ? "Matches fuel stores from api.kwiktrip.com store/information scan. OSM rejects = not on official API; supplements = official-only gaps."
+              : brandId === "wallys"
+                ? "Matches leaflet map markers on wallys.com/locations (3 travel centers)."
+                : brandId === "busy_bee"
+                  ? "Matches shopthebusybee.com WP store_search AJAX (FL travel centers)."
+                  : brandId === "parkers"
+                    ? "Matches parkerskitchen.com location pages (Google Maps daddr coords)."
+                    : brandId === "cefco"
+                      ? "Large-format only: CEFCO Kitchen / Food Menu+diesel / Travel Center on official pages; coords via Nominatim geocode."
+                      : brandId === "royal_farms"
+                        ? "Matches storelocator.royalfarms.com/api/stores (fuel-capable sites)."
+                        : brandId === "quickchek"
+                          ? "Matches quickchek.com get_sorted_locations AJAX (fuel sites in NY/NJ grid)."
+                          : undefined,
       matched: result.matched.map((m) => ({
         osmId: m.osm.id,
         official: m.official.label,

@@ -1,6 +1,6 @@
 # US fuel stops (tier A brand catalog)
 
-Static list of **8 brand groups** from OpenStreetMap — high-quality travel/convenience stops, not every branded gas station.
+Static list of **17 brand groups** from OpenStreetMap — high-quality travel/convenience stops, not every branded gas station.
 
 **Buc-ee's** uses `strict` matching (brand/operator/`nameContains` only) because OSM has many false `name=Buc-ee's` pins without a brand tag.
 
@@ -14,6 +14,16 @@ Static list of **8 brand groups** from OpenStreetMap — high-quality travel/con
 | loves | Love's |
 | pilot | Pilot |
 | flyingj | Flying J (merged with Pilot when co-located) |
+| maverik | Maverik (includes Kum & Go — same chain, rebranding complete; **official locator only**) |
+| kwiktrip | Kwik Trip (**official store API only**) |
+| kwikstar | Kwik Star (merged with Kwik Trip when co-located; **official store API only**) |
+| wallys | Wally's travel centers (**official locator only**) |
+| busy_bee | Busy Bee (FL travel centers; **official locator only**) |
+| parkers | Parker's Kitchen (**official locator only**) |
+| cefco | CEFCO large-format / kitchen stores (**official sitemap + geocode**) |
+| royal_farms | Royal Farms (**official locator API**) |
+| quickchek | QuickChek (**official locator AJAX**) |
+| terribles | Terrible's large highway formats (OSM strict; official reconcile pending StoreRocket export) |
 
 Generic (non-catalog) US fuel is a **separate layer**: `FUEL_GENERIC_US` via `build-fuel-generic-explorer-embed.mjs`.
 

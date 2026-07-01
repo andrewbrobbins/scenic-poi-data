@@ -14,7 +14,26 @@ import {
 } from "./fuel-us-lib.mjs";
 
 const EMBED_PATH = "fuel-us-explorer-embed.js";
-const EXPECTED_BRANDS = ["bucees", "quiktrip", "racetrac", "wawa", "sheetz", "loves", "pilot", "flyingj"];
+const EXPECTED_BRANDS = [
+  "bucees",
+  "quiktrip",
+  "racetrac",
+  "wawa",
+  "sheetz",
+  "loves",
+  "pilot",
+  "flyingj",
+  "maverik",
+  "kwiktrip",
+  "kwikstar",
+  "wallys",
+  "busy_bee",
+  "parkers",
+  "cefco",
+  "royal_farms",
+  "quickchek",
+  "terribles",
+];
 const repair = process.argv.includes("--repair");
 
 let errors = 0;
@@ -59,8 +78,8 @@ if (!master?.records?.length) {
     }
   }
   ok(`${MASTER_PATH} has ${master.records.length} records`);
-  if (master.records.length < 3500) warn(`Record count ${master.records.length} is lower than expected (~4200+)`);
-  if (master.records.length > 6000) warn(`Record count ${master.records.length} is higher than expected (~4200+)`);
+  if (master.records.length < 3500) warn(`Record count ${master.records.length} is lower than expected (~5000+)`);
+  if (master.records.length > 8000) warn(`Record count ${master.records.length} is higher than expected (~5000–8000)`);
 }
 
 const qa = readJson(QA_PATH);

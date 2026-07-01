@@ -227,6 +227,27 @@ export function parsePilotYextCoords(html) {
   return { lat: parseFloat(m[1]), lon: parseFloat(m[2]) };
 }
 
+/** Yext locator pages (Maverik, Pilot, etc.) — try several stable HTML patterns. */
+export function parseYextGeoCoords(html) {
+  const yext = parsePilotYextCoords(html);
+  if (yext) return yext;
+  const geoPos = html.match(/name="geo\.position"\s+content="(-?\d+\.?\d*);(-?\d+\.?\d*)"/);
+  if (geoPos) return { lat: parseFloat(geoPos[1]), lon: parseFloat(geoPos[2]) };
+  const lat = html.match(/itemprop="latitude"\s+content="(-?\d+\.?\d*)"/);
+  const lon = html.match(/itemprop="longitude"\s+content="(-?\d+\.?\d*)"/);
+  if (lat && lon) return { lat: parseFloat(lat[1]), lon: parseFloat(lon[1]) };
+  const mapData = html.match(/class="js-map-data">(\{[^<]+\})/);
+  if (mapData) {
+    try {
+      const j = JSON.parse(mapData[1]);
+      if (j.latitude != null && j.longitude != null) return { lat: j.latitude, lon: j.longitude };
+    } catch {
+      /* ignore */
+    }
+  }
+  return null;
+}
+
 export { parsePilotYextFacility } from "./fuel-travel-center-lib.mjs";
 
 export function parsePilotBrand(html) {
@@ -240,4 +261,71 @@ export function stateFromPilotUrl(url) {
   const p = new URL(url).pathname.split("/").filter(Boolean);
   if (p[0] === "us" || p[0] === "ca") return p[1]?.toUpperCase() || "";
   return "";
+}
+
+/** Nectar Leaflet map markers (Wally's locations page). */
+export function parseLeafletMapMarkers(html) {
+  const stores = [];
+  for (const m of html.matchAll(
+    /class="map-marker"[^>]*data-lat="([^"]+)"[^>]*data-lng="([^"]+)"[^>]*data-mapinfo="([^"]*)"/g
+  )) {
+    const lat = parseFloat(m[1]);
+    const lon = parseFloat(m[2]);
+    if (!Number.isFinite(lat) || !Number.isFinite(lon)) continue;
+    stores.push({
+      lat,
+      lon,
+      label: m[3].replace(/<br\s*\/?>/gi, ", ").replace(/\s+/g, " ").trim(),
+    });
+  }
+  return stores;
+}
+
+export function parseDaddrCoords(html) {
+  const m =
+    html.match(/daddr=(-?\d+\.?\d*)\+(-?\d+\.?\d*)/i) ||
+    html.match(/daddr=(-?\d+\.?\d*)%2C(-?\d+\.?\d*)/i);
+  if (!m) return null;
+  return { lat: parseFloat(m[1]), lon: parseFloat(m[2]) };
+}
+
+export function parseCefcoLocationAddress(html) {
+  const m = html.match(/<p>([^<]+)<br\s*\/?>\s*([^,]+),\s*([A-Z]{2})\s*(\d{5})?/i);
+  if (!m) return null;
+  return {
+    street: m[1].trim(),
+    city: m[2].trim(),
+    state: m[3].trim(),
+    zip: (m[4] || "").trim(),
+  };
+}
+
+export function isCefcoLargeFormatHtml(html) {
+  const amen = html.match(/<h3>Amenities<\/h3><p>([^<]+)/i)?.[1] || "";
+  if (/CEFCO Kitchen/i.test(amen)) return true;
+  if (/Food Menu/i.test(amen) && /Diesel/i.test(html)) return true;
+  if (/Travel Center/i.test(html)) return true;
+  return false;
+}
+
+export async function geocodeNominatim(query, cacheDir) {
+  const key = query.replace(/[^a-zA-Z0-9]+/g, "_").slice(0, 100);
+  const cp = cacheDir ? cachePath(cacheDir, `nominatim-${key}`) : null;
+  if (cp && fs.existsSync(cp)) {
+    const cached = readCache(cp);
+    if (cached?.lat != null) return cached;
+  }
+  const url = `https://nominatim.openstreetmap.org/search?format=json&limit=1&q=${encodeURIComponent(query)}`;
+  const res = await fetch(url, {
+    headers: { "User-Agent": USER_AGENT },
+    signal: AbortSignal.timeout(30000),
+  });
+  if (!res.ok) throw new Error(`Nominatim HTTP ${res.status}`);
+  const rows = await res.json();
+  const hit = rows[0];
+  if (!hit) return null;
+  const out = { lat: parseFloat(hit.lat), lon: parseFloat(hit.lon), displayName: hit.display_name };
+  if (cp) writeCache(cp, out);
+  await new Promise((r) => setTimeout(r, 1100));
+  return out;
 }
