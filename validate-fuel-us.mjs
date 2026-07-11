@@ -112,6 +112,32 @@ if (master?.records) {
   const noState = master.records.filter((r) => !r.state);
   if (noState.length) fail(`${noState.length} records missing state`);
   else ok("All records have state");
+
+  const VALID_TYPES = new Set(["travel_plaza", "convenience_fuel"]);
+  const badType = master.records.filter((r) => !VALID_TYPES.has(r.type));
+  if (badType.length) fail(`${badType.length} records have invalid type`);
+  else ok("All records have type travel_plaza or convenience_fuel");
+
+  const byBrandType = {};
+  for (const r of master.records) {
+    const key = `${r.brandId}:${r.type}`;
+    byBrandType[key] = (byBrandType[key] || 0) + 1;
+  }
+  console.log("Per-brand type counts:");
+  for (const [k, n] of Object.entries(byBrandType).sort()) {
+    console.log(`  ${k}: ${n}`);
+  }
+  const cefco = master.records.filter((r) => r.brandId === "cefco").length;
+  const loves = master.records.filter((r) => r.brandId === "loves").length;
+  const pfj = master.records.filter((r) =>
+    ["pilot", "flyingj", "pilot_flyingj"].includes(r.brandId)
+  ).length;
+  if (cefco < 50) warn(`CEFCO count ${cefco} looks low (expected ~100+ after full-chain include)`);
+  else ok(`CEFCO count ${cefco}`);
+  if (loves < 640) warn(`Love's count ${loves} looks low (expected ~670 with country stores)`);
+  else ok(`Love's count ${loves}`);
+  if (pfj < 620) warn(`Pilot/Flying J count ${pfj} looks low (expected ~640+ fuel retail)`);
+  else ok(`Pilot/Flying J count ${pfj}`);
 }
 
 if (!fs.existsSync(EMBED_PATH)) {

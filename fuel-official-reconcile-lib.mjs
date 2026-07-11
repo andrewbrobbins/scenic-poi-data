@@ -113,6 +113,11 @@ export function supplementFromOfficial(store, region) {
     officialStreet: store.street || "",
     url: store.url || store.sourceUrl || "",
     region,
+    mapPinUrl: store.mapPinUrl || "",
+    isLargeFormat: store.isLargeFormat,
+    isFullTravelCenter: store.isFullTravelCenter,
+    storefrontBrand: store.storefrontBrand || "",
+    showersCount: store.showersCount,
   };
 }
 

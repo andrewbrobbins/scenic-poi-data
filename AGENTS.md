@@ -19,6 +19,8 @@ Gas stations are split into two layers per country:
 | **Branded** (tier A catalog) | `FUEL_US` | `FUEL_CA` | A small set of high-quality travel/convenience brands — **not** all branded chains |
 | **Generic** | `FUEL_GENERIC_US` | `FUEL_GENERIC_CA` | All other `amenity=fuel` / `shop=fuel` POIs |
 
+Each branded record has a per-store **`type`**: `travel_plaza` or `convenience_fuel`. Brands are not locked to one format (Love's/CEFCO/Pilot can include both). scenic-router layers filter by that flag plus brand toggles — not by brand-group membership alone. Speedco / cardlock / true dealers stay excluded.
+
 **Canada (`fuel-ca-*`) is the reference implementation.** The US pipeline was brought in line with the same extract-cache → filter → master → embed pattern. Do not revert US to a single-pass PBF scan or Overpass ingest unless explicitly asked.
 
 ### Do NOT
@@ -37,6 +39,7 @@ Gas stations are split into two layers per country:
 
   ```bash
   node build-fuel-us-filter-brands.mjs
+  node build-fuel-official-reconcile.mjs --region=us   # when official type/format rules change
   node build-fuel-us-master.mjs
   node build-fuel-us-explorer-embed.mjs
   node build-fuel-explorer-data.mjs

@@ -16,15 +16,68 @@ import {
   writeJson,
 } from "./fuel-us-lib.mjs";
 import { applyInferredState } from "./camping-us-geo-utils.mjs";
-import { filterFullTravelCenterRecords } from "./fuel-travel-center-lib.mjs";
+import { classifyFuelRecords } from "./fuel-type-infer.mjs";
 import { normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const DEDUPE_MI = 0.12;
 const PFJ_MI = 0.25;
+const OFFICIAL_TYPE_MATCH_MI = 0.5;
 
 const SUPPLEMENTS_PATH = path.join(TOOLS_DIR, "fuel-us-supplements.json");
 const OFFICIAL_REJECTS_PATH = path.join(TOOLS_DIR, "fuel-us-official-rejects.json");
 const LEGACY_BUCEES_REJECTS_PATH = path.join(TOOLS_DIR, "fuel-us-bucees-rejects.json");
+const OFFICIAL_CACHE = path.join(INGEST_DIR, "official-cache");
+const OFFICIAL_DIR = path.join(INGEST_DIR, "official");
+
+function loadOfficialStoresForTyping() {
+  const byBrand = new Map();
+  const loves = readJson(path.join(OFFICIAL_CACHE, "loves", "loves-fetch-stores.json"));
+  if (loves?.stores?.length) byBrand.set("loves", loves.stores);
+  const cefco = readJson(path.join(OFFICIAL_CACHE, "cefco", "cefco-official.json"));
+  if (cefco?.stores?.length) byBrand.set("cefco", cefco.stores);
+  const pfj =
+    readJson(path.join(OFFICIAL_DIR, "pfj-official.json")) ||
+    readJson(path.join(OFFICIAL_CACHE, "pfj", "pfj-official.json"));
+  if (pfj?.stores?.length) {
+    byBrand.set("pilot", pfj.stores);
+    byBrand.set("flyingj", pfj.stores);
+    byBrand.set("pilot_flyingj", pfj.stores);
+  }
+  return byBrand;
+}
+
+/** Copy per-store type (and format signals) from official locator onto nearby OSM rows. */
+function stampOfficialTypes(records) {
+  const byBrand = loadOfficialStoresForTyping();
+  if (!byBrand.size) return records;
+  let stamped = 0;
+  for (const rec of records) {
+    const stores = byBrand.get(rec.brandId);
+    if (!stores?.length) continue;
+    let best = null;
+    let bestD = OFFICIAL_TYPE_MATCH_MI;
+    for (const s of stores) {
+      if (s.lat == null || s.lon == null) continue;
+      const d = haversineMi([rec.lat, rec.lon], [s.lat, s.lon]);
+      if (d <= bestD) {
+        bestD = d;
+        best = s;
+      }
+    }
+    if (!best) continue;
+    if (best.type) {
+      rec.type = normalizeFuelType(best.type);
+      stamped++;
+    }
+    if (best.mapPinUrl) rec.mapPinUrl = best.mapPinUrl;
+    if (best.isLargeFormat != null) rec.isLargeFormat = best.isLargeFormat;
+    if (best.isFullTravelCenter != null) rec.isFullTravelCenter = best.isFullTravelCenter;
+    if (best.storefrontBrand) rec.storefrontBrand = best.storefrontBrand;
+    if (best.showersCount != null) rec.showersCount = best.showersCount;
+  }
+  if (stamped) console.log(`Stamped official type on ${stamped} OSM records`);
+  return records;
+}
 
 function osmKey(rec) {
   if (!rec.osm) return rec.id;
@@ -173,16 +226,24 @@ function dedupeRecords(records) {
 function buildQaReport(master, catalog, suppressed) {
   const byBrand = {};
   const byState = {};
+  const byType = {};
+  const byBrandType = {};
   for (const r of master) {
     byBrand[r.brandId] = (byBrand[r.brandId] || 0) + 1;
     const st = r.state || "?";
     byState[st] = (byState[st] || 0) + 1;
+    const t = r.type || "?";
+    byType[t] = (byType[t] || 0) + 1;
+    const key = `${r.brandId}:${t}`;
+    byBrandType[key] = (byBrandType[key] || 0) + 1;
   }
   return {
     generated: new Date().toISOString(),
     recordCount: master.length,
     catalogBrandIds: catalog.brands.map((b) => b.id),
     byBrand,
+    byType,
+    byBrandType,
     byState,
     suppressedCount: suppressed.length,
     suppressedSample: suppressed.slice(0, 30),
@@ -191,11 +252,20 @@ function buildQaReport(master, catalog, suppressed) {
 
 export function buildFuelMaster() {
   const catalog = loadBrandCatalog();
+  const catalogById = Object.fromEntries(catalog.brands.map((b) => [b.id, b]));
   const raw = dropLegacyBuceesPublicList(loadOsmRecords());
   const { records: officialFiltered, rejected: officialRejected } = applyOfficialRejects(raw);
-  const { records: travelCenters, dropped: fuelOnlyDropped } = filterFullTravelCenterRecords(officialFiltered);
-  const supplements = loadSupplementRecords().filter((rec) => filterFullTravelCenterRecords([rec]).records.length);
-  const { master: deduped, suppressed: dedupeSuppressed } = dedupeRecords(travelCenters);
+  stampOfficialTypes(officialFiltered);
+  const { records: classified, dropped: nonFuelDropped } = classifyFuelRecords(
+    officialFiltered,
+    catalogById
+  );
+  const supplementsRaw = loadSupplementRecords();
+  const { records: supplements, dropped: supplementNonFuel } = classifyFuelRecords(
+    supplementsRaw,
+    catalogById
+  );
+  const { master: deduped, suppressed: dedupeSuppressed } = dedupeRecords(classified);
   const { master, suppressed: supplementSuppressed } = mergeSupplements(deduped, supplements);
   const suppressed = [
     ...dedupeSuppressed,
@@ -203,8 +273,11 @@ export function buildFuelMaster() {
     ...officialRejected.map((rec) =>
       suppressedEntry({ id: "official-reconcile" }, rec, "not-on-official-brand-list")
     ),
-    ...fuelOnlyDropped.map((rec) =>
-      suppressedEntry({ id: "travel-center-filter" }, rec, "fuel-only-or-dealer-not-full-travel-center")
+    ...nonFuelDropped.map((rec) =>
+      suppressedEntry({ id: "non-fuel-service" }, rec, "speedco-cardlock-or-dealer-not-fuel-retail")
+    ),
+    ...supplementNonFuel.map((rec) =>
+      suppressedEntry({ id: "non-fuel-service" }, rec, "speedco-cardlock-or-dealer-not-fuel-retail")
     ),
   ];
   for (const rec of master) {

@@ -17,7 +17,7 @@ import {
   writeJson,
 } from "./fuel-ca-lib.mjs";
 import { applyInferredState } from "./camping-ca-geo-utils.mjs";
-import { filterFullTravelCenterRecords } from "./fuel-travel-center-lib.mjs";
+import { classifyFuelRecords } from "./fuel-type-infer.mjs";
 import { normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const tools = path.dirname(fileURLToPath(import.meta.url));
@@ -245,12 +245,19 @@ function buildQaReport(master, catalog, suppressed) {
 
 export function buildFuelMaster() {
   const catalog = loadBrandCatalog();
+  const catalogById = Object.fromEntries(catalog.brands.map((b) => [b.id, b]));
   const raw = loadOsmRecords();
   const { records: officialFiltered, rejected: officialRejected } = applyOfficialRejects(raw);
-  const { records: travelCenters, dropped: fuelOnlyDropped } = filterFullTravelCenterRecords(officialFiltered);
-  const paired = mergeOnrouteHighwayPairs(travelCenters);
+  const { records: classified, dropped: nonFuelDropped } = classifyFuelRecords(
+    officialFiltered,
+    catalogById
+  );
+  const paired = mergeOnrouteHighwayPairs(classified);
   const { master: deduped, suppressed } = dedupeRecords(paired);
-  const supplements = loadSupplementRecords().filter((rec) => filterFullTravelCenterRecords([rec]).records.length);
+  const { records: supplements, dropped: supplementNonFuel } = classifyFuelRecords(
+    loadSupplementRecords(),
+    catalogById
+  );
   const { master, suppressed: suppSuppressed } = mergeSupplements(deduped, supplements);
   suppressed.push(...suppSuppressed);
   suppressed.push(
@@ -259,8 +266,13 @@ export function buildFuelMaster() {
     )
   );
   suppressed.push(
-    ...fuelOnlyDropped.map((rec) =>
-      suppressedEntry({ id: "travel-center-filter" }, rec, "fuel-only-or-dealer-not-full-travel-center")
+    ...nonFuelDropped.map((rec) =>
+      suppressedEntry({ id: "non-fuel-service" }, rec, "speedco-cardlock-or-dealer-not-fuel-retail")
+    )
+  );
+  suppressed.push(
+    ...supplementNonFuel.map((rec) =>
+      suppressedEntry({ id: "non-fuel-service" }, rec, "speedco-cardlock-or-dealer-not-fuel-retail")
     )
   );
   for (const rec of master) {

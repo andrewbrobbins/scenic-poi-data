@@ -30,6 +30,7 @@ import {
 } from "./fuel-official-sources.mjs";
 import { INGEST_DIR as US_INGEST, MASTER_PATH as US_MASTER, readJson, writeJson } from "./fuel-us-lib.mjs";
 import { INGEST_DIR as CA_INGEST, MASTER_PATH as CA_MASTER } from "./fuel-ca-lib.mjs";
+import { normalizeFuelType } from "./fuel-brand-lib.mjs";
 
 const TOOLS = path.dirname(fileURLToPath(import.meta.url));
 
@@ -181,16 +182,21 @@ export async function reconcileOfficialRegion(region, opts = {}) {
                   : brandId === "parkers"
                     ? "Matches parkerskitchen.com location pages (Google Maps daddr coords)."
                     : brandId === "cefco"
-                      ? "Large-format only: CEFCO Kitchen / Food Menu+diesel / Travel Center on official pages; coords via Nominatim geocode."
-                      : brandId === "royal_farms"
-                        ? "Matches storelocator.royalfarms.com/api/stores (fuel-capable sites)."
-                        : brandId === "quickchek"
-                          ? "Matches quickchek.com get_sorted_locations AJAX (fuel sites in NY/NJ grid)."
-                          : undefined,
+                      ? "All CEFCO locations from sitemap + Nominatim; type = travel_plaza (Kitchen/Travel Center) or convenience_fuel."
+                      : brandId === "loves"
+                        ? "All Love's fuel sites from fetch_stores (travel stops + country stores); Speedco dropped. type from map pin."
+                        : brandId === "pfj" || brandId === "pilot" || brandId === "flyingj" || brandId === "pilot_flyingj"
+                          ? "All Pilot/Flying J fuel retail pages; dealers dropped. type = travel_plaza or convenience_fuel from Yext facility."
+                          : brandId === "royal_farms"
+                            ? "Matches storelocator.royalfarms.com/api/stores (fuel-capable sites)."
+                            : brandId === "quickchek"
+                              ? "Matches quickchek.com get_sorted_locations AJAX (fuel sites in NY/NJ grid)."
+                              : undefined,
       matched: result.matched.map((m) => ({
         osmId: m.osm.id,
         official: m.official.label,
         distanceMi: m.distanceMi,
+        type: normalizeFuelType(m.official.type),
       })),
       rejectedSample: result.rejects.slice(0, 8).map((r) => ({
         name: r.record.name,

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-06-19T19:58:49.049Z",
+  "generated": "2026-07-11T16:00:40.718Z",
   "source": "Official brand reconcile — stores on brand locators not matched to OSM",
   "matchRadiusMi": 0.5,
-  "recordCount": 16,
+  "recordCount": 24,
   "records": [
     {
       "id": "FUEL-PILOT_FLYINGJ-MB-winnipeg-https-locations-pilotflyingj-com-ca-mb-w-supp",
@@ -482,6 +482,246 @@
       "officialId": "26361",
       "officialStreet": "",
       "url": "https://www.irvingoil.com/en-CA/location/irving-oil-26361",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-BC-cranbrook-https-locations-pilotflyingj-com-ca-bc-c-supp",
+      "name": "Flying J Cardlock in Cranbrook, BC | 2209 Theatre Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "convenience_fuel",
+      "state": "BC",
+      "lat": 49.53689118126579,
+      "lon": -115.75266536211015,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/bc/cranbrook/2209-theatre-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/bc/cranbrook/2209-theatre-rd",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-BC-dawson-creek-https-locations-pilotflyingj-com-ca-bc-d-supp",
+      "name": "Flying J Cardlock in Dawson Creek, BC | 2647 Darcys Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "BC",
+      "lat": 55.759796052759754,
+      "lon": -120.2379261324787,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/bc/dawson-creek/2647-darcys-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/bc/dawson-creek/2647-darcys-rd",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-BC-new-westminster-https-locations-pilotflyingj-com-ca-bc-n-supp",
+      "name": "Flying J Cardlock in New Westminster, BC | 24 Braid St",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "BC",
+      "lat": 49.22967551383004,
+      "lon": -122.8792144834671,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/bc/new-westminster/24-braid-st",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/bc/new-westminster/24-braid-st",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-BC-prince-george-https-locations-pilotflyingj-com-ca-bc-p-supp",
+      "name": "Flying J Cardlock in Prince George, BC | 4869 Continental Way",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "convenience_fuel",
+      "state": "BC",
+      "lat": 53.87648073934114,
+      "lon": -122.73524571296691,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/bc/prince-george/4869-continental-way",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/bc/prince-george/4869-continental-way",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MB-winnipeg-https-locations-pilotflyingj-com-ca-mb-w-supp",
+      "name": "Flying J Cardlock in Winnipeg, MB | 131 Warman Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "convenience_fuel",
+      "state": "MB",
+      "lat": 49.891468811301,
+      "lon": -97.07366892261506,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/mb/winnipeg/131-warman-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/mb/winnipeg/131-warman-rd",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-MB-winnipeg-https-locations-pilotflyingj-com-ca-mb-w-supp",
+      "name": "Flying J Travel Center in Winnipeg, MB | 1747 Brookside Blvd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "MB",
+      "lat": 49.94156,
+      "lon": -97.2287621,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/mb/winnipeg/1747-brookside-blvd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/mb/winnipeg/1747-brookside-blvd",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-ON-etobicoke-https-locations-pilotflyingj-com-ca-on-e-supp",
+      "name": "Flying J Travel Center in Etobicoke, ON | 1765 Albion Rd",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "ON",
+      "lat": 43.74379548441107,
+      "lon": -79.60819996315993,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd",
+      "region": "ca"
+    },
+    {
+      "id": "FUEL-PILOT_FLYINGJ-SK-yorkton-https-locations-pilotflyingj-com-ca-sk-y-supp",
+      "name": "Flying J Cardlock in Yorkton, SK | 191 York Rd W",
+      "brand": "Pilot / Flying J",
+      "brandId": "pilot_flyingj",
+      "brandTier": "A",
+      "type": "travel_plaza",
+      "state": "SK",
+      "lat": 51.226040975127496,
+      "lon": -102.47554967172421,
+      "highway": "",
+      "fuels": {
+        "gasoline": true,
+        "diesel": false
+      },
+      "sources": [
+        "supplement",
+        "pilotflyingj-official"
+      ],
+      "mapFlags": [
+        "SUPPLEMENT"
+      ],
+      "reviewReasons": [],
+      "needsReview": false,
+      "manualVerified": true,
+      "officialId": "https://locations.pilotflyingj.com/ca/sk/yorkton/191-york-rd-w",
+      "officialStreet": "",
+      "url": "https://locations.pilotflyingj.com/ca/sk/yorkton/191-york-rd-w",
       "region": "ca"
     }
   ]

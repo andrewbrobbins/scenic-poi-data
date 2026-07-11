@@ -14,13 +14,14 @@ import {
   readJson,
   writeJson,
 } from "./fuel-ca-lib.mjs";
+import { inferFuelType } from "./fuel-type-infer.mjs";
 
 function recordFromMatch(extracted, match, state) {
   const tags = extracted.tags || {};
   const osmType = extracted.osm.type;
   const osmId = extracted.osm.id;
   const name = (tags.name || tags["name:fr"] || tags["addr:housename"] || match.displayName).trim();
-  return {
+  const base = {
     id: `FUEL-CA-${match.brandId.toUpperCase()}-${state || "XX"}-${slugify(name)}-${osmId}`,
     name,
     brand: match.displayName,
@@ -50,6 +51,8 @@ function recordFromMatch(extracted, match, state) {
     manualVerified: false,
     url: `https://www.openstreetmap.org/${osmType}/${osmId}`,
   };
+  base.type = inferFuelType(base, { catalogType: match.type });
+  return base;
 }
 
 export function filterFuelCaBrands() {

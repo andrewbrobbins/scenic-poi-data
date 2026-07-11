@@ -165,11 +165,11 @@
       "id": "cefco",
       "displayName": "CEFCO",
       "tier": "A",
-      "type": "travel_plaza",
+      "type": "convenience_fuel",
       "osm": {
         "brand": ["CEFCO", "CEFCO Travel Center"],
         "operator": ["CEFCO", "Fikes"],
-        "nameContains": ["cefco kitchen", "cefco travel", "travel center"]
+        "nameContains": ["cefco", "cefco kitchen", "cefco travel"]
       }
     },
     {

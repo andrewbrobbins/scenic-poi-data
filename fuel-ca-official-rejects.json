@@ -1,7 +1,7 @@
 {
-  "generated": "2026-06-19T19:58:49.049Z",
+  "generated": "2026-07-11T16:00:40.718Z",
   "matchRadiusMi": 0.5,
-  "count": 11,
+  "count": 13,
   "osmKeys": [
     "node:4149832260",
     "node:4943295721",
@@ -13,7 +13,9 @@
     "way:462350806",
     "way:652442089",
     "way:684298297",
-    "way:1429825183"
+    "way:1429825183",
+    "node:4149832260",
+    "way:652442089"
   ],
   "records": [
     {
@@ -322,6 +324,62 @@
           "operator": ""
         },
         "url": "https://www.openstreetmap.org/way/1429825183"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "node:4149832260",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 28.522,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd",
+        "label": "Flying J Travel Center in Etobicoke, ON | 1765 Albion Rd",
+        "city": "etobicoke",
+        "state": "ON"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-ON-flying-j-4149832260",
+        "name": "Flying J",
+        "lat": 43.8292706,
+        "lon": -79.04877570000001,
+        "state": "ON",
+        "osm": {
+          "type": "node",
+          "id": 4149832260
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/node/4149832260"
+      }
+    },
+    {
+      "brandId": "flyingj",
+      "osmKey": "way:652442089",
+      "reason": "no-official-match",
+      "nearestOfficialMi": 12.179,
+      "nearestOfficial": {
+        "officialId": "https://locations.pilotflyingj.com/ca/ab/sherwood-park/50-pembina-rd",
+        "label": "Flying J Travel Center in Sherwood Park, AB | 50 Pembina Rd",
+        "city": "sherwood park",
+        "state": "AB"
+      },
+      "record": {
+        "id": "FUEL-CA-FLYINGJ-AB-flying-j-652442089",
+        "name": "Flying J",
+        "lat": 53.57163030000001,
+        "lon": -113.61365794444447,
+        "state": "AB",
+        "osm": {
+          "type": "way",
+          "id": 652442089
+        },
+        "osmTags": {
+          "brand": "Flying J",
+          "operator": ""
+        },
+        "url": "https://www.openstreetmap.org/way/652442089"
       }
     }
   ]

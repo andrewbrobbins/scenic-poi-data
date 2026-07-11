@@ -1,6 +1,8 @@
 # US fuel stops (tier A brand catalog)
 
-Static list of **17 brand groups** from OpenStreetMap — high-quality travel/convenience stops, not every branded gas station.
+Static list of **17 brand groups** from OpenStreetMap + official locators — high-quality travel and convenience brands, not every branded gas station.
+
+Each record has a per-store **`type`** flag: `travel_plaza` or `convenience_fuel`. Brands are **not** locked to one format (e.g. Love's and CEFCO include both travel stops and c-stores). Speedco / cardlock / true dealer sites are still excluded.
 
 **Buc-ee's** uses `strict` matching (brand/operator/`nameContains` only) because OSM has many false `name=Buc-ee's` pins without a brand tag.
 
@@ -11,7 +13,7 @@ Static list of **17 brand groups** from OpenStreetMap — high-quality travel/co
 | racetrac | RaceTrac |
 | wawa | Wawa |
 | sheetz | Sheetz |
-| loves | Love's |
+| loves | Love's (travel stops + country stores; Speedco excluded) |
 | pilot | Pilot |
 | flyingj | Flying J (merged with Pilot when co-located) |
 | maverik | Maverik (includes Kum & Go — same chain, rebranding complete; **official locator only**) |
@@ -20,10 +22,10 @@ Static list of **17 brand groups** from OpenStreetMap — high-quality travel/co
 | wallys | Wally's travel centers (**official locator only**) |
 | busy_bee | Busy Bee (FL travel centers; **official locator only**) |
 | parkers | Parker's Kitchen (**official locator only**) |
-| cefco | CEFCO large-format / kitchen stores (**official sitemap + geocode**) |
+| cefco | CEFCO (all fuel stores; type from Kitchen / Travel Center amenities; **official sitemap + geocode**) |
 | royal_farms | Royal Farms (**official locator API**) |
 | quickchek | QuickChek (**official locator AJAX**) |
-| terribles | Terrible's large highway formats (OSM strict; official reconcile pending StoreRocket export) |
+| terribles | Terrible's (OSM strict; official reconcile pending StoreRocket export) |
 
 Generic (non-catalog) US fuel is a **separate layer**: `FUEL_GENERIC_US` via `build-fuel-generic-explorer-embed.mjs`.
 

@@ -17,6 +17,7 @@ import {
 } from "./fuel-official-reconcile-lib.mjs";
 import { coordValid, sleep } from "./fuel-us-lib.mjs";
 import { FUEL_TYPE_TRAVEL_PLAZA, normalizeFuelType } from "./fuel-brand-lib.mjs";
+import { inferFuelType } from "./fuel-type-infer.mjs";
 
 const KWIK_TRIP_MAX_STORE_NUM = 1400;
 const QUICKCHEK_SEEDS = [
@@ -351,6 +352,8 @@ export async function fetchCefcoOfficial(cacheDir, opts = {}) {
   const stores = [];
   const errors = [];
   const max = opts.maxPages || urls.length;
+  let travelPlazaCount = 0;
+  let convenienceCount = 0;
 
   for (const url of urls.slice(0, max)) {
     const cp = cachePath(cacheDir, url);
@@ -358,7 +361,6 @@ export async function fetchCefcoOfficial(cacheDir, opts = {}) {
     if (!parsed) {
       try {
         const html = await fetchText(url);
-        if (!isCefcoLargeFormatHtml(html)) continue;
         const h1 = html.match(/<h1[^>]*>([^<]+)/i)?.[1]?.trim() || "";
         const addr = parseCefcoLocationAddress(html);
         if (!addr) {
@@ -371,6 +373,11 @@ export async function fetchCefcoOfficial(cacheDir, opts = {}) {
           errors.push({ url, reason: "geocode-failed" });
           continue;
         }
+        const isLargeFormat = isCefcoLargeFormatHtml(html);
+        const type = inferFuelType(
+          { brandId: "cefco", label: h1 },
+          { catalogType: FUEL_TYPE_TRAVEL_PLAZA, html, isLargeFormat }
+        );
         parsed = {
           officialId: url.split("/").filter(Boolean).pop(),
           label: h1,
@@ -381,6 +388,8 @@ export async function fetchCefcoOfficial(cacheDir, opts = {}) {
           lat: geo.lat,
           lon: geo.lon,
           sourceUrl: url,
+          isLargeFormat,
+          type,
         };
         writeCache(cp, parsed);
         await sleep(opts.delayMs ?? 20);
@@ -389,11 +398,19 @@ export async function fetchCefcoOfficial(cacheDir, opts = {}) {
         continue;
       }
     }
+    const type =
+      parsed.type ||
+      inferFuelType(parsed, {
+        catalogType: FUEL_TYPE_TRAVEL_PLAZA,
+        isLargeFormat: parsed.isLargeFormat,
+      });
+    if (type === "convenience_fuel") convenienceCount++;
+    else travelPlazaCount++;
     stores.push(
       storeRow({
         ...parsed,
         brand: "CEFCO",
-        type: FUEL_TYPE_TRAVEL_PLAZA,
+        type,
         url: parsed.sourceUrl,
       })
     );
@@ -401,13 +418,15 @@ export async function fetchCefcoOfficial(cacheDir, opts = {}) {
 
   const payload = {
     brandId: "cefco",
-    source: "https://cefcostores.com/location-sitemap.xml (large-format filter + Nominatim)",
+    source: "https://cefcostores.com/location-sitemap.xml (all locations + Nominatim)",
     sourceType: "sitemap-pages-geocoded",
     sourceTag: "cefco-official",
     storeCount: stores.length,
     meta: {
       sitemapUrls: urls.length,
-      filter: "CEFCO Kitchen, Food Menu+diesel, or Travel Center in page",
+      filter: "all fuel locations; type from Kitchen/Travel Center amenities",
+      travelPlazaCount,
+      convenienceCount,
       errors: errors.length,
     },
     errors: errors.slice(0, 20),

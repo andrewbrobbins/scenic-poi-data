@@ -1,222 +1,9 @@
 {
-  "generated": "2026-06-19T19:58:49.050Z",
+  "generated": "2026-07-11T16:00:40.719Z",
   "region": "ca",
   "matchRadiusMi": 0.5,
   "osmSource": "/home/andrew/Cursor-Projects/scenic-poi-data/fuel-ca-ingest/01-osm/fuel-merged.json",
   "brands": [
-    {
-      "brandId": "pfj",
-      "source": "https://locations.pilotflyingj.com/sitemap.xml",
-      "sourceType": "yext-sitemap",
-      "officialCount": 30,
-      "osmCount": 39,
-      "matchedCount": 28,
-      "rejectedCount": 11,
-      "supplementCount": 2,
-      "matched": [
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5056486474",
-          "official": "Flying J Travel Center in Sault Ste. Marie, ON | 996 Great Northern Rd",
-          "distanceMi": 0.003
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-brooks-2393036695",
-          "official": "Flying J Travel Center in Brooks, AB | 1260 Cassils Rd E",
-          "distanceMi": 0.008
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-1415747871",
-          "official": "Flying J Travel Center in Monte Creek, BC | 1255 Dallas Dr",
-          "distanceMi": 0.011
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-9225535870",
-          "official": "Flying J Travel Center in Mississauga, ON | 1400 Britannia Rd E",
-          "distanceMi": 0.013
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-486119828",
-          "official": "Flying J Travel Center in Hope, BC | 63100 Flood Hope Rd",
-          "distanceMi": 0.013
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230871702",
-          "official": "Flying J Travel Center in Calgary, AB | 4216 72 Ave SE",
-          "distanceMi": 0.014
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230872828",
-          "official": "Flying J Travel Center in Red Deer, AB | 6607 67 St",
-          "distanceMi": 0.017
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-1105727777",
-          "official": "Flying J Travel Center in Annacis Island Delta, BC | 1291 Cliveden Ave",
-          "distanceMi": 0.02
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-10271970972",
-          "official": "Flying J Travel Center in Lancaster, ON | 20382 Old Hwy 2",
-          "distanceMi": 0.026
-        },
-        {
-          "osmId": "FUEL-CA-PILOT-ON-pilot-4351271365",
-          "official": "Flying J Travel Center in Shuniah, ON | 3200 Hwy 11-17",
-          "distanceMi": 0.026
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-6403402956",
-          "official": "Flying J Travel Center in Medicine Hat, AB | 2194 Saamis Dr NW",
-          "distanceMi": 0.026
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-225361942",
-          "official": "Flying J Travel Center in Kapuskasing, ON | 410 Government Rd E",
-          "distanceMi": 0.026
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-NU-flying-j-1449137107",
-          "official": "Flying J Travel Center in Saskatoon, SK | 3850 Idylwyld Dr N",
-          "distanceMi": 0.029
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
-          "official": "Flying J Travel Center in Tilbury, ON | 19325 Essex County Rd 42",
-          "distanceMi": 0.031
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-129468528",
-          "official": "Flying J Travel Center in London, ON | 3700 Highbury Ave S",
-          "distanceMi": 0.031
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1314309069",
-          "official": "Flying J Travel Center in Moose Jaw, SK | 370 N Service Rd",
-          "distanceMi": 0.032
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1320729313",
-          "official": "Flying J Travel Center in Balgonie, SK | 1800 N Service Rd",
-          "distanceMi": 0.035
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1311872211",
-          "official": "Flying J Travel Center in Nanton, AB | 2810 21 Ave",
-          "distanceMi": 0.038
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-4558645789",
-          "official": "Flying J Travel Center in Calgary, AB | 11511 40 St SE",
-          "distanceMi": 0.04
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320730430",
-          "official": "Flying J Travel Center in Headingley, MB | 4100 Portage Ave",
-          "distanceMi": 0.043
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-5235136200",
-          "official": "Flying J Travel Center in Whitecourt, AB | 5329 Govenlock Mountain Rd",
-          "distanceMi": 0.043
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5362090346",
-          "official": "Flying J Travel Center in Ayr, ON | 2492 Cedar Creek Rd",
-          "distanceMi": 0.049
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-438542149",
-          "official": "Flying J Travel Center in Napanee, ON | 628 County Rd 41",
-          "distanceMi": 0.054
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
-          "official": "Flying J Travel Center in Sherwood Park, AB | 50 Pembina Rd",
-          "distanceMi": 0.057
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-1450392033",
-          "official": "Flying J Travel Center in Nisku, AB | 302 20 Ave",
-          "distanceMi": 0.06
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-539437977",
-          "official": "Flying J Travel Center in Portage La Prairie, MB | Highway 1 East",
-          "distanceMi": 0.068
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358971488",
-          "official": "Flying J Travel Center in Fort Erie, ON | 1637 Pettit Rd",
-          "distanceMi": 0.092
-        },
-        {
-          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320738767",
-          "official": "Flying J Travel Center in Ste Agathe, MB | 354 Voyageur Rd",
-          "distanceMi": 0.117
-        }
-      ],
-      "rejectedSample": [
-        {
-          "name": "Flying J",
-          "state": "ON",
-          "nearestOfficialMi": 28.522
-        },
-        {
-          "name": "Flying J Cardlock",
-          "state": "AB",
-          "nearestOfficialMi": 63.165
-        },
-        {
-          "name": "Flying J Cardlock",
-          "state": "AB",
-          "nearestOfficialMi": 47.036
-        },
-        {
-          "name": "Flying J Cardlock",
-          "state": "AB",
-          "nearestOfficialMi": 136.479
-        },
-        {
-          "name": "Flying J Truckstop",
-          "state": "SK",
-          "nearestOfficialMi": 12.064
-        },
-        {
-          "name": "Flying J",
-          "state": "AB",
-          "nearestOfficialMi": 6.001
-        },
-        {
-          "name": "Flying J",
-          "state": "BC",
-          "nearestOfficialMi": 32.88
-        },
-        {
-          "name": "Flying J Cardlock",
-          "state": "ON",
-          "nearestOfficialMi": 15.712
-        }
-      ],
-      "supplementSample": [
-        {
-          "name": "Flying J Travel Center in Winnipeg, MB | 1747 Brookside Blvd",
-          "state": "MB",
-          "officialId": "https://locations.pilotflyingj.com/ca/mb/winnipeg/1747-brookside-blvd"
-        },
-        {
-          "name": "Flying J Travel Center in Etobicoke, ON | 1765 Albion Rd",
-          "state": "ON",
-          "officialId": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd"
-        }
-      ],
-      "meta": {
-        "byBrand": {
-          "pilot_flyingj": 30
-        },
-        "pagesFetched": 55,
-        "errors": []
-      }
-    },
     {
       "brandId": "onroute",
       "source": "https://www.onroute.ca/locations/",
@@ -395,6 +182,265 @@
           "officialId": "26346"
         }
       ]
+    },
+    {
+      "brandId": "pfj",
+      "source": "https://locations.pilotflyingj.com/sitemap.xml",
+      "sourceType": "yext-sitemap",
+      "officialCount": 45,
+      "osmCount": 39,
+      "matchedCount": 37,
+      "rejectedCount": 2,
+      "supplementCount": 8,
+      "reconcileNote": "All Pilot/Flying J fuel retail pages; dealers dropped. type = travel_plaza or convenience_fuel from Yext facility.",
+      "matched": [
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5056486474",
+          "official": "Flying J Travel Center in Sault Ste. Marie, ON | 996 Great Northern Rd",
+          "distanceMi": 0.003
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-brooks-2393036695",
+          "official": "Flying J Travel Center in Brooks, AB | 1260 Cassils Rd E",
+          "distanceMi": 0.008
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-1415747871",
+          "official": "Flying J Travel Center in Monte Creek, BC | 1255 Dallas Dr",
+          "distanceMi": 0.011
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-9225535870",
+          "official": "Flying J Travel Center in Mississauga, ON | 1400 Britannia Rd E",
+          "distanceMi": 0.013
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-486119828",
+          "official": "Flying J Travel Center in Hope, BC | 63100 Flood Hope Rd",
+          "distanceMi": 0.013
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-1429825183",
+          "official": "Flying J Cardlock in Creston, BC | 1411 Northwest Blvd",
+          "distanceMi": 0.014
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230871702",
+          "official": "Flying J Travel Center in Calgary, AB | 4216 72 Ave SE",
+          "distanceMi": 0.014
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-230872828",
+          "official": "Flying J Travel Center in Red Deer, AB | 6607 67 St",
+          "distanceMi": 0.017
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-684298297",
+          "official": "Flying J Cardlock in Airdrie, AB | 85 East Lake Crescent NE",
+          "distanceMi": 0.018
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-387943961",
+          "official": "Flying J Cardlock in Abbotsford, BC | 929 Coutts Way",
+          "distanceMi": 0.019
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-BC-flying-j-travel-center-1105727777",
+          "official": "Flying J Travel Center in Annacis Island Delta, BC | 1291 Cliveden Ave",
+          "distanceMi": 0.02
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-10271970972",
+          "official": "Flying J Travel Center in Lancaster, ON | 20382 Old Hwy 2",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-PILOT-ON-pilot-4351271365",
+          "official": "Flying J Travel Center in Shuniah, ON | 3200 Hwy 11-17",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-6403402956",
+          "official": "Flying J Travel Center in Medicine Hat, AB | 2194 Saamis Dr NW",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-225361942",
+          "official": "Flying J Travel Center in Kapuskasing, ON | 410 Government Rd E",
+          "distanceMi": 0.026
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-NU-flying-j-1449137107",
+          "official": "Flying J Travel Center in Saskatoon, SK | 3850 Idylwyld Dr N",
+          "distanceMi": 0.029
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5124774106",
+          "official": "Flying J Travel Center in Tilbury, ON | 19325 Essex County Rd 42",
+          "distanceMi": 0.031
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-129468528",
+          "official": "Flying J Travel Center in London, ON | 3700 Highbury Ave S",
+          "distanceMi": 0.031
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1314309069",
+          "official": "Flying J Travel Center in Moose Jaw, SK | 370 N Service Rd",
+          "distanceMi": 0.032
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-truckstop-12167171501",
+          "official": "Flying J Cardlock in Regina, SK | 1511 Ross Ave E",
+          "distanceMi": 0.033
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-12452467256",
+          "official": "Flying J Cardlock in Calgary, AB | 2525 23 St NE",
+          "distanceMi": 0.034
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-SK-flying-j-travel-center-1320729313",
+          "official": "Flying J Travel Center in Balgonie, SK | 1800 N Service Rd",
+          "distanceMi": 0.035
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-1311872211",
+          "official": "Flying J Travel Center in Nanton, AB | 2810 21 Ave",
+          "distanceMi": 0.038
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-4558645789",
+          "official": "Flying J Travel Center in Calgary, AB | 11511 40 St SE",
+          "distanceMi": 0.04
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-5277779606",
+          "official": "Flying J Cardlock in Lloydminster, AB | 5109 63 Ave",
+          "distanceMi": 0.04
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320730430",
+          "official": "Flying J Travel Center in Headingley, MB | 4100 Portage Ave",
+          "distanceMi": 0.043
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-5235136200",
+          "official": "Flying J Travel Center in Whitecourt, AB | 5329 Govenlock Mountain Rd",
+          "distanceMi": 0.043
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-5362090346",
+          "official": "Flying J Travel Center in Ayr, ON | 2492 Cedar Creek Rd",
+          "distanceMi": 0.049
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-438542149",
+          "official": "Flying J Travel Center in Napanee, ON | 628 County Rd 41",
+          "distanceMi": 0.054
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-travel-center-162145596",
+          "official": "Flying J Travel Center in Sherwood Park, AB | 50 Pembina Rd",
+          "distanceMi": 0.057
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-1450392033",
+          "official": "Flying J Travel Center in Nisku, AB | 302 20 Ave",
+          "distanceMi": 0.06
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-4943295721",
+          "official": "Flying J Cardlock in Lethbridge, AB | 1005 43 St S",
+          "distanceMi": 0.06
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-539437977",
+          "official": "Flying J Travel Center in Portage La Prairie, MB | Highway 1 East",
+          "distanceMi": 0.068
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-cardlock-462350806",
+          "official": "Flying J Cardlock in Brantford, ON | 11 Sinclair Blvd",
+          "distanceMi": 0.082
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-ON-flying-j-travel-center-358971488",
+          "official": "Flying J Travel Center in Fort Erie, ON | 1637 Pettit Rd",
+          "distanceMi": 0.092
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-MB-flying-j-travel-center-1320738767",
+          "official": "Flying J Travel Center in Ste Agathe, MB | 354 Voyageur Rd",
+          "distanceMi": 0.117
+        },
+        {
+          "osmId": "FUEL-CA-FLYINGJ-AB-flying-j-cardlock-5238127585",
+          "official": "Flying J Cardlock in Edson Motco, AB | 2520 2 Ave",
+          "distanceMi": 0.193
+        }
+      ],
+      "rejectedSample": [
+        {
+          "name": "Flying J",
+          "state": "ON",
+          "nearestOfficialMi": 28.522
+        },
+        {
+          "name": "Flying J",
+          "state": "AB",
+          "nearestOfficialMi": 12.179
+        }
+      ],
+      "supplementSample": [
+        {
+          "name": "Flying J Cardlock in Cranbrook, BC | 2209 Theatre Rd",
+          "state": "BC",
+          "officialId": "https://locations.pilotflyingj.com/ca/bc/cranbrook/2209-theatre-rd"
+        },
+        {
+          "name": "Flying J Cardlock in Dawson Creek, BC | 2647 Darcys Rd",
+          "state": "BC",
+          "officialId": "https://locations.pilotflyingj.com/ca/bc/dawson-creek/2647-darcys-rd"
+        },
+        {
+          "name": "Flying J Cardlock in New Westminster, BC | 24 Braid St",
+          "state": "BC",
+          "officialId": "https://locations.pilotflyingj.com/ca/bc/new-westminster/24-braid-st"
+        },
+        {
+          "name": "Flying J Cardlock in Prince George, BC | 4869 Continental Way",
+          "state": "BC",
+          "officialId": "https://locations.pilotflyingj.com/ca/bc/prince-george/4869-continental-way"
+        },
+        {
+          "name": "Flying J Cardlock in Winnipeg, MB | 131 Warman Rd",
+          "state": "MB",
+          "officialId": "https://locations.pilotflyingj.com/ca/mb/winnipeg/131-warman-rd"
+        },
+        {
+          "name": "Flying J Travel Center in Winnipeg, MB | 1747 Brookside Blvd",
+          "state": "MB",
+          "officialId": "https://locations.pilotflyingj.com/ca/mb/winnipeg/1747-brookside-blvd"
+        },
+        {
+          "name": "Flying J Travel Center in Etobicoke, ON | 1765 Albion Rd",
+          "state": "ON",
+          "officialId": "https://locations.pilotflyingj.com/ca/on/etobicoke/1765-albion-rd"
+        },
+        {
+          "name": "Flying J Cardlock in Yorkton, SK | 191 York Rd W",
+          "state": "SK",
+          "officialId": "https://locations.pilotflyingj.com/ca/sk/yorkton/191-york-rd-w"
+        }
+      ],
+      "meta": {
+        "byBrand": {
+          "pilot_flyingj": 45
+        },
+        "pagesFetched": 55,
+        "errors": []
+      }
     }
   ],
   "skipped": [
@@ -410,8 +456,8 @@
     }
   ],
   "totals": {
-    "rejected": 11,
-    "supplements": 16,
-    "matched": 47
+    "rejected": 13,
+    "supplements": 24,
+    "matched": 56
   }
 }

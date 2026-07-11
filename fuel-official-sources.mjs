@@ -20,9 +20,10 @@ import {
 } from "./fuel-official-reconcile-lib.mjs";
 import { coordValid, sleep } from "./fuel-us-lib.mjs";
 import { FUEL_TYPE_TRAVEL_PLAZA, normalizeFuelType } from "./fuel-brand-lib.mjs";
+import { inferFuelType } from "./fuel-type-infer.mjs";
 import {
-  isLovesTravelStopPin,
-  isPilotOfficialFullTravelCenter,
+  isLovesNonFuelPin,
+  isPilotDealerOnly,
   parsePilotYextFacility,
 } from "./fuel-travel-center-lib.mjs";
 import {
@@ -165,7 +166,9 @@ async function parsePilotPages(urls, cacheDir, opts = {}) {
   const slice = urls.slice(0, max);
   const stores = [];
   const errors = [];
-  let skippedFuelOnlyOrDealer = 0;
+  let skippedDealer = 0;
+  let convenienceCount = 0;
+  let travelPlazaCount = 0;
 
   for (const url of slice) {
     const cp = cachePath(cacheDir, url);
@@ -193,6 +196,8 @@ async function parsePilotPages(urls, cacheDir, opts = {}) {
           storefrontBrand: facility.storefrontBrand,
           showersCount: facility.showersCount,
           isFullTravelCenter: facility.isFullTravelCenter,
+          isDealer: facility.isDealer,
+          isFuelOnly: facility.isFuelOnly,
         };
         writeCache(cp, parsed);
         await sleep(opts.delayMs ?? 40);
@@ -201,13 +206,17 @@ async function parsePilotPages(urls, cacheDir, opts = {}) {
         continue;
       }
     }
-    if (!isPilotOfficialFullTravelCenter(parsed)) {
-      skippedFuelOnlyOrDealer++;
+    if (isPilotDealerOnly(parsed)) {
+      skippedDealer++;
       continue;
     }
+    const type = inferFuelType(parsed, { catalogType: FUEL_TYPE_TRAVEL_PLAZA, parsedPilot: parsed });
+    if (type === "convenience_fuel") convenienceCount++;
+    else travelPlazaCount++;
     stores.push(
       storeRow({
         ...parsed,
+        type,
         brand:
           parsed.brandId === "flyingj"
             ? "Flying J"
@@ -217,7 +226,15 @@ async function parsePilotPages(urls, cacheDir, opts = {}) {
       })
     );
   }
-  return { stores, errors, fetched: slice.length, skippedFuelOnlyOrDealer };
+  return {
+    stores,
+    errors,
+    fetched: slice.length,
+    skippedDealer,
+    skippedFuelOnlyOrDealer: skippedDealer,
+    convenienceCount,
+    travelPlazaCount,
+  };
 }
 
 export async function fetchPilotFlyingJOfficial(region, cacheDir, opts = {}) {
@@ -229,7 +246,15 @@ export async function fetchPilotFlyingJOfficial(region, cacheDir, opts = {}) {
     .filter((u) => u.startsWith(prefix))
     .filter((u) => u.split("/").length >= 7);
   fs.mkdirSync(cacheDir, { recursive: true });
-  const { stores, errors, fetched, skippedFuelOnlyOrDealer } = await parsePilotPages(urls, cacheDir, opts);
+  const {
+    stores,
+    errors,
+    fetched,
+    skippedDealer,
+    skippedFuelOnlyOrDealer,
+    convenienceCount,
+    travelPlazaCount,
+  } = await parsePilotPages(urls, cacheDir, opts);
   const byBrand = {};
   for (const s of stores) byBrand[s.brandId] = (byBrand[s.brandId] || 0) + 1;
   return {
@@ -242,7 +267,9 @@ export async function fetchPilotFlyingJOfficial(region, cacheDir, opts = {}) {
     byBrand,
     errors: errors.slice(0, 20),
     pagesFetched: fetched,
+    skippedDealer,
     skippedFuelOnlyOrDealer,
+    meta: { convenienceCount, travelPlazaCount, skippedDealer },
     stores,
   };
 }
@@ -347,15 +374,23 @@ export async function fetchLovesOfficial(cacheDir) {
       const raw = data.stores || [];
       const byPin = {};
       const stores = [];
-      let skippedNonTravelStop = 0;
+      let skippedNonFuel = 0;
+      let convenienceCount = 0;
+      let travelPlazaCount = 0;
       for (const s of raw) {
         if (!coordValid(s.latitude, s.longitude)) continue;
         const pin = (s.mapPinUrl || "").split("/").pop()?.toLowerCase() || "unknown";
         byPin[pin] = (byPin[pin] || 0) + 1;
-        if (!isLovesTravelStopPin(s.mapPinUrl)) {
-          skippedNonTravelStop++;
+        if (isLovesNonFuelPin(s.mapPinUrl)) {
+          skippedNonFuel++;
           continue;
         }
+        const type = inferFuelType(
+          { brandId: "loves" },
+          { catalogType: FUEL_TYPE_TRAVEL_PLAZA, mapPinUrl: s.mapPinUrl }
+        );
+        if (type === "convenience_fuel") convenienceCount++;
+        else travelPlazaCount++;
         stores.push(
           storeRow({
             officialId: String(s.number),
@@ -367,6 +402,8 @@ export async function fetchLovesOfficial(cacheDir) {
             street: s.address1 || "",
             lat: s.latitude,
             lon: s.longitude,
+            type,
+            mapPinUrl: s.mapPinUrl || "",
             sourceUrl: "https://www.loves.com/location-and-fuel-price-search",
             url: s.storeUrl ? `https://${String(s.storeUrl).replace(/^https?:\/\//, "")}` : "",
           })
@@ -378,7 +415,14 @@ export async function fetchLovesOfficial(cacheDir) {
         sourceType: "locator-api",
         sourceTag: "loves-official",
         storeCount: stores.length,
-        meta: { apiStoreCount: raw.length, byMapPin: byPin, skippedNonTravelStop },
+        meta: {
+          apiStoreCount: raw.length,
+          byMapPin: byPin,
+          skippedNonFuel,
+          skippedNonTravelStop: skippedNonFuel,
+          convenienceCount,
+          travelPlazaCount,
+        },
         stores,
       };
       if (cacheFile) {

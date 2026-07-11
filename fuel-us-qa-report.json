@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-01T00:46:41.386Z",
-  "recordCount": 6329,
+  "generated": "2026-07-11T16:02:38.707Z",
+  "recordCount": 6475,
   "catalogBrandIds": [
     "bucees",
     "quiktrip",
@@ -23,24 +23,52 @@
   ],
   "byBrand": {
     "sheetz": 680,
-    "pilot": 391,
+    "pilot": 390,
     "maverik": 771,
     "quiktrip": 993,
     "wawa": 744,
     "kwiktrip": 688,
-    "flyingj": 188,
-    "loves": 615,
+    "flyingj": 187,
+    "loves": 674,
     "racetrac": 465,
     "kwikstar": 140,
     "royal_farms": 292,
+    "cefco": 94,
     "parkers": 102,
     "quickchek": 108,
     "terribles": 11,
     "bucees": 56,
-    "cefco": 7,
     "busy_bee": 8,
-    "pilot_flyingj": 67,
+    "pilot_flyingj": 69,
     "wallys": 3
+  },
+  "byType": {
+    "convenience_fuel": 5131,
+    "travel_plaza": 1344
+  },
+  "byBrandType": {
+    "sheetz:convenience_fuel": 680,
+    "pilot:travel_plaza": 390,
+    "maverik:convenience_fuel": 771,
+    "quiktrip:convenience_fuel": 993,
+    "wawa:convenience_fuel": 744,
+    "kwiktrip:convenience_fuel": 688,
+    "flyingj:travel_plaza": 187,
+    "loves:travel_plaza": 614,
+    "racetrac:convenience_fuel": 465,
+    "kwikstar:convenience_fuel": 140,
+    "royal_farms:convenience_fuel": 292,
+    "loves:convenience_fuel": 60,
+    "cefco:convenience_fuel": 87,
+    "parkers:convenience_fuel": 102,
+    "quickchek:convenience_fuel": 108,
+    "terribles:travel_plaza": 11,
+    "bucees:travel_plaza": 56,
+    "cefco:travel_plaza": 7,
+    "busy_bee:travel_plaza": 8,
+    "pilot_flyingj:travel_plaza": 68,
+    "wallys:travel_plaza": 3,
+    "pilot_flyingj:convenience_fuel": 1
   },
   "byState": {
     "NY": 127,
@@ -48,10 +76,10 @@
     "AZ": 224,
     "UT": 198,
     "NC": 237,
-    "NJ": 404,
+    "NJ": 405,
     "MI": 384,
     "MO": 146,
-    "CA": 111,
+    "CA": 109,
     "MN": 357,
     "DE": 92,
     "WV": 9,
@@ -60,15 +88,15 @@
     "PA": 257,
     "GA": 424,
     "OH": 172,
-    "KS": 123,
-    "TX": 487,
-    "AL": 85,
+    "KS": 133,
+    "TX": 554,
+    "AL": 95,
     "IN": 57,
-    "CO": 148,
+    "CO": 155,
     "MD": 395,
     "TN": 47,
     "AR": 101,
-    "OK": 180,
+    "OK": 232,
     "NM": 69,
     "KY": 42,
     "IL": 218,
@@ -76,7 +104,7 @@
     "WA": 22,
     "LA": 86,
     "NE": 16,
-    "MT": 7,
+    "MT": 8,
     "ID": 87,
     "WY": 41,
     "SD": 8,
@@ -88,7 +116,7 @@
     "ND": 12,
     "MA": 3
   },
-  "suppressedCount": 2955,
+  "suppressedCount": 2829,
   "suppressedSample": [
     {
       "kept": "FUEL-SHEETZ-MD-sheetz-2207525388",
@@ -735,6 +763,29 @@
       }
     },
     {
+      "kept": "FUEL-LOVES-AZ-love-s-188242060",
+      "dropped": "FUEL-LOVES-AZ-love-s-travel-stop-223008699",
+      "reason": "same-brand-near",
+      "droppedRecord": {
+        "id": "FUEL-LOVES-AZ-love-s-travel-stop-223008699",
+        "lat": 31.962460371428573,
+        "lon": -110.34482972857145,
+        "name": "Love's Travel Stop",
+        "brandId": "loves",
+        "brand": "Love's",
+        "state": "AZ",
+        "osmTags": {
+          "brand": "Love's",
+          "operator": ""
+        },
+        "osm": {
+          "type": "way",
+          "id": 223008699
+        },
+        "url": "https://www.openstreetmap.org/way/223008699"
+      }
+    },
+    {
       "kept": "FUEL-WAWA-NJ-wawa-fuel-227604635",
       "dropped": "FUEL-WAWA-NJ-wawa-fuel-227604637",
       "reason": "same-brand-near",
@@ -755,29 +806,6 @@
           "id": 227604637
         },
         "url": "https://www.openstreetmap.org/way/227604637"
-      }
-    },
-    {
-      "kept": "FUEL-WAWA-FL-wawa-6697532088",
-      "dropped": "FUEL-WAWA-FL-wawa-228264523",
-      "reason": "same-brand-near",
-      "droppedRecord": {
-        "id": "FUEL-WAWA-FL-wawa-228264523",
-        "lat": 27.781234704761914,
-        "lon": -82.71537953809525,
-        "name": "Wawa",
-        "brandId": "wawa",
-        "brand": "Wawa",
-        "state": "FL",
-        "osmTags": {
-          "brand": "Wawa",
-          "operator": ""
-        },
-        "osm": {
-          "type": "way",
-          "id": 228264523
-        },
-        "url": "https://www.openstreetmap.org/way/228264523"
       }
     }
   ]
